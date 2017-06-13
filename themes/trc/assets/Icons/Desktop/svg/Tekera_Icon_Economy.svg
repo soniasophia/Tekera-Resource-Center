@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="165px" height="165px" viewBox="0 0 165 165" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Economy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="165" height="165"></rect>
+    </defs>
+    <g id="DESKTOP" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Projects-Overview-Desktop-" transform="translate(-211.000000, -2539.000000)">
+            <g id="PROGRAMS-SECTION" transform="translate(174.000000, 1331.000000)">
+                <g id="ECONOMIC-DEVELOPMENT" transform="translate(4.000000, 1208.000000)">
+                    <g id="Economy" transform="translate(33.000000, 0.000000)">
+                        <g id="Rectangle-8">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <rect stroke="#EE9825" stroke-width="4" x="2" y="2" width="161" height="161"></rect>
+                        </g>
+                        <polygon id="Fill-2" fill="#EE9825" points="58 126 45 126 45 99.1571031 58 84"></polygon>
+                        <polygon id="Stroke-3" stroke="#FFFFFF" points="58 126 45 126 45 99.1571031 58 84"></polygon>
+                        <polygon id="Fill-4" fill="#EE9825" points="106 126 93 126 93 75.9780227 106 61"></polygon>
+                        <polygon id="Stroke-5" stroke="#FFFFFF" points="106 126 93 126 93 75.9780227 106 61"></polygon>
+                        <polygon id="Fill-6" fill="#EE9825" points="129 24 97.6528877 29.7539364 111.135453 42.0379728 106.186837 37.6188345 82.3008448 64.8141827 76.6386876 59.7593859 76.6454033 59.7509218 66.7145925 50.8838671 34 88.1329453 43.9308108 97 67.8335925 69.7843378 73.4848367 74.8526772 73.4714053 74.8679127 80.6345168 81.2642789 80.6353563 81.2642789 83.4022162 83.7349674 116.073157 46.5366742 125.994733 55.5763977"></polygon>
+                        <polygon id="Fill-7" fill="#EE9825" points="67.8926568 72 61 79.97988 61 82.0895714 61 82.2953949 61 126 74 126 74 82.157898 74 81.9503874 74 77.7124469"></polygon>
+                        <polygon id="Stroke-8" stroke="#FFFFFF" points="67.8926568 72 61 79.97988 61 82.0895714 61 82.2953949 61 126 74 126 74 82.157898 74 81.9503874 74 77.7124469"></polygon>
+                        <polygon id="Fill-9" fill="#EE9825" points="83.6092191 86.1099884 83.5841112 86.1099884 77 80.6127902 77 87.0371965 77.0184124 87.0363604 77.0184124 126 90 126 90 86.5639776 90 86.0598239 90 79"></polygon>
+                        <polygon id="Stroke-10" stroke="#FFFFFF" points="83.6092191 86.1099884 83.5841112 86.1099884 77 80.6127902 77 87.0371965 77.0184124 87.0363604 77.0184124 126 90 126 90 86.5639776 90 86.0598239 90 79"></polygon>
+                        <polygon id="Fill-11" fill="#EE9825" points="116.145729 50 109.028476 58.8653131 109 58.8653131 109 127 121.990787 127 121.990787 58.7489771 122 55.1569968"></polygon>
+                        <polygon id="Stroke-12" stroke="#FFFFFF" points="116.145729 50 109.028476 58.8653131 109 58.8653131 109 127 121.990787 127 121.990787 58.7489771 122 55.1569968"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

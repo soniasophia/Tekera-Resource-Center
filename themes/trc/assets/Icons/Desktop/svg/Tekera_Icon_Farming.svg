@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="165px" height="165px" viewBox="0 0 165 165" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 14</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="165" height="165"></rect>
+    </defs>
+    <g id="DESKTOP" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Projects-Overview-Desktop-" transform="translate(-206.000000, -1661.000000)">
+            <g id="PROGRAMS-SECTION" transform="translate(174.000000, 1331.000000)">
+                <g id="CO-OP-FARM-ICON" transform="translate(4.000000, 330.000000)">
+                    <g id="Page-1" transform="translate(28.000000, 0.000000)">
+                        <g id="Group-14">
+                            <g id="Rectangle-8">
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                <rect stroke="#EE9825" stroke-width="4" x="2" y="2" width="161" height="161"></rect>
+                            </g>
+                            <g id="Group-5" transform="translate(79.072072, 32.615385)">
+                                <path d="M1.81685519,102.667569 C41.0499183,94.5248 66.9480264,0.750030769 66.9480264,0.750030769 C66.9480264,0.750030769 -12.2266583,56.8694154 1.81685519,102.667569" id="Fill-2" fill="#EE9825"></path>
+                                <path d="M1.81685519,102.667569 C41.0499183,94.5248 66.9480264,0.750030769 66.9480264,0.750030769 C66.9480264,0.750030769 -12.2266583,56.8694154 1.81685519,102.667569" id="Stroke-4" stroke="#FFFFFF" stroke-width="4"></path>
+                            </g>
+                            <path d="M100.246396,50.2523077 C100.246396,61.0572308 91.8807201,69.8166154 81.5615309,69.8166154 C71.2423417,69.8166154 62.876666,61.0572308 62.876666,50.2523077 C62.876666,39.4473846 71.2423417,30.688 81.5615309,30.688 C91.8807201,30.688 100.246396,39.4473846 100.246396,50.2523077" id="Fill-6" fill="#EE9825"></path>
+                            <path d="M100.246396,51.2523077 C100.246396,62.0572308 91.8807201,70.8166154 81.5615309,70.8166154 C71.2423417,70.8166154 62.876666,62.0572308 62.876666,51.2523077 C62.876666,40.4473846 71.2423417,31.688 81.5615309,31.688 C91.8807201,31.688 100.246396,40.4473846 100.246396,51.2523077 Z" id="Stroke-8" stroke="#FFFFFF" stroke-width="4"></path>
+                            <g id="Group-13" transform="translate(17.000000, 32.615385)">
+                                <path d="M65.0325759,102.644185 C25.9072606,94.5235692 0.123927261,0.773415385 0.123927261,0.773415385 C0.123927261,0.773415385 79.0620354,56.8435692 65.0325759,102.644185" id="Fill-10" fill="#EE9825"></path>
+                                <path d="M65.0325759,102.644185 C25.9072606,94.5235692 0.123927261,0.773415385 0.123927261,0.773415385 C0.123927261,0.773415385 79.0620354,56.8435692 65.0325759,102.644185" id="Stroke-12" stroke="#FFFFFF" stroke-width="4"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

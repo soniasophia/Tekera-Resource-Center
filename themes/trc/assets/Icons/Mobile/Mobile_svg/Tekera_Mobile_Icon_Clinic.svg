@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="126px" height="126px" viewBox="0 0 126 126" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Clinic</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 126 125.95653 126 125.95653 0.04347 0 0.04347"></polygon>
+    </defs>
+    <g id="MOBILE" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Page---Mobile" transform="translate(-43.000000, -1947.000000)">
+            <g id="Clinic" transform="translate(43.000000, 1947.000000)">
+                <polygon id="Fill-1" fill="#EE9825" points="0 126 126 126 126 0 0 0"></polygon>
+                <g id="MEDICAL-CLINIC-ICON">
+                    <path d="M107.356725,63.021672 C107.356725,87.531192 87.487785,107.399502 62.978265,107.399502 C38.468745,107.399502 18.600435,87.531192 18.600435,63.021672 C18.600435,38.512152 38.468745,18.643212 62.978265,18.643212 C87.487785,18.643212 107.356725,38.512152 107.356725,63.021672 Z" id="Fill-2" fill="#EE9825"></path>
+                    <path d="M107.356725,63.021672 C107.356725,87.531192 87.487785,107.399502 62.978265,107.399502 C38.468745,107.399502 18.600435,87.531192 18.600435,63.021672 C18.600435,38.512152 38.468745,18.643212 62.978265,18.643212 C87.487785,18.643212 107.356725,38.512152 107.356725,63.021672 Z" id="Stroke-4" stroke="#FFFFFF" stroke-width="4"></path>
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-7"></g>
+                    <polygon id="Fill-6" fill="#FFFFFF" mask="url(#mask-2)" points="32.82237 70.22862 93.13479 70.22862 93.13479 55.81485 32.82237 55.81485"></polygon>
+                    <polygon id="Fill-8" fill="#FFFFFF" mask="url(#mask-2)" points="55.77201 93.17826 70.18578 93.17826 70.18578 32.86584 55.77201 32.86584"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

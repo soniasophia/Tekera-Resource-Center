@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="165px" height="165px" viewBox="0 0 165 165" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Clinic</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="5" y="9" width="165" height="165"></rect>
+        <polygon id="path-2" points="0 172 171.94066 172 171.94066 0.05934 0 0.05934"></polygon>
+    </defs>
+    <g id="DESKTOP" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Projects-Overview-Desktop-" transform="translate(-202.000000, -1971.000000)">
+            <g id="PROGRAMS-SECTION" transform="translate(174.000000, 1331.000000)">
+                <g id="MEDICAL-CLINIC-ICON" transform="translate(23.000000, 631.000000)">
+                    <g id="Group">
+                        <g id="Clinic">
+                            <g id="MEDICAL-CLINIC-ICON">
+                                <g id="Rectangle-8">
+                                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                    <rect stroke="#EE9825" stroke-width="4" x="7" y="11" width="161" height="161"></rect>
+                                </g>
+                                <path d="M146.55045,86.029584 C146.55045,119.487024 119.42777,146.608844 85.97033,146.608844 C52.51289,146.608844 25.39107,119.487024 25.39107,86.029584 C25.39107,52.572144 52.51289,25.449464 85.97033,25.449464 C119.42777,25.449464 146.55045,52.572144 146.55045,86.029584 Z" id="Fill-2" fill="#EE9825"></path>
+                                <path d="M146.55045,86.029584 C146.55045,119.487024 119.42777,146.608844 85.97033,146.608844 C52.51289,146.608844 25.39107,119.487024 25.39107,86.029584 C25.39107,52.572144 52.51289,25.449464 85.97033,25.449464 C119.42777,25.449464 146.55045,52.572144 146.55045,86.029584 Z" id="Stroke-4" stroke="#FFFFFF" stroke-width="4"></path>
+                                <mask id="mask-3" fill="white">
+                                    <use xlink:href="#path-2"></use>
+                                </mask>
+                                <g id="Clip-7"></g>
+                                <polygon id="Fill-6" fill="#FFFFFF" mask="url(#mask-3)" points="44.80514 95.86764 127.13638 95.86764 127.13638 76.1917 44.80514 76.1917"></polygon>
+                                <polygon id="Fill-8" fill="#FFFFFF" mask="url(#mask-3)" points="76.13322 127.19572 95.80916 127.19572 95.80916 44.86448 76.13322 44.86448"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
