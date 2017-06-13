@@ -113,7 +113,7 @@ function custom_post_type_jobs() {
                 'publicly_queryable'    => true,
                 'capability_type'       => 'post',
         );
-        register_post_type( 'post_type_jobs', $args );
+        register_post_type( 'jobs', $args );
 }
 add_action( 'init', 'custom_post_type_jobs', 0 );
 
@@ -168,6 +168,6 @@ function custom_post_type_programs() {
         'publicly_queryable'    => true,
         'capability_type'       => 'post',
     );
-    register_post_type( 'post_type_programs', $args );
+    register_post_type( 'programs', $args );
 }
 add_action( 'init', 'custom_post_type_programs', 0 );
