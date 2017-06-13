@@ -43,16 +43,6 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Page Templates
 	## Front page
 --------------------------------------------------------------*/
-.test {
-  color: rgba(98, 196, 199, 0.7); }
-
-.triangle-test {
-  width: 0;
-  height: 0;
-  border-top: 150px solid transparent;
-  border-bottom: 150px solid transparent;
-  border-left: 170px solid var rgba(32, 172, 175, 0.73); }
-
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
