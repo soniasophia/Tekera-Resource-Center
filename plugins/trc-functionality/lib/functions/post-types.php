@@ -111,7 +111,7 @@ function custom_post_type_jobs() {
                 'has_archive'           => true,               
                 'exclude_from_search'   => false,
                 'publicly_queryable'    => true,
-                'capability_type'       => 'page',
+                'capability_type'       => 'posts',
         );
         register_post_type( 'post_type_jobs', $args );
 }
@@ -166,7 +166,7 @@ function custom_post_type_programs() {
         'has_archive'           => true,     
         'exclude_from_search'   => false,
         'publicly_queryable'    => true,
-        'capability_type'       => 'page',
+        'capability_type'       => 'posts',
     );
     register_post_type( 'post_type_programs', $args );
 }
