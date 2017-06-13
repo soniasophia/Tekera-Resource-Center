@@ -10,9 +10,20 @@
 			</div><!-- #content -->
 
 			<footer id="colophon" class="site-footer" role="contentinfo">
-				<div class="site-info">
-					<a href="<?php echo esc_url( 'https://wordpress.org/' ); ?>"><?php printf( esc_html( 'Proudly powered by %s' ), 'WordPress' ); ?></a>
-				</div><!-- .site-info -->
+        <div class="footer-main-wrapper">
+					<div class="footer-box">
+						<h2>who we are</h2>
+						<p>Our Values</p>
+						<p>Our History</p>
+					  <p>Our Members</p>
+					</div>	
+					<div class=footer-box>
+						<h2>how we do it</h2>
+						<p>Holistic Approach</p>
+						<p>The 'Tekera Pesos'</p>
+						<p>Transparency</p>
+					</div>	
+				</div>	
 			</footer><!-- #colophon -->
 		</div><!-- #page -->
 

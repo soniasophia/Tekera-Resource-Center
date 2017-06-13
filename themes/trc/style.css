@@ -43,11 +43,6 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Page Templates
 	## Front page
 --------------------------------------------------------------*/
-.testing {
-  font-family: 'Open Web';
-  font-weight: normal;
-  font-style: italic; }
-
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -724,3 +719,25 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
+/* Footer */
+.footer-main-wrapper {
+  background-color: #006E71;
+  color: #FFF;
+  display: -ms-flexbox;
+  display: flex;
+  height: 45rem;
+  position: relative;
+  font-family: 'Open Web';
+  font-weight: 100;
+  font-style: normal;
+  min-height: 45rem;
+  font-size: 0.85rem;
+  min-width: 100%; }
+  .footer-main-wrapper h2 {
+    text-transform: uppercase;
+    font-weight: 300; }
+
+.footer-box {
+  -ms-flex-flow: column nowrap;
+      flex-flow: column nowrap;
+  margin-left: 5rem; }

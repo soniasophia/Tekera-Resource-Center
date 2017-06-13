@@ -3,3 +3,28 @@
 --------------------------------------------------------------*/
 
 /* Front page */
+
+
+
+/* Footer */
+.footer-main-wrapper {
+  background-color: $color_brand-teal-dark;  
+  color: #FFF;
+  display: flex;
+  height: 45rem;
+  position: relative;
+  @include font-open-light;
+  min-height: 45rem;
+  font-size: 0.85rem;
+  min-width: 100%;
+  h2 {
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+}
+
+.footer-box {
+  // display: flex;
+  flex-flow: column nowrap;
+  margin-left: 5rem;
+}
