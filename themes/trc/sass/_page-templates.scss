@@ -11,7 +11,9 @@
   background-color: $color_brand-teal-dark;  
   color: #FFF;
   display: flex;
+  flex-flow: column nowrap;
   height: 45rem;
+  padding-top: 3rem;
   position: relative;
   @include font-open-light;
   min-height: 45rem;
@@ -23,8 +25,31 @@
   }
 }
 
+.footer-top {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-top: 3rem;
+}
+
 .footer-box {
-  // display: flex;
+  display: flex;
   flex-flow: column nowrap;
-  margin-left: 5rem;
+  height: 50%;
+  margin-left: 6rem;
+  width: 15rem;
+}
+
+.footer-box-sub {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  img {
+    width: auto;
+    height: auto;
+  }
 }

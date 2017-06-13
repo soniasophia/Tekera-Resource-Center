@@ -725,7 +725,10 @@ object {
   color: #FFF;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-flow: column nowrap;
+      flex-flow: column nowrap;
   height: 45rem;
+  padding-top: 3rem;
   position: relative;
   font-family: 'Open Web';
   font-weight: 100;
@@ -737,7 +740,35 @@ object {
     text-transform: uppercase;
     font-weight: 300; }
 
+.footer-top {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row nowrap;
+      flex-flow: row nowrap; }
+
+.footer-bottom {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row nowrap;
+      flex-flow: row nowrap;
+  margin-top: 3rem; }
+
 .footer-box {
+  display: -ms-flexbox;
+  display: flex;
   -ms-flex-flow: column nowrap;
       flex-flow: column nowrap;
-  margin-left: 5rem; }
+  height: 50%;
+  margin-left: 6rem;
+  width: 15rem; }
+
+.footer-box-sub {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row nowrap;
+      flex-flow: row nowrap;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
+  .footer-box-sub img {
+    width: auto;
+    height: auto; }

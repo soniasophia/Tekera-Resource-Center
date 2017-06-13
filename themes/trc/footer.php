@@ -11,19 +11,54 @@
 
 			<footer id="colophon" class="site-footer" role="contentinfo">
         <div class="footer-main-wrapper">
-					<div class="footer-box">
-						<h2>who we are</h2>
-						<p>Our Values</p>
-						<p>Our History</p>
-					  <p>Our Members</p>
-					</div>	
-					<div class=footer-box>
-						<h2>how we do it</h2>
-						<p>Holistic Approach</p>
-						<p>The 'Tekera Pesos'</p>
-						<p>Transparency</p>
-					</div>	
-				</div>	
+					<div class="footer-top">
+					  <div class="footer-box">
+					  	<h2>who we are</h2>
+					  	<p>Our Values</p>
+					  	<p>Our History</p>
+					    <p>Our Members</p>
+					  </div><!--footer-box-->	
+					  <div class="footer-box">
+					  	<h2>how we do it</h2>
+					  	<p>Holistic Approach</p>
+					  	<p>The 'Tekera Pesos'</p>
+					  	<p>Transparency</p>
+					  </div><!--footer-box-->	
+					  <div class="footer-box">
+					  	<h2>follow our stories</h2>
+					  	<div class="footer-box-sub">
+					    	<img src="<?php echo get_template_directory_uri(); ?>/assets/Icons/Desktop/png/Tekera_Icon_Blog.png">
+					  	  <img src="<?php echo get_template_directory_uri(); ?>/assets/Icons/Desktop/png/Tekera_Icon_Facebook.png">
+					  		<img src="<?php echo get_template_directory_uri(); ?>/assets/Icons/Desktop/png/Tekera_Icon_Flickr.png">
+				     	</div><!--footer-box-sub-->	
+	          </div><!--footer-box-->
+					</div><!--footer-top-->	
+					<div class="footer-bottom">
+					  <div class="footer-box">
+              <h2>what we do</h2>
+					  	<p>Education</p>
+					  	<p>Co-Operative Farm</p>
+					  	<p>Healthcare</p>
+					  	<p>Community Work</p>
+					  	<p>Women Empowerment</p>
+					  	<p>Economic Development</p>					
+					  </div><!--footer-box-->
+						<div class="footer-box">
+							<h2>get involved</h2>
+							<p>Sponsor</p>
+							<p>Internship</p>
+							<p>Donate</p>
+						</div>
+						<div class="footer-box">
+							<h2>contact</h2>
+							<div class="footer-box-sub" id="contact-sub-uganda">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/Icons/Desktop/png/Tekera_Icon_Uganda.png">
+								<h3>Uganda</h3>
+								<p>Tekera Resource Center</p>
+							</div>	
+						</div>								
+					</div><!--footer-bottom-->	
+				</div><!--footer-main-wrapper-->	
 			</footer><!-- #colophon -->
 		</div><!-- #page -->
 
