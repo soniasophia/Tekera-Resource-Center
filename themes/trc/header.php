@@ -1,7 +1,7 @@
 <?php
 /**
  * The header for our theme.
- *
+ * nATE RULES
  * @package RED_Starter_Theme
  */
 
