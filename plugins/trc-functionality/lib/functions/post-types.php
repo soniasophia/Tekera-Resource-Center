@@ -41,8 +41,8 @@ function register_members_post_type() {
 		'label'                 => 'Member',
 		'description'           => 'Tekera Resource Center members',
 		'labels'                => $labels,
-		'supports'              => array( 'title', 'editor', 'thumbnail', 'revisions', 'custom-fields', ),
-		'taxonomies'            => array( 'category', 'post_tag' ),
+		'supports'              => array( 'title', 'editor', 'thumbnail', 'revisions', ),
+		'taxonomies'            => array( 'post_tag' ),
 		'hierarchical'          => false,
 		'public'                => true,
 		'show_ui'               => true,
@@ -111,7 +111,7 @@ function custom_post_type_jobs() {
                 'has_archive'           => true,               
                 'exclude_from_search'   => false,
                 'publicly_queryable'    => true,
-                'capability_type'       => 'page',
+                'capability_type'       => 'post',
         );
         register_post_type( 'post_type_jobs', $args );
 }
@@ -153,7 +153,7 @@ function custom_post_type_programs() {
         'label'                 => 'Program',
         'description'           => 'Programs',
         'labels'                => $labels,
-        'supports'              => array( 'title', 'editor', 'thumbnail', 'revisions', 'custom-fields', ),
+        'supports'              => array( 'title', 'editor', 'thumbnail', 'revisions' ),
         'hierarchical'          => false,
         'public'                => true,
         'show_ui'               => true,
@@ -166,7 +166,7 @@ function custom_post_type_programs() {
         'has_archive'           => true,     
         'exclude_from_search'   => false,
         'publicly_queryable'    => true,
-        'capability_type'       => 'page',
+        'capability_type'       => 'post',
     );
     register_post_type( 'post_type_programs', $args );
 }
