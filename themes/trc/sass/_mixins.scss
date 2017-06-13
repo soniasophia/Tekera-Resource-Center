@@ -10,3 +10,38 @@
 	margin-left: auto;
 	margin-right: auto;
 }
+
+// Triangle Overlays
+// ***TODO*** ADJUST SIZES ONCE PAGE IS BUILT OUT
+
+@mixin triangle-overlay-large-left {
+	width: 0; 
+  height: 0; 
+  border-top: 400px solid transparent;
+  border-bottom: 400px solid transparent;
+  border-right: 400px solid var $color_brand-teal-transparent;
+}
+
+@mixin triangle-overlay-large-right {
+	width: 0; 
+  height: 0; 
+  border-top: 400px solid transparent;
+  border-bottom: 400px solid transparent;
+  border-left: 400px solid var $color_brand-teal-transparent;
+}
+
+@mixin triangle-overlay-small-left {
+	width: 0; 
+  height: 0; 
+  border-top: 150px solid transparent;
+  border-bottom: 150px solid transparent;
+  border-right: 170px solid var $color_brand-teal-transparent;	
+}
+
+@mixin triangle-overlay-small-right {
+	width: 0; 
+  height: 0; 
+  border-top: 150px solid transparent;
+  border-bottom: 150px solid transparent;
+  border-left: 170px solid var $color_brand-teal-transparent;	
+}
