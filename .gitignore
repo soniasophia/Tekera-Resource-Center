@@ -29,7 +29,6 @@ access_log
 # ========================================================== #
 plugins/*
 !plugins/trc-functionality/
-!plugins/contact-form-7/
 
 # Ignore everything in "themes" except the active theme. #
 # ====================================================== #
