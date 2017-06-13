@@ -43,6 +43,11 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Page Templates
 	## Front page
 --------------------------------------------------------------*/
+.testing {
+  font-family: 'Open Web';
+  font-weight: normal;
+  font-style: italic; }
+
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
