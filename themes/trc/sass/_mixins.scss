@@ -45,3 +45,68 @@
   border-bottom: 150px solid transparent;
   border-left: 170px solid var $color_brand-teal-transparent;	
 }
+
+//FONT FAMILY MIXINS
+//**NOTE** FONTS.SCSS STILL CONTAINS TODO!!
+
+//Open Web
+
+@mixin font-open-regular {
+	font-family: 'Open Web';
+	font-weight: normal;
+	font-style: normal;
+}
+
+@mixin font-open-bold {
+	font-family: 'Open Web';
+	font-weight: bold;
+	font-style: normal;	
+}
+
+@mixin font-open-bold-italic {
+	font-family: 'Open Web';
+	font-weight: bold;
+	font-style: italic;	
+}
+
+@mixin font-open-extrabold {
+	font-family: 'Open Web';
+	font-weight: bolder;
+	font-style: normal;	
+}
+
+@mixin font-open-extrabold-italic {
+	font-family: 'Open Web';
+	font-weight: bolder;
+	font-style: italic;	
+}
+
+@mixin font-open-italic {
+	font-family: 'Open Web';
+	font-weight: normal;
+	font-style: italic;	
+}
+
+@mixin font-open-light {
+	font-family: 'Open Web';
+	font-weight: light;
+	font-style: normal;	
+}
+
+@mixin font-open-light-italic {
+	font-family: 'Open Web';
+	font-weight: light;
+	font-style: italic;	
+}
+
+//Shadows Into Light
+
+@mixin shadows {
+	font-family: 'Shadows Into Light Web';
+	font-weight: normal;
+	font-style: normal;	
+}
+
+.testing {
+	@include font-open-italic;
+}
