@@ -41,7 +41,7 @@ function register_members_post_type() {
 		'label'                 => 'Member',
 		'description'           => 'Tekera Resource Center members',
 		'labels'                => $labels,
-		'supports'              => array( 'title', 'editor', 'thumbnail', 'revisions', ),
+		'supports'              => array( 'editor', 'thumbnail', 'revisions', ),
 		'taxonomies'            => array( 'post_tag' ),
 		'hierarchical'          => false,
 		'public'                => true,
