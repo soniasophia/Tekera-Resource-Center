@@ -823,3 +823,64 @@ object {
   .footer-box-sub img {
     width: auto;
     height: auto; }
+
+/* Contact */
+.page-template-contact-php {
+  margin: 30px;
+  overflow-x: hidden; }
+  .page-template-contact-php h1 {
+    margin: 20px; }
+  .page-template-contact-php .hero-banner {
+    height: 500px;
+    background-color: red;
+    margin: 20px; }
+  .page-template-contact-php .container {
+    width: 90%;
+    margin: auto; }
+  .page-template-contact-php .contact-info {
+    margin: 60px auto; }
+    .page-template-contact-php .contact-info h2 {
+      text-transform: uppercase; }
+    .page-template-contact-php .contact-info .info-div {
+      margin: 20px 0; }
+    .page-template-contact-php .contact-info p {
+      margin: 0px; }
+  .page-template-contact-php .thanks {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center; }
+    .page-template-contact-php .thanks .arrow-down {
+      width: 1px;
+      height: 1px;
+      border-left: 60vw solid transparent;
+      border-right: 60vw solid transparent;
+      border-top: 150px solid #f00;
+      overflow: hidden; }
+    .page-template-contact-php .thanks .thanks-text {
+      width: 240px;
+      position: absolute;
+      top: 0px;
+      left: 50%;
+      margin-left: -120px; }
+  .page-template-contact-php form {
+    text-align: center; }
+    .page-template-contact-php form fieldset {
+      text-align: left;
+      margin: 0;
+      padding: 0;
+      border: none; }
+      .page-template-contact-php form fieldset input {
+        width: 100%;
+        margin-bottom: 20px; }
+    .page-template-contact-php form button {
+      color: white;
+      margin: 40px;
+      width: 30%;
+      height: 40px;
+      background-color: orange;
+      box-shadow: none;
+      border: none; }
