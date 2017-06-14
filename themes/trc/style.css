@@ -550,7 +550,6 @@ a {
 .site-header {
   height: 100px;
   background-color: #20ACAF;
-  padding-top: 1rem;
   margin-bottom: 1rem; }
 
 .site-header-wrapper {
@@ -559,18 +558,39 @@ a {
   -ms-flex-pack: center;
       justify-content: center;
   -ms-flex-align: center;
-      align-items: center; }
+      align-items: center;
+  height: 100%; }
   .site-header-wrapper .tekera-site-logo {
     padding-right: 2rem; }
   .site-header-wrapper .tekera-site-text {
     padding-right: 3rem; }
 
 .main-navigation {
-  width: 70%; }
-  .main-navigation .menu-nav-bar-container ul li {
-    padding-right: 2rem; }
-    .main-navigation .menu-nav-bar-container ul li a {
-      color: #fff; }
+  width: 70%;
+  height: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center; }
+  .main-navigation .menu-nav-bar-container ul {
+    height: 100%;
+    display: -ms-flexbox;
+    display: flex; }
+    .main-navigation .menu-nav-bar-container ul li {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-align: center;
+          align-items: center;
+      padding-right: 1rem;
+      padding-left: 1rem; }
+      .main-navigation .menu-nav-bar-container ul li a {
+        color: #fff;
+        text-transform: uppercase; }
+    .main-navigation .menu-nav-bar-container ul li:nth-child(5) {
+      border-left: 1px solid #EE9825;
+      border-right: qpx solid #EE9825;
+      background-color: #EE9825;
+      font-weight: 700; }
 
 /*--------------------------------------------------------------
 # Accessibility
