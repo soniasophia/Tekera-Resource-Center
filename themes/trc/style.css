@@ -706,6 +706,36 @@ a {
 .bypostauthor {
   display: block; }
 
+/* Single Blog Post Pages */
+.single-post h1 {
+  font-family: 'Shadows Into Light Web';
+  font-weight: normal;
+  font-style: normal;
+  position: absolute;
+  bottom: 3.5rem;
+  color: white;
+  width: 40%;
+  margin-left: 2.5rem;
+  line-height: 2; }
+
+.single-post img {
+  position: relative; }
+
+.single-post .entry-meta {
+  display: none; }
+
+.single-post .entry-content {
+  font-family: 'Open Web';
+  font-weight: normal;
+  font-style: normal;
+  width: 380px;
+  margin: 0 auto;
+  margin-top: 3.5rem;
+  line-height: 2; }
+
+.single-post .comments-area, .single-post .widget-area, .single-post .search-form {
+  display: none; }
+
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
@@ -790,6 +820,11 @@ object {
   .footer-main-wrapper h2 {
     text-transform: uppercase;
     font-weight: 300; }
+  .footer-main-wrapper p {
+    font-size: 1rem;
+    font-family: 'Open Web';
+    font-weight: 100;
+    font-style: normal; }
 
 .footer-top {
   display: -ms-flexbox;
@@ -812,6 +847,8 @@ object {
   height: 50%;
   margin-left: 6rem;
   width: 15rem; }
+  .footer-box p {
+    margin: 4px; }
 
 .footer-box-sub {
   display: -ms-flexbox;
@@ -822,65 +859,25 @@ object {
       justify-content: space-between; }
   .footer-box-sub img {
     width: auto;
-    height: auto; }
+    height: 3.5rem; }
 
-/* Contact */
-.page-template-contact-php {
-  margin: 30px;
-  overflow-x: hidden; }
-  .page-template-contact-php h1 {
-    margin: 20px; }
-  .page-template-contact-php .hero-banner {
-    height: 500px;
-    background-color: red;
-    margin: 20px; }
-  .page-template-contact-php .container {
-    width: 90%;
-    margin: auto; }
-  .page-template-contact-php .contact-info {
-    margin: 60px auto; }
-    .page-template-contact-php .contact-info h2 {
-      text-transform: uppercase; }
-    .page-template-contact-php .contact-info .info-div {
-      margin: 20px 0; }
-    .page-template-contact-php .contact-info p {
-      margin: 0px; }
-  .page-template-contact-php .thanks {
-    position: relative;
-    text-align: center;
-    overflow: hidden;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: center;
-        justify-content: center; }
-    .page-template-contact-php .thanks .arrow-down {
-      width: 1px;
-      height: 1px;
-      border-left: 60vw solid transparent;
-      border-right: 60vw solid transparent;
-      border-top: 150px solid #f00;
-      overflow: hidden; }
-    .page-template-contact-php .thanks .thanks-text {
-      width: 240px;
-      position: absolute;
-      top: 0px;
-      left: 50%;
-      margin-left: -120px; }
-  .page-template-contact-php form {
-    text-align: center; }
-    .page-template-contact-php form fieldset {
-      text-align: left;
-      margin: 0;
-      padding: 0;
-      border: none; }
-      .page-template-contact-php form fieldset input {
-        width: 100%;
-        margin-bottom: 20px; }
-    .page-template-contact-php form button {
-      color: white;
-      margin: 40px;
-      width: 30%;
-      height: 40px;
-      background-color: orange;
-      box-shadow: none;
-      border: none; }
+.contact-sub-top {
+  min-width: 20rem; }
+  .contact-sub-top h3 {
+    margin-top: 0px; }
+  .contact-sub-top p {
+    margin: 4px; }
+  .contact-sub-top img {
+    width: auto;
+    height: 3.5rem; }
+
+#chicken {
+  margin-right: 1rem; }
+
+.footer-bold {
+  font-family: 'Open Web';
+  font-weight: bold;
+  font-style: normal; }
+
+#bottom {
+  margin-top: 1.5rem; }
