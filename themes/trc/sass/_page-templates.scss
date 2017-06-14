@@ -245,3 +245,20 @@
   }
 
 }
+
+// Blog
+
+.blog-hero {
+  min-height: 40rem;
+}
+
+.blog-post-box {
+  display: flex;
+  position: relative;
+}
+
+.blog-title-wrapper {
+  position: absolute;
+  bottom: 0;
+  color: #FFF;
+}

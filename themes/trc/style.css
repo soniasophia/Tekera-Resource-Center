@@ -929,3 +929,16 @@ object {
     position: absolute;
     bottom: -25px;
     left: 0; } }
+
+.blog-hero {
+  min-height: 40rem; }
+
+.blog-post-box {
+  display: -ms-flexbox;
+  display: flex;
+  position: relative; }
+
+.blog-title-wrapper {
+  position: absolute;
+  bottom: 0;
+  color: #FFF; }
