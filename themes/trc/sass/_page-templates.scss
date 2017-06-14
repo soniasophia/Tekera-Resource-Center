@@ -4,8 +4,6 @@
 
 /* Front page */
 
-
-
 /* Footer */
 
 .footer-main-wrapper {
@@ -23,6 +21,10 @@
   h2 {
     text-transform: uppercase;
     font-weight: 300;
+  }
+  p {
+    font-size: 1rem;
+    @include font-open-light;
   }
 }
 
@@ -43,6 +45,9 @@
   height: 50%;
   margin-left: 6rem;
   width: 15rem;
+  p {
+    margin: 4px;
+  }
 }
 
 .footer-box-sub {
@@ -51,6 +56,33 @@
   justify-content: space-between;
   img {
     width: auto;
-    height: auto;
+    height: 3.5rem;
   }
 }
+
+.contact-sub-top {
+  min-width: 20rem;
+  h3 {
+    margin-top: 0px;
+  }
+  p {
+    margin: 4px;
+  }
+  img {
+    width: auto;
+    height: 3.5rem;
+  }
+}
+
+#chicken {
+  margin-right: 1rem;
+}
+
+.footer-bold {
+  @include font-open-bold;
+}
+
+#bottom {
+  margin-top: 1.5rem;
+}
+

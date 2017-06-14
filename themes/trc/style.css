@@ -790,6 +790,11 @@ object {
   .footer-main-wrapper h2 {
     text-transform: uppercase;
     font-weight: 300; }
+  .footer-main-wrapper p {
+    font-size: 1rem;
+    font-family: 'Open Web';
+    font-weight: 100;
+    font-style: normal; }
 
 .footer-top {
   display: -ms-flexbox;
@@ -812,6 +817,8 @@ object {
   height: 50%;
   margin-left: 6rem;
   width: 15rem; }
+  .footer-box p {
+    margin: 4px; }
 
 .footer-box-sub {
   display: -ms-flexbox;
@@ -822,4 +829,25 @@ object {
       justify-content: space-between; }
   .footer-box-sub img {
     width: auto;
-    height: auto; }
+    height: 3.5rem; }
+
+.contact-sub-top {
+  min-width: 20rem; }
+  .contact-sub-top h3 {
+    margin-top: 0px; }
+  .contact-sub-top p {
+    margin: 4px; }
+  .contact-sub-top img {
+    width: auto;
+    height: 3.5rem; }
+
+#chicken {
+  margin-right: 1rem; }
+
+.footer-bold {
+  font-family: 'Open Web';
+  font-weight: bold;
+  font-style: normal; }
+
+#bottom {
+  margin-top: 1.5rem; }
