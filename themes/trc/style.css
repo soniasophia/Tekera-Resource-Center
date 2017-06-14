@@ -740,7 +740,10 @@ object {
     text-transform: uppercase;
     font-weight: 300; }
   .footer-main-wrapper p {
-    font-size: 1rem; }
+    font-size: 1rem;
+    font-family: 'Open Web';
+    font-weight: 100;
+    font-style: normal; }
 
 .footer-top {
   display: -ms-flexbox;
@@ -785,8 +788,10 @@ object {
     margin: 4px; }
   .contact-sub-top img {
     width: auto;
-    height: 3.5rem;
-    margin-right: 1rem; }
+    height: 3.5rem; }
+
+#chicken {
+  margin-right: 1rem; }
 
 .footer-bold {
   font-family: 'Open Web';

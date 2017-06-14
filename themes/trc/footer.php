@@ -52,13 +52,17 @@
 						<div class="footer-box">
 							<h2>contact</h2>
 							<div class="footer-box-sub">
-								<img src="<?php echo get_template_directory_uri(); ?>/assets/Icons/Desktop/png/Tekera_Icon_Uganda.png">
+								<img id="chicken" src="<?php echo get_template_directory_uri(); ?>/assets/Icons/Desktop/png/Tekera_Icon_Uganda.png">
 								<div class="contact-sub-top">
 								  <h3>Uganda</h3>
 								  <p>Tekera Resource Center</p>
 									<p>P.O. Box 960</p>
 									<p>Masaka, Uganda</p>
-									<p>tekeraresourcecentre@gmail.com</p>									
+									<p>tekeraresourcecentre@gmail.com</p>		
+									  <span class="footer-box-sub-bottom">
+                      <img id="canada" src="<?php echo get_template_directory_uri(); ?>/assets/Icons/Desktop/png/Tekera_Icon_Canda.png">  
+                     </span>
+														
 								</div><!--contact-sub-top-->	
 								<div class="contact-sub-top">
 								  <p class="footer-bold" id="top">ICEF Country Director</p>
@@ -74,7 +78,6 @@
 				</div><!--footer-main-wrapper-->	
 			</footer><!--#colophon-->
 		</div><!--#page-->
-
 		<?php wp_footer(); ?>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"
       integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="

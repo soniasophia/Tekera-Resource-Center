@@ -23,6 +23,7 @@
   }
   p {
     font-size: 1rem;
+    @include font-open-light;
   }
 }
 
@@ -69,8 +70,11 @@
   img {
     width: auto;
     height: 3.5rem;
-    margin-right: 1rem;
   }
+}
+
+#chicken {
+  margin-right: 1rem;
 }
 
 .footer-bold {
