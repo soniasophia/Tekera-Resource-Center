@@ -1,14 +1,13 @@
 <?php 
 /* Template Name: Contact */
 get_header(); 
-
 ?>
-
-<?php the_content(); ?>
 
 <div class="contact-container">
 
-  <h1><?php the_title() ?></h1>
+  <h1>
+    <?php the_title() ?>
+  </h1>
 
   <div class="hero-banner">
   </div>
@@ -59,8 +58,8 @@ get_header();
         <p>5730 Sherwood Blvd</p>
         <p>Delta, B.C. V4L 2C6 Canada</p>
         <div class="e-mail info-div">
-        <p>E-mail:</p>
-        <p>info@icefcanada.org</p>  
+          <p>E-mail:</p>
+          <p>info@icefcanada.org</p>
         </div>
       </div>
     </div>
@@ -75,26 +74,12 @@ get_header();
     </div>
   </div>
 
-  
-
-
-
-  <!--<form class="container">
-    <fieldset>
-      <p>*Required Fields</p>
-      <h4>*First name:</h4> 
-      <input type="text"> 
-      <h4>*Last name:</h4>
-      <input type="text"> 
-      <h4>E-mail Address:</h4>
-      <input type="email">
-      <textarea rows="10" placeholder="Write your message here..."></textarea>
-    </fieldset>
-    <button type="button">
-      send
-    </button>
-  </form>-->
-
-
+  <form class="container">
+    <h4>*Required Fields</h4>
+    <?php while ( have_posts() ) : the_post();
+    the_content();
+    endwhile; // End of the loop. ?>
+  </form>
 </div>
+
 <?php get_footer(); ?>
