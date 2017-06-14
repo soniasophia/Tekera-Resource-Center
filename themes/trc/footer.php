@@ -51,7 +51,7 @@
 						</div>
 						<div class="footer-box">
 							<h2>contact</h2>
-							<div class="footer-box-sub" id="contact-sub-uganda">
+							<div class="footer-box-sub" id="contact-sub">
 								<img src="<?php echo get_template_directory_uri(); ?>/assets/Icons/Desktop/png/Tekera_Icon_Uganda.png">
 								<h3>Uganda</h3>
 								<p>Tekera Resource Center</p>
@@ -59,8 +59,8 @@
 						</div><!--footer-box-->								
 					</div><!--footer-bottom-->	
 				</div><!--footer-main-wrapper-->	
-			</footer><!-- #colophon -->
-		</div><!-- #page -->
+			</footer><!--#colophon-->
+		</div><!--#page-->
 
 		<?php wp_footer(); ?>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"
