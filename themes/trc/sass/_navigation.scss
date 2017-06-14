@@ -145,6 +145,29 @@ a {
   align-items: center;
 	height: 100%;
 
+		@include mobile{
+			display: flex;
+			justify-content: flex-start;
+			padding-left: 1.5rem;
+		}
+
+
+	.hamburger{
+		background-color:#20ACAF;
+		border: none;
+		box-shadow: none;
+		text-shadow: none;
+		font-size: 2rem;
+		color: #fff;
+		margin-right: 1rem; 
+		padding-top: 0;
+
+		@include desktop{
+			display: none;
+		}
+
+	}
+
 	.tekera-site-logo{
 		padding-right: 2rem;
 

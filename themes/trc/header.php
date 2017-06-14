@@ -26,7 +26,12 @@
 					<p class="site-description"><?php bloginfo( 'description' ); ?></p>
 				</div> .site-branding -->
 
+				
+
 				<div class = site-header-wrapper>
+
+					<button class="hamburger">&#9776;</button>
+					
 					<div class = "tekera-site-logo">
 						<img src="<?php echo get_template_directory_uri();?> /assets/Logos/Tekera_Logo_Desktop_Pie.png">
 					</div>
@@ -36,7 +41,7 @@
 					</div>
 
 					<nav id="site-navigation" class="main-navigation" role="navigation">
-						<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html( 'Primary Menu' ); ?></button>
+						<!--<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html( 'Primary Menu' ); ?></button>-->
 						<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 					</nav><!-- #site-navigation -->
 				</div>
