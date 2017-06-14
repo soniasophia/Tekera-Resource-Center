@@ -2,13 +2,14 @@
 # Page Templates
 --------------------------------------------------------------*/
 
+
 /* Front page */
 
 
-
 /* Footer */
+
 .footer-main-wrapper {
-  background-color: $color_brand-teal-dark;  
+  background-color: $color_brand-teal-dark;
   color: #FFF;
   display: flex;
   flex-flow: column nowrap;
@@ -51,5 +52,58 @@
   img {
     width: auto;
     height: auto;
+  }
+}
+
+/* Contact */
+
+.page-template-contact-php {
+  margin: 30px;
+  overflow-x: hidden;
+  h1 {
+    margin: 20px;
+  }
+  .hero-banner {
+    height: 500px;
+    background-color: red;
+    margin: 20px;
+  }
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+  .contact-info {
+    margin: 60px auto;
+    h2 {
+      text-transform: uppercase;
+    }
+    .info-div {
+      margin: 20px 0;
+    }
+    p {
+      margin: 0px;
+    }
+  }
+  .thanks {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    .arrow-down {
+      width: 1px;
+      height: 1px;
+      border-left: 60vw solid transparent;
+      border-right: 60vw solid transparent;
+      border-top: 150px solid #f00;
+      overflow: hidden;
+    }
+    .thanks-text{
+      width: 240px;
+      position: absolute;
+      top: 0px;
+      left: 50%;
+      margin-left: -120px;
+    }
   }
 }
