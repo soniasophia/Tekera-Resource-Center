@@ -53,13 +53,21 @@
 							<h2>contact</h2>
 							<div class="footer-box-sub">
 								<img src="<?php echo get_template_directory_uri(); ?>/assets/Icons/Desktop/png/Tekera_Icon_Uganda.png">
-								<div class="contact-sub">
+								<div class="contact-sub-top">
 								  <h3>Uganda</h3>
 								  <p>Tekera Resource Center</p>
 									<p>P.O. Box 960</p>
 									<p>Masaka, Uganda</p>
-									<p>tekeraresourcecentre@gmail.com</p>
-								</div><!--contact-sub-->	
+									<p>tekeraresourcecentre@gmail.com</p>									
+								</div><!--contact-sub-top-->	
+								<div class="contact-sub-top">
+								  <p class="footer-bold" id="top">ICEF Country Director</p>
+									<p>Maureen Nakalinza</p>
+									<p>+256 773 195 441</p>	
+									<p class="footer-bold" id="bottom">TRC Program Coordinator</p> 
+									<p>Dan Ahimbisibwe</p>
+									<p>+256 0701 589 765</p>
+								</div><!--contact-sub-top-->		
 							</div><!--footer-box-sub-->	
 						</div><!--footer-box-->								
 					</div><!--footer-bottom-->	

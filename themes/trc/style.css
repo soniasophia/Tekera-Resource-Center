@@ -739,6 +739,8 @@ object {
   .footer-main-wrapper h2 {
     text-transform: uppercase;
     font-weight: 300; }
+  .footer-main-wrapper p {
+    font-size: 1rem; }
 
 .footer-top {
   display: -ms-flexbox;
@@ -775,8 +777,21 @@ object {
     width: auto;
     height: 3.5rem; }
 
-.contact-sub-top h3 {
-  margin-top: 0px; }
+.contact-sub-top {
+  min-width: 20rem; }
+  .contact-sub-top h3 {
+    margin-top: 0px; }
+  .contact-sub-top p {
+    margin: 4px; }
+  .contact-sub-top img {
+    width: auto;
+    height: 3.5rem;
+    margin-right: 1rem; }
 
-.contact-sub-top p {
-  margin: 4px; }
+.footer-bold {
+  font-family: 'Open Web';
+  font-weight: bold;
+  font-style: normal; }
+
+#bottom {
+  margin-top: 1.5rem; }
