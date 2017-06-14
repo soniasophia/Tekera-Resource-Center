@@ -55,6 +55,7 @@
   }
 }
 
+
 /* Contact */
 
 .page-template-contact-php {
@@ -98,12 +99,34 @@
       border-top: 150px solid #f00;
       overflow: hidden;
     }
-    .thanks-text{
+    .thanks-text {
       width: 240px;
       position: absolute;
       top: 0px;
       left: 50%;
       margin-left: -120px;
+    }
+  }
+  form {
+    text-align: center;
+    fieldset {
+      text-align: left;
+      margin: 0;
+      padding: 0;
+      border: none;
+      input {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+    }
+    button{
+      color: white;
+      margin: 40px;
+      width: 30%;
+      height: 40px;
+      background-color: orange;
+      box-shadow: none;
+      border: none;
     }
   }
 }
