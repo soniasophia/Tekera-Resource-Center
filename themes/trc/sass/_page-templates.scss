@@ -170,7 +170,7 @@
     flex-flow: column nowrap;
     justify-content: space-between;
     align-items: center;
-    height: auto;
+    min-height: 55rem;
   }
 
   .footer-top {
@@ -229,6 +229,19 @@
     position: absolute;
     top: 7.5rem;
     left: 3rem;
+  }
+
+  .footer-copyright {
+    position: absolute;
+    bottom: 0;
+    width: 17rem;
+    height: auto;
+  }
+
+  .flow-controller {
+    position: absolute;
+    bottom: -25px;
+    left: 0;
   }
 
 }

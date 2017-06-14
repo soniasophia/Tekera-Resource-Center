@@ -872,7 +872,7 @@ object {
         justify-content: space-between;
     -ms-flex-align: center;
         align-items: center;
-    height: auto; }
+    min-height: 55rem; }
   .footer-top {
     -ms-flex-flow: column nowrap;
         flex-flow: column nowrap;
@@ -919,4 +919,13 @@ object {
     display: flex;
     position: absolute;
     top: 7.5rem;
-    left: 3rem; } }
+    left: 3rem; }
+  .footer-copyright {
+    position: absolute;
+    bottom: 0;
+    width: 17rem;
+    height: auto; }
+  .flow-controller {
+    position: absolute;
+    bottom: -25px;
+    left: 0; } }
