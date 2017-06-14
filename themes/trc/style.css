@@ -761,6 +761,8 @@ object {
   height: 50%;
   margin-left: 6rem;
   width: 15rem; }
+  .footer-box p {
+    margin: 4px; }
 
 .footer-box-sub {
   display: -ms-flexbox;
@@ -771,4 +773,10 @@ object {
       justify-content: space-between; }
   .footer-box-sub img {
     width: auto;
-    height: auto; }
+    height: 3.5rem; }
+
+.contact-sub-top h3 {
+  margin-top: 0px; }
+
+.contact-sub-top p {
+  margin: 4px; }

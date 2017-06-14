@@ -51,10 +51,15 @@
 						</div>
 						<div class="footer-box">
 							<h2>contact</h2>
-							<div class="footer-box-sub" id="contact-sub">
+							<div class="footer-box-sub">
 								<img src="<?php echo get_template_directory_uri(); ?>/assets/Icons/Desktop/png/Tekera_Icon_Uganda.png">
-								<h3>Uganda</h3>
-								<p>Tekera Resource Center</p>
+								<div class="contact-sub">
+								  <h3>Uganda</h3>
+								  <p>Tekera Resource Center</p>
+									<p>P.O. Box 960</p>
+									<p>Masaka, Uganda</p>
+									<p>tekeraresourcecentre@gmail.com</p>
+								</div><!--contact-sub-->	
 							</div><!--footer-box-sub-->	
 						</div><!--footer-box-->								
 					</div><!--footer-bottom-->	
