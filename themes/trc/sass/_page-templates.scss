@@ -49,6 +49,10 @@
   }
 }
 
+.social-media {
+  margin: 0px;
+}
+
 .footer-box-sub {
   display: flex;
   flex-flow: row nowrap;
@@ -73,15 +77,58 @@
   }
 }
 
-#chicken {
-  margin-right: 1rem;
-}
-
 .footer-bold {
   @include font-open-bold;
 }
 
 #bottom {
   margin-top: 1.5rem;
+}
+
+.contact-column {
+  display: flex;
+  flex-flow: column nowrap;
+  width: auto;
+  height: 20rem;
+  margin-right: 2rem;
+  h2 {
+    margin-bottom: 1rem;
+  }
+  img {
+    height: 5rem;
+    width: 5rem;
+  }
+}
+
+#chicken {
+  margin-bottom: 6rem;
+  margin-right: 1rem;  
+}
+
+.contact-column-right {
+  margin-top: 3rem;
+  p {
+    margin: 0px;
+  }
+}
+
+.contact-column-outside {
+  padding-top: 4rem;
+  margin-left: 2rem;
+  p {
+    margin: 0px;
+  }  
+}
+
+.contact-email {
+  p {
+    margin-top: 1rem;
+  }
+}
+
+.contact-spacer {
+  h3 {
+    margin-top: 2rem;
+  }
 }
 

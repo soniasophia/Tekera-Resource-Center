@@ -769,6 +769,9 @@ object {
   .footer-box p {
     margin: 4px; }
 
+.social-media {
+  margin: 0px; }
+
 .footer-box-sub {
   display: -ms-flexbox;
   display: flex;
@@ -790,9 +793,6 @@ object {
     width: auto;
     height: 3.5rem; }
 
-#chicken {
-  margin-right: 1rem; }
-
 .footer-bold {
   font-family: 'Open Web';
   font-weight: bold;
@@ -800,3 +800,38 @@ object {
 
 #bottom {
   margin-top: 1.5rem; }
+
+.contact-column {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column nowrap;
+      flex-flow: column nowrap;
+  width: auto;
+  height: 20rem;
+  margin-right: 2rem; }
+  .contact-column h2 {
+    margin-bottom: 1rem; }
+  .contact-column img {
+    height: 5rem;
+    width: 5rem; }
+
+#chicken {
+  margin-bottom: 6rem;
+  margin-right: 1rem; }
+
+.contact-column-right {
+  margin-top: 3rem; }
+  .contact-column-right p {
+    margin: 0px; }
+
+.contact-column-outside {
+  padding-top: 4rem;
+  margin-left: 2rem; }
+  .contact-column-outside p {
+    margin: 0px; }
+
+.contact-email p {
+  margin-top: 1rem; }
+
+.contact-spacer h3 {
+  margin-top: 2rem; }
