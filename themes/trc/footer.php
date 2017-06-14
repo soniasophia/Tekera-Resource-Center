@@ -86,15 +86,3 @@
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 	</body>
 </html>
-
-
-
-						<div class="footer-box">
-							<div class="footer-box-sub">
-								<div class="contact-sub-top">
-								</div><!--contact-sub-top-->	
-								<div class="contact-sub-top">
-
-								</div><!--contact-sub-top-->		
-							</div><!--footer-box-sub-->	
-						</div><!--footer-box-->								
