@@ -29,9 +29,6 @@ access_log
 # ========================================================== #
 plugins/*
 !plugins/trc-functionality/
-!plugins/contact-form-7/
-!plugins/custom-field-suite/
-!plugins/cyclone-slider/
 
 # Ignore everything in "themes" except the active theme. #
 # ====================================================== #
