@@ -132,7 +132,7 @@ a {
 	}
 }
 
-
+// Desktop version
 .site-header{
 	height: 100px;
 	background-color: #20ACAF; 
@@ -147,6 +147,11 @@ a {
 
 	.tekera-site-logo{
 		padding-right: 2rem;
+
+		@include mobile{
+		display: none;
+		}
+		
 	}
 
 	.tekera-site-text{
@@ -161,6 +166,10 @@ a {
 	height: 100%;
 	display: flex;
 	align-items: center;
+
+	@include mobile{
+		display: none;
+	}
 
 	.menu-nav-bar-container{
 		ul{
@@ -188,3 +197,4 @@ a {
 		}
 	}
 }
+
