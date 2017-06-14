@@ -95,6 +95,7 @@ a {
 	}
 }
 
+
 /* Small menu. */
 .menu-toggle,
 .main-navigation.toggled ul {
@@ -128,5 +129,45 @@ a {
 		float: right;
 		text-align: right;
 		width: 50%;
+	}
+}
+
+
+.site-header{
+	height: 100px;
+	background-color: #20ACAF; 
+	padding-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.site-header-wrapper{
+	display: flex;
+  justify-content: center;
+  align-items: center;
+
+	.tekera-site-logo{
+		padding-right: 2rem;
+	}
+
+	.tekera-site-text{
+		padding-right: 3rem;
+	}
+
+
+}
+
+.main-navigation{
+	width: 70%;
+
+	.menu-nav-bar-container{
+		ul{
+			li{
+				padding-right: 2rem;
+				
+				a{
+					color: #fff;
+				}
+			}
+		}
 	}
 }

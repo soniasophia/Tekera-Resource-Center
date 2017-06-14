@@ -547,6 +547,31 @@ a {
   text-align: right;
   width: 50%; }
 
+.site-header {
+  height: 100px;
+  background-color: #20ACAF;
+  padding-top: 1rem;
+  margin-bottom: 1rem; }
+
+.site-header-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center; }
+  .site-header-wrapper .tekera-site-logo {
+    padding-right: 2rem; }
+  .site-header-wrapper .tekera-site-text {
+    padding-right: 3rem; }
+
+.main-navigation {
+  width: 70%; }
+  .main-navigation .menu-nav-bar-container ul li {
+    padding-right: 2rem; }
+    .main-navigation .menu-nav-bar-container ul li a {
+      color: #fff; }
+
 /*--------------------------------------------------------------
 # Accessibility
 --------------------------------------------------------------*/
