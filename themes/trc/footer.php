@@ -51,17 +51,33 @@
 						</div>
 						<div class="footer-box">
 							<h2>contact</h2>
-							<div class="footer-box-sub" id="contact-sub-uganda">
-								<img src="<?php echo get_template_directory_uri(); ?>/assets/Icons/Desktop/png/Tekera_Icon_Uganda.png">
-								<h3>Uganda</h3>
-								<p>Tekera Resource Center</p>
+							<div class="footer-box-sub">
+								<img id="chicken" src="<?php echo get_template_directory_uri(); ?>/assets/Icons/Desktop/png/Tekera_Icon_Uganda.png">
+								<div class="contact-sub-top">
+								  <h3>Uganda</h3>
+								  <p>Tekera Resource Center</p>
+									<p>P.O. Box 960</p>
+									<p>Masaka, Uganda</p>
+									<p>tekeraresourcecentre@gmail.com</p>		
+									  <span class="footer-box-sub-bottom">
+                      <img id="canada" src="<?php echo get_template_directory_uri(); ?>/assets/Icons/Desktop/png/Tekera_Icon_Canda.png">  
+                     </span>
+														
+								</div><!--contact-sub-top-->	
+								<div class="contact-sub-top">
+								  <p class="footer-bold" id="top">ICEF Country Director</p>
+									<p>Maureen Nakalinza</p>
+									<p>+256 773 195 441</p>	
+									<p class="footer-bold" id="bottom">TRC Program Coordinator</p> 
+									<p>Dan Ahimbisibwe</p>
+									<p>+256 0701 589 765</p>
+								</div><!--contact-sub-top-->		
 							</div><!--footer-box-sub-->	
 						</div><!--footer-box-->								
 					</div><!--footer-bottom-->	
 				</div><!--footer-main-wrapper-->	
-			</footer><!-- #colophon -->
-		</div><!-- #page -->
-
+			</footer><!--#colophon-->
+		</div><!--#page-->
 		<?php wp_footer(); ?>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"
       integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="

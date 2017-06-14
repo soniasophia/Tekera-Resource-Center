@@ -95,6 +95,7 @@ a {
 	}
 }
 
+
 /* Small menu. */
 .menu-toggle,
 .main-navigation.toggled ul {
@@ -130,3 +131,70 @@ a {
 		width: 50%;
 	}
 }
+
+// Desktop version
+.site-header{
+	height: 100px;
+	background-color: #20ACAF; 
+	margin-bottom: 1rem;
+}
+
+.site-header-wrapper{
+	display: flex;
+  justify-content: center;
+  align-items: center;
+	height: 100%;
+
+	.tekera-site-logo{
+		padding-right: 2rem;
+
+		@include mobile{
+		display: none;
+		}
+		
+	}
+
+	.tekera-site-text{
+		padding-right: 3rem;
+	}
+
+
+}
+
+.main-navigation{
+	width: 70%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+
+	@include mobile{
+		display: none;
+	}
+
+	.menu-nav-bar-container{
+		ul{
+			height: 100%;
+			display: flex;
+
+			li{
+				display: flex;
+				align-items: center;
+				padding-right: 1rem;
+				padding-left: 1rem;
+	
+				a{
+					color: #fff;
+					text-transform: uppercase;
+				}
+			}
+
+			li:nth-child(5){
+				border-left: 1px solid #EE9825;
+				border-right: qpx solid #EE9825;
+				background-color: #EE9825;
+				font-weight: 700;
+			}
+		}
+	}
+}
+
