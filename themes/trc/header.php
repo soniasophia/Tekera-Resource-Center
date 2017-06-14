@@ -31,6 +31,17 @@
 				<div class = site-header-wrapper>
 
 					<button class="hamburger">&#9776;</button>
+
+					<div class="hamburger-menu">
+						<ul>
+							<a href="#"><li> Who we are </li></a>
+							<a href="#"><li> What we do </li></a>
+							<a href="#"><li> How we do it </li></a>
+							<a href="#"><li> Get Invloved </li></a>
+							<a href="#"><li> Blog </li></a>
+							<a href="#"><li> Contact </li></a>
+						</ul>
+					</div> 
 					
 					<div class = "tekera-site-logo">
 						<img src="<?php echo get_template_directory_uri();?> /assets/Logos/Tekera_Logo_Desktop_Pie.png">
@@ -44,6 +55,11 @@
 						<!--<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html( 'Primary Menu' ); ?></button>-->
 						<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 					</nav><!-- #site-navigation -->
+
+					<div class = "tekera-triangles">
+						<img src="<?php echo get_template_directory_uri();?> /assets/Tekera_Triangles.png">
+					</div>
+
 				</div>
 			</header><!-- #masthead -->
 

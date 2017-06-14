@@ -168,6 +168,22 @@ a {
 
 	}
 
+	.hamburger-menu{
+		ul{
+			a{
+				text-decoration: none;
+
+				li{
+					list-style-type: none;
+				}
+			}
+		}
+	
+		@include desktop{
+			display: none;
+		}
+	}
+
 	.tekera-site-logo{
 		padding-right: 2rem;
 
@@ -217,7 +233,18 @@ a {
 				background-color: #EE9825;
 				font-weight: 700;
 			}
-		}
+		} // end of ul
+	} // end of menu-nav-bar-container
+}
+
+div.tekera-triangles{
+
+	img{
+		height: 100%;
 	}
+	
+		@include desktop{
+			display: none;
+		}
 }
 
