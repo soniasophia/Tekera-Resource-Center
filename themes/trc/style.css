@@ -706,6 +706,36 @@ a {
 .bypostauthor {
   display: block; }
 
+/* Single Blog Post Pages */
+.single-post h1 {
+  font-family: 'Shadows Into Light Web';
+  font-weight: normal;
+  font-style: normal;
+  position: absolute;
+  bottom: 3.5rem;
+  color: white;
+  width: 40%;
+  margin-left: 2.5rem;
+  line-height: 2; }
+
+.single-post img {
+  position: relative; }
+
+.single-post .entry-meta {
+  display: none; }
+
+.single-post .entry-content {
+  font-family: 'Open Web';
+  font-weight: normal;
+  font-style: normal;
+  width: 380px;
+  margin: 0 auto;
+  margin-top: 3.5rem;
+  line-height: 2; }
+
+.single-post .comments-area, .single-post .widget-area, .single-post .search-form {
+  display: none; }
+
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
