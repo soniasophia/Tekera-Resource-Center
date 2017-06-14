@@ -48,7 +48,7 @@
 							<p>Sponsor</p>
 							<p>Internship</p>
 							<p>Donate</p>
-						</div>
+						</div><!--footer-box-->
             <div class="contact-column">
 							<h2>contact</h2>
 							<img class="hider" id="chicken" src="<?php echo get_template_directory_uri(); ?>/assets/Icons/Desktop/png/Tekera_Icon_Uganda.png">
@@ -77,6 +77,10 @@
 					</div><!--footer-bottom-->	
 					<div class="quick-links-header">
 						<h2>Quick Links</h2>
+					</div><!--quick-links-header-->	
+					<div class="footer-copyright hider">
+					  <p>&copy; 2017 TEKERA RESOURCE CENTRE, All Rights Reserved.</p>
+					  <p>NGO #S.5914/6996</p>
 					</div>	
 				</div><!--footer-main-wrapper-->	
 			</footer><!--#colophon-->
