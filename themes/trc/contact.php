@@ -1,11 +1,14 @@
 <?php 
 /* Template Name: Contact */
 get_header(); 
+
 ?>
+
+<?php the_content(); ?>
 
 <div class="contact-container">
 
-  <h1>Contact Us</h1>
+  <h1><?php the_title() ?></h1>
 
   <div class="hero-banner">
   </div>
@@ -17,17 +20,19 @@ get_header();
 
   <div class="contact-info container">
     <div class="uganda">
-      <img src=“<?php echo get_template_directory_uri(); ?>/assets/Icons/Desktop/png/Tekera_Icon_Uganda.png”>
+      <div class="uganda-icon">
+        <?php echo file_get_contents("http://localhost/Tekera/wp-content/themes/trc/assets/Icons/Desktop/svg/Tekera_Icon_Uganda.svg"); ?>
+      </div>
       <div class="info-uganda">
         <h2>uganda</h2>
         <div class="address info-div">
-          <p>Tekera Resource </p>
+          <p>Tekera Resource Center</p>
           <p>Center P.O. Box 960</p>
           <p>Masaka, Uganda</p>
         </div>
         <div class="email info-div">
           <p>E-mail:</p>
-          <p>tekera resource center@gmail.com</p>
+          <p>tekeraresourcecenter@gmail.com</p>
         </div>
         <div class="director1 info-div">
           <p>ICEF Country Director</p>
@@ -43,7 +48,9 @@ get_header();
     </div>
 
     <div class="canada">
-      <img src=“<?php echo get_template_directory_uri(); ?>”>
+      <div class="canada-icon">
+        <?php echo file_get_contents("http://localhost/Tekera/wp-content/themes/trc/assets/Icons/Desktop/svg/Tekera_Icon_Canada.svg"); ?>
+      </div>
       <div class="info-canada">
         <h2>canada</h2>
         <div class="address info-div">
@@ -59,8 +66,8 @@ get_header();
     </div>
   </div>
 
-  <div class="thanks container">
-    <div class="arrow-down container">
+  <div class="thanks">
+    <div class="arrow-down">
     </div>
     <div class="thanks-text">
       <h3>Thank you for your visit</h3>
@@ -68,18 +75,25 @@ get_header();
     </div>
   </div>
 
-  <form class="container">
+  
+
+
+
+  <!--<form class="container">
     <fieldset>
-      First name:
-      <input type="text"> Last name:
-      <input type="text"> E-mail Address:
+      <p>*Required Fields</p>
+      <h4>*First name:</h4> 
+      <input type="text"> 
+      <h4>*Last name:</h4>
+      <input type="text"> 
+      <h4>E-mail Address:</h4>
       <input type="email">
       <textarea rows="10" placeholder="Write your message here..."></textarea>
     </fieldset>
     <button type="button">
       send
     </button>
-  </form>
+  </form>-->
 
 
 </div>

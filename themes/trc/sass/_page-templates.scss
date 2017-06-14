@@ -2,7 +2,6 @@
 # Page Templates
 --------------------------------------------------------------*/
 
-=======>>>>>>>4115c8c599f9fbe50ab106fbcc479aac9a5836b9
 /* Footer */
 
 .footer-main-wrapper {
@@ -86,25 +85,53 @@
 }
 
 
-/* Contact */
+/* Contact ***********************************/
 
-.page-template-contact-php {
-  margin: 30px;
+.page-template-contact-php{
+  color: $color__text-main;
   overflow-x: hidden;
-  h1 {
-    margin: 20px;
-  }
-  .hero-banner {
-    height: 500px;
-    background-color: red;
-    margin: 20px;
-  }
+  font-family: "Open Web";
   .container {
     width: 90%;
     margin: auto;
   }
+  h1 {
+    color: $color_brand-blue-dark;
+    margin: 10px;
+    margin-left: 30px;
+  }
+  .hero-banner {
+    background: url("../../assets/Images/Mobile/contact/Tekera_Contact us_Vocational school.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 485px;
+    margin-bottom: 50px;
+  }
+  .map{
+    iframe{
+    height: 86.7vw;
+    }
+    width: 90%;
+  }
   .contact-info {
-    margin: 60px auto;
+    margin-top: 60px;
+    .canada{
+      margin-top: 75px;
+    }
+    .uganda-icon, .canada-icon{
+      text-align: center;
+      svg{
+        height: 125px;
+        width: 125px;
+        path{
+          fill: $color_brand-teal-dark;
+        }
+        polygon{
+          stroke: $color_brand-teal-dark;
+          stroke-width: 2;
+        }
+      }
+    }
     h2 {
       text-transform: uppercase;
     }
@@ -121,20 +148,26 @@
     overflow: hidden;
     display: flex;
     justify-content: center;
+    margin-top: 40px;
     .arrow-down {
       width: 1px;
       height: 1px;
-      border-left: 60vw solid transparent;
-      border-right: 60vw solid transparent;
-      border-top: 150px solid #f00;
+      border-left: 105vw solid transparent;
+      border-right: 105vw solid transparent;
+      border-top: 137px solid $color_brand-teal;
       overflow: hidden;
     }
     .thanks-text {
-      width: 240px;
+      width: 220px;
       position: absolute;
       top: 0px;
       left: 50%;
-      margin-left: -120px;
+      margin-left: -100px;
+      h3, p{
+        color: white;
+        margin: 10px 0;
+        font-size: 0.95rem;
+      }
     }
   }
   form {
@@ -147,6 +180,9 @@
       input {
         width: 100%;
         margin-bottom: 20px;
+      }
+      h4{
+        margin: 0px;
       }
     }
     button {

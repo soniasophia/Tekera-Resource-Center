@@ -799,7 +799,6 @@ object {
 /*--------------------------------------------------------------
 # Page Templates
 --------------------------------------------------------------*/
-/* Front page */
 /* Footer */
 .footer-main-wrapper {
   background-color: #006E71;
@@ -881,3 +880,92 @@ object {
 
 #bottom {
   margin-top: 1.5rem; }
+
+/* Contact ***********************************/
+.page-template-contact-php {
+  color: #404040;
+  overflow-x: hidden;
+  font-family: "Open Web"; }
+  .page-template-contact-php .container {
+    width: 90%;
+    margin: auto; }
+  .page-template-contact-php h1 {
+    color: #072A3D;
+    margin: 10px;
+    margin-left: 30px; }
+  .page-template-contact-php .hero-banner {
+    background: url("../../assets/Images/Mobile/contact/Tekera_Contact us_Vocational school.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 485px;
+    margin-bottom: 50px; }
+  .page-template-contact-php .map {
+    width: 90%; }
+    .page-template-contact-php .map iframe {
+      height: 86.7vw; }
+  .page-template-contact-php .contact-info {
+    margin-top: 60px; }
+    .page-template-contact-php .contact-info .canada {
+      margin-top: 75px; }
+    .page-template-contact-php .contact-info .uganda-icon, .page-template-contact-php .contact-info .canada-icon {
+      text-align: center; }
+      .page-template-contact-php .contact-info .uganda-icon svg, .page-template-contact-php .contact-info .canada-icon svg {
+        height: 125px;
+        width: 125px; }
+        .page-template-contact-php .contact-info .uganda-icon svg path, .page-template-contact-php .contact-info .canada-icon svg path {
+          fill: #006E71; }
+        .page-template-contact-php .contact-info .uganda-icon svg polygon, .page-template-contact-php .contact-info .canada-icon svg polygon {
+          stroke: #006E71;
+          stroke-width: 2; }
+    .page-template-contact-php .contact-info h2 {
+      text-transform: uppercase; }
+    .page-template-contact-php .contact-info .info-div {
+      margin: 20px 0; }
+    .page-template-contact-php .contact-info p {
+      margin: 0px; }
+  .page-template-contact-php .thanks {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    margin-top: 40px; }
+    .page-template-contact-php .thanks .arrow-down {
+      width: 1px;
+      height: 1px;
+      border-left: 105vw solid transparent;
+      border-right: 105vw solid transparent;
+      border-top: 137px solid #20ACAF;
+      overflow: hidden; }
+    .page-template-contact-php .thanks .thanks-text {
+      width: 220px;
+      position: absolute;
+      top: 0px;
+      left: 50%;
+      margin-left: -100px; }
+      .page-template-contact-php .thanks .thanks-text h3, .page-template-contact-php .thanks .thanks-text p {
+        color: white;
+        margin: 10px 0;
+        font-size: 0.95rem; }
+  .page-template-contact-php form {
+    text-align: center; }
+    .page-template-contact-php form fieldset {
+      text-align: left;
+      margin: 0;
+      padding: 0;
+      border: none; }
+      .page-template-contact-php form fieldset input {
+        width: 100%;
+        margin-bottom: 20px; }
+      .page-template-contact-php form fieldset h4 {
+        margin: 0px; }
+    .page-template-contact-php form button {
+      color: white;
+      margin: 40px;
+      width: 30%;
+      height: 40px;
+      background-color: orange;
+      box-shadow: none;
+      border: none; }
