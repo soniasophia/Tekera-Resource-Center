@@ -41,13 +41,13 @@ function register_members_post_type() {
 		'label'                 => 'Member',
 		'description'           => 'Tekera Resource Center members',
 		'labels'                => $labels,
-		'supports'              => array( 'title', 'editor', 'thumbnail', 'revisions', ),
+		'supports'              => array( 'editor', 'thumbnail', 'revisions', ),
 		'taxonomies'            => array( 'post_tag' ),
 		'hierarchical'          => false,
 		'public'                => true,
 		'show_ui'               => true,
 		'show_in_menu'          => true,
-		'menu_position'         => 20,
+		'menu_position'         => 5,
 		'menu_icon'             => 'dashicons-universal-access',
 		'show_in_admin_bar'     => true,
 		'show_in_nav_menus'     => true,
@@ -66,8 +66,8 @@ add_action( 'init', 'register_members_post_type', 0 );
 // Register Custom Post Type
 function custom_post_type_jobs() {
         $labels = array(
-                'name'                  => 'jobs',
-                'singular_name'         => 'job',
+                'name'                  => 'Jobs',
+                'singular_name'         => 'Job',
                 'menu_name'             => 'Jobs',
                 'name_admin_bar'        => 'Jobs',
                 'archives'              => 'Job Archives',
@@ -88,15 +88,15 @@ function custom_post_type_jobs() {
                 'set_featured_image'    => 'Set featured image',
                 'remove_featured_image' => 'Remove featured image',
                 'use_featured_image'    => 'Use as featured image',
-                'insert_into_item'      => 'Insert into job',
-                'uploaded_to_this_item' => 'Uploaded to this job',
+                'insert_into_item'      => 'Insert into Job',
+                'uploaded_to_this_item' => 'Uploaded to this Job',
                 'items_list'            => 'Jobs list',
                 'items_list_navigation' => 'Jobs list navigation',
-                'filter_items_list'     => 'Filter jobs list',
+                'filter_items_list'     => 'Filter Jobs list',
         );
         $args = array(
-                'label'                 => 'job',
-                'description'           => 'Job and volunteer opertunities',
+                'label'                 => 'Job',
+                'description'           => 'Job and volunteer opportunities',
                 'labels'                => $labels,
                 'supports'              => array( 'title', 'editor', ),
                 'hierarchical'          => false,
@@ -113,7 +113,7 @@ function custom_post_type_jobs() {
                 'publicly_queryable'    => true,
                 'capability_type'       => 'post',
         );
-        register_post_type( 'post_type_jobs', $args );
+        register_post_type( 'jobs', $args );
 }
 add_action( 'init', 'custom_post_type_jobs', 0 );
 
@@ -121,8 +121,8 @@ add_action( 'init', 'custom_post_type_jobs', 0 );
 // Register Custom Post Type
 function custom_post_type_programs() {
     $labels = array(
-        'name'                  => 'programs',
-        'singular_name'         => 'program',
+        'name'                  => 'Programs',
+        'singular_name'         => 'Program',
         'menu_name'             => 'Programs',
         'name_admin_bar'        => 'Programs',
         'archives'              => 'Program Archives',
@@ -144,14 +144,14 @@ function custom_post_type_programs() {
         'remove_featured_image' => 'Remove featured image',
         'use_featured_image'    => 'Use as featured image',
         'insert_into_item'      => 'Insert into Program',
-        'uploaded_to_this_item' => 'Uploaded to this program',
+        'uploaded_to_this_item' => 'Uploaded to this Program',
         'items_list'            => 'Programs list',
         'items_list_navigation' => 'Programs list navigation',
-        'filter_items_list'     => 'Filter programs list',
+        'filter_items_list'     => 'Filter Programs list',
     );
     $args = array(
-        'label'                 => 'program',
-        'description'           => 'programs',
+        'label'                 => 'Program',
+        'description'           => 'Programs',
         'labels'                => $labels,
         'supports'              => array( 'title', 'editor', 'thumbnail', 'revisions' ),
         'hierarchical'          => false,
@@ -168,6 +168,6 @@ function custom_post_type_programs() {
         'publicly_queryable'    => true,
         'capability_type'       => 'post',
     );
-    register_post_type( 'post_type_programs', $args );
+    register_post_type( 'programs', $args );
 }
 add_action( 'init', 'custom_post_type_programs', 0 );
