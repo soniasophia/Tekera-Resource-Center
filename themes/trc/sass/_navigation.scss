@@ -159,8 +159,9 @@ a {
 		text-shadow: none;
 		font-size: 2rem;
 		color: #fff;
-		margin-right: 1rem; 
+		// margin-right: 1rem; 
 		padding-top: 0;
+		flex: 0 1 20%;
 
 		@include desktop{
 			display: none;
@@ -169,6 +170,8 @@ a {
 	}
 
 	.hamburger-menu{
+		position: absolute;
+
 		ul{
 			a{
 				text-decoration: none;
@@ -195,6 +198,11 @@ a {
 
 	.tekera-site-text{
 		padding-right: 3rem;
+		flex: 0 1 60%;
+
+		@include desktop{
+			flex: 0 1 20%;
+		}
 	}
 
 
@@ -241,6 +249,7 @@ div.tekera-triangles{
 
 	img{
 		height: 100%;
+
 	}
 	
 		@include desktop{
