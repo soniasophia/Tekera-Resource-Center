@@ -55,8 +55,8 @@
 								<img src="<?php echo get_template_directory_uri(); ?>/assets/Icons/Desktop/png/Tekera_Icon_Uganda.png">
 								<h3>Uganda</h3>
 								<p>Tekera Resource Center</p>
-							</div>	
-						</div>								
+							</div><!--footer-box-sub-->	
+						</div><!--footer-box-->								
 					</div><!--footer-bottom-->	
 				</div><!--footer-main-wrapper-->	
 			</footer><!-- #colophon -->
