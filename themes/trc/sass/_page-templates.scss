@@ -49,7 +49,7 @@
   }
 }
 
-.social-media {
+.social-media-box {
   margin: 0px;
 }
 
@@ -132,3 +132,88 @@
   }
 }
 
+.quick-links-header {
+  display: none;    
+}
+
+#how {
+  margin-left: 3rem;
+}
+
+#get-involved {
+  margin-left: 3rem;
+}
+
+@media screen and (max-width: 640px) {
+  
+  
+  .hider {
+    display: none;
+  }
+
+  .footer-main-wrapper {
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+  }
+
+  .footer-top {
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+  }  
+
+  .footer-bottom {
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+  } 
+
+  .social-media-box {
+    position: absolute;
+    left: 3rem;
+    top: 0;
+  }
+
+  #who {
+    position: absolute;
+    left: 0;
+    top: 10rem;
+  }
+
+  #what {
+    position: absolute;
+    left: 0;
+    top: 16.5rem;    
+  }
+
+  #how {
+    position: absolute;
+    left: 3rem;
+    top: 20rem;        
+  }
+
+  #get-involved {
+    position: absolute;
+    left: 3rem;
+    top: 28rem;     
+  }
+
+  .contact-column {
+    position: absolute;
+    left: 6rem;
+    top: 40rem;  
+    margin: 0px;       
+  }
+
+  .quick-links-header {
+    display: flex;
+    position: absolute;
+    top: 7.5rem;
+    left: 3rem;
+  }
+
+}

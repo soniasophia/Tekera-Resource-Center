@@ -769,7 +769,7 @@ object {
   .footer-box p {
     margin: 4px; }
 
-.social-media {
+.social-media-box {
   margin: 0px; }
 
 .footer-box-sub {
@@ -835,3 +835,71 @@ object {
 
 .contact-spacer h3 {
   margin-top: 2rem; }
+
+.quick-links-header {
+  display: none; }
+
+#how {
+  margin-left: 3rem; }
+
+#get-involved {
+  margin-left: 3rem; }
+
+@media screen and (max-width: 640px) {
+  .hider {
+    display: none; }
+  .footer-main-wrapper {
+    -ms-flex-flow: column nowrap;
+        flex-flow: column nowrap;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    -ms-flex-align: center;
+        align-items: center;
+    height: auto; }
+  .footer-top {
+    -ms-flex-flow: column nowrap;
+        flex-flow: column nowrap;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+    height: 50%; }
+  .footer-bottom {
+    -ms-flex-flow: column nowrap;
+        flex-flow: column nowrap;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+    height: 50%; }
+  .social-media-box {
+    position: absolute;
+    left: 3rem;
+    top: 0; }
+  #who {
+    position: absolute;
+    left: 0;
+    top: 10rem; }
+  #what {
+    position: absolute;
+    left: 0;
+    top: 16.5rem; }
+  #how {
+    position: absolute;
+    left: 3rem;
+    top: 20rem; }
+  #get-involved {
+    position: absolute;
+    left: 3rem;
+    top: 28rem; }
+  .contact-column {
+    position: absolute;
+    left: 6rem;
+    top: 40rem;
+    margin: 0px; }
+  .quick-links-header {
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    top: 7.5rem;
+    left: 3rem; } }

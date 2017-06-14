@@ -12,16 +12,16 @@
 			<footer id="colophon" class="site-footer" role="contentinfo">
         <div class="footer-main-wrapper">
 					<div class="footer-top">
-					  <div class="footer-box">
+					  <div class="footer-box" id="who">
 					  	<h2>who we are</h2>
 					  	<p>Our Values</p>
-					  	<p>Our History</p>
-					    <p>Our Members</p>
+					  	<p class="hider">Our History</p>
+					    <p class="hider">Our Members</p>
 					  </div><!--footer-box-->	
-					  <div class="footer-box">
+					  <div class="footer-box" id="how">
 					  	<h2>how we do it</h2>
 					  	<p>Holistic Approach</p>
-					  	<p>The 'Tekera Pesos'</p>
+					  	<p class="hider">The 'Tekera Pesos'</p>
 					  	<p>Transparency</p>
 					  </div><!--footer-box-->	
 					  <div class="social-media-box">
@@ -34,16 +34,16 @@
 	          </div><!--footer-box-->
 					</div><!--footer-top-->	
 					<div class="footer-bottom">
-					  <div class="footer-box">
+					  <div id="what" class="footer-box">
               <h2>what we do</h2>
-					  	<p>Education</p>
-					  	<p>Co-Operative Farm</p>
-					  	<p>Healthcare</p>
-					  	<p>Community Work</p>
-					  	<p>Women Empowerment</p>
-					  	<p>Economic Development</p>					
+					  	<p class="hider">Education</p>
+					  	<p class="hider">Co-Operative Farm</p>
+					  	<p class="hider">Healthcare</p>
+					  	<p class="hider">Community Work</p>
+					  	<p class="hider">Women Empowerment</p>
+					  	<p class="hider">Economic Development</p>					
 					  </div><!--footer-box-->
-						<div class="footer-box">
+						<div class="footer-box" id="get-involved">
 							<h2>get involved</h2>
 							<p>Sponsor</p>
 							<p>Internship</p>
@@ -51,15 +51,15 @@
 						</div>
             <div class="contact-column">
 							<h2>contact</h2>
-							<img id="chicken" src="<?php echo get_template_directory_uri(); ?>/assets/Icons/Desktop/png/Tekera_Icon_Uganda.png">
-              <img id="canada" src="<?php echo get_template_directory_uri(); ?>/assets/Icons/Desktop/png/Tekera_Icon_Canda.png">  							
+							<img class="hider" id="chicken" src="<?php echo get_template_directory_uri(); ?>/assets/Icons/Desktop/png/Tekera_Icon_Uganda.png">
+              <img class="hider" id="canada" src="<?php echo get_template_directory_uri(); ?>/assets/Icons/Desktop/png/Tekera_Icon_Canda.png">  							
             </div><!--contact-column-->
-						<div class="contact-column-right">
+						<div class="contact-column-right hider">
 						  <h3>Uganda</h3>
 						  <p>Tekera Resource Center</p>
 						  <p>P.O. Box 960</p>
 						  <p>Masaka, Uganda</p>
-						  <span class="contact-email"><p>tekeraresourcecentre@gmail.com</p></span>	
+						  <span class="contact-emailhider"><p>tekeraresourcecentre@gmail.com</p></span>	
 							<span class="contact-spacer"><h3>Canada</h3></span>
 							<p>5730 Sherwood Blvd</p>
 							<p>Delta BC, Canada</p>
@@ -67,14 +67,17 @@
 						  <span class="contact-email"><p>info@icefcanada.org</p></span>																													
 						</div><!--contact-column-right-->	
 						<div class="contact-column-outside">
-						  <p>ICEF Country Director</p>
-						  <p>Maureen Nakalinza</p>
-						  <p>+256 773 195 441</p>	
-						  <p class="footer-bold" id="bottom">TRC Program Coordinator</p> 
-						  <p>Dan Ahimbisibwe</p>
-						  <p>+256 0701 589 765</p>
-						</div>	
+						  <p class="hider">ICEF Country Director</p>
+						  <p class="hider">Maureen Nakalinza</p>
+						  <p class="hider">+256 773 195 441</p>	
+						  <p class="footer-bold hider" id="bottom">TRC Program Coordinator</p> 
+						  <p class="hider">Dan Ahimbisibwe</p>
+						  <p class="hider">+256 0701 589 765</p>
+						</div><!--contact-column-outside-->	
 					</div><!--footer-bottom-->	
+					<div class="quick-links-header">
+						<h2>Quick Links</h2>
+					</div>	
 				</div><!--footer-main-wrapper-->	
 			</footer><!--#colophon-->
 		</div><!--#page-->
