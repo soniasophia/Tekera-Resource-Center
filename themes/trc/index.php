@@ -29,8 +29,6 @@ get_header(); ?>
 				  <a href="<?php the_permalink() ?>"><h3><?php the_title(); ?></h3>
 					<p><?php short_excerpt(get_the_excerpt()); ?>....</p></a>
 				</div><!--blog-title-wrapper-->
-				<div class="blog-triangle">
-				</div><!--blog-triangle-->	
       </div><!--blog-post-box-->
 			<?php endwhile; ?>
 

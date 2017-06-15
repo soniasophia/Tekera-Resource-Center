@@ -500,10 +500,12 @@
   padding: 1rem;
   position: absolute;
   bottom: 0;
-  height: 50%;
-  background: $color_brand-teal-transparent;
+  height: auto;
+  background: url('../../assets/Images/Desktop/Tekera_DESKTOP_TriangleOverlay_Right.png');
+  background-position: center;
+  background-size: cover;
   text-decoration: none;
-  width: 60%;
+  width: 100%;
   h3 {
     @include font-open-bold;
     color: #FFF;
@@ -514,17 +516,5 @@
   }
 }
 
-.blog-triangle {
-  display: flex;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-	width: 0; 
-  height: 0; 
-  border-top: 7.5rem solid transparent;
-  border-bottom: 7.5rem solid transparent;
-  border-left: 8.75rem solid var $color_brand-teal-transparent;	
-  z-index: 10000;  
-}
 
 
