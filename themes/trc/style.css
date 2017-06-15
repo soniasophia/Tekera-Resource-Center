@@ -886,6 +886,8 @@ object {
   color: #404040;
   overflow-x: hidden;
   font-family: "Open Web"; }
+  .page-template-contact-php #masthead {
+    margin: 0px; }
   @media screen and (min-width: 640px) {
     .page-template-contact-php .content-top {
       display: -ms-flexbox;
@@ -916,6 +918,9 @@ object {
     margin: auto; }
   .page-template-contact-php .title {
     position: relative; }
+    @media screen and (min-width: 640px) {
+      .page-template-contact-php .title {
+        text-align: left; } }
   .page-template-contact-php h1 {
     color: #072A3D;
     margin: 10px;
@@ -1008,27 +1013,59 @@ object {
         color: white;
         margin: 10px 0;
         font-size: 0.95rem; }
-  .page-template-contact-php form h4 {
-    font-size: 0.9rem;
-    color: #D44E1F; }
-  .page-template-contact-php form label {
-    font-size: 0.8rem; }
-  .page-template-contact-php form input {
-    width: 100%;
-    border-radius: 0px;
-    border-color: black; }
-  .page-template-contact-php form textarea {
-    border-color: black; }
-  .page-template-contact-php form .send-button {
-    display: block;
-    margin: auto;
-    border: none;
-    background-color: #EE9825;
-    color: white;
-    width: 169px;
-    height: 50px;
-    box-shadow: none;
-    font-size: 1.1rem;
-    text-transform: uppercase; }
-  .page-template-contact-php .wpcf7:nth-child(6) {
-    background: red; }
+  .page-template-contact-php .forms {
+    text-align: left; }
+    .page-template-contact-php .forms h4 {
+      font-size: 0.9rem;
+      color: #D44E1F; }
+      @media screen and (min-width: 640px) {
+        .page-template-contact-php .forms h4 {
+          margin: auto;
+          width: 90%; } }
+    .page-template-contact-php .forms label {
+      font-size: 0.8rem; }
+    .page-template-contact-php .forms input {
+      width: 100%;
+      border-radius: 0px;
+      border-color: black; }
+    .page-template-contact-php .forms textarea {
+      border-color: black; }
+    .page-template-contact-php .forms .send-button {
+      display: block;
+      margin: auto;
+      border: none;
+      background-color: #EE9825;
+      color: white;
+      width: 240px;
+      height: 50px;
+      box-shadow: none;
+      font-size: 1.1rem;
+      text-transform: uppercase; }
+  @media screen and (min-width: 640px) {
+    .page-template-contact-php #wpcf7-f106-p74-o1 {
+      display: none; } }
+  .page-template-contact-php #wpcf7-f116-p74-o2 {
+    display: none;
+    display: -ms-flexbox;
+    display: flex; }
+    @media screen and (min-width: 640px) {
+      .page-template-contact-php #wpcf7-f116-p74-o2 {
+        display: block; } }
+    .page-template-contact-php #wpcf7-f116-p74-o2 form {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+      width: 100%; }
+      .page-template-contact-php #wpcf7-f116-p74-o2 form p:nth-child(8) {
+        min-width: 90%; }
+      .page-template-contact-php #wpcf7-f116-p74-o2 form p {
+        min-width: 40%; }
+        .page-template-contact-php #wpcf7-f116-p74-o2 form p .send-button {
+          height: 50px; }
+        .page-template-contact-php #wpcf7-f116-p74-o2 form p input {
+          height: 60px; }
+        .page-template-contact-php #wpcf7-f116-p74-o2 form p textarea {
+          height: 150px; }

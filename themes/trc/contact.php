@@ -78,12 +78,13 @@ get_header();
       </div>
     </div>
 
-    <form class="container">
+<div class="forms">
+      
+      <?php while ( have_posts() ) : the_post();?>
       <h4>*Required Fields</h4>
-      <?php while ( have_posts() ) : the_post();
-    the_content();
+    <?php the_content();
     endwhile; // End of the loop. ?>
-    </form>
+    </div>
   </div>
 </div>
 
