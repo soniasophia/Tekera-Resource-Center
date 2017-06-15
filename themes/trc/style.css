@@ -261,7 +261,7 @@ th {
   font-family: 'Open Web';
   src: url("../../assets/fonts/open/opensans-light-webfont.eot");
   src: url("../../assets/fonts/open/opensans-light-webfont.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/open/opensans-light-webfont.woff2") format("woff2"), url("../../assets/fonts/open/opensans-light-webfont.woff") format("woff"), url("../../assets/fonts/open/opensans-light-webfont.ttf") format("truetype");
-  font-weight: light;
+  font-weight: 100;
   font-style: normal; }
 
 @font-face {
@@ -989,150 +989,6 @@ object {
 
 /* Contact ***********************************/
 .page-template-contact-php {
-<<<<<<< HEAD
-  margin: 30px;
-  overflow-x: hidden; }
-  .page-template-contact-php h1 {
-    margin: 20px; }
-
-.hero-banner {
-  height: 500px;
-  background-color: red;
-  margin: 20px; }
-
-.container {
-  width: 90%;
-  margin: auto; }
-
-.contact-info {
-  margin: 60px auto; }
-  .contact-info h2 {
-    text-transform: uppercase; }
-  .contact-info .info-div {
-    margin: 20px 0; }
-  .contact-info p {
-    margin: 0px; }
-
-.thanks {
-  position: relative;
-  text-align: center;
-  overflow: hidden;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: center;
-      justify-content: center; }
-  .thanks .arrow-down {
-    width: 1px;
-    height: 1px;
-    border-left: 60vw solid transparent;
-    border-right: 60vw solid transparent;
-    border-top: 150px solid #f00;
-    overflow: hidden; }
-  .thanks .thanks-text {
-    width: 240px;
-    position: absolute;
-    top: 0px;
-    left: 50%;
-    margin-left: -120px; }
-
-form {
-  text-align: center; }
-  form fieldset {
-    text-align: left;
-    margin: 0;
-    padding: 0;
-    border: none; }
-    form fieldset input {
-      width: 100%;
-      margin-bottom: 20px; }
-  form button {
-    color: white;
-    margin: 40px;
-    width: 30%;
-    height: 40px;
-    background-color: orange;
-    box-shadow: none;
-    border: none; }
-
-.contact-column {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-flow: column nowrap;
-      flex-flow: column nowrap;
-  width: auto;
-  height: 20rem;
-  margin-right: 2rem; }
-  .contact-column h2 {
-    margin-bottom: 1rem; }
-  .contact-column img {
-    height: 5rem;
-    width: 5rem; }
-
-.contact-column-right {
-  margin-top: 3rem; }
-  .contact-column-right p {
-    margin: 0px; }
-
-#canada-flag {
-  margin-top: 7rem; }
-
-.contact-column-outside {
-  padding-top: 4rem;
-  margin-left: 2rem; }
-  .contact-column-outside p {
-    margin: 0px; }
-
-.contact-email p {
-  margin-top: 1rem; }
-
-.contact-spacer h3 {
-  margin-top: 2rem; }
-
-.quick-links-header {
-  display: none; }
-
-#how {
-  margin-left: 3rem; }
-
-#get-involved {
-  margin-left: 3rem; }
-
-.footer-copyright {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-flow: column nowrap;
-      flex-flow: column nowrap;
-  width: 100%;
-  height: 3rem;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -ms-flex-align: center;
-      align-items: center;
-  margin-top: 4rem;
-  margin-bottom: 2rem; }
-  .footer-copyright p {
-    padding: 0px;
-    margin: 0px; }
-
-@media screen and (max-width: 640px) {
-  .hider {
-    display: none; }
-  .footer-main-wrapper {
-    -ms-flex-flow: column nowrap;
-        flex-flow: column nowrap;
-    -ms-flex-pack: justify;
-        justify-content: space-between;
-    -ms-flex-align: center;
-        align-items: center;
-    min-height: 60rem; }
-  .footer-top {
-    -ms-flex-flow: column nowrap;
-        flex-flow: column nowrap;
-    -ms-flex-pack: center;
-        justify-content: center;
-    -ms-flex-align: center;
-        align-items: center;
-=======
   color: #404040;
   overflow-x: hidden;
   font-family: "Open Web"; }
@@ -1319,28 +1175,28 @@ form {
           height: 60px; }
         .page-template-contact-php #wpcf7-f113-p74-o2 form p textarea {
           height: 150px; }
-  .page-template-contact-php .contact-column {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-flow: column nowrap;
-        flex-flow: column nowrap;
-    width: auto;
-    height: 20rem;
-    margin-right: 2rem; }
-    .page-template-contact-php .contact-column h2 {
-      margin-bottom: 1rem; }
-    .page-template-contact-php .contact-column img {
-      height: 5rem;
-      width: 5rem; }
 
-#chicken {
-  margin-bottom: 6rem;
-  margin-right: 1rem; }
+.contact-column {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column nowrap;
+      flex-flow: column nowrap;
+  width: auto;
+  height: 20rem;
+  margin-right: 2rem; }
+  .contact-column h2 {
+    margin-bottom: 1rem; }
+  .contact-column img {
+    height: 5rem;
+    width: 5rem; }
 
 .contact-column-right {
   margin-top: 3rem; }
   .contact-column-right p {
     margin: 0px; }
+
+#canada-flag {
+  margin-top: 7rem; }
 
 .contact-column-outside {
   padding-top: 4rem;
@@ -1374,7 +1230,7 @@ form {
       justify-content: space-around;
   -ms-flex-align: center;
       align-items: center;
-  margin-top: 2rem;
+  margin-top: 4rem;
   margin-bottom: 2rem; }
   .footer-copyright p {
     padding: 0px;
@@ -1390,7 +1246,7 @@ form {
         justify-content: space-between;
     -ms-flex-align: center;
         align-items: center;
-    min-height: 55rem; }
+    min-height: 60rem; }
   .footer-top {
     -ms-flex-flow: column nowrap;
         flex-flow: column nowrap;
@@ -1398,7 +1254,6 @@ form {
         justify-content: center;
     -ms-flex-align: center;
         align-items: center;
->>>>>>> 761e89d6082d47736541bf30c1f5a4628ff102cc
     height: 50%; }
   .footer-bottom {
     -ms-flex-flow: column nowrap;
@@ -1429,11 +1284,8 @@ form {
     left: 3rem;
     top: 28rem; }
   .contact-column {
-<<<<<<< HEAD
     -ms-flex-flow: column nowrap;
         flex-flow: column nowrap;
-=======
->>>>>>> 761e89d6082d47736541bf30c1f5a4628ff102cc
     position: absolute;
     left: 6rem;
     top: 40rem;
@@ -1455,14 +1307,66 @@ form {
     left: 0; } }
 
 .blog-hero {
-  min-height: 40rem; }
+  background: url("../../assets/Images/Mobile/blog/Tekera_Blog_Teal mic.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 40rem;
+  position: relative; }
+  .blog-hero h1 {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    font-family: 'Shadows Into Light Web';
+    font-weight: normal;
+    font-style: normal;
+    color: #FFF;
+    font-size: 4rem;
+    padding-left: 2rem; }
 
 .blog-post-box {
   display: -ms-flexbox;
   display: flex;
-  position: relative; }
+  position: relative;
+  margin: 20px 0 20px 0;
+  width: 100vw;
+  height: 30rem; }
 
 .blog-title-wrapper {
+  -ms-flex-align: center;
+      align-items: center;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  padding: 1rem;
   position: absolute;
   bottom: 0;
-  color: #FFF; }
+  height: 50%;
+  background: rgba(32, 172, 175, 0.73);
+  text-decoration: none;
+  width: 60%; }
+  .blog-title-wrapper h3 {
+    font-family: 'Open Web';
+    font-weight: bold;
+    font-style: normal;
+    color: #FFF; }
+  .blog-title-wrapper p {
+    font-family: 'Open Web';
+    font-weight: 100;
+    font-style: normal;
+    color: #FFF; }
+
+.blog-triangle {
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-top: 7.5rem solid transparent;
+  border-bottom: 7.5rem solid transparent;
+  border-left: 8.75rem solid var rgba(32, 172, 175, 0.73);
+  z-index: 10000; }
