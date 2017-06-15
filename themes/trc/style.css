@@ -1343,6 +1343,7 @@ object {
   padding: 1rem;
   position: absolute;
   bottom: 0;
+<<<<<<< HEAD
   height: auto;
   background: url("../../assets/Images/Desktop/Tekera_DESKTOP_TriangleOverlay_Right.png");
   background-position: center;
@@ -1359,3 +1360,6 @@ object {
     font-weight: 100;
     font-style: normal;
     color: #FFF; }
+=======
+  color: #FFF; }
+>>>>>>> 13e491320ecf0eb176c191510f5ee60ee9238707
