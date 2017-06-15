@@ -117,11 +117,7 @@
 }
 
 @mixin desktop{
-<<<<<<< HEAD
-  @media screen and (min-width: $mobile-max-width) {
-=======
   @media screen and (min-width: $mobile-max-width){
->>>>>>> contact-us-branch
     @content;
   }
 }
