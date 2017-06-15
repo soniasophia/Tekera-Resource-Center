@@ -582,10 +582,12 @@ a {
         display: none; } }
   .site-header-wrapper .hamburger-menu {
     position: absolute; }
-    .site-header-wrapper .hamburger-menu ul a {
-      text-decoration: none; }
-      .site-header-wrapper .hamburger-menu ul a li {
-        list-style-type: none; }
+    .site-header-wrapper .hamburger-menu ul {
+      display: none; }
+      .site-header-wrapper .hamburger-menu ul a {
+        text-decoration: none; }
+        .site-header-wrapper .hamburger-menu ul a li {
+          list-style-type: none; }
     @media screen and (min-width: 640px) and (max-width: 1440px) {
       .site-header-wrapper .hamburger-menu {
         display: none; } }
@@ -639,6 +641,80 @@ div.tekera-triangles img {
 @media screen and (min-width: 640px) and (max-width: 1440px) {
   div.tekera-triangles {
     display: none; } }
+
+.site-main .carousel-cell {
+  height: 90vh;
+  width: 100vw; }
+  .site-main .carousel-cell .cycloneslider-slides.cycle-slideshow {
+    position: none; }
+  .site-main .carousel-cell .cycloneslider-pager {
+    position: absolute;
+    right: 40vw; }
+
+.site-main .going-to-school .frontpage-background-image img {
+  height: 100vh;
+  width: 100vw;
+  position: absolute; }
+
+.site-main .going-to-school .frontpage-overlay-image img {
+  position: relative;
+  top: 10.5rem;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 9.5rem; }
+
+.site-main .lunch-program .frontpage-background-image img {
+  height: 100vh;
+  width: 100vw;
+  position: absolute; }
+
+.site-main .lunch-program .frontpage-overlay-image img {
+  position: relative;
+  top: 12.5rem;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 9.5rem; }
+
+.site-main .smiling-woman .frontpage-background-image img {
+  height: 100vh;
+  width: 100vw;
+  position: absolute; }
+
+.site-main .smiling-woman .frontpage-overlay-image img {
+  position: relative;
+  top: 15rem;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 9.5rem; }
+
+.site-main .programs-info h1 {
+  color: #20ACAF;
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 38px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 3rem 2rem; }
+
+.site-main .programs-info .icons-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: center;
+      justify-content: center; }
+  .site-main .programs-info .icons-container .icons-wrapper {
+    width: 160px; }
+    .site-main .programs-info .icons-container .icons-wrapper img {
+      display: -ms-flexbox;
+      display: flex;
+      margin: 0 auto; }
+    .site-main .programs-info .icons-container .icons-wrapper p {
+      color: #072A3D;
+      font-size: 26px;
+      text-align: center; }
 
 /*--------------------------------------------------------------
 # Accessibility
@@ -924,7 +1000,6 @@ object {
 #bottom {
   margin-top: 1.5rem; }
 
-<<<<<<< HEAD
 /* Contact */
 .page-template-contact-php {
   margin: 30px;
@@ -985,146 +1060,131 @@ object {
       background-color: orange;
       box-shadow: none;
       border: none; }
-=======
-.contact-column {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-flow: column nowrap;
-      flex-flow: column nowrap;
-  width: auto;
-  height: 20rem;
-  margin-right: 2rem; }
-  .contact-column h2 {
-    margin-bottom: 1rem; }
-  .contact-column img {
-    height: 5rem;
-    width: 5rem; }
-
-#chicken {
-  margin-bottom: 6rem;
-  margin-right: 1rem; }
-
-.contact-column-right {
-  margin-top: 3rem; }
-  .contact-column-right p {
-    margin: 0px; }
-
-.contact-column-outside {
-  padding-top: 4rem;
-  margin-left: 2rem; }
-  .contact-column-outside p {
-    margin: 0px; }
-
-.contact-email p {
-  margin-top: 1rem; }
-
-.contact-spacer h3 {
-  margin-top: 2rem; }
-
-.quick-links-header {
-  display: none; }
-
-#how {
-  margin-left: 3rem; }
-
-#get-involved {
-  margin-left: 3rem; }
-
-.footer-copyright {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-flow: column nowrap;
-      flex-flow: column nowrap;
-  width: 100%;
-  height: 3rem;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -ms-flex-align: center;
-      align-items: center;
-  margin-top: 2rem;
-  margin-bottom: 2rem; }
-  .footer-copyright p {
-    padding: 0px;
-    margin: 0px; }
-
-@media screen and (max-width: 640px) {
-  .hider {
-    display: none; }
-  .footer-main-wrapper {
-    -ms-flex-flow: column nowrap;
-        flex-flow: column nowrap;
-    -ms-flex-pack: justify;
-        justify-content: space-between;
-    -ms-flex-align: center;
-        align-items: center;
-    min-height: 55rem; }
-  .footer-top {
-    -ms-flex-flow: column nowrap;
-        flex-flow: column nowrap;
-    -ms-flex-pack: center;
-        justify-content: center;
-    -ms-flex-align: center;
-        align-items: center;
-    height: 50%; }
-  .footer-bottom {
-    -ms-flex-flow: column nowrap;
-        flex-flow: column nowrap;
-    -ms-flex-pack: center;
-        justify-content: center;
-    -ms-flex-align: center;
-        align-items: center;
-    height: 50%; }
-  .social-media-box {
-    position: absolute;
-    left: 3rem;
-    top: 0; }
-  #who {
-    position: absolute;
-    left: 0;
-    top: 10rem; }
-  #what {
-    position: absolute;
-    left: 0;
-    top: 16.5rem; }
-  #how {
-    position: absolute;
-    left: 3rem;
-    top: 20rem; }
-  #get-involved {
-    position: absolute;
-    left: 3rem;
-    top: 28rem; }
-  .contact-column {
-    position: absolute;
-    left: 6rem;
-    top: 40rem;
-    margin: 0px; }
-  .quick-links-header {
+  .page-template-contact-php .contact-column {
     display: -ms-flexbox;
     display: flex;
-    position: absolute;
-    top: 7.5rem;
-    left: 3rem; }
-  .footer-copyright {
+    -ms-flex-flow: column nowrap;
+        flex-flow: column nowrap;
+    width: auto;
+    height: 20rem;
+    margin-right: 2rem; }
+    .page-template-contact-php .contact-column h2 {
+      margin-bottom: 1rem; }
+    .page-template-contact-php .contact-column img {
+      height: 5rem;
+      width: 5rem; }
+  .page-template-contact-php #chicken {
+    margin-bottom: 6rem;
+    margin-right: 1rem; }
+  .page-template-contact-php .contact-column-right {
+    margin-top: 3rem; }
+    .page-template-contact-php .contact-column-right p {
+      margin: 0px; }
+  .page-template-contact-php .contact-column-outside {
+    padding-top: 4rem;
+    margin-left: 2rem; }
+    .page-template-contact-php .contact-column-outside p {
+      margin: 0px; }
+  .page-template-contact-php .contact-email p {
+    margin-top: 1rem; }
+  .page-template-contact-php .contact-spacer h3 {
+    margin-top: 2rem; }
+  .page-template-contact-php .quick-links-header {
+    display: none; }
+  .page-template-contact-php #how {
+    margin-left: 3rem; }
+  .page-template-contact-php #get-involved {
+    margin-left: 3rem; }
+  .page-template-contact-php .footer-copyright {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: column nowrap;
+        flex-flow: column nowrap;
+    width: 100%;
+    height: 3rem;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-align: center;
+        align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem; }
+    .page-template-contact-php .footer-copyright p {
+      padding: 0px;
+      margin: 0px; }
+  @media screen and (max-width: 640px) {
+    .page-template-contact-php .hider {
+      display: none; }
+    .page-template-contact-php .footer-main-wrapper {
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+      -ms-flex-align: center;
+          align-items: center;
+      min-height: 55rem; }
+    .page-template-contact-php .footer-top {
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+      -ms-flex-pack: center;
+          justify-content: center;
+      -ms-flex-align: center;
+          align-items: center;
+      height: 50%; }
+    .page-template-contact-php .footer-bottom {
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+      -ms-flex-pack: center;
+          justify-content: center;
+      -ms-flex-align: center;
+          align-items: center;
+      height: 50%; }
+    .page-template-contact-php .social-media-box {
+      position: absolute;
+      left: 3rem;
+      top: 0; }
+    .page-template-contact-php #who {
+      position: absolute;
+      left: 0;
+      top: 10rem; }
+    .page-template-contact-php #what {
+      position: absolute;
+      left: 0;
+      top: 16.5rem; }
+    .page-template-contact-php #how {
+      position: absolute;
+      left: 3rem;
+      top: 20rem; }
+    .page-template-contact-php #get-involved {
+      position: absolute;
+      left: 3rem;
+      top: 28rem; }
+    .page-template-contact-php .contact-column {
+      position: absolute;
+      left: 6rem;
+      top: 40rem;
+      margin: 0px; }
+    .page-template-contact-php .quick-links-header {
+      display: -ms-flexbox;
+      display: flex;
+      position: absolute;
+      top: 7.5rem;
+      left: 3rem; }
+    .page-template-contact-php .footer-copyright {
+      position: absolute;
+      bottom: 0;
+      width: 17rem;
+      height: auto; }
+    .page-template-contact-php .flow-controller {
+      position: absolute;
+      bottom: -25px;
+      left: 0; } }
+  .page-template-contact-php .blog-hero {
+    min-height: 40rem; }
+  .page-template-contact-php .blog-post-box {
+    display: -ms-flexbox;
+    display: flex;
+    position: relative; }
+  .page-template-contact-php .blog-title-wrapper {
     position: absolute;
     bottom: 0;
-    width: 17rem;
-    height: auto; }
-  .flow-controller {
-    position: absolute;
-    bottom: -25px;
-    left: 0; } }
-
-.blog-hero {
-  min-height: 40rem; }
-
-.blog-post-box {
-  display: -ms-flexbox;
-  display: flex;
-  position: relative; }
-
-.blog-title-wrapper {
-  position: absolute;
-  bottom: 0;
-  color: #FFF; }
->>>>>>> footer-workbench
+    color: #FFF; }
