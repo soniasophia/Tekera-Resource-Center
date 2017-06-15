@@ -1399,8 +1399,9 @@ object {
     font-weight: normal;
     font-style: normal;
     color: #FFF;
-    font-size: 4rem;
-    padding-left: 2rem; }
+    font-size: 3rem;
+    padding-left: 2rem;
+    padding-right: 1rem; }
 
 .blog-post-box {
   display: -ms-flexbox;
