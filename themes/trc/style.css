@@ -372,6 +372,11 @@ hr {
   height: 1px;
   margin-bottom: 1.5rem; }
 
+a {
+  text-decoration: none; }
+  a:hover {
+    cursor: pointer; }
+
 ul, ol {
   margin: 0 0 1.5rem 3rem; }
 
@@ -577,7 +582,7 @@ a {
     padding-top: 0;
     -ms-flex: 0 1 20%;
         flex: 0 1 20%; }
-    @media screen and (min-width: 640px) and (max-width: 1440px) {
+    @media screen and (min-width: 640px) {
       .site-header-wrapper .hamburger {
         display: none; } }
   .site-header-wrapper .hamburger-menu {
@@ -586,7 +591,7 @@ a {
       text-decoration: none; }
       .site-header-wrapper .hamburger-menu ul a li {
         list-style-type: none; }
-    @media screen and (min-width: 640px) and (max-width: 1440px) {
+    @media screen and (min-width: 640px) {
       .site-header-wrapper .hamburger-menu {
         display: none; } }
   .site-header-wrapper .tekera-site-logo {
@@ -598,7 +603,7 @@ a {
     padding-right: 3rem;
     -ms-flex: 0 1 60%;
         flex: 0 1 60%; }
-    @media screen and (min-width: 640px) and (max-width: 1440px) {
+    @media screen and (min-width: 640px) {
       .site-header-wrapper .tekera-site-text {
         -ms-flex: 0 1 20%;
             flex: 0 1 20%; } }
@@ -636,7 +641,7 @@ a {
 div.tekera-triangles img {
   height: 100%; }
 
-@media screen and (min-width: 640px) and (max-width: 1440px) {
+@media screen and (min-width: 640px) {
   div.tekera-triangles {
     display: none; } }
 
@@ -748,35 +753,94 @@ div.tekera-triangles img {
 .bypostauthor {
   display: block; }
 
-/* Single Blog Post Pages */
+/* Single Blog Post Page */
+.single-post .site-header {
+  margin-bottom: 0; }
+
 .single-post h1 {
   font-family: 'Shadows Into Light Web';
   font-weight: normal;
   font-style: normal;
-  position: absolute;
-  bottom: 3.5rem;
   color: white;
-  width: 40%;
-  margin-left: 2.5rem;
-  line-height: 2; }
+  line-height: 2;
+  width: 100%;
+  font-size: 2.3rem;
+  text-shadow: 1px 1px 2px black; }
+  @media screen and (min-width: 640px) {
+    .single-post h1 {
+      font-size: 5.5rem; } }
 
-.single-post img {
-  position: relative; }
+.single-post .entry-title-container {
+  position: absolute;
+  width: 35%;
+  bottom: 1rem;
+  margin: 0 2rem; }
+  @media screen and (min-width: 640px) {
+    .single-post .entry-title-container {
+      width: 60%;
+      margin: 0 9rem;
+      bottom: -10rem; } }
 
 .single-post .entry-meta {
   display: none; }
+  .single-post .entry-meta .byline, .single-post .entry-meta .author, .single-post .entry-meta .comments-link {
+    display: none; }
+  @media screen and (min-width: 640px) {
+    .single-post .entry-meta {
+      display: inline-block; } }
 
 .single-post .entry-content {
   font-family: 'Open Web';
-  font-weight: normal;
+  font-weight: 100;
   font-style: normal;
-  width: 380px;
+  width: 80%;
   margin: 0 auto;
   margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
   line-height: 2; }
 
 .single-post .comments-area, .single-post .widget-area, .single-post .search-form {
   display: none; }
+
+.single-post .related-posts {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center; }
+  .single-post .related-posts p {
+    font-size: 1.2rem;
+    font-weight: 100;
+    color: #072A3D; }
+  .single-post .related-posts .post-navigation .nav-next {
+    width: 100%;
+    float: none; }
+
+.single-post .social-share {
+  text-align: center;
+  margin-bottom: 3.4rem; }
+  .single-post .social-share p {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 100;
+    color: #072A3D; }
+
+.single-post .featured-image-container {
+  height: 80vh;
+  background-color: lightgrey;
+  overflow: hidden; }
+  @media screen and (min-width: 640px) {
+    .single-post .featured-image-container {
+      height: 100vh; } }
+  .single-post .featured-image-container img {
+    position: relative;
+    object-fit: cover;
+    height: 100%; }
+    @media screen and (min-width: 640px) {
+      .single-post .featured-image-container img {
+        height: auto;
+        width: 100%; } }
 
 /*--------------------------------------------------------------
 # Media
@@ -1102,6 +1166,7 @@ object {
       position: absolute;
       bottom: -25px;
       left: 0; } }
+<<<<<<< HEAD
   .page-template-contact-php .blog-hero {
     min-height: 40rem; }
   .page-template-contact-php .blog-post-box {
@@ -1112,3 +1177,18 @@ object {
     position: absolute;
     bottom: 0;
     color: #FFF; }
+=======
+
+.blog-hero {
+  min-height: 40rem; }
+
+.blog-post-box {
+  display: -ms-flexbox;
+  display: flex;
+  position: relative; }
+
+.blog-title-wrapper {
+  position: absolute;
+  bottom: 0;
+  color: #FFF; }
+>>>>>>> 475350a871175ba98d634a5ac8b3f87fb1e0b73f
