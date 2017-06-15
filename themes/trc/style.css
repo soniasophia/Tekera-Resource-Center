@@ -261,7 +261,7 @@ th {
   font-family: 'Open Web';
   src: url("../../assets/fonts/open/opensans-light-webfont.eot");
   src: url("../../assets/fonts/open/opensans-light-webfont.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/open/opensans-light-webfont.woff2") format("woff2"), url("../../assets/fonts/open/opensans-light-webfont.woff") format("woff"), url("../../assets/fonts/open/opensans-light-webfont.ttf") format("truetype");
-  font-weight: light;
+  font-weight: 100;
   font-style: normal; }
 
 @font-face {
@@ -1175,28 +1175,28 @@ object {
           height: 60px; }
         .page-template-contact-php #wpcf7-f113-p74-o2 form p textarea {
           height: 150px; }
-  .page-template-contact-php .contact-column {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-flow: column nowrap;
-        flex-flow: column nowrap;
-    width: auto;
-    height: 20rem;
-    margin-right: 2rem; }
-    .page-template-contact-php .contact-column h2 {
-      margin-bottom: 1rem; }
-    .page-template-contact-php .contact-column img {
-      height: 5rem;
-      width: 5rem; }
 
-#chicken {
-  margin-bottom: 6rem;
-  margin-right: 1rem; }
+.contact-column {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column nowrap;
+      flex-flow: column nowrap;
+  width: auto;
+  height: 20rem;
+  margin-right: 2rem; }
+  .contact-column h2 {
+    margin-bottom: 1rem; }
+  .contact-column img {
+    height: 5rem;
+    width: 5rem; }
 
 .contact-column-right {
   margin-top: 3rem; }
   .contact-column-right p {
     margin: 0px; }
+
+#canada-flag {
+  margin-top: 7rem; }
 
 .contact-column-outside {
   padding-top: 4rem;
@@ -1230,7 +1230,7 @@ object {
       justify-content: space-around;
   -ms-flex-align: center;
       align-items: center;
-  margin-top: 2rem;
+  margin-top: 4rem;
   margin-bottom: 2rem; }
   .footer-copyright p {
     padding: 0px;
@@ -1246,7 +1246,7 @@ object {
         justify-content: space-between;
     -ms-flex-align: center;
         align-items: center;
-    min-height: 55rem; }
+    min-height: 60rem; }
   .footer-top {
     -ms-flex-flow: column nowrap;
         flex-flow: column nowrap;
@@ -1284,11 +1284,8 @@ object {
     left: 3rem;
     top: 28rem; }
   .contact-column {
-<<<<<<< HEAD
     -ms-flex-flow: column nowrap;
         flex-flow: column nowrap;
-=======
->>>>>>> 761e89d6082d47736541bf30c1f5a4628ff102cc
     position: absolute;
     left: 6rem;
     top: 40rem;
@@ -1310,14 +1307,59 @@ object {
     left: 0; } }
 
 .blog-hero {
-  min-height: 40rem; }
+  background: url("../../assets/Images/Mobile/blog/Tekera_Blog_Teal mic.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 40rem;
+  position: relative; }
+  .blog-hero h1 {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    font-family: 'Shadows Into Light Web';
+    font-weight: normal;
+    font-style: normal;
+    color: #FFF;
+    font-size: 4rem;
+    padding-left: 2rem; }
 
 .blog-post-box {
   display: -ms-flexbox;
   display: flex;
-  position: relative; }
+  position: relative;
+  margin: 20px 0 20px 0;
+  width: 100vw;
+  height: 30rem; }
 
 .blog-title-wrapper {
+  -ms-flex-align: center;
+      align-items: center;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  padding: 1rem;
   position: absolute;
   bottom: 0;
+<<<<<<< HEAD
+  height: auto;
+  background: url("../../assets/Images/Desktop/Tekera_DESKTOP_TriangleOverlay_Right.png");
+  background-position: center;
+  background-size: cover;
+  text-decoration: none;
+  width: 100%; }
+  .blog-title-wrapper h3 {
+    font-family: 'Open Web';
+    font-weight: bold;
+    font-style: normal;
+    color: #FFF; }
+  .blog-title-wrapper p {
+    font-family: 'Open Web';
+    font-weight: 100;
+    font-style: normal;
+    color: #FFF; }
+=======
   color: #FFF; }
+>>>>>>> 13e491320ecf0eb176c191510f5ee60ee9238707

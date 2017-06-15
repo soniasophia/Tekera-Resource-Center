@@ -146,7 +146,7 @@
       padding-top: 10px;
     }
   }
-}
+
   .hero-banner {
     background: url("../../assets/Images/Mobile/contact/Tekera_Contact us_Vocational school.png");
     @include desktop {
@@ -304,6 +304,8 @@
       }
     }
   }
+}
+  
 
 .contact-column {
   display: flex;
@@ -319,7 +321,7 @@
     width: 5rem;
   }
 }
-}
+
 
 .contact-column-right {
   margin-top: 3rem;
@@ -464,20 +466,55 @@
   }
 }
 
-
 // Blog
 
 .blog-hero {
+  background: url('../../assets/Images/Mobile/blog/Tekera_Blog_Teal mic.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
   min-height: 40rem;
+  position: relative;
+  h1 {
+    align-self: flex-start;
+    @include shadows;
+    color: #FFF;
+    font-size: 4rem;
+    padding-left: 2rem;
+  }  
 }
 
 .blog-post-box {
   display: flex;
   position: relative;
+  margin: 20px 0 20px 0;
+  width: 100vw;
+  height: 30rem;
 }
 
 .blog-title-wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
   position: absolute;
   bottom: 0;
-  color: #FFF;
+  height: auto;
+  background: url('../../assets/Images/Desktop/Tekera_DESKTOP_TriangleOverlay_Right.png');
+  background-position: center;
+  background-size: cover;
+  text-decoration: none;
+  width: 100%;
+  h3 {
+    @include font-open-bold;
+    color: #FFF;
+  }
+  p {
+    @include font-open-light;
+    color: #FFF;
+  }
 }
+
+
+
