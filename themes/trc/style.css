@@ -787,7 +787,10 @@ div.tekera-triangles img {
     display: none; }
   @media screen and (min-width: 640px) {
     .single-post .entry-meta {
-      display: inline-block; } }
+      display: inline-block;
+      margin-top: 4.5rem;
+      font-weight: 100;
+      font-size: 1.3rem; } }
 
 .single-post .entry-content {
   font-family: 'Open Web';

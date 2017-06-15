@@ -23,7 +23,30 @@ get_header(); ?>
 
 			<div class="related-posts">
 				<p>You might also like</p>
-				<?php the_post_navigation(); ?>
+        <div class="more-blog-posts">
+
+          <?php
+          // A loop of more blog posts in place of the post navigation function.
+          $latestposts = get_posts( array(
+        		'posts_per_page' => 3,
+            'order' => 'DES'
+          ) );
+
+          if ( $latestposts ) {
+        	foreach ( $latestposts as $post ) :
+      		setup_postdata( $post ); ?>
+          
+				<div class="blog-post">
+        	<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+        	<?php the_post_thumbnail(); ?>
+        </div>
+          <?php
+          endforeach;
+          wp_reset_postdata();
+          }
+          ?>
+        </div>
+      </div>
 				</div>
 
 			<?php
