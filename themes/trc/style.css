@@ -920,17 +920,14 @@ object {
   font-family: 'Open Web';
   font-weight: 100;
   font-style: normal;
-  min-height: 45rem;
+  min-height: 50rem;
   font-size: 0.85rem;
   min-width: 100%; }
   .footer-main-wrapper h2 {
     text-transform: uppercase;
     font-weight: 300; }
   .footer-main-wrapper p {
-    font-size: 1rem;
-    font-family: 'Open Web';
-    font-weight: 100;
-    font-style: normal; }
+    font-size: 1rem; }
 
 .footer-top {
   display: -ms-flexbox;
@@ -994,190 +991,195 @@ object {
   overflow-x: hidden; }
   .page-template-contact-php h1 {
     margin: 20px; }
-  .page-template-contact-php .hero-banner {
-    height: 500px;
-    background-color: red;
-    margin: 20px; }
-  .page-template-contact-php .container {
-    width: 90%;
-    margin: auto; }
-  .page-template-contact-php .contact-info {
-    margin: 60px auto; }
-    .page-template-contact-php .contact-info h2 {
-      text-transform: uppercase; }
-    .page-template-contact-php .contact-info .info-div {
-      margin: 20px 0; }
-    .page-template-contact-php .contact-info p {
-      margin: 0px; }
-  .page-template-contact-php .thanks {
-    position: relative;
-    text-align: center;
-    overflow: hidden;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: center;
-        justify-content: center; }
-    .page-template-contact-php .thanks .arrow-down {
-      width: 1px;
-      height: 1px;
-      border-left: 60vw solid transparent;
-      border-right: 60vw solid transparent;
-      border-top: 150px solid #f00;
-      overflow: hidden; }
-    .page-template-contact-php .thanks .thanks-text {
-      width: 240px;
-      position: absolute;
-      top: 0px;
-      left: 50%;
-      margin-left: -120px; }
-  .page-template-contact-php form {
-    text-align: center; }
-    .page-template-contact-php form fieldset {
-      text-align: left;
-      margin: 0;
-      padding: 0;
-      border: none; }
-      .page-template-contact-php form fieldset input {
-        width: 100%;
-        margin-bottom: 20px; }
-    .page-template-contact-php form button {
-      color: white;
-      margin: 40px;
-      width: 30%;
-      height: 40px;
-      background-color: orange;
-      box-shadow: none;
-      border: none; }
-  .page-template-contact-php .contact-column {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-flow: column nowrap;
-        flex-flow: column nowrap;
-    width: auto;
-    height: 20rem;
-    margin-right: 2rem; }
-    .page-template-contact-php .contact-column h2 {
-      margin-bottom: 1rem; }
-    .page-template-contact-php .contact-column img {
-      height: 5rem;
-      width: 5rem; }
-  .page-template-contact-php #chicken {
-    margin-bottom: 6rem;
-    margin-right: 1rem; }
-  .page-template-contact-php .contact-column-right {
-    margin-top: 3rem; }
-    .page-template-contact-php .contact-column-right p {
-      margin: 0px; }
-  .page-template-contact-php .contact-column-outside {
-    padding-top: 4rem;
-    margin-left: 2rem; }
-    .page-template-contact-php .contact-column-outside p {
-      margin: 0px; }
-  .page-template-contact-php .contact-email p {
-    margin-top: 1rem; }
-  .page-template-contact-php .contact-spacer h3 {
-    margin-top: 2rem; }
-  .page-template-contact-php .quick-links-header {
+
+.hero-banner {
+  height: 500px;
+  background-color: red;
+  margin: 20px; }
+
+.container {
+  width: 90%;
+  margin: auto; }
+
+.contact-info {
+  margin: 60px auto; }
+  .contact-info h2 {
+    text-transform: uppercase; }
+  .contact-info .info-div {
+    margin: 20px 0; }
+  .contact-info p {
+    margin: 0px; }
+
+.thanks {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center; }
+  .thanks .arrow-down {
+    width: 1px;
+    height: 1px;
+    border-left: 60vw solid transparent;
+    border-right: 60vw solid transparent;
+    border-top: 150px solid #f00;
+    overflow: hidden; }
+  .thanks .thanks-text {
+    width: 240px;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    margin-left: -120px; }
+
+form {
+  text-align: center; }
+  form fieldset {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    border: none; }
+    form fieldset input {
+      width: 100%;
+      margin-bottom: 20px; }
+  form button {
+    color: white;
+    margin: 40px;
+    width: 30%;
+    height: 40px;
+    background-color: orange;
+    box-shadow: none;
+    border: none; }
+
+.contact-column {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column nowrap;
+      flex-flow: column nowrap;
+  width: auto;
+  height: 20rem;
+  margin-right: 2rem; }
+  .contact-column h2 {
+    margin-bottom: 1rem; }
+  .contact-column img {
+    height: 5rem;
+    width: 5rem; }
+
+.contact-column-right {
+  margin-top: 3rem; }
+  .contact-column-right p {
+    margin: 0px; }
+
+#canada-flag {
+  margin-top: 7rem; }
+
+.contact-column-outside {
+  padding-top: 4rem;
+  margin-left: 2rem; }
+  .contact-column-outside p {
+    margin: 0px; }
+
+.contact-email p {
+  margin-top: 1rem; }
+
+.contact-spacer h3 {
+  margin-top: 2rem; }
+
+.quick-links-header {
+  display: none; }
+
+#how {
+  margin-left: 3rem; }
+
+#get-involved {
+  margin-left: 3rem; }
+
+.footer-copyright {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column nowrap;
+      flex-flow: column nowrap;
+  width: 100%;
+  height: 3rem;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-align: center;
+      align-items: center;
+  margin-top: 4rem;
+  margin-bottom: 2rem; }
+  .footer-copyright p {
+    padding: 0px;
+    margin: 0px; }
+
+@media screen and (max-width: 640px) {
+  .hider {
     display: none; }
-  .page-template-contact-php #how {
-    margin-left: 3rem; }
-  .page-template-contact-php #get-involved {
-    margin-left: 3rem; }
-  .page-template-contact-php .footer-copyright {
-    display: -ms-flexbox;
-    display: flex;
+  .footer-main-wrapper {
     -ms-flex-flow: column nowrap;
         flex-flow: column nowrap;
-    width: 100%;
-    height: 3rem;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
     -ms-flex-align: center;
         align-items: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem; }
-    .page-template-contact-php .footer-copyright p {
-      padding: 0px;
-      margin: 0px; }
-  @media screen and (max-width: 640px) {
-    .page-template-contact-php .hider {
-      display: none; }
-    .page-template-contact-php .footer-main-wrapper {
-      -ms-flex-flow: column nowrap;
-          flex-flow: column nowrap;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-      -ms-flex-align: center;
-          align-items: center;
-      min-height: 55rem; }
-    .page-template-contact-php .footer-top {
-      -ms-flex-flow: column nowrap;
-          flex-flow: column nowrap;
-      -ms-flex-pack: center;
-          justify-content: center;
-      -ms-flex-align: center;
-          align-items: center;
-      height: 50%; }
-    .page-template-contact-php .footer-bottom {
-      -ms-flex-flow: column nowrap;
-          flex-flow: column nowrap;
-      -ms-flex-pack: center;
-          justify-content: center;
-      -ms-flex-align: center;
-          align-items: center;
-      height: 50%; }
-    .page-template-contact-php .social-media-box {
-      position: absolute;
-      left: 3rem;
-      top: 0; }
-    .page-template-contact-php #who {
-      position: absolute;
-      left: 0;
-      top: 10rem; }
-    .page-template-contact-php #what {
-      position: absolute;
-      left: 0;
-      top: 16.5rem; }
-    .page-template-contact-php #how {
-      position: absolute;
-      left: 3rem;
-      top: 20rem; }
-    .page-template-contact-php #get-involved {
-      position: absolute;
-      left: 3rem;
-      top: 28rem; }
-    .page-template-contact-php .contact-column {
-      position: absolute;
-      left: 6rem;
-      top: 40rem;
-      margin: 0px; }
-    .page-template-contact-php .quick-links-header {
-      display: -ms-flexbox;
-      display: flex;
-      position: absolute;
-      top: 7.5rem;
-      left: 3rem; }
-    .page-template-contact-php .footer-copyright {
-      position: absolute;
-      bottom: 0;
-      width: 17rem;
-      height: auto; }
-    .page-template-contact-php .flow-controller {
-      position: absolute;
-      bottom: -25px;
-      left: 0; } }
-<<<<<<< HEAD
-  .page-template-contact-php .blog-hero {
-    min-height: 40rem; }
-  .page-template-contact-php .blog-post-box {
+    min-height: 60rem; }
+  .footer-top {
+    -ms-flex-flow: column nowrap;
+        flex-flow: column nowrap;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+    height: 50%; }
+  .footer-bottom {
+    -ms-flex-flow: column nowrap;
+        flex-flow: column nowrap;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+    height: 50%; }
+  .social-media-box {
+    position: absolute;
+    left: 3rem;
+    top: 0; }
+  #who {
+    position: absolute;
+    left: 0;
+    top: 10rem; }
+  #what {
+    position: absolute;
+    left: 0;
+    top: 16.5rem; }
+  #how {
+    position: absolute;
+    left: 3rem;
+    top: 20rem; }
+  #get-involved {
+    position: absolute;
+    left: 3rem;
+    top: 28rem; }
+  .contact-column {
+    -ms-flex-flow: column nowrap;
+        flex-flow: column nowrap;
+    position: absolute;
+    left: 6rem;
+    top: 40rem;
+    margin: 0px; }
+  .quick-links-header {
     display: -ms-flexbox;
     display: flex;
-    position: relative; }
-  .page-template-contact-php .blog-title-wrapper {
+    position: absolute;
+    top: 7.5rem;
+    left: 3rem; }
+  .footer-copyright {
     position: absolute;
     bottom: 0;
-    color: #FFF; }
-=======
+    width: 17rem;
+    height: auto; }
+  .flow-controller {
+    position: absolute;
+    bottom: -25px;
+    left: 0; } }
 
 .blog-hero {
   min-height: 40rem; }
@@ -1191,4 +1193,3 @@ object {
   position: absolute;
   bottom: 0;
   color: #FFF; }
->>>>>>> 475350a871175ba98d634a5ac8b3f87fb1e0b73f

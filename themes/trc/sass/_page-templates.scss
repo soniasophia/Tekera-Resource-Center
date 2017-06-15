@@ -17,7 +17,7 @@
   padding-top: 3rem;
   position: relative;
   @include font-open-light;
-  min-height: 45rem;
+  min-height: 50rem;
   font-size: 0.85rem;
   min-width: 100%;
   h2 {
@@ -26,7 +26,6 @@
   }
   p {
     font-size: 1rem;
-    @include font-open-light;
   }
 }
 
@@ -88,10 +87,6 @@
   margin-top: 1.5rem;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 475350a871175ba98d634a5ac8b3f87fb1e0b73f
 /* Contact */
 
 .page-template-contact-php {
@@ -100,6 +95,7 @@
   h1 {
     margin: 20px;
   }
+}
   .hero-banner {
     height: 500px;
     background-color: red;
@@ -181,16 +177,15 @@
   }
 }
 
-#chicken {
-  margin-bottom: 6rem;
-  margin-right: 1rem;  
-}
-
 .contact-column-right {
   margin-top: 3rem;
   p {
     margin: 0px;
   }
+}
+
+#canada-flag {
+  margin-top: 7rem;
 }
 
 .contact-column-outside {
@@ -232,7 +227,7 @@
   height: 3rem;
   justify-content: space-around;
   align-items: center;
-  margin-top: 2rem;
+  margin-top: 4rem;
   margin-bottom: 2rem;
   p {
     padding: 0px;
@@ -249,7 +244,7 @@
     flex-flow: column nowrap;
     justify-content: space-between;
     align-items: center;
-    min-height: 55rem;
+    min-height: 60rem;
   }
 
   .footer-top {
@@ -297,6 +292,7 @@
   }
 
   .contact-column {
+    flex-flow: column nowrap;
     position: absolute;
     left: 6rem;
     top: 40rem;  
@@ -323,7 +319,7 @@
     left: 0;
   }
 }
-}
+
 
 // Blog
 
@@ -340,4 +336,4 @@
   position: absolute;
   bottom: 0;
   color: #FFF;
-}}  
+}

@@ -51,15 +51,15 @@
 						</div><!--footer-box-->
             <div class="contact-column">
 							<h2>contact</h2>
-							<img class="hider" id="chicken" src="<?php echo get_template_directory_uri(); ?>/assets/Icons/Desktop/png/Tekera_Icon_Uganda.png">
-              <img class="hider" id="canada" src="<?php echo get_template_directory_uri(); ?>/assets/Icons/Desktop/png/Tekera_Icon_Canda.png">  							
+							<img class="hider" id="uganda-icon" src="<?php echo get_template_directory_uri(); ?>/assets/Icons/Desktop/png/Tekera_Icon_Uganda.png">
+              <img class="hider" id="canada-flag" src="<?php echo get_template_directory_uri(); ?>/assets/Icons/Desktop/png/Tekera_Icon_Canda.png">  							
             </div><!--contact-column-->
 						<div class="contact-column-right hider">
 						  <h3>Uganda</h3>
 						  <p>Tekera Resource Center</p>
 						  <p>P.O. Box 960</p>
 						  <p>Masaka, Uganda</p>
-						  <span class="contact-emailhider"><p>tekeraresourcecentre@gmail.com</p></span>	
+						  <span class="contact-email hider"><p>tekeraresourcecentre@gmail.com</p></span>	
 							<span class="contact-spacer"><h3>Canada</h3></span>
 							<p>5730 Sherwood Blvd</p>
 							<p>Delta BC, Canada</p>
@@ -81,7 +81,7 @@
 					<div class="footer-copyright">
 					  <p>&copy; 2017 TEKERA RESOURCE CENTRE, All Rights Reserved.</p>
 					  <span class="flow-controller"><p>NGO #S.5914/6996</p></span>
-					</div>	
+					</div><!--footer-copyright-->	
 				</div><!--footer-main-wrapper-->	
 			</footer><!--#colophon-->
 		</div><!--#page-->
