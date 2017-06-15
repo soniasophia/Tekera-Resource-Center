@@ -117,7 +117,7 @@
 }
 
 @mixin desktop{
-  @media screen and (min-width: $desktop-width){
+  @media screen and (min-width: $mobile-max-width){
     @content;
   }
 }
