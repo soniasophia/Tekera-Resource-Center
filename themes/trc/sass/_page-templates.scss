@@ -476,6 +476,7 @@
   display: flex;
   min-height: 40rem;
   position: relative;
+  margin: 0px;
   h1 {
     align-self: flex-start;
     @include shadows;
@@ -488,16 +489,19 @@
 .blog-post-box {
   display: flex;
   position: relative;
-  margin: 20px 0 20px 0;
+  margin: 30px 0 30px 0;
   width: 100vw;
   height: 30rem;
+  img {
+    
+  }
 }
 
 .blog-title-wrapper {
   align-items: center;
   display: flex;
   justify-content: center;
-  padding: 1rem;
+  padding: 1rem 3rem 1rem 1rem;
   position: absolute;
   bottom: 0;
   height: auto;

@@ -587,10 +587,12 @@ a {
         display: none; } }
   .site-header-wrapper .hamburger-menu {
     position: absolute; }
-    .site-header-wrapper .hamburger-menu ul a {
-      text-decoration: none; }
-      .site-header-wrapper .hamburger-menu ul a li {
-        list-style-type: none; }
+    .site-header-wrapper .hamburger-menu ul {
+      display: none; }
+      .site-header-wrapper .hamburger-menu ul a {
+        text-decoration: none; }
+        .site-header-wrapper .hamburger-menu ul a li {
+          list-style-type: none; }
     @media screen and (min-width: 640px) {
       .site-header-wrapper .hamburger-menu {
         display: none; } }
@@ -644,6 +646,80 @@ div.tekera-triangles img {
 @media screen and (min-width: 640px) {
   div.tekera-triangles {
     display: none; } }
+
+.site-main .carousel-cell {
+  height: 90vh;
+  width: 100vw; }
+  .site-main .carousel-cell .cycloneslider-slides.cycle-slideshow {
+    position: none; }
+  .site-main .carousel-cell .cycloneslider-pager {
+    position: absolute;
+    right: 40vw; }
+
+.site-main .going-to-school .frontpage-background-image img {
+  height: 100vh;
+  width: 100vw;
+  position: absolute; }
+
+.site-main .going-to-school .frontpage-overlay-image img {
+  position: relative;
+  top: 10.5rem;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 9.5rem; }
+
+.site-main .lunch-program .frontpage-background-image img {
+  height: 100vh;
+  width: 100vw;
+  position: absolute; }
+
+.site-main .lunch-program .frontpage-overlay-image img {
+  position: relative;
+  top: 12.5rem;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 9.5rem; }
+
+.site-main .smiling-woman .frontpage-background-image img {
+  height: 100vh;
+  width: 100vw;
+  position: absolute; }
+
+.site-main .smiling-woman .frontpage-overlay-image img {
+  position: relative;
+  top: 15rem;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 9.5rem; }
+
+.site-main .programs-info h1 {
+  color: #20ACAF;
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 38px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 3rem 2rem; }
+
+.site-main .programs-info .icons-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: center;
+      justify-content: center; }
+  .site-main .programs-info .icons-container .icons-wrapper {
+    width: 160px; }
+    .site-main .programs-info .icons-container .icons-wrapper img {
+      display: -ms-flexbox;
+      display: flex;
+      margin: 0 auto; }
+    .site-main .programs-info .icons-container .icons-wrapper p {
+      color: #072A3D;
+      font-size: 26px;
+      text-align: center; }
 
 /*--------------------------------------------------------------
 # Accessibility
@@ -1314,7 +1390,8 @@ object {
   display: -ms-flexbox;
   display: flex;
   min-height: 40rem;
-  position: relative; }
+  position: relative;
+  margin: 0px; }
   .blog-hero h1 {
     -ms-flex-item-align: start;
         align-self: flex-start;
@@ -1329,7 +1406,7 @@ object {
   display: -ms-flexbox;
   display: flex;
   position: relative;
-  margin: 20px 0 20px 0;
+  margin: 30px 0 30px 0;
   width: 100vw;
   height: 30rem; }
 
@@ -1340,10 +1417,9 @@ object {
   display: flex;
   -ms-flex-pack: center;
       justify-content: center;
-  padding: 1rem;
+  padding: 1rem 3rem 1rem 1rem;
   position: absolute;
   bottom: 0;
-<<<<<<< HEAD
   height: auto;
   background: url("../../assets/Images/Desktop/Tekera_DESKTOP_TriangleOverlay_Right.png");
   background-position: center;
@@ -1360,6 +1436,3 @@ object {
     font-weight: 100;
     font-style: normal;
     color: #FFF; }
-=======
-  color: #FFF; }
->>>>>>> 13e491320ecf0eb176c191510f5ee60ee9238707
