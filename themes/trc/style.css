@@ -1408,8 +1408,12 @@ object {
   display: flex;
   position: relative;
   margin: 30px 0 30px 0;
-  width: 100vw;
+  max-width: 40rem;
   height: 30rem; }
+  .blog-post-box img {
+    overflow: hidden;
+    width: 100%;
+    max-height: auto; }
 
 .blog-title-wrapper {
   -ms-flex-align: center;
@@ -1437,3 +1441,34 @@ object {
     font-weight: 100;
     font-style: normal;
     color: #FFF; }
+
+.breakhide {
+  display: none; }
+
+@media screen and (min-width: 640px) {
+  .blog-main-wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    -ms-flex-pack: justify;
+        justify-content: space-between; }
+  .blog-hero h1 {
+    font-size: 6rem; }
+  .blog-post-box {
+    min-width: 48%;
+    height: 40rem; }
+  .more-blogs-button {
+    background: url("../../assets/Images/Desktop/Load More shape_Desktop.png");
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 2rem; }
+    .more-blogs-button h2 {
+      font-family: 'Open Web';
+      font-weight: normal;
+      font-style: normal;
+      text-decoration: none;
+      color: #FFF; }
+  .breakhide {
+    display: inline; } }
