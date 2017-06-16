@@ -1144,7 +1144,7 @@ div.tekera-triangles img {
   -ms-flex-pack: justify;
       justify-content: space-between;
   margin-bottom: 4.5rem; }
-  @media screen and (min-width: 320px) and (max-width: 640px) {
+  @media screen and (min-width: 200px) and (max-width: 640px) {
     .single-post .latest-blog-posts {
       display: none; } }
   .single-post .latest-blog-posts h3 {
@@ -1683,6 +1683,75 @@ object {
     font-style: normal;
     color: #FFF; }
 
+.more-blogs-button-mobile {
+  -ms-flex-align: center;
+      align-items: center;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  background: url("../../assets/Images/Mobile/Load More Shape_mobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 8rem;
+  min-width: 100%;
+  text-transform: uppercase;
+  margin-bottom: 2rem; }
+  .more-blogs-button-mobile h2 {
+    font-family: 'Open Web';
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    color: #FFF; }
+
+.breakhide {
+  display: none; }
+
+@media screen and (min-width: 640px) {
+  .blog-main-wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    width: 100vw; }
+  .blog-hero h1 {
+    font-size: 6rem; }
+  .blog-post-box {
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: -ms-flexbox;
+    display: flex;
+    height: auto;
+    width: 48%;
+    max-width: 48%;
+    height: 40rem; }
+  .more-blogs-button {
+    -ms-flex-align: center;
+        align-items: center;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    background: url("../../assets/Images/Desktop/Load More shape_Desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 8rem;
+    min-width: 100%;
+    text-transform: uppercase;
+    margin-bottom: 2rem; }
+    .more-blogs-button h2 {
+      font-family: 'Open Web';
+      font-weight: normal;
+      font-style: normal;
+      text-decoration: none;
+      color: #FFF; }
+  .breakhide {
+    display: inline; } }
+
 .who-we-are-page {
   font-family: "Open Web"; }
   .who-we-are-page .herobanner {
@@ -1802,71 +1871,3 @@ object {
             .who-we-are-page .bottom-image .bottom-blue .bottom-phrase ul {
               padding-left: 80px;
               margin-right: 0px; } }
-.more-blogs-button-mobile {
-  -ms-flex-align: center;
-      align-items: center;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: center;
-      justify-content: center;
-  background: url("../../assets/Images/Mobile/Load More Shape_mobile.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 8rem;
-  min-width: 100%;
-  text-transform: uppercase;
-  margin-bottom: 2rem; }
-  .more-blogs-button-mobile h2 {
-    font-family: 'Open Web';
-    font-weight: normal;
-    font-style: normal;
-    text-decoration: none;
-    color: #FFF; }
-
-.breakhide {
-  display: none; }
-
-@media screen and (min-width: 640px) {
-  .blog-main-wrapper {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-flow: row wrap;
-        flex-flow: row wrap;
-    -ms-flex-pack: justify;
-        justify-content: space-between;
-    width: 100vw; }
-  .blog-hero h1 {
-    font-size: 6rem; }
-  .blog-post-box {
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: -ms-flexbox;
-    display: flex;
-    height: auto;
-    width: 48%;
-    max-width: 48%;
-    height: 40rem; }
-  .more-blogs-button {
-    -ms-flex-align: center;
-        align-items: center;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: center;
-        justify-content: center;
-    background: url("../../assets/Images/Desktop/Load More shape_Desktop.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 8rem;
-    min-width: 100%;
-    text-transform: uppercase;
-    margin-bottom: 2rem; }
-    .more-blogs-button h2 {
-      font-family: 'Open Web';
-      font-weight: normal;
-      font-style: normal;
-      text-decoration: none;
-      color: #FFF; }
-  .breakhide {
-    display: inline; } }
