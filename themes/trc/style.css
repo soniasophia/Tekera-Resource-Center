@@ -397,6 +397,12 @@ dt {
 dd {
   margin: 0 1.5rem 1.5rem; }
 
+img {
+  height: auto;
+  /* Make sure images are scaled correctly. */
+  max-width: 100%;
+  /* Adhere to container width. */ }
+
 table {
   margin: 0 0 1.5rem;
   width: 100%; }
@@ -1624,14 +1630,15 @@ object {
     left: 0; } }
 
 .blog-hero {
-  background: url("../../assets/Images/Mobile/blog/Tekera_Blog_Teal mic.png");
+  background: url("../../assets/Images/Desktop/blog/Tekera_Blog_Teal mic.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   display: -ms-flexbox;
   display: flex;
-  min-height: 40rem;
-  position: relative; }
+  height: 30rem;
+  position: relative;
+  margin: 0px; }
   .blog-hero h1 {
     -ms-flex-item-align: start;
         align-self: flex-start;
@@ -1639,15 +1646,19 @@ object {
     font-weight: normal;
     font-style: normal;
     color: #FFF;
-    font-size: 4rem;
-    padding-left: 2rem; }
+    font-size: 3rem;
+    padding-left: 2rem;
+    padding-right: 1rem; }
 
 .blog-post-box {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: -ms-flexbox;
   display: flex;
   position: relative;
-  margin: 20px 0 20px 0;
-  width: 100vw;
+  margin: 30px 0 30px 0;
+  max-width: 40rem;
   height: 30rem; }
 
 .blog-title-wrapper {
@@ -1657,10 +1668,11 @@ object {
   display: flex;
   -ms-flex-pack: center;
       justify-content: center;
-  padding: 1rem;
+  padding: 1rem 3rem 1rem 1rem;
   position: absolute;
   bottom: 0;
   height: auto;
+  min-height: 40%;
   background: url("../../assets/Images/Desktop/Tekera_DESKTOP_TriangleOverlay_Right.png");
   background-position: center;
   background-size: cover;
@@ -1676,6 +1688,75 @@ object {
     font-weight: 100;
     font-style: normal;
     color: #FFF; }
+
+.more-blogs-button-mobile {
+  -ms-flex-align: center;
+      align-items: center;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  background: url("../../assets/Images/Mobile/Load More Shape_mobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 8rem;
+  min-width: 100%;
+  text-transform: uppercase;
+  margin-bottom: 2rem; }
+  .more-blogs-button-mobile h2 {
+    font-family: 'Open Web';
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    color: #FFF; }
+
+.breakhide {
+  display: none; }
+
+@media screen and (min-width: 640px) {
+  .blog-main-wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    width: 100vw; }
+  .blog-hero h1 {
+    font-size: 6rem; }
+  .blog-post-box {
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: -ms-flexbox;
+    display: flex;
+    height: auto;
+    width: 48%;
+    max-width: 48%;
+    height: 40rem; }
+  .more-blogs-button {
+    -ms-flex-align: center;
+        align-items: center;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    background: url("../../assets/Images/Desktop/Load More shape_Desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 8rem;
+    min-width: 100%;
+    text-transform: uppercase;
+    margin-bottom: 2rem; }
+    .more-blogs-button h2 {
+      font-family: 'Open Web';
+      font-weight: normal;
+      font-style: normal;
+      text-decoration: none;
+      color: #FFF; }
+  .breakhide {
+    display: inline; } }
 
 .who-we-are-page {
   font-family: "Open Web"; }

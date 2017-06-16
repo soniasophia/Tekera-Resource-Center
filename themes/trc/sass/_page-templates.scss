@@ -469,27 +469,32 @@
 // Blog
 
 .blog-hero {
-  background: url('../../assets/Images/Mobile/blog/Tekera_Blog_Teal mic.png');
+  background: url('../../assets/Images/Desktop/blog/Tekera_Blog_Teal mic.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  min-height: 40rem;
+  height: 30rem;
   position: relative;
+  margin: 0px;
   h1 {
     align-self: flex-start;
     @include shadows;
     color: #FFF;
-    font-size: 4rem;
+    font-size: 3rem;
     padding-left: 2rem;
+    padding-right: 1rem;
   }  
 }
 
 .blog-post-box {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
   display: flex;
   position: relative;
-  margin: 20px 0 20px 0;
-  width: 100vw;
+  margin: 30px 0 30px 0;
+  max-width: 40rem;
   height: 30rem;
 }
 
@@ -497,10 +502,11 @@
   align-items: center;
   display: flex;
   justify-content: center;
-  padding: 1rem;
+  padding: 1rem 3rem 1rem 1rem;
   position: absolute;
   bottom: 0;
   height: auto;
+  min-height: 40%;
   background: url('../../assets/Images/Desktop/Tekera_DESKTOP_TriangleOverlay_Right.png');
   background-position: center;
   background-size: cover;
@@ -516,5 +522,76 @@
   }
 }
 
+  .more-blogs-button-mobile {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background: url('../../assets/Images/Mobile/Load More Shape_mobile.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 8rem;    
+    min-width: 100%;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    h2 {
+      @include font-open-regular;    
+      text-decoration: none;  
+      color: #FFF; 
+    }
+  }
 
+
+.breakhide {
+  display: none;
+}
+
+@media screen and (min-width: 640px) {
+ 
+  .blog-main-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100vw;
+  }
+
+  .blog-hero {
+    h1 {
+      font-size: 6rem;
+    }
+  }
+
+  .blog-post-box {
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    height: auto;
+    width: 48%;
+    max-width: 48%;
+    height: 40rem;
+  }
+
+  .more-blogs-button {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background: url('../../assets/Images/Desktop/Load More shape_Desktop.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 8rem;
+    min-width: 100%;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    h2 {
+      @include font-open-regular;    
+      text-decoration: none;  
+      color: #FFF; 
+    }
+  }
+
+  .breakhide {
+    display: inline;
+  }
+}
 
