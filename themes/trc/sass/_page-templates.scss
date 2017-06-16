@@ -533,6 +533,7 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    width: 100vw;
   }
 
   .blog-hero {
@@ -542,8 +543,16 @@
   }
 
   .blog-post-box {
-    min-width: 48%;
+    display: flex;
+    height: auto;
+    width: 48%;
+    max-width: 48%;
     height: 40rem;
+    img {
+      overflow: hidden;
+      width: 100%;
+      max-height: auto;
+    }   
   }
 
   .more-blogs-button {
@@ -555,14 +564,12 @@
     h2 {
       @include font-open-regular;    
       text-decoration: none;  
-      color: #FFF;
-      
+      color: #FFF; 
     }
   }
 
   .breakhide {
     display: inline;
   }
-
 }
 

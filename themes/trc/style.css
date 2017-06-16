@@ -1452,12 +1452,21 @@ object {
     -ms-flex-flow: row wrap;
         flex-flow: row wrap;
     -ms-flex-pack: justify;
-        justify-content: space-between; }
+        justify-content: space-between;
+    width: 100vw; }
   .blog-hero h1 {
     font-size: 6rem; }
   .blog-post-box {
-    min-width: 48%;
+    display: -ms-flexbox;
+    display: flex;
+    height: auto;
+    width: 48%;
+    max-width: 48%;
     height: 40rem; }
+    .blog-post-box img {
+      overflow: hidden;
+      width: 100%;
+      max-height: auto; }
   .more-blogs-button {
     background: url("../../assets/Images/Desktop/Load More shape_Desktop.png");
     width: 100%;
