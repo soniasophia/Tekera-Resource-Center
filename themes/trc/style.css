@@ -1425,6 +1425,7 @@ object {
   position: absolute;
   bottom: 0;
   height: auto;
+  min-height: 40%;
   background: url("../../assets/Images/Desktop/Tekera_DESKTOP_TriangleOverlay_Right.png");
   background-position: center;
   background-size: cover;
