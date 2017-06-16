@@ -397,12 +397,6 @@ dt {
 dd {
   margin: 0 1.5rem 1.5rem; }
 
-img {
-  height: auto;
-  /* Make sure images are scaled correctly. */
-  max-width: 100%;
-  /* Adhere to container width. */ }
-
 table {
   margin: 0 0 1.5rem;
   width: 100%; }
@@ -554,8 +548,7 @@ a {
 
 .site-header {
   height: 100px;
-  background-color: #20ACAF;
-  margin-bottom: 1rem; }
+  background-color: #20ACAF; }
 
 .site-header-wrapper {
   display: -ms-flexbox;
@@ -565,7 +558,7 @@ a {
   -ms-flex-align: center;
       align-items: center;
   height: 100%; }
-  @media screen and (min-width: 320px) and (max-width: 640px) {
+  @media screen and (min-width: 200px) and (max-width: 640px) {
     .site-header-wrapper {
       display: -ms-flexbox;
       display: flex;
@@ -598,7 +591,7 @@ a {
         display: none; } }
   .site-header-wrapper .tekera-site-logo {
     padding-right: 2rem; }
-    @media screen and (min-width: 320px) and (max-width: 640px) {
+    @media screen and (min-width: 200px) and (max-width: 640px) {
       .site-header-wrapper .tekera-site-logo {
         display: none; } }
   .site-header-wrapper .tekera-site-text {
@@ -617,7 +610,7 @@ a {
   display: flex;
   -ms-flex-align: center;
       align-items: center; }
-  @media screen and (min-width: 320px) and (max-width: 640px) {
+  @media screen and (min-width: 200px) and (max-width: 640px) {
     .main-navigation {
       display: none; } }
   .main-navigation .menu-nav-bar-container ul {
@@ -647,50 +640,181 @@ div.tekera-triangles img {
   div.tekera-triangles {
     display: none; } }
 
-.site-main .carousel-cell {
-  height: 90vh;
-  width: 100vw; }
-  .site-main .carousel-cell .cycloneslider-slides.cycle-slideshow {
-    position: none; }
-  .site-main .carousel-cell .cycloneslider-pager {
+.site-main .main-carousel li.gallery-cell {
+  list-style-type: none; }
+  .site-main .main-carousel li.gallery-cell img {
+    height: 100%; }
+
+.site-main .main-carousel ol.flickity-page-dots {
+  position: absolute;
+  top: 0; }
+  .site-main .main-carousel ol.flickity-page-dots li {
+    background: #fff; }
+  .site-main .main-carousel ol.flickity-page-dots li:hover {
+    background: #EE9825; }
+
+.site-main .carousel-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 303px;
+  height: 157px; }
+  .site-main .carousel-text p {
+    color: #fff;
+    text-align: center;
+    font-size: 48px; }
+
+.site-main .going-to-school {
+  background: url("../../assets/Images/Mobile/home-page/Tekera_Homepage_Mom going by the school .png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 100vh;
+  width: 100vw;
+  position: relative; }
+  .site-main .going-to-school .frontpage-overlay-image {
+    background: url("../../assets/Triangle overlays/Tekera_TriangleOverlay_MOBILE.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 70vh;
+    width: 100vw;
     position: absolute;
-    right: 40vw; }
+    bottom: 0; }
+  .site-main .going-to-school .frontpage-info {
+    position: absolute;
+    top: 40%;
+    left: 20%; }
+    .site-main .going-to-school .frontpage-info h2 {
+      font-size: 26px;
+      width: 205px;
+      height: 76px;
+      margin: 0 auto;
+      color: #fff;
+      text-align: center; }
+    .site-main .going-to-school .frontpage-info p {
+      width: 272px;
+      height: 315px;
+      font-size: 20px;
+      line-height: 34px;
+      color: #fff;
+      text-align: center; }
+  .site-main .going-to-school .button {
+    position: absolute;
+    bottom: 3rem;
+    left: 30%;
+    background-color: #ee9825;
+    border: none;
+    width: 169px;
+    height: 50px;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    box-shadow: none;
+    text-shadow: none; }
 
-.site-main .going-to-school .frontpage-background-image img {
+.site-main .lunch-program {
+  background: url("../../assets/Images/Mobile/home-page/Tekera_Homepage_TPS Lunch program .png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
   height: 100vh;
   width: 100vw;
-  position: absolute; }
+  position: relative; }
+  .site-main .lunch-program .frontpage-overlay-image {
+    background: url("../../assets/Triangle overlays/Tekera_TriangleOverlay_MOBILE.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 65vh;
+    width: 100vw;
+    position: absolute;
+    bottom: 0; }
+  .site-main .lunch-program .frontpage-info {
+    position: absolute;
+    top: 50%;
+    left: 20%; }
+    .site-main .lunch-program .frontpage-info h2 {
+      font-size: 26px;
+      width: 272px;
+      height: 76px;
+      margin: 0 auto;
+      color: #fff;
+      text-align: center;
+      line-height: 38px; }
+    .site-main .lunch-program .frontpage-info p {
+      width: 272px;
+      height: 231px;
+      font-size: 20px;
+      line-height: 33px;
+      color: #fff;
+      text-align: center; }
+  .site-main .lunch-program .button {
+    position: absolute;
+    bottom: 4rem;
+    left: 30%;
+    background-color: #ee9825;
+    border: none;
+    width: 169px;
+    height: 50px;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    box-shadow: none;
+    text-shadow: none; }
 
-.site-main .going-to-school .frontpage-overlay-image img {
-  position: relative;
-  top: 10.5rem;
-  width: 100%;
-  height: 100%;
-  padding-bottom: 9.5rem; }
-
-.site-main .lunch-program .frontpage-background-image img {
+.site-main .smiling-woman {
+  background: url("../../assets/Images/Mobile/home-page/Tekera_Home page_Smiling woman.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
   height: 100vh;
   width: 100vw;
-  position: absolute; }
-
-.site-main .lunch-program .frontpage-overlay-image img {
-  position: relative;
-  top: 12.5rem;
-  width: 100%;
-  height: 100%;
-  padding-bottom: 9.5rem; }
-
-.site-main .smiling-woman .frontpage-background-image img {
-  height: 100vh;
-  width: 100vw;
-  position: absolute; }
-
-.site-main .smiling-woman .frontpage-overlay-image img {
-  position: relative;
-  top: 15rem;
-  width: 100%;
-  height: 100%;
-  padding-bottom: 9.5rem; }
+  position: relative; }
+  .site-main .smiling-woman .frontpage-overlay-image {
+    background: url("../../assets/Triangle overlays/Tekera_TriangleOverlay_MOBILE.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 65vh;
+    width: 100vw;
+    position: absolute;
+    bottom: 0; }
+  .site-main .smiling-woman .frontpage-info {
+    position: absolute;
+    top: 45%;
+    left: 20%; }
+    .site-main .smiling-woman .frontpage-info h2 {
+      font-size: 26px;
+      width: 169px;
+      height: 86px;
+      margin: 0 auto;
+      color: #fff;
+      text-align: center;
+      line-height: 43px; }
+    .site-main .smiling-woman .frontpage-info p {
+      width: 272px;
+      height: 198px;
+      font-size: 20px;
+      line-height: 33px;
+      color: #fff;
+      text-align: center; }
+  .site-main .smiling-woman .button {
+    position: absolute;
+    bottom: 6rem;
+    left: 30%;
+    background-color: #ee9825;
+    border: none;
+    width: 169px;
+    height: 50px;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    box-shadow: none;
+    text-shadow: none; }
 
 .site-main .programs-info h1 {
   color: #20ACAF;
@@ -720,6 +844,10 @@ div.tekera-triangles img {
       color: #072A3D;
       font-size: 26px;
       text-align: center; }
+  .site-main .programs-info .icons-container .icons-text {
+    width: 272px;
+    height: 141px;
+    margin-bottom: 2rem; }
 
 /*--------------------------------------------------------------
 # Accessibility
