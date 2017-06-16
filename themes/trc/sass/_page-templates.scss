@@ -523,11 +523,8 @@
 }
 
 .blog-title-wrapper:hover {
-  h3,p {
+  h3,p:hover {
     color: $color_brand-orange;
-  }
-  .blog-post-box {
-    background: $color_brand-white-transparent;
   }
 }
 
