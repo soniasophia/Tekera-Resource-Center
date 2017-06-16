@@ -523,6 +523,24 @@
   }
 }
 
+  .more-blogs-button-mobile {
+    display: flex;
+    justify-content: center;
+    background: url('../../assets/Images/Mobile/Load More Shape_mobile.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-width: 100%;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    h2 {
+      @include font-open-regular;    
+      text-decoration: none;  
+      color: #FFF; 
+    }
+  }
+
+
 .breakhide {
   display: none;
 }
@@ -556,9 +574,13 @@
   }
 
   .more-blogs-button {
+    display: flex;
+    justify-content: center;
     background: url('../../assets/Images/Desktop/Load More shape_Desktop.png');
-    width: 100%;
-    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-width: 100%;
     text-transform: uppercase;
     margin-bottom: 2rem;
     h2 {

@@ -39,7 +39,7 @@ get_header(); ?>
 			<?php get_template_part( 'template-parts/content', 'none' ); ?>
 
 		<?php endif; ?>
-    <div class="more-blogs-button">
+    <div class="more-blogs-button more-blogs-button-mobile">
 			<a><h2>load more</h2></a>
 		</div>	
 		</div><!--blog-main-wrapper-->
