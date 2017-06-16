@@ -129,7 +129,7 @@
 			@include desktop {
 				font-size: 1.7rem;
     		font-weight: bold;
-				margin: 4rem 0;
+				margin: 1rem 0;
 			}
 		}
   }
@@ -209,7 +209,7 @@
 
 		h3 {
 			position: absolute;
-			bottom: 2rem;
+			bottom: 3rem;
 			font-size: 1.5rem;
 			@include font-open-light;
 			text-shadow: 1px 1px 2px black;
@@ -224,6 +224,10 @@
 
 	.more-blog-posts {
 		width: 100%;
+
+		@include desktop {
+			display: none;
+		}
 	}
 
 	.flickity-viewport {
@@ -258,5 +262,39 @@
 			height: 100%;
 			object-fit: cover;
 		}
+	}
+
+	.latest-blog-posts {
+		display: flex;
+		width: 80%;
+		margin: 0 auto;
+		justify-content: space-between;
+		margin-bottom: 4.5rem;
+
+		@include mobile {
+			display: none;
+		}
+
+		h3 {
+				text-align: center;
+				font-size: 1.5rem;
+
+				a {
+					color: $color_brand-blue-dark;
+				}
+			}
+
+		.blog-thumbnail-container {
+			height: 60vh;
+
+			img {
+				height: 100%;
+				object-fit: cover;
+			}
+		}
+	}
+
+	.latest-blog-post {
+		flex: 0 1 25%;
 	}
 }

@@ -51,6 +51,33 @@ get_header(); ?>
 				</div>
       </div>
 
+
+			<div class="latest-blog-posts">
+          <?php
+          // A loop of more blog posts in place of the post navigation function.
+          $latestposts = get_posts( array(
+        		'posts_per_page' => 3,
+            'order' => 'DES'
+          ) );
+          if ( $latestposts ) {
+        	foreach ( $latestposts as $post ) :
+      		setup_postdata( $post ); ?>
+          
+					<div class="latest-blog-post">
+						<div class="blog-thumbnail-container">
+        			<?php the_post_thumbnail('full'); ?>
+						</div>
+						<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+        	</div>
+          <?php
+          endforeach;
+          wp_reset_postdata();
+          }
+          ?>
+				</div>
+
+
+
 			<?php
 				// If comments are open or we have at least one comment, load up the comment template.
 				if ( comments_open() || get_comments_number() ) :

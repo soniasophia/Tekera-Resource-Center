@@ -902,7 +902,7 @@ div.tekera-triangles img {
       .single-post .related-posts p {
         font-size: 1.7rem;
         font-weight: bold;
-        margin: 4rem 0; } }
+        margin: 1rem 0; } }
 
 .single-post .social-share {
   text-align: center;
@@ -967,7 +967,7 @@ div.tekera-triangles img {
   width: 100%; }
   .single-post .blog-post h3 {
     position: absolute;
-    bottom: 2rem;
+    bottom: 3rem;
     font-size: 1.5rem;
     font-family: 'Open Web';
     font-weight: 100;
@@ -980,6 +980,9 @@ div.tekera-triangles img {
 
 .single-post .more-blog-posts {
   width: 100%; }
+  @media screen and (min-width: 640px) {
+    .single-post .more-blog-posts {
+      display: none; } }
 
 .single-post .flickity-viewport {
   height: 600px !important; }
@@ -1004,6 +1007,32 @@ div.tekera-triangles img {
     position: relative;
     height: 100%;
     object-fit: cover; }
+
+.single-post .latest-blog-posts {
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  margin-bottom: 4.5rem; }
+  @media screen and (min-width: 320px) and (max-width: 640px) {
+    .single-post .latest-blog-posts {
+      display: none; } }
+  .single-post .latest-blog-posts h3 {
+    text-align: center;
+    font-size: 1.5rem; }
+    .single-post .latest-blog-posts h3 a {
+      color: #072A3D; }
+  .single-post .latest-blog-posts .blog-thumbnail-container {
+    height: 60vh; }
+    .single-post .latest-blog-posts .blog-thumbnail-container img {
+      height: 100%;
+      object-fit: cover; }
+
+.single-post .latest-blog-post {
+  -ms-flex: 0 1 25%;
+      flex: 0 1 25%; }
 
 /*--------------------------------------------------------------
 # Media
