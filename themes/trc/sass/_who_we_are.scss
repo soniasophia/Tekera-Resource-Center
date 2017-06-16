@@ -1,0 +1,134 @@
+.who-we-are-page {
+  font-family: "Open Web";
+  .herobanner {
+    background: url("../../assets/Images/Desktop/about/Tekera_About_Student with sibling.png");
+    background-size: cover;
+    background-position: 72% bottom;
+    background-repeat: no-repeat;
+    height: 80vh;
+  }
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+  .content {
+    margin-top: 50px;
+    h1 {
+      color: $color_brand-teal;
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      width: 80%;
+    }
+  }
+  .middle-content,
+  .bottom-content {
+    h1 {
+      font-size: 0.9rem;
+      text-transform: none;
+      margin: 30px 0;
+    }
+  }
+  .top-image {
+    background: url("../../assets/Images/Mobile/about/Tekera_About page_Collecting water.png");
+    background-size: cover;
+    background-position: 95% bottom;
+    background-repeat: no-repeat;
+    height: 95vh;
+    position: relative;
+    @include desktop {
+      background: url("../../assets/Images/Desktop/about/Tekera_About_Collecting water.png");
+      background-size: cover;
+      height: 30vh;
+      background-position: center right;
+    }
+    .top-blue {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 65%;
+      background: url("../../assets/Triangle overlays/Tekera_TriangleOverlay_MOBILE.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center top;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      @include desktop {
+        background: url("../../assets/Triangle overlays/Tekera_DESKTOP_TriangleOverlay_Right.png");
+        height: 100%;
+        width: 60%;
+        background-position: center right;
+        background-repeat: no-repeat;
+    }
+      .top-phrase {
+        color: white;
+        p {
+          margin: 30px auto;
+          width: 58%;
+        }
+      }
+    }
+  }
+  
+  .bottom-image {
+    background: url("../../assets/Images/Mobile/about/Tekera_About Us_Water and Sanitation.png");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 95vh;
+    position: relative;
+    @include desktop {
+      background: url("../../assets/Images/Desktop/about/Tekera_About_Water and Sanitation.png");
+      background-size: cover;
+      height: 30vh;
+      background-position: center left;
+    }
+    .bottom-blue {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 65%;
+      background: url("../../assets/Triangle overlays/Tekera_TriangleOverlay_MOBILE.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center top;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      @include desktop {
+        background: url("../../assets/Triangle overlays/Tekera_DESKTOP_TriangleOverlay_Left.png");
+        height: 100%;
+        width: 60%;
+        background-position: center left;
+        background-repeat: no-repeat;
+        right: 0;
+    }
+      .bottom-phrase {
+        color: white;
+        h2{
+          @include desktop {
+            margin: 0px;
+          }
+        }
+        ul {
+          margin: auto;
+          padding: 35px;
+          width: 90%;
+          text-align: left;
+          @include desktop {
+            padding-left: 80px;
+            margin-right: 0px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include desktop {
+      
+    }
