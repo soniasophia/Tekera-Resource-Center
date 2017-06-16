@@ -522,6 +522,15 @@
   }
 }
 
+.blog-title-wrapper:hover {
+  h3,p {
+    color: $color_brand-orange;
+  }
+  .blog-post-box {
+    background: $color_brand-white-transparent;
+  }
+}
+
   .more-blogs-button-mobile {
     align-items: center;
     display: flex;
@@ -540,6 +549,8 @@
       color: #FFF; 
     }
   }
+
+  
 
 
 .breakhide {
