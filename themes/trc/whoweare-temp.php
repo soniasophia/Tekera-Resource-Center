@@ -8,7 +8,6 @@ get_the_title();
   </div>
 
   <div class="content">
-
     <div class="top-content container">
       <h1>
         <?php echo CFS()->get( 'title_1' ); ?>
@@ -59,4 +58,5 @@ get_the_title();
       </p>
     </div>
   </div>
+  <?php get_template_part( 'template-parts/cta'); ?>
 </div>
