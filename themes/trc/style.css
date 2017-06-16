@@ -1404,16 +1404,15 @@ object {
     padding-right: 1rem; }
 
 .blog-post-box {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: -ms-flexbox;
   display: flex;
   position: relative;
   margin: 30px 0 30px 0;
   max-width: 40rem;
   height: 30rem; }
-  .blog-post-box img {
-    overflow: hidden;
-    width: 100%;
-    max-height: auto; }
 
 .blog-title-wrapper {
   -ms-flex-align: center;
