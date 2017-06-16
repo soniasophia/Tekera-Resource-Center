@@ -640,7 +640,6 @@ div.tekera-triangles img {
   div.tekera-triangles {
     display: none; } }
 
-<<<<<<< HEAD
 .site-main .main-carousel li.gallery-cell {
   list-style-type: none; }
   .site-main .main-carousel li.gallery-cell img {
@@ -816,52 +815,6 @@ div.tekera-triangles img {
     font-weight: 700;
     box-shadow: none;
     text-shadow: none; }
-=======
-.site-main .carousel-cell {
-  height: 90vh;
-  width: 100vw; }
-  .site-main .carousel-cell .cycloneslider-slides.cycle-slideshow {
-    position: none; }
-  .site-main .carousel-cell .cycloneslider-pager {
-    position: absolute;
-    right: 40vw; }
-
-.site-main .going-to-school .frontpage-background-image img {
-  height: 100vh;
-  width: 100vw;
-  position: absolute; }
-
-.site-main .going-to-school .frontpage-overlay-image img {
-  position: relative;
-  top: 10.5rem;
-  width: 100%;
-  height: 100%;
-  padding-bottom: 9.5rem; }
-
-.site-main .lunch-program .frontpage-background-image img {
-  height: 100vh;
-  width: 100vw;
-  position: absolute; }
-
-.site-main .lunch-program .frontpage-overlay-image img {
-  position: relative;
-  top: 12.5rem;
-  width: 100%;
-  height: 100%;
-  padding-bottom: 9.5rem; }
-
-.site-main .smiling-woman .frontpage-background-image img {
-  height: 100vh;
-  width: 100vw;
-  position: absolute; }
-
-.site-main .smiling-woman .frontpage-overlay-image img {
-  position: relative;
-  top: 15rem;
-  width: 100%;
-  height: 100%;
-  padding-bottom: 9.5rem; }
->>>>>>> saving-work-trev
 
 .site-main .programs-info h1 {
   color: #20ACAF;
@@ -891,13 +844,10 @@ div.tekera-triangles img {
       color: #072A3D;
       font-size: 26px;
       text-align: center; }
-<<<<<<< HEAD
   .site-main .programs-info .icons-container .icons-text {
     width: 272px;
     height: 141px;
     margin-bottom: 2rem; }
-=======
->>>>>>> saving-work-trev
 
 /*--------------------------------------------------------------
 # Accessibility
@@ -1733,7 +1683,6 @@ object {
     font-style: normal;
     color: #FFF; }
 
-<<<<<<< HEAD
 .who-we-are-page {
   font-family: "Open Web"; }
   .who-we-are-page .herobanner {
@@ -1853,7 +1802,6 @@ object {
             .who-we-are-page .bottom-image .bottom-blue .bottom-phrase ul {
               padding-left: 80px;
               margin-right: 0px; } }
-=======
 .more-blogs-button-mobile {
   -ms-flex-align: center;
       align-items: center;
@@ -1922,4 +1870,3 @@ object {
       color: #FFF; }
   .breakhide {
     display: inline; } }
->>>>>>> saving-work-trev
