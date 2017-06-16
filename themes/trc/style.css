@@ -1127,6 +1127,8 @@ div.tekera-triangles img {
 .single-post .flickity-prev-next-button {
   background: transparent;
   box-shadow: none; }
+  .single-post .flickity-prev-next-button:hover {
+    background: transparent; }
   .single-post .flickity-prev-next-button .arrow {
     fill: #072A3D; }
   .single-post .flickity-prev-next-button svg {

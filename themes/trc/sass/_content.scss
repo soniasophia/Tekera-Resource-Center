@@ -242,6 +242,10 @@
 		background: transparent;
     box-shadow: none;
 
+		&:hover {
+			background: transparent;
+		}
+
 		.arrow {
 			fill: $color_brand-blue-dark;
 		}
