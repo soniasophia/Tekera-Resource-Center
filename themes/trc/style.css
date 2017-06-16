@@ -558,7 +558,7 @@ a {
   -ms-flex-align: center;
       align-items: center;
   height: 100%; }
-  @media screen and (min-width: 200px) and (max-width: 640px) {
+  @media screen and (max-width: 640px) {
     .site-header-wrapper {
       display: -ms-flexbox;
       display: flex;
@@ -591,7 +591,7 @@ a {
         display: none; } }
   .site-header-wrapper .tekera-site-logo {
     padding-right: 2rem; }
-    @media screen and (min-width: 200px) and (max-width: 640px) {
+    @media screen and (max-width: 640px) {
       .site-header-wrapper .tekera-site-logo {
         display: none; } }
   .site-header-wrapper .tekera-site-text {
@@ -610,7 +610,7 @@ a {
   display: flex;
   -ms-flex-align: center;
       align-items: center; }
-  @media screen and (min-width: 200px) and (max-width: 640px) {
+  @media screen and (max-width: 640px) {
     .main-navigation {
       display: none; } }
   .main-navigation .menu-nav-bar-container ul {
@@ -1144,7 +1144,7 @@ div.tekera-triangles img {
   -ms-flex-pack: justify;
       justify-content: space-between;
   margin-bottom: 4.5rem; }
-  @media screen and (min-width: 320px) and (max-width: 640px) {
+  @media screen and (max-width: 640px) {
     .single-post .latest-blog-posts {
       display: none; } }
   .single-post .latest-blog-posts h3 {
