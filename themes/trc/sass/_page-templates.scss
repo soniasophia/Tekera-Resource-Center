@@ -474,7 +474,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  min-height: 40rem;
+  height: 30rem;
   position: relative;
   margin: 0px;
   h1 {
@@ -524,12 +524,14 @@
 }
 
   .more-blogs-button-mobile {
+    align-items: center;
     display: flex;
     justify-content: center;
     background: url('../../assets/Images/Mobile/Load More Shape_mobile.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: 8rem;    
     min-width: 100%;
     text-transform: uppercase;
     margin-bottom: 2rem;
@@ -561,25 +563,24 @@
   }
 
   .blog-post-box {
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     height: auto;
     width: 48%;
     max-width: 48%;
     height: 40rem;
-    img {
-      overflow: hidden;
-      width: 100%;
-      max-height: auto;
-    }   
   }
 
   .more-blogs-button {
+    align-items: center;
     display: flex;
     justify-content: center;
     background: url('../../assets/Images/Desktop/Load More shape_Desktop.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: 8rem;
     min-width: 100%;
     text-transform: uppercase;
     margin-bottom: 2rem;
