@@ -587,10 +587,12 @@ a {
         display: none; } }
   .site-header-wrapper .hamburger-menu {
     position: absolute; }
-    .site-header-wrapper .hamburger-menu ul a {
-      text-decoration: none; }
-      .site-header-wrapper .hamburger-menu ul a li {
-        list-style-type: none; }
+    .site-header-wrapper .hamburger-menu ul {
+      display: none; }
+      .site-header-wrapper .hamburger-menu ul a {
+        text-decoration: none; }
+        .site-header-wrapper .hamburger-menu ul a li {
+          list-style-type: none; }
     @media screen and (min-width: 640px) {
       .site-header-wrapper .hamburger-menu {
         display: none; } }
@@ -644,6 +646,80 @@ div.tekera-triangles img {
 @media screen and (min-width: 640px) {
   div.tekera-triangles {
     display: none; } }
+
+.site-main .carousel-cell {
+  height: 90vh;
+  width: 100vw; }
+  .site-main .carousel-cell .cycloneslider-slides.cycle-slideshow {
+    position: none; }
+  .site-main .carousel-cell .cycloneslider-pager {
+    position: absolute;
+    right: 40vw; }
+
+.site-main .going-to-school .frontpage-background-image img {
+  height: 100vh;
+  width: 100vw;
+  position: absolute; }
+
+.site-main .going-to-school .frontpage-overlay-image img {
+  position: relative;
+  top: 10.5rem;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 9.5rem; }
+
+.site-main .lunch-program .frontpage-background-image img {
+  height: 100vh;
+  width: 100vw;
+  position: absolute; }
+
+.site-main .lunch-program .frontpage-overlay-image img {
+  position: relative;
+  top: 12.5rem;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 9.5rem; }
+
+.site-main .smiling-woman .frontpage-background-image img {
+  height: 100vh;
+  width: 100vw;
+  position: absolute; }
+
+.site-main .smiling-woman .frontpage-overlay-image img {
+  position: relative;
+  top: 15rem;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 9.5rem; }
+
+.site-main .programs-info h1 {
+  color: #20ACAF;
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 38px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 3rem 2rem; }
+
+.site-main .programs-info .icons-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: center;
+      justify-content: center; }
+  .site-main .programs-info .icons-container .icons-wrapper {
+    width: 160px; }
+    .site-main .programs-info .icons-container .icons-wrapper img {
+      display: -ms-flexbox;
+      display: flex;
+      margin: 0 auto; }
+    .site-main .programs-info .icons-container .icons-wrapper p {
+      color: #072A3D;
+      font-size: 26px;
+      text-align: center; }
 
 /*--------------------------------------------------------------
 # Accessibility
@@ -772,7 +848,7 @@ div.tekera-triangles img {
 
 .single-post .entry-title-container {
   position: absolute;
-  width: 35%;
+  width: 40%;
   bottom: 1rem;
   margin: 0 2rem; }
   @media screen and (min-width: 640px) {
@@ -815,11 +891,13 @@ div.tekera-triangles img {
   -ms-flex-direction: column;
       flex-direction: column;
   -ms-flex-align: center;
-      align-items: center; }
+      align-items: center;
+  margin-bottom: 4rem; }
   .single-post .related-posts p {
     font-size: 1.2rem;
     font-weight: 100;
-    color: #072A3D; }
+    color: #072A3D;
+    margin-bottom: 4rem; }
     @media screen and (min-width: 640px) {
       .single-post .related-posts p {
         font-size: 1.7rem;
@@ -853,7 +931,7 @@ div.tekera-triangles img {
     display: flex;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    width: 60%;
+    width: 75%;
     margin: 0 auto; }
     @media screen and (min-width: 640px) {
       .single-post .social-share .social-share-buttons {
@@ -887,12 +965,45 @@ div.tekera-triangles img {
   display: block;
   text-align: center;
   width: 100%; }
+  .single-post .blog-post h3 {
+    position: absolute;
+    bottom: 2rem;
+    font-size: 1.5rem;
+    font-family: 'Open Web';
+    font-weight: 100;
+    font-style: normal;
+    text-shadow: 1px 1px 2px black;
+    width: 100%;
+    padding: 0 5rem; }
+    .single-post .blog-post h3 a {
+      color: white; }
 
 .single-post .more-blog-posts {
   width: 100%; }
 
 .single-post .flickity-viewport {
-  height: 700px !important; }
+  height: 600px !important; }
+
+.single-post .flickity-page-dots {
+  display: none; }
+
+.single-post .flickity-prev-next-button {
+  background: transparent;
+  box-shadow: none; }
+  .single-post .flickity-prev-next-button .arrow {
+    fill: #072A3D; }
+  .single-post .flickity-prev-next-button svg {
+    width: 60px;
+    height: 60px;
+    top: 0px;
+    left: -8px; }
+
+.single-post .post-thumbnail-container {
+  height: 80vh; }
+  .single-post .post-thumbnail-container img {
+    position: relative;
+    height: 100%;
+    object-fit: cover; }
 
 /*--------------------------------------------------------------
 # Media

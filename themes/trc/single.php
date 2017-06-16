@@ -38,7 +38,9 @@ get_header(); ?>
       		setup_postdata( $post ); ?>
           
 					<div class="blog-post">
-        		<?php the_post_thumbnail('large'); ?>
+						<div class="post-thumbnail-container">
+        			<?php the_post_thumbnail('large'); ?>
+						</div>
 						<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
         	</div>
           <?php
