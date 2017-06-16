@@ -15,39 +15,39 @@ get_header(); ?>
 			<?php get_template_part( 'template-parts/content', 'single' ); ?>
 
 			<div class="social-share">
-				<p>Share on</p>
-				<a class="blog-home-button" href="<?php echo get_permalink( get_option( 'page_for_posts' ) ); ?>">Blog</a>
-				<a class="facebook-share-button" href="https://www.facebook.com/sharer/sharer.php?u=<?php echo get_permalink(); ?>">Facebook</a>
-				<a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=<?php echo get_permalink(); ?>">Twitter</a>
+				<p>Share On</p>
+				<div class="social-share-buttons">
+					<a class="blog-home-button" href="<?php echo get_permalink( get_option( 'page_for_posts' ) ); ?>"><img src="<?php echo get_template_directory_uri();?>/assets/Icons/Desktop/png/TEKERA_BlogIcon_Green.png"></a>
+					<a class="facebook-share-button" href="https://www.facebook.com/sharer/sharer.php?u=<?php echo get_permalink(); ?>"><img src="<?php echo get_template_directory_uri();?>/assets/Icons/Desktop/png/TEKERA_FacebookIcon_Green.png"></a>
+					<a class="flickr-share-button" href="https://www.flickr.com/photos/tekeracentre/"><img src="<?php echo get_template_directory_uri();?>/assets/Icons/Desktop/png/TEKERA_FlickrIcon_Green.png"></a>
+					<a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=<?php echo get_permalink(); ?>"><img src="<?php echo get_template_directory_uri();?>/assets/Icons/Desktop/png/TEKERA_TwitterIcon_Green.png"></a>
+				</div>
 			</div>
 
 			<div class="related-posts">
-				<p>You might also like</p>
+				<p>You Might Also Like</p>
         <div class="more-blog-posts">
-
           <?php
           // A loop of more blog posts in place of the post navigation function.
           $latestposts = get_posts( array(
         		'posts_per_page' => 3,
             'order' => 'DES'
           ) );
-
           if ( $latestposts ) {
         	foreach ( $latestposts as $post ) :
       		setup_postdata( $post ); ?>
           
-				<div class="blog-post">
-        	<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-        	<?php the_post_thumbnail(); ?>
-        </div>
+					<div class="blog-post">
+        		<?php the_post_thumbnail('large'); ?>
+						<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+        	</div>
           <?php
           endforeach;
           wp_reset_postdata();
           }
           ?>
-        </div>
-      </div>
 				</div>
+      </div>
 
 			<?php
 				// If comments are open or we have at least one comment, load up the comment template.
