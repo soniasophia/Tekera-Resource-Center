@@ -848,7 +848,7 @@ div.tekera-triangles img {
 
 .single-post .entry-title-container {
   position: absolute;
-  width: 40%;
+  width: 45%;
   bottom: 1rem;
   margin: 0 2rem; }
   @media screen and (min-width: 640px) {
@@ -999,7 +999,7 @@ div.tekera-triangles img {
     width: 60px;
     height: 60px;
     top: 0px;
-    left: -8px; }
+    left: -10px; }
 
 .single-post .post-thumbnail-container {
   height: 80vh; }
