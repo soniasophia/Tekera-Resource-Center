@@ -112,3 +112,5 @@ function short_excerpt($string) {
 echo substr($string, 0, 100); 
 }
 
+
+

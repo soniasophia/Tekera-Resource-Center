@@ -640,6 +640,7 @@ div.tekera-triangles img {
   div.tekera-triangles {
     display: none; } }
 
+<<<<<<< HEAD
 .site-main .main-carousel li.gallery-cell {
   list-style-type: none; }
   .site-main .main-carousel li.gallery-cell img {
@@ -815,6 +816,52 @@ div.tekera-triangles img {
     font-weight: 700;
     box-shadow: none;
     text-shadow: none; }
+=======
+.site-main .carousel-cell {
+  height: 90vh;
+  width: 100vw; }
+  .site-main .carousel-cell .cycloneslider-slides.cycle-slideshow {
+    position: none; }
+  .site-main .carousel-cell .cycloneslider-pager {
+    position: absolute;
+    right: 40vw; }
+
+.site-main .going-to-school .frontpage-background-image img {
+  height: 100vh;
+  width: 100vw;
+  position: absolute; }
+
+.site-main .going-to-school .frontpage-overlay-image img {
+  position: relative;
+  top: 10.5rem;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 9.5rem; }
+
+.site-main .lunch-program .frontpage-background-image img {
+  height: 100vh;
+  width: 100vw;
+  position: absolute; }
+
+.site-main .lunch-program .frontpage-overlay-image img {
+  position: relative;
+  top: 12.5rem;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 9.5rem; }
+
+.site-main .smiling-woman .frontpage-background-image img {
+  height: 100vh;
+  width: 100vw;
+  position: absolute; }
+
+.site-main .smiling-woman .frontpage-overlay-image img {
+  position: relative;
+  top: 15rem;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 9.5rem; }
+>>>>>>> saving-work-trev
 
 .site-main .programs-info h1 {
   color: #20ACAF;
@@ -844,10 +891,13 @@ div.tekera-triangles img {
       color: #072A3D;
       font-size: 26px;
       text-align: center; }
+<<<<<<< HEAD
   .site-main .programs-info .icons-container .icons-text {
     width: 272px;
     height: 141px;
     margin-bottom: 2rem; }
+=======
+>>>>>>> saving-work-trev
 
 /*--------------------------------------------------------------
 # Accessibility
@@ -1624,14 +1674,15 @@ object {
     left: 0; } }
 
 .blog-hero {
-  background: url("../../assets/Images/Mobile/blog/Tekera_Blog_Teal mic.png");
+  background: url("../../assets/Images/Desktop/blog/Tekera_Blog_Teal mic.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   display: -ms-flexbox;
   display: flex;
-  min-height: 40rem;
-  position: relative; }
+  height: 30rem;
+  position: relative;
+  margin: 0px; }
   .blog-hero h1 {
     -ms-flex-item-align: start;
         align-self: flex-start;
@@ -1639,15 +1690,19 @@ object {
     font-weight: normal;
     font-style: normal;
     color: #FFF;
-    font-size: 4rem;
-    padding-left: 2rem; }
+    font-size: 3rem;
+    padding-left: 2rem;
+    padding-right: 1rem; }
 
 .blog-post-box {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: -ms-flexbox;
   display: flex;
   position: relative;
-  margin: 20px 0 20px 0;
-  width: 100vw;
+  margin: 30px 0 30px 0;
+  max-width: 40rem;
   height: 30rem; }
 
 .blog-title-wrapper {
@@ -1657,10 +1712,11 @@ object {
   display: flex;
   -ms-flex-pack: center;
       justify-content: center;
-  padding: 1rem;
+  padding: 1rem 3rem 1rem 1rem;
   position: absolute;
   bottom: 0;
   height: auto;
+  min-height: 40%;
   background: url("../../assets/Images/Desktop/Tekera_DESKTOP_TriangleOverlay_Right.png");
   background-position: center;
   background-size: cover;
@@ -1677,6 +1733,7 @@ object {
     font-style: normal;
     color: #FFF; }
 
+<<<<<<< HEAD
 .who-we-are-page {
   font-family: "Open Web"; }
   .who-we-are-page .herobanner {
@@ -1796,3 +1853,73 @@ object {
             .who-we-are-page .bottom-image .bottom-blue .bottom-phrase ul {
               padding-left: 80px;
               margin-right: 0px; } }
+=======
+.more-blogs-button-mobile {
+  -ms-flex-align: center;
+      align-items: center;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  background: url("../../assets/Images/Mobile/Load More Shape_mobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 8rem;
+  min-width: 100%;
+  text-transform: uppercase;
+  margin-bottom: 2rem; }
+  .more-blogs-button-mobile h2 {
+    font-family: 'Open Web';
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    color: #FFF; }
+
+.breakhide {
+  display: none; }
+
+@media screen and (min-width: 640px) {
+  .blog-main-wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    width: 100vw; }
+  .blog-hero h1 {
+    font-size: 6rem; }
+  .blog-post-box {
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: -ms-flexbox;
+    display: flex;
+    height: auto;
+    width: 48%;
+    max-width: 48%;
+    height: 40rem; }
+  .more-blogs-button {
+    -ms-flex-align: center;
+        align-items: center;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    background: url("../../assets/Images/Desktop/Load More shape_Desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 8rem;
+    min-width: 100%;
+    text-transform: uppercase;
+    margin-bottom: 2rem; }
+    .more-blogs-button h2 {
+      font-family: 'Open Web';
+      font-weight: normal;
+      font-style: normal;
+      text-decoration: none;
+      color: #FFF; }
+  .breakhide {
+    display: inline; } }
+>>>>>>> saving-work-trev
