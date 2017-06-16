@@ -397,6 +397,12 @@ dt {
 dd {
   margin: 0 1.5rem 1.5rem; }
 
+img {
+  height: auto;
+  /* Make sure images are scaled correctly. */
+  max-width: 100%;
+  /* Adhere to container width. */ }
+
 table {
   margin: 0 0 1.5rem;
   width: 100%; }
@@ -558,7 +564,7 @@ a {
   -ms-flex-align: center;
       align-items: center;
   height: 100%; }
-  @media screen and (min-width: 200px) and (max-width: 640px) {
+  @media screen and (max-width: 640px) {
     .site-header-wrapper {
       display: -ms-flexbox;
       display: flex;
@@ -591,7 +597,7 @@ a {
         display: none; } }
   .site-header-wrapper .tekera-site-logo {
     padding-right: 2rem; }
-    @media screen and (min-width: 200px) and (max-width: 640px) {
+    @media screen and (max-width: 640px) {
       .site-header-wrapper .tekera-site-logo {
         display: none; } }
   .site-header-wrapper .tekera-site-text {
@@ -610,7 +616,7 @@ a {
   display: flex;
   -ms-flex-align: center;
       align-items: center; }
-  @media screen and (min-width: 200px) and (max-width: 640px) {
+  @media screen and (max-width: 640px) {
     .main-navigation {
       display: none; } }
   .main-navigation .menu-nav-bar-container ul {
@@ -1121,6 +1127,8 @@ div.tekera-triangles img {
 .single-post .flickity-prev-next-button {
   background: transparent;
   box-shadow: none; }
+  .single-post .flickity-prev-next-button:hover {
+    background: transparent; }
   .single-post .flickity-prev-next-button .arrow {
     fill: #072A3D; }
   .single-post .flickity-prev-next-button svg {
@@ -1144,7 +1152,7 @@ div.tekera-triangles img {
   -ms-flex-pack: justify;
       justify-content: space-between;
   margin-bottom: 4.5rem; }
-  @media screen and (min-width: 200px) and (max-width: 640px) {
+  @media screen and (max-width: 640px) {
     .single-post .latest-blog-posts {
       display: none; } }
   .single-post .latest-blog-posts h3 {

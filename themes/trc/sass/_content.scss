@@ -242,6 +242,10 @@
 		background: transparent;
     box-shadow: none;
 
+		&:hover {
+			background: transparent;
+		}
+
 		.arrow {
 			fill: $color_brand-blue-dark;
 		}
@@ -296,5 +300,5 @@
 
 	.latest-blog-post {
 		flex: 0 1 25%;
-	}
+	} 
 }
