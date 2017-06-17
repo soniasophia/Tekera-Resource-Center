@@ -112,5 +112,14 @@ function short_excerpt($string) {
 echo substr($string, 0, 100); 
 }
 
+/**
+* Limit number of tags per post that are displayed on single blog page navigation.
+*/
+function limit_to_one_tag($terms) {
+	return array_slice($terms,0,1,true);
+}
+add_filter('term_links-post_tag','limit_to_one_tag');
+
+
 
 

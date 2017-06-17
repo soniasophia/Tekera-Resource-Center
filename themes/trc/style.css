@@ -974,7 +974,7 @@ div.tekera-triangles img {
   color: white;
   line-height: 2;
   width: 100%;
-  font-size: 2.3rem;
+  font-size: 2.5rem;
   text-shadow: 1px 1px 2px black; }
   @media screen and (min-width: 640px) {
     .single-post h1 {
@@ -1100,20 +1100,33 @@ div.tekera-triangles img {
   text-align: center;
   width: 100%; }
   .single-post .blog-post h3 {
-    position: absolute;
-    bottom: 3rem;
+    bottom: 10rem;
     font-size: 1.5rem;
     font-family: 'Open Web';
     font-weight: 100;
     font-style: normal;
     text-shadow: 1px 1px 2px black;
     width: 100%;
-    padding: 0 5rem; }
+    padding: 0 5rem;
+    margin: 0.5rem; }
     .single-post .blog-post h3 a {
       color: white; }
 
 .single-post .more-blog-posts {
   width: 100%; }
+  .single-post .more-blog-posts .blog-post-meta {
+    position: absolute;
+    top: 25rem;
+    width: 100%; }
+  .single-post .more-blog-posts .blog-post-tag {
+    margin: 0.5rem;
+    width: 100%;
+    color: white;
+    font-family: 'Open Web';
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 2px black; }
   @media screen and (min-width: 640px) {
     .single-post .more-blog-posts {
       display: none; } }
@@ -1165,10 +1178,19 @@ div.tekera-triangles img {
     .single-post .latest-blog-posts .blog-thumbnail-container img {
       height: 100%;
       object-fit: cover; }
+  .single-post .latest-blog-posts .latest-blog-post {
+    -ms-flex: 0 1 25%;
+        flex: 0 1 25%; }
+  .single-post .latest-blog-posts .post-tag {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #072A3D;
+    font-family: 'Open Web';
+    font-weight: bold;
+    font-style: normal; }
 
-.single-post .latest-blog-post {
-  -ms-flex: 0 1 25%;
-      flex: 0 1 25%; }
+.single-post .tags-links {
+  display: none; }
 
 /*--------------------------------------------------------------
 # Media

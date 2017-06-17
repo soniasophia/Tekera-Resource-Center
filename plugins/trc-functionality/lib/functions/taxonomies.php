@@ -27,8 +27,8 @@ function register_program_type_taxonomy() {
 		'search_items'               => 'Search programs',
 		'not_found'                  => 'Not Found',
 		'no_terms'                   => 'No programs',
-		'items_list'                 => 'programs list',
-		'items_list_navigation'      => 'programs list navigation',
+		'items_list'                 => 'Programs list',
+		'items_list_navigation'      => 'Programs list navigation',
 	);
 	$args = array(
 		'labels'                     => $labels,
