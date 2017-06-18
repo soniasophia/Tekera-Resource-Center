@@ -1334,7 +1334,7 @@ object {
 #bottom {
   margin-top: 1.5rem; }
 
-/* Contact ***********************************/
+/* Contact */
 .page-template-contact-php {
   color: #404040;
   overflow-x: hidden;
@@ -1461,8 +1461,7 @@ object {
       top: 0px;
       left: 50%;
       margin-left: -110px; }
-      .page-template-contact-php .thanks .thanks-text h3,
-      .page-template-contact-php .thanks .thanks-text p {
+      .page-template-contact-php .thanks .thanks-text h3, .page-template-contact-php .thanks .thanks-text p {
         color: white;
         margin: 10px 0;
         font-size: 0.95rem; }
@@ -1653,6 +1652,7 @@ object {
     bottom: -25px;
     left: 0; } }
 
+/* Blog Archives Page */
 .blog-hero {
   background: url("../../assets/Images/Desktop/blog/Tekera_Blog_Teal mic.png");
   background-position: center;

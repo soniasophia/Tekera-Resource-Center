@@ -1,5 +1,6 @@
 <?php 
 /* Template Name: Who We Are */
+
 get_header(); 
 get_the_title();
 ?>
