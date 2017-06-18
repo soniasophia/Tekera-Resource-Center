@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying the "What We Do" / Programs archive page.
+ * The template for displaying the What We Do archive page.
  *
  * @package RED_Starter_Theme
  */
@@ -11,17 +11,17 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
 			<header class="page-header">
-				<?php $program_types = get_terms(array (
-            'taxonomy'=>'program-type',
+				<?php $project_types = get_terms(array (
+            'taxonomy'=>'project-type',
             'hide_empty'=> 0
           )); 
-          if (!empty($program_types) && !is_wp_error($program_types)) : ?>
+          if (!empty($project_types) && !is_wp_error($project_types)) : ?>
 
         <div class="program-type-categories">
-          <?php foreach ( $program_types as $program_type ) : ?>
+          <?php foreach ( $project_types as $project_type ) : ?>
             
-          <a href="<?php echo get_term_link($program_type); ?>">
-          <p><?php echo $program_type->name; ?></p>
+          <a href="<?php echo get_term_link($project_type); ?>">
+          <p><?php echo $project_type->name; ?></p>
           </a>
           <?php endforeach; ?>
         </div>

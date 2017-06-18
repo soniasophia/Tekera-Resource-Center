@@ -119,39 +119,39 @@ add_action( 'init', 'custom_post_type_jobs', 0 );
 
 
 // Register Custom Post Type
-function custom_post_type_programs() {
+function custom_post_type_projects() {
     $labels = array(
-        'name'                  => 'Programs',
-        'singular_name'         => 'Program',
-        'menu_name'             => 'Programs',
-        'name_admin_bar'        => 'Programs',
-        'archives'              => 'Program Archives',
-        'attributes'            => 'Program Attributes',
-        'parent_item_colon'     => 'Parent Program',
-        'all_items'             => 'All Programs',
-        'add_new_item'          => 'Add New Program',
+        'name'                  => 'Projects',
+        'singular_name'         => 'Project',
+        'menu_name'             => 'Projects',
+        'name_admin_bar'        => 'Projects',
+        'archives'              => 'Project Archives',
+        'attributes'            => 'Project Attributes',
+        'parent_item_colon'     => 'Parent Project',
+        'all_items'             => 'All Projects',
+        'add_new_item'          => 'Add New Projects',
         'add_new'               => 'Add New',
-        'new_item'              => 'New Program',
-        'edit_item'             => 'Edit Program',
-        'update_item'           => 'Update Program',
-        'view_item'             => 'View Program',
-        'view_items'            => 'View Programs',
-        'search_items'          => 'Search Program',
+        'new_item'              => 'New Projects',
+        'edit_item'             => 'Edit Project',
+        'update_item'           => 'Update Project',
+        'view_item'             => 'View Project',
+        'view_items'            => 'View Project',
+        'search_items'          => 'Search Project',
         'not_found'             => 'Not found',
         'not_found_in_trash'    => 'Not found in Trash',
         'featured_image'        => 'Featured Image',
         'set_featured_image'    => 'Set featured image',
         'remove_featured_image' => 'Remove featured image',
         'use_featured_image'    => 'Use as featured image',
-        'insert_into_item'      => 'Insert into Program',
-        'uploaded_to_this_item' => 'Uploaded to this Program',
-        'items_list'            => 'Programs list',
-        'items_list_navigation' => 'Programs list navigation',
-        'filter_items_list'     => 'Filter Programs list',
+        'insert_into_item'      => 'Insert into Project',
+        'uploaded_to_this_item' => 'Uploaded to this Project',
+        'items_list'            => 'Projects list',
+        'items_list_navigation' => 'Projects list navigation',
+        'filter_items_list'     => 'Filter Projects list',
     );
     $args = array(
-        'label'                 => 'Program',
-        'description'           => 'Programs',
+        'label'                 => 'Project',
+        'description'           => 'Projects',
         'labels'                => $labels,
         'supports'              => array( 'title', 'editor', 'thumbnail', 'revisions' ),
         'hierarchical'          => false,
@@ -168,6 +168,6 @@ function custom_post_type_programs() {
         'publicly_queryable'    => true,
         'capability_type'       => 'post',
     );
-    register_post_type( 'programs', $args );
+    register_post_type( 'projects', $args );
 }
-add_action( 'init', 'custom_post_type_programs', 0 );
+add_action( 'init', 'custom_post_type_projects', 0 );

@@ -6,29 +6,29 @@
  */
 
 // Register Custom Taxonomy
-function register_program_type_taxonomy() {
+function register_project_type_taxonomy() {
 
 	$labels = array(
-		'name'                       => 'Program Types',
-		'singular_name'              => 'Program Type',
-		'menu_name'                  => 'Program Type',
-		'all_items'                  => 'All Programs',
-		'parent_item'                => 'Parent Program',
-		'parent_item_colon'          => 'Parent Program:',
-		'new_item_name'              => 'New Program Name',
-		'add_new_item'               => 'Add New Program',
-		'edit_item'                  => 'Edit Program',
-		'update_item'                => 'Update Program',
-		'view_item'                  => 'View Program',
-		'separate_items_with_commas' => 'Separate program types with commas',
-		'add_or_remove_items'        => 'Add or remove programs',
+		'name'                       => 'Project Types',
+		'singular_name'              => 'Project Type',
+		'menu_name'                  => 'Project Type',
+		'all_items'                  => 'All Projects',
+		'parent_item'                => 'Parent Project',
+		'parent_item_colon'          => 'Parent Project:',
+		'new_item_name'              => 'New Project Name',
+		'add_new_item'               => 'Add New Project',
+		'edit_item'                  => 'Edit Project',
+		'update_item'                => 'Update Project',
+		'view_item'                  => 'View Project',
+		'separate_items_with_commas' => 'Separate project types with commas',
+		'add_or_remove_items'        => 'Add or remove projects',
 		'choose_from_most_used'      => 'Choose from the most used',
-		'popular_items'              => 'Popular programs',
-		'search_items'               => 'Search programs',
+		'popular_items'              => 'Popular projects',
+		'search_items'               => 'Search projects',
 		'not_found'                  => 'Not Found',
-		'no_terms'                   => 'No programs',
-		'items_list'                 => 'Programs list',
-		'items_list_navigation'      => 'Programs list navigation',
+		'no_terms'                   => 'No projects',
+		'items_list'                 => 'Projects list',
+		'items_list_navigation'      => 'Projects list navigation',
 	);
 	$args = array(
 		'labels'                     => $labels,
@@ -39,7 +39,7 @@ function register_program_type_taxonomy() {
 		'show_in_nav_menus'          => true,
 		'show_tagcloud'              => true,
 	);
-	register_taxonomy( 'program-type', array( 'programs' ), $args );
+	register_taxonomy( 'project-type', array( 'projects' ), $args );
 
 }
-add_action( 'init', 'register_program_type_taxonomy', 0 );
+add_action( 'init', 'register_project_type_taxonomy', 0 );
