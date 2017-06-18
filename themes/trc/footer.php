@@ -49,12 +49,12 @@
 							<p>Internship</p>
 							<p>Donate</p>
 						</div><!--footer-box-->
-            <div class="contact-column">
+            <div class="contact-column tablet-hider">
 							<h2>contact</h2>
 							<img class="hider" id="uganda-icon" src="<?php echo get_template_directory_uri(); ?>/assets/Icons/Desktop/png/Tekera_Icon_Uganda.png">
               <img class="hider" id="canada-flag" src="<?php echo get_template_directory_uri(); ?>/assets/Icons/Desktop/png/Tekera_Icon_Canda.png">  							
             </div><!--contact-column-->
-						<div class="contact-column-right hider">
+						<div class="contact-column-right hider tablet-hider">
 						  <h3>Uganda</h3>
 						  <p>Tekera Resource Center</p>
 						  <p>P.O. Box 960</p>
@@ -66,7 +66,7 @@
 							<p>V4L 2C6</p>	
 						  <span class="contact-email"><p>info@icefcanada.org</p></span>																													
 						</div><!--contact-column-right-->	
-						<div class="contact-column-outside">
+						<div class="contact-column-outside tablet-hider">
 						  <p class="hider">ICEF Country Director</p>
 						  <p class="hider">Maureen Nakalinza</p>
 						  <p class="hider">+256 773 195 441</p>	
