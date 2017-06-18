@@ -1713,11 +1713,8 @@ object {
     font-style: normal;
     color: #FFF; }
 
-.blog-title-wrapper:hover h3, .blog-title-wrapper:hover p {
+.blog-title-wrapper:hover h3, .blog-title-wrapper:hover p:hover {
   color: #D44E1F; }
-
-.blog-title-wrapper:hover .blog-post-box {
-  background: rgba(255, 255, 255, 0.7); }
 
 .more-blogs-button-mobile {
   -ms-flex-align: center;

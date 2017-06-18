@@ -20,7 +20,7 @@ function register_program_type_taxonomy() {
 		'edit_item'                  => 'Edit Program',
 		'update_item'                => 'Update Program',
 		'view_item'                  => 'View Program',
-		'separate_items_with_commas' => 'Separate programs with commas',
+		'separate_items_with_commas' => 'Separate program types with commas',
 		'add_or_remove_items'        => 'Add or remove programs',
 		'choose_from_most_used'      => 'Choose from the most used',
 		'popular_items'              => 'Popular programs',

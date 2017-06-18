@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying Programs archive page.
+ * The template for displaying the "What We Do" / Programs archive page.
  *
  * @package RED_Starter_Theme
  */
@@ -13,10 +13,21 @@ get_header(); ?>
 		<?php if ( have_posts() ) : ?>
 
 			<header class="page-header">
-				<?php
-					the_archive_title( '<h1 class="page-title">', '</h1>' );
-					the_archive_description( '<div class="taxonomy-description">', '</div>' );
-				?>
+				<?php $program_types = get_terms(array (
+            'taxonomy'=>'program-type',
+            'hide_empty'=> 0
+          )); 
+          if (!empty($program_types) && !is_wp_error($program_types)) : ?>
+
+        <div class="program-type-categories">
+          <?php foreach ( $program_types as $program_type ) : ?>
+            
+          <a href="<?php echo get_term_link($program_type); ?>">
+          <p><?php echo $program_type->name; ?></p>
+          </a>
+          <?php endforeach; ?>
+        </div>
+          <?php endif; ?>
 			</header><!-- .page-header -->
 
 			<?php /* Start the Loop */ ?>
@@ -39,5 +50,4 @@ get_header(); ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
