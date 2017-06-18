@@ -1414,6 +1414,9 @@ object {
   max-width: 40rem;
   height: 30rem; }
 
+.blog-post-box a:hover p, .blog-post-box a:hover h3 {
+  color: #D44E1F; }
+
 .blog-title-wrapper {
   -ms-flex-align: center;
       align-items: center;
@@ -1466,6 +1469,10 @@ object {
 
 .breakhide {
   display: none; }
+
+.blog-hover-overlay {
+  background-color: rgba(255, 255, 255, 0.7);
+  z-index: 10000000; }
 
 @media screen and (min-width: 640px) {
   .blog-main-wrapper {
