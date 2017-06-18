@@ -1652,7 +1652,7 @@ object {
     bottom: -25px;
     left: 0; } }
 
-/* Blog Archives Page */
+/* Blog Archive Page */
 .blog-hero {
   background: url("../../assets/Images/Desktop/blog/Tekera_Blog_Teal mic.png");
   background-position: center;
@@ -1784,6 +1784,17 @@ object {
       color: #FFF; }
   .breakhide {
     display: inline; } }
+
+/* What We Do Archive Page */
+.post-type-archive-projects .projects-hero {
+  background: url("../../assets/Images/Mobile/projects/tekera_projects_collecting_water.png") center center no-repeat;
+  background-size: cover;
+  height: 80vh;
+  margin-bottom: 3rem; }
+  @media screen and (min-width: 640px) {
+    .post-type-archive-projects .projects-hero {
+      background: url("../../assets/Images/Desktop/projects/tekera_projects_overview_collecting_water.png") center center no-repeat;
+      background-size: cover; } }
 
 .who-we-are-page {
   font-family: "Open Web"; }
