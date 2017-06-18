@@ -75,9 +75,6 @@
 						  <p class="hider">+256 0701 589 765</p>
 						</div><!--contact-column-outside-->	
 					</div><!--footer-bottom-->	
-					<div class="quick-links-header">
-						<h2>Quick Links</h2>
-					</div><!--quick-links-header-->	
 					<div class="footer-copyright">
 					  <p>&copy; 2017 TEKERA RESOURCE CENTRE, All Rights Reserved.</p>
 					  <span class="flow-controller"><p>NGO #S.5914/6996</p></span>
