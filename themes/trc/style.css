@@ -1028,6 +1028,12 @@ object {
   height: 50%;
   margin-left: 6rem;
   width: 15rem; }
+  .footer-box h3, .footer-box h2 {
+    font-weight: 400; }
+  .footer-box a {
+    color: #FFF; }
+  .footer-box a:hover {
+    color: #D44E1F; }
   .footer-box p {
     margin: 4px; }
 
@@ -1261,15 +1267,24 @@ object {
   height: 20rem;
   margin-right: 2rem; }
   .contact-column h2 {
-    margin-bottom: 1rem; }
+    margin-bottom: 1rem;
+    font-weight: 300; }
   .contact-column img {
     height: 5rem;
     width: 5rem; }
+  .contact-column a {
+    color: #FFF; }
+  .contact-column a:hover {
+    color: #D44E1F; }
 
 .contact-column-right {
   margin-top: 3rem; }
   .contact-column-right p {
     margin: 0px; }
+  .contact-column-right a {
+    color: #FFF; }
+  .contact-column-right a:hover {
+    color: #D44E1F; }
 
 #canada-flag {
   margin-top: 7rem; }

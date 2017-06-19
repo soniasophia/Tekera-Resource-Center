@@ -43,6 +43,15 @@
   height: 50%;
   margin-left: 6rem;
   width: 15rem;
+  h3, h2 {
+    font-weight: 400;
+  }
+  a {
+    color: #FFF;
+  }
+  a:hover {
+    color: $color_brand-orange;
+  }
   p {
     margin: 4px;
   }
@@ -315,10 +324,17 @@
   margin-right: 2rem;
   h2 {
     margin-bottom: 1rem;
+    font-weight: 300;
   }
   img {
     height: 5rem;
     width: 5rem;
+  }
+  a {
+    color: #FFF;
+  }
+  a:hover {
+    color: $color_brand-orange;
   }
 }
 
@@ -327,6 +343,12 @@
   margin-top: 3rem;
   p {
     margin: 0px;
+  }
+  a {
+    color: #FFF;
+  }
+  a:hover {
+    color: $color_brand-orange;
   }
 }
 
