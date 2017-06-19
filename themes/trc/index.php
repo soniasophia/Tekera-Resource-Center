@@ -40,15 +40,10 @@ get_header(); ?>
 <?php $thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' );?>
     <div class="blog-post-box" style="background-image: url('<?php echo $thumb['0'];?>')">
 			  <div class="blog-title-wrapper">
-<<<<<<< HEAD
-				  <a class="blog-link" href="<?php the_permalink() ?>"><h3><?php the_title(); ?></h3>
-					<p><?php short_excerpt(get_the_excerpt()); ?>....</p></a>
-=======
 				  <a class="blog-hover" href="<?php the_permalink() ?>">
 					  <h3><?php the_title(); ?></h3>
 					  <p><?php short_excerpt(get_the_excerpt()); ?>....</p>
 					</a>
->>>>>>> saving-work-trev
 				</div><!--blog-title-wrapper-->
       </div><!--blog-post-box-->
 			<?php endwhile; ?>
