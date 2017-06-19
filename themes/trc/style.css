@@ -1904,7 +1904,7 @@ object {
 .who-we-are-page {
   font-family: "Open Web"; }
   .who-we-are-page .herobanner {
-    background: url("../../assets/Images/Desktop/about/Tekera_About_Student with sibling.png");
+    background: url("../../assets/Images/Desktop/about/tekera_about_student_with_sibling.png");
     background-size: cover;
     background-position: 72% bottom;
     background-repeat: no-repeat;
@@ -1916,16 +1916,16 @@ object {
     margin-top: 50px; }
     .who-we-are-page .content h1 {
       color: #20ACAF;
-      font-size: 1.2rem;
+      font-size: 1.5rem;
       text-transform: uppercase;
       width: 80%; }
   .who-we-are-page .middle-content h1,
   .who-we-are-page .bottom-content h1 {
-    font-size: 0.9rem;
+    font-size: 1.3rem;
     text-transform: none;
     margin: 30px 0; }
   .who-we-are-page .top-image {
-    background: url("../../assets/Images/Mobile/about/Tekera_About page_Collecting water.png");
+    background: url("../../assets/Images/Mobile/about/tekera_about_page_collecting_water.png");
     background-size: cover;
     background-position: 95% bottom;
     background-repeat: no-repeat;
@@ -1933,7 +1933,7 @@ object {
     position: relative; }
     @media screen and (min-width: 640px) {
       .who-we-are-page .top-image {
-        background: url("../../assets/Images/Desktop/about/Tekera_About_Collecting water.png");
+        background: url("../../assets/Images/Desktop/about/tekera_about_collecting_water.png");
         background-size: cover;
         height: 30vh;
         background-position: center right; } }
@@ -1959,7 +1959,7 @@ object {
         .who-we-are-page .top-image .top-blue {
           background: url("../../assets/Triangle overlays/Tekera_DESKTOP_TriangleOverlay_Right.png");
           height: 100%;
-          width: 60%;
+          width: 50%;
           background-position: center right;
           background-repeat: no-repeat; } }
       .who-we-are-page .top-image .top-blue .top-phrase {
@@ -1968,7 +1968,7 @@ object {
           margin: 30px auto;
           width: 58%; }
   .who-we-are-page .bottom-image {
-    background: url("../../assets/Images/Mobile/about/Tekera_About Us_Water and Sanitation.png");
+    background: url("../../assets/Images/Mobile/about/tekera_about_us_water_and_sanitation.png");
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -1976,7 +1976,7 @@ object {
     position: relative; }
     @media screen and (min-width: 640px) {
       .who-we-are-page .bottom-image {
-        background: url("../../assets/Images/Desktop/about/Tekera_About_Water and Sanitation.png");
+        background: url("../../assets/Images/Desktop/about/tekera_about_water_and_sanitation.png");
         background-size: cover;
         height: 30vh;
         background-position: center left; } }
@@ -2002,7 +2002,7 @@ object {
         .who-we-are-page .bottom-image .bottom-blue {
           background: url("../../assets/Triangle overlays/Tekera_DESKTOP_TriangleOverlay_Left.png");
           height: 100%;
-          width: 60%;
+          width: 48%;
           background-position: center left;
           background-repeat: no-repeat;
           right: 0; } }
@@ -2022,7 +2022,8 @@ object {
               margin-right: 0px; } }
 
 #cta {
-  background: url("../../assets/Images/Mobile/about/Tekera_About Us_kids in playground .png");
+  font-weight: lighter;
+  background: url("../../assets/Images/Mobile/about/tekera_about_us_kids_in_playground_.png");
   background-size: cover;
   background-position: 95% bottom;
   background-repeat: no-repeat;
@@ -2030,7 +2031,7 @@ object {
   position: relative; }
   @media screen and (min-width: 640px) {
     #cta {
-      background: url("../../assets/Images/Desktop/about/Tekera_About_kids in playground .png");
+      background: url("../../assets/Images/Desktop/about/tekera_about_kids_in_playground.png");
       background-size: cover;
       height: 80vh; } }
   #cta #cta-blue {
@@ -2053,13 +2054,56 @@ object {
         align-content: center; }
     @media screen and (min-width: 640px) {
       #cta #cta-blue {
-        background: url("../../assets/Triangle overlays/Tekera_DESKTOP_TriangleOverlay_Right.png");
+        background: url("../../assets/Triangle overlays/Tekera_DESKTOP_TriangleOverlay_Left.png");
+        background-size: cover;
+        position: absolute;
+        right: 0;
+        background-position: 0;
         height: 100%;
-        width: 60%;
-        background-position: center right;
-        background-repeat: no-repeat; } }
+        width: 70%;
+        background-repeat: no-repeat;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: end;
+            align-items: flex-end; } }
     #cta #cta-blue #cta-text {
       color: white; }
+      @media screen and (min-width: 640px) {
+        #cta #cta-blue #cta-text {
+          font-size: 3rem;
+          width: 70%;
+          text-align: right;
+          margin-right: 40px; } }
+      #cta #cta-blue #cta-text h2 {
+        width: 40%;
+        margin: auto;
+        font-family: "Shadows Into Light Web";
+        font-size: 2.2rem;
+        font-weight: lighter;
+        line-height: 3rem; }
+        @media screen and (min-width: 640px) {
+          #cta #cta-blue #cta-text h2 {
+            font-size: 3rem;
+            width: 100%; } }
       #cta #cta-blue #cta-text p {
-        margin: 30px auto;
-        width: 58%; }
+        margin: 10px auto;
+        width: 100%;
+        font-size: 1.2rem;
+        margin-bottom: 30px;
+        line-height: 2rem; }
+        @media screen and (min-width: 640px) {
+          #cta #cta-blue #cta-text p {
+            font-size: 1.5rem;
+            margin: 60px 0px; } }
+      @media screen and (min-width: 640px) {
+        #cta #cta-blue #cta-text .button-get-involved {
+          text-align: center; } }
+      #cta #cta-blue #cta-text .button-get-involved a {
+        color: white;
+        font-weight: bold;
+        font-size: 1.25rem;
+        padding: 12px 20px;
+        background-color: orange; }
+        @media screen and (min-width: 640px) {
+          #cta #cta-blue #cta-text .button-get-involved a {
+            padding: 15px 40px; } }
