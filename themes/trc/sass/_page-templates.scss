@@ -898,7 +898,7 @@
     flex-flow: column nowrap;
     align-items: center;
     font-size: 2rem;
-    justify-content: space-around;
+    justify-content: center;
     height: 65rem;
   }
 
@@ -906,22 +906,27 @@
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
+    width: 60%;
   }
 
   .how-insert-box {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
     flex-flow: column nowrap;
-    width: 25%;
+    width: 30%;
     height: auto;
     text-align: center;
     img {
-      width: 100%;
-      height: auto;
+      width: 10rem;
+      height: 10rem;
     }
     h4 {
       @include shadows;
       text-transform: uppercase;
       width: 90%;
+      padding: 0px;
+      margin: 0px;
     }
   }
 
@@ -931,19 +936,37 @@
     justify-content: space-around;
     flex-flow: column nowrap;
     height: 9rem;
+    width: 60%;   
+    margin: 1rem 0 1rem 0; 
     h1, h2 {
       @include font-open-bold;
       text-transform: uppercase;
       color: $color_brand-blue-dark;
       margin: 0px;
       padding: 0px;
-    }    
+    }  
+    h1 {
+      font-size: 5rem;
+    }   
+    h2 {
+      font-size: 2rem;
+    }
   }
     .how-insert-bottom {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
     margin-top: 4rem;
+    width: 60%;
+    img {
+      width: 10rem;
+      height: 10rem;
+    }
+    h4 {
+      @include shadows;
+      text-transform: uppercase;
+      width: 90%;
+    }
   }
 
   .how-we-do-it-prefooter {

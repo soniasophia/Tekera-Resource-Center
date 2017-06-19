@@ -40,15 +40,18 @@ get_the_title();
           <div class="how-insert-top">
             <div class="how-insert-box">
               <img src="<?php echo get_template_directory_uri(); ?>/assets/Icons/Desktop/png/tekera_icon_farming_.png">
-              <h4>co-operative farming</h4>
+              <h4>co-operative</h4>
+              <h4>farming</h4>
             </div><!--how-insert-box-->  
             <div class="how-insert-box">
               <img src="<?php echo get_template_directory_uri(); ?>/assets/Icons/Desktop/png/tekera_icon_clinic.png">
-              <h4>medical clinic</h4>
+              <h4>medical</h4> 
+              <h4>clinic</h4>
             </div><!--how-insert-box-->  
             <div class="how-insert-box">
               <img src="<?php echo get_template_directory_uri(); ?>/assets/Icons/Desktop/png/tekera_icon_women_empowerment.png">
-              <h4>women empowerment</h4>
+              <h4>women</h4> 
+              <h4>empowerment</h4>
             </div><!--how-insert-box-->                          
           </div><!--how-insert-top-->          
           <div class="how-insert-middle">
@@ -58,15 +61,18 @@ get_the_title();
           <div class="how-insert-bottom">
             <div class="how-insert-box">
               <img src="<?php echo get_template_directory_uri(); ?>/assets/Icons/Desktop/png/tekera_icon_education.png">
-              <h4>high-quality education</h4>
+              <h4>high-quality</h4>
+              <h4>education</h4>
             </div><!--how-insert-box-->  
             <div class="how-insert-box">
               <img src="<?php echo get_template_directory_uri(); ?>/assets/Icons/Desktop/png/tekera_icon_community.png">
-              <h4>community work</h4>
+              <h4>community</h4> 
+              <h4>work</h4>
             </div><!--how-insert-box-->  
             <div class="how-insert-box">
               <img src="<?php echo get_template_directory_uri(); ?>/assets/Icons/Desktop/png/tekera_icon_economic.png">
-              <h4>economic development</h4>
+              <h4>economic</h4> 
+              <h4>development</h4>
             </div><!--how-insert-box-->                          
           </div><!--how-insert-bottom-->           
         </div><!--how-desktop-insert-->  
@@ -102,19 +108,16 @@ get_the_title();
         </p>  
       </div><!--how-large-text-->     
   </div><!--our-model-content-wrapper-->
-    <div class="how-we-do-it-prefooter">
-      <div class="how-prefooter-overlay">
-        <div class="prefooter-overlay-header">   
-          <h1>You can be part of the change!</h1>
-          <p>There are many ways you can contribute to the 
-             Tekera Resource Centre and help to build a better 
-             future for Ugandans!
-          </p> 
-          <div class="get-involved-link">
-            <h2><a>get involved</a></h2>
-          </div>    
-        </div><!--prefooter-overlay-header-->     
-      </div><!--how-prefooter-overlay-->         
-    </div><!--how-we-do-it-prefooter--> 
-    <?php get_footer(); ?>
+  <div id="cta">
+    <div id="cta-blue">
+      <div id="cta-text">
+        <h2>You Can be part of the change!</h2>
+        <p>There are many way ways you can contriubte to the Tekera Resource Center and help to build a better future for Ugandans!</p>
+        <div class="button-get-involved">
+          <a href="">Get Involved</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <?php get_footer(); ?>
 </div><!--how-we-do-it-page-->

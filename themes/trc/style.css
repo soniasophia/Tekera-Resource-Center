@@ -2335,8 +2335,8 @@ object {
     -ms-flex-align: center;
         align-items: center;
     font-size: 2rem;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    -ms-flex-pack: center;
+        justify-content: center;
     height: 65rem; }
   .how-insert-top {
     display: -ms-flexbox;
@@ -2344,24 +2344,31 @@ object {
     -ms-flex-flow: row nowrap;
         flex-flow: row nowrap;
     -ms-flex-pack: justify;
-        justify-content: space-between; }
+        justify-content: space-between;
+    width: 60%; }
   .how-insert-box {
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-align: center;
+        align-items: center;
     -ms-flex-flow: column nowrap;
         flex-flow: column nowrap;
-    width: 25%;
+    width: 30%;
     height: auto;
     text-align: center; }
     .how-insert-box img {
-      width: 100%;
-      height: auto; }
+      width: 10rem;
+      height: 10rem; }
     .how-insert-box h4 {
       font-family: 'Shadows Into Light Web';
       font-weight: normal;
       font-style: normal;
       text-transform: uppercase;
-      width: 90%; }
+      width: 90%;
+      padding: 0px;
+      margin: 0px; }
   .how-insert-middle {
     display: -ms-flexbox;
     display: flex;
@@ -2371,7 +2378,9 @@ object {
         justify-content: space-around;
     -ms-flex-flow: column nowrap;
         flex-flow: column nowrap;
-    height: 9rem; }
+    height: 9rem;
+    width: 60%;
+    margin: 1rem 0 1rem 0; }
     .how-insert-middle h1, .how-insert-middle h2 {
       font-family: 'Open Web';
       font-weight: bold;
@@ -2380,6 +2389,10 @@ object {
       color: #072A3D;
       margin: 0px;
       padding: 0px; }
+    .how-insert-middle h1 {
+      font-size: 5rem; }
+    .how-insert-middle h2 {
+      font-size: 2rem; }
   .how-insert-bottom {
     display: -ms-flexbox;
     display: flex;
@@ -2387,7 +2400,17 @@ object {
         flex-flow: row nowrap;
     -ms-flex-pack: justify;
         justify-content: space-between;
-    margin-top: 4rem; }
+    margin-top: 4rem;
+    width: 60%; }
+    .how-insert-bottom img {
+      width: 10rem;
+      height: 10rem; }
+    .how-insert-bottom h4 {
+      font-family: 'Shadows Into Light Web';
+      font-weight: normal;
+      font-style: normal;
+      text-transform: uppercase;
+      width: 90%; }
   .how-we-do-it-prefooter {
     display: -ms-flexbox;
     display: flex;
