@@ -601,6 +601,17 @@
 /* What We Do Archive Page */
 
 .post-type-archive-projects {
+  p {
+    @include font-open-light;
+    line-height: 2.2rem;
+    font-size: 1.1rem;
+  }
+
+  h2 {
+    @include font-open-regular;
+    text-transform: uppercase;
+  }
+
   .projects-hero {
     background: url('../../assets/Images/Mobile/projects/tekera_projects_collecting_water.png') center center no-repeat;
     background-size: cover;
@@ -612,4 +623,89 @@
       background-size: cover;
     }
   }
+
+  .projects-title h1 {
+    @include font-open-bold;
+    color: $color_brand-blue-dark;
+  }
+
+  .content-area {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .overview h2 {
+    text-align: center;
+    background: $color_brand-teal-dark;
+    color: white;
+    padding: 1.2rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 79rem;
+  }
+
+  .overview-text {
+    margin-top: 12rem;
+  }
+
+  .projects {
+    margin-top: 5.5rem;
+
+    h2 {
+    color: $color_brand-teal;
+    font-weight: bold;
+    }
+
+    .project-type-list {
+      margin-top: 5rem;
+
+      h3 {
+        @include shadows;
+        text-transform: uppercase;
+        font-size: 1.7rem;
+        width: 60%;
+        text-align: center;
+      }
+    }
+
+    .learn-more {
+      @include font-open-regular;
+      text-transform: uppercase;
+      color: white;
+      background: $color_brand-yellow;
+      font-size: 1.2rem;
+      padding: 0.8rem 2rem;
+    }
+
+    .project-heading {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .project-type {
+      margin-bottom: 4rem;
+      border-bottom: 12px solid $color_brand-teal;
+    }
+
+    .project-description {
+      margin: 3rem 0;
+    }
+
+    .learn-more-button {
+      text-align: center;
+      margin-bottom: 4.5rem;
+      margin-top: 4.5rem;
+    }
+
+    .border-bottom {
+      border-bottom: 12px solid #20acaf;
+      position: absolute;
+      right: 0;
+      left: 0;
+    }
+  }
+  
+    
 }

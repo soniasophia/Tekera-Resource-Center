@@ -381,7 +381,9 @@ ul, ol {
   margin: 0 0 1.5rem 3rem; }
 
 ul {
-  list-style: disc; }
+  list-style: disc;
+  margin-left: 0;
+  padding-left: 0; }
 
 ol {
   list-style: decimal; }
@@ -390,6 +392,11 @@ li > ul,
 li > ol {
   margin-bottom: 0;
   margin-left: 1.5rem; }
+
+li {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0; }
 
 dt {
   font-weight: bold; }
@@ -1007,14 +1014,15 @@ div.tekera-triangles img {
       text-align: right; } }
 
 .single-post .entry-content {
-  font-family: 'Open Web';
-  font-weight: 100;
-  font-style: normal;
   width: 80%;
   margin: 0 auto;
   margin-top: 3.5rem;
   margin-bottom: 3.5rem;
   line-height: 2; }
+  .single-post .entry-content p {
+    font-family: 'Open Web';
+    font-weight: 100;
+    font-style: normal; }
 
 .single-post .comments-area, .single-post .widget-area, .single-post .search-form {
   display: none; }
@@ -1786,6 +1794,19 @@ object {
     display: inline; } }
 
 /* What We Do Archive Page */
+.post-type-archive-projects p {
+  font-family: 'Open Web';
+  font-weight: 100;
+  font-style: normal;
+  line-height: 2.2rem;
+  font-size: 1.1rem; }
+
+.post-type-archive-projects h2 {
+  font-family: 'Open Web';
+  font-weight: normal;
+  font-style: normal;
+  text-transform: uppercase; }
+
 .post-type-archive-projects .projects-hero {
   background: url("../../assets/Images/Mobile/projects/tekera_projects_collecting_water.png") center center no-repeat;
   background-size: cover;
@@ -1795,6 +1816,75 @@ object {
     .post-type-archive-projects .projects-hero {
       background: url("../../assets/Images/Desktop/projects/tekera_projects_overview_collecting_water.png") center center no-repeat;
       background-size: cover; } }
+
+.post-type-archive-projects .projects-title h1 {
+  font-family: 'Open Web';
+  font-weight: bold;
+  font-style: normal;
+  color: #072A3D; }
+
+.post-type-archive-projects .content-area {
+  width: 80%;
+  margin: 0 auto; }
+
+.post-type-archive-projects .overview h2 {
+  text-align: center;
+  background: #006E71;
+  color: white;
+  padding: 1.2rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 79rem; }
+
+.post-type-archive-projects .overview-text {
+  margin-top: 12rem; }
+
+.post-type-archive-projects .projects {
+  margin-top: 5.5rem; }
+  .post-type-archive-projects .projects h2 {
+    color: #20ACAF;
+    font-weight: bold; }
+  .post-type-archive-projects .projects .project-type-list {
+    margin-top: 5rem; }
+    .post-type-archive-projects .projects .project-type-list h3 {
+      font-family: 'Shadows Into Light Web';
+      font-weight: normal;
+      font-style: normal;
+      text-transform: uppercase;
+      font-size: 1.7rem;
+      width: 60%;
+      text-align: center; }
+  .post-type-archive-projects .projects .learn-more {
+    font-family: 'Open Web';
+    font-weight: normal;
+    font-style: normal;
+    text-transform: uppercase;
+    color: white;
+    background: #EE9825;
+    font-size: 1.2rem;
+    padding: 0.8rem 2rem; }
+  .post-type-archive-projects .projects .project-heading {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: justify;
+        justify-content: space-between; }
+  .post-type-archive-projects .projects .project-type {
+    margin-bottom: 4rem;
+    border-bottom: 12px solid #20ACAF; }
+  .post-type-archive-projects .projects .project-description {
+    margin: 3rem 0; }
+  .post-type-archive-projects .projects .learn-more-button {
+    text-align: center;
+    margin-bottom: 4.5rem;
+    margin-top: 4.5rem; }
+  .post-type-archive-projects .projects .border-bottom {
+    border-bottom: 12px solid #20acaf;
+    position: absolute;
+    right: 0;
+    left: 0; }
 
 .who-we-are-page {
   font-family: "Open Web"; }
