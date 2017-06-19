@@ -1911,6 +1911,10 @@ object {
   height: 30rem;
   position: relative; }
 
+.how-hero-desktop {
+  display: none; }
+
+.how
 .our-model-header-box {
   display: -ms-flexbox;
   display: flex;
@@ -2014,6 +2018,113 @@ object {
   height: auto;
   width: 75%;
   text-transform: uppercase; }
+  .get-involved-link a {
+    color: #FFF; }
+  .get-involved-link a:hover {
+    color: #20ACAF; }
+
+.how-desktop-insert {
+  display: none; }
+
+@media screen and (min-width: 640px) {
+  .how-we-do-it-page {
+    font-size: 1.25rem; }
+  .how-hero-wrapper {
+    display: none; }
+  .how-hero-desktop {
+    background: url("../../assets/Images/Desktop/our-model/tekera_our_model_assembly_at_primary_school_.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: -ms-flexbox;
+    display: flex;
+    height: 30rem;
+    position: relative; }
+  .dev-practices {
+    text-align: center; }
+  .our-model-content-wrapper {
+    padding: 0 6rem 0 6rem; }
+  .how-desktop-insert {
+    margin-top: 6rem;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: column nowrap;
+        flex-flow: column nowrap;
+    -ms-flex-align: center;
+        align-items: center;
+    font-size: 2rem;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    height: 65rem; }
+  .how-insert-top {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+    -ms-flex-pack: justify;
+        justify-content: space-between; }
+  .how-insert-box {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: column nowrap;
+        flex-flow: column nowrap;
+    width: 25%;
+    height: auto;
+    text-align: center; }
+    .how-insert-box img {
+      width: 100%;
+      height: auto; }
+    .how-insert-box h4 {
+      font-family: 'Shadows Into Light Web';
+      font-weight: normal;
+      font-style: normal;
+      text-transform: uppercase;
+      width: 90%; }
+  .how-insert-middle {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-flow: column nowrap;
+        flex-flow: column nowrap;
+    height: 9rem; }
+    .how-insert-middle h1, .how-insert-middle h2 {
+      font-family: 'Open Web';
+      font-weight: bold;
+      font-style: normal;
+      text-transform: uppercase;
+      color: #072A3D;
+      margin: 0px;
+      padding: 0px; }
+  .how-insert-bottom {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    margin-top: 4rem; }
+  .how-we-do-it-prefooter {
+    display: -ms-flexbox;
+    display: flex;
+    background: url("../../assets/Images/Desktop/our-model/tekera_our_model_kids_in_playground_.png");
+    background-position: center;
+    background-size: cover;
+    height: 40rem;
+    position: relative;
+    overflow: visible; }
+  .how-prefooter-overlay {
+    background: url("../../assets/Triangle overlays/tekera_desktop_triangleoverlay_left.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 75%;
+    right: 0; }
+  .get-involved-link {
+    width: 15rem; } }
 
 .who-we-are-page {
   font-family: "Open Web"; }

@@ -6,9 +6,8 @@ get_the_title();
 <div class="how-we-do-it-page">
   <div class="how-hero-wrapper">
   </div><!--how-hero-wrapper-->  
-  <section class="our-model-header-box">
-    <h2>our model</h2>
-  </section><!--out-model-header-box-->  
+  <div class="how-hero-desktop">
+  </div><!--how-hero-desktop-->
   <div class="our-model-content-wrapper">
     <h2>our model</h2>
     <p>We use a variety of approaches to ensure our development practice is:</p>
@@ -37,6 +36,40 @@ get_the_title();
            decreasing inequity and inequality. ICEF considers all of 
            these when collaborating to implement programs at TRC.
         </p>
+        <div class="how-desktop-insert">
+          <div class="how-insert-top">
+            <div class="how-insert-box">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/Icons/Desktop/png/tekera_icon_farming_.png">
+              <h4>co-operative farming</h4>
+            </div><!--how-insert-box-->  
+            <div class="how-insert-box">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/Icons/Desktop/png/tekera_icon_clinic.png">
+              <h4>medical clinic</h4>
+            </div><!--how-insert-box-->  
+            <div class="how-insert-box">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/Icons/Desktop/png/tekera_icon_women_empowerment.png">
+              <h4>women empowerment</h4>
+            </div><!--how-insert-box-->                          
+          </div><!--how-insert-top-->          
+          <div class="how-insert-middle">
+            <h1>10,000+</h1>
+            <h2>people have benefitted from trc</h2>
+          </div><!--how-insert-middle-->  
+          <div class="how-insert-bottom">
+            <div class="how-insert-box">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/Icons/Desktop/png/tekera_icon_education.png">
+              <h4>high-quality education</h4>
+            </div><!--how-insert-box-->  
+            <div class="how-insert-box">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/Icons/Desktop/png/tekera_icon_community.png">
+              <h4>community work</h4>
+            </div><!--how-insert-box-->  
+            <div class="how-insert-box">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/Icons/Desktop/png/tekera_icon_economic.png">
+              <h4>economic development</h4>
+            </div><!--how-insert-box-->                          
+          </div><!--how-insert-bottom-->           
+        </div><!--how-desktop-insert-->  
         <p class="pesos-content">The Tekera Pesos</p>  
         <p>In order to give real worth to the services offered 
            by the Centre, this local currency was developed by 
@@ -78,7 +111,7 @@ get_the_title();
              future for Ugandans!
           </p> 
           <div class="get-involved-link">
-            <h2>get involved</h2>
+            <h2><a>get involved</a></h2>
           </div>    
         </div><!--prefooter-overlay-header-->     
       </div><!--how-prefooter-overlay-->         

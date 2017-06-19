@@ -752,6 +752,12 @@
   position: relative;
 }
 
+.how-hero-desktop {
+  display: none;
+}
+
+.how
+
 .our-model-header-box {
   display: flex;
   align-items: center;
@@ -846,4 +852,122 @@
   height: auto;
   width: 75%;
   text-transform: uppercase;
+  a {
+    color: #FFF;
+  }  
+  a:hover {
+    color: $color_brand-teal;
+  }
+}
+
+.how-desktop-insert {
+  display: none;
+}
+
+@media screen and (min-width: 640px) {
+
+  .how-we-do-it-page {
+    font-size: 1.25rem;
+  }
+
+  .how-hero-wrapper {
+    display: none;
+  }
+
+  .how-hero-desktop {
+    background: url('../../assets/Images/Desktop/our-model/tekera_our_model_assembly_at_primary_school_.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    display: flex;
+    height: 30rem;
+    position: relative;
+  }
+
+  .dev-practices {
+    text-align: center;
+  }
+
+  .our-model-content-wrapper {
+    padding: 0 6rem 0 6rem;
+  }
+
+  .how-desktop-insert {
+    margin-top: 6rem;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    font-size: 2rem;
+    justify-content: space-around;
+    height: 65rem;
+  }
+
+  .how-insert-top {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+
+  .how-insert-box {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 25%;
+    height: auto;
+    text-align: center;
+    img {
+      width: 100%;
+      height: auto;
+    }
+    h4 {
+      @include shadows;
+      text-transform: uppercase;
+      width: 90%;
+    }
+  }
+
+  .how-insert-middle {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: column nowrap;
+    height: 9rem;
+    h1, h2 {
+      @include font-open-bold;
+      text-transform: uppercase;
+      color: $color_brand-blue-dark;
+      margin: 0px;
+      padding: 0px;
+    }    
+  }
+    .how-insert-bottom {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-top: 4rem;
+  }
+
+  .how-we-do-it-prefooter {
+    display: flex;
+    background: url('../../assets/Images/Desktop/our-model/tekera_our_model_kids_in_playground_.png');
+    background-position: center;
+    background-size: cover;
+    height: 40rem;
+    position: relative;
+    overflow: visible;
+  }
+  
+  .how-prefooter-overlay {
+    background: url('../../assets/Triangle overlays/tekera_desktop_triangleoverlay_left.png');
+    background-position: center;
+    background-size: cover;  
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 75%;
+    right: 0;
+  }    
+
+  .get-involved-link {
+    width: 15rem;
+  }
+
 }
