@@ -91,6 +91,8 @@ function red_starter_scripts() {
 	wp_enqueue_script( 'jquery' );
 	wp_enqueue_script( 'more-blog-posts', get_template_directory_uri() . '/build/js/more-blog-posts.min.js', array('jquery'), null, true );
 
+  wp_enqueue_script( 'blog-hover-behaviour', get_template_directory_uri() . '/build/js/blog-hover-behaviour.min.js', array('jquery'), null, true );
+
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}

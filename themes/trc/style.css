@@ -1307,6 +1307,12 @@ object {
   height: 50%;
   margin-left: 6rem;
   width: 15rem; }
+  .footer-box h3, .footer-box h2 {
+    font-weight: 400; }
+  .footer-box a {
+    color: #FFF; }
+  .footer-box a:hover {
+    color: #D44E1F; }
   .footer-box p {
     margin: 4px; }
 
@@ -1539,15 +1545,24 @@ object {
   height: 20rem;
   margin-right: 2rem; }
   .contact-column h2 {
-    margin-bottom: 1rem; }
+    margin-bottom: 1rem;
+    font-weight: 300; }
   .contact-column img {
     height: 5rem;
     width: 5rem; }
+  .contact-column a {
+    color: #FFF; }
+  .contact-column a:hover {
+    color: #D44E1F; }
 
 .contact-column-right {
   margin-top: 3rem; }
   .contact-column-right p {
     margin: 0px; }
+  .contact-column-right a {
+    color: #FFF; }
+  .contact-column-right a:hover {
+    color: #D44E1F; }
 
 #canada-flag {
   margin-top: 7rem; }
@@ -1563,9 +1578,6 @@ object {
 
 .contact-spacer h3 {
   margin-top: 2rem; }
-
-.quick-links-header {
-  display: none; }
 
 #how {
   margin-left: 3rem; }
@@ -1644,12 +1656,6 @@ object {
     left: 6rem;
     top: 40rem;
     margin: 0px; }
-  .quick-links-header {
-    display: -ms-flexbox;
-    display: flex;
-    position: absolute;
-    top: 7.5rem;
-    left: 3rem; }
   .footer-copyright {
     position: absolute;
     bottom: 0;
@@ -1660,7 +1666,14 @@ object {
     bottom: -25px;
     left: 0; } }
 
+<<<<<<< HEAD
 /* Blog Archive Page */
+=======
+@media screen and (max-width: 950px) and (min-width: 640px) {
+  .tablet-hider {
+    display: none; } }
+
+>>>>>>> saving-work-trev
 .blog-hero {
   background: url("../../assets/Images/Desktop/blog/Tekera_Blog_Teal mic.png");
   background-position: center;
@@ -1693,6 +1706,9 @@ object {
   max-width: 40rem;
   height: 30rem; }
 
+.blog-post-box a:hover p, .blog-post-box a:hover h3 {
+  color: #D44E1F; }
+
 .blog-title-wrapper {
   -ms-flex-align: center;
       align-items: center;
@@ -1709,7 +1725,8 @@ object {
   background-position: center;
   background-size: cover;
   text-decoration: none;
-  width: 100%; }
+  width: 100%;
+  transition: 1s; }
   .blog-title-wrapper h3 {
     font-family: 'Open Web';
     font-weight: bold;
