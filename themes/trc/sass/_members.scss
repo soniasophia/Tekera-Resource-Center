@@ -1,0 +1,58 @@
+.post-type-archive-members {
+  margin: auto;
+  text-align: center;
+  header {
+    margin-bottom: 100px;
+    .hero-banner {
+      background: url("../../assets/Images/Desktop/staff/tekera_staff_trees.png");
+      height: 80vh;
+      background-position: center bottom;
+      background-size: cover;
+    }
+    h1{
+      margin-top: 70px;
+      color: $color_brand-teal;
+    }
+  }
+
+  .articles{
+    img{
+      max-width: 65%;
+      position: relative;
+      top: 20px;
+      z-index: -1;
+    }
+    .text{
+      font-family: "Open Web";
+      h2{
+        display: inline-block;
+        margin: 0px;
+        padding: 12px 10px;
+        background-color: orange;
+        width: 55%;
+        margin: 0px auto;
+        z-index: 999;
+        color: white;
+        font-size: 1.1rem;
+      }
+      p{
+        margin: 0px auto;
+      }
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

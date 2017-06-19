@@ -7,37 +7,56 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+  <div id="primary" class="content-area">
+    <main id="main" class="site-main" role="main">
 
-		<?php if ( have_posts() ) : ?>
+      <?php if ( have_posts() ) : ?>
 
-			<header class="page-header">
-				<?php
-					the_archive_title( '<h1 class="page-title">', '</h1>' );
-					the_archive_description( '<div class="taxonomy-description">', '</div>' );
-				?>
-			</header><!-- .page-header -->
+      <header class="page-header">
+        <div class="hero-banner">
+        </div>
+        <h1>Our Ugandan Team</h1>
+      </header>
+      <!-- .page-header -->
+      <div class="articles">
 
-			<?php /* Start the Loop */ ?>
-			<?php while ( have_posts() ) : the_post(); ?>
 
-				<?php
-					get_template_part( 'template-parts/content' );
-				?>
+        <?php /* Start the Loop */ ?>
+        <?php while ( have_posts() ) : the_post(); ?>
 
-			<?php endwhile; ?>
+        <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+            <?php if ( has_post_thumbnail() ) : ?>
+            <?php the_post_thumbnail( 'full' ); ?>
+            <?php endif; ?>
+            <div class="text">
+              <h2 class="name">
+                <?php 
+              echo CFS()->get( 'first_name' );
+              echo (' ');
+              echo CFS()->get( 'last_name' );
+            ?>
+              </h2>
+              <p class="job-title">
+                <?php echo CFS()->get( 'job_title' ); ?>
+              </p>
 
-			<?php the_posts_navigation(); ?>
+            </div>
+          <!-- .entry-header -->
+        </article>
+        <!-- #post-## -->
 
-		<?php else : ?>
 
-			<?php get_template_part( 'template-parts/content', 'none' ); ?>
+        <?php endwhile; ?>
 
-		<?php endif; ?>
+        <?php else : ?>
 
-		</main><!-- #main -->
-	</div><!-- #primary -->
+        <?php get_template_part( 'template-parts/content', 'none' ); ?>
 
-<?php get_sidebar(); ?>
-<?php get_footer(); ?>
+        <?php endif; ?>
+      </div>
+    </main>
+    <!-- #main -->
+  </div>
+  <!-- #primary -->
+
+  <?php get_footer(); ?>
