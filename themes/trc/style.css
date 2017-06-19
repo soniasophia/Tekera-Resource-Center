@@ -1885,6 +1885,8 @@ object {
     position: absolute;
     right: 0;
     left: 0; }
+  .post-type-archive-projects .projects li:last-child {
+    border-bottom: none; }
 
 .who-we-are-page {
   font-family: "Open Web"; }
