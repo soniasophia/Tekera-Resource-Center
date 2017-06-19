@@ -20,3 +20,17 @@ function red_starter_body_classes( $classes ) {
 	return $classes;
 }
 add_filter( 'body_class', 'red_starter_body_classes' );
+
+
+// Filter Archive Titles
+function trc_archive_title_filter($title)
+{
+    if (is_post_type_archive('projects')) {
+        $title = 'Projects';
+
+    } elseif (is_tax('project-type')) {
+        $title = single_term_title( '', false );
+    }
+    return $title;
+}
+add_filter( 'get_the_archive_title', 'trc_archive_title_filter' );

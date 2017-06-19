@@ -11,7 +11,6 @@ get_header();
     </h1>
   </div>
 
-
   <div class="hero-banner">
   </div>
   
