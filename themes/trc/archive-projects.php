@@ -5,28 +5,26 @@
  * @package RED_Starter_Theme
  */
 
+
+// <ul class="topnav">
+//     <li>
+//         <a href="#">Tutorials</a>
+//         <ul class="subnav">
+//             <li><a href="#">Sub Nav Link</a></li>
+//             <li><a href="#">Sub Nav Link</a></li>
+//         </ul>
+//     </li>
+// </ul>
+
+
 get_header(); ?>
 
   <header class="projects-header">
     <div class="projects-title">
-    <h1><?php the_archive_title() ?></h1>
+      <h1><a href="#" id="projects-toggle-menu"><?php the_archive_title() ?></a></h1>
     </div>
 
-	  <?php $project_types = get_terms(array (
-        'taxonomy'=>'project-type',
-        'hide_empty'=> 0
-      )); 
-      if (!empty($project_types) && !is_wp_error($project_types)) : ?>
-
-    <div class="project-type-categories">
-      <?php foreach ( $project_types as $project_type ) : ?>
-            
-      <a href="<?php echo get_term_link($project_type); ?>">
-      <p><?php echo $project_type->name; ?></p>
-      </a>
-      <?php endforeach; ?>
-    </div>
-      <?php endif; ?>
+    <?php wp_nav_menu( array( 'theme_location' => 'what-we-do-sub-menu', 'items_wrap' => '<ul id="%1$s" class="%2$s mobile-top-nav">%3$s</ul>', 'container' => 'div', 'container_class' => 'custom-sub-menu-wrapper' ) ); ?>
 
     <div class="projects-hero">
     </div>
@@ -43,7 +41,7 @@ get_header(); ?>
     </section>
 
     <section class="projects">
-      <h2>Our Projects</h2>
+      <h2>Our Projects<span> At Tekera Resource Centre</span></h2>
       <?php $project_types = get_terms(array (
             'taxonomy'=>'project-type',
             'hide_empty'=> 0
@@ -61,12 +59,13 @@ get_header(); ?>
                 <img src="<?php echo get_template_directory_uri() ?>/assets/Icons/Mobile/Mobile_svg/tekera_mobile_icon_<?php echo $project_type->slug ?>.svg " alt="<p><?php echo $term->name; ?></p>">
               </div>
             </div>
-
-            <p class="project-description"><?php echo $project_type->description; ?></p>
-            <div class="learn-more-button">
-              <a class="learn-more" href="<?php echo get_term_link($project_type); ?>">Learn More</a>
-            </div>
-            <div class="border-bottom"></div>
+              <div class="project-info">
+                <p class="project-description"><?php echo $project_type->description; ?></p>
+                <div class="learn-more-button">
+                  <a class="learn-more" href="<?php echo get_term_link($project_type); ?>">Learn More</a>
+                </div>
+              </div>
+              <div class="border-bottom"></div>
           </li>
           <?php endforeach; ?>
         </ul>

@@ -90,6 +90,7 @@ function red_starter_scripts() {
 	wp_enqueue_script( 'red-starter-skip-link-focus-fix', get_template_directory_uri() . '/build/js/skip-link-focus-fix.min.js', array(), '20130115', true );
 	wp_enqueue_script( 'jquery' );
 	wp_enqueue_script( 'more-blog-posts', get_template_directory_uri() . '/build/js/more-blog-posts.min.js', array('jquery'), null, true );
+	wp_enqueue_script( 'sub-menu-toggle', get_template_directory_uri() . '/build/js/sub-menu-toggle.min.js', array('jquery'), null, true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
@@ -115,10 +116,16 @@ echo substr($string, 0, 100);
 /**
 * Limit number of tags per post that are displayed on single blog page navigation.
 */
-function limit_to_one_tag($terms) {
-	return array_slice($terms,0,1,true);
+// function limit_to_one_tag($terms) {
+// 	return array_slice($terms,0,1,true);
+// }
+// add_filter('term_links-post_tag','limit_to_one_tag');
+
+// Custom Menu
+function register_tekera_what_we_do_custom_menu() {
+	register_nav_menu('what-we-do-sub-menu', __('What We Do Sub Menu'));
 }
-add_filter('term_links-post_tag','limit_to_one_tag');
+add_action ('init', 'register_tekera_what_we_do_custom_menu');
 
 
 

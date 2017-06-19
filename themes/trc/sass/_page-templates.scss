@@ -612,6 +612,10 @@
     text-transform: uppercase;
   }
 
+  .custom-sub-menu-wrapper {
+    display: none;
+  }
+
   .projects-hero {
     background: url('../../assets/Images/Mobile/projects/tekera_projects_collecting_water.png') center center no-repeat;
     background-size: cover;
@@ -642,7 +646,7 @@
     position: absolute;
     left: 0;
     right: 0;
-    top: 79rem;
+    top: 57rem;
   }
 
   .overview-text {
@@ -655,6 +659,18 @@
     h2 {
     color: $color_brand-teal;
     font-weight: bold;
+
+    @include desktop {
+      text-align: center;
+    }
+
+      span {
+        display: none;
+
+        @include desktop {
+          display: inline;
+        }
+      }
     }
 
     .project-type-list {
@@ -664,7 +680,7 @@
         @include shadows;
         text-transform: uppercase;
         font-size: 1.7rem;
-        width: 60%;
+        width: 50%;
         text-align: center;
       }
     }
@@ -682,11 +698,20 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
+
+      @include desktop {
+        flex-wrap: wrap-reverse;
+      }
     }
 
     .project-type {
       margin-bottom: 4rem;
       border-bottom: 12px solid $color_brand-teal;
+
+      @include desktop {
+        display: flex;
+        border-bottom: none;
+      }
     }
 
     .project-description {
@@ -704,12 +729,14 @@
       position: absolute;
       right: 0;
       left: 0;
+
+      @include desktop {
+        display: none;
+      }
     }
 
     li:last-child {
       border-bottom: none;
     }
   }
-  
-    
 }
