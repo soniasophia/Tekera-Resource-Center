@@ -5,18 +5,6 @@
  * @package RED_Starter_Theme
  */
 
-
-// <ul class="topnav">
-//     <li>
-//         <a href="#">Tutorials</a>
-//         <ul class="subnav">
-//             <li><a href="#">Sub Nav Link</a></li>
-//             <li><a href="#">Sub Nav Link</a></li>
-//         </ul>
-//     </li>
-// </ul>
-
-
 get_header(); ?>
 
   <header class="projects-header">
