@@ -1,11 +1,10 @@
-
-(function hoverChange($){
-$('.blog-hover').hover(function(){
-  console.log('help me obi wan');
-  
-});
-$('.blog-hover').mouseout(function(){
-  console.log('youre my only hope...');
-  
-});
-})(jQuery);
+// (function hoverChange($){
+// $('.blog-title-wrapper').hover(function(){
+//   $('.blog-title-wrapper').addClass('blog-box-hover');
+//   $('.blog-box-hover').removeClass('blog-title-wrapper');
+// });
+// $('.blog-title-wrapper').mouseout(function(){
+//   $('.blog-box-hover').addClass('blog-title-wrapper');
+//   $('.blog-title-wrapper').removeClass('blog-box-hover');   
+// });
+// })(jQuery);

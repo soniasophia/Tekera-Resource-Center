@@ -1392,19 +1392,6 @@ object {
   .tablet-hider {
     display: none; } }
 
-.blog-hover-overlay {
-  background: white;
-  z-index: 1000000;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: -ms-flexbox;
-  display: flex;
-  position: relative;
-  margin: 30px 0 30px 0;
-  max-width: 40rem;
-  height: 30rem; }
-
 .blog-hero {
   background: url("../../assets/Images/Desktop/blog/Tekera_Blog_Teal mic.png");
   background-position: center;
@@ -1456,7 +1443,8 @@ object {
   background-position: center;
   background-size: cover;
   text-decoration: none;
-  width: 100%; }
+  width: 100%;
+  transition: 1s; }
   .blog-title-wrapper h3 {
     font-family: 'Open Web';
     font-weight: bold;

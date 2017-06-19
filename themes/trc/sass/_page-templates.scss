@@ -485,20 +485,6 @@
 
 // Blog
 
-.blog-hover-overlay {
-  background: white;
-  z-index: 1000000;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;  
-  display: flex;
-  position: relative;
-  margin: 30px 0 30px 0;
-  max-width: 40rem;
-  height: 30rem;  
-}
-
-
 .blog-hero {
   background: url('../../assets/Images/Desktop/blog/Tekera_Blog_Teal mic.png');
   background-position: center;
@@ -531,8 +517,8 @@
 
 .blog-post-box {
   a:hover {
-    p,h3 {
-      color: $color_brand-orange;
+    p, h3 {
+    color: $color_brand-orange;
     }
   }
 }
@@ -551,6 +537,7 @@
   background-size: cover;
   text-decoration: none;
   width: 100%;
+  transition: 1s;
   h3 {
     @include font-open-bold;
     color: #FFF;
@@ -629,8 +616,6 @@
       color: #FFF; 
     }
   }
-
-  
 
   .breakhide {
     display: inline;

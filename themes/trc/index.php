@@ -22,7 +22,21 @@ get_header(); ?>
 			<?php endif; ?>
      <div class="blog-main-wrapper"> 
 			<?php /* Start the Loop */ ?>
-			<?php while ( have_posts() ) : the_post(); ?>
+  
+	    <?php
+			  $postArgs = array(
+					'order' => 'DES',
+					'posts_per_page' => 4,
+					'post_type' => 'post',
+					'tax_query' => array(
+						'taxonomy' => 'category',
+						'field' => 'slug',
+					),
+				);
+				$posts = new WP_Query( $postArgs ); ?>
+
+      <?php if ( $posts->have_posts() ) : ?>
+			<?php while ( $posts->have_posts() ) : $posts->the_post(); ?>
 <?php $thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' );?>
     <div class="blog-post-box" style="background-image: url('<?php echo $thumb['0'];?>')">
 			  <div class="blog-title-wrapper">
@@ -33,6 +47,7 @@ get_header(); ?>
 				</div><!--blog-title-wrapper-->
       </div><!--blog-post-box-->
 			<?php endwhile; ?>
+<?php endif; ?>
 
 			<?php the_posts_navigation(); ?>
 
@@ -42,10 +57,9 @@ get_header(); ?>
 
 		<?php endif; ?>
     <div class="more-blogs-button more-blogs-button-mobile">
-			<a><h2>load more</h2></a>
+			<a href="<?php next_posts_link('Load More') ?>"><h2>load more</h2></a>
 		</div>	
 		</div><!--blog-main-wrapper-->
 		</main><!-- #main -->
 	</div><!-- #primary -->
-
 <?php get_footer(); ?>
