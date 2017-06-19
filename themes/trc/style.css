@@ -1901,6 +1901,120 @@ object {
   .post-type-archive-projects .projects li:last-child {
     border-bottom: none; }
 
+.how-hero-wrapper {
+  background: url("../../assets/Images/Desktop/blog/tekera_blog_celebrations_all_over_trc.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -ms-flexbox;
+  display: flex;
+  height: 30rem;
+  position: relative; }
+
+.our-model-header-box {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  background-color: #006E71;
+  font-family: 'Open Web';
+  font-weight: 100;
+  font-style: normal;
+  height: 5rem;
+  color: #FFF;
+  text-transform: uppercase;
+  margin: 2rem 0 2rem 0; }
+
+.our-model-content-wrapper {
+  padding: 0 2rem 0 2rem;
+  font-family: 'Open Web';
+  font-weight: 100;
+  font-style: normal; }
+  .our-model-content-wrapper h2 {
+    color: #20ACAF;
+    text-transform: uppercase; }
+
+.dev-practices {
+  color: #20ACAF;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column wrap;
+      flex-flow: column wrap;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  height: 8rem;
+  text-align: left; }
+  .dev-practices p {
+    margin: 1rem 2rem 1rem 0; }
+
+.how-large-text {
+  height: auto;
+  line-height: 2; }
+
+.pesos-content {
+  color: #20ACAF; }
+
+.how-we-do-it-prefooter {
+  display: -ms-flexbox;
+  display: flex;
+  background: url("../../assets/Images/Mobile/get-involved/tekera_get_involved_fund_a_project_kids_in_playground_.png");
+  background-position: center;
+  background-size: cover;
+  height: 60rem;
+  position: relative;
+  overflow: visible; }
+
+.how-prefooter-overlay {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  background: url("../../assets/Triangle overlays/tekera_triangleoverlay_mobile.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40rem;
+  width: 100%;
+  z-index: 10000;
+  position: absolute;
+  overflow: visible;
+  bottom: 0; }
+
+.prefooter-overlay-header {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-flow: column nowrap;
+      flex-flow: column nowrap;
+  text-align: center;
+  color: #FFF;
+  font-family: 'Shadows Into Light Web';
+  font-weight: 100;
+  width: 75%;
+  font-size: 1.25rem; }
+  .prefooter-overlay-header p {
+    font-family: 'Open Web';
+    font-weight: 100;
+    font-style: normal;
+    line-height: 2; }
+
+.get-involved-link {
+  font-size: 0.75rem;
+  font-family: 'Open Web';
+  font-weight: normal;
+  font-style: normal;
+  background-color: #EE9825;
+  height: auto;
+  width: 75%;
+  text-transform: uppercase; }
+
 .who-we-are-page {
   font-family: "Open Web"; }
   .who-we-are-page .herobanner {

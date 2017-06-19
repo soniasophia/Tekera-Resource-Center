@@ -737,6 +737,113 @@
       border-bottom: none;
     }
   }
-  
+}
+
+//HOW WE DO IT
+
+
+.how-hero-wrapper {
+  background: url('../../assets/Images/Desktop/blog/tekera_blog_celebrations_all_over_trc.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  display: flex;
+  height: 30rem;
+  position: relative;
+}
+
+.our-model-header-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $color_brand-teal-dark;
+  @include font-open-light;
+  height: 5rem;
+  color: #FFF; 
+  text-transform: uppercase;
+  margin: 2rem 0 2rem 0;
+}
+
+.our-model-content-wrapper {
+  padding: 0 2rem 0 2rem;
+  @include font-open-light;
+  h2 {
+    color: $color_brand-teal;
+    text-transform: uppercase;
     
+  }
+}
+
+.dev-practices {
+  color: $color_brand-teal;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  height: 8rem;
+  text-align: left;
+  p {
+    margin: 1rem 2rem 1rem 0;
+  }
+}
+
+.how-large-text {
+  height: auto;
+  line-height: 2;
+}
+
+.pesos-content {
+  color: $color_brand-teal;
+}
+
+.how-we-do-it-prefooter {
+  display: flex;
+  background: url('../../assets/Images/Mobile/get-involved/tekera_get_involved_fund_a_project_kids_in_playground_.png');
+  background-position: center;
+  background-size: cover;
+  height: 60rem;
+  position: relative;
+  overflow: visible;
+  
+}
+
+.how-prefooter-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('../../assets/Triangle overlays/tekera_triangleoverlay_mobile.png');
+  background-position: center;
+  background-size: cover;  
+  background-repeat: no-repeat;
+  height: 40rem;
+  width: 100%;
+  z-index: 10000;
+  position: absolute;
+  overflow: visible;
+  bottom: 0;
+}
+
+.prefooter-overlay-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column nowrap;
+  text-align: center;
+  color: #FFF;
+  font-family: 'Shadows Into Light Web';
+  font-weight: 100;
+  width: 75%;
+  font-size: 1.25rem;
+  p {
+    @include font-open-light;
+    line-height: 2;
+  }
+}
+
+.get-involved-link {
+  font-size: 0.75rem;
+  @include font-open-regular;
+  background-color: $color_brand-yellow;
+  height: auto;
+  width: 75%;
+  text-transform: uppercase;
 }
