@@ -2112,31 +2112,62 @@ object {
   margin: auto;
   text-align: center; }
   .post-type-archive-members header {
-    margin-bottom: 100px; }
+    margin-bottom: 70px; }
+    @media screen and (min-width: 640px) {
+      .post-type-archive-members header {
+        margin-bottom: 40px; } }
     .post-type-archive-members header .hero-banner {
       background: url("../../assets/Images/Desktop/staff/tekera_staff_trees.png");
-      height: 80vh;
+      height: 55vh;
       background-position: center bottom;
       background-size: cover; }
     .post-type-archive-members header h1 {
       margin-top: 70px;
+      text-transform: uppercase;
       color: #20ACAF; }
-  .post-type-archive-members .articles img {
-    max-width: 65%;
-    position: relative;
-    top: 20px;
-    z-index: -1; }
-  .post-type-archive-members .articles .text {
-    font-family: "Open Web"; }
-    .post-type-archive-members .articles .text h2 {
-      display: inline-block;
-      margin: 0px;
-      padding: 12px 10px;
-      background-color: orange;
-      width: 55%;
-      margin: 0px auto;
-      z-index: 999;
-      color: white;
-      font-size: 1.1rem; }
-    .post-type-archive-members .articles .text p {
-      margin: 0px auto; }
+      @media screen and (min-width: 640px) {
+        .post-type-archive-members header h1 {
+          color: #072A3D;
+          width: 93%;
+          text-align: left;
+          margin: auto;
+          margin-top: 50px; } }
+  .post-type-archive-members .articles {
+    margin-bottom: 150px; }
+    @media screen and (min-width: 640px) {
+      .post-type-archive-members .articles {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; } }
+    @media screen and (min-width: 640px) {
+      .post-type-archive-members .articles article {
+        -ms-flex: 1 1 33%;
+            flex: 1 1 33%;
+        min-width: 33%;
+        max-width: 33%; } }
+    .post-type-archive-members .articles img {
+      max-width: 65%;
+      position: relative;
+      top: 20px;
+      z-index: -1;
+      margin-top: 20px; }
+      @media screen and (min-width: 640px) {
+        .post-type-archive-members .articles img {
+          max-width: 80%; } }
+    .post-type-archive-members .articles .text {
+      font-family: "Open Web"; }
+      .post-type-archive-members .articles .text h2 {
+        display: inline-block;
+        margin: 0px;
+        padding: 15px 10px;
+        background-color: orange;
+        width: 55%;
+        margin: 0px auto;
+        z-index: 999;
+        color: white;
+        font-size: 1.1rem; }
+      .post-type-archive-members .articles .text p {
+        margin: 0px auto; }
