@@ -775,8 +775,7 @@
   @include font-open-light;
   h2 {
     color: $color_brand-teal;
-    text-transform: uppercase;
-    
+    text-transform: uppercase;   
   }
 }
 
@@ -808,8 +807,7 @@
   background-size: cover;
   height: 60rem;
   position: relative;
-  overflow: visible;
-  
+  overflow: visible;  
 }
 
 .how-prefooter-overlay {
@@ -928,7 +926,7 @@
       padding: 0px;
       margin: 0px;
     }
-  }
+  } 
 
   .how-insert-middle {
     display: flex;
@@ -952,6 +950,7 @@
       font-size: 2rem;
     }
   }
+
     .how-insert-bottom {
     display: flex;
     flex-flow: row nowrap;
@@ -992,5 +991,4 @@
   .get-involved-link {
     width: 15rem;
   }
-
 }
