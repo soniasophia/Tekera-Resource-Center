@@ -2163,8 +2163,7 @@ object {
       text-align: center; }
       @media screen and (min-width: 640px) {
         .post-type-archive-projects .projects .project-type-list h3 {
-          margin: 0;
-          width: 80%; } }
+          margin: 0; } }
   .post-type-archive-projects .projects .learn-more {
     font-family: 'Open Web';
     font-weight: normal;
@@ -2185,13 +2184,16 @@ object {
       .post-type-archive-projects .projects .project-heading {
         -ms-flex-wrap: wrap-reverse;
             flex-wrap: wrap-reverse;
-        -ms-flex-pack: none;
-            justify-content: none; } }
+        -ms-flex-pack: initial;
+            justify-content: initial;
+        -ms-flex: 0 1 25%;
+            flex: 0 1 25%; } }
     .post-type-archive-projects .projects .project-heading .project-icon {
       display: none; }
   @media screen and (min-width: 640px) {
     .post-type-archive-projects .projects .project-info {
-      margin: 0 3rem; } }
+      -ms-flex: 0 1 73%;
+          flex: 0 1 73%; } }
   .post-type-archive-projects .projects .project-type {
     margin-bottom: 4rem;
     border-bottom: 12px solid #20ACAF; }

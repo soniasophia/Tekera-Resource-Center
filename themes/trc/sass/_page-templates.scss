@@ -712,7 +712,6 @@
 
         @include desktop {
           margin: 0;
-          width: 80%;
         }
       }
     }
@@ -733,7 +732,8 @@
 
       @include desktop {
         flex-wrap: wrap-reverse;
-        justify-content: none;
+        justify-content: initial;
+        flex: 0 1 25%;
       }
 
       .project-icon {
@@ -743,7 +743,7 @@
 
     .project-info {
       @include desktop {
-        margin: 0 3rem;
+        flex: 0 1 73%;
       }
     }
 
