@@ -2288,8 +2288,11 @@ object {
   height: auto;
   line-height: 2; }
 
-.pesos-content {
-  color: #20ACAF; }
+.pesos-content p {
+  color: #20ACAF;
+  font-family: 'Open Web';
+  font-weight: bold;
+  font-style: normal; }
 
 .how-we-do-it-prefooter {
   display: -ms-flexbox;
