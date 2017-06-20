@@ -2145,23 +2145,7 @@ object {
   text-transform: uppercase; }
 
 .post-type-archive-projects .custom-sub-menu-wrapper {
-  display: none;
-  text-align: center; }
-  .post-type-archive-projects .custom-sub-menu-wrapper ul {
-    width: 80%;
-    margin: 0 auto; }
-  .post-type-archive-projects .custom-sub-menu-wrapper li {
-    font-family: 'Open Web';
-    font-weight: bold;
-    font-style: normal;
-    text-transform: uppercase;
-    font-size: 1.3rem;
-    border-bottom: 1px solid #3f3f3f;
-    padding: 1.9rem 0; }
-    .post-type-archive-projects .custom-sub-menu-wrapper li:last-child {
-      border-bottom: none; }
-  .post-type-archive-projects .custom-sub-menu-wrapper a {
-    color: #072A3D; }
+  display: none; }
 
 .post-type-archive-projects .projects-hero {
   background: url("../../assets/Images/Mobile/projects/tekera_projects_collecting_water.png") center center no-repeat;
@@ -2177,35 +2161,11 @@ object {
   padding: 0.5rem 2rem;
   margin: 0;
   background: rgba(255, 255, 255, 0.7); }
-  .post-type-archive-projects .projects-title a {
+  .post-type-archive-projects .projects-title h1 {
     font-family: 'Open Web';
     font-weight: bold;
     font-style: normal;
-    color: #072A3D;
-    display: -ms-flexbox;
-    display: flex; }
-
-.post-type-archive-projects .dropdown-arrow {
-  position: relative; }
-
-.post-type-archive-projects .dropdown-arrow:after, .post-type-archive-projects .dropdown-arrow:before {
-  top: 35%;
-  left: 45%;
-  border: solid transparent;
-  content: " ";
-  height: 0;
-  width: 0;
-  position: absolute; }
-
-.post-type-archive-projects .dropdown-arrow:after {
-  border-top-color: white;
-  border-width: 10px;
-  margin-left: -10px; }
-
-.post-type-archive-projects .dropdown-arrow:before {
-  border-top-color: #072a3d;
-  border-width: 20px;
-  margin-left: -20px; }
+    color: #072A3D; }
 
 .post-type-archive-projects .content-area {
   width: 80%;
