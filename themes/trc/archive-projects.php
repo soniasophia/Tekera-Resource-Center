@@ -46,6 +46,10 @@ get_header(); ?>
               <div class="project-icon">
                 <img src="<?php echo get_template_directory_uri() ?>/assets/Icons/Mobile/Mobile_svg/tekera_mobile_icon_<?php echo $project_type->slug ?>.svg " alt="<p><?php echo $term->name; ?></p>">
               </div>
+
+              <div class="project-icon-2">
+                <img src="<?php echo get_template_directory_uri() ?>/assets/Icons/Desktop/svg/tekera_icon_<?php echo $project_type->slug ?>.svg " alt="<p><?php echo $term->name; ?></p>">
+              </div>
             </div>
               <div class="project-info">
                 <p class="project-description"><?php echo $project_type->description; ?></p>

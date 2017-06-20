@@ -707,11 +707,12 @@
         @include shadows;
         text-transform: uppercase;
         font-size: 1.7rem;
-        width: 60%;
+        width: 50%;
         text-align: center;
 
         @include desktop {
           margin: 0;
+          width: 80%;
         }
       }
     }
@@ -728,15 +729,22 @@
     .project-heading {
       display: flex;
       align-items: center;
-      justify-content: space-between;
+      justify-content: space-around;
 
       @include desktop {
         flex-wrap: wrap-reverse;
+        justify-content: none;
+      }
+
+      .project-icon {
+        display: none;
       }
     }
 
     .project-info {
-      margin: 0 3rem;
+      @include desktop {
+        margin: 0 3rem;
+      }
     }
 
     .project-type {
@@ -757,6 +765,10 @@
       text-align: center;
       margin-bottom: 4.5rem;
       margin-top: 4.5rem;
+
+      @include desktop {
+        text-align: right;
+      }
     }
 
     .border-bottom {
