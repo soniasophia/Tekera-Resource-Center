@@ -1953,7 +1953,7 @@ object {
     display: none; } }
 
 .blog-hero {
-  background: url("../../assets/Images/Desktop/blog/Tekera_Blog_Teal mic.png");
+  background: url("../../assets/Images/Desktop/blog/tekera_blog_teal_mic.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2016,7 +2016,7 @@ object {
     font-style: normal;
     color: #FFF; }
 
-.blog-title-wrapper:hover h3, .blog-title-wrapper:hover p:hover {
+.blog-title-wrapper h3:hover {
   color: #D44E1F; }
 
 .more-blogs-button-mobile {

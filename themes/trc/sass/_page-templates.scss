@@ -484,7 +484,7 @@
 // Blog
 
 .blog-hero {
-  background: url('../../assets/Images/Desktop/blog/Tekera_Blog_Teal mic.png');
+  background: url('../../assets/Images/Desktop/blog/tekera_blog_teal_mic.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -546,8 +546,8 @@
   }
 }
 
-.blog-title-wrapper:hover {
-  h3,p:hover {
+.blog-title-wrapper {
+  h3:hover {
     color: $color_brand-orange;
   }
 }
