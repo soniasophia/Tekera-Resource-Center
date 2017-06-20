@@ -2529,6 +2529,115 @@ object {
   .get-involved-link {
     width: 15rem; } }
 
+.global-goals-page {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column nowrap;
+      flex-flow: column nowrap;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center; }
+
+.global-mobile-hero {
+  background: url("../../assets/Images/Mobile/home-page/tekera_home_page_music_dance.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -ms-flexbox;
+  display: flex;
+  height: 30rem;
+  position: relative; }
+
+.sustainability-bar {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  font-family: 'Open Web';
+  font-weight: 100;
+  font-style: normal;
+  margin-top: 3rem;
+  height: 6rem;
+  width: 100%;
+  background: #006E71;
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0 2rem 0 2rem; }
+
+.global-goals-content-wrapper {
+  margin: 0 2rem 0 2rem;
+  font-family: 'Open Web';
+  font-weight: 100;
+  font-style: normal; }
+  .global-goals-content-wrapper h2 {
+    text-transform: uppercase;
+    color: #20ACAF; }
+  .global-goals-content-wrapper p {
+    line-height: 2; }
+
+.compliance-header {
+  font-family: 'Open Web';
+  font-weight: 100;
+  font-style: normal;
+  background-color: #20ACAF;
+  height: auto;
+  color: #FFF;
+  padding: 1rem 2rem 1rem 2rem; }
+
+.compliance-header-bold {
+  font-family: 'Open Web';
+  font-weight: bold;
+  font-style: normal; }
+
+.pre-compliance-box {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  margin: 3rem 2rem 3rem 2rem;
+  height: 6rem;
+  width: 100%;
+  padding: 1rem 2rem 1rem 2rem; }
+
+.global-carousel {
+  width: 80%;
+  height: 20rem; }
+
+.global-cell {
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #EE9825;
+  color: #FFF;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 100%;
+  height: 10rem;
+  margin-right: 10px;
+  border-radius: 5px;
+  counter-increment: carousel-cell; }
+
+.global-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(carousel-cell);
+  line-height: 200px;
+  color: white; }
+
+.global-cell-box {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap; }
+  .global-cell-box img {
+    height: auto;
+    width: 4rem; }
+
 .who-we-are-page {
   font-family: "Open Web"; }
   .who-we-are-page .herobanner {
