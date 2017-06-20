@@ -641,6 +641,28 @@
 
   .custom-sub-menu-wrapper {
     display: none;
+    text-align: center;
+
+    ul {
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    li {
+      @include font-open-bold;
+      text-transform: uppercase;
+      font-size: 1.3rem;
+      border-bottom: 1px solid #3f3f3f;
+      padding: 1.9rem 0;
+
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+
+    a {
+      color: $color_brand-blue-dark;
+    }
   }
 
   .projects-hero {
@@ -660,11 +682,39 @@
     margin: 0;
     background: $color_brand-white-transparent;
 
-    h1 {
+    a {
       @include font-open-bold;
       color: $color_brand-blue-dark;
+      display: flex;
     }
   }
+
+  .dropdown-arrow {
+	  position: relative;
+  }
+
+  .dropdown-arrow:after, .dropdown-arrow:before {
+	  top: 35%;
+	  left: 45%;
+	  border: solid transparent;
+	  content: " ";
+	  height: 0;
+	  width: 0;
+	  position: absolute;
+  }
+
+  .dropdown-arrow:after {
+	  border-top-color: white;
+	  border-width: 10px;
+	  margin-left: -10px;
+  }
+
+  .dropdown-arrow:before {
+	  border-top-color: #072a3d;
+	  border-width: 20px;
+	  margin-left: -20px;
+  }
+
   
   .content-area {
     width: 80%;
