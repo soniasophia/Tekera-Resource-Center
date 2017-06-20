@@ -178,7 +178,11 @@ a {
 		background-color: #fff;
 		z-index: 1;
 		animation: 1s 1 alternate slidein;
+		display: none;
 
+			@include desktop{
+				display: none;
+			}
 
 		ul{
 			// display: none;
