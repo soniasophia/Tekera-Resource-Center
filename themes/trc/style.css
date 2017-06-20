@@ -2188,8 +2188,14 @@ object {
             justify-content: initial;
         -ms-flex: 0 1 25%;
             flex: 0 1 25%; } }
-    .post-type-archive-projects .projects .project-heading .project-icon {
+    .post-type-archive-projects .projects .project-heading .project-icon-2 {
       display: none; }
+      @media screen and (min-width: 640px) {
+        .post-type-archive-projects .projects .project-heading .project-icon-2 {
+          display: inline-block; } }
+    @media screen and (min-width: 640px) {
+      .post-type-archive-projects .projects .project-heading .project-icon {
+        display: none; } }
   @media screen and (min-width: 640px) {
     .post-type-archive-projects .projects .project-info {
       -ms-flex: 0 1 73%;

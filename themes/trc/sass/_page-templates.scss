@@ -736,8 +736,18 @@
         flex: 0 1 25%;
       }
 
-      .project-icon {
+      .project-icon-2 {
         display: none;
+
+        @include desktop {
+          display: inline-block;
+        }
+      }
+      
+      @include desktop {
+        .project-icon {
+          display: none;
+        }
       }
     }
 
