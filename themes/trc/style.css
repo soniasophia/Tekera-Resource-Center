@@ -2931,7 +2931,8 @@ object {
       background: url("../../assets/Images/Desktop/staff/tekera_staff_trees.png");
       height: 55vh;
       background-position: center bottom;
-      background-size: cover; }
+      background-size: cover;
+      background-repeat: no-repeat; }
     .post-type-archive-members header h1 {
       margin-top: 70px;
       text-transform: uppercase;
@@ -2961,24 +2962,28 @@ object {
         max-width: 33%; } }
     .post-type-archive-members .articles img {
       max-width: 65%;
-      position: relative;
       top: 20px;
-      z-index: -1;
-      margin-top: 20px; }
+      z-index: -1; }
       @media screen and (min-width: 640px) {
         .post-type-archive-members .articles img {
           max-width: 80%; } }
     .post-type-archive-members .articles .text {
-      font-family: "Open Web"; }
-      .post-type-archive-members .articles .text h2 {
+      font-family: "Open Web";
+      position: relative;
+      bottom: 35px; }
+      .post-type-archive-members .articles .text button {
         display: inline-block;
         margin: 0px;
-        padding: 15px 10px;
+        padding: 18px 10px;
         background-color: orange;
         width: 55%;
         margin: 0px auto;
         z-index: 999;
         color: white;
-        font-size: 1.1rem; }
+        font-size: 1.1rem;
+        box-shadow: none;
+        border: none;
+        border-radius: 0px;
+        font-weight: lighter; }
       .post-type-archive-members .articles .text p {
         margin: 0px auto; }

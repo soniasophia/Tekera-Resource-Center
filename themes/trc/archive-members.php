@@ -18,6 +18,9 @@ get_header(); ?>
         <h1>Our Ugandan Team</h1>
       </header>
       <!-- .page-header -->
+      <div class="single-view">
+        
+      </div>
       <div class="articles">
 
 
@@ -29,13 +32,16 @@ get_header(); ?>
             <?php the_post_thumbnail( 'full' ); ?>
             <?php endif; ?>
             <div class="text">
-              <h2 class="name">
+              <h2>
+              <button class="members-button" type="button" value='<?php echo the_ID() ?>'>
                 <?php 
               echo CFS()->get( 'first_name' );
               echo (' ');
               echo CFS()->get( 'last_name' );
             ?>
-              </h2>
+            </button>
+            </h2>
+              
               <p class="job-title">
                 <?php echo CFS()->get( 'job_title' ); ?>
               </p>

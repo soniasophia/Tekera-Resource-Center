@@ -95,6 +95,11 @@ function red_starter_scripts() {
   wp_enqueue_script( 'blog-hover-behaviour', get_template_directory_uri() . '/build/js/blog-hover-behaviour.min.js', array('jquery'), null, true );
 
 	  wp_enqueue_script( 'hamburger-menu', get_template_directory_uri() . '/build/js/hamburger-menu.min.js', array('jquery'), null, true );
+  wp_enqueue_script( 'members-popup', get_template_directory_uri() . '/js/members-popup.js', array('jquery'), null, true );
+
+  wp_localize_script( 'members-popup', 'WORD_API', array(
+	'api_url' => esc_url_raw( rest_url() )
+));
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
@@ -131,6 +136,44 @@ function register_tekera_what_we_do_custom_menu() {
 }
 add_action ('init', 'register_tekera_what_we_do_custom_menu');
 
+    wp_localize_script( 'members-popup', 'ajaxpagination', array(
+	'ajaxurl' => admin_url( 'admin-ajax.php' )
+  ));
 
 
+add_action( 'rest_api_init', 'create_api_members_custom_field' );
+ 
+function create_api_members_custom_field() {
+ 
+    // register_rest_field ( 'name-of-post-type', 'name-of-field-to-return', array-of-callbacks-and-schema() )
+    register_rest_field( 'members', 'first_name', array(
+           'get_callback'    => function( $members_arr ) {
+            return CFS()->get( first_name, $members_arr['id'] ); 
+        },
+           'schema'          => null,
+        )
+    );
+    register_rest_field( 'members', 'last_name', array(
+           'get_callback'    => function( $members_arr ) {
+            return CFS()->get( last_name, $members_arr['id'] ); 
+        },
+           'schema'          => null,
+        )
+    );
+    register_rest_field( 'members', 'job_title', array(
+           'get_callback'    => function( $members_arr ) {
+            return CFS()->get( job_title, $members_arr['id'] ); 
+        },
+           'schema'          => null,
+        )
+    );
+    register_rest_field( 'members', 'summary', array(
+           'get_callback'    => function( $members_arr ) {
+            return CFS()->get( summary, $members_arr['id'] ); 
+        },
+           'schema'          => null,
+        )
+    );
 
+    global $wp_rest_additional_fields;
+}
