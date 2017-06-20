@@ -642,6 +642,7 @@
   .custom-sub-menu-wrapper {
     display: none;
     text-align: center;
+    background: white;
 
     ul {
       width: 80%;
@@ -704,9 +705,9 @@
   }
 
   .dropdown-arrow:after {
-	  border-top-color: white;
-	  border-width: 10px;
-	  margin-left: -10px;
+	  border-top-color: hsla(0,0%,100%,.7);
+	  border-width: 11px;
+	  margin-left: -11px;
   }
 
   .dropdown-arrow:before {
@@ -715,7 +716,6 @@
 	  margin-left: -20px;
   }
 
-  
   .content-area {
     width: 80%;
     margin: 0 auto;
@@ -729,7 +729,7 @@
     position: absolute;
     left: 0;
     right: 0;
-    top: 57rem;
+    top: 52rem;
   }
 
   .overview-text {
