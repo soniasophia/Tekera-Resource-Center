@@ -655,11 +655,17 @@
     }
   }
 
-  .projects-title h1 {
-    @include font-open-bold;
-    color: $color_brand-blue-dark;
-  }
+  .projects-title {
+    padding: 0.5rem 2rem;
+    margin: 0;
+    background: $color_brand-white-transparent;
 
+    h1 {
+      @include font-open-bold;
+      color: $color_brand-blue-dark;
+    }
+  }
+  
   .content-area {
     width: 80%;
     margin: 0 auto;

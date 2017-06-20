@@ -2115,11 +2115,15 @@ object {
       background: url("../../assets/Images/Desktop/projects/tekera_projects_overview_collecting_water.png") center center no-repeat;
       background-size: cover; } }
 
-.post-type-archive-projects .projects-title h1 {
-  font-family: 'Open Web';
-  font-weight: bold;
-  font-style: normal;
-  color: #072A3D; }
+.post-type-archive-projects .projects-title {
+  padding: 0.5rem 2rem;
+  margin: 0;
+  background: rgba(255, 255, 255, 0.7); }
+  .post-type-archive-projects .projects-title h1 {
+    font-family: 'Open Web';
+    font-weight: bold;
+    font-style: normal;
+    color: #072A3D; }
 
 .post-type-archive-projects .content-area {
   width: 80%;
