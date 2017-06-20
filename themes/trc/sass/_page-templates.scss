@@ -834,7 +834,10 @@
 }
 
 .pesos-content {
+  p {
   color: $color_brand-teal;
+  @include font-open-bold;
+  }
 }
 
 .how-we-do-it-prefooter {
