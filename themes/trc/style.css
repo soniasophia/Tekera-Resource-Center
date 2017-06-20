@@ -599,7 +599,11 @@ a {
     height: 70vh;
     background-color: #fff;
     z-index: 1;
-    animation: 1s 1 alternate slidein; }
+    animation: 1s 1 alternate slidein;
+    display: none; }
+    @media screen and (min-width: 640px) {
+      .site-header-wrapper .hamburger-menu {
+        display: none; } }
     @media screen and (min-width: 640px) {
       .site-header-wrapper .hamburger-menu ul {
         display: none; } }
@@ -2148,9 +2152,21 @@ object {
   display: none;
   text-align: center;
   background: white; }
+  @media screen and (min-width: 640px) {
+    .post-type-archive-projects .custom-sub-menu-wrapper {
+      display: block;
+      background: rgba(255, 255, 255, 0.7); } }
   .post-type-archive-projects .custom-sub-menu-wrapper ul {
     width: 80%;
     margin: 0 auto; }
+    @media screen and (min-width: 640px) {
+      .post-type-archive-projects .custom-sub-menu-wrapper ul {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+            align-items: center;
+        -ms-flex-pack: justify;
+            justify-content: space-between; } }
   .post-type-archive-projects .custom-sub-menu-wrapper li {
     font-family: 'Open Web';
     font-weight: bold;
@@ -2161,6 +2177,15 @@ object {
     padding: 1.9rem 0; }
     .post-type-archive-projects .custom-sub-menu-wrapper li:last-child {
       border-bottom: none; }
+    @media screen and (min-width: 640px) {
+      .post-type-archive-projects .custom-sub-menu-wrapper li {
+        margin: 0 1rem;
+        border-bottom: none;
+        padding: 0;
+        font-family: 'Open Web';
+        font-weight: normal;
+        font-style: normal;
+        text-transform: none; } }
   .post-type-archive-projects .custom-sub-menu-wrapper a {
     color: #072A3D; }
 
@@ -2173,6 +2198,10 @@ object {
     .post-type-archive-projects .projects-hero {
       background: url("../../assets/Images/Desktop/projects/tekera_projects_overview_collecting_water.png") center center no-repeat;
       background-size: cover; } }
+
+@media screen and (min-width: 640px) {
+  .post-type-archive-projects .project-title-container {
+    display: none; } }
 
 .post-type-archive-projects .projects-title {
   padding: 0.5rem 2rem;
