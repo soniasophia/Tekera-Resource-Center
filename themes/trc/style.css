@@ -2351,7 +2351,11 @@ object {
     height: 30rem;
     position: relative; }
   .dev-practices {
-    text-align: center; }
+    text-align: center;
+    font-family: 'Open Web';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 1.25rem; }
   .our-model-content-wrapper {
     padding: 0 6rem 0 6rem; }
   .how-desktop-insert {
@@ -2406,7 +2410,7 @@ object {
         justify-content: space-around;
     -ms-flex-flow: column nowrap;
         flex-flow: column nowrap;
-    height: 9rem;
+    height: auto;
     width: 60%;
     margin: 1rem 0 1rem 0; }
     .how-insert-middle h1, .how-insert-middle h2 {
