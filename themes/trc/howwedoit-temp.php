@@ -120,8 +120,4 @@ get_the_title();
     </div>
   </div>
   <?php get_footer(); ?>
-<<<<<<< HEAD
 </div><!--how-we-do-it-page-->
-=======
-</div><!--how-we-do-it-page-->
->>>>>>> d7627063b592e6769ea797e2c528152f6be33bc0
