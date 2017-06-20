@@ -30,20 +30,28 @@
 
 				
 
-				<div class = site-header-wrapper>
+		<div class = site-header-wrapper>
 
-					<button class="hamburger">&#9776;</button>
+			<div class = "mobile-nav">
+				<div class = "menu-btn" id ="menu-btn">
+					<!--<a href ="#" id ="hamburger-toggle-menu">-->
+						<button class="hamburger"> &#9776;</button>
+					<!--</a>	-->
+				</div> 
 
 					<div class="hamburger-menu">
 						<ul>
 							<a href="#"><li> Who we are </li></a>
 							<a href="#"><li> What we do </li></a>
 							<a href="#"><li> How we do it </li></a>
-							<a href="#"><li> Get Invloved </li></a>
-							<a href="#"><li> Blog </li></a>
-							<a href="#"><li> Contact </li></a>
+							<a href="#"><li> Get Involved </li></a>
+							<div class = "hamburger-menu-li">
+								<a href="#"><li> Blog </li></a>
+								<a href="#"><li> Contact </li></a>
+							</div>
 						</ul>
 					</div> 
+				</div>
 					
 					<div class = "tekera-site-logo">
 						<img src="<?php echo get_template_directory_uri();?> /assets/Logos/Tekera_Logo_Desktop_Pie.png">

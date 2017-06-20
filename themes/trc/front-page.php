@@ -76,7 +76,7 @@ get_header(); ?>
       </div>
 
       <div class = "icons-text">
-        <img src="<?php echo get_template_directory_uri();?> /assets/Icons/Mobile/10,000+ People .png">
+        <!--<img src="<?php echo get_template_directory_uri();?> /assets/Icons/Mobile/10,000+ People .png">-->
       </div>
 
     </div>

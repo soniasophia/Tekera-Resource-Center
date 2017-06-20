@@ -171,23 +171,75 @@ a {
 
 	.hamburger-menu{
 		position: absolute;
+		left: 0;
+		margin-top: 2rem;
+		width: 100vw;
+		height: 70vh;
+		background-color: #fff;
+		z-index: 1;
+		animation: 1s 1 alternate slidein;
+
 
 		ul{
-			display: none;
+			// display: none;
 
+			@include desktop{
+				display: none;
+			}
+			
 			a{
 				text-decoration: none;
 
 				li{
 					list-style-type: none;
+					color: #072a3d;
+					font-size: 26px;
+					font-weight: 700;
+					text-transform: uppercase;
+    			padding: 2rem 1rem 2rem 0;
+    			border-bottom: 1px solid #4A4A4A;
+    			margin-left: 2rem;
+    			margin-right: 6rem;
+				}
+				
+			}
+
+			a:nth-child(4){
+				li{
+					color: #EE9825;
 				}
 			}
+
+			.hamburger-menu-li{
+
+				display: flex;
+
+				a:nth-child(1){
+					li{
+						font-weight: 100;
+						border-bottom: none;
+						margin-right: 2rem;
+						padding-right: 5rem;
+						max-width: 160px;
+					}
+				}
+
+				a:nth-child(2){
+					li{
+						font-weight: 100;
+						border-bottom: none;
+					}
+				}
+			}
+			
 		}
 	
-		@include desktop{
-			display: none;
-		}
+		
 	}
+
+	// .expand{
+	// 	display: block !important; 
+	// }
 
 	.tekera-site-logo{
 		padding-right: 2rem;
@@ -264,7 +316,7 @@ div.tekera-triangles{
 	.main-carousel{
 
 		li.gallery-cell:nth-child(1){
-			background: url('../../assets/Images/Mobile/home-page/Tekera_Home page_Music dance.png');
+			background: url('../../assets/Images/Mobile/home-page/tekera_home_page_music_dance.png');
 			background-size: cover;
 			background-repeat: no-repeat;
 			background-position: 50%;
@@ -274,7 +326,7 @@ div.tekera-triangles{
 			list-style-type: none;
 
 			@include desktop{
-				background: url('../../assets/Images/Desktop/home-page/Tekera_Home page_music_dance_drumming festival 2.png');
+				background: url('../../assets/Images/Desktop/home-page/tekera_home_page_music_dance_drumming_festival_2.png');
 				background-size: cover;
 				background-repeat: no-repeat;
 				background-position: 50%;
@@ -282,7 +334,7 @@ div.tekera-triangles{
 		}
 
 		li.gallery-cell:nth-child(2){
-			background: url('../../assets/Images/Mobile/home-page/Tekera_Homepage_TPS Lunch program .png');
+			background: url('../../assets/Images/Mobile/home-page/tekera_homepage_tps_lunch_program_.png');
 			background-size: cover;
 			background-repeat: no-repeat;
 			background-position: 50%;
@@ -292,7 +344,7 @@ div.tekera-triangles{
 			list-style-type: none;
 
 			@include desktop{
-				background: url('../../assets/Images/Desktop/home-page/Tekera_Home page_TPS Lunch program .png');
+				background: url('../../assets/Images/Desktop/home-page/tekera_home_page_tps_lunch_program_.png');
     		background-size: cover;
     		background-repeat: no-repeat;
     		background-position: 50%;
@@ -300,7 +352,7 @@ div.tekera-triangles{
 		}
 
 		li.gallery-cell:nth-child(3){
-			background: url('../../assets/Images/Mobile/home-page/Tekera_Home page_Smiling woman.png');
+			background: url('../../assets/Images/Mobile/home-page/tekera_home_page_smiling_woman.png');
 			background-size: cover;
 			background-repeat: no-repeat;
 			background-position: 50%;
@@ -310,7 +362,7 @@ div.tekera-triangles{
 			list-style-type: none;
 
 			@include desktop{
-				background: url('../../assets/Images/Desktop/home-page/Tekera_Home page_Internships .png');
+				background: url('../../assets/Images/Desktop/home-page/tekera_home_page_internships_.png');
     		background-size: cover;
     		background-repeat: no-repeat;
     		background-position: 50%;
@@ -367,7 +419,7 @@ div.tekera-triangles{
 	}
 
 	.going-to-school{
-		background:url('../../assets/Images/Mobile/home-page/Tekera_Homepage_Mom going by the school .png');
+		background:url('../../assets/Images/Mobile/home-page/tekera_homepage_mom_going_by_the_school_.png');
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: top;
@@ -376,7 +428,7 @@ div.tekera-triangles{
 		position: relative;
 
 		@include desktop{
-			background: url('../../assets/Images/Desktop/home-page/Tekera_Home page_mom going by the school .png');
+			background: url('../../assets/Images/Desktop/home-page/tekera_home_page_mom_going_by_the_school_.png');
    		background-size: cover;
     	background-repeat: no-repeat;
     	background-position: top;
@@ -470,7 +522,7 @@ div.tekera-triangles{
 
 
 	.lunch-program{
-		background:url('../../assets/Images/Mobile/home-page/Tekera_Homepage_TPS Lunch program .png');
+		background:url('../../assets/Images/Mobile/home-page/tekera_homepage_tps_lunch_program_.png');
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: top;
@@ -479,7 +531,7 @@ div.tekera-triangles{
 		position: relative;
 
 			@include desktop{
-				background: url('../../assets/Images/Desktop/home-page/Tekera_Home page_TPS Lunch program .png');
+				background: url('../../assets/Images/Desktop/home-page/tekera_home_page_tps_lunch_program_.png');
 				background-size: cover;
 				background-repeat: no-repeat;
 				background-position: top;
@@ -574,7 +626,7 @@ div.tekera-triangles{
 	}
 
 	.smiling-woman{
-		background:url('../../assets/Images/Mobile/home-page/Tekera_Home page_Smiling woman.png');
+		background:url('../../assets/Images/Mobile/home-page/tekera_home_page_smiling_woman.png');
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: top;
@@ -583,7 +635,7 @@ div.tekera-triangles{
 		position: relative;
 
 			@include desktop{
-				background: url('../../assets/Images/Desktop/home-page/Tekera_Home page_Internships .png');
+				background: url('../../assets/Images/Desktop/home-page/tekera_home_page_internships_.png');
 				background-size: cover;
 				background-repeat: no-repeat;
 				background-position: top;
@@ -741,7 +793,7 @@ div.tekera-triangles{
 
 					@include desktop{
 						order: 1;
-						background: url('../../assets/Icons/Desktop/png/Tekera_Icon_Farming\ .png');
+						background: url('../../assets/Icons/Desktop/png/tekera_icon_farming_.png');
 						background-position: top;
 						background-repeat: no-repeat;
 					}
@@ -804,14 +856,14 @@ div.tekera-triangles{
 			}
 
 			.icons-wrapper:nth-child(5){
-				background: url('../../assets/Icons/Mobile/Mobile_png/Tekera_Mobile_Icon_Women Empowerment .png');
+				background: url('../../assets/Icons/Mobile/Mobile_png/tekera_mobile_icon_women_empowerment_.png');
 				background-position: top;
 				background-repeat: no-repeat;
 				max-width: 160px;
 
 					@include desktop{
 						order: 3;
-						background: url('../../assets/Icons/Desktop/png/Tekera_Icon_Women\ Empowerment.png');
+						background: url('../../assets/Icons/Desktop/png/tekera_icon_women_empowerment.png');
 						background-position: top;
 						background-repeat: no-repeat;
 					}
@@ -827,7 +879,7 @@ div.tekera-triangles{
 			}
 
 			.icons-wrapper:nth-child(6){
-				background: url('../../assets/Icons/Mobile/Mobile_png/Tekera_Mobile icon_Community .png');
+				background: url('../../assets/Icons/Mobile/Mobile_png/tekera_mobile_icon_community_.png');
 				background-position: top;
 				background-repeat: no-repeat;
 				max-width: 160px;
@@ -864,11 +916,15 @@ div.tekera-triangles{
 				
 
 			.icons-text{
+				background: url('../../assets/Icons/Mobile/10,000_people_.png');
+				background-repeat: no-repeat;
 				width: 272px;
 				height: 141px;
 				margin-bottom: 2rem;
 
 				@include desktop{
+					background: url('../../assets/Icons/Desktop/Desktop_10000ppl.png');
+					background-repeat: no-repeat;
 					width: 90%;
 					order: 3;
 				}
@@ -877,3 +933,23 @@ div.tekera-triangles{
 	}
 }
 
+
+// Hamburger Menu toggle
+
+@keyframes slidein {
+  0% {
+    left:0;
+    width:100%;
+  }
+  
+	50% {
+    left:50%;
+    width:100%;
+  }
+
+
+	100% {
+    left:100%;
+    width:100%;
+  }
+}
