@@ -653,10 +653,53 @@ div.tekera-triangles img {
   div.tekera-triangles {
     display: none; } }
 
-.site-main .main-carousel li.gallery-cell {
+.site-main .main-carousel li.gallery-cell:nth-child(1) {
+  background: url("../../assets/Images/Mobile/home-page/Tekera_Home page_Music dance.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
   list-style-type: none; }
-  .site-main .main-carousel li.gallery-cell img {
-    height: 100%; }
+  @media screen and (min-width: 640px) {
+    .site-main .main-carousel li.gallery-cell:nth-child(1) {
+      background: url("../../assets/Images/Desktop/home-page/Tekera_Home page_music_dance_drumming festival 2.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 50%; } }
+
+.site-main .main-carousel li.gallery-cell:nth-child(2) {
+  background: url("../../assets/Images/Mobile/home-page/Tekera_Homepage_TPS Lunch program .png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  list-style-type: none; }
+  @media screen and (min-width: 640px) {
+    .site-main .main-carousel li.gallery-cell:nth-child(2) {
+      background: url("../../assets/Images/Desktop/home-page/Tekera_Home page_TPS Lunch program .png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 50%; } }
+
+.site-main .main-carousel li.gallery-cell:nth-child(3) {
+  background: url("../../assets/Images/Mobile/home-page/Tekera_Home page_Smiling woman.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  list-style-type: none; }
+  @media screen and (min-width: 640px) {
+    .site-main .main-carousel li.gallery-cell:nth-child(3) {
+      background: url("../../assets/Images/Desktop/home-page/Tekera_Home page_Internships .png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 50%; } }
 
 .site-main .main-carousel ol.flickity-page-dots {
   position: absolute;
@@ -668,14 +711,32 @@ div.tekera-triangles img {
 
 .site-main .carousel-text {
   position: absolute;
-  bottom: 0;
-  left: 0;
+  bottom: 16%;
+  left: 24%;
   width: 303px;
-  height: 157px; }
+  height: 157px;
+  font-family: 'Shadows Into Light Web'; }
+  @media screen and (min-width: 640px) {
+    .site-main .carousel-text {
+      position: absolute;
+      bottom: 50%;
+      left: 20%;
+      right: 50%;
+      top: 40%;
+      width: 55%;
+      height: 33%;
+      font-family: 'Shadows Into Light Web'; } }
   .site-main .carousel-text p {
     color: #fff;
     text-align: center;
-    font-size: 48px; }
+    font-size: 48px;
+    line-height: 77px;
+    text-transform: uppercase; }
+    @media screen and (min-width: 640px) {
+      .site-main .carousel-text p {
+        font-size: 100px;
+        line-height: 160px;
+        text-transform: uppercase; } }
 
 .site-main .going-to-school {
   background: url("../../assets/Images/Mobile/home-page/Tekera_Homepage_Mom going by the school .png");
@@ -685,33 +746,63 @@ div.tekera-triangles img {
   height: 100vh;
   width: 100vw;
   position: relative; }
+  @media screen and (min-width: 640px) {
+    .site-main .going-to-school {
+      background: url("../../assets/Images/Desktop/home-page/Tekera_Home page_mom going by the school .png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: top; } }
   .site-main .going-to-school .frontpage-overlay-image {
     background: url("../../assets/Triangle overlays/Tekera_TriangleOverlay_MOBILE.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: top;
     height: 70vh;
     width: 100vw;
     position: absolute;
     bottom: 0; }
+    @media screen and (min-width: 640px) {
+      .site-main .going-to-school .frontpage-overlay-image {
+        background: url("../../assets/Triangle overlays/Tekera_DESKTOP_TriangleOverlay_Right.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top;
+        height: 100vh;
+        width: 70vw;
+        position: absolute;
+        left: 0; } }
   .site-main .going-to-school .frontpage-info {
     position: absolute;
     top: 40%;
-    left: 20%; }
+    left: 16%;
+    width: 65%; }
+    @media screen and (min-width: 640px) {
+      .site-main .going-to-school .frontpage-info {
+        top: 20%;
+        left: 10%;
+        max-width: 600px; } }
     .site-main .going-to-school .frontpage-info h2 {
       font-size: 26px;
       width: 205px;
       height: 76px;
       margin: 0 auto;
       color: #fff;
-      text-align: center; }
+      text-align: center;
+      width: 100%; }
+      @media screen and (min-width: 640px) {
+        .site-main .going-to-school .frontpage-info h2 {
+          text-align: left; } }
     .site-main .going-to-school .frontpage-info p {
       width: 272px;
       height: 315px;
       font-size: 20px;
       line-height: 34px;
       color: #fff;
-      text-align: center; }
+      text-align: center;
+      width: 100%; }
+      @media screen and (min-width: 640px) {
+        .site-main .going-to-school .frontpage-info p {
+          text-align: left; } }
   .site-main .going-to-school .button {
     position: absolute;
     bottom: 3rem;
@@ -726,6 +817,10 @@ div.tekera-triangles img {
     font-weight: 700;
     box-shadow: none;
     text-shadow: none; }
+    @media screen and (min-width: 640px) {
+      .site-main .going-to-school .button {
+        left: 10%;
+        bottom: 17rem; } }
 
 .site-main .lunch-program {
   background: url("../../assets/Images/Mobile/home-page/Tekera_Homepage_TPS Lunch program .png");
@@ -735,6 +830,12 @@ div.tekera-triangles img {
   height: 100vh;
   width: 100vw;
   position: relative; }
+  @media screen and (min-width: 640px) {
+    .site-main .lunch-program {
+      background: url("../../assets/Images/Desktop/home-page/Tekera_Home page_TPS Lunch program .png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: top; } }
   .site-main .lunch-program .frontpage-overlay-image {
     background: url("../../assets/Triangle overlays/Tekera_TriangleOverlay_MOBILE.png");
     background-size: cover;
@@ -744,10 +845,26 @@ div.tekera-triangles img {
     width: 100vw;
     position: absolute;
     bottom: 0; }
+    @media screen and (min-width: 640px) {
+      .site-main .lunch-program .frontpage-overlay-image {
+        background: url("../../assets/Triangle overlays/Tekera_DESKTOP_TriangleOverlay_Left.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top;
+        height: 100vh;
+        width: 70vw;
+        position: absolute;
+        right: 0; } }
   .site-main .lunch-program .frontpage-info {
     position: absolute;
-    top: 50%;
-    left: 20%; }
+    top: 48%;
+    right: 20%;
+    width: 60%; }
+    @media screen and (min-width: 640px) {
+      .site-main .lunch-program .frontpage-info {
+        top: 25%;
+        right: 10%;
+        max-width: 600px; } }
     .site-main .lunch-program .frontpage-info h2 {
       font-size: 26px;
       width: 272px;
@@ -755,18 +872,26 @@ div.tekera-triangles img {
       margin: 0 auto;
       color: #fff;
       text-align: center;
-      line-height: 38px; }
+      line-height: 38px;
+      width: 100%; }
+      @media screen and (min-width: 640px) {
+        .site-main .lunch-program .frontpage-info h2 {
+          text-align: right; } }
     .site-main .lunch-program .frontpage-info p {
       width: 272px;
       height: 231px;
       font-size: 20px;
       line-height: 33px;
       color: #fff;
-      text-align: center; }
+      text-align: center;
+      width: 100%; }
+      @media screen and (min-width: 640px) {
+        .site-main .lunch-program .frontpage-info p {
+          text-align: right; } }
   .site-main .lunch-program .button {
     position: absolute;
     bottom: 4rem;
-    left: 30%;
+    right: 33%;
     background-color: #ee9825;
     border: none;
     width: 169px;
@@ -777,6 +902,10 @@ div.tekera-triangles img {
     font-weight: 700;
     box-shadow: none;
     text-shadow: none; }
+    @media screen and (min-width: 640px) {
+      .site-main .lunch-program .button {
+        bottom: 16rem;
+        right: 11%; } }
 
 .site-main .smiling-woman {
   background: url("../../assets/Images/Mobile/home-page/Tekera_Home page_Smiling woman.png");
@@ -786,6 +915,12 @@ div.tekera-triangles img {
   height: 100vh;
   width: 100vw;
   position: relative; }
+  @media screen and (min-width: 640px) {
+    .site-main .smiling-woman {
+      background: url("../../assets/Images/Desktop/home-page/Tekera_Home page_Internships .png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: top; } }
   .site-main .smiling-woman .frontpage-overlay-image {
     background: url("../../assets/Triangle overlays/Tekera_TriangleOverlay_MOBILE.png");
     background-size: cover;
@@ -795,10 +930,26 @@ div.tekera-triangles img {
     width: 100vw;
     position: absolute;
     bottom: 0; }
+    @media screen and (min-width: 640px) {
+      .site-main .smiling-woman .frontpage-overlay-image {
+        background: url("../../assets/Triangle overlays/Tekera_DESKTOP_TriangleOverlay_Right.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top;
+        height: 100vh;
+        width: 70vw;
+        position: absolute;
+        left: 0; } }
   .site-main .smiling-woman .frontpage-info {
     position: absolute;
-    top: 45%;
-    left: 20%; }
+    top: 48%;
+    left: 18%;
+    width: 65%; }
+    @media screen and (min-width: 640px) {
+      .site-main .smiling-woman .frontpage-info {
+        top: 20%;
+        left: 10%;
+        max-width: 600px; } }
     .site-main .smiling-woman .frontpage-info h2 {
       font-size: 26px;
       width: 169px;
@@ -806,14 +957,22 @@ div.tekera-triangles img {
       margin: 0 auto;
       color: #fff;
       text-align: center;
-      line-height: 43px; }
+      line-height: 43px;
+      width: 100%; }
+      @media screen and (min-width: 640px) {
+        .site-main .smiling-woman .frontpage-info h2 {
+          text-align: left; } }
     .site-main .smiling-woman .frontpage-info p {
       width: 272px;
       height: 198px;
       font-size: 20px;
       line-height: 33px;
       color: #fff;
-      text-align: center; }
+      text-align: center;
+      width: 100%; }
+      @media screen and (min-width: 640px) {
+        .site-main .smiling-woman .frontpage-info p {
+          text-align: left; } }
   .site-main .smiling-woman .button {
     position: absolute;
     bottom: 6rem;
@@ -828,6 +987,15 @@ div.tekera-triangles img {
     font-weight: 700;
     box-shadow: none;
     text-shadow: none; }
+    @media screen and (min-width: 640px) {
+      .site-main .smiling-woman .button {
+        bottom: 19rem;
+        left: 10%; } }
+
+@media screen and (min-width: 640px) {
+  .site-main .programs-info {
+    max-width: 80%;
+    margin: 3rem auto 5rem; } }
 
 .site-main .programs-info h1 {
   color: #20ACAF;
@@ -839,6 +1007,10 @@ div.tekera-triangles img {
   margin-top: 0;
   margin-bottom: 0;
   padding: 3rem 2rem; }
+  @media screen and (min-width: 640px) {
+    .site-main .programs-info h1 {
+      height: 150px;
+      padding: 0; } }
 
 .site-main .programs-info .icons-container {
   display: -ms-flexbox;
@@ -847,20 +1019,130 @@ div.tekera-triangles img {
       flex-wrap: wrap;
   -ms-flex-pack: center;
       justify-content: center; }
-  .site-main .programs-info .icons-container .icons-wrapper {
-    width: 160px; }
-    .site-main .programs-info .icons-container .icons-wrapper img {
-      display: -ms-flexbox;
-      display: flex;
-      margin: 0 auto; }
-    .site-main .programs-info .icons-container .icons-wrapper p {
-      color: #072A3D;
-      font-size: 26px;
-      text-align: center; }
+  @media screen and (min-width: 640px) {
+    .site-main .programs-info .icons-container {
+      padding: 2rem; } }
+  .site-main .programs-info .icons-container .icons-wrapper:nth-child(1) {
+    background: url("../../assets/Icons/Mobile/Mobile_png/Tekera_Mobile_Icon_Education.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    max-width: 160px; }
+    @media screen and (min-width: 640px) {
+      .site-main .programs-info .icons-container .icons-wrapper:nth-child(1) {
+        -ms-flex-order: 4;
+            order: 4;
+        background: url("../../assets/Icons/Desktop/png/Tekera_Icon_Education.png");
+        background-position: top;
+        background-repeat: no-repeat; } }
+    .site-main .programs-info .icons-container .icons-wrapper:nth-child(1) p {
+      margin-top: 8rem;
+      width: 160px; }
+      @media screen and (min-width: 640px) {
+        .site-main .programs-info .icons-container .icons-wrapper:nth-child(1) p {
+          margin-top: 10.5rem; } }
+  .site-main .programs-info .icons-container .icons-wrapper:nth-child(2) {
+    background: url("../../assets/Icons/Mobile/Mobile_png/Tekera_Mobile_Icon_Farming.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    max-width: 160px; }
+    @media screen and (min-width: 640px) {
+      .site-main .programs-info .icons-container .icons-wrapper:nth-child(2) {
+        -ms-flex-order: 1;
+            order: 1;
+        background: url("../../assets/Icons/Desktop/png/Tekera_Icon_Farming .png");
+        background-position: top;
+        background-repeat: no-repeat; } }
+    .site-main .programs-info .icons-container .icons-wrapper:nth-child(2) p {
+      margin-top: 8rem;
+      width: 160px; }
+      @media screen and (min-width: 640px) {
+        .site-main .programs-info .icons-container .icons-wrapper:nth-child(2) p {
+          margin-top: 10.5rem; } }
+  .site-main .programs-info .icons-container .icons-wrapper:nth-child(3) {
+    background: url("../../assets/Icons/Mobile/Mobile_png/Tekera_Mobile_Icon_Clinic.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    max-width: 160px; }
+    @media screen and (min-width: 640px) {
+      .site-main .programs-info .icons-container .icons-wrapper:nth-child(3) {
+        -ms-flex-order: 2;
+            order: 2;
+        background: url("../../assets/Icons/Desktop/png/Tekera_Icon_Clinic.png");
+        background-position: top;
+        background-repeat: no-repeat; } }
+    .site-main .programs-info .icons-container .icons-wrapper:nth-child(3) p {
+      margin-top: 8rem;
+      width: 160px; }
+      @media screen and (min-width: 640px) {
+        .site-main .programs-info .icons-container .icons-wrapper:nth-child(3) p {
+          margin-top: 10.5rem; } }
+  .site-main .programs-info .icons-container .icons-wrapper:nth-child(4) {
+    background: url("../../assets/Icons/Mobile/Mobile_png/Tekera_Mobile_Icon_Economy.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    max-width: 160px; }
+    @media screen and (min-width: 640px) {
+      .site-main .programs-info .icons-container .icons-wrapper:nth-child(4) {
+        -ms-flex-order: 6;
+            order: 6;
+        background: url("../../assets/Icons/Desktop/png/Tekera_Icon_Economic.png");
+        background-position: top;
+        background-repeat: no-repeat; } }
+    .site-main .programs-info .icons-container .icons-wrapper:nth-child(4) p {
+      margin-top: 8rem;
+      width: 160px; }
+      @media screen and (min-width: 640px) {
+        .site-main .programs-info .icons-container .icons-wrapper:nth-child(4) p {
+          margin-top: 10.5rem; } }
+  .site-main .programs-info .icons-container .icons-wrapper:nth-child(5) {
+    background: url("../../assets/Icons/Mobile/Mobile_png/Tekera_Mobile_Icon_Women Empowerment .png");
+    background-position: top;
+    background-repeat: no-repeat;
+    max-width: 160px; }
+    @media screen and (min-width: 640px) {
+      .site-main .programs-info .icons-container .icons-wrapper:nth-child(5) {
+        -ms-flex-order: 3;
+            order: 3;
+        background: url("../../assets/Icons/Desktop/png/Tekera_Icon_Women Empowerment.png");
+        background-position: top;
+        background-repeat: no-repeat; } }
+    .site-main .programs-info .icons-container .icons-wrapper:nth-child(5) p {
+      margin-top: 8rem;
+      width: 160px; }
+      @media screen and (min-width: 640px) {
+        .site-main .programs-info .icons-container .icons-wrapper:nth-child(5) p {
+          margin-top: 10.5rem; } }
+  .site-main .programs-info .icons-container .icons-wrapper:nth-child(6) {
+    background: url("../../assets/Icons/Mobile/Mobile_png/Tekera_Mobile icon_Community .png");
+    background-position: top;
+    background-repeat: no-repeat;
+    max-width: 160px; }
+    @media screen and (min-width: 640px) {
+      .site-main .programs-info .icons-container .icons-wrapper:nth-child(6) {
+        -ms-flex-order: 5;
+            order: 5;
+        background: url("../../assets/Icons/Desktop/png/Tekera_Icon_Community.png");
+        background-position: top;
+        background-repeat: no-repeat; } }
+    .site-main .programs-info .icons-container .icons-wrapper:nth-child(6) p {
+      margin-top: 8rem;
+      width: 160px; }
+      @media screen and (min-width: 640px) {
+        .site-main .programs-info .icons-container .icons-wrapper:nth-child(6) p {
+          margin-top: 10.5rem; } }
+  .site-main .programs-info .icons-container .icons-wrapper p {
+    color: #072A3D;
+    font-size: 26px;
+    text-align: center; }
   .site-main .programs-info .icons-container .icons-text {
     width: 272px;
     height: 141px;
     margin-bottom: 2rem; }
+    @media screen and (min-width: 640px) {
+      .site-main .programs-info .icons-container .icons-text {
+        width: 90%;
+        -ms-flex-order: 3;
+            order: 3; } }
 
 /*--------------------------------------------------------------
 # Accessibility
@@ -1307,6 +1589,12 @@ object {
   height: 50%;
   margin-left: 6rem;
   width: 15rem; }
+  .footer-box h3, .footer-box h2 {
+    font-weight: 400; }
+  .footer-box a {
+    color: #FFF; }
+  .footer-box a:hover {
+    color: #D44E1F; }
   .footer-box p {
     margin: 4px; }
 
@@ -1539,15 +1827,24 @@ object {
   height: 20rem;
   margin-right: 2rem; }
   .contact-column h2 {
-    margin-bottom: 1rem; }
+    margin-bottom: 1rem;
+    font-weight: 300; }
   .contact-column img {
     height: 5rem;
     width: 5rem; }
+  .contact-column a {
+    color: #FFF; }
+  .contact-column a:hover {
+    color: #D44E1F; }
 
 .contact-column-right {
   margin-top: 3rem; }
   .contact-column-right p {
     margin: 0px; }
+  .contact-column-right a {
+    color: #FFF; }
+  .contact-column-right a:hover {
+    color: #D44E1F; }
 
 #canada-flag {
   margin-top: 7rem; }
@@ -1563,9 +1860,6 @@ object {
 
 .contact-spacer h3 {
   margin-top: 2rem; }
-
-.quick-links-header {
-  display: none; }
 
 #how {
   margin-left: 3rem; }
@@ -1644,12 +1938,6 @@ object {
     left: 6rem;
     top: 40rem;
     margin: 0px; }
-  .quick-links-header {
-    display: -ms-flexbox;
-    display: flex;
-    position: absolute;
-    top: 7.5rem;
-    left: 3rem; }
   .footer-copyright {
     position: absolute;
     bottom: 0;
@@ -1660,7 +1948,10 @@ object {
     bottom: -25px;
     left: 0; } }
 
-/* Blog Archive Page */
+@media screen and (max-width: 950px) and (min-width: 640px) {
+  .tablet-hider {
+    display: none; } }
+
 .blog-hero {
   background: url("../../assets/Images/Desktop/blog/Tekera_Blog_Teal mic.png");
   background-position: center;
@@ -1693,6 +1984,9 @@ object {
   max-width: 40rem;
   height: 30rem; }
 
+.blog-post-box a:hover p, .blog-post-box a:hover h3 {
+  color: #D44E1F; }
+
 .blog-title-wrapper {
   -ms-flex-align: center;
       align-items: center;
@@ -1709,7 +2003,8 @@ object {
   background-position: center;
   background-size: cover;
   text-decoration: none;
-  width: 100%; }
+  width: 100%;
+  transition: 1s; }
   .blog-title-wrapper h3 {
     font-family: 'Open Web';
     font-weight: bold;
@@ -1916,10 +2211,258 @@ object {
   .post-type-archive-projects .projects li:last-child {
     border-bottom: none; }
 
+.how-hero-wrapper {
+  background: url("../../assets/Images/Desktop/blog/tekera_blog_celebrations_all_over_trc.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -ms-flexbox;
+  display: flex;
+  height: 30rem;
+  position: relative; }
+
+.how-hero-desktop {
+  display: none; }
+
+.how
+.our-model-header-box {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  background-color: #006E71;
+  font-family: 'Open Web';
+  font-weight: 100;
+  font-style: normal;
+  height: 5rem;
+  color: #FFF;
+  text-transform: uppercase;
+  margin: 2rem 0 2rem 0; }
+
+.our-model-content-wrapper {
+  padding: 0 2rem 0 2rem;
+  font-family: 'Open Web';
+  font-weight: 100;
+  font-style: normal; }
+  .our-model-content-wrapper h2 {
+    color: #20ACAF;
+    text-transform: uppercase; }
+
+.dev-practices {
+  color: #20ACAF;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column wrap;
+      flex-flow: column wrap;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  height: 8rem;
+  text-align: left; }
+  .dev-practices p {
+    margin: 1rem 2rem 1rem 0; }
+
+.how-large-text {
+  height: auto;
+  line-height: 2; }
+
+.pesos-content {
+  color: #20ACAF; }
+
+.how-we-do-it-prefooter {
+  display: -ms-flexbox;
+  display: flex;
+  background: url("../../assets/Images/Mobile/get-involved/tekera_get_involved_fund_a_project_kids_in_playground_.png");
+  background-position: center;
+  background-size: cover;
+  height: 60rem;
+  position: relative;
+  overflow: visible; }
+
+.how-prefooter-overlay {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  background: url("../../assets/Triangle overlays/tekera_triangleoverlay_mobile.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40rem;
+  width: 100%;
+  z-index: 10000;
+  position: absolute;
+  overflow: visible;
+  bottom: 0; }
+
+.prefooter-overlay-header {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-flow: column nowrap;
+      flex-flow: column nowrap;
+  text-align: center;
+  color: #FFF;
+  font-family: 'Shadows Into Light Web';
+  font-weight: 100;
+  width: 75%;
+  font-size: 1.25rem; }
+  .prefooter-overlay-header p {
+    font-family: 'Open Web';
+    font-weight: 100;
+    font-style: normal;
+    line-height: 2; }
+
+.get-involved-link {
+  font-size: 0.75rem;
+  font-family: 'Open Web';
+  font-weight: normal;
+  font-style: normal;
+  background-color: #EE9825;
+  height: auto;
+  width: 75%;
+  text-transform: uppercase; }
+  .get-involved-link a {
+    color: #FFF; }
+  .get-involved-link a:hover {
+    color: #20ACAF; }
+
+.how-desktop-insert {
+  display: none; }
+
+@media screen and (min-width: 640px) {
+  .how-we-do-it-page {
+    font-size: 1.25rem; }
+  .how-hero-wrapper {
+    display: none; }
+  .how-hero-desktop {
+    background: url("../../assets/Images/Desktop/our-model/tekera_our_model_assembly_at_primary_school_.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: -ms-flexbox;
+    display: flex;
+    height: 30rem;
+    position: relative; }
+  .dev-practices {
+    text-align: center; }
+  .our-model-content-wrapper {
+    padding: 0 6rem 0 6rem; }
+  .how-desktop-insert {
+    margin-top: 6rem;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: column nowrap;
+        flex-flow: column nowrap;
+    -ms-flex-align: center;
+        align-items: center;
+    font-size: 2rem;
+    -ms-flex-pack: center;
+        justify-content: center;
+    height: 65rem; }
+  .how-insert-top {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    width: 60%; }
+  .how-insert-box {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-flow: column nowrap;
+        flex-flow: column nowrap;
+    width: 30%;
+    height: auto;
+    text-align: center; }
+    .how-insert-box img {
+      width: 10rem;
+      height: 10rem; }
+    .how-insert-box h4 {
+      font-family: 'Shadows Into Light Web';
+      font-weight: normal;
+      font-style: normal;
+      text-transform: uppercase;
+      width: 90%;
+      padding: 0px;
+      margin: 0px; }
+  .how-insert-middle {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-flow: column nowrap;
+        flex-flow: column nowrap;
+    height: 9rem;
+    width: 60%;
+    margin: 1rem 0 1rem 0; }
+    .how-insert-middle h1, .how-insert-middle h2 {
+      font-family: 'Open Web';
+      font-weight: bold;
+      font-style: normal;
+      text-transform: uppercase;
+      color: #072A3D;
+      margin: 0px;
+      padding: 0px; }
+    .how-insert-middle h1 {
+      font-size: 5rem; }
+    .how-insert-middle h2 {
+      font-size: 2rem; }
+  .how-insert-bottom {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    margin-top: 4rem;
+    width: 60%; }
+    .how-insert-bottom img {
+      width: 10rem;
+      height: 10rem; }
+    .how-insert-bottom h4 {
+      font-family: 'Shadows Into Light Web';
+      font-weight: normal;
+      font-style: normal;
+      text-transform: uppercase;
+      width: 90%; }
+  .how-we-do-it-prefooter {
+    display: -ms-flexbox;
+    display: flex;
+    background: url("../../assets/Images/Desktop/our-model/tekera_our_model_kids_in_playground_.png");
+    background-position: center;
+    background-size: cover;
+    height: 40rem;
+    position: relative;
+    overflow: visible; }
+  .how-prefooter-overlay {
+    background: url("../../assets/Triangle overlays/tekera_desktop_triangleoverlay_left.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 75%;
+    right: 0; }
+  .get-involved-link {
+    width: 15rem; } }
+
 .who-we-are-page {
   font-family: "Open Web"; }
   .who-we-are-page .herobanner {
-    background: url("../../assets/Images/Desktop/about/Tekera_About_Student with sibling.png");
+    background: url("../../assets/Images/Desktop/about/tekera_about_student_with_sibling.png");
     background-size: cover;
     background-position: 72% bottom;
     background-repeat: no-repeat;
@@ -1931,16 +2474,16 @@ object {
     margin-top: 50px; }
     .who-we-are-page .content h1 {
       color: #20ACAF;
-      font-size: 1.2rem;
+      font-size: 1.5rem;
       text-transform: uppercase;
       width: 80%; }
   .who-we-are-page .middle-content h1,
   .who-we-are-page .bottom-content h1 {
-    font-size: 0.9rem;
+    font-size: 1.3rem;
     text-transform: none;
     margin: 30px 0; }
   .who-we-are-page .top-image {
-    background: url("../../assets/Images/Mobile/about/Tekera_About page_Collecting water.png");
+    background: url("../../assets/Images/Mobile/about/tekera_about_page_collecting_water.png");
     background-size: cover;
     background-position: 95% bottom;
     background-repeat: no-repeat;
@@ -1948,7 +2491,7 @@ object {
     position: relative; }
     @media screen and (min-width: 640px) {
       .who-we-are-page .top-image {
-        background: url("../../assets/Images/Desktop/about/Tekera_About_Collecting water.png");
+        background: url("../../assets/Images/Desktop/about/tekera_about_collecting_water.png");
         background-size: cover;
         height: 30vh;
         background-position: center right; } }
@@ -1974,7 +2517,7 @@ object {
         .who-we-are-page .top-image .top-blue {
           background: url("../../assets/Triangle overlays/Tekera_DESKTOP_TriangleOverlay_Right.png");
           height: 100%;
-          width: 60%;
+          width: 50%;
           background-position: center right;
           background-repeat: no-repeat; } }
       .who-we-are-page .top-image .top-blue .top-phrase {
@@ -1983,7 +2526,7 @@ object {
           margin: 30px auto;
           width: 58%; }
   .who-we-are-page .bottom-image {
-    background: url("../../assets/Images/Mobile/about/Tekera_About Us_Water and Sanitation.png");
+    background: url("../../assets/Images/Mobile/about/tekera_about_us_water_and_sanitation.png");
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -1991,7 +2534,7 @@ object {
     position: relative; }
     @media screen and (min-width: 640px) {
       .who-we-are-page .bottom-image {
-        background: url("../../assets/Images/Desktop/about/Tekera_About_Water and Sanitation.png");
+        background: url("../../assets/Images/Desktop/about/tekera_about_water_and_sanitation.png");
         background-size: cover;
         height: 30vh;
         background-position: center left; } }
@@ -2017,7 +2560,7 @@ object {
         .who-we-are-page .bottom-image .bottom-blue {
           background: url("../../assets/Triangle overlays/Tekera_DESKTOP_TriangleOverlay_Left.png");
           height: 100%;
-          width: 60%;
+          width: 48%;
           background-position: center left;
           background-repeat: no-repeat;
           right: 0; } }
@@ -2035,3 +2578,154 @@ object {
             .who-we-are-page .bottom-image .bottom-blue .bottom-phrase ul {
               padding-left: 80px;
               margin-right: 0px; } }
+
+#cta {
+  font-weight: lighter;
+  background: url("../../assets/Images/Mobile/about/tekera_about_us_kids_in_playground_.png");
+  background-size: cover;
+  background-position: 95% bottom;
+  background-repeat: no-repeat;
+  height: 95vh;
+  position: relative; }
+  @media screen and (min-width: 640px) {
+    #cta {
+      background: url("../../assets/Images/Desktop/about/tekera_about_kids_in_playground.png");
+      background-size: cover;
+      height: 80vh; } }
+  #cta #cta-blue {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 65%;
+    background: url("../../assets/Triangle overlays/Tekera_TriangleOverlay_MOBILE.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    text-align: center;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center; }
+    @media screen and (min-width: 640px) {
+      #cta #cta-blue {
+        background: url("../../assets/Triangle overlays/Tekera_DESKTOP_TriangleOverlay_Left.png");
+        background-size: cover;
+        position: absolute;
+        right: 0;
+        background-position: 0;
+        height: 100%;
+        width: 70%;
+        background-repeat: no-repeat;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: end;
+            align-items: flex-end; } }
+    #cta #cta-blue #cta-text {
+      color: white; }
+      @media screen and (min-width: 640px) {
+        #cta #cta-blue #cta-text {
+          font-size: 3rem;
+          width: 70%;
+          text-align: right;
+          margin-right: 40px; } }
+      #cta #cta-blue #cta-text h2 {
+        width: 40%;
+        margin: auto;
+        font-family: "Shadows Into Light Web";
+        font-size: 2.2rem;
+        font-weight: lighter;
+        line-height: 3rem; }
+        @media screen and (min-width: 640px) {
+          #cta #cta-blue #cta-text h2 {
+            font-size: 3rem;
+            width: 100%; } }
+      #cta #cta-blue #cta-text p {
+        margin: 10px auto;
+        width: 100%;
+        font-size: 1.2rem;
+        margin-bottom: 30px;
+        line-height: 2rem; }
+        @media screen and (min-width: 640px) {
+          #cta #cta-blue #cta-text p {
+            font-size: 1.5rem;
+            margin: 60px 0px; } }
+      @media screen and (min-width: 640px) {
+        #cta #cta-blue #cta-text .button-get-involved {
+          text-align: center; } }
+      #cta #cta-blue #cta-text .button-get-involved a {
+        color: white;
+        font-weight: bold;
+        font-size: 1.25rem;
+        padding: 12px 20px;
+        background-color: orange; }
+        @media screen and (min-width: 640px) {
+          #cta #cta-blue #cta-text .button-get-involved a {
+            padding: 15px 40px; } }
+
+.post-type-archive-members {
+  margin: auto;
+  text-align: center; }
+  .post-type-archive-members header {
+    margin-bottom: 70px; }
+    @media screen and (min-width: 640px) {
+      .post-type-archive-members header {
+        margin-bottom: 40px; } }
+    .post-type-archive-members header .hero-banner {
+      background: url("../../assets/Images/Desktop/staff/tekera_staff_trees.png");
+      height: 55vh;
+      background-position: center bottom;
+      background-size: cover; }
+    .post-type-archive-members header h1 {
+      margin-top: 70px;
+      text-transform: uppercase;
+      color: #20ACAF; }
+      @media screen and (min-width: 640px) {
+        .post-type-archive-members header h1 {
+          color: #072A3D;
+          width: 93%;
+          text-align: left;
+          margin: auto;
+          margin-top: 50px; } }
+  .post-type-archive-members .articles {
+    margin-bottom: 150px; }
+    @media screen and (min-width: 640px) {
+      .post-type-archive-members .articles {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; } }
+    @media screen and (min-width: 640px) {
+      .post-type-archive-members .articles article {
+        -ms-flex: 1 1 33%;
+            flex: 1 1 33%;
+        min-width: 33%;
+        max-width: 33%; } }
+    .post-type-archive-members .articles img {
+      max-width: 65%;
+      position: relative;
+      top: 20px;
+      z-index: -1;
+      margin-top: 20px; }
+      @media screen and (min-width: 640px) {
+        .post-type-archive-members .articles img {
+          max-width: 80%; } }
+    .post-type-archive-members .articles .text {
+      font-family: "Open Web"; }
+      .post-type-archive-members .articles .text h2 {
+        display: inline-block;
+        margin: 0px;
+        padding: 15px 10px;
+        background-color: orange;
+        width: 55%;
+        margin: 0px auto;
+        z-index: 999;
+        color: white;
+        font-size: 1.1rem; }
+      .post-type-archive-members .articles .text p {
+        margin: 0px auto; }

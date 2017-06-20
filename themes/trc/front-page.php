@@ -10,13 +10,13 @@ get_header(); ?>
     <!--</div>-->
   <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
     <li class = "gallery-cell">
-      <img src="<?php echo get_template_directory_uri();?> /assets/Images/Mobile/home-page/Tekera_Home page_Music dance.png "> 
+      <!--<img src="<?php echo get_template_directory_uri();?> /assets/Images/Mobile/home-page/Tekera_Home page_Music dance.png "> -->
     </li>
     <li class = "gallery-cell">
-      <img src="<?php echo get_template_directory_uri();?> /assets/Images/Mobile/home-page/Tekera_Home page_Collecting water.png ">
+      <!--<img src="<?php echo get_template_directory_uri();?> /assets/Images/Mobile/home-page/Tekera_Home page_Collecting water.png ">-->
     </li>
     <li class = "gallery-cell">
-      <img src="<?php echo get_template_directory_uri();?> /assets/Images/Mobile/home-page/Tekera_Home page_Smiling woman.png ">
+      <!--<img src="<?php echo get_template_directory_uri();?> /assets/Images/Mobile/home-page/Tekera_Home page_Smiling woman.png ">-->
     </li>
   </div>
 
@@ -27,7 +27,7 @@ get_header(); ?>
 
   <div class = "going-to-school">
 
-    <div class = "frontpage-overlay-image">-->
+    <div class = "frontpage-overlay-image">
       <!--<img src="<?php echo get_template_directory_uri();?> /assets/Triangle overlays/Tekera_TriangleOverlay_MOBILE.png">-->
     </div>
 
@@ -46,32 +46,32 @@ get_header(); ?>
     <div class = "icons-container">
 
       <div class = "icons-wrapper">
-        <img src="<?php echo get_template_directory_uri();?> /assets/Icons/Mobile/Mobile_png/Tekera_Mobile_Icon_Education.png">
+        <!--<img src="<?php echo get_template_directory_uri();?> /assets/Icons/Mobile/Mobile_png/Tekera_Mobile_Icon_Education.png">-->
         <p> High Quality Education</p>
       </div>
 
       <div class = "icons-wrapper">
-        <img src="<?php echo get_template_directory_uri();?> /assets/Icons/Mobile/Mobile_png/Tekera_Mobile_Icon_Farming.png">
+        <!--<img src="<?php echo get_template_directory_uri();?> /assets/Icons/Mobile/Mobile_png/Tekera_Mobile_Icon_Farming.png">-->
         <p> Co-operative Farming</p>
       </div>
 
       <div class = "icons-wrapper">
-        <img src="<?php echo get_template_directory_uri();?> /assets/Icons/Mobile/Mobile_png/Tekera_Mobile_Icon_Clinic.png">
+        <!--<img src="<?php echo get_template_directory_uri();?> /assets/Icons/Mobile/Mobile_png/Tekera_Mobile_Icon_Clinic.png">-->
         <p> Medical Clinic</p>
       </div>
 
       <div class = "icons-wrapper">
-        <img src="<?php echo get_template_directory_uri();?> /assets/Icons/Mobile/Mobile_png/Tekera_Mobile_Icon_Economy.png">
+        <!--<img src="<?php echo get_template_directory_uri();?> /assets/Icons/Mobile/Mobile_png/Tekera_Mobile_Icon_Economy.png">-->
         <p> Economic Development</p>
       </div>
 
       <div class = "icons-wrapper">
-        <img src="<?php echo get_template_directory_uri();?> /assets/Icons/Mobile/Mobile_png/Tekera_Mobile_Icon_Women Empowerment .png">
+        <!--<img src="<?php echo get_template_directory_uri();?> /assets/Icons/Mobile/Mobile_png/Tekera_Mobile_Icon_Women Empowerment .png">-->
         <p> Women Enpowerment</p>
       </div>
 
       <div class = "icons-wrapper">
-        <img src="<?php echo get_template_directory_uri();?> /assets/Icons/Mobile/Mobile_png/Tekera_Mobile icon_Community .png">
+        <!--<img src="<?php echo get_template_directory_uri();?> /assets/Icons/Mobile/Mobile_png/Tekera_Mobile icon_Community .png">-->
         <p> Community work</p>
       </div>
 
