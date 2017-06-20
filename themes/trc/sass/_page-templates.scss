@@ -949,6 +949,8 @@
 
   .dev-practices {
     text-align: center;
+    @include font-open-bold;
+    font-size: 1.25rem;    
   }
 
   .our-model-content-wrapper {
@@ -998,7 +1000,7 @@
     align-items: center;
     justify-content: space-around;
     flex-flow: column nowrap;
-    height: 9rem;
+    height: auto;
     width: 60%;   
     margin: 1rem 0 1rem 0; 
     h1, h2 {
