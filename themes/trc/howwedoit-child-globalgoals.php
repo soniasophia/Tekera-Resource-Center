@@ -1,7 +1,7 @@
 <?php 
 /* Template Name: Global Goals */
 get_header(); 
-get_the_title();
+get_the_title();gulp
 ?>
 <div class="global-goals-page">
   <div class="global-goals-hero">
@@ -426,6 +426,5 @@ get_the_title();
       <img class="goals-img" src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Full colour icons/e_sdg_goals_icons_individual_rgb_18.png">
     </div><!--goals-bar-->      
   </div><!--global-items-wrapper-->  
-
 </div><!--global-goals-page-->  
 <?php get_footer() ?>
