@@ -249,14 +249,14 @@ a {
 		padding-right: 2rem;
 
 		@include mobile{
-		display: none;
+			display: none;
 		}
 		
 	}
 
 	.tekera-site-text{
 		padding-right: 3rem;
-		flex: 0 1 60%;
+		flex: 0 1 70%;
 
 		@include desktop{
 			flex: 0 1 20%;
@@ -307,7 +307,6 @@ div.tekera-triangles{
 
 	img{
 		height: 100%;
-
 	}
 	
 		@include desktop{
@@ -440,7 +439,7 @@ div.tekera-triangles{
 
 
 		.frontpage-overlay-image{
-			background:url('../../assets/Triangle overlays/Tekera_TriangleOverlay_MOBILE.png');
+			background:url('../../assets/Triangles/triangle_mobile.png');
 			background-size: cover;
 			background-repeat: no-repeat;
 			background-position: top;
@@ -450,7 +449,7 @@ div.tekera-triangles{
 			bottom: 0;
 
 			@include desktop{
-				background: url('../../assets/Triangle\ overlays/Tekera_DESKTOP_TriangleOverlay_Right.png');
+				background: url('../../assets/Triangles/desktop_triangle_right.png');
 				background-size: cover;
 				background-repeat: no-repeat;
 				background-position: top;
@@ -543,7 +542,7 @@ div.tekera-triangles{
 
 
 		.frontpage-overlay-image{
-			background:url('../../assets/Triangle overlays/Tekera_TriangleOverlay_MOBILE.png');
+			background:url('../../assets/Triangles/triangle_mobile.png');
 			background-size: cover;
 			background-repeat: no-repeat;
 			background-position: center top;
@@ -553,7 +552,7 @@ div.tekera-triangles{
 			bottom: 0;
 
 				@include desktop{
-					background: url('../../assets/Triangle\ overlays/Tekera_DESKTOP_TriangleOverlay_Left.png');
+					background: url('../../assets/Triangles/desktop_triangle_left.png');
 					background-size: cover;
 					background-repeat: no-repeat;
 					background-position: top;
@@ -647,7 +646,7 @@ div.tekera-triangles{
 
 
 		.frontpage-overlay-image{
-			background:url('../../assets/Triangle overlays/Tekera_TriangleOverlay_MOBILE.png');
+			background:url('../../assets/Triangles/triangle_mobile.png');
 			background-size: cover;
 			background-repeat: no-repeat;
 			background-position: center top;
@@ -657,7 +656,7 @@ div.tekera-triangles{
 			bottom: 0;
 
 				@include desktop{
-					background: url('../../assets/Triangle\ overlays/Tekera_DESKTOP_TriangleOverlay_Right.png');
+					background: url('../../assets/Triangles/desktop_triangle_right.png');
 					background-size: cover;
 					background-repeat: no-repeat;
 					background-position: top;
