@@ -1,11 +1,11 @@
-@include desktop {
-    }
+@include desktop {}
+
 .post-type-archive-members {
   margin: auto;
   text-align: center;
   header {
     margin-bottom: 70px;
-    @include desktop{
+    @include desktop {
       margin-bottom: 40px;
     }
     .hero-banner {
@@ -15,7 +15,7 @@
       background-size: cover;
       background-repeat: no-repeat;
     }
-    h1{
+    h1 {
       margin-top: 70px;
       text-transform: uppercase;
       color: $color_brand-teal;
@@ -25,38 +25,38 @@
         text-align: left;
         margin: auto;
         margin-top: 50px;
+      }
     }
-    }
-    
   }
-
-  .articles{
+  .articles-members {
     margin-bottom: 150px;
-    @include desktop {
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
+    @include mobile {
+      display: block;
     }
-    article{
+    @include desktop {
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+    }
+    article {
       @include desktop {
         flex: 1 1 33%;
         min-width: 33%;
         max-width: 33%;
+      }
     }
-    }
-    img{
+    img {
       max-width: 65%;
-      top: 20px;
       z-index: -1;
-      @include desktop{
+      @include desktop {
         max-width: 80%;
       }
     }
-    .text{
+    .text {
       font-family: "Open Web";
       position: relative;
       bottom: 35px;
-      button{
+      button {
         display: inline-block;
         margin: 0px;
         padding: 18px 10px;
@@ -71,24 +71,71 @@
         border-radius: 0px;
         font-weight: lighter;
       }
-      p{
+      p {
         margin: 0px auto;
       }
     }
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  #single-view-member {
+    padding-bottom: 150px;
+    margin-bottom: 75px;
+    display: none;
+    @include desktop {
+          border: solid 1px black;
+          width: 90%;
+          margin: auto;
+          margin-bottom: 75px;
+        }
+    .exit-button{
+      display: flex;
+      width: 80%;
+      justify-content: flex-end;
+      margin: 30px;
+      button{
+        border-radius: 50%;
+        direction: block;
+        height: 40px;
+        font-family: "Open Web";
+        box-shadow: none;
+        background-color: orange;
+        color: white;
+        font-size: 1.2rem;
+      }
+    }
+    img {
+      max-width: 65%;
+      z-index: -1;
+      @include desktop {
+        max-width: 80%;
+      }
+    }
+    .expanded-text {
+      font-family: "Open Web";
+      position: relative;
+      bottom: 35px;
+      h2 {
+        display: inline-block;
+        margin: 0px;
+        padding: 18px 10px;
+        background-color: orange;
+        width: 55%;
+        margin: 0px auto;
+        z-index: 999;
+        color: white;
+        font-size: 1.1rem;
+        box-shadow: none;
+        border: none;
+        border-radius: 0px;
+        @include desktop {
+          width: auto;
+          padding: 18px 25px;
+        }
+      }
+    }
+    p {
+      font-family: "Open Web";
+      width: 80%;
+      margin: auto;
+    }
+  }
 }

@@ -169,7 +169,7 @@ function create_api_members_custom_field() {
     );
     register_rest_field( 'members', 'summary', array(
            'get_callback'    => function( $members_arr ) {
-            return CFS()->get( summary, $members_arr['id'] ); 
+            return CFS()->get( summary, $members_arr['id'] );
         },
            'schema'          => null,
         )

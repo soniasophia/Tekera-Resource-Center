@@ -18,10 +18,10 @@ get_header(); ?>
         <h1>Our Ugandan Team</h1>
       </header>
       <!-- .page-header -->
-      <div class="single-view">
+      <div id="single-view-member">
         
       </div>
-      <div class="articles">
+      <div class="articles-members">
 
 
         <?php /* Start the Loop */ ?>

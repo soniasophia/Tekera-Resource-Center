@@ -571,7 +571,7 @@ a {
   -ms-flex-align: center;
       align-items: center;
   height: 100%; }
-  @media screen and (max-width: 640px) {
+  @media screen and (min-width: 640px) {
     .site-header-wrapper {
       display: -ms-flexbox;
       display: flex;
@@ -635,7 +635,7 @@ a {
         border-bottom: none; }
   .site-header-wrapper .tekera-site-logo {
     padding-right: 2rem; }
-    @media screen and (max-width: 640px) {
+    @media screen and (min-width: 640px) {
       .site-header-wrapper .tekera-site-logo {
         display: none; } }
   .site-header-wrapper .tekera-site-text {
@@ -654,7 +654,7 @@ a {
   display: flex;
   -ms-flex-align: center;
       align-items: center; }
-  @media screen and (max-width: 640px) {
+  @media screen and (min-width: 640px) {
     .main-navigation {
       display: none; } }
   .main-navigation .menu-nav-bar-container ul {
@@ -1501,7 +1501,7 @@ div.tekera-triangles img {
   -ms-flex-pack: justify;
       justify-content: space-between;
   margin-bottom: 4.5rem; }
-  @media screen and (max-width: 640px) {
+  @media screen and (min-width: 640px) {
     .single-post .latest-blog-posts {
       display: none; } }
   .single-post .latest-blog-posts h3 {
@@ -2944,10 +2944,13 @@ object {
           text-align: left;
           margin: auto;
           margin-top: 50px; } }
-  .post-type-archive-members .articles {
+  .post-type-archive-members .articles-members {
     margin-bottom: 150px; }
     @media screen and (min-width: 640px) {
-      .post-type-archive-members .articles {
+      .post-type-archive-members .articles-members {
+        display: block; } }
+    @media screen and (min-width: 640px) {
+      .post-type-archive-members .articles-members {
         display: -ms-flexbox;
         display: flex;
         -ms-flex-pack: start;
@@ -2955,23 +2958,22 @@ object {
         -ms-flex-wrap: wrap;
             flex-wrap: wrap; } }
     @media screen and (min-width: 640px) {
-      .post-type-archive-members .articles article {
+      .post-type-archive-members .articles-members article {
         -ms-flex: 1 1 33%;
             flex: 1 1 33%;
         min-width: 33%;
         max-width: 33%; } }
-    .post-type-archive-members .articles img {
+    .post-type-archive-members .articles-members img {
       max-width: 65%;
-      top: 20px;
       z-index: -1; }
       @media screen and (min-width: 640px) {
-        .post-type-archive-members .articles img {
+        .post-type-archive-members .articles-members img {
           max-width: 80%; } }
-    .post-type-archive-members .articles .text {
+    .post-type-archive-members .articles-members .text {
       font-family: "Open Web";
       position: relative;
       bottom: 35px; }
-      .post-type-archive-members .articles .text button {
+      .post-type-archive-members .articles-members .text button {
         display: inline-block;
         margin: 0px;
         padding: 18px 10px;
@@ -2985,5 +2987,62 @@ object {
         border: none;
         border-radius: 0px;
         font-weight: lighter; }
-      .post-type-archive-members .articles .text p {
+      .post-type-archive-members .articles-members .text p {
         margin: 0px auto; }
+  .post-type-archive-members #single-view-member {
+    padding-bottom: 150px;
+    margin-bottom: 75px;
+    display: none; }
+    @media screen and (min-width: 640px) {
+      .post-type-archive-members #single-view-member {
+        border: solid 1px black;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 75px; } }
+    .post-type-archive-members #single-view-member .exit-button {
+      display: -ms-flexbox;
+      display: flex;
+      width: 80%;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+      margin: 30px; }
+      .post-type-archive-members #single-view-member .exit-button button {
+        border-radius: 50%;
+        direction: block;
+        height: 40px;
+        font-family: "Open Web";
+        box-shadow: none;
+        background-color: orange;
+        color: white;
+        font-size: 1.2rem; }
+    .post-type-archive-members #single-view-member img {
+      max-width: 65%;
+      z-index: -1; }
+      @media screen and (min-width: 640px) {
+        .post-type-archive-members #single-view-member img {
+          max-width: 80%; } }
+    .post-type-archive-members #single-view-member .expanded-text {
+      font-family: "Open Web";
+      position: relative;
+      bottom: 35px; }
+      .post-type-archive-members #single-view-member .expanded-text h2 {
+        display: inline-block;
+        margin: 0px;
+        padding: 18px 10px;
+        background-color: orange;
+        width: 55%;
+        margin: 0px auto;
+        z-index: 999;
+        color: white;
+        font-size: 1.1rem;
+        box-shadow: none;
+        border: none;
+        border-radius: 0px; }
+        @media screen and (min-width: 640px) {
+          .post-type-archive-members #single-view-member .expanded-text h2 {
+            width: auto;
+            padding: 18px 25px; } }
+    .post-type-archive-members #single-view-member p {
+      font-family: "Open Web";
+      width: 80%;
+      margin: auto; }
