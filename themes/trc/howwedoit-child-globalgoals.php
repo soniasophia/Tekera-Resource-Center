@@ -4,7 +4,7 @@ get_header();
 get_the_title();
 ?>
 <div class="global-goals-page">
-  <div class="global-goals-hero global-mobile-hero">
+  <div class="global-goals-hero">
   </div><!--global-goals-hero global-mobile-hero-->
   <div class="sustainability-bar">
     <h2>global sustainability goals</h2>
@@ -40,7 +40,7 @@ get_the_title();
       to our location!
     </p>  
   </div><!--pre-compliance-box-->  
-  <div class="global-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
+  <div class="global-carousel" data-flickity='{ "cellAlign": "left", "contain": true, "wrapAround": true }'>
     <div class="carousel-sub">
       <img src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Inverted icons/e_inverted_sdg_goals_icons_individual_rgb_01.png">
       <h3>sdg 1: no poverty</h3>
@@ -58,7 +58,10 @@ get_the_title();
         work hours, or livestock! We want everyone to 
         have access to quality eduction to help stop the 
         cycle of poverty.
-      </p>  
+      </p>
+      <div class="carousel-sub-footer">
+        <p>Swipe to see more</p>
+      </div>  
     </div><!--carousel-sub-->  
     <div class="carousel-sub">
       <img src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Inverted icons/e_inverted_sdg_goals_icons_individual_rgb_02.png">
@@ -76,8 +79,353 @@ get_the_title();
         fugiat nulla pariatur. Excepteur sint occaecat 
         cupidatat non proident, sunt in culpa qui officia 
         deserunt mollit anim id est laborum.          
+      </p>    
+      <div class="carousel-sub-footer">
+        <p>Swipe to see more</p>
+      </div>                  
+    </div><!--carousel-sub--> 
+    <div class="carousel-sub">
+      <img src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Inverted icons/e_inverted_sdg_goals_icons_individual_rgb_03.png">
+      <h3>sdg 3: good health and well-being</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing 
+        elit, sed do eiusmod tempor incididunt ut labore et 
+        dolore magna aliqua. Ut enim ad minim veniam, quis 
+        nostrud exercitation ullamco laboris nisi ut aliquip 
+        ex ea commodo consequat.       
+      </p>
+      <p>
+        Duis aute irure dolor in 
+        reprehenderit in voluptate velit esse cillum dolore eu 
+        fugiat nulla pariatur. Excepteur sint occaecat 
+        cupidatat non proident, sunt in culpa qui officia 
+        deserunt mollit anim id est laborum.          
       </p>              
-    </div>  
+      <div class="carousel-sub-footer">
+        <p>Swipe to see more</p>
+      </div><!--carousel-sub-footer-->        
+    </div><!--carousel-sub-->  
+    <div class="carousel-sub">
+      <img src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Inverted icons/e_inverted_sdg_goals_icons_individual_rgb_04.png">
+      <h3>sdg 4: quality education</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing 
+        elit, sed do eiusmod tempor incididunt ut labore et 
+        dolore magna aliqua. Ut enim ad minim veniam, quis 
+        nostrud exercitation ullamco laboris nisi ut aliquip 
+        ex ea commodo consequat.       
+      </p>
+      <p>
+        Duis aute irure dolor in 
+        reprehenderit in voluptate velit esse cillum dolore eu 
+        fugiat nulla pariatur. Excepteur sint occaecat 
+        cupidatat non proident, sunt in culpa qui officia 
+        deserunt mollit anim id est laborum.          
+      </p>              
+      <div class="carousel-sub-footer">
+        <p>Swipe to see more</p>
+      </div><!--carousel-sub-footer-->        
+    </div><!--carousel-sub-->   
+    <div class="carousel-sub">
+      <img src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Inverted icons/e_inverted_sdg_goals_icons_individual_rgb_05.png">
+      <h3>sdg 5: gender equality</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing 
+        elit, sed do eiusmod tempor incididunt ut labore et 
+        dolore magna aliqua. Ut enim ad minim veniam, quis 
+        nostrud exercitation ullamco laboris nisi ut aliquip 
+        ex ea commodo consequat.       
+      </p>
+      <p>
+        Duis aute irure dolor in 
+        reprehenderit in voluptate velit esse cillum dolore eu 
+        fugiat nulla pariatur. Excepteur sint occaecat 
+        cupidatat non proident, sunt in culpa qui officia 
+        deserunt mollit anim id est laborum.          
+      </p>              
+      <div class="carousel-sub-footer">
+        <p>Swipe to see more</p>
+      </div><!--carousel-sub-footer-->        
+    </div><!--carousel-sub-->    
+    <div class="carousel-sub">
+      <img src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Inverted icons/e_inverted_sdg_goals_icons_individual_rgb_06.png">
+      <h3>sdg 6: clean water and sanitation</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing 
+        elit, sed do eiusmod tempor incididunt ut labore et 
+        dolore magna aliqua. Ut enim ad minim veniam, quis 
+        nostrud exercitation ullamco laboris nisi ut aliquip 
+        ex ea commodo consequat.       
+      </p>
+      <p>
+        Duis aute irure dolor in 
+        reprehenderit in voluptate velit esse cillum dolore eu 
+        fugiat nulla pariatur. Excepteur sint occaecat 
+        cupidatat non proident, sunt in culpa qui officia 
+        deserunt mollit anim id est laborum.          
+      </p>              
+      <div class="carousel-sub-footer">
+        <p>Swipe to see more</p>
+      </div><!--carousel-sub-footer-->        
+    </div><!--carousel-sub--> 
+    <div class="carousel-sub">
+      <img src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Inverted icons/e_inverted_sdg_goals_icons_individual_rgb_07.png">
+      <h3>sdg 7: affordable and clean energy</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing 
+        elit, sed do eiusmod tempor incididunt ut labore et 
+        dolore magna aliqua. Ut enim ad minim veniam, quis 
+        nostrud exercitation ullamco laboris nisi ut aliquip 
+        ex ea commodo consequat.       
+      </p>
+      <p>
+        Duis aute irure dolor in 
+        reprehenderit in voluptate velit esse cillum dolore eu 
+        fugiat nulla pariatur. Excepteur sint occaecat 
+        cupidatat non proident, sunt in culpa qui officia 
+        deserunt mollit anim id est laborum.          
+      </p>              
+      <div class="carousel-sub-footer">
+        <p>Swipe to see more</p>
+      </div><!--carousel-sub-footer-->        
+    </div><!--carousel-sub-->  
+    <div class="carousel-sub">
+      <img src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Inverted icons/e_inverted_sdg_goals_icons_individual_rgb_08.png">
+      <h3>sdg 8: decent work and economic growth</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing 
+        elit, sed do eiusmod tempor incididunt ut labore et 
+        dolore magna aliqua. Ut enim ad minim veniam, quis 
+        nostrud exercitation ullamco laboris nisi ut aliquip 
+        ex ea commodo consequat.       
+      </p>
+      <p>
+        Duis aute irure dolor in 
+        reprehenderit in voluptate velit esse cillum dolore eu 
+        fugiat nulla pariatur. Excepteur sint occaecat 
+        cupidatat non proident, sunt in culpa qui officia 
+        deserunt mollit anim id est laborum.          
+      </p>              
+      <div class="carousel-sub-footer">
+        <p>Swipe to see more</p>
+      </div><!--carousel-sub-footer-->        
+    </div><!--carousel-sub--> 
+    <div class="carousel-sub">
+      <img src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Inverted icons/e_inverted_sdg_goals_icons_individual_rgb_09.png">
+      <h3>sdg 9: industry, innovation and infrastructure</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing 
+        elit, sed do eiusmod tempor incididunt ut labore et 
+        dolore magna aliqua. Ut enim ad minim veniam, quis 
+        nostrud exercitation ullamco laboris nisi ut aliquip 
+        ex ea commodo consequat.       
+      </p>
+      <p>
+        Duis aute irure dolor in 
+        reprehenderit in voluptate velit esse cillum dolore eu 
+        fugiat nulla pariatur. Excepteur sint occaecat 
+        cupidatat non proident, sunt in culpa qui officia 
+        deserunt mollit anim id est laborum.          
+      </p>              
+      <div class="carousel-sub-footer">
+        <p>Swipe to see more</p>
+      </div><!--carousel-sub-footer-->        
+    </div><!--carousel-sub-->  
+    <div class="carousel-sub">
+      <img src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Inverted icons/e_inverted_sdg_goals_icons_individual_rgb_10.png">
+      <h3>sdg 10: reduced inequalities</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing 
+        elit, sed do eiusmod tempor incididunt ut labore et 
+        dolore magna aliqua. Ut enim ad minim veniam, quis 
+        nostrud exercitation ullamco laboris nisi ut aliquip 
+        ex ea commodo consequat.       
+      </p>
+      <p>
+        Duis aute irure dolor in 
+        reprehenderit in voluptate velit esse cillum dolore eu 
+        fugiat nulla pariatur. Excepteur sint occaecat 
+        cupidatat non proident, sunt in culpa qui officia 
+        deserunt mollit anim id est laborum.          
+      </p>              
+      <div class="carousel-sub-footer">
+        <p>Swipe to see more</p>
+      </div><!--carousel-sub-footer-->        
+    </div><!--carousel-sub-->  
+    <div class="carousel-sub">
+      <img src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Inverted icons/e_inverted_sdg_goals_icons_individual_rgb_11.png">
+      <h3>sdg 11: sustainable cities and communities</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing 
+        elit, sed do eiusmod tempor incididunt ut labore et 
+        dolore magna aliqua. Ut enim ad minim veniam, quis 
+        nostrud exercitation ullamco laboris nisi ut aliquip 
+        ex ea commodo consequat.       
+      </p>
+      <p>
+        Duis aute irure dolor in 
+        reprehenderit in voluptate velit esse cillum dolore eu 
+        fugiat nulla pariatur. Excepteur sint occaecat 
+        cupidatat non proident, sunt in culpa qui officia 
+        deserunt mollit anim id est laborum.          
+      </p>              
+      <div class="carousel-sub-footer">
+        <p>Swipe to see more</p>
+      </div><!--carousel-sub-footer-->        
+    </div><!--carousel-sub--> 
+    <div class="carousel-sub">
+      <img src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Inverted icons/e_inverted_sdg_goals_icons_individual_rgb_12.png">
+      <h3>sdg 12: responsible consumption and production</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing 
+        elit, sed do eiusmod tempor incididunt ut labore et 
+        dolore magna aliqua. Ut enim ad minim veniam, quis 
+        nostrud exercitation ullamco laboris nisi ut aliquip 
+        ex ea commodo consequat.       
+      </p>
+      <p>
+        Duis aute irure dolor in 
+        reprehenderit in voluptate velit esse cillum dolore eu 
+        fugiat nulla pariatur. Excepteur sint occaecat 
+        cupidatat non proident, sunt in culpa qui officia 
+        deserunt mollit anim id est laborum.          
+      </p>              
+      <div class="carousel-sub-footer">
+        <p>Swipe to see more</p>
+      </div><!--carousel-sub-footer-->        
+    </div><!--carousel-sub--> 
+    <div class="carousel-sub">
+      <img src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Inverted icons/e_inverted_sdg_goals_icons_individual_rgb_13.png">
+      <h3>sdg 13: climate action</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing 
+        elit, sed do eiusmod tempor incididunt ut labore et 
+        dolore magna aliqua. Ut enim ad minim veniam, quis 
+        nostrud exercitation ullamco laboris nisi ut aliquip 
+        ex ea commodo consequat.       
+      </p>
+      <p>
+        Duis aute irure dolor in 
+        reprehenderit in voluptate velit esse cillum dolore eu 
+        fugiat nulla pariatur. Excepteur sint occaecat 
+        cupidatat non proident, sunt in culpa qui officia 
+        deserunt mollit anim id est laborum.          
+      </p>              
+      <div class="carousel-sub-footer">
+        <p>Swipe to see more</p>
+      </div><!--carousel-sub-footer-->        
+    </div><!--carousel-sub-->
+    <div class="carousel-sub">
+      <img src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Inverted icons/e_inverted_sdg_goals_icons_individual_rgb_14.png">
+      <h3>sdg 14: life below water</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing 
+        elit, sed do eiusmod tempor incididunt ut labore et 
+        dolore magna aliqua. Ut enim ad minim veniam, quis 
+        nostrud exercitation ullamco laboris nisi ut aliquip 
+        ex ea commodo consequat.       
+      </p>
+      <p>
+        Duis aute irure dolor in 
+        reprehenderit in voluptate velit esse cillum dolore eu 
+        fugiat nulla pariatur. Excepteur sint occaecat 
+        cupidatat non proident, sunt in culpa qui officia 
+        deserunt mollit anim id est laborum.          
+      </p>              
+      <div class="carousel-sub-footer">
+        <p>Swipe to see more</p>
+      </div><!--carousel-sub-footer-->        
+    </div><!--carousel-sub-->  
+    <div class="carousel-sub">
+      <img src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Inverted icons/e_inverted_sdg_goals_icons_individual_rgb_15.png">
+      <h3>sdg 15: life on land</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing 
+        elit, sed do eiusmod tempor incididunt ut labore et 
+        dolore magna aliqua. Ut enim ad minim veniam, quis 
+        nostrud exercitation ullamco laboris nisi ut aliquip 
+        ex ea commodo consequat.       
+      </p>
+      <p>
+        Duis aute irure dolor in 
+        reprehenderit in voluptate velit esse cillum dolore eu 
+        fugiat nulla pariatur. Excepteur sint occaecat 
+        cupidatat non proident, sunt in culpa qui officia 
+        deserunt mollit anim id est laborum.          
+      </p>              
+      <div class="carousel-sub-footer">
+        <p>Swipe to see more</p>
+      </div><!--carousel-sub-footer-->        
+    </div><!--carousel-sub-->  
+    <div class="carousel-sub">
+      <img src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Inverted icons/e_inverted_sdg_goals_icons_individual_rgb_16.png">
+      <h3>sdg 16: peace, justice, and strong institutions</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing 
+        elit, sed do eiusmod tempor incididunt ut labore et 
+        dolore magna aliqua. Ut enim ad minim veniam, quis 
+        nostrud exercitation ullamco laboris nisi ut aliquip 
+        ex ea commodo consequat.       
+      </p>
+      <p>
+        Duis aute irure dolor in 
+        reprehenderit in voluptate velit esse cillum dolore eu 
+        fugiat nulla pariatur. Excepteur sint occaecat 
+        cupidatat non proident, sunt in culpa qui officia 
+        deserunt mollit anim id est laborum.          
+      </p>              
+      <div class="carousel-sub-footer">
+        <p>Swipe to see more</p>
+      </div><!--carousel-sub-footer-->        
+    </div><!--carousel-sub--> 
+    <div class="carousel-sub">
+      <img src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Inverted icons/e_inverted_sdg_goals_icons_individual_rgb_17.png">
+      <h3>sdg 17: partnership for the goals</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing 
+        elit, sed do eiusmod tempor incididunt ut labore et 
+        dolore magna aliqua. Ut enim ad minim veniam, quis 
+        nostrud exercitation ullamco laboris nisi ut aliquip 
+        ex ea commodo consequat.       
+      </p>
+      <p>
+        Duis aute irure dolor in 
+        reprehenderit in voluptate velit esse cillum dolore eu 
+        fugiat nulla pariatur. Excepteur sint occaecat 
+        cupidatat non proident, sunt in culpa qui officia 
+        deserunt mollit anim id est laborum.          
+      </p>              
+      <div class="carousel-sub-footer">
+        <p>Swipe to see more</p>
+      </div><!--carousel-sub-footer-->        
+    </div><!--carousel-sub-->                                              
   </div><!--global-carousel-->
+  <div class="goal-items-wrapper">
+    <div class="goals-bar">
+      <img class="goals-img" src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Full colour icons/e_sdg_goals_icons_individual_rgb_01.png">
+      <img class="goals-img" src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Full colour icons/e_sdg_goals_icons_individual_rgb_02.png">
+      <img class="goals-img" src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Full colour icons/e_sdg_goals_icons_individual_rgb_03.png">
+      <img class="goals-img" src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Full colour icons/e_sdg_goals_icons_individual_rgb_04.png">
+      <img class="goals-img" src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Full colour icons/e_sdg_goals_icons_individual_rgb_05.png">
+      <img class="goals-img" src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Full colour icons/e_sdg_goals_icons_individual_rgb_06.png">
+    </div><!--goals-bar-->
+    <div class="goals-bar">
+      <img class="goals-img" src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Full colour icons/e_sdg_goals_icons_individual_rgb_07.png">
+      <img class="goals-img" src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Full colour icons/e_sdg_goals_icons_individual_rgb_08.png">
+      <img class="goals-img" src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Full colour icons/e_sdg_goals_icons_individual_rgb_09.png">
+      <img class="goals-img" src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Full colour icons/e_sdg_goals_icons_individual_rgb_10.png">
+      <img class="goals-img" src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Full colour icons/e_sdg_goals_icons_individual_rgb_11.png">
+      <img class="goals-img" src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Full colour icons/e_sdg_goals_icons_individual_rgb_12.png">
+    </div><!--goals-bar-->
+    <div class="goals-bar">
+      <img class="goals-img" src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Full colour icons/e_sdg_goals_icons_individual_rgb_13.png">
+      <img class="goals-img" src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Full colour icons/e_sdg_goals_icons_individual_rgb_14.png">
+      <img class="goals-img" src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Full colour icons/e_sdg_goals_icons_individual_rgb_15.png">
+      <img class="goals-img" src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Full colour icons/e_sdg_goals_icons_individual_rgb_16.png">
+      <img class="goals-img" src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Full colour icons/e_sdg_goals_icons_individual_rgb_17.png">
+      <img class="goals-img" src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Full colour icons/e_sdg_goals_icons_individual_rgb_18.png">
+    </div><!--goals-bar-->      
+  </div><!--global-items-wrapper-->  
+
 </div><!--global-goals-page-->  
 <?php get_footer() ?>
