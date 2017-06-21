@@ -1,9 +1,11 @@
-<?php get_header() ?>
+<?php 
+/* Template Name: Sponsor */
 
-<div class="sponsor-page">
+get_header(); 
+get_the_title();
+?>
 
-<div class="hero-banner">
-</div>
+<?php wp_nav_menu( array( 'theme_location' => 'get-involved-sub-menu', 'items_wrap' => '<ul id="%1$s" class="%2$s mobile-top-nav">%3$s</ul>', 'container' => 'div', 'container_class' => 'custom-sub-menu-wrapper' ) ); ?>
 
 
 

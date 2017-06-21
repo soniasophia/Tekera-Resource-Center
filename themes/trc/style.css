@@ -2167,10 +2167,6 @@ object {
             align-items: center;
         -ms-flex-pack: justify;
             justify-content: space-between; } }
-  text-align: center; }
-  .post-type-archive-projects .custom-sub-menu-wrapper ul {
-    width: 80%;
-    margin: 0 auto; }
   .post-type-archive-projects .custom-sub-menu-wrapper li {
     font-family: 'Open Web';
     font-weight: bold;
@@ -2233,9 +2229,6 @@ object {
   border-top-color: rgba(255, 255, 255, 0.7);
   border-width: 11px;
   margin-left: -11px; }
-  border-top-color: white;
-  border-width: 10px;
-  margin-left: -10px; }
 
 .post-type-archive-projects .dropdown-arrow:before {
   border-top-color: #072a3d;
@@ -2716,6 +2709,7 @@ object {
     text-transform: uppercase;
     width: 5rem;
     text-align: center; }
+
 .page-template-page-getinvolved .banner {
   background: url("../../assets/Images/Mobile/get-involved/tekera_get_involved_current_positions_smiling_woman_.png");
   background-position: center;
@@ -2775,7 +2769,7 @@ object {
   margin-top: 3rem;
   margin-bottom: 3rem;
   padding-left: 8rem; }
-  @media screen and (max-width: 640px) {
+  @media screen and (min-width: 640px) {
     .page-template-page-getinvolved .overview-container .overview-wrapper h2 {
       display: none; } }
 
