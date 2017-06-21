@@ -2207,13 +2207,11 @@ object {
   padding: 0.5rem 2rem;
   margin: 0;
   background: rgba(255, 255, 255, 0.7); }
-  .post-type-archive-projects .projects-title a {
+  .post-type-archive-projects .projects-title h1 {
     font-family: 'Open Web';
     font-weight: bold;
     font-style: normal;
-    color: #072A3D;
-    display: -ms-flexbox;
-    display: flex; }
+    color: #072A3D; }
 
 .post-type-archive-projects .dropdown-arrow {
   position: relative; }
@@ -2945,10 +2943,8 @@ object {
           margin: auto;
           margin-top: 50px; } }
   .post-type-archive-members .articles-members {
-    margin-bottom: 150px; }
-    @media screen and (min-width: 640px) {
-      .post-type-archive-members .articles-members {
-        display: block; } }
+    margin-bottom: 150px;
+    display: block; }
     @media screen and (min-width: 640px) {
       .post-type-archive-members .articles-members {
         display: -ms-flexbox;
@@ -3044,5 +3040,7 @@ object {
             padding: 18px 25px; } }
     .post-type-archive-members #single-view-member p {
       font-family: "Open Web";
-      width: 80%;
-      margin: auto; }
+      width: 70%;
+      margin: 0px auto;
+      margin-bottom: 25px;
+      text-align: left; }

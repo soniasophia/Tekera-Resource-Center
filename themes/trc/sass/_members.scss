@@ -30,9 +30,7 @@
   }
   .articles-members {
     margin-bottom: 150px;
-    @include mobile {
       display: block;
-    }
     @include desktop {
       display: flex;
       justify-content: flex-start;
@@ -134,8 +132,10 @@
     }
     p {
       font-family: "Open Web";
-      width: 80%;
-      margin: auto;
+      width: 70%;
+    margin: 0px auto;
+    margin-bottom: 25px;
+    text-align: left;
     }
   }
 }
