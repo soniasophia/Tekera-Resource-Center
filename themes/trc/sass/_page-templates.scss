@@ -1488,3 +1488,65 @@
     
   }
 }
+
+/* Get Involved: Sponsor Page */
+
+.page-template-page-sponsor {
+  .sponsor-title {
+    padding: 0.5rem 2rem;
+    margin: 0;
+    background: $color_brand-white-transparent;
+
+    h1 {
+      @include font-open-bold;
+      color: $color_brand-blue-dark;
+    }
+  }
+
+  .custom-sub-menu-wrapper {
+    display: none;
+    text-align: center;
+    background: white;
+
+    @include desktop {
+      display: block;
+      background: $color_brand-white-transparent;
+    }
+
+    ul {
+      width: 80%;
+      margin: 0 auto;
+
+      @include desktop {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+    }
+
+    li {
+      @include font-open-bold;
+      text-transform: uppercase;
+      font-size: 1.3rem;
+      border-bottom: 1px solid #3f3f3f;
+      padding: 1.9rem 0;
+
+      &:last-child {
+        border-bottom: none;
+      }
+
+      @include desktop {
+        margin: 0 1rem;
+        border-bottom: none;
+        padding: 0;
+        @include font-open-regular;
+        text-transform: none;
+      }
+    }
+
+    a {
+      color: $color_brand-blue-dark;
+    }
+  }
+}
+

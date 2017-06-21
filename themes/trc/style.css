@@ -2905,6 +2905,58 @@ object {
   .page-template-page-getinvolved .overview-container .overview-wrapper .donate p {
     border-bottom: none; } }
 
+/* Get Involved: Sponsor Page */
+.page-template-page-sponsor .sponsor-title {
+  padding: 0.5rem 2rem;
+  margin: 0;
+  background: rgba(255, 255, 255, 0.7); }
+  .page-template-page-sponsor .sponsor-title h1 {
+    font-family: 'Open Web';
+    font-weight: bold;
+    font-style: normal;
+    color: #072A3D; }
+
+.page-template-page-sponsor .custom-sub-menu-wrapper {
+  display: none;
+  text-align: center;
+  background: white; }
+  @media screen and (min-width: 640px) {
+    .page-template-page-sponsor .custom-sub-menu-wrapper {
+      display: block;
+      background: rgba(255, 255, 255, 0.7); } }
+  .page-template-page-sponsor .custom-sub-menu-wrapper ul {
+    width: 80%;
+    margin: 0 auto; }
+    @media screen and (min-width: 640px) {
+      .page-template-page-sponsor .custom-sub-menu-wrapper ul {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+            align-items: center;
+        -ms-flex-pack: justify;
+            justify-content: space-between; } }
+  .page-template-page-sponsor .custom-sub-menu-wrapper li {
+    font-family: 'Open Web';
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    border-bottom: 1px solid #3f3f3f;
+    padding: 1.9rem 0; }
+    .page-template-page-sponsor .custom-sub-menu-wrapper li:last-child {
+      border-bottom: none; }
+    @media screen and (min-width: 640px) {
+      .page-template-page-sponsor .custom-sub-menu-wrapper li {
+        margin: 0 1rem;
+        border-bottom: none;
+        padding: 0;
+        font-family: 'Open Web';
+        font-weight: normal;
+        font-style: normal;
+        text-transform: none; } }
+  .page-template-page-sponsor .custom-sub-menu-wrapper a {
+    color: #072A3D; }
+
 .who-we-are-page {
   font-family: "Open Web"; }
   .who-we-are-page .herobanner {
