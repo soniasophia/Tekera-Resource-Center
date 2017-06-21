@@ -1253,6 +1253,10 @@
   font-size: 0.85rem;
 }
 
+.goal-items-wrapper {
+  display: none;
+}
+
 @media screen and (min-width: 640px) {
 
   .global-goals-hero {
@@ -1293,6 +1297,7 @@
   }
 
   .goal-items-wrapper {
+    display: block;
     height: 35rem;
     width: 80%;
     margin-bottom: 3rem;
