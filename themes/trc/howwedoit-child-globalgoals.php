@@ -41,16 +41,43 @@ get_the_title();
     </p>  
   </div><!--pre-compliance-box-->  
   <div class="global-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
-    <ul class="global-carousel-list">
-      <li>
-        <div class="carousel-sub">
-          <img src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Inverted icons/e_inverted_sdg_goals_icons_individual_rgb_01.png">
-        </div><!--carousel-sub-->  
-      </li>  
-    </ul>  
+    <div class="carousel-sub">
+      <img src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Inverted icons/e_inverted_sdg_goals_icons_individual_rgb_01.png">
+      <h3>sdg 1: no poverty</h3>
+      <p>We provide medical services to the rural 
+         community which is universally accessible 
+         through the Tekera Peso Program – a social 
+         protection program that increases access to 
+         healthcare accessibility for the poor and 
+         vulnerable.
+      </p>
+      <p>
+        The UN says that education is the way to end 
+        poverty. Our school is universally acceptable 
+        and accepts fee payment in shillings, pesos, 
+        work hours, or livestock! We want everyone to 
+        have access to quality eduction to help stop the 
+        cycle of poverty.
+      </p>  
+    </div><!--carousel-sub-->  
+    <div class="carousel-sub">
+      <img src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Inverted icons/e_inverted_sdg_goals_icons_individual_rgb_02.png">
+      <h3>sdg 2: zero hunger</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing 
+        elit, sed do eiusmod tempor incididunt ut labore et 
+        dolore magna aliqua. Ut enim ad minim veniam, quis 
+        nostrud exercitation ullamco laboris nisi ut aliquip 
+        ex ea commodo consequat.       
+      </p>
+      <p>
+        Duis aute irure dolor in 
+        reprehenderit in voluptate velit esse cillum dolore eu 
+        fugiat nulla pariatur. Excepteur sint occaecat 
+        cupidatat non proident, sunt in culpa qui officia 
+        deserunt mollit anim id est laborum.          
+      </p>              
+    </div>  
   </div><!--global-carousel-->
-
-
 </div><!--global-goals-page-->  
-
 <?php get_footer() ?>

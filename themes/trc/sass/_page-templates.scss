@@ -641,28 +641,6 @@
 
   .custom-sub-menu-wrapper {
     display: none;
-    text-align: center;
-
-    ul {
-      width: 80%;
-      margin: 0 auto;
-    }
-
-    li {
-      @include font-open-bold;
-      text-transform: uppercase;
-      font-size: 1.3rem;
-      border-bottom: 1px solid #3f3f3f;
-      padding: 1.9rem 0;
-
-      &:last-child {
-        border-bottom: none;
-      }
-    }
-
-    a {
-      color: $color_brand-blue-dark;
-    }
   }
 
   .projects-hero {
@@ -682,39 +660,11 @@
     margin: 0;
     background: $color_brand-white-transparent;
 
-    a {
+    h1 {
       @include font-open-bold;
       color: $color_brand-blue-dark;
-      display: flex;
     }
   }
-
-  .dropdown-arrow {
-	  position: relative;
-  }
-
-  .dropdown-arrow:after, .dropdown-arrow:before {
-	  top: 35%;
-	  left: 45%;
-	  border: solid transparent;
-	  content: " ";
-	  height: 0;
-	  width: 0;
-	  position: absolute;
-  }
-
-  .dropdown-arrow:after {
-	  border-top-color: white;
-	  border-width: 10px;
-	  margin-left: -10px;
-  }
-
-  .dropdown-arrow:before {
-	  border-top-color: #072a3d;
-	  border-width: 20px;
-	  margin-left: -20px;
-  }
-
   
   .content-area {
     width: 80%;
@@ -1174,6 +1124,7 @@
 }
 
 .pre-compliance-box {
+  @include font-open-bold;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1184,38 +1135,38 @@
 }
 
 .global-carousel {
-  width: 80%;
-  height: 20rem;
-}
-
-.global-cell {
-  display: flex;
-  background-color: $color_brand-yellow;
-  color: #FFF;
-  justify-content: center;
-  align-content: center;
   width: 100%;
-  height: 10rem;
-  margin-right: 10px;
-  border-radius: 5px;
-  counter-increment: carousel-cell;
-}
-
-.global-cell:before {
-  display: block;
-  text-align: center;
-  content: counter(carousel-cell);
-  line-height: 200px;
-  color: white;
-}
-
-.global-cell-box {
-  display: flex;
-  flex-flow: row wrap;
-  img {
-    height: auto;
-    width: 4rem;
+  background-color: $color_brand-yellow;
+  height: 40rem;
+  margin-bottom: 8rem;
+  .flickity-page-dots {
+    display: none;
   }
 }
+
+.carousel-sub {
+  @include font-open-light;
+  align-items: center;
+  background-color: $color_brand-yellow;
+  color: #FFF;
+  justify-content: space-between;
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  height: 100%;
+  padding: 0 2rem 0 2rem;
+  img {
+    width: 7rem;
+    height: 7rem;
+  }
+  h3 {
+    @include font-open-light;
+    text-transform: uppercase;
+    width: 5rem;
+    text-align: center;
+  }
+}
+
+
 
 
