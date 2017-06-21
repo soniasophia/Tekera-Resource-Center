@@ -2207,13 +2207,11 @@ object {
   padding: 0.5rem 2rem;
   margin: 0;
   background: rgba(255, 255, 255, 0.7); }
-  .post-type-archive-projects .projects-title a {
+  .post-type-archive-projects .projects-title h1 {
     font-family: 'Open Web';
     font-weight: bold;
     font-style: normal;
-    color: #072A3D;
-    display: -ms-flexbox;
-    display: flex; }
+    color: #072A3D; }
 
 .post-type-archive-projects .dropdown-arrow {
   position: relative; }
@@ -2700,17 +2698,30 @@ object {
       flex-flow: row wrap;
   width: 100%;
   height: 100%;
-  padding: 0 2rem 0 2rem; }
+  padding: 0 4rem 0 4rem; }
   .carousel-sub img {
+    margin-top: 2rem;
     width: 7rem;
-    height: 7rem; }
+    height: 7rem;
+    -ms-flex-item-align: start;
+        align-self: flex-start; }
   .carousel-sub h3 {
     font-family: 'Open Web';
     font-weight: 100;
     font-style: normal;
     text-transform: uppercase;
-    width: 5rem;
+    width: 7rem;
     text-align: center; }
+
+.carousel-sub-footer {
+  font-family: 'Open Web';
+  font-weight: normal;
+  font-style: normal;
+  color: #000;
+  width: 100%;
+  height: auto;
+  text-align: right;
+  font-size: 0.85rem; }
 
 .who-we-are-page {
   font-family: "Open Web"; }

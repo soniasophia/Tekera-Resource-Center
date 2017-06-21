@@ -1228,17 +1228,28 @@
   flex-flow: row wrap;
   width: 100%;
   height: 100%;
-  padding: 0 2rem 0 2rem;
+  padding: 0 4rem 0 4rem;
   img {
+    margin-top: 2rem;
     width: 7rem;
     height: 7rem;
+    align-self: flex-start;
   }
   h3 {
     @include font-open-light;
     text-transform: uppercase;
-    width: 5rem;
+    width: 7rem;
     text-align: center;
   }
+}
+
+.carousel-sub-footer {
+  @include font-open-regular;
+  color: #000;
+  width: 100%;
+  height: auto;
+  text-align: right;
+  font-size: 0.85rem;
 }
 
 
