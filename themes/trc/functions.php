@@ -186,12 +186,3 @@ function create_api_members_custom_field() {
 }
 
 
-
-
-
-
-// Get invloved custom menu
-function register_tekera_get_involved_custom_menu() {
- 	register_nav_menu('get-involved-sub-menu', __('Get Involved Sub Menu'));
- }
- add_action ('init', 'register_tekera_get_involved_custom_menu');
