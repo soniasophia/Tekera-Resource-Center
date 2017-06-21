@@ -571,7 +571,7 @@ a {
   -ms-flex-align: center;
       align-items: center;
   height: 100%; }
-  @media screen and (min-width: 640px) {
+  @media screen and (max-width: 640px) {
     .site-header-wrapper {
       display: -ms-flexbox;
       display: flex;
@@ -588,7 +588,7 @@ a {
     padding-top: 0;
     -ms-flex: 0 1 20%;
         flex: 0 1 20%; }
-    @media screen and (min-width: 640px) {
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
       .site-header-wrapper .hamburger {
         display: none; } }
   .site-header-wrapper .hamburger-menu {
@@ -601,10 +601,10 @@ a {
     z-index: 1;
     animation: 1s 1 alternate slidein;
     display: none; }
-    @media screen and (min-width: 640px) {
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
       .site-header-wrapper .hamburger-menu {
         display: none; } }
-    @media screen and (min-width: 640px) {
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
       .site-header-wrapper .hamburger-menu ul {
         display: none; } }
     .site-header-wrapper .hamburger-menu ul a {
@@ -635,14 +635,14 @@ a {
         border-bottom: none; }
   .site-header-wrapper .tekera-site-logo {
     padding-right: 2rem; }
-    @media screen and (min-width: 640px) {
+    @media screen and (max-width: 640px) {
       .site-header-wrapper .tekera-site-logo {
         display: none; } }
   .site-header-wrapper .tekera-site-text {
     padding-right: 3rem;
-    -ms-flex: 0 1 60%;
-        flex: 0 1 60%; }
-    @media screen and (min-width: 640px) {
+    -ms-flex: 0 1 70%;
+        flex: 0 1 70%; }
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
       .site-header-wrapper .tekera-site-text {
         -ms-flex: 0 1 20%;
             flex: 0 1 20%; } }
@@ -654,7 +654,7 @@ a {
   display: flex;
   -ms-flex-align: center;
       align-items: center; }
-  @media screen and (min-width: 640px) {
+  @media screen and (max-width: 640px) {
     .main-navigation {
       display: none; } }
   .main-navigation .menu-nav-bar-container ul {
@@ -680,7 +680,7 @@ a {
 div.tekera-triangles img {
   height: 100%; }
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 640px) and (max-width: 2000px) {
   div.tekera-triangles {
     display: none; } }
 
@@ -693,7 +693,7 @@ div.tekera-triangles img {
   width: 100vw;
   position: absolute;
   list-style-type: none; }
-  @media screen and (min-width: 640px) {
+  @media screen and (min-width: 640px) and (max-width: 2000px) {
     .site-main .main-carousel li.gallery-cell:nth-child(1) {
       background: url("../../assets/Images/Desktop/home-page/tekera_home_page_music_dance_drumming_festival_2.png");
       background-size: cover;
@@ -709,7 +709,7 @@ div.tekera-triangles img {
   width: 100vw;
   position: absolute;
   list-style-type: none; }
-  @media screen and (min-width: 640px) {
+  @media screen and (min-width: 640px) and (max-width: 2000px) {
     .site-main .main-carousel li.gallery-cell:nth-child(2) {
       background: url("../../assets/Images/Desktop/home-page/tekera_home_page_tps_lunch_program_.png");
       background-size: cover;
@@ -725,7 +725,7 @@ div.tekera-triangles img {
   width: 100vw;
   position: absolute;
   list-style-type: none; }
-  @media screen and (min-width: 640px) {
+  @media screen and (min-width: 640px) and (max-width: 2000px) {
     .site-main .main-carousel li.gallery-cell:nth-child(3) {
       background: url("../../assets/Images/Desktop/home-page/tekera_home_page_internships_.png");
       background-size: cover;
@@ -747,7 +747,7 @@ div.tekera-triangles img {
   width: 303px;
   height: 157px;
   font-family: 'Shadows Into Light Web'; }
-  @media screen and (min-width: 640px) {
+  @media screen and (min-width: 640px) and (max-width: 2000px) {
     .site-main .carousel-text {
       position: absolute;
       bottom: 50%;
@@ -763,7 +763,7 @@ div.tekera-triangles img {
     font-size: 48px;
     line-height: 77px;
     text-transform: uppercase; }
-    @media screen and (min-width: 640px) {
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
       .site-main .carousel-text p {
         font-size: 100px;
         line-height: 160px;
@@ -777,14 +777,14 @@ div.tekera-triangles img {
   height: 100vh;
   width: 100vw;
   position: relative; }
-  @media screen and (min-width: 640px) {
+  @media screen and (min-width: 640px) and (max-width: 2000px) {
     .site-main .going-to-school {
       background: url("../../assets/Images/Desktop/home-page/tekera_home_page_mom_going_by_the_school_.png");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: top; } }
   .site-main .going-to-school .frontpage-overlay-image {
-    background: url("../../assets/Triangle overlays/Tekera_TriangleOverlay_MOBILE.png");
+    background: url("../../assets/Triangles/triangle_mobile.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -792,9 +792,9 @@ div.tekera-triangles img {
     width: 100vw;
     position: absolute;
     bottom: 0; }
-    @media screen and (min-width: 640px) {
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
       .site-main .going-to-school .frontpage-overlay-image {
-        background: url("../../assets/Triangle overlays/Tekera_DESKTOP_TriangleOverlay_Right.png");
+        background: url("../../assets/Triangles/desktop_triangle_right.png");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: top;
@@ -807,7 +807,7 @@ div.tekera-triangles img {
     top: 40%;
     left: 16%;
     width: 65%; }
-    @media screen and (min-width: 640px) {
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
       .site-main .going-to-school .frontpage-info {
         top: 20%;
         left: 10%;
@@ -820,7 +820,7 @@ div.tekera-triangles img {
       color: #fff;
       text-align: center;
       width: 100%; }
-      @media screen and (min-width: 640px) {
+      @media screen and (min-width: 640px) and (max-width: 2000px) {
         .site-main .going-to-school .frontpage-info h2 {
           text-align: left; } }
     .site-main .going-to-school .frontpage-info p {
@@ -831,7 +831,7 @@ div.tekera-triangles img {
       color: #fff;
       text-align: center;
       width: 100%; }
-      @media screen and (min-width: 640px) {
+      @media screen and (min-width: 640px) and (max-width: 2000px) {
         .site-main .going-to-school .frontpage-info p {
           text-align: left; } }
   .site-main .going-to-school .button {
@@ -848,7 +848,7 @@ div.tekera-triangles img {
     font-weight: 700;
     box-shadow: none;
     text-shadow: none; }
-    @media screen and (min-width: 640px) {
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
       .site-main .going-to-school .button {
         left: 10%;
         bottom: 17rem; } }
@@ -861,14 +861,14 @@ div.tekera-triangles img {
   height: 100vh;
   width: 100vw;
   position: relative; }
-  @media screen and (min-width: 640px) {
+  @media screen and (min-width: 640px) and (max-width: 2000px) {
     .site-main .lunch-program {
       background: url("../../assets/Images/Desktop/home-page/tekera_home_page_tps_lunch_program_.png");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: top; } }
   .site-main .lunch-program .frontpage-overlay-image {
-    background: url("../../assets/Triangle overlays/Tekera_TriangleOverlay_MOBILE.png");
+    background: url("../../assets/Triangles/triangle_mobile.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
@@ -876,9 +876,9 @@ div.tekera-triangles img {
     width: 100vw;
     position: absolute;
     bottom: 0; }
-    @media screen and (min-width: 640px) {
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
       .site-main .lunch-program .frontpage-overlay-image {
-        background: url("../../assets/Triangle overlays/Tekera_DESKTOP_TriangleOverlay_Left.png");
+        background: url("../../assets/Triangles/desktop_triangle_left.png");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: top;
@@ -891,7 +891,7 @@ div.tekera-triangles img {
     top: 48%;
     right: 20%;
     width: 60%; }
-    @media screen and (min-width: 640px) {
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
       .site-main .lunch-program .frontpage-info {
         top: 25%;
         right: 10%;
@@ -905,7 +905,7 @@ div.tekera-triangles img {
       text-align: center;
       line-height: 38px;
       width: 100%; }
-      @media screen and (min-width: 640px) {
+      @media screen and (min-width: 640px) and (max-width: 2000px) {
         .site-main .lunch-program .frontpage-info h2 {
           text-align: right; } }
     .site-main .lunch-program .frontpage-info p {
@@ -916,7 +916,7 @@ div.tekera-triangles img {
       color: #fff;
       text-align: center;
       width: 100%; }
-      @media screen and (min-width: 640px) {
+      @media screen and (min-width: 640px) and (max-width: 2000px) {
         .site-main .lunch-program .frontpage-info p {
           text-align: right; } }
   .site-main .lunch-program .button {
@@ -933,7 +933,7 @@ div.tekera-triangles img {
     font-weight: 700;
     box-shadow: none;
     text-shadow: none; }
-    @media screen and (min-width: 640px) {
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
       .site-main .lunch-program .button {
         bottom: 16rem;
         right: 11%; } }
@@ -946,14 +946,14 @@ div.tekera-triangles img {
   height: 100vh;
   width: 100vw;
   position: relative; }
-  @media screen and (min-width: 640px) {
+  @media screen and (min-width: 640px) and (max-width: 2000px) {
     .site-main .smiling-woman {
       background: url("../../assets/Images/Desktop/home-page/tekera_home_page_internships_.png");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: top; } }
   .site-main .smiling-woman .frontpage-overlay-image {
-    background: url("../../assets/Triangle overlays/Tekera_TriangleOverlay_MOBILE.png");
+    background: url("../../assets/Triangles/triangle_mobile.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
@@ -961,9 +961,9 @@ div.tekera-triangles img {
     width: 100vw;
     position: absolute;
     bottom: 0; }
-    @media screen and (min-width: 640px) {
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
       .site-main .smiling-woman .frontpage-overlay-image {
-        background: url("../../assets/Triangle overlays/Tekera_DESKTOP_TriangleOverlay_Right.png");
+        background: url("../../assets/Triangles/desktop_triangle_right.png");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: top;
@@ -976,7 +976,7 @@ div.tekera-triangles img {
     top: 48%;
     left: 18%;
     width: 65%; }
-    @media screen and (min-width: 640px) {
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
       .site-main .smiling-woman .frontpage-info {
         top: 20%;
         left: 10%;
@@ -990,7 +990,7 @@ div.tekera-triangles img {
       text-align: center;
       line-height: 43px;
       width: 100%; }
-      @media screen and (min-width: 640px) {
+      @media screen and (min-width: 640px) and (max-width: 2000px) {
         .site-main .smiling-woman .frontpage-info h2 {
           text-align: left; } }
     .site-main .smiling-woman .frontpage-info p {
@@ -1001,7 +1001,7 @@ div.tekera-triangles img {
       color: #fff;
       text-align: center;
       width: 100%; }
-      @media screen and (min-width: 640px) {
+      @media screen and (min-width: 640px) and (max-width: 2000px) {
         .site-main .smiling-woman .frontpage-info p {
           text-align: left; } }
   .site-main .smiling-woman .button {
@@ -1018,12 +1018,12 @@ div.tekera-triangles img {
     font-weight: 700;
     box-shadow: none;
     text-shadow: none; }
-    @media screen and (min-width: 640px) {
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
       .site-main .smiling-woman .button {
         bottom: 19rem;
         left: 10%; } }
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 640px) and (max-width: 2000px) {
   .site-main .programs-info {
     max-width: 80%;
     margin: 3rem auto 5rem; } }
@@ -1038,7 +1038,7 @@ div.tekera-triangles img {
   margin-top: 0;
   margin-bottom: 0;
   padding: 3rem 2rem; }
-  @media screen and (min-width: 640px) {
+  @media screen and (min-width: 640px) and (max-width: 2000px) {
     .site-main .programs-info h1 {
       height: 150px;
       padding: 0; } }
@@ -1050,7 +1050,7 @@ div.tekera-triangles img {
       flex-wrap: wrap;
   -ms-flex-pack: center;
       justify-content: center; }
-  @media screen and (min-width: 640px) {
+  @media screen and (min-width: 640px) and (max-width: 2000px) {
     .site-main .programs-info .icons-container {
       padding: 2rem; } }
   .site-main .programs-info .icons-container .icons-wrapper:nth-child(1) {
@@ -1058,7 +1058,7 @@ div.tekera-triangles img {
     background-position: top;
     background-repeat: no-repeat;
     max-width: 160px; }
-    @media screen and (min-width: 640px) {
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
       .site-main .programs-info .icons-container .icons-wrapper:nth-child(1) {
         -ms-flex-order: 4;
             order: 4;
@@ -1068,7 +1068,7 @@ div.tekera-triangles img {
     .site-main .programs-info .icons-container .icons-wrapper:nth-child(1) p {
       margin-top: 8rem;
       width: 160px; }
-      @media screen and (min-width: 640px) {
+      @media screen and (min-width: 640px) and (max-width: 2000px) {
         .site-main .programs-info .icons-container .icons-wrapper:nth-child(1) p {
           margin-top: 10.5rem; } }
   .site-main .programs-info .icons-container .icons-wrapper:nth-child(2) {
@@ -1076,7 +1076,7 @@ div.tekera-triangles img {
     background-position: top;
     background-repeat: no-repeat;
     max-width: 160px; }
-    @media screen and (min-width: 640px) {
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
       .site-main .programs-info .icons-container .icons-wrapper:nth-child(2) {
         -ms-flex-order: 1;
             order: 1;
@@ -1086,7 +1086,7 @@ div.tekera-triangles img {
     .site-main .programs-info .icons-container .icons-wrapper:nth-child(2) p {
       margin-top: 8rem;
       width: 160px; }
-      @media screen and (min-width: 640px) {
+      @media screen and (min-width: 640px) and (max-width: 2000px) {
         .site-main .programs-info .icons-container .icons-wrapper:nth-child(2) p {
           margin-top: 10.5rem; } }
   .site-main .programs-info .icons-container .icons-wrapper:nth-child(3) {
@@ -1094,7 +1094,7 @@ div.tekera-triangles img {
     background-position: top;
     background-repeat: no-repeat;
     max-width: 160px; }
-    @media screen and (min-width: 640px) {
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
       .site-main .programs-info .icons-container .icons-wrapper:nth-child(3) {
         -ms-flex-order: 2;
             order: 2;
@@ -1104,7 +1104,7 @@ div.tekera-triangles img {
     .site-main .programs-info .icons-container .icons-wrapper:nth-child(3) p {
       margin-top: 8rem;
       width: 160px; }
-      @media screen and (min-width: 640px) {
+      @media screen and (min-width: 640px) and (max-width: 2000px) {
         .site-main .programs-info .icons-container .icons-wrapper:nth-child(3) p {
           margin-top: 10.5rem; } }
   .site-main .programs-info .icons-container .icons-wrapper:nth-child(4) {
@@ -1112,7 +1112,7 @@ div.tekera-triangles img {
     background-position: top;
     background-repeat: no-repeat;
     max-width: 160px; }
-    @media screen and (min-width: 640px) {
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
       .site-main .programs-info .icons-container .icons-wrapper:nth-child(4) {
         -ms-flex-order: 6;
             order: 6;
@@ -1122,7 +1122,7 @@ div.tekera-triangles img {
     .site-main .programs-info .icons-container .icons-wrapper:nth-child(4) p {
       margin-top: 8rem;
       width: 160px; }
-      @media screen and (min-width: 640px) {
+      @media screen and (min-width: 640px) and (max-width: 2000px) {
         .site-main .programs-info .icons-container .icons-wrapper:nth-child(4) p {
           margin-top: 10.5rem; } }
   .site-main .programs-info .icons-container .icons-wrapper:nth-child(5) {
@@ -1130,7 +1130,7 @@ div.tekera-triangles img {
     background-position: top;
     background-repeat: no-repeat;
     max-width: 160px; }
-    @media screen and (min-width: 640px) {
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
       .site-main .programs-info .icons-container .icons-wrapper:nth-child(5) {
         -ms-flex-order: 3;
             order: 3;
@@ -1140,7 +1140,7 @@ div.tekera-triangles img {
     .site-main .programs-info .icons-container .icons-wrapper:nth-child(5) p {
       margin-top: 8rem;
       width: 160px; }
-      @media screen and (min-width: 640px) {
+      @media screen and (min-width: 640px) and (max-width: 2000px) {
         .site-main .programs-info .icons-container .icons-wrapper:nth-child(5) p {
           margin-top: 10.5rem; } }
   .site-main .programs-info .icons-container .icons-wrapper:nth-child(6) {
@@ -1148,7 +1148,7 @@ div.tekera-triangles img {
     background-position: top;
     background-repeat: no-repeat;
     max-width: 160px; }
-    @media screen and (min-width: 640px) {
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
       .site-main .programs-info .icons-container .icons-wrapper:nth-child(6) {
         -ms-flex-order: 5;
             order: 5;
@@ -1158,7 +1158,7 @@ div.tekera-triangles img {
     .site-main .programs-info .icons-container .icons-wrapper:nth-child(6) p {
       margin-top: 8rem;
       width: 160px; }
-      @media screen and (min-width: 640px) {
+      @media screen and (min-width: 640px) and (max-width: 2000px) {
         .site-main .programs-info .icons-container .icons-wrapper:nth-child(6) p {
           margin-top: 10.5rem; } }
   .site-main .programs-info .icons-container .icons-wrapper p {
@@ -1171,7 +1171,7 @@ div.tekera-triangles img {
     width: 272px;
     height: 141px;
     margin-bottom: 2rem; }
-    @media screen and (min-width: 640px) {
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
       .site-main .programs-info .icons-container .icons-text {
         background: url("../../assets/Icons/Desktop/Desktop_10000ppl.png");
         background-repeat: no-repeat;
@@ -1311,7 +1311,7 @@ div.tekera-triangles img {
   width: 100%;
   font-size: 2.5rem;
   text-shadow: 1px 1px 2px black; }
-  @media screen and (min-width: 640px) {
+  @media screen and (min-width: 640px) and (max-width: 2000px) {
     .single-post h1 {
       font-size: 5.5rem; } }
 
@@ -1320,7 +1320,7 @@ div.tekera-triangles img {
   width: 45%;
   bottom: 1rem;
   margin: 0 2rem; }
-  @media screen and (min-width: 640px) {
+  @media screen and (min-width: 640px) and (max-width: 2000px) {
     .single-post .entry-title-container {
       width: 60%;
       margin: 0 9rem;
@@ -1330,7 +1330,7 @@ div.tekera-triangles img {
   display: none; }
   .single-post .entry-meta .byline, .single-post .entry-meta .author, .single-post .entry-meta .comments-link {
     display: none; }
-  @media screen and (min-width: 640px) {
+  @media screen and (min-width: 640px) and (max-width: 2000px) {
     .single-post .entry-meta {
       display: inline-block;
       margin-top: 4.5rem;
@@ -1368,7 +1368,7 @@ div.tekera-triangles img {
     font-weight: 100;
     color: #072A3D;
     margin-bottom: 4rem; }
-    @media screen and (min-width: 640px) {
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
       .single-post .related-posts p {
         font-size: 1.7rem;
         font-weight: bold;
@@ -1377,7 +1377,7 @@ div.tekera-triangles img {
 .single-post .social-share {
   text-align: center;
   margin-bottom: 3.4rem; }
-  @media screen and (min-width: 640px) {
+  @media screen and (min-width: 640px) and (max-width: 2000px) {
     .single-post .social-share {
       display: -ms-flexbox;
       display: flex;
@@ -1392,7 +1392,7 @@ div.tekera-triangles img {
     font-size: 1.2rem;
     font-weight: 100;
     color: #072A3D; }
-    @media screen and (min-width: 640px) {
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
       .single-post .social-share p {
         font-size: 1.7rem;
         font-weight: bold; } }
@@ -1403,13 +1403,13 @@ div.tekera-triangles img {
         justify-content: space-around;
     width: 75%;
     margin: 0 auto; }
-    @media screen and (min-width: 640px) {
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
       .single-post .social-share .social-share-buttons {
         width: 70%; } }
   .single-post .social-share .blog-home-button img, .single-post .social-share .facebook-share-button img, .single-post .social-share .twitter-share-button img, .single-post .social-share .flickr-share-button img {
     height: 27px;
     width: auto; }
-    @media screen and (min-width: 640px) {
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
       .single-post .social-share .blog-home-button img, .single-post .social-share .facebook-share-button img, .single-post .social-share .twitter-share-button img, .single-post .social-share .flickr-share-button img {
         height: 60px; } }
 
@@ -1417,14 +1417,14 @@ div.tekera-triangles img {
   height: 80vh;
   background-color: lightgrey;
   overflow: hidden; }
-  @media screen and (min-width: 640px) {
+  @media screen and (min-width: 640px) and (max-width: 2000px) {
     .single-post .featured-image-container {
       height: 100vh; } }
   .single-post .featured-image-container img {
     position: relative;
     object-fit: cover;
     height: 100%; }
-    @media screen and (min-width: 640px) {
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
       .single-post .featured-image-container img {
         height: auto;
         width: 100%; } }
@@ -1463,7 +1463,7 @@ div.tekera-triangles img {
     font-style: normal;
     font-size: 1.2rem;
     text-shadow: 1px 1px 2px black; }
-  @media screen and (min-width: 640px) {
+  @media screen and (min-width: 640px) and (max-width: 2000px) {
     .single-post .more-blog-posts {
       display: none; } }
 
@@ -1501,7 +1501,7 @@ div.tekera-triangles img {
   -ms-flex-pack: justify;
       justify-content: space-between;
   margin-bottom: 4.5rem; }
-  @media screen and (min-width: 640px) {
+  @media screen and (max-width: 640px) {
     .single-post .latest-blog-posts {
       display: none; } }
   .single-post .latest-blog-posts h3 {
@@ -1675,6 +1675,194 @@ object {
 
 #bottom {
   margin-top: 1.5rem; }
+
+/* Contact */
+.page-template-contact-php {
+  color: #404040;
+  overflow-x: hidden;
+  font-family: "Open Web"; }
+  .page-template-contact-php #masthead {
+    margin: 0px; }
+  @media screen and (min-width: 640px) and (max-width: 2000px) {
+    .page-template-contact-php .content-top {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+      width: 80%;
+      margin: auto;
+      margin-bottom: 40px; }
+    .page-template-contact-php .content-bottom {
+      width: 80%;
+      margin: auto;
+      box-shadow: inset 0 0 2px #000; }
+    .page-template-contact-php .canada, .page-template-contact-php .uganda {
+      display: -ms-flexbox;
+      display: flex; }
+      .page-template-contact-php .canada h2, .page-template-contact-php .uganda h2 {
+        margin-top: 0px; }
+    .page-template-contact-php .info-canada {
+      width: 250px; }
+    .page-template-contact-php .info-uganda, .page-template-contact-php .info-canada {
+      text-align: left;
+      margin-left: 20px; } }
+  .page-template-contact-php .container {
+    width: 80%;
+    margin: auto; }
+  .page-template-contact-php .title {
+    position: relative; }
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
+      .page-template-contact-php .title {
+        text-align: left; } }
+  .page-template-contact-php h1 {
+    color: #072A3D;
+    margin: 10px;
+    margin-left: 30px; }
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
+      .page-template-contact-php h1 {
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.7);
+        width: 100%;
+        height: 75px;
+        margin: 0px;
+        padding-left: 100px;
+        padding-top: 10px; } }
+  .page-template-contact-php .hero-banner {
+    background: url("../../assets/Images/Mobile/contact/Tekera_Contact us_Vocational school.png");
+    background-size: cover;
+    height: 80vh;
+    margin-bottom: 50px; }
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
+      .page-template-contact-php .hero-banner {
+        background: url("../../assets/Images/Desktop/contact/Tekera_Contact us_Vocational school.png");
+        background-size: cover; } }
+  @media screen and (min-width: 640px) and (max-width: 2000px) {
+    .page-template-contact-php {
+      text-align: right; } }
+  .page-template-contact-php iframe {
+    height: 86.7vw; }
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
+      .page-template-contact-php iframe {
+        height: 600px;
+        -ms-flex: 1 1 120%;
+            flex: 1 1 120%; } }
+  .page-template-contact-php .contact-info {
+    margin-top: 60px; }
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
+      .page-template-contact-php .contact-info {
+        margin: 0px; } }
+    .page-template-contact-php .contact-info .canada {
+      margin-top: 75px; }
+      @media screen and (min-width: 640px) and (max-width: 2000px) {
+        .page-template-contact-php .contact-info .canada {
+          margin: 0px; } }
+    .page-template-contact-php .contact-info .uganda-icon,
+    .page-template-contact-php .contact-info .canada-icon {
+      text-align: center; }
+      .page-template-contact-php .contact-info .uganda-icon svg,
+      .page-template-contact-php .contact-info .canada-icon svg {
+        height: 125px;
+        width: 125px; }
+        .page-template-contact-php .contact-info .uganda-icon svg path,
+        .page-template-contact-php .contact-info .canada-icon svg path {
+          fill: #006E71; }
+        .page-template-contact-php .contact-info .uganda-icon svg polygon,
+        .page-template-contact-php .contact-info .canada-icon svg polygon {
+          stroke: #006E71;
+          stroke-width: 2; }
+    .page-template-contact-php .contact-info h2 {
+      text-transform: uppercase; }
+    .page-template-contact-php .contact-info .info-div {
+      margin: 20px 0; }
+    .page-template-contact-php .contact-info p {
+      margin: 0px; }
+  .page-template-contact-php .thanks {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    margin-top: 40px; }
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
+      .page-template-contact-php .thanks {
+        margin-top: 0px; } }
+    .page-template-contact-php .thanks .arrow-down {
+      width: 1px;
+      height: 1px;
+      border-left: 105vw solid transparent;
+      border-right: 105vw solid transparent;
+      border-top: 137px solid #20ACAF;
+      overflow: hidden; }
+    .page-template-contact-php .thanks .thanks-text {
+      width: 220px;
+      position: absolute;
+      top: 0px;
+      left: 50%;
+      margin-left: -110px; }
+      .page-template-contact-php .thanks .thanks-text h3, .page-template-contact-php .thanks .thanks-text p {
+        color: white;
+        margin: 10px 0;
+        font-size: 0.95rem; }
+  .page-template-contact-php .forms {
+    text-align: left; }
+    .page-template-contact-php .forms h4 {
+      font-size: 0.9rem;
+      color: #D44E1F; }
+      @media screen and (min-width: 640px) and (max-width: 2000px) {
+        .page-template-contact-php .forms h4 {
+          margin: auto;
+          width: 90%; } }
+    .page-template-contact-php .forms label {
+      font-size: 0.8rem; }
+    .page-template-contact-php .forms input {
+      width: 100%;
+      border-radius: 0px;
+      border-color: black; }
+    .page-template-contact-php .forms textarea {
+      border-color: black; }
+    .page-template-contact-php .forms .send-button {
+      display: block;
+      margin: auto;
+      border: none;
+      background-color: #EE9825;
+      color: white;
+      width: 240px;
+      height: 50px;
+      box-shadow: none;
+      font-size: 1.1rem;
+      text-transform: uppercase; }
+  @media screen and (min-width: 640px) and (max-width: 2000px) {
+    .page-template-contact-php #wpcf7-f114-p74-o1 {
+      display: none; } }
+  .page-template-contact-php #wpcf7-f113-p74-o2 {
+    display: none;
+    display: -ms-flexbox;
+    display: flex; }
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
+      .page-template-contact-php #wpcf7-f113-p74-o2 {
+        display: block; } }
+    .page-template-contact-php #wpcf7-f113-p74-o2 form {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+      width: 100%; }
+      .page-template-contact-php #wpcf7-f113-p74-o2 form p:nth-child(8) {
+        min-width: 90%; }
+      .page-template-contact-php #wpcf7-f113-p74-o2 form p {
+        min-width: 40%; }
+        .page-template-contact-php #wpcf7-f113-p74-o2 form p .send-button {
+          height: 50px; }
+        .page-template-contact-php #wpcf7-f113-p74-o2 form p input {
+          height: 60px; }
+        .page-template-contact-php #wpcf7-f113-p74-o2 form p textarea {
+          height: 150px; }
 
 .contact-column {
   display: -ms-flexbox;
@@ -1964,14 +2152,14 @@ object {
   display: none;
   text-align: center;
   background: white; }
-  @media screen and (min-width: 640px) {
+  @media screen and (min-width: 640px) and (max-width: 2000px) {
     .post-type-archive-projects .custom-sub-menu-wrapper {
       display: block;
       background: rgba(255, 255, 255, 0.7); } }
   .post-type-archive-projects .custom-sub-menu-wrapper ul {
     width: 80%;
     margin: 0 auto; }
-    @media screen and (min-width: 640px) {
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
       .post-type-archive-projects .custom-sub-menu-wrapper ul {
         display: -ms-flexbox;
         display: flex;
@@ -1989,7 +2177,7 @@ object {
     padding: 1.9rem 0; }
     .post-type-archive-projects .custom-sub-menu-wrapper li:last-child {
       border-bottom: none; }
-    @media screen and (min-width: 640px) {
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
       .post-type-archive-projects .custom-sub-menu-wrapper li {
         margin: 0 1rem;
         border-bottom: none;
@@ -2006,12 +2194,12 @@ object {
   background-size: cover;
   height: 80vh;
   margin-bottom: 3rem; }
-  @media screen and (min-width: 640px) {
+  @media screen and (min-width: 640px) and (max-width: 2000px) {
     .post-type-archive-projects .projects-hero {
       background: url("../../assets/Images/Desktop/projects/tekera_projects_overview_collecting_water.png") center center no-repeat;
       background-size: cover; } }
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 640px) and (max-width: 2000px) {
   .post-type-archive-projects .project-title-container {
     display: none; } }
 
@@ -2069,12 +2257,12 @@ object {
   .post-type-archive-projects .projects h2 {
     color: #20ACAF;
     font-weight: bold; }
-    @media screen and (min-width: 640px) {
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
       .post-type-archive-projects .projects h2 {
         text-align: center; } }
     .post-type-archive-projects .projects h2 span {
       display: none; }
-      @media screen and (min-width: 640px) {
+      @media screen and (min-width: 640px) and (max-width: 2000px) {
         .post-type-archive-projects .projects h2 span {
           display: inline; } }
   .post-type-archive-projects .projects .project-type-list {
@@ -2087,7 +2275,7 @@ object {
       font-size: 1.7rem;
       width: 50%;
       text-align: center; }
-      @media screen and (min-width: 640px) {
+      @media screen and (min-width: 640px) and (max-width: 2000px) {
         .post-type-archive-projects .projects .project-type-list h3 {
           margin: 0; } }
   .post-type-archive-projects .projects .learn-more {
@@ -2106,7 +2294,7 @@ object {
         align-items: center;
     -ms-flex-pack: distribute;
         justify-content: space-around; }
-    @media screen and (min-width: 640px) {
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
       .post-type-archive-projects .projects .project-heading {
         -ms-flex-wrap: wrap-reverse;
             flex-wrap: wrap-reverse;
@@ -2116,20 +2304,20 @@ object {
             flex: 0 1 25%; } }
     .post-type-archive-projects .projects .project-heading .project-icon-2 {
       display: none; }
-      @media screen and (min-width: 640px) {
+      @media screen and (min-width: 640px) and (max-width: 2000px) {
         .post-type-archive-projects .projects .project-heading .project-icon-2 {
           display: inline-block; } }
-    @media screen and (min-width: 640px) {
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
       .post-type-archive-projects .projects .project-heading .project-icon {
         display: none; } }
-  @media screen and (min-width: 640px) {
+  @media screen and (min-width: 640px) and (max-width: 2000px) {
     .post-type-archive-projects .projects .project-info {
       -ms-flex: 0 1 73%;
           flex: 0 1 73%; } }
   .post-type-archive-projects .projects .project-type {
     margin-bottom: 4rem;
     border-bottom: 12px solid #20ACAF; }
-    @media screen and (min-width: 640px) {
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
       .post-type-archive-projects .projects .project-type {
         display: -ms-flexbox;
         display: flex;
@@ -2140,7 +2328,7 @@ object {
     text-align: center;
     margin-bottom: 4.5rem;
     margin-top: 4.5rem; }
-    @media screen and (min-width: 640px) {
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
       .post-type-archive-projects .projects .learn-more-button {
         text-align: right; } }
   .post-type-archive-projects .projects .border-bottom {
@@ -2148,7 +2336,7 @@ object {
     position: absolute;
     right: 0;
     left: 0; }
-    @media screen and (min-width: 640px) {
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
       .post-type-archive-projects .projects .border-bottom {
         display: none; } }
   .post-type-archive-projects .projects li:last-child {
@@ -2601,7 +2789,7 @@ object {
   background-repeat: no-repeat;
   height: 90vh;
   width: 100vw; }
-  @media screen and (min-width: 640px) {
+  @media screen and (min-width: 640px) and (max-width: 2000px) {
     .page-template-page-getinvolved .banner {
       background: url("../../assets/Images/Desktop/get-involved/tekera_get_invloved_intern_current_positions_two_laughing_women.png");
       background-position: center;
@@ -2618,7 +2806,7 @@ object {
   height: 73px;
   margin-top: 2rem;
   margin-bottom: 2rem; }
-  @media screen and (min-width: 640px) {
+  @media screen and (min-width: 640px) and (max-width: 2000px) {
     .page-template-page-getinvolved .overview-container .overview-container-inner {
       display: none; } }
   .page-template-page-getinvolved .overview-container .overview-container-inner h1 {
@@ -2639,7 +2827,7 @@ object {
   border-bottom: 1px solid #979797;
   margin-left: 2.5rem;
   margin-right: 2.5rem; }
-  @media screen and (min-width: 640px) {
+  @media screen and (min-width: 640px) and (max-width: 2000px) {
     .page-template-page-getinvolved .overview-container .overview-wrapper h1 {
       display: none; } }
 
@@ -2657,7 +2845,7 @@ object {
     .page-template-page-getinvolved .overview-container .overview-wrapper h2 {
       display: none; } }
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 640px) and (max-width: 2000px) {
   .page-template-page-getinvolved .overview-container .overview-wrapper .sponsor, .page-template-page-getinvolved .overview-container .overview-wrapper .internship, .page-template-page-getinvolved .overview-container .overview-wrapper .donate {
     padding-left: 8rem; } }
 
@@ -2668,7 +2856,7 @@ object {
   line-height: 27px;
   text-align: center;
   text-transform: uppercase; }
-  @media screen and (min-width: 640px) {
+  @media screen and (min-width: 640px) and (max-width: 2000px) {
     .page-template-page-getinvolved .overview-container .overview-wrapper .sponsor h3, .page-template-page-getinvolved .overview-container .overview-wrapper .internship h3, .page-template-page-getinvolved .overview-container .overview-wrapper .donate h3 {
       display: inline-block;
       position: relative;
@@ -2686,7 +2874,7 @@ object {
   margin-left: auto;
   margin-right: auto;
   border-bottom: 1px solid #979797; }
-  @media screen and (min-width: 640px) {
+  @media screen and (min-width: 640px) and (max-width: 2000px) {
     .page-template-page-getinvolved .overview-container .overview-wrapper .sponsor p, .page-template-page-getinvolved .overview-container .overview-wrapper .internship p, .page-template-page-getinvolved .overview-container .overview-wrapper .donate p {
       display: inline-block;
       max-width: 544px;
@@ -2708,13 +2896,13 @@ object {
   font-weight: 700;
   box-shadow: none;
   text-shadow: none; }
-  @media screen and (min-width: 640px) {
+  @media screen and (min-width: 640px) and (max-width: 2000px) {
     .page-template-page-getinvolved .overview-container .overview-wrapper .sponsor .button, .page-template-page-getinvolved .overview-container .overview-wrapper .internship .button, .page-template-page-getinvolved .overview-container .overview-wrapper .donate .button {
       position: relative;
       left: 0;
       bottom: 5rem; } }
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 640px) and (max-width: 2000px) {
   .page-template-page-getinvolved .overview-container .overview-wrapper .sponsor h3 {
     padding-right: 5rem; }
   .page-template-page-getinvolved .overview-container .overview-wrapper .internship h3 {
@@ -2806,7 +2994,7 @@ object {
     background-repeat: no-repeat;
     height: 95vh;
     position: relative; }
-    @media screen and (min-width: 640px) {
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
       .who-we-are-page .top-image {
         background: url("../../assets/Images/Desktop/about/tekera_about_collecting_water.png");
         background-size: cover;
@@ -2830,7 +3018,7 @@ object {
           justify-content: center;
       -ms-flex-line-pack: center;
           align-content: center; }
-      @media screen and (min-width: 640px) {
+      @media screen and (min-width: 640px) and (max-width: 2000px) {
         .who-we-are-page .top-image .top-blue {
           background: url("../../assets/Triangles/desktop_triangle_right.png");
           height: 100%;
@@ -2849,7 +3037,7 @@ object {
     background-repeat: no-repeat;
     height: 95vh;
     position: relative; }
-    @media screen and (min-width: 640px) {
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
       .who-we-are-page .bottom-image {
         background: url("../../assets/Images/Desktop/about/tekera_about_water_and_sanitation.png");
         background-size: cover;
@@ -2873,7 +3061,7 @@ object {
           justify-content: center;
       -ms-flex-line-pack: center;
           align-content: center; }
-      @media screen and (min-width: 640px) {
+      @media screen and (min-width: 640px) and (max-width: 2000px) {
         .who-we-are-page .bottom-image .bottom-blue {
           background: url("../../assets/Triangles/desktop_triangle_left.png");
           height: 100%;
@@ -2883,7 +3071,7 @@ object {
           right: 0; } }
       .who-we-are-page .bottom-image .bottom-blue .bottom-phrase {
         color: white; }
-        @media screen and (min-width: 640px) {
+        @media screen and (min-width: 640px) and (max-width: 2000px) {
           .who-we-are-page .bottom-image .bottom-blue .bottom-phrase h2 {
             margin: 0px; } }
         .who-we-are-page .bottom-image .bottom-blue .bottom-phrase ul {
@@ -2891,7 +3079,7 @@ object {
           padding: 35px;
           width: 90%;
           text-align: left; }
-          @media screen and (min-width: 640px) {
+          @media screen and (min-width: 640px) and (max-width: 2000px) {
             .who-we-are-page .bottom-image .bottom-blue .bottom-phrase ul {
               padding-left: 80px;
               margin-right: 0px; } }
@@ -2904,7 +3092,7 @@ object {
   background-repeat: no-repeat;
   height: 95vh;
   position: relative; }
-  @media screen and (min-width: 640px) {
+  @media screen and (min-width: 640px) and (max-width: 2000px) {
     #cta {
       background: url("../../assets/Images/Desktop/about/tekera_about_kids_in_playground.png");
       background-size: cover;
@@ -2927,7 +3115,7 @@ object {
         justify-content: center;
     -ms-flex-line-pack: center;
         align-content: center; }
-    @media screen and (min-width: 640px) {
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
       #cta #cta-blue {
         background: url("../../assets/Triangles/desktop_triangle_left.png");
         background-size: cover;
@@ -2943,7 +3131,7 @@ object {
             align-items: flex-end; } }
     #cta #cta-blue #cta-text {
       color: white; }
-      @media screen and (min-width: 640px) {
+      @media screen and (min-width: 640px) and (max-width: 2000px) {
         #cta #cta-blue #cta-text {
           font-size: 3rem;
           width: 70%;
@@ -2956,7 +3144,7 @@ object {
         font-size: 2.2rem;
         font-weight: lighter;
         line-height: 3rem; }
-        @media screen and (min-width: 640px) {
+        @media screen and (min-width: 640px) and (max-width: 2000px) {
           #cta #cta-blue #cta-text h2 {
             font-size: 3rem;
             width: 100%; } }
@@ -2966,11 +3154,11 @@ object {
         font-size: 1.2rem;
         margin-bottom: 30px;
         line-height: 2rem; }
-        @media screen and (min-width: 640px) {
+        @media screen and (min-width: 640px) and (max-width: 2000px) {
           #cta #cta-blue #cta-text p {
             font-size: 1.5rem;
             margin: 60px 0px; } }
-      @media screen and (min-width: 640px) {
+      @media screen and (min-width: 640px) and (max-width: 2000px) {
         #cta #cta-blue #cta-text .button-get-involved {
           text-align: center; } }
       #cta #cta-blue #cta-text .button-get-involved a {
@@ -2979,7 +3167,7 @@ object {
         font-size: 1.25rem;
         padding: 12px 20px;
         background-color: orange; }
-        @media screen and (min-width: 640px) {
+        @media screen and (min-width: 640px) and (max-width: 2000px) {
           #cta #cta-blue #cta-text .button-get-involved a {
             padding: 15px 40px; } }
 
@@ -2988,7 +3176,7 @@ object {
   text-align: center; }
   .post-type-archive-members header {
     margin-bottom: 70px; }
-    @media screen and (min-width: 640px) {
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
       .post-type-archive-members header {
         margin-bottom: 40px; } }
     .post-type-archive-members header .hero-banner {
@@ -3001,7 +3189,7 @@ object {
       margin-top: 70px;
       text-transform: uppercase;
       color: #20ACAF; }
-      @media screen and (min-width: 640px) {
+      @media screen and (min-width: 640px) and (max-width: 2000px) {
         .post-type-archive-members header h1 {
           color: #072A3D;
           width: 93%;
@@ -3009,9 +3197,11 @@ object {
           margin: auto;
           margin-top: 50px; } }
   .post-type-archive-members .articles-members {
-    margin-bottom: 150px;
-    display: block; }
-    @media screen and (min-width: 640px) {
+    margin-bottom: 150px; }
+    @media screen and (max-width: 640px) {
+      .post-type-archive-members .articles-members {
+        display: block; } }
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
       .post-type-archive-members .articles-members {
         display: -ms-flexbox;
         display: flex;
@@ -3019,7 +3209,7 @@ object {
             justify-content: flex-start;
         -ms-flex-wrap: wrap;
             flex-wrap: wrap; } }
-    @media screen and (min-width: 640px) {
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
       .post-type-archive-members .articles-members article {
         -ms-flex: 1 1 33%;
             flex: 1 1 33%;
@@ -3028,7 +3218,7 @@ object {
     .post-type-archive-members .articles-members img {
       max-width: 65%;
       z-index: -1; }
-      @media screen and (min-width: 640px) {
+      @media screen and (min-width: 640px) and (max-width: 2000px) {
         .post-type-archive-members .articles-members img {
           max-width: 80%; } }
     .post-type-archive-members .articles-members .text {
@@ -3055,7 +3245,7 @@ object {
     padding-bottom: 150px;
     margin-bottom: 75px;
     display: none; }
-    @media screen and (min-width: 640px) {
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
       .post-type-archive-members #single-view-member {
         border: solid 1px black;
         width: 90%;
@@ -3080,7 +3270,7 @@ object {
     .post-type-archive-members #single-view-member img {
       max-width: 65%;
       z-index: -1; }
-      @media screen and (min-width: 640px) {
+      @media screen and (min-width: 640px) and (max-width: 2000px) {
         .post-type-archive-members #single-view-member img {
           max-width: 80%; } }
     .post-type-archive-members #single-view-member .expanded-text {
@@ -3100,7 +3290,7 @@ object {
         box-shadow: none;
         border: none;
         border-radius: 0px; }
-        @media screen and (min-width: 640px) {
+        @media screen and (min-width: 640px) and (max-width: 2000px) {
           .post-type-archive-members #single-view-member .expanded-text h2 {
             width: auto;
             padding: 18px 25px; } }
