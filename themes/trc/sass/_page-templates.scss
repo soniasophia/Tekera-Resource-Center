@@ -1244,3 +1244,169 @@
 
 
 
+// Get Involved Page
+
+.page-template-page-getinvolved{
+
+  .banner{
+    background: url('../../assets/Images/Mobile/get-involved/tekera_get_involved_current_positions_smiling_woman_.png');
+    background-position: center;
+    background-size: cover;  
+    background-repeat: no-repeat;  
+    height: 90vh;
+    width: 100vw;
+
+    @include desktop{
+      background: url('../../assets/Images/Desktop/get-involved/tekera_get_invloved_intern_current_positions_two_laughing_women.png');
+      background-position: center;
+      background-size: cover;  
+      background-repeat: no-repeat;  
+      height: 100vh;
+      width: 100vw;
+    }
+  }
+  .overview-container{
+    .overview-container-inner{
+      background-color: #006E71;
+      color: #fff;
+      text-align: center;
+      border: 1px solid #006E71;
+      height: 73px;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+
+      @include desktop{
+        display: none;
+      }
+
+      h1{
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
+        text-transform: uppercase;
+      }
+    }
+
+    .overview-wrapper{
+      h1{
+        color: #20ACAF;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        padding-bottom: 2.5rem;
+        margin-bottom: 2.5rem;
+        border-bottom: 1px solid #979797;
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;  
+
+        @include desktop{
+          display: none;
+        }
+
+        }
+
+        h2{
+          color: #072A3D;
+          font-size: 36px;
+          font-weight: 700;
+          line-height: 49px;
+          text-align: left;
+          text-transform: uppercase;
+          margin-top: 3rem;
+          margin-bottom: 3rem;
+          padding-left: 8rem;
+
+          @include mobile{
+            display: none;
+          }
+      }
+
+      .sponsor,.internship,.donate{
+        
+        @include desktop{
+          padding-left: 8rem;
+        }
+  
+        h3{
+          color: #20ACAF;
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 27px;
+          text-align: center;
+          text-transform: uppercase; 
+
+          @include desktop{
+            display: inline-block;
+            position: relative;
+            bottom: 5rem;
+          }
+        }
+
+        p{
+          color: #4A4A4A;
+          font-size: 16px;
+          line-height: 28px;
+          font-weight: 100;
+          width: 75vw;
+          height: 60vh;
+          padding: 0;
+          margin-top: 2rem;
+          margin-left: auto;
+          margin-right: auto;
+          border-bottom: 1px solid #979797;
+
+          @include desktop{
+            display: inline-block;
+            max-width: 544px;
+            max-height: 231px;
+            font-size: 24px;
+            line-height: 33px;
+          }
+        }
+
+        .button{
+          position: relative;
+          bottom: 10rem;
+          left: 25%;
+          background-color: #ee9825;
+          border: none;
+          width: 169px;
+          height: 50px;
+          color: #fff;
+          font-size: 20px;
+          text-transform: uppercase;
+          font-weight: 700;
+          box-shadow: none;
+          text-shadow: none;
+
+          @include desktop{
+            position: relative;
+            left: 0;
+            bottom: 5rem;
+          }
+        }
+      }
+    }
+
+    @include desktop{
+      .overview-wrapper .sponsor h3{
+      padding-right: 5rem;
+      }
+
+     .overview-wrapper .internship h3{
+      padding-right: 3rem;
+     }
+
+     .overview-wrapper .donate h3{
+      padding-right: 6rem;
+     }
+
+     .overview-wrapper .donate p{
+        border-bottom: none; 
+      }
+    }
+    
+  }
+}

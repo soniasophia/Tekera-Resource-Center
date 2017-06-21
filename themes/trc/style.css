@@ -2167,6 +2167,10 @@ object {
             align-items: center;
         -ms-flex-pack: justify;
             justify-content: space-between; } }
+  text-align: center; }
+  .post-type-archive-projects .custom-sub-menu-wrapper ul {
+    width: 80%;
+    margin: 0 auto; }
   .post-type-archive-projects .custom-sub-menu-wrapper li {
     font-family: 'Open Web';
     font-weight: bold;
@@ -2229,6 +2233,9 @@ object {
   border-top-color: rgba(255, 255, 255, 0.7);
   border-width: 11px;
   margin-left: -11px; }
+  border-top-color: white;
+  border-width: 10px;
+  margin-left: -10px; }
 
 .post-type-archive-projects .dropdown-arrow:before {
   border-top-color: #072a3d;
@@ -2709,6 +2716,135 @@ object {
     text-transform: uppercase;
     width: 5rem;
     text-align: center; }
+.page-template-page-getinvolved .banner {
+  background: url("../../assets/Images/Mobile/get-involved/tekera_get_involved_current_positions_smiling_woman_.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+  width: 100vw; }
+  @media screen and (min-width: 640px) {
+    .page-template-page-getinvolved .banner {
+      background: url("../../assets/Images/Desktop/get-involved/tekera_get_invloved_intern_current_positions_two_laughing_women.png");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100vh;
+      width: 100vw; } }
+
+.page-template-page-getinvolved .overview-container .overview-container-inner {
+  background-color: #006E71;
+  color: #fff;
+  text-align: center;
+  border: 1px solid #006E71;
+  height: 73px;
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+  @media screen and (min-width: 640px) {
+    .page-template-page-getinvolved .overview-container .overview-container-inner {
+      display: none; } }
+  .page-template-page-getinvolved .overview-container .overview-container-inner h1 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: uppercase; }
+
+.page-template-page-getinvolved .overview-container .overview-wrapper h1 {
+  color: #20ACAF;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 2.5rem;
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid #979797;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem; }
+  @media screen and (min-width: 640px) {
+    .page-template-page-getinvolved .overview-container .overview-wrapper h1 {
+      display: none; } }
+
+.page-template-page-getinvolved .overview-container .overview-wrapper h2 {
+  color: #072A3D;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 49px;
+  text-align: left;
+  text-transform: uppercase;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding-left: 8rem; }
+  @media screen and (max-width: 640px) {
+    .page-template-page-getinvolved .overview-container .overview-wrapper h2 {
+      display: none; } }
+
+@media screen and (min-width: 640px) {
+  .page-template-page-getinvolved .overview-container .overview-wrapper .sponsor, .page-template-page-getinvolved .overview-container .overview-wrapper .internship, .page-template-page-getinvolved .overview-container .overview-wrapper .donate {
+    padding-left: 8rem; } }
+
+.page-template-page-getinvolved .overview-container .overview-wrapper .sponsor h3, .page-template-page-getinvolved .overview-container .overview-wrapper .internship h3, .page-template-page-getinvolved .overview-container .overview-wrapper .donate h3 {
+  color: #20ACAF;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  text-transform: uppercase; }
+  @media screen and (min-width: 640px) {
+    .page-template-page-getinvolved .overview-container .overview-wrapper .sponsor h3, .page-template-page-getinvolved .overview-container .overview-wrapper .internship h3, .page-template-page-getinvolved .overview-container .overview-wrapper .donate h3 {
+      display: inline-block;
+      position: relative;
+      bottom: 5rem; } }
+
+.page-template-page-getinvolved .overview-container .overview-wrapper .sponsor p, .page-template-page-getinvolved .overview-container .overview-wrapper .internship p, .page-template-page-getinvolved .overview-container .overview-wrapper .donate p {
+  color: #4A4A4A;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 100;
+  width: 75vw;
+  height: 60vh;
+  padding: 0;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid #979797; }
+  @media screen and (min-width: 640px) {
+    .page-template-page-getinvolved .overview-container .overview-wrapper .sponsor p, .page-template-page-getinvolved .overview-container .overview-wrapper .internship p, .page-template-page-getinvolved .overview-container .overview-wrapper .donate p {
+      display: inline-block;
+      max-width: 544px;
+      max-height: 231px;
+      font-size: 24px;
+      line-height: 33px; } }
+
+.page-template-page-getinvolved .overview-container .overview-wrapper .sponsor .button, .page-template-page-getinvolved .overview-container .overview-wrapper .internship .button, .page-template-page-getinvolved .overview-container .overview-wrapper .donate .button {
+  position: relative;
+  bottom: 10rem;
+  left: 25%;
+  background-color: #ee9825;
+  border: none;
+  width: 169px;
+  height: 50px;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  box-shadow: none;
+  text-shadow: none; }
+  @media screen and (min-width: 640px) {
+    .page-template-page-getinvolved .overview-container .overview-wrapper .sponsor .button, .page-template-page-getinvolved .overview-container .overview-wrapper .internship .button, .page-template-page-getinvolved .overview-container .overview-wrapper .donate .button {
+      position: relative;
+      left: 0;
+      bottom: 5rem; } }
+
+@media screen and (min-width: 640px) {
+  .page-template-page-getinvolved .overview-container .overview-wrapper .sponsor h3 {
+    padding-right: 5rem; }
+  .page-template-page-getinvolved .overview-container .overview-wrapper .internship h3 {
+    padding-right: 3rem; }
+  .page-template-page-getinvolved .overview-container .overview-wrapper .donate h3 {
+    padding-right: 6rem; }
+  .page-template-page-getinvolved .overview-container .overview-wrapper .donate p {
+    border-bottom: none; } }
 
 .who-we-are-page {
   font-family: "Open Web"; }
