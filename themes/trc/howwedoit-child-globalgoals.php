@@ -431,11 +431,16 @@ get_the_title();
     </div><!--goals-bar-->      
   </div><!--global-items-wrapper-->  
   <div class="global-goals-triangle-banner">
-    <h2>You Can be part of the change!</h2>
-    <p>There are many way ways you can contribute to the 
-       Tekera Resource Center and help to build a better 
-       future for Ugandans!
-    </p>
-  </div>  
+    <div class="global-triangle-overlay">
+      <h2>You Can be part of the change!</h2>
+      <p>There are many way ways you can contribute to the 
+         Tekera Resource Center and help to build a better 
+         future for Ugandans!
+      </p>
+      <div class="button-get-involved">
+        <a href="">get involved</a>
+      </div><!--button-get-involved-->      
+    </div><!--global-triangle-overlay-->  
+  </div><!--global-goals-triangle-banner-->  
 </div><!--global-goals-page-->  
 <?php get_footer() ?>

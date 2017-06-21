@@ -990,7 +990,7 @@
 .global-carousel {
   width: 100%;
   background-color: $color_brand-yellow;
-  height: 40rem;
+  height: 45rem;
   margin-bottom: 8rem;
   .flickity-page-dots {
     display: none;
@@ -1036,11 +1036,54 @@
 }
 
 .global-goals-triangle-banner {
+  display: flex;
   background: url('../../assets/Images/Mobile/global-goals/tekera_global_goals_kids_in_playground_.png');
   height: 40rem;
   width: 100%;
   background-size: cover;
   background-position: center;
+  position: relative;
+}
+
+.global-triangle-overlay {
+  @include font-open-light;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  background: url('../../assets/Triangles/triangle_mobile.png');
+  background-size: cover;
+  background-position: center;
+  height: 85%;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 1.25rem;
+  padding-top: 2rem;
+  h2, p {
+    color: #FFF;
+    width: 75%;
+    text-align: center;
+  }
+  h2 {
+    @include shadows;
+  }
+}
+
+.button-get-involved {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $color_brand-yellow;
+  height: 3rem;
+  width: 15rem;
+  text-align: center;
+  text-transform: uppercase;
+  a {
+    @include font-open-regular;
+    color: #FFF;
+    font-size: 1.25rem;
+  }
 }
 
 @media screen and (min-width: 640px) {
@@ -1103,6 +1146,41 @@
     margin: 1.2rem 0 1.2rem 0;
   }
 
+  .global-goals-triangle-banner {
+    display: flex;
+    background: url('../../assets/Images/Desktop/global-goals/tekera_global_goals_hover_kids_in_playground_.png');
+    height: 40rem;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }  
+
+  .global-triangle-overlay {
+    @include font-open-light;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background: url('../../assets/Triangles/desktop_triangle_left.png');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 70%;
+    font-size: 2rem;
+    padding-top: 2rem;
+    h2, p {
+      color: #FFF;
+      width: 75%;
+      text-align: center;
+    }
+    h2 {
+      @include shadows;
+    }
+  }
 
 }
 
