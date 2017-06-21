@@ -77,7 +77,7 @@ get_the_title();
             </div><!--how-insert-box-->                          
           </div><!--how-insert-bottom-->           
         </div><!--how-desktop-insert-->  
-          <span  class="pesos-content"><p>The Tekera Pesos</p></span>  
+          <span  id="pesos" class="pesos-content"><p>The Tekera Pesos</p></span>  
         <p>In order to give real worth to the services offered 
            by the Centre, this local currency was developed by 
            TRC not long after the Centre opened. The Community 

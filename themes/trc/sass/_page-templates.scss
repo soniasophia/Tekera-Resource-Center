@@ -1147,7 +1147,7 @@
   align-items: center;
 }
 
-.global-mobile-hero {
+.global-goals-hero {
   background: url('../../assets/Images/Mobile/home-page/tekera_home_page_music_dance.png');
   background-position: center;
   background-repeat: no-repeat;
@@ -1255,10 +1255,12 @@
 
 @media screen and (min-width: 640px) {
 
-  .global-mobile-hero {
+  .global-goals-hero {
     background: url('../../assets/Images/Desktop/home-page/tekera_home_page_music_dance_drumming_festival_2.png');
     background-size: cover;
     background-repeat: no-repeat;
+    height: 45rem;
+    width: 100%;
   }
   .sustainability-bar {
     display: none;
@@ -1267,7 +1269,7 @@
   .global-goals-content-wrapper {
     width: 80%;
     font-size: 1.25rem;
-    margin-top: 4rem;
+    margin: 4rem 0 3rem 0;
   }
 
   .compliance-header {
@@ -1278,7 +1280,7 @@
     align-items: center;
     text-align: center;
     p {
-      width: 75%;
+      width: 70%;
     }
   }
 
@@ -1286,6 +1288,29 @@
     font-size: 1.5rem;
   }
 
+  .global-carousel {
+    display: none;
+  }
+
+  .goal-items-wrapper {
+    height: 35rem;
+    width: 80%;
+    margin-bottom: 3rem;
+    img {
+      width: 15%;
+      height: auto;
+    }
+    img:hover {
+      cursor: pointer;
+    }
+  }
+
+  .goals-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.2rem 0 1.2rem 0;
+  }
 
 
 }

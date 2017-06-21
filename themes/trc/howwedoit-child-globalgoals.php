@@ -4,7 +4,7 @@ get_header();
 get_the_title();
 ?>
 <div class="global-goals-page">
-  <div class="global-goals-hero global-mobile-hero">
+  <div class="global-goals-hero">
   </div><!--global-goals-hero global-mobile-hero-->
   <div class="sustainability-bar">
     <h2>global sustainability goals</h2>
@@ -400,5 +400,32 @@ get_the_title();
       </div><!--carousel-sub-footer-->        
     </div><!--carousel-sub-->                                              
   </div><!--global-carousel-->
+  <div class="goal-items-wrapper">
+    <div class="goals-bar">
+      <img class="goals-img" src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Full colour icons/e_sdg_goals_icons_individual_rgb_01.png">
+      <img class="goals-img" src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Full colour icons/e_sdg_goals_icons_individual_rgb_02.png">
+      <img class="goals-img" src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Full colour icons/e_sdg_goals_icons_individual_rgb_03.png">
+      <img class="goals-img" src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Full colour icons/e_sdg_goals_icons_individual_rgb_04.png">
+      <img class="goals-img" src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Full colour icons/e_sdg_goals_icons_individual_rgb_05.png">
+      <img class="goals-img" src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Full colour icons/e_sdg_goals_icons_individual_rgb_06.png">
+    </div><!--goals-bar-->
+    <div class="goals-bar">
+      <img class="goals-img" src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Full colour icons/e_sdg_goals_icons_individual_rgb_07.png">
+      <img class="goals-img" src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Full colour icons/e_sdg_goals_icons_individual_rgb_08.png">
+      <img class="goals-img" src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Full colour icons/e_sdg_goals_icons_individual_rgb_09.png">
+      <img class="goals-img" src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Full colour icons/e_sdg_goals_icons_individual_rgb_10.png">
+      <img class="goals-img" src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Full colour icons/e_sdg_goals_icons_individual_rgb_11.png">
+      <img class="goals-img" src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Full colour icons/e_sdg_goals_icons_individual_rgb_12.png">
+    </div><!--goals-bar-->
+    <div class="goals-bar">
+      <img class="goals-img" src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Full colour icons/e_sdg_goals_icons_individual_rgb_13.png">
+      <img class="goals-img" src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Full colour icons/e_sdg_goals_icons_individual_rgb_14.png">
+      <img class="goals-img" src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Full colour icons/e_sdg_goals_icons_individual_rgb_15.png">
+      <img class="goals-img" src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Full colour icons/e_sdg_goals_icons_individual_rgb_16.png">
+      <img class="goals-img" src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Full colour icons/e_sdg_goals_icons_individual_rgb_17.png">
+      <img class="goals-img" src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Full colour icons/e_sdg_goals_icons_individual_rgb_18.png">
+    </div><!--goals-bar-->      
+  </div><!--global-items-wrapper-->  
+
 </div><!--global-goals-page-->  
 <?php get_footer() ?>

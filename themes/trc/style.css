@@ -2607,7 +2607,7 @@ object {
   -ms-flex-align: center;
       align-items: center; }
 
-.global-mobile-hero {
+.global-goals-hero {
   background: url("../../assets/Images/Mobile/home-page/tekera_home_page_music_dance.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -2725,16 +2725,18 @@ object {
   font-size: 0.85rem; }
 
 @media screen and (min-width: 640px) {
-  .global-mobile-hero {
+  .global-goals-hero {
     background: url("../../assets/Images/Desktop/home-page/tekera_home_page_music_dance_drumming_festival_2.png");
     background-size: cover;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    height: 45rem;
+    width: 100%; }
   .sustainability-bar {
     display: none; }
   .global-goals-content-wrapper {
     width: 80%;
     font-size: 1.25rem;
-    margin-top: 4rem; }
+    margin: 4rem 0 3rem 0; }
   .compliance-header {
     display: -ms-flexbox;
     display: flex;
@@ -2746,9 +2748,28 @@ object {
         align-items: center;
     text-align: center; }
     .compliance-header p {
-      width: 75%; }
+      width: 70%; }
   .pre-compliance-box {
-    font-size: 1.5rem; } }
+    font-size: 1.5rem; }
+  .global-carousel {
+    display: none; }
+  .goal-items-wrapper {
+    height: 35rem;
+    width: 80%;
+    margin-bottom: 3rem; }
+    .goal-items-wrapper img {
+      width: 15%;
+      height: auto; }
+    .goal-items-wrapper img:hover {
+      cursor: pointer; }
+  .goals-bar {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    -ms-flex-align: center;
+        align-items: center;
+    margin: 1.2rem 0 1.2rem 0; } }
 
 .who-we-are-page {
   font-family: "Open Web"; }
