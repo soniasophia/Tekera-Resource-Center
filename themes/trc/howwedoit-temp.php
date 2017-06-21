@@ -3,7 +3,10 @@
 get_header(); 
 get_the_title();
 ?>
-<?php wp_nav_menu( array( 'theme_location' => 'what-we-do-sub-menu', 'items_wrap' => '<ul id="%1$s" class="%2$s mobile-top-nav">%3$s</ul>', 'container' => 'div', 'container_class' => 'custom-sub-menu-wrapper' ) ); ?>
+<?php wp_nav_menu( array( 'theme_location' => 'how-we-do-it-sub-menu', 
+'items_wrap' => '<ul id="%1$s" class="%2$s mobile-top-nav">%3$s</ul>', 
+'container' => 'div', 'container_class' => 'custom-sub-menu-wrapper' ) 
+); ?>
 <div class="how-we-do-it-page">
   <div class="how-hero-wrapper">
   </div><!--how-hero-wrapper-->  
@@ -113,12 +116,15 @@ get_the_title();
     <div id="cta-blue">
       <div id="cta-text">
         <h2>You Can be part of the change!</h2>
-        <p>There are many way ways you can contribute to the Tekera Resource Center and help to build a better future for Ugandans!</p>
+        <p>There are many way ways you can contribute to the 
+           Tekera Resource Center and help to build a better 
+           future for Ugandans!
+        </p>
         <div class="button-get-involved">
           <a href="">Get Involved</a>
-        </div>
-      </div>
-    </div>
-  </div>
+        </div><!--button-get-involved-->
+      </div><!--cta-text-->
+    </div><!--cta-blue-->
+  </div><!--cta-->
   <?php get_footer(); ?>
 </div><!--how-we-do-it-page-->
