@@ -3219,6 +3219,7 @@ object {
   .page-template-contact-php #masthead {
     margin: 0px; }
   @media screen and (min-width: 640px) and (max-width: 2000px) {
+  @media screen and (min-width: 640px) {
     .page-template-contact-php .content-top {
       display: -ms-flexbox;
       display: flex;
@@ -3249,6 +3250,7 @@ object {
   .page-template-contact-php .title {
     position: relative; }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
+    @media screen and (min-width: 640px) {
       .page-template-contact-php .title {
         text-align: left; } }
   .page-template-contact-php h1 {
@@ -3256,6 +3258,7 @@ object {
     margin: 10px;
     margin-left: 30px; }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
+    @media screen and (min-width: 640px) {
       .page-template-contact-php h1 {
         position: absolute;
         background-color: rgba(255, 255, 255, 0.7);
@@ -3274,11 +3277,17 @@ object {
         background: url("../../assets/Images/Desktop/contact/tekera_contact_us_vocational_school.png");
         background-size: cover; } }
   @media screen and (min-width: 640px) and (max-width: 2000px) {
+    @media screen and (min-width: 640px) {
+      .page-template-contact-php .hero-banner {
+        background: url("../../assets/Images/Desktop/contact/tekera_contact_us_vocational_school.png");
+        background-size: cover; } }
+  @media screen and (min-width: 640px) {
     .page-template-contact-php {
       text-align: right; } }
   .page-template-contact-php iframe {
     height: 86.7vw; }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
+    @media screen and (min-width: 640px) {
       .page-template-contact-php iframe {
         height: 600px;
         -ms-flex: 1 1 120%;
@@ -3286,11 +3295,13 @@ object {
   .page-template-contact-php .contact-info {
     margin-top: 60px; }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
+    @media screen and (min-width: 640px) {
       .page-template-contact-php .contact-info {
         margin: 0px; } }
     .page-template-contact-php .contact-info .canada {
       margin-top: 75px; }
       @media screen and (min-width: 640px) and (max-width: 2000px) {
+      @media screen and (min-width: 640px) {
         .page-template-contact-php .contact-info .canada {
           margin: 0px; } }
     .page-template-contact-php .contact-info .uganda-icon,
@@ -3323,6 +3334,7 @@ object {
         justify-content: center;
     margin-top: 40px; }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
+    @media screen and (min-width: 640px) {
       .page-template-contact-php .thanks {
         margin-top: 0px; } }
     .page-template-contact-php .thanks .arrow-down {
@@ -3348,6 +3360,7 @@ object {
       font-size: 0.9rem;
       color: #D44E1F; }
       @media screen and (min-width: 640px) and (max-width: 2000px) {
+      @media screen and (min-width: 640px) {
         .page-template-contact-php .forms h4 {
           margin: auto;
           width: 90%; } }
@@ -3371,11 +3384,13 @@ object {
       font-size: 1.1rem;
       text-transform: uppercase; }
   @media screen and (min-width: 640px) and (max-width: 2000px) {
+  @media screen and (min-width: 640px) {
     .page-template-contact-php #wpcf7-f106-p74-o1 {
       display: none; } }
   .page-template-contact-php #wpcf7-f106-p74-o2 {
     display: none; }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
+    @media screen and (min-width: 640px) {
       .page-template-contact-php #wpcf7-f106-p74-o2 {
         display: block; } }
     .page-template-contact-php #wpcf7-f106-p74-o2 form {
