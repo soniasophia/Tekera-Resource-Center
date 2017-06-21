@@ -136,11 +136,17 @@ function register_tekera_what_we_do_custom_menu() {
 }
 add_action ('init', 'register_tekera_what_we_do_custom_menu');
 
-<<<<<<< HEAD
+
+function register_tekera_get_involved_custom_menu() {
+	register_nav_menu('get-involved-sub-menu', __('Get Involved Sub Menu'));
+}
+add_action ('init', 'register_tekera_get_involved_custom_menu');
+
+
+
     wp_localize_script( 'members-popup', 'ajaxpagination', array(
 	'ajaxurl' => admin_url( 'admin-ajax.php' )
   ));
-
 
 add_action( 'rest_api_init', 'create_api_members_custom_field' );
  
@@ -178,14 +184,9 @@ function create_api_members_custom_field() {
 
     global $wp_rest_additional_fields;
 }
-=======
-
-function register_tekera_get_involved_custom_menu() {
-	register_nav_menu('get-involved-sub-menu', __('Get Involved Sub Menu'));
-}
-add_action ('init', 'register_tekera_get_involved_custom_menu');
 
 
 
 
->>>>>>> Register sub nav menu for Get Involved pages
+
+
