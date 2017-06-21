@@ -1,8 +1,12 @@
 <?php 
 /* Template Name: Global Goals */
 get_header(); 
-get_the_title();gulp
+get_the_title();
 ?>
+<?php wp_nav_menu( array( 'theme_location' => 'how-we-do-it-sub-menu', 
+'items_wrap' => '<ul id="%1$s" class="%2$s mobile-top-nav">%3$s</ul>', 
+'container' => 'div', 'container_class' => 'custom-sub-menu-wrapper' ) 
+); ?>
 <div class="global-goals-page">
   <div class="global-goals-hero">
   </div><!--global-goals-hero global-mobile-hero-->
@@ -426,5 +430,12 @@ get_the_title();gulp
       <img class="goals-img" src="<?php echo get_template_directory_uri();?>/assets/Icons/Sustainability Development Goals/Full colour icons/e_sdg_goals_icons_individual_rgb_18.png">
     </div><!--goals-bar-->      
   </div><!--global-items-wrapper-->  
+  <div class="global-goals-triangle-banner">
+    <h2>You Can be part of the change!</h2>
+    <p>There are many way ways you can contribute to the 
+       Tekera Resource Center and help to build a better 
+       future for Ugandans!
+    </p>
+  </div>  
 </div><!--global-goals-page-->  
 <?php get_footer() ?>

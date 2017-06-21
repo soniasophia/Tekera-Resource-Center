@@ -2539,6 +2539,13 @@ object {
 .goal-items-wrapper {
   display: none; }
 
+.global-goals-triangle-banner {
+  background: url("../../assets/Images/Mobile/global-goals/tekera_global_goals_kids_in_playground_.png");
+  height: 40rem;
+  width: 100%;
+  background-size: cover;
+  background-position: center; }
+
 @media screen and (min-width: 640px) {
   .global-goals-hero {
     background: url("../../assets/Images/Desktop/home-page/tekera_home_page_music_dance_drumming_festival_2.png");
