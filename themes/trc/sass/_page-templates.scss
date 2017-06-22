@@ -1218,12 +1218,16 @@
 // TRANSPARENCY
 
 .transparency-title-wrapper {
+  @include font-open-bold;
+  color: $color_brand-blue-dark;
   display: flex;
   height: 62px;
+  align-items: center;
+  padding-left: 3rem;
 }
 
 .transparency-hero {
-  background: url(../../assets/Images/Desktop/global-goals/tekera_global_goals_hover_student_reading.png);
+  background: url('../../assets/Images/Mobile/global-goals/tekera_global_goals_student_reading.png');  
   height: 35rem;
   width: 100%;
   background-size: cover;
@@ -1233,6 +1237,12 @@
 @media screen and (min-width: 640px) {
   .transparency-title-wrapper {
     display: none;
+  }
+
+  .transparency-hero {
+    background: url('../../assets/Images/Desktop/global-goals/tekera_global_goals_hover_student_reading.png');
+    background-size: cover;
+    background-position: center;    
   }
 }
 

@@ -2729,12 +2729,19 @@ object {
       font-style: normal; } }
 
 .transparency-title-wrapper {
+  font-family: 'Open Web';
+  font-weight: bold;
+  font-style: normal;
+  color: #072A3D;
   display: -ms-flexbox;
   display: flex;
-  height: 62px; }
+  height: 62px;
+  -ms-flex-align: center;
+      align-items: center;
+  padding-left: 3rem; }
 
 .transparency-hero {
-  background: url(../../assets/Images/Desktop/global-goals/tekera_global_goals_hover_student_reading.png);
+  background: url("../../assets/Images/Mobile/global-goals/tekera_global_goals_student_reading.png");
   height: 35rem;
   width: 100%;
   background-size: cover;
@@ -2742,7 +2749,11 @@ object {
 
 @media screen and (min-width: 640px) {
   .transparency-title-wrapper {
-    display: none; } }
+    display: none; }
+  .transparency-hero {
+    background: url("../../assets/Images/Desktop/global-goals/tekera_global_goals_hover_student_reading.png");
+    background-size: cover;
+    background-position: center; } }
 
 .page-template-page-getinvolved .banner {
   background: url("../../assets/Images/Mobile/get-involved/tekera_get_involved_current_positions_smiling_woman_.png");
