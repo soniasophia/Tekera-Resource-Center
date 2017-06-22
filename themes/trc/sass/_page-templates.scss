@@ -485,17 +485,18 @@
     padding: 0.5rem 2rem;
     margin: 0;
     background: $color_brand-white-transparent;
-
-    a {
-      @include font-open-bold;
+    @include font-open-bold;
       color: $color_brand-blue-dark;
-    }
   }
 
   .dropdown-arrow {
     position: absolute;
     left: 13rem;
     top: 10.4rem;
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 
   .content-area {

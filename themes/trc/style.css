@@ -2018,17 +2018,18 @@ object {
 .post-type-archive-projects .projects-title {
   padding: 0.5rem 2rem;
   margin: 0;
-  background: rgba(255, 255, 255, 0.7); }
-  .post-type-archive-projects .projects-title a {
-    font-family: 'Open Web';
-    font-weight: bold;
-    font-style: normal;
-    color: #072A3D; }
+  background: rgba(255, 255, 255, 0.7);
+  font-family: 'Open Web';
+  font-weight: bold;
+  font-style: normal;
+  color: #072A3D; }
 
 .post-type-archive-projects .dropdown-arrow {
   position: absolute;
   left: 13rem;
   top: 10.4rem; }
+  .post-type-archive-projects .dropdown-arrow:hover {
+    cursor: pointer; }
 
 .post-type-archive-projects .content-area {
   width: 80%;

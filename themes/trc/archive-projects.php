@@ -12,7 +12,7 @@ get_header(); ?>
       <div class="project-title-container">
         <img id="projects-toggle-menu" class="dropdown-arrow" src="<?php echo get_template_directory_uri();?>/assets/Icons/Mobile/Mobile_png/tekera_mobile_icon_arrow_down_dark_teal.png">
 
-        <h1 class="projects-title"><a href="#" id="projects-toggle-menu"><?php the_archive_title() ?></a></h1>
+        <h1 class="projects-title"><?php the_archive_title() ?></h1>
       </div>
 
     <?php wp_nav_menu( array( 'theme_location' => 'what-we-do-sub-menu', 'items_wrap' => '<ul id="%1$s" class="%2$s mobile-top-nav">%3$s</ul>', 'container' => 'div', 'container_class' => 'custom-sub-menu-wrapper' ) ); ?>
