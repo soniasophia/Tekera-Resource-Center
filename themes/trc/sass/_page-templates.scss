@@ -486,7 +486,7 @@
     margin: 0;
     background: $color_brand-white-transparent;
     @include font-open-bold;
-      color: $color_brand-blue-dark;
+    color: $color_brand-blue-dark;
   }
 
   .dropdown-arrow {
@@ -496,6 +496,10 @@
 
     &:hover {
       cursor: pointer;
+    }
+
+    @include desktop {
+      display: none;
     }
   }
 
@@ -1367,6 +1371,8 @@
     padding: 0.5rem 2rem;
     margin: 0;
     background: $color_brand-white-transparent;
+    @include font-open-bold;
+    color: $color_brand-blue-dark;
 
     @include desktop {
       display: none;
@@ -1378,6 +1384,20 @@
     }
   }
 
+  .dropdown-arrow {
+    position: absolute;
+    left: 13rem;
+    top: 10.4rem;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    @include desktop {
+      display: none;
+    }
+  }
+
   .custom-sub-menu-wrapper {
     display: none;
     text-align: center;
@@ -1386,6 +1406,7 @@
     @include desktop {
       display: block;
       background: $color_brand-white-transparent;
+      max-width: 100%;
     }
 
     ul {  

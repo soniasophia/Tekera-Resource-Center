@@ -2041,6 +2041,9 @@ object {
   top: 10.4rem; }
   .post-type-archive-projects .dropdown-arrow:hover {
     cursor: pointer; }
+  @media screen and (min-width: 640px) and (max-width: 2000px) {
+    .post-type-archive-projects .dropdown-arrow {
+      display: none; } }
 
 .post-type-archive-projects .content-area {
   width: 80%;
@@ -2831,7 +2834,11 @@ object {
 .page-template-page-sponsor .sponsor-title {
   padding: 0.5rem 2rem;
   margin: 0;
-  background: rgba(255, 255, 255, 0.7); }
+  background: rgba(255, 255, 255, 0.7);
+  font-family: 'Open Web';
+  font-weight: bold;
+  font-style: normal;
+  color: #072A3D; }
   @media screen and (min-width: 640px) and (max-width: 2000px) {
     .page-template-page-sponsor .sponsor-title {
       display: none; } }
@@ -2841,6 +2848,16 @@ object {
     font-style: normal;
     color: #072A3D; }
 
+.page-template-page-sponsor .dropdown-arrow {
+  position: absolute;
+  left: 13rem;
+  top: 10.4rem; }
+  .page-template-page-sponsor .dropdown-arrow:hover {
+    cursor: pointer; }
+  @media screen and (min-width: 640px) and (max-width: 2000px) {
+    .page-template-page-sponsor .dropdown-arrow {
+      display: none; } }
+
 .page-template-page-sponsor .custom-sub-menu-wrapper {
   display: none;
   text-align: center;
@@ -2848,7 +2865,8 @@ object {
   @media screen and (min-width: 640px) and (max-width: 2000px) {
     .page-template-page-sponsor .custom-sub-menu-wrapper {
       display: block;
-      background: rgba(255, 255, 255, 0.7); } }
+      background: rgba(255, 255, 255, 0.7);
+      max-width: 100%; } }
   .page-template-page-sponsor .custom-sub-menu-wrapper ul {
     width: 80%;
     margin: 0 auto; }
