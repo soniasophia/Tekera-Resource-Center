@@ -28,7 +28,7 @@ get_the_title();
         </section>
       </li>
 
-        <li><a href="#">Sponsor Students and Classrooms</a>
+        <li><a href="#">Sponsor Students & Classrooms</a>
         <section>
           <h2><?php echo CFS()->get( 'title_2' ); ?></h2>
           <p><?php echo CFS()->get( 'content_2' ); ?></p>
@@ -36,7 +36,6 @@ get_the_title();
           <p><?php echo CFS()->get( 'content_2a' ); ?></p>
           <h2><?php echo CFS()->get( 'title_2b' ); ?></h2>
           <p><?php echo CFS()->get( 'content_2b' ); ?></p>
-
         </section>
       </li>
 
@@ -47,6 +46,8 @@ get_the_title();
       </li>
     </ul>
   </div>
+
+  <div class="sponsor-now-button">
 
 
 

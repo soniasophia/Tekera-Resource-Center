@@ -1402,11 +1402,11 @@
     display: none;
     text-align: center;
     background: white;
+    max-width: 100%;
 
     @include desktop {
       display: block;
       background: $color_brand-white-transparent;
-      max-width: 100%;
     }
 
     ul {  

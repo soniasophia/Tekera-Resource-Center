@@ -1,9 +1,9 @@
-jQuery(document).ready(function ($) {
-    
+(function ($) {
     $('#nav').children('li').first().children('a').addClass('active')
         .next().addClass('is-open').show();
         
-    $('#nav').on('click', 'li > a', function() {
+    $('#nav').on('click', 'li > a', function(event) {
+      event.preventDefault();
         
       if (!$(this).hasClass('active')) {
 
@@ -17,4 +17,4 @@ jQuery(document).ready(function ($) {
         $(this).removeClass('active');
       }
    });
-});
+})(jQuery);
