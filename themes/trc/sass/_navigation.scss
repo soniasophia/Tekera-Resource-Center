@@ -171,71 +171,70 @@ a {
 
 	.hamburger-menu{
 		position: absolute;
-		left: 0;
+		left: -100vw;
 		margin-top: 2rem;
 		width: 100vw;
-		height: 70vh;
+		height: 75vh;
 		background-color: #fff;
 		z-index: 1;
-		animation: 1s 1 alternate slidein;
-		display: none;
 
 			@include desktop{
 				display: none;
 			}
 
 		ul{
-			// display: none;
 
 			@include desktop{
 				display: none;
 			}
 			
-			a{
-				text-decoration: none;
-
 				li{
 					list-style-type: none;
-					color: #072a3d;
-					font-size: 26px;
-					font-weight: 700;
-					text-transform: uppercase;
     			padding: 2rem 1rem 2rem 0;
     			border-bottom: 1px solid #4A4A4A;
     			margin-left: 2rem;
     			margin-right: 6rem;
+					min-width: 250px;
+
+					a{
+						text-decoration: none;
+						color: #072a3d;
+						font-size: 26px;
+						font-weight: 700;
+						text-transform: uppercase;
+					}				
 				}
-				
-			}
 
-			a:nth-child(4){
-				li{
-					color: #EE9825;
-				}
-			}
-
-			.hamburger-menu-li{
-
-				display: flex;
-
-				a:nth-child(1){
-					li{
-						font-weight: 100;
-						border-bottom: none;
-						margin-right: 2rem;
-						padding-right: 5rem;
-						max-width: 160px;
+				li:nth-child(4){
+					a{
+						color: #EE9825;
 					}
 				}
 
-				a:nth-child(2){
-					li{
+				li:nth-child(5){
+
+					display: inline-block;
+					border: none;
+					margin-right: 0;
+					min-width: 160px;
+
+					a{
 						font-weight: 100;
-						border-bottom: none;
 					}
 				}
-			}
-			
+
+				li:nth-child(6){
+
+					display: inline-block;
+					border: none;
+					margin-right: 0;
+					margin-left: 0;
+
+					a{
+						font-weight: 100;
+					}
+				}
+	
 		}
 	
 		
@@ -292,7 +291,15 @@ a {
 					text-transform: uppercase;
 				}
 
-				a.active, a:hover, a:focus{
+				a.active, a:focus{
+					color: #fff;
+					// font-weight: 700;
+					text-decoration: none;
+					padding-bottom: 1rem;
+					border-bottom: 5px solid #EE9825 ;
+				}
+
+				a.active, a:active{
 					color: #fff;
 					font-weight: 700;
 					text-decoration: none;
@@ -303,14 +310,13 @@ a {
 			}
 
 		
-
 			li:nth-child(5){
 				border-left: 1px solid #EE9825;
 				border-right: qpx solid #EE9825;
 				background-color: #EE9825;
 				font-weight: 700;
 
-				a.active, a:hover, a:focus{
+				a.active, a:focus{
 					font-weight: 700;
 					text-decoration: none;
 					padding-bottom: 1rem;
@@ -957,20 +963,20 @@ div.tekera-triangles{
 
 // Hamburger Menu toggle
 
-@keyframes slidein {
-  0% {
-    left:0;
-    width:100%;
-  }
+// @keyframes slidein {
+//   0% {
+//     left:0;
+//     width:100%;
+//   }
   
-	50% {
-    left:50%;
-    width:100%;
-  }
+// 	50% {
+//     left:50%;
+//     width:100%;
+//   }
 
 
-	100% {
-    left:100%;
-    width:100%;
-  }
-}
+// 	100% {
+//     left:100%;
+//     width:100%;
+//   }
+// }

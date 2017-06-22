@@ -41,14 +41,12 @@
 
 					<div class="hamburger-menu">
 						<ul>
-							<a href="#"><li> Who we are </li></a>
-							<a href="#"><li> What we do </li></a>
-							<a href="#"><li> How we do it </li></a>
-							<a href="#"><li> Get Involved </li></a>
-							<div class = "hamburger-menu-li">
-								<a href="#"><li> Blog </li></a>
-								<a href="#"><li> Contact </li></a>
-							</div>
+							<li> <a href="#"> Who we are </a> </li>
+							<li><a href="#"> What we do </a></li>
+							<li><a href="#"> How we do it </a> </li>
+							<li><a href="#"> Get Involved </a></li>
+							<li><a href="#"> Blog </a></li>
+							<li><a href="#"> Contact </a> </li>
 						</ul>
 					</div> 
 				</div>

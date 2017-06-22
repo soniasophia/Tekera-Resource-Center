@@ -596,46 +596,47 @@ a {
         display: none; } }
   .site-header-wrapper .hamburger-menu {
     position: absolute;
-    left: 0;
+    left: -100vw;
     margin-top: 2rem;
     width: 100vw;
-    height: 70vh;
+    height: 75vh;
     background-color: #fff;
-    z-index: 1;
-    animation: 1s 1 alternate slidein;
-    display: none; }
+    z-index: 1; }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
       .site-header-wrapper .hamburger-menu {
         display: none; } }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
       .site-header-wrapper .hamburger-menu ul {
         display: none; } }
-    .site-header-wrapper .hamburger-menu ul a {
-      text-decoration: none; }
-      .site-header-wrapper .hamburger-menu ul a li {
-        list-style-type: none;
+    .site-header-wrapper .hamburger-menu ul li {
+      list-style-type: none;
+      padding: 2rem 1rem 2rem 0;
+      border-bottom: 1px solid #4A4A4A;
+      margin-left: 2rem;
+      margin-right: 6rem;
+      min-width: 250px; }
+      .site-header-wrapper .hamburger-menu ul li a {
+        text-decoration: none;
         color: #072a3d;
         font-size: 26px;
         font-weight: 700;
-        text-transform: uppercase;
-        padding: 2rem 1rem 2rem 0;
-        border-bottom: 1px solid #4A4A4A;
-        margin-left: 2rem;
-        margin-right: 6rem; }
-    .site-header-wrapper .hamburger-menu ul a:nth-child(4) li {
+        text-transform: uppercase; }
+    .site-header-wrapper .hamburger-menu ul li:nth-child(4) a {
       color: #EE9825; }
-    .site-header-wrapper .hamburger-menu ul .hamburger-menu-li {
-      display: -ms-flexbox;
-      display: flex; }
-      .site-header-wrapper .hamburger-menu ul .hamburger-menu-li a:nth-child(1) li {
-        font-weight: 100;
-        border-bottom: none;
-        margin-right: 2rem;
-        padding-right: 5rem;
-        max-width: 160px; }
-      .site-header-wrapper .hamburger-menu ul .hamburger-menu-li a:nth-child(2) li {
-        font-weight: 100;
-        border-bottom: none; }
+    .site-header-wrapper .hamburger-menu ul li:nth-child(5) {
+      display: inline-block;
+      border: none;
+      margin-right: 0;
+      min-width: 160px; }
+      .site-header-wrapper .hamburger-menu ul li:nth-child(5) a {
+        font-weight: 100; }
+    .site-header-wrapper .hamburger-menu ul li:nth-child(6) {
+      display: inline-block;
+      border: none;
+      margin-right: 0;
+      margin-left: 0; }
+      .site-header-wrapper .hamburger-menu ul li:nth-child(6) a {
+        font-weight: 100; }
   .site-header-wrapper .tekera-site-logo {
     padding-right: 2rem; }
     @media screen and (max-width: 640px) {
@@ -674,7 +675,12 @@ a {
       .main-navigation .menu-nav-bar-container ul li a {
         color: #fff;
         text-transform: uppercase; }
-      .main-navigation .menu-nav-bar-container ul li a.active, .main-navigation .menu-nav-bar-container ul li a:hover, .main-navigation .menu-nav-bar-container ul li a:focus {
+      .main-navigation .menu-nav-bar-container ul li a.active, .main-navigation .menu-nav-bar-container ul li a:focus {
+        color: #fff;
+        text-decoration: none;
+        padding-bottom: 1rem;
+        border-bottom: 5px solid #EE9825; }
+      .main-navigation .menu-nav-bar-container ul li a.active, .main-navigation .menu-nav-bar-container ul li a:active {
         color: #fff;
         font-weight: 700;
         text-decoration: none;
@@ -685,7 +691,7 @@ a {
       border-right: qpx solid #EE9825;
       background-color: #EE9825;
       font-weight: 700; }
-      .main-navigation .menu-nav-bar-container ul li:nth-child(5) a.active, .main-navigation .menu-nav-bar-container ul li:nth-child(5) a:hover, .main-navigation .menu-nav-bar-container ul li:nth-child(5) a:focus {
+      .main-navigation .menu-nav-bar-container ul li:nth-child(5) a.active, .main-navigation .menu-nav-bar-container ul li:nth-child(5) a:focus {
         font-weight: 700;
         text-decoration: none;
         padding-bottom: 1rem;
@@ -1192,17 +1198,6 @@ div.tekera-triangles img {
         width: 90%;
         -ms-flex-order: 3;
             order: 3; } }
-
-@keyframes slidein {
-  0% {
-    left: 0;
-    width: 100%; }
-  50% {
-    left: 50%;
-    width: 100%; }
-  100% {
-    left: 100%;
-    width: 100%; } }
 
 /*--------------------------------------------------------------
 # Accessibility
@@ -3114,6 +3109,20 @@ object {
         margin-right: 4rem; } }
   .page-template-page-internship .custom-sub-menu-wrapper a {
     color: #072A3D; }
+
+.page-template-page-internship .site-content {
+  background: url("../../assets/Images/Mobile/get-involved/tekera_get_involved_intern_application_2_reading_a_book_for_kids.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh; }
+  @media screen and (min-width: 640px) and (max-width: 2000px) {
+    .page-template-page-internship .site-content {
+      background: url("../../assets/Images/Desktop/get-involved/tekera_get_invloved_intern_application_internship_program.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat; } }
 
 .who-we-are-page {
   font-family: "Open Web"; }

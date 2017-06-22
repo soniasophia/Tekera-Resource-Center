@@ -1667,3 +1667,21 @@
     }
   }
 }
+
+.page-template-page-internship{
+  .site-content{
+    background: url('../../assets/Images/Mobile/get-involved/tekera_get_involved_intern_application_2_reading_a_book_for_kids.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+
+    @include desktop{
+      background: url('../../assets/Images/Desktop/get-involved/tekera_get_invloved_intern_application_internship_program.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  }
+}
