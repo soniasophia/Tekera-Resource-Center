@@ -2579,6 +2579,9 @@ object {
     font-weight: normal;
     font-style: normal; }
 
+.goal-item-content {
+  display: none; }
+
 .button-get-involved {
   display: -ms-flexbox;
   display: flex;
@@ -2634,17 +2637,10 @@ object {
     margin-bottom: 10rem; }
     .goal-items-wrapper img {
       width: 15%;
-      height: auto; }
+      height: auto;
+      margin: 0.25rem; }
     .goal-items-wrapper img:hover {
       cursor: pointer; }
-  .goals-bar {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: justify;
-        justify-content: space-between;
-    -ms-flex-align: center;
-        align-items: center;
-    margin: 1.2rem 0 1.2rem 0; }
   .global-goals-triangle-banner {
     display: -ms-flexbox;
     display: flex;
@@ -2683,6 +2679,19 @@ object {
     .global-triangle-overlay h2 {
       font-family: 'Shadows Into Light Web';
       font-weight: normal;
+      font-style: normal; }
+  .goal-item-content-expanded {
+    height: 35rem;
+    width: 80%;
+    padding: 3rem; }
+    .goal-item-content-expanded h3 {
+      font-family: 'Open Web';
+      font-weight: normal;
+      font-style: normal;
+      color: #20ACAF; }
+    .goal-item-content-expanded p {
+      font-family: 'Open Web';
+      font-weight: 100;
       font-style: normal; } }
 
 .page-template-page-getinvolved .banner {
