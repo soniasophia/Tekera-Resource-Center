@@ -11,6 +11,9 @@ get_header();
       'container' => 'div', 'container_class' => 'custom-sub-menu-wrapper' ) 
     ); ?>  
 </div>  
+  <div class="transparency-title-wrapper">
+    <h1><?php echo get_the_title(); ?></h1>
+  </div><!--transparency-title-wrapper--> 
   <div class="global-goals-hero">
   </div><!--global-goals-hero global-mobile-hero-->
   <div class="sustainability-bar">

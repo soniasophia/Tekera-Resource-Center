@@ -2315,7 +2315,8 @@ object {
       font-family: 'Open Web';
       font-weight: normal;
       font-style: normal;
-      color: #072A3D; }
+      color: #072A3D;
+      font-size: 1.25rem; }
   .how-we-do-it-page {
     font-size: 1.25rem; }
   .how-hero-wrapper {
@@ -2752,6 +2753,19 @@ object {
     display: none; }
   .transparency-hero {
     background: url("../../assets/Images/Desktop/global-goals/tekera_global_goals_hover_student_reading.png");
+    background-size: cover;
+    background-position: center; } }
+
+.our-impact-hero {
+  background: url("../../assets/Images/Mobile/global-goals/tekera_global_goals_kids_in_playground_.png");
+  height: 35rem;
+  width: 100%;
+  background-size: cover;
+  background-position: center; }
+
+@media screen and (min-width: 640px) {
+  .our-impact-hero {
+    background: url("../../assets/Images/Desktop/global-goals/tekera_global_goals_hover_kids_in_playground_.png");
     background-size: cover;
     background-position: center; } }
 
