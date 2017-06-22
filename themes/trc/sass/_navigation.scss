@@ -291,13 +291,31 @@ a {
 					color: #fff;
 					text-transform: uppercase;
 				}
+
+				a.active, a:hover, a:focus{
+					color: #fff;
+					font-weight: 700;
+					text-decoration: none;
+					padding-bottom: 1rem;
+					border-bottom: 5px solid #EE9825 ;
+				}
+
 			}
+
+		
 
 			li:nth-child(5){
 				border-left: 1px solid #EE9825;
 				border-right: qpx solid #EE9825;
 				background-color: #EE9825;
 				font-weight: 700;
+
+				a.active, a:hover, a:focus{
+					font-weight: 700;
+					text-decoration: none;
+					padding-bottom: 1rem;
+					border-bottom: 7px solid #fff;
+				}
 			}
 		} // end of ul
 	} // end of menu-nav-bar-container

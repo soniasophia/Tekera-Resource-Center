@@ -94,9 +94,14 @@ function red_starter_scripts() {
 
   wp_enqueue_script( 'blog-hover-behaviour', get_template_directory_uri() . '/build/js/blog-hover-behaviour.min.js', array('jquery'), null, true );
 
-	  wp_enqueue_script( 'hamburger-menu', get_template_directory_uri() . '/build/js/hamburger-menu.min.js', array('jquery'), null, true );
+	wp_enqueue_script( 'hamburger-menu', get_template_directory_uri() . '/build/js/hamburger-menu.min.js', array('jquery'), null, true );
   wp_enqueue_script( 'members-popup', get_template_directory_uri() . '/build/js/members-popup.min.js', array('jquery'), null, true );
   wp_enqueue_script( 'acordain-tab-behaviour', get_template_directory_uri() . '/build/js/acordain_tab_behaviour.min.js', array('jquery'), null, true );
+
+	wp_enqueue_script( 'menu-underline', get_template_directory_uri() . '/build/js/menu-underline.min.js', array('jquery'), null, true );
+
+
+  wp_enqueue_script( 'members-popup', get_template_directory_uri() . '/js/members-popup.js', array('jquery'), null, true );
 
   wp_localize_script( 'members-popup', 'WORD_API', array(
 	'api_url' => esc_url_raw( rest_url() )
