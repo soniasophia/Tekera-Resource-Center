@@ -17,10 +17,10 @@ get_header(); ?>
 			<div class="social-share">
 				<p>Share On</p>
 				<div class="social-share-buttons">
-					<a class="blog-home-button" href="<?php echo get_permalink( get_option( 'page_for_posts' ) ); ?>"><img src="<?php echo get_template_directory_uri();?>/assets/Icons/Desktop/png/TEKERA_BlogIcon_Green.png"></a>
-					<a class="facebook-share-button" href="https://www.facebook.com/sharer/sharer.php?u=<?php echo get_permalink(); ?>"><img src="<?php echo get_template_directory_uri();?>/assets/Icons/Desktop/png/TEKERA_FacebookIcon_Green.png"></a>
-					<a class="flickr-share-button" href="https://www.flickr.com/photos/tekeracentre/"><img src="<?php echo get_template_directory_uri();?>/assets/Icons/Desktop/png/TEKERA_FlickrIcon_Green.png"></a>
-					<a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=<?php echo get_permalink(); ?>"><img src="<?php echo get_template_directory_uri();?>/assets/Icons/Desktop/png/TEKERA_TwitterIcon_Green.png"></a>
+					<a class="blog-home-button" href="<?php echo get_permalink( get_option( 'page_for_posts' ) ); ?>"><img src="<?php echo get_template_directory_uri();?>/assets/Icons/Mobile/Mobile_png/tekera_mobile_icon_blog_green.png"></a>
+					<a class="facebook-share-button" href="https://www.facebook.com/sharer/sharer.php?u=<?php echo get_permalink(); ?>"><img src="<?php echo get_template_directory_uri();?>/assets/Icons/Mobile/Mobile_png/tekera_mobile_icon_facebook.png"></a>
+					<a class="flickr-share-button" href="https://www.flickr.com/photos/tekeracentre/"><img src="<?php echo get_template_directory_uri();?>/assets/Icons/Mobile/Mobile_png/tekera_mobile_icon_flickr.png"></a>
+					<a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=<?php echo get_permalink(); ?>"><img src="<?php echo get_template_directory_uri();?>/assets/Icons/Mobile/Mobile_png/tekera_mobile_icon_twitter.png"></a>
 				</div>
 			</div>
 
