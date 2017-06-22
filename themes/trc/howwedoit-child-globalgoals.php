@@ -1,13 +1,16 @@
 <?php 
 /* Template Name: Global Goals */
 get_header(); 
-get_the_title();
 ?>
-<?php wp_nav_menu( array( 'theme_location' => 'how-we-do-it-sub-menu', 
-'items_wrap' => '<ul id="%1$s" class="%2$s mobile-top-nav">%3$s</ul>', 
-'container' => 'div', 'container_class' => 'custom-sub-menu-wrapper' ) 
-); ?>
+
+
 <div class="global-goals-page">
+<div class="how-we-do-it-nav">
+    <?php wp_nav_menu( array( 'theme_location' => 'how-we-do-it-sub-menu',
+     'items_wrap' => '<ul id="%1$s" class="%2$s mobile-top-nav">%3$s</ul>',
+      'container' => 'div', 'container_class' => 'custom-sub-menu-wrapper' ) 
+    ); ?>  
+</div>  
   <div class="global-goals-hero">
   </div><!--global-goals-hero global-mobile-hero-->
   <div class="sustainability-bar">

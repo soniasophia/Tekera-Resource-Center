@@ -2277,7 +2277,45 @@ object {
 .how-desktop-insert {
   display: none; }
 
+.sponsor-title {
+  padding: 0.5rem 2rem;
+  margin: 0;
+  background: rgba(255, 255, 255, 0.7); }
+  @media screen and (min-width: 640px) and (max-width: 2000px) {
+    .sponsor-title {
+      display: none; } }
+  .sponsor-title a {
+    font-family: 'Open Web';
+    font-weight: bold;
+    font-style: normal;
+    color: #072A3D; }
+
+.how-we-do-it-nav {
+  display: none; }
+
 @media screen and (min-width: 640px) {
+  .how-we-do-it-nav {
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+    -ms-flex-align: center;
+        align-items: center;
+    height: 62px;
+    background: rgba(255, 255, 255, 0.7); }
+    .how-we-do-it-nav ul {
+      padding-top: 1rem;
+      margin-left: 8rem;
+      width: auto; }
+    .how-we-do-it-nav ul li {
+      display: inline;
+      margin: 2rem; }
+    .how-we-do-it-nav a {
+      font-family: 'Open Web';
+      font-weight: normal;
+      font-style: normal;
+      color: #072A3D; }
   .how-we-do-it-page {
     font-size: 1.25rem; }
   .how-hero-wrapper {
@@ -2689,6 +2727,22 @@ object {
       font-family: 'Open Web';
       font-weight: 100;
       font-style: normal; } }
+
+.transparency-title-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  height: 62px; }
+
+.transparency-hero {
+  background: url(../../assets/Images/Desktop/global-goals/tekera_global_goals_hover_student_reading.png);
+  height: 35rem;
+  width: 100%;
+  background-size: cover;
+  background-position: center; }
+
+@media screen and (min-width: 640px) {
+  .transparency-title-wrapper {
+    display: none; } }
 
 .page-template-page-getinvolved .banner {
   background: url("../../assets/Images/Mobile/get-involved/tekera_get_involved_current_positions_smiling_woman_.png");

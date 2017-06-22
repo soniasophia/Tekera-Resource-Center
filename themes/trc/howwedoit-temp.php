@@ -1,15 +1,15 @@
 <?php 
 /* Template Name: How We Do It */
 get_header(); 
-get_the_title();
 ?>
-<div class="how-we-do-it-nav">
+ 
+<div class="how-we-do-it-page">
+  <div class="how-we-do-it-nav">
   <?php wp_nav_menu( array( 'theme_location' => 'how-we-do-it-sub-menu', 
   'items_wrap' => '<ul id="%1$s" class="%2$s mobile-top-nav">%3$s</ul>', 
   'container' => 'div', 'container_class' => 'custom-sub-menu-wrapper' ) 
   ); ?>
-</div>  
-<div class="how-we-do-it-page">
+</div><!--how-we-do-it-nav--> 
   <div class="how-hero-wrapper">
   </div><!--how-hero-wrapper-->  
   <div class="how-hero-desktop">
