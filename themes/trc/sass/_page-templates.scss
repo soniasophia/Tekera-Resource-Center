@@ -486,36 +486,16 @@
     margin: 0;
     background: $color_brand-white-transparent;
 
-    h1 {
+    a {
       @include font-open-bold;
       color: $color_brand-blue-dark;
     }
   }
 
   .dropdown-arrow {
-	  position: relative;
-  }
-
-  .dropdown-arrow:after, .dropdown-arrow:before {
-	  top: 35%;
-	  left: 45%;
-	  border: solid transparent;
-	  content: " ";
-	  height: 0;
-	  width: 0;
-	  position: absolute;
-  }
-
-  .dropdown-arrow:after {
-	  border-top-color: hsla(0,0%,100%,.7);
-	  border-width: 11px;
-	  margin-left: -11px;
-  }
-
-  .dropdown-arrow:before {
-	  border-top-color: #072a3d;
-	  border-width: 20px;
-	  margin-left: -20px;
+    position: absolute;
+    left: 13rem;
+    top: 10.4rem;
   }
 
   .content-area {
@@ -1372,12 +1352,22 @@
 /* Get Involved: Sponsor Page */
 
 .page-template-page-sponsor {
+  p {
+    @include font-open-light;
+    line-height: 2.2rem;
+    font-size: 1.1rem;
+  }
+
   .sponsor-title {
     padding: 0.5rem 2rem;
     margin: 0;
     background: $color_brand-white-transparent;
 
-    h1 {
+    @include desktop {
+      display: none;
+    }
+
+    a {
       @include font-open-bold;
       color: $color_brand-blue-dark;
     }
@@ -1400,7 +1390,12 @@
       @include desktop {
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        padding: 0.7rem 0;
+
+        .menu-item-153 {
+          font-size: 1.9rem;
+          @include font-open-bold;
+        }
       }
     }
 
@@ -1421,6 +1416,7 @@
         padding: 0;
         @include font-open-regular;
         text-transform: none;
+        margin-right: 4rem;
       }
     }
 
@@ -1428,5 +1424,19 @@
       color: $color_brand-blue-dark;
     }
   }
+
+  .sponsor-hero {
+    background: url('../../assets/Images/Mobile/get-involved/tekera_get_involved_sponsor_a_classroom_tps_kids_in_class_.png') center center no-repeat;
+    background-size: cover;
+    height: 80vh;
+    margin-bottom: 3rem;
+
+    @include desktop {
+      background: url('../../assets/Images/Desktop/get-involved/tekera_get_involved_sponsor_a_classroom_tps_kids_in_class_.png') center center no-repeat;
+      background-size: cover;
+    }
+  }
 }
+
+
 

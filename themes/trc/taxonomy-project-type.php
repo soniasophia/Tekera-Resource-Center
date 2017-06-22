@@ -5,6 +5,13 @@ get_header(); ?>
 
   <header class="projects-header">
     <div class="project-type-hero">
+<<<<<<< HEAD
+=======
+    
+    	<div class="project-title-container">
+      	<h1 class="projects-title"><a href="#" id="projects-toggle-menu"><?php the_archive_title() ?></a></h1>
+    	</div>
+>>>>>>> Fix dropdown arrow mobile view
 
       <div class="project-title-container">
         <h1 class="projects-title">
