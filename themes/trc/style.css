@@ -2328,7 +2328,7 @@ object {
     background-size: cover;
     display: -ms-flexbox;
     display: flex;
-    height: 30rem;
+    height: 45rem;
     position: relative; }
   .dev-practices {
     text-align: center;
@@ -2524,7 +2524,7 @@ object {
 .global-carousel {
   width: 100%;
   background-color: #EE9825;
-  height: 45rem;
+  height: 100vh;
   margin-bottom: 8rem; }
   .global-carousel .flickity-page-dots {
     display: none; }
@@ -2743,7 +2743,7 @@ object {
 
 .transparency-hero {
   background: url("../../assets/Images/Mobile/global-goals/tekera_global_goals_student_reading.png");
-  height: 35rem;
+  height: 45rem;
   width: 100%;
   background-size: cover;
   background-position: center; }
@@ -2758,7 +2758,7 @@ object {
 
 .our-impact-hero {
   background: url("../../assets/Images/Mobile/global-goals/tekera_global_goals_kids_in_playground_.png");
-  height: 35rem;
+  height: 45rem;
   width: 100%;
   background-size: cover;
   background-position: center; }

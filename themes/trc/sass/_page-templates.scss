@@ -819,7 +819,7 @@
     background-repeat: no-repeat;
     background-size: cover;  
     display: flex;
-    height: 30rem;
+    height: 45rem;
     position: relative;
   }
 
@@ -1011,7 +1011,7 @@
 .global-carousel {
   width: 100%;
   background-color: $color_brand-yellow;
-  height: 45rem;
+  height: 100vh;
   margin-bottom: 8rem;
   .flickity-page-dots {
     display: none;
@@ -1229,7 +1229,7 @@
 
 .transparency-hero {
   background: url('../../assets/Images/Mobile/global-goals/tekera_global_goals_student_reading.png');  
-  height: 35rem;
+  height: 45rem;
   width: 100%;
   background-size: cover;
   background-position: center;
@@ -1251,7 +1251,7 @@
 
 .our-impact-hero {
   background: url('../../assets/Images/Mobile/global-goals/tekera_global_goals_kids_in_playground_.png');  
-  height: 35rem;
+  height: 45rem;
   width: 100%;
   background-size: cover;
   background-position: center;
