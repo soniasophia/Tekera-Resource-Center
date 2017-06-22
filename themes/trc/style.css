@@ -671,11 +671,22 @@ a {
       .main-navigation .menu-nav-bar-container ul li a {
         color: #fff;
         text-transform: uppercase; }
+      .main-navigation .menu-nav-bar-container ul li a.active, .main-navigation .menu-nav-bar-container ul li a:hover, .main-navigation .menu-nav-bar-container ul li a:focus {
+        color: #fff;
+        font-weight: 700;
+        text-decoration: none;
+        padding-bottom: 1rem;
+        border-bottom: 5px solid #EE9825; }
     .main-navigation .menu-nav-bar-container ul li:nth-child(5) {
       border-left: 1px solid #EE9825;
       border-right: qpx solid #EE9825;
       background-color: #EE9825;
       font-weight: 700; }
+      .main-navigation .menu-nav-bar-container ul li:nth-child(5) a.active, .main-navigation .menu-nav-bar-container ul li:nth-child(5) a:hover, .main-navigation .menu-nav-bar-container ul li:nth-child(5) a:focus {
+        font-weight: 700;
+        text-decoration: none;
+        padding-bottom: 1rem;
+        border-bottom: 7px solid #fff; }
 
 div.tekera-triangles img {
   height: 100%; }
@@ -2885,6 +2896,123 @@ object {
     .page-template-page-sponsor .sponsor-hero {
       background: url("../../assets/Images/Desktop/get-involved/tekera_get_involved_sponsor_a_classroom_tps_kids_in_class_.png") center center no-repeat;
       background-size: cover; } }
+.page-template-page-getinvolved .sponsor-title {
+  padding: 0.5rem 2rem;
+  margin: 0;
+  background: rgba(255, 255, 255, 0.7); }
+  @media screen and (min-width: 640px) and (max-width: 2000px) {
+    .page-template-page-getinvolved .sponsor-title {
+      display: none; } }
+  .page-template-page-getinvolved .sponsor-title a {
+    font-family: 'Open Web';
+    font-weight: bold;
+    font-style: normal;
+    color: #072A3D; }
+
+.page-template-page-getinvolved .custom-sub-menu-wrapper {
+  display: none;
+  text-align: center;
+  background: white; }
+  @media screen and (min-width: 640px) and (max-width: 2000px) {
+    .page-template-page-getinvolved .custom-sub-menu-wrapper {
+      display: block;
+      background: rgba(255, 255, 255, 0.7); } }
+  .page-template-page-getinvolved .custom-sub-menu-wrapper ul {
+    width: 80%;
+    margin: 0 auto; }
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
+      .page-template-page-getinvolved .custom-sub-menu-wrapper ul {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+            align-items: center;
+        padding: 0.7rem 0; }
+        .page-template-page-getinvolved .custom-sub-menu-wrapper ul .menu-item-153 {
+          font-size: 1.9rem;
+          font-family: 'Open Web';
+          font-weight: bold;
+          font-style: normal; } }
+  .page-template-page-getinvolved .custom-sub-menu-wrapper li {
+    font-family: 'Open Web';
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    border-bottom: 1px solid #3f3f3f;
+    padding: 1.9rem 0; }
+    .page-template-page-getinvolved .custom-sub-menu-wrapper li:last-child {
+      border-bottom: none; }
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
+      .page-template-page-getinvolved .custom-sub-menu-wrapper li {
+        margin: 0 1rem;
+        border-bottom: none;
+        padding: 0;
+        font-family: 'Open Web';
+        font-weight: normal;
+        font-style: normal;
+        text-transform: none;
+        margin-right: 4rem; } }
+  .page-template-page-getinvolved .custom-sub-menu-wrapper a {
+    color: #072A3D; }
+
+.page-template-page-internship .sponsor-title {
+  padding: 0.5rem 2rem;
+  margin: 0;
+  background: rgba(255, 255, 255, 0.7); }
+  @media screen and (min-width: 640px) and (max-width: 2000px) {
+    .page-template-page-internship .sponsor-title {
+      display: none; } }
+  .page-template-page-internship .sponsor-title a {
+    font-family: 'Open Web';
+    font-weight: bold;
+    font-style: normal;
+    color: #072A3D; }
+
+.page-template-page-internship .custom-sub-menu-wrapper {
+  display: none;
+  text-align: center;
+  background: white; }
+  @media screen and (min-width: 640px) and (max-width: 2000px) {
+    .page-template-page-internship .custom-sub-menu-wrapper {
+      display: block;
+      background: rgba(255, 255, 255, 0.7); } }
+  .page-template-page-internship .custom-sub-menu-wrapper ul {
+    width: 80%;
+    margin: 0 auto; }
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
+      .page-template-page-internship .custom-sub-menu-wrapper ul {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+            align-items: center;
+        padding: 0.7rem 0; }
+        .page-template-page-internship .custom-sub-menu-wrapper ul .menu-item-153 {
+          font-size: 1.9rem;
+          font-family: 'Open Web';
+          font-weight: bold;
+          font-style: normal; } }
+  .page-template-page-internship .custom-sub-menu-wrapper li {
+    font-family: 'Open Web';
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    border-bottom: 1px solid #3f3f3f;
+    padding: 1.9rem 0; }
+    .page-template-page-internship .custom-sub-menu-wrapper li:last-child {
+      border-bottom: none; }
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
+      .page-template-page-internship .custom-sub-menu-wrapper li {
+        margin: 0 1rem;
+        border-bottom: none;
+        padding: 0;
+        font-family: 'Open Web';
+        font-weight: normal;
+        font-style: normal;
+        text-transform: none;
+        margin-right: 4rem; } }
+  .page-template-page-internship .custom-sub-menu-wrapper a {
+    color: #072A3D; }
 
 .who-we-are-page {
   font-family: "Open Web"; }
