@@ -767,10 +767,46 @@
   display: none;
 }
 
+ .sponsor-title {
+    padding: 0.5rem 2rem;
+    margin: 0;
+    background: $color_brand-white-transparent;
+    @include desktop {
+      display: none;
+    }
+    a {
+      @include font-open-bold;
+      color: $color_brand-blue-dark;
+    }
+  }
+
+  .how-we-do-it-nav {
+    display: none;
+  }
+
 @media screen and (min-width: 640px) {
 
   .how-we-do-it-nav {
-    
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    height: 62px;
+    background: hsla(0,0%,100%,.7);
+    ul{
+      padding-top: 1rem;
+      margin-left: 8rem;
+      width: auto;
+    }
+    ul li {
+      display: inline;
+      margin: 2rem;
+    }
+    a {
+      @include font-open-regular;
+      color: $color_brand-blue-dark; 
+      font-size: 1.25rem;           
+    }
   }
 
   .how-we-do-it-page {
@@ -787,7 +823,7 @@
     background-repeat: no-repeat;
     background-size: cover;  
     display: flex;
-    height: 30rem;
+    height: 45rem;
     position: relative;
   }
 
@@ -979,7 +1015,7 @@
 .global-carousel {
   width: 100%;
   background-color: $color_brand-yellow;
-  height: 45rem;
+  height: 100vh;
   margin-bottom: 8rem;
   .flickity-page-dots {
     display: none;
@@ -1182,12 +1218,56 @@
       @include font-open-light;
     }
   }
-
-
-
-
 }
 
+// TRANSPARENCY
+
+.transparency-title-wrapper {
+  @include font-open-bold;
+  color: $color_brand-blue-dark;
+  display: flex;
+  height: 62px;
+  align-items: center;
+  padding-left: 3rem;
+}
+
+.transparency-hero {
+  background: url('../../assets/Images/Mobile/global-goals/tekera_global_goals_student_reading.png');  
+  height: 45rem;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (min-width: 640px) {
+  .transparency-title-wrapper {
+    display: none;
+  }
+
+  .transparency-hero {
+    background: url('../../assets/Images/Desktop/global-goals/tekera_global_goals_hover_student_reading.png');
+    background-size: cover;
+    background-position: center;    
+  }
+}
+
+// OUR IMPACT
+
+.our-impact-hero {
+  background: url('../../assets/Images/Mobile/global-goals/tekera_global_goals_kids_in_playground_.png');  
+  height: 45rem;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (min-width: 640px) {
+  .our-impact-hero {
+    background: url('../../assets/Images/Desktop/global-goals/tekera_global_goals_hover_kids_in_playground_.png');
+    background-size: cover;
+    background-position: center;     
+  }
+}
 
 
 
