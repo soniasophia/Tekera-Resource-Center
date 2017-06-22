@@ -20,7 +20,8 @@ get_the_title();
   </header>
 
   <div class="tab-acord">
-    <ul id="nav">
+    <ul id="tab-nav">
+      <div class="green-line">
       <li><a href="#">Overview</a>
         <section>
           <h2><?php echo CFS()->get( 'title_1' ); ?></h2>
@@ -36,6 +37,7 @@ get_the_title();
           <p><?php echo CFS()->get( 'content_2a' ); ?></p>
           <h2><?php echo CFS()->get( 'title_2b' ); ?></h2>
           <p><?php echo CFS()->get( 'content_2b' ); ?></p>
+          <a class="sponsor-now-button">Sponsor Now</a>
         </section>
       </li>
 
@@ -44,10 +46,11 @@ get_the_title();
           <p></p>
         </section>
       </li>
+      </div>
     </ul>
   </div>
 
-  <div class="sponsor-now-button">
+  
 
 
 
