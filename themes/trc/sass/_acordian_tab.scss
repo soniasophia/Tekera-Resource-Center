@@ -140,18 +140,20 @@ ul#tab-nav {
 }
 
 
-.mobile-dropdown {
+.content-dropdown {
   display: none;
   
   @include desktop {
     display: none;
   }
-
-  .content {
-    display: none;
-  }
 }
 
+.mobile-dropdown .content {
+  display: none;
 
+  &:nth-of-type(1) {
+    display: block;
+  }
+}
 
 

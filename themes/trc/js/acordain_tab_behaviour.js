@@ -1,3 +1,4 @@
+// Tab between CFS content on desktop view
 (function ($) {
     $('.green-line').children('li').first().children('a').addClass('active')
         .next().addClass('is-open').show();
@@ -20,24 +21,27 @@
 })(jQuery);
 
 
-// (function ($){
-// if($('#mobile-dropdown-menu').length) {
-//   $('#mobile-dropdown-menu').click(function (event) {
-//     event.preventDefault();
-//     $('.mobile-dropdown').toggle();
-//   });
-// }
-// })(jQuery);
+// Toggles dropdown for CFS content on mobile view
+(function ($){
+  if($('#mobile-dropdown-menu').length) {
+    var showFirst = function() {
+      $('.content').first().show();
+    } 
+    showFirst();
+    $('#mobile-dropdown-menu').click(function (event) {
+      event.preventDefault();
+      $('.content-dropdown').toggle();
+    });
+
+  $('.mobile-content-toggle').on('click', function(event) {
+    event.preventDefault();
+    var menu = $(this).attr('id');
+    var menuClass = '.mobile-dropdown .' + menu;
+  $('.mobile-dropdown .content').hide();
+  $(menuClass).show();
+  $('.content-dropdown').toggle();
+  });
+  }
+})(jQuery);
 
 
-// (function ($) {
-//   $('.option-1').on('click', function(event) {
-//     event.preventDefault();
-//     var menu = $(this).attr('id');
-//     console.log(menu);
-//     var menuClass = '.mobile-dropdown .content .' + menu;
-//   $('.mobile-dropdown .content').hide();
-//   $(menuClass).show();
-//   console.log(menuClass);
-// });
-// })(jQuery);

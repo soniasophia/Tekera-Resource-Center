@@ -3765,10 +3765,13 @@ ul#tab-nav {
     position: relative;
     left: 0; } }
 
-.mobile-dropdown {
+.content-dropdown {
   display: none; }
   @media screen and (min-width: 640px) and (max-width: 2000px) {
-    .mobile-dropdown {
+    .content-dropdown {
       display: none; } }
-  .mobile-dropdown .content {
-    display: none; }
+
+.mobile-dropdown .content {
+  display: none; }
+  .mobile-dropdown .content:nth-of-type(1) {
+    display: block; }
