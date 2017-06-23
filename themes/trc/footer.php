@@ -8,7 +8,6 @@
 ?>
 
 			</div><!-- #content -->
-
 			<footer id="colophon" class="site-footer" role="contentinfo">
         <div class="footer-main-wrapper">
 					<div class="footer-top">
@@ -27,9 +26,9 @@
 					  <div class="social-media-box">
 					  	<h2>follow our stories</h2>
 					  	<div class="footer-box-sub">
-					    	<img src="<?php echo get_template_directory_uri(); ?>/assets/Icons/Desktop/png/Tekera_Icon_Blog.png">
-					  	  <img src="<?php echo get_template_directory_uri(); ?>/assets/Icons/Desktop/png/Tekera_Icon_Facebook.png">
-					  		<img src="<?php echo get_template_directory_uri(); ?>/assets/Icons/Desktop/png/Tekera_Icon_Flickr.png">
+					    	<a href="<?php get_template_directory_uri(); ?>/TRC/blog/"><img src="<?php echo get_template_directory_uri(); ?>/assets/Icons/Desktop/png/Tekera_Icon_Blog.png"></a>
+					  	  <a href="https://www.facebook.com/tekeraresourcecentre/"><img src="<?php echo get_template_directory_uri(); ?>/assets/Icons/Desktop/png/Tekera_Icon_Facebook.png"></a>
+					  		<a href="https://www.flickr.com/photos/tekeracentre/"><img src="<?php echo get_template_directory_uri(); ?>/assets/Icons/Desktop/png/Tekera_Icon_Flickr.png"></a>
 				     	</div><!--footer-box-sub-->	
 	          </div><!--footer-box-->
 					</div><!--footer-top-->	
