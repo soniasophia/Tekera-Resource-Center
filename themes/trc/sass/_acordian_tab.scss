@@ -3,7 +3,6 @@
   display: none;
   flex-direction: column;
   
-
   @include desktop {
     display: inline-block;
     width: 100%;
@@ -26,7 +25,6 @@
 ul#tab-nav {
   padding: 0;
   display: inline-block;
-
 }
 
 #tab-nav li {
@@ -138,6 +136,7 @@ ul#tab-nav {
   }
 }
 
+// Mobile dropdown menu for CFS content
 .content-dropdown {
   display: none;
   

@@ -35,8 +35,8 @@ get_the_title();
             <p><?php echo CFS()->get( 'content_2' ); ?></p>
             <h2><?php echo CFS()->get( 'title_2a' ); ?></h2>
             <p><?php echo CFS()->get( 'content_2a' ); ?></p>
-            <h2><?php echo CFS()->get( 'title_2b' ); ?></h2>
-            <p><?php echo CFS()->get( 'content_2b' ); ?></p>
+            <h2 class="alignment"><?php echo CFS()->get( 'title_2b' ); ?></h2>
+            <p class="alignment"><?php echo CFS()->get( 'content_2b' ); ?></p>
             <a id="sponsor-now-button">Sponsor Now</a>
           </section>
         </li>

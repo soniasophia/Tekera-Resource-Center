@@ -1544,9 +1544,9 @@
     }
   }
 
-  a #sponsor-now-button {
-    background: $color_brand-yellow;
-  }
+ #tab-nav section h2 .alignment {
+   text-align: center;
+ }
 }
 
 // Get Involved: landing page
@@ -1717,6 +1717,7 @@
       width: 50%;
       height: 70%;
       margin-top: 3rem;
+      margin-left: 3rem;
     }
 
     .overview-info{
@@ -1725,6 +1726,8 @@
 
       p{
         width: 45%;
+        padding-top: 3rem;
+        padding-right: 3rem;
       }
     }
   }
