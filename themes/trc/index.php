@@ -20,6 +20,7 @@ get_header(); ?>
 					<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
 				</header>
 			<?php endif; ?>
+
      <div class="blog-main-wrapper"> 
 			<?php /* Start the Loop */ ?>
   
@@ -35,10 +36,12 @@ get_header(); ?>
 				);
 				$posts = new WP_Query( $postArgs ); ?>
 
-      <?php if ( $posts->have_posts() ) : ?>
+    <?php if ( $posts->have_posts() ) : ?>
 			<?php while ( $posts->have_posts() ) : $posts->the_post(); ?>
-<?php $thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' );?>
-    <div class="blog-post-box" style="background-image: url('<?php echo $thumb['0'];?>')">
+
+				<?php $thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' );?>
+
+    	<div class="blog-post-box" style="background-image: url('<?php echo $thumb['0'];?>')">
 			  <div class="blog-title-wrapper">
 				  <a class="blog-hover" href="<?php the_permalink() ?>">
 					  <h3><?php the_title(); ?></h3>
@@ -47,7 +50,7 @@ get_header(); ?>
 				</div><!--blog-title-wrapper-->
       </div><!--blog-post-box-->
 			<?php endwhile; ?>
-<?php endif; ?>
+		<?php endif; ?>
 
 			<?php the_posts_navigation(); ?>
 

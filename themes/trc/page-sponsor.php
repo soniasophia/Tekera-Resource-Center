@@ -29,7 +29,7 @@ get_the_title();
         </section>
       </li>
 
-        <li><a href="#">Sponsor Students & Classrooms</a>
+      <li><a href="#">Sponsor Students & Classrooms</a>
         <section>
           <h2><?php echo CFS()->get( 'title_2' ); ?></h2>
           <p><?php echo CFS()->get( 'content_2' ); ?></p>

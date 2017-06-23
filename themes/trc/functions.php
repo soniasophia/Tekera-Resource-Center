@@ -84,22 +84,28 @@ add_filter( 'stylesheet_uri', 'red_starter_minified_css', 10, 2 );
  */
 function red_starter_scripts() {
 	wp_enqueue_style( 'red-starter-style', get_stylesheet_uri() );
+
 	wp_enqueue_style( 'flickity-cdn-css', 'https://unpkg.com/flickity@2/dist/flickity.min.css' );
 
 	wp_enqueue_script( 'flickity-cdn', 'https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js', array('jquery'), false );
+
 	wp_enqueue_script( 'red-starter-skip-link-focus-fix', get_template_directory_uri() . '/build/js/skip-link-focus-fix.min.js', array(), '20130115', true );
+
 	wp_enqueue_script( 'jquery' );
+
 	wp_enqueue_script( 'more-blog-posts', get_template_directory_uri() . '/build/js/more-blog-posts.min.js', array('jquery'), null, true );
+
 	wp_enqueue_script( 'sub-menu-toggle', get_template_directory_uri() . '/build/js/sub-menu-toggle.min.js', array('jquery'), null, true );
 
   wp_enqueue_script( 'blog-hover-behaviour', get_template_directory_uri() . '/build/js/blog-hover-behaviour.min.js', array('jquery'), null, true );
 
 	wp_enqueue_script( 'hamburger-menu', get_template_directory_uri() . '/build/js/hamburger-menu.min.js', array('jquery'), null, true );
+
   wp_enqueue_script( 'members-popup', get_template_directory_uri() . '/build/js/members-popup.min.js', array('jquery'), null, true );
+
   wp_enqueue_script( 'acordain-tab-behaviour', get_template_directory_uri() . '/build/js/acordain_tab_behaviour.min.js', array('jquery'), null, true );
 
 	wp_enqueue_script( 'menu-underline', get_template_directory_uri() . '/build/js/menu-underline.min.js', array('jquery'), null, true );
-
 
   wp_enqueue_script( 'members-popup', get_template_directory_uri() . '/js/members-popup.js', array('jquery'), null, true );
 

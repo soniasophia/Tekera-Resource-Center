@@ -4,7 +4,7 @@ get_header();
 get_the_title();
 ?>
 
-    <?php wp_nav_menu( array( 'theme_location' => 'get-involved-sub-menu', 'items_wrap' => '<ul id="%1$s" class="%2$s mobile-top-nav">%3$s</ul>', 'container' => 'div', 'container_class' => 'custom-sub-menu-wrapper' ) ); ?>  
+  <?php wp_nav_menu( array( 'theme_location' => 'get-involved-sub-menu', 'items_wrap' => '<ul id="%1$s" class="%2$s mobile-top-nav">%3$s</ul>', 'container' => 'div', 'container_class' => 'custom-sub-menu-wrapper' ) ); ?>  
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
@@ -17,10 +17,7 @@ get_the_title();
       </h1>
     </div>
 
-
-
       <div class = "banner"> </div>
-
       <div class = "overview-container">
         <div class = "overview-container-inner">
           <h1> overview </h1>
