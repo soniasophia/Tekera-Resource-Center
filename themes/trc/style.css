@@ -3002,8 +3002,28 @@ object {
       background: url("../../assets/Images/Desktop/get-involved/tekera_get_involved_sponsor_a_classroom_tps_kids_in_class_.png") center center no-repeat;
       background-size: cover; } }
 
-.page-template-page-sponsor #tab-nav section h2 .alignment {
+.page-template-page-sponsor #tab-nav section .alignment {
   text-align: center; }
+
+.page-template-page-sponsor #tab-nav section .sponsor-price {
+  font-family: 'Open Web';
+  font-weight: bold;
+  font-style: normal;
+  margin: 0 4rem; }
+
+.page-template-page-sponsor #tab-nav section .class-type {
+  text-align: left; }
+
+.page-template-page-sponsor #tab-nav section #sponsor-now-button {
+  background: #EE9825;
+  border-right: none;
+  border-left: none;
+  height: 50px;
+  width: 200px;
+  padding: 0;
+  padding-top: 0.5rem; }
+  .page-template-page-sponsor #tab-nav section #sponsor-now-button:hover {
+    border-bottom: none; }
 
 .page-template-page-getinvolved .sponsor-title {
   padding: 0.5rem 2rem;
@@ -3165,6 +3185,85 @@ object {
       width: 45%;
       padding-top: 3rem;
       padding-right: 3rem; }
+
+.page-template-page-internship li:nth-child(2) h2 {
+  color: #072A3D;
+  font-size: 36px;
+  line-height: 49px;
+  font-weight: 700; }
+
+.page-template-page-internship .job-post {
+  display: -ms-flexbox;
+  display: flex;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto; }
+  .page-template-page-internship .job-post .job-title {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    width: 200px;
+    color: #20ACAF;
+    font-size: 24px;
+    line-height: 33px;
+    font-weight: 700; }
+  .page-template-page-internship .job-post .entry-content {
+    -ms-flex-preferred-size: 60%;
+        flex-basis: 60%;
+    margin-top: 0;
+    color: #4A4A4A;
+    font-size: 20px;
+    line-height: 34px; }
+  .page-template-page-internship .job-post .button {
+    background-color: #ee9825;
+    color: #fff;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    border: none;
+    width: 253px;
+    height: 55px;
+    font-size: 20px;
+    line-height: 33px;
+    font-weight: 700;
+    box-shadow: none;
+    text-shadow: none;
+    text-transform: uppercase; }
+
+.page-template-page-internship .job-post:nth-child(2) {
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #e1e1e1; }
+
+.page-template-page-internship .job-post:nth-child(3) {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #e1e1e1; }
+
+.page-template-page-internship .job-post:nth-child(4) {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #e1e1e1; }
+
+.page-template-page-internship .job-info p {
+  color: #072A3D;
+  font-size: 24px;
+  line-height: 33px;
+  font-weight: 700;
+  text-align: center; }
+
+.page-template-page-internship .job-info .button {
+  background-color: #ee9825;
+  color: #fff;
+  border: none;
+  width: 253px;
+  height: 55px;
+  font-size: 20px;
+  line-height: 33px;
+  font-weight: 700;
+  box-shadow: none;
+  text-shadow: none;
+  text-transform: uppercase; }
 
 .who-we-are-page {
   font-family: "Open Web"; }
