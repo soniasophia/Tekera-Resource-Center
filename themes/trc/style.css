@@ -1084,7 +1084,8 @@ div.tekera-triangles img {
             order: 4;
         background: url("../../assets/Icons/Desktop/png/Tekera_Icon_Education.png");
         background-position: top;
-        background-repeat: no-repeat; } }
+        background-repeat: no-repeat;
+        margin: 0 3rem; } }
     .site-main .programs-info .icons-container .icons-wrapper:nth-child(1) p {
       margin-top: 8rem;
       width: 160px; }
@@ -1102,7 +1103,8 @@ div.tekera-triangles img {
             order: 1;
         background: url("../../assets/Icons/Desktop/png/tekera_icon_farming_.png");
         background-position: top;
-        background-repeat: no-repeat; } }
+        background-repeat: no-repeat;
+        margin: 0 3rem; } }
     .site-main .programs-info .icons-container .icons-wrapper:nth-child(2) p {
       margin-top: 8rem;
       width: 160px; }
@@ -1120,7 +1122,8 @@ div.tekera-triangles img {
             order: 2;
         background: url("../../assets/Icons/Desktop/png/Tekera_Icon_Clinic.png");
         background-position: top;
-        background-repeat: no-repeat; } }
+        background-repeat: no-repeat;
+        margin: 0 3rem; } }
     .site-main .programs-info .icons-container .icons-wrapper:nth-child(3) p {
       margin-top: 8rem;
       width: 160px; }
@@ -1138,7 +1141,8 @@ div.tekera-triangles img {
             order: 6;
         background: url("../../assets/Icons/Desktop/png/Tekera_Icon_Economic.png");
         background-position: top;
-        background-repeat: no-repeat; } }
+        background-repeat: no-repeat;
+        margin: 0 3rem; } }
     .site-main .programs-info .icons-container .icons-wrapper:nth-child(4) p {
       margin-top: 8rem;
       width: 160px; }
@@ -1156,7 +1160,8 @@ div.tekera-triangles img {
             order: 3;
         background: url("../../assets/Icons/Desktop/png/tekera_icon_women_empowerment.png");
         background-position: top;
-        background-repeat: no-repeat; } }
+        background-repeat: no-repeat;
+        margin: 0 3rem; } }
     .site-main .programs-info .icons-container .icons-wrapper:nth-child(5) p {
       margin-top: 8rem;
       width: 160px; }
@@ -1174,7 +1179,8 @@ div.tekera-triangles img {
             order: 5;
         background: url("../../assets/Icons/Desktop/png/Tekera_Icon_Community.png");
         background-position: top;
-        background-repeat: no-repeat; } }
+        background-repeat: no-repeat;
+        margin: 0 3rem; } }
     .site-main .programs-info .icons-container .icons-wrapper:nth-child(6) p {
       margin-top: 8rem;
       width: 160px; }
@@ -1195,7 +1201,10 @@ div.tekera-triangles img {
       .site-main .programs-info .icons-container .icons-text {
         background: url("../../assets/Icons/Desktop/Desktop_10000ppl.png");
         background-repeat: no-repeat;
+        background-position: center;
+        margin-top: 2rem;
         width: 90%;
+        min-width: 700px;
         -ms-flex-order: 3;
             order: 3; } }
 
