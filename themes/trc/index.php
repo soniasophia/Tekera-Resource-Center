@@ -60,7 +60,7 @@ get_header(); ?>
 
 		<?php endif; ?>
     <div class="more-blogs-button more-blogs-button-mobile">
-			<a href="<?php next_posts_link('Load More') ?>"><h2>load more</h2></a>
+			<button class="more-blogs-button-click"><h2>load more</h2></button>
 		</div>	
 		</div><!--blog-main-wrapper-->
 		</main><!-- #main -->
