@@ -22,7 +22,7 @@ To use HTML/CSS/JavaScript/ and PHP to create a dynamice WordPress theme which a
 ..* ES Lint
 * GitHub
 
-##The Team
+## The Team
 * Kelvin
 * Trevor
 * Sonia
