@@ -18,7 +18,7 @@ get_header();
   </div><!--how-hero-desktop-->
 
   <div class="our-model-content-wrapper">
-    <h2>our model</h2>
+    <h2 id="holistic">our model</h2>
     <p>We use a variety of approaches to ensure our development practice is:</p>
 
     <section class="dev-practices">
