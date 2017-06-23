@@ -1613,14 +1613,47 @@
 //Get Invloved: Internship page
 
 .page-template-page-internship{
+  .sponsor-hero{
+    background: url('../../assets/Images/Mobile/get-involved/tekera_get_involved_intern_application_2_reading_a_book_for_kids.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+
+    @include desktop{
+      background: url('../../assets/Images/Desktop/get-involved/tekera_get_invloved_intern_application_internship_program.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  }
+}
+
+.page-template-page-internship{
+  .project-title-container{
+    display: flex;
+    background: $color_brand-white-transparent;
+      @include desktop {
+        display: none;
+      }
+
+    img{
+      order: 1;
+      align-self: center;
+    }
+  }
+}
+
+.page-template-page-internship{
 
   .sponsor-title {
     padding: 0.5rem 2rem;
     margin: 0;
-    background: $color_brand-white-transparent;
-    @include desktop {
-      display: none;
-    }
+    // background: $color_brand-white-transparent;
+    // @include desktop {
+    //   display: none;
+    // }
     a {
       @include font-open-bold;
       color: $color_brand-blue-dark;
@@ -1673,19 +1706,25 @@
 }
 
 .page-template-page-internship{
-  .site-content{
-    background: url('../../assets/Images/Mobile/get-involved/tekera_get_involved_intern_application_2_reading_a_book_for_kids.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 100vh;
+  .is-open{
+    display: flex;
 
-    @include desktop{
-      background: url('../../assets/Images/Desktop/get-involved/tekera_get_invloved_intern_application_internship_program.png');
-      background-size: cover;
-      background-position: center;
+    .overview-image{
+      background-position: top;
+      background-size: contain;
       background-repeat: no-repeat;
+      width: 50%;
+      height: 70%;
+      margin-top: 3rem;
+    }
+
+    .overview-info{
+      width: 50%;
+      margin-top: 3rem;
+
+      p{
+        width: 45%;
+      }
     }
   }
 }
