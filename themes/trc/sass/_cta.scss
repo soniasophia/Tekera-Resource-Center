@@ -46,6 +46,7 @@
         margin-right: 40px;
       }
       h2 {
+        color: white;
         width: 40%;
         margin: auto;
         font-family: "Shadows Into Light Web";
@@ -69,17 +70,17 @@
         }
       }
       .button-get-involved {
+        padding: 12px 20px;
         @include desktop {
           text-align: center;
+          padding: 15px 40px;
         }
         a {
           color: white;
           font-weight: bold;
           font-size: 1.25rem;
-          padding: 12px 20px;
-          background-color: orange;
+          background-color: $color_brand-yellow;
           @include desktop {
-            padding: 15px 40px
           }
         }
       }
