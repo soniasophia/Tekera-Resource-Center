@@ -3156,12 +3156,15 @@ object {
     background-repeat: no-repeat;
     width: 50%;
     height: 70%;
-    margin-top: 3rem; }
+    margin-top: 3rem;
+    margin-left: 3rem; }
   .page-template-page-internship .is-open .overview-info {
     width: 50%;
     margin-top: 3rem; }
     .page-template-page-internship .is-open .overview-info p {
-      width: 45%; }
+      width: 45%;
+      padding-top: 3rem;
+      padding-right: 3rem; }
 
 .who-we-are-page {
   font-family: "Open Web"; }
