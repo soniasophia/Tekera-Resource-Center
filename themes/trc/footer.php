@@ -13,16 +13,16 @@
         <div class="footer-main-wrapper">
 					<div class="footer-top">
 					  <div class="footer-box" id="who">
-					  	<h2><a href="">who we are</a></h2>
-					  	<p><a href="">Our Values</a></p>
-					  	<p class="hider"><a href="">Our History</a></p>
+					  	<h2><a href="<?php get_template_directory_uri(); ?>/TRC/who-we-are">who we are</a></h2>
+					  	<p><a href="<?php get_template_directory_uri(); ?>/TRC/who-we-are/our-values">Our Values</a></p>
+					  	<p class="hider"><a href="<?php get_template_directory_uri(); ?>/TRC/who-we-are/our-history">Our History</a></p>
 					    <p class="hider"><a href="">Our Members</a></p>
 					  </div><!--footer-box-->	
 					  <div class="footer-box" id="how">
-					  	<h2><a href="">how we do it</a></h2>
-					  	<p><a href="">Holistic Approach</a></p>
-					  	<p class="hider"><a href="">The 'Tekera Pesos'</a></p>
-					  	<p><a href="">Transparency</a></p>
+					  	<h2><a href="<?php get_template_directory_uri(); ?>/TRC/how-we-do-it">how we do it</a></h2>
+					  	<p><a href="<?php get_template_directory_uri(); ?>/TRC/how-we-do-it#holistic">Holistic Approach</a></p>
+					  	<p class="hider"><a href="<?php get_template_directory_uri(); ?>/TRC/how-we-do-it#pesos">The 'Tekera Pesos'</a></p>
+					  	<p><a href="<?php get_template_directory_uri(); ?>/TRC/how-we-do-it/transparency">Transparency</a></p>
 					  </div><!--footer-box-->	
 					  <div class="social-media-box">
 					  	<h2>follow our stories</h2>
@@ -35,22 +35,22 @@
 					</div><!--footer-top-->	
 					<div class="footer-bottom">
 					  <div id="what" class="footer-box">
-              <h2><a href="">what we do</a></h2>
-					  	<p class="hider"><a href="">Education</a></p>
-					  	<p class="hider"><a href="">Co-Operative Farm</a></p>
-					  	<p class="hider"><a href="">Healthcare</a></p>
-					  	<p class="hider"><a href="">Community Work</a></p>
-					  	<p class="hider"><a href="">Women Empowerment</a></p>
-					  	<p class="hider"><a href="">Economic Development</a></p>					
+              <h2><a href="<?php get_template_directory_uri(); ?>/TRC/projects">what we do</a></h2>
+					  	<p class="hider"><a href="<?php get_template_directory_uri(); ?>/TRC/project-type/education/">Education</a></p>
+					  	<p class="hider"><a href="<?php get_template_directory_uri(); ?>/TRC/project-type/cooperative-farming/">Co-Operative Farm</a></p>
+					  	<p class="hider"><a href="<?php get_template_directory_uri(); ?>/TRC/project-type/healthcare/">Healthcare</a></p>
+					  	<p class="hider"><a href="<?php get_template_directory_uri(); ?>/TRC/project-type/community-work/">Community Work</a></p>
+					  	<p class="hider"><a href="<?php get_template_directory_uri(); ?>/TRC/project-type/women-empowerment/">Women Empowerment</a></p>
+					  	<p class="hider"><a href="<?php get_template_directory_uri(); ?>/TRC/project-type/economic-development/">Economic Development</a></p>					
 					  </div><!--footer-box-->
 						<div class="footer-box" id="get-involved">
-							<h2><a href="">get involved</a></h2>
-							<p><a href="">Sponsor</a></p>
-							<p><a href="">Internship</a></p>
-							<p><a href="">Donate</a></p>
+							<h2><a href="<?php get_template_directory_uri(); ?>/TRC/get-involved">get involved</a></h2>
+							<p><a href="<?php get_template_directory_uri(); ?>/TRC/get-involved/sponsor">Sponsor</a></p>
+							<p><a href="<?php get_template_directory_uri(); ?>/TRC/get-involved/internship">Internship</a></p>
+							<p><a href="<?php get_template_directory_uri(); ?>/TRC/get-involved/donate">Donate</a></p>
 						</div><!--footer-box-->
             <div class="contact-column tablet-hider">
-							<h2><a href="">contact</a></h2>
+							<h2><a href="<?php get_template_directory_uri(); ?>/TRC/contact/">contact</a></h2>
 							<img class="hider" id="uganda-icon" src="<?php echo get_template_directory_uri(); ?>/assets/Icons/Desktop/png/Tekera_Icon_Uganda.png">
               <img class="hider" id="canada-flag" src="<?php echo get_template_directory_uri(); ?>/assets/Icons/Desktop/png/Tekera_Icon_Canda.png">  							
             </div><!--contact-column-->
