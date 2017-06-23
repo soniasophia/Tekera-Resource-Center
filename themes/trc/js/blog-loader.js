@@ -46,7 +46,7 @@ var WORD_API;
          error: function (XMLHttpRequest, textStatus, errorThrown) {
                  console.log(textStatus + errorThrown);
                  alert(
-                   'bacon'
+                   'Oops! There are no additional posts to load!'
                  );
          }        
       })   
