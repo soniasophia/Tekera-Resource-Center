@@ -14,11 +14,14 @@ get_header();
   <div class="transparency-title-wrapper">
     <h1><?php echo get_the_title(); ?></h1>
   </div><!--transparency-title-wrapper--> 
+
   <div class="global-goals-hero">
   </div><!--global-goals-hero global-mobile-hero-->
+
   <div class="sustainability-bar">
     <h2>global sustainability goals</h2>
   </div><!--sunstainability-bar-->    
+
   <div class="global-goals-content-wrapper">
     <h2>the global goals for sustainability</h2>
     <p>
@@ -35,6 +38,7 @@ get_header();
       generations.      
     </p>    
   </div><!--global-goals-content-wrapper-->  
+
   <div class="compliance-header">
     <p>We currently comply with 
        <span class="compliance-header-bold">
@@ -44,16 +48,20 @@ get_header();
        to us!
     </p>   
   </div><!--compliance-header-->  
+
   <div class="pre-compliance-box">
     <p>
       Check out what we're doing in the SDGs that are related
       to our location!
     </p>  
   </div><!--pre-compliance-box-->  
-  <div class="global-carousel" data-flickity='{ "cellAlign": "left", "contain": true, "wrapAround": true }'>  
-<?php $args = array( 'post_type' => 'SDGs', 'posts_per_page' => 18, 'order' => 'ASC' );
-$loop = new WP_Query( $args );
-while ( $loop->have_posts() ) : $loop->the_post();?>
+
+  <div class="global-carousel" data-flickity='{ "cellAlign": "left", "contain": true, "wrapAround": true }'> 
+
+  <?php $args = array( 'post_type' => 'SDGs', 'posts_per_page' => 18, 'order' => 'ASC' );
+  $loop = new WP_Query( $args );
+
+    while ( $loop->have_posts() ) : $loop->the_post();?>
     <div class="carousel-sub">
       <img src="<?php echo cfs()->get( 'sdg_reversed' ) ?>">
       <h3><?php the_title();?></h3>
@@ -62,20 +70,23 @@ while ( $loop->have_posts() ) : $loop->the_post();?>
         <p>Swipe to see more</p>
       </div><!--carousel-sub-footer-->        
     </div><!--carousel-sub-->
-<?php endwhile; ?>     
+<?php endwhile; ?>    
                                               
   </div><!--global-carousel-->
+
   <div class="goal-items-wrapper">
     <?php $args = array( 'post_type' => 'SDGs', 'posts_per_page' => 18, 'order' => 'ASC' );?>    
     <?php while ( $loop->have_posts() ) : $loop->the_post();?>
-    <?php the_post_thumbnail(); ?>  
-    <div class="goal-item-content-expanded">
-      <h3><?php the_title();?></h3>
-      <h1 class="close-button">X</h1>
-      <p><?php the_content();?></p>      
-    </div><!--goal-item-content-->       
+      <?php the_post_thumbnail(); ?>  
+
+      <div class="goal-item-content-expanded">
+        <h3><?php the_title();?></h3>
+        <h1 class="close-button">X</h1>
+        <p><?php the_content();?></p>      
+      </div><!--goal-item-content-->       
     <?php endwhile; ?>
   </div><!--global-items-wrapper-->  
+  
   <div class="global-goals-triangle-banner">
     <div class="global-triangle-overlay">
       <h2>You Can be part of the change!</h2>

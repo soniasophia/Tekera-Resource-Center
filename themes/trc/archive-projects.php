@@ -53,12 +53,14 @@ get_header(); ?>
                 <img src="<?php echo get_template_directory_uri() ?>/assets/Icons/Desktop/svg/tekera_icon_<?php echo $project_type->slug ?>.svg " alt="<p><?php echo $term->name; ?></p>">
               </div>
             </div>
+
               <div class="project-info">
                 <p class="project-description"><?php echo $project_type->description; ?></p>
                 <div class="learn-more-button">
                   <a class="learn-more" href="<?php echo get_term_link($project_type); ?>">Learn More</a>
                 </div>
               </div>
+              
               <div class="border-bottom"></div>
           </li>
           <?php endforeach; ?>

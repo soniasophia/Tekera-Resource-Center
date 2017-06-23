@@ -10,7 +10,7 @@ get_the_title();
     
     	<div class="project-title-container">
         <img id="projects-toggle-menu" class="dropdown-arrow" src="<?php echo get_template_directory_uri();?>/assets/Icons/Mobile/Mobile_png/tekera_mobile_icon_arrow_down_dark_teal.png">
-      
+
       	<h1 class="sponsor-title"><?php the_title() ?></h1>
     	</div>
 
@@ -32,11 +32,9 @@ get_the_title();
         <section>
           <h2><?php echo CFS()->get( 'title_2' ); ?></h2>
 
-
           <p>Don't see a position that fits your experience? We are always on the look out for new talent. Feek free to submit an application form describing the expertise you could bring to TRC. </p>
 
           <!--<button type = "button" class = "button"> Apply Now </button>-->
-
         </section>
       </li>
 

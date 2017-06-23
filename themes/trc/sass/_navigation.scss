@@ -800,6 +800,7 @@ div.tekera-triangles{
 						background: url('../../assets/Icons/Desktop/png/Tekera_Icon_Education.png');
 						background-position: top;
 						background-repeat: no-repeat;
+						margin: 0 3rem;
 					}
 
 					p{
@@ -823,6 +824,7 @@ div.tekera-triangles{
 						background: url('../../assets/Icons/Desktop/png/tekera_icon_farming_.png');
 						background-position: top;
 						background-repeat: no-repeat;
+						margin: 0 3rem;
 					}
 
 					p{
@@ -847,6 +849,7 @@ div.tekera-triangles{
 						background: url('../../assets/Icons/Desktop/png/Tekera_Icon_Clinic.png');
 						background-position: top;
 						background-repeat: no-repeat;
+						margin: 0 3rem;
 					}
 
 					p{
@@ -870,6 +873,7 @@ div.tekera-triangles{
 						background: url('../../assets/Icons/Desktop/png/Tekera_Icon_Economic.png');
 						background-position: top;
 						background-repeat: no-repeat;
+						margin: 0 3rem;
 					}
 
 					p{
@@ -893,6 +897,7 @@ div.tekera-triangles{
 						background: url('../../assets/Icons/Desktop/png/tekera_icon_women_empowerment.png');
 						background-position: top;
 						background-repeat: no-repeat;
+						margin: 0 3rem;
 					}
 
 					p{
@@ -916,6 +921,7 @@ div.tekera-triangles{
 						background: url('../../assets/Icons/Desktop/png/Tekera_Icon_Community.png');
 						background-position: top;
 						background-repeat: no-repeat;
+						margin: 0 3rem;
 					}
 
 					p{
@@ -928,10 +934,6 @@ div.tekera-triangles{
 				}
 			}
 
-				// img{
-				// 	display: flex;
-				// 	margin: 0 auto;
-				// }
 			
 			.icons-wrapper{
 				p{
@@ -952,7 +954,10 @@ div.tekera-triangles{
 				@include desktop{
 					background: url('../../assets/Icons/Desktop/Desktop_10000ppl.png');
 					background-repeat: no-repeat;
+					background-position: center;
+					margin-top: 2rem;
 					width: 90%;
+					min-width: 700px;
 					order: 3;
 				}
 			}
