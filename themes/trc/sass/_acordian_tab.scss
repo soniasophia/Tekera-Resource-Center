@@ -138,3 +138,20 @@ ul#tab-nav {
     left: 0;
   }
 }
+
+
+.mobile-dropdown {
+  display: none;
+  
+  @include desktop {
+    display: none;
+  }
+
+  .content {
+    display: none;
+  }
+}
+
+
+
+
