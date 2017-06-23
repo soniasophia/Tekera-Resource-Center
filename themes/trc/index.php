@@ -59,10 +59,11 @@ get_header(); ?>
 		<?php get_template_part( 'template-parts/content', 'none' ); ?>
 
 		<?php endif; ?>
+
+		</div><!--blog-main-wrapper-->
     <div class="more-blogs-button more-blogs-button-mobile">
 			<button class="more-blogs-button-click"><h2>load more</h2></button>
-		</div>	
-		</div><!--blog-main-wrapper-->
+		</div>			
 		</main><!-- #main -->
 	</div><!-- #primary -->
 <?php get_footer(); ?>
