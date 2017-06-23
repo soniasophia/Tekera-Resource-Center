@@ -3310,6 +3310,7 @@ object {
           text-align: right;
           margin-right: 40px; } }
       #cta #cta-blue #cta-text h2 {
+        color: white;
         width: 40%;
         margin: auto;
         font-family: "Shadows Into Light Web";
@@ -3330,18 +3331,17 @@ object {
           #cta #cta-blue #cta-text p {
             font-size: 1.5rem;
             margin: 60px 0px; } }
-      @media screen and (min-width: 640px) and (max-width: 2000px) {
-        #cta #cta-blue #cta-text .button-get-involved {
-          text-align: center; } }
-      #cta #cta-blue #cta-text .button-get-involved a {
-        color: white;
-        font-weight: bold;
-        font-size: 1.25rem;
-        padding: 12px 20px;
-        background-color: orange; }
+      #cta #cta-blue #cta-text .button-get-involved {
+        padding: 12px 20px; }
         @media screen and (min-width: 640px) and (max-width: 2000px) {
-          #cta #cta-blue #cta-text .button-get-involved a {
+          #cta #cta-blue #cta-text .button-get-involved {
+            text-align: center;
             padding: 15px 40px; } }
+        #cta #cta-blue #cta-text .button-get-involved a {
+          color: white;
+          font-weight: bold;
+          font-size: 1.25rem;
+          background-color: #EE9825; }
 
 .post-type-archive-members {
   margin: auto;
@@ -3532,9 +3532,6 @@ object {
       .page-template-contact-php .hero-banner {
         background: url("../../assets/Images/Desktop/contact/tekera_contact_us_vocational_school.png");
         background-size: cover; } }
-  @media screen and (min-width: 640px) and (max-width: 2000px) {
-    .page-template-contact-php {
-      text-align: right; } }
   .page-template-contact-php iframe {
     height: 86.7vw; }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
@@ -3630,14 +3627,14 @@ object {
       font-size: 1.1rem;
       text-transform: uppercase; }
   @media screen and (min-width: 640px) and (max-width: 2000px) {
-    .page-template-contact-php #wpcf7-f106-p74-o1 {
+    .page-template-contact-php #wpcf7-f114-p74-o1 {
       display: none; } }
-  .page-template-contact-php #wpcf7-f106-p74-o2 {
+  .page-template-contact-php #wpcf7-f113-p74-o2 {
     display: none; }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
-      .page-template-contact-php #wpcf7-f106-p74-o2 {
+      .page-template-contact-php #wpcf7-f113-p74-o2 {
         display: block; } }
-    .page-template-contact-php #wpcf7-f106-p74-o2 form {
+    .page-template-contact-php #wpcf7-f113-p74-o2 form {
       display: -ms-flexbox;
       display: flex;
       -ms-flex-wrap: wrap;
@@ -3645,15 +3642,15 @@ object {
       -ms-flex-pack: distribute;
           justify-content: space-around;
       width: 100%; }
-      .page-template-contact-php #wpcf7-f106-p74-o2 form p:nth-child(8) {
+      .page-template-contact-php #wpcf7-f113-p74-o2 form p:nth-child(8) {
         min-width: 90%; }
-      .page-template-contact-php #wpcf7-f106-p74-o2 form p {
+      .page-template-contact-php #wpcf7-f113-p74-o2 form p {
         min-width: 40%; }
-        .page-template-contact-php #wpcf7-f106-p74-o2 form p .send-button {
+        .page-template-contact-php #wpcf7-f113-p74-o2 form p .send-button {
           height: 50px; }
-        .page-template-contact-php #wpcf7-f106-p74-o2 form p input {
+        .page-template-contact-php #wpcf7-f113-p74-o2 form p input {
           height: 60px; }
-        .page-template-contact-php #wpcf7-f106-p74-o2 form p textarea {
+        .page-template-contact-php #wpcf7-f113-p74-o2 form p textarea {
           height: 150px; }
 
 .green-line {
