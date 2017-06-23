@@ -3002,8 +3002,28 @@ object {
       background: url("../../assets/Images/Desktop/get-involved/tekera_get_involved_sponsor_a_classroom_tps_kids_in_class_.png") center center no-repeat;
       background-size: cover; } }
 
-.page-template-page-sponsor #tab-nav section h2 .alignment {
+.page-template-page-sponsor #tab-nav section .alignment {
   text-align: center; }
+
+.page-template-page-sponsor #tab-nav section .sponsor-price {
+  font-family: 'Open Web';
+  font-weight: bold;
+  font-style: normal;
+  margin: 0 4rem; }
+
+.page-template-page-sponsor #tab-nav section .class-type {
+  text-align: left; }
+
+.page-template-page-sponsor #tab-nav section #sponsor-now-button {
+  background: #EE9825;
+  border-right: none;
+  border-left: none;
+  height: 50px;
+  width: 200px;
+  padding: 0;
+  padding-top: 0.5rem; }
+  .page-template-page-sponsor #tab-nav section #sponsor-now-button:hover {
+    border-bottom: none; }
 
 .page-template-page-getinvolved .sponsor-title {
   padding: 0.5rem 2rem;

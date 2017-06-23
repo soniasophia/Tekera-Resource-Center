@@ -1544,9 +1544,34 @@
     }
   }
 
- #tab-nav section h2 .alignment {
-   text-align: center;
- }
+ #tab-nav section {
+   .alignment {
+    text-align: center;
+   }
+
+   .sponsor-price {
+     @include font-open-bold;
+     margin: 0 4rem;
+   }
+
+   .class-type {
+     text-align: left;
+   }
+
+   #sponsor-now-button {
+     background: $color_brand-yellow;
+     border-right: none;
+     border-left: none;
+     height: 50px;
+     width: 200px;
+     padding: 0;
+     padding-top: 0.5rem;
+
+     &:hover {
+       border-bottom: none;
+     }
+   }
+ } 
 }
 
 // Get Involved: landing page
