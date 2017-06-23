@@ -87,7 +87,6 @@
 
       .button-get-involved {
         padding: 12px 20px;
-
         @include desktop {
           text-align: center;
           padding: 15px 40px;
@@ -98,7 +97,6 @@
           font-weight: bold;
           font-size: 1.25rem;
           background-color: $color_brand-yellow;
-
           @include desktop {
           }
         }
