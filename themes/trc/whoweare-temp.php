@@ -59,5 +59,7 @@ get_the_title();
       </p>
     </div>
   </div>
-  <?php get_template_part( 'template-parts/cta'); ?>
+  <?php get_template_part( 'template-parts/cta');
+  get_footer();
+  ?>
 </div>
