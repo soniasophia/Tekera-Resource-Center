@@ -37,7 +37,7 @@ get_the_title();
           <p><?php echo CFS()->get( 'content_2a' ); ?></p>
           <h2><?php echo CFS()->get( 'title_2b' ); ?></h2>
           <p><?php echo CFS()->get( 'content_2b' ); ?></p>
-          <a class="sponsor-now-button">Sponsor Now</a>
+          <a id="sponsor-now-button">Sponsor Now</a>
         </section>
       </li>
 
