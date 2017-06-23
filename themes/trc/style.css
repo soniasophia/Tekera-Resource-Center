@@ -1628,7 +1628,8 @@ object {
   min-width: 100%; }
   .footer-main-wrapper h2 {
     text-transform: uppercase;
-    font-weight: 300; }
+    font-weight: 300;
+    color: #FFF; }
   .footer-main-wrapper p {
     font-size: 1rem; }
 
@@ -1875,7 +1876,7 @@ object {
   bottom: 0;
   height: auto;
   min-height: 40%;
-  background: url("../../assets/Images/Desktop/Tekera_DESKTOP_TriangleOverlay_Right.png");
+  background: url("../../assets/Triangles/desktop_triangle_right.png");
   background-position: center;
   background-size: cover;
   text-decoration: none;
