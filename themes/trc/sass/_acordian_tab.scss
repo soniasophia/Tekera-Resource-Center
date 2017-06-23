@@ -139,7 +139,6 @@ ul#tab-nav {
   }
 }
 
-
 .content-dropdown {
   display: none;
   
@@ -150,10 +149,6 @@ ul#tab-nav {
 
 .mobile-dropdown .content {
   display: none;
-
-  &:nth-of-type(1) {
-    display: block;
-  }
 }
 
 
