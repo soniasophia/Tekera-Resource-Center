@@ -3704,7 +3704,7 @@ ul#tab-nav {
     #tab-nav li a {
       vertical-align: middle;
       padding: 2rem 1rem;
-      width: 270px;
+      width: 350px;
       height: 100px;
       border-right: 1px solid #20ACAF;
       border-left: 1px solid #20ACAF; } }
@@ -3770,6 +3770,10 @@ ul#tab-nav {
   @media screen and (min-width: 640px) and (max-width: 2000px) {
     .content-dropdown {
       display: none; } }
+
+@media screen and (min-width: 640px) and (max-width: 2000px) {
+  .mobile-dropdown, .fund-project {
+    display: none; } }
 
 .mobile-dropdown .content {
   display: none; }
