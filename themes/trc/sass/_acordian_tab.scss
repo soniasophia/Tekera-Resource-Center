@@ -189,6 +189,10 @@ ul#tab-nav {
   padding: 1.3rem;
   position: relative;
 
+  @include desktop {
+    display: none;
+  }
+
   h1 {
     color: white;
     text-transform: uppercase;

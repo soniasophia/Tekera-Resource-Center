@@ -4030,6 +4030,9 @@ ul#tab-nav {
   background: #006E71;
   padding: 1.3rem;
   position: relative; }
+  @media screen and (min-width: 640px) and (max-width: 2000px) {
+    .heading-tab {
+      display: none; } }
   .heading-tab h1 {
     color: white;
     text-transform: uppercase;
