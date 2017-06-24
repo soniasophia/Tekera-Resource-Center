@@ -3310,6 +3310,54 @@ object {
   text-shadow: none;
   text-transform: uppercase; }
 
+.page-template-page-internship li:nth-child(3) .entry-content-page p {
+  color: #072A3D;
+  font-size: 50px;
+  line-height: 81px;
+  padding-left: 2rem;
+  font-family: 'Shadows Into Light Web'; }
+
+.page-template-page-internship li:nth-child(3) .entry-content-page form p {
+  color: #3B3B3B;
+  font-size: 30px;
+  line-height: 41px;
+  font-family: 'Open Sans'; }
+
+.page-template-page-internship li:nth-child(3) .entry-content-page form p:nth-child(4) {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 41px;
+  color: #072A3D; }
+
+.page-template-page-internship li:nth-child(3) .entry-content-page form p:nth-child(5) {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 41px;
+  color: #072A3D; }
+
+.page-template-page-internship li:nth-child(3) .entry-content-page form p:nth-child(6) {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 41px;
+  color: #072A3D; }
+
+.page-template-page-internship li:nth-child(3) .entry-content-page form p:nth-child(7) {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 41px;
+  color: #072A3D; }
+
+.page-template-page-internship li:nth-child(3) .entry-content-page form p:nth-child(8) {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 41px;
+  color: #072A3D; }
+  .page-template-page-internship li:nth-child(3) .entry-content-page form p:nth-child(8) span {
+    color: #3B3B3B;
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 41px; }
+
 .who-we-are-page {
   font-family: "Open Web"; }
   .who-we-are-page .herobanner {
