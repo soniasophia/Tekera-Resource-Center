@@ -45,7 +45,7 @@ get_header(); ?>
 			  <div class="blog-title-wrapper">
 				  <a class="blog-hover" href="<?php the_permalink() ?>">
 					  <h3><?php the_title(); ?></h3>
-					  <p><?php short_excerpt(get_the_excerpt()); ?>....</p>
+					  <p><?php short_excerpt(get_the_excerpt()); ?>[....]</p>
 					</a>
 				</div><!--blog-title-wrapper-->
       </div><!--blog-post-box-->

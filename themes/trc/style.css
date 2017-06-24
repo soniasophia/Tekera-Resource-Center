@@ -1921,6 +1921,18 @@ object {
 .breakhide {
   display: none; }
 
+.more-blogs-button-click {
+  border: none;
+  background: transparent;
+  box-shadow: none;
+  outline: none; }
+
+.more-blogs-button-click:hover {
+  border: none;
+  background: transparent;
+  box-shadow: none;
+  outline: none; }
+
 @media screen and (min-width: 640px) {
   .blog-main-wrapper {
     display: -ms-flexbox;
@@ -1930,6 +1942,8 @@ object {
     -ms-flex-pack: justify;
         justify-content: space-between;
     width: 100vw; }
+    .blog-main-wrapper .navigation {
+      display: none; }
   .blog-hero h1 {
     font-size: 6rem; }
   .blog-post-box {

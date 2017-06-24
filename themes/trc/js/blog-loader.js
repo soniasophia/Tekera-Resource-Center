@@ -38,10 +38,12 @@ var WORD_API;
                    + '</h3>'
                    + excerpt
                    + closeDiv;
+                                      
 // Append markup with API attributes to existing blog wrapper                   
           $(bigBox).append(html); 
-          pageNum += 1;
-          }, this);         
+
+        }, this); 
+        pageNum = pageNum + 1;        
         },
          error: function (XMLHttpRequest, textStatus, errorThrown) {
                  console.log(textStatus + errorThrown);

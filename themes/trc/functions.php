@@ -137,7 +137,7 @@ require get_template_directory() . '/inc/extras.php';
 
 
 function short_excerpt($string) {
-echo substr($string, 0, 200); 
+echo substr($string, 0, 250); 
 }
 
 /**
