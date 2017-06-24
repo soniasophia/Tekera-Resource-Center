@@ -3400,11 +3400,83 @@ object {
   font-weight: 600;
   line-height: 41px;
   color: #072A3D; }
+  .page-template-page-internship li:nth-child(3) .entry-content-page form p:nth-child(8) label {
+    padding-bottom: 2rem; }
   .page-template-page-internship li:nth-child(3) .entry-content-page form p:nth-child(8) span {
     color: #3B3B3B;
     font-size: 30px;
     font-weight: 100;
     line-height: 41px; }
+
+.page-template-page-internship li:nth-child(3) #test-triangles {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row nowrap;
+      flex-flow: row nowrap;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  width: 100%;
+  height: 5rem;
+  overflow: hidden; }
+  .page-template-page-internship li:nth-child(3) #test-triangles #left-side {
+    background: rgba(32, 172, 175, 0.73);
+    width: 95%;
+    height: 100%; }
+  .page-template-page-internship li:nth-child(3) #test-triangles #right-side {
+    width: 0;
+    height: 0;
+    border-top: 5rem solid transparent;
+    border-bottom: 5rem solid transparent;
+    border-left: 7rem solid var rgba(32, 172, 175, 0.73); }
+
+.page-template-page-internship select#edu-level {
+  width: 500px;
+  height: 50px;
+  margin-right: 3rem;
+  border: 1px solid #072a3d; }
+
+.page-template-page-internship select#work-experience {
+  width: 500px;
+  height: 50px;
+  border: 1px solid #072a3d; }
+
+.page-template-page-internship textarea#ps_1 {
+  border: 1px solid #072a3d;
+  margin-top: 2rem;
+  margin-bottom: 4rem; }
+
+.page-template-page-internship textarea#ps_2 {
+  border: 1px solid #072a3d;
+  margin-top: 2rem;
+  margin-bottom: 4rem; }
+
+.page-template-page-internship textarea#ps_3 {
+  border: 1px solid #072a3d;
+  margin-top: 2rem;
+  margin-bottom: 4rem; }
+
+.page-template-page-internship textarea#ps_4 {
+  border: 1px solid #072a3d;
+  margin-top: 2rem;
+  margin-bottom: 4rem; }
+
+.page-template-page-internship span.wpcf7-list-item {
+  display: block;
+  margin-left: 0; }
+
+.page-template-page-internship input#submit_button.wpcf7-form-control {
+  background-color: #ee9825;
+  border: none;
+  width: 169px;
+  height: 50px;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  box-shadow: none;
+  text-shadow: none; }
 
 .who-we-are-page {
   font-family: "Open Web"; }

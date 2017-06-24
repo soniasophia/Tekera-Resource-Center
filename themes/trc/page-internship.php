@@ -71,8 +71,16 @@ get_the_title();
           <li><a href="#">Application Form</a>
           <section>
           
+            <div id=“test-triangles” >
+              <div id=“left-side”>
+              </div><!--left-side-->
+              <div id=“right-side”>
+              </div><!--right-side-->    
+            </div><!--test-triangles-->
+
             <?php while ( have_posts() ) : the_post(); ?> 
             <div class="entry-content-page">
+              
                 <?php the_content();
                 endwhile ?> <!-- Page Content -->
             </div><!-- .entry-content-page -->

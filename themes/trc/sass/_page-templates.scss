@@ -1953,7 +1953,7 @@
       }
     }
 
-// Style for text
+// Text Styling on application form
 .page-template-page-internship{
     li:nth-child(3){
       .entry-content-page{
@@ -2006,6 +2006,10 @@
             line-height: 41px;
             color: #072A3D;
 
+            label{
+              padding-bottom: 2rem;
+            }
+            
             span{
               color: #3B3B3B;
               font-size: 30px;
@@ -2017,4 +2021,102 @@
         }
       }
     }
+}
+
+// Narrow Triangle overlay images 
+.page-template-page-internship{
+
+  li:nth-child(3){
+      #test-triangles {
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          height: 5rem;
+          overflow: hidden;
+
+      #left-side {
+          background: $color_brand-teal-transparent;
+          width: 95%;
+          height: 100%;
+        }
+        
+      #right-side {
+          width: 0;
+          height: 0;
+          border-top: 5rem solid transparent;
+          border-bottom: 5rem solid transparent;
+          border-left: 7rem solid var $color_brand-teal-transparent;    
+        }
+      }
+    }
+  }
+
+
+// Form Styling 
+
+.page-template-page-internship{
+  select#edu-level{
+    width: 500px;
+    height: 50px;
+    margin-right: 3rem;
+    border: 1px solid #072a3d;
+  }
+  select#work-experience{
+    width: 500px;
+    height: 50px;
+    border: 1px solid #072a3d;
+  }
+}
+
+.page-template-page-internship{
+  textarea#ps_1{
+    border: 1px solid #072a3d;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+  }
+
+  textarea#ps_2{
+    border: 1px solid #072a3d;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+  }
+
+  textarea#ps_3{
+    border: 1px solid #072a3d;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+  }
+
+  textarea#ps_4{
+    border: 1px solid #072a3d;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+  }
+}
+
+
+// Spacing for the last qs 
+.page-template-page-internship{
+  span.wpcf7-list-item{
+    display: block;
+    margin-left: 0;
+  }
+}
+
+//Sumbit button
+.page-template-page-internship{
+  input#submit_button.wpcf7-form-control{
+          background-color: #ee9825;
+          border: none;
+          width: 169px;
+          height: 50px;
+          color: #fff;
+          font-size: 20px;
+          text-transform: uppercase;
+          font-weight: 700;
+          box-shadow: none;
+          text-shadow: none;
+  }
 }
