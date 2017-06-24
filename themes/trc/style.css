@@ -1905,7 +1905,7 @@ object {
   display: flex;
   -ms-flex-pack: center;
       justify-content: center;
-  background: url("../../assets/Images/Mobile/Load More Shape_mobile.png");
+  background: url("../../assets/Images/Mobile/load_more_shape_mobile.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1933,7 +1933,8 @@ object {
   border: none;
   background: transparent;
   box-shadow: none;
-  outline: none; }
+  outline: none;
+  text-transform: uppercase; }
 
 @media screen and (min-width: 640px) {
   .blog-main-wrapper {
@@ -1964,7 +1965,7 @@ object {
     display: flex;
     -ms-flex-pack: center;
         justify-content: center;
-    background: url("../../assets/Images/Desktop/Load More shape_Desktop.png");
+    background: url("../../assets/Images/Desktop/load_more_shape_desktop.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

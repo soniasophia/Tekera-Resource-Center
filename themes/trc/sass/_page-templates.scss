@@ -339,7 +339,7 @@
     align-items: center;
     display: flex;
     justify-content: center;
-    background: url('../../assets/Images/Mobile/Load More Shape_mobile.png');
+    background: url('../../assets/Images/Mobile/load_more_shape_mobile.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -370,6 +370,7 @@
   background: transparent;
   box-shadow: none;
   outline: none;
+  text-transform: uppercase;
 }
 
 
@@ -406,7 +407,7 @@
     align-items: center;
     display: flex;
     justify-content: center;
-    background: url('../../assets/Images/Desktop/Load More shape_Desktop.png');
+    background: url('../../assets/Images/Desktop/load_more_shape_desktop.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
