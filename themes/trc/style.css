@@ -2793,6 +2793,34 @@ object {
   background-size: cover;
   background-position: center; }
 
+.transparency-content-area {
+  font-family: 'Open Web';
+  font-weight: normal;
+  font-style: normal;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column nowrap;
+      flex-flow: column nowrap;
+  -ms-flex-align: center;
+      align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 3rem;
+  text-align: left;
+  font-size: 1.2rem; }
+  .transparency-content-area h1 {
+    width: 90%;
+    text-align: left;
+    color: #20ACAF;
+    text-transform: uppercase; }
+  .transparency-content-area p {
+    font-family: 'Open Web';
+    font-weight: 100;
+    font-style: normal;
+    width: 90%;
+    text-align: left;
+    line-height: 2.2rem; }
+
 @media screen and (min-width: 640px) {
   .transparency-title-wrapper {
     display: none; }

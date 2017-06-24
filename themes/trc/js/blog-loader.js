@@ -7,7 +7,7 @@ var WORD_API;
           var bigBox = '.blog-main-wrapper';
           var smallBoxSub = '';
 
-    $(".more-blogs-button").click(function (event) {
+    $(".more-blogs-button-click").click(function (event) {
       event.preventDefault();
 
 // Pull post data from REST API

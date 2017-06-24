@@ -1264,6 +1264,7 @@
 
 // TRANSPARENCY
 
+
 .transparency-title-wrapper {
   @include font-open-bold;
   color: $color_brand-blue-dark;
@@ -1279,6 +1280,30 @@
   width: 100%;
   background-size: cover;
   background-position: center;
+}
+
+.transparency-content-area {
+  @include font-open-regular;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 3rem;
+  text-align: left;
+  font-size: 1.2rem;
+  h1 {
+    width: 90%;
+    text-align: left;    
+    color: $color_brand-teal;
+    text-transform: uppercase;
+  }
+  p {
+    @include font-open-light;
+    width: 90%;    
+    text-align: left;  
+    line-height: 2.2rem;
+  }
 }
 
 @media screen and (min-width: 640px) {
