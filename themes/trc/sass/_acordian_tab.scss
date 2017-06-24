@@ -170,6 +170,10 @@ ul#tab-nav {
   }
 }
 
+.mobile-dropdown {
+  margin-bottom: 3rem;
+}
+
 .mobile-dropdown, .fund-project {
   @include desktop {
     display: none;

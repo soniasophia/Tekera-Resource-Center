@@ -23,6 +23,7 @@
 
 // Toggles dropdown for CFS content on mobile view
 (function ($){
+  $('.content-dropdown').hide();
   if($('#mobile-dropdown-arrow').length) {
     var showFirst = function() {
       $('.content').first().show();
