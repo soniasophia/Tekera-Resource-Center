@@ -103,6 +103,8 @@ function red_starter_scripts() {
 
   wp_enqueue_script( 'members-popup', get_template_directory_uri() . '/build/js/members-popup.min.js', array('jquery'), null, true );
 
+  wp_enqueue_script( 'blog-loader', get_template_directory_uri() . '/build/js/blog-loader.min.js', array('jquery'), null, true );
+	
   wp_enqueue_script( 'acordain-tab-behaviour', get_template_directory_uri() . '/build/js/acordain_tab_behaviour.min.js', array('jquery'), null, true );
 
 	wp_enqueue_script( 'menu-underline', get_template_directory_uri() . '/build/js/menu-underline.min.js', array('jquery'), null, true );
