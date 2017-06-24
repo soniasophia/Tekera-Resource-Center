@@ -1772,6 +1772,8 @@ object {
     -ms-flex-align: center;
         align-items: center;
     min-height: 60rem; }
+  .footer-box {
+    width: auto; }
   .footer-top {
     -ms-flex-flow: column nowrap;
         flex-flow: column nowrap;
