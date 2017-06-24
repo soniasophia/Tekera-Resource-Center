@@ -26,23 +26,22 @@ get_header(); ?>
       <div class="container">
         <div class="hero-banner">
         </div>
-        <div class="tab-acord">
           
         
-        <ul id="nav">
+
+
+  <div class="tab-acord">
+    <ul id="tab-nav">
+      <div class="green-line">
         <?php while ( have_posts() ) : the_post(); ?>
-
-        
-          <li><a href="#"><?php echo the_title();?></a>
-            <section>
-              <p><?php echo the_content(); ?></p>
-            </section>
-          </li>
-
-          <?php endwhile; ?>
-          </ul>
-          </div>
-
+        <li><a href="#"><?php echo the_title();?></a>
+          <section style="display:flex">
+            <div class = "overview-info">
+              <?php echo the_content(); ?>
+            </div>
+          </section>
+        </li>
+        <?php endwhile; ?>
 
       </div>
     </main>
