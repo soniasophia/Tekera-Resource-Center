@@ -3136,6 +3136,14 @@ object {
   padding: 1rem 1.5rem;
   text-transform: uppercase; }
 
+.page-template-page-sponsor .mobile-dropdown .option2 .sponsor-student {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center; }
+
 .page-template-page-getinvolved .sponsor-title {
   padding: 0.5rem 2rem;
   margin: 0;

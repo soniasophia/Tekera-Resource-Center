@@ -81,9 +81,11 @@ get_the_title();
       <p><?php echo CFS()->get( 'content_2' ); ?></p>
       <h2><?php echo CFS()->get( 'title_2a' ); ?></h2>
       <p><?php echo CFS()->get( 'content_2a' ); ?></p>
-      <h2 class="alignment"><?php echo CFS()->get( 'title_2b' ); ?></h2>
-      <p class="alignment"><?php echo CFS()->get( 'content_2b' ); ?></p>
+      <div class="sponsor-student">
+        <h2 class="alignment"><?php echo CFS()->get( 'title_2b' ); ?></h2>
+        <p class="alignment"><?php echo CFS()->get( 'content_2b' ); ?></p>
         <a href="<?php get_template_directory_uri(); ?>/TRC/contact" id="sponsor-now-button">Sponsor Now</a>
+      </div>
     </div>
 
     <div id="content3" class="option3 content">
