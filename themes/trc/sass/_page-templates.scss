@@ -1842,12 +1842,13 @@
       }
 
       .job-info{
-         p{
+        span p{
           color: #072A3D;
           font-size: 24px;
           line-height: 33px;
           font-weight: 700;
-          text-align: center;
+          // text-align: center;
+          // width: 70%;
         }
 
         .button{

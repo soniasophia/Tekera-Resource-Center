@@ -3257,12 +3257,11 @@ object {
   padding-bottom: 2rem;
   border-bottom: 1px solid #e1e1e1; }
 
-.page-template-page-internship .job-info p {
+.page-template-page-internship .job-info span p {
   color: #072A3D;
   font-size: 24px;
   line-height: 33px;
-  font-weight: 700;
-  text-align: center; }
+  font-weight: 700; }
 
 .page-template-page-internship .job-info .button {
   background-color: #ee9825;
