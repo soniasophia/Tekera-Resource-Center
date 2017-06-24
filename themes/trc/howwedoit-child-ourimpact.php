@@ -29,7 +29,7 @@ get_header();
            future for Ugandans!
         </p>
         <div class="button-get-involved">
-          <a href="">Get Involved</a>
+          <a href="<?php get_template_directory_uri();?>/TRC/get-involved/">Get Involved</a>
         </div><!--button-get-involved-->
       </div><!--cta-text-->
     </div><!--cta-blue-->

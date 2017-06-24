@@ -96,7 +96,7 @@ get_header();
          future for Ugandans!
       </p>
       <div class="button-get-involved">
-        <a href="">get involved</a>
+        <a href="<?php get_template_directory_uri();?>/TRC/get-involved/">get involved</a>
       </div><!--button-get-involved-->      
     </div><!--global-triangle-overlay-->  
   </div><!--global-goals-triangle-banner-->  
