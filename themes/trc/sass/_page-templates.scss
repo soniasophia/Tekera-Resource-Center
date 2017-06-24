@@ -1688,6 +1688,12 @@
       padding: 1rem 1.5rem;
       text-transform: uppercase;
     }
+
+    .sponsor-student {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
   }
  }
 }
