@@ -1571,6 +1571,21 @@
        border-bottom: none;
      }
    }
+
+   .overview-section {
+     @include desktop {
+       display: flex;
+     }
+   }
+
+   .overview-image {
+     @include desktop {
+       width: 40%;
+       margin-left: 5rem;
+       margin-top: 4rem;
+       margin-bottom: 3rem;
+     } 
+   }
  } 
 }
 

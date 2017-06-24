@@ -54,9 +54,9 @@ get_the_title();
     </ul>
   </div>
 
-  <div class="fund-project">
+  <div class="heading-tab">
     <h1>Fund a Project</h1>
-    <img id="mobile-dropdown-menu" class="dropdown-arrow-white" src="<?php echo get_template_directory_uri();?>/assets/Icons/Mobile/Mobile_png/tekera_mobile_icon_arrow_down_dark_teal.png">
+    <img id="mobile-dropdown-arrow" src="<?php echo get_template_directory_uri();?>/assets/Icons/Mobile/Mobile_png/tekera_mobile_icon_arrow_down_white.png">
   </div>
 
   <div class="mobile-dropdown">
