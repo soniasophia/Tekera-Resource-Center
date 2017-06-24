@@ -1656,23 +1656,34 @@
    }
   }
 
- .mobile-dropdown .option2 {
-   .alignment {
-     text-align: center;
+ .mobile-dropdown {
+   .option1.content {
+     width: 100%;
+
+     .overview-content-mobile {
+       width: 70%;
+       margin: 0 auto;
+     }
    }
 
-   .sponsor-price {
-     @include font-open-bold;
-     margin: 0 1rem;
-   }
+   .option2 {
+     .alignment {
+      text-align: center;
+    }
 
-   #sponsor-now-button {
-     background: $color_brand-yellow;
-     color: white;
-     @include font-open-regular;
-     padding: 1rem 1.5rem;
-     text-transform: uppercase;
-   }
+    .sponsor-price {
+      @include font-open-bold;
+      margin: 0 1rem;
+    }
+
+    #sponsor-now-button {
+      background: $color_brand-yellow;
+      color: white;
+      @include font-open-regular;
+      padding: 1rem 1.5rem;
+      text-transform: uppercase;
+    }
+  }
  }
 }
 
