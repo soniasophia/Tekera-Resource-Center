@@ -30,8 +30,8 @@ get_header(); ?>
 					'posts_per_page' => 4,
 					'post_type' => 'post',
 					'tax_query' => array(
-						'taxonomy' => 'category',
-						'field' => 'slug',
+					'taxonomy' => 'category',
+					'field' => 'slug',
 					),
 				);
 				$posts = new WP_Query( $postArgs ); ?>
@@ -62,7 +62,7 @@ get_header(); ?>
 
 		</div><!--blog-main-wrapper-->
     <div class="more-blogs-button more-blogs-button-mobile">
-			<button class="more-blogs-button-click"><h2>load more</h2></button>
+			<button class="more-blogs-button-click">load more</button>
 		</div>			
 		</main><!-- #main -->
 	</div><!-- #primary -->

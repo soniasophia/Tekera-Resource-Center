@@ -9,7 +9,7 @@ var WORD_API;
 
     $(".more-blogs-button-click").click(function (event) {
       event.preventDefault();
-
+      console.log('wtf');
 // Pull post data from REST API
       $.ajax({
         method: 'GET',
@@ -40,7 +40,7 @@ var WORD_API;
                    + closeDiv;
                                       
 // Append markup with API attributes to existing blog wrapper                   
-          $(bigBox).append(html); 
+          $(bigBox).append(html);
 
         }, this); 
         pageNum = pageNum + 1;        
