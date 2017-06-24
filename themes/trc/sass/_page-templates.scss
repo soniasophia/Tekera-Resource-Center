@@ -1613,21 +1613,41 @@
      }
    }
 
-   .overview-section {
-     @include desktop {
-       display: flex;
-     }
+   .overview-content {
+     flex: 0 1 50%;
    }
 
    .overview-image {
-     @include desktop {
-       width: 40%;
-       margin-left: 5rem;
-       margin-top: 4rem;
-       margin-bottom: 3rem;
-     } 
+     object-fit: cover;
+     height: 100%;
    }
- } 
+
+   .overview-image-container {
+     height: 500px;
+     width: 500px;
+     margin-left: 7rem;
+     margin-top: 3rem;
+   }
+  }
+
+ .mobile-dropdown .option2 {
+   .alignment {
+     text-align: center;
+   }
+
+   .sponsor-price {
+     @include font-open-bold;
+     margin: 0 1rem;
+   }
+
+   #sponsor-now-button {
+     background: $color_brand-yellow;
+     color: white;
+     @include font-open-regular;
+     padding: 1rem 1.5rem;
+     text-transform: uppercase;
+   }
+ }
 }
 
 // Get Involved: landing page

@@ -23,8 +23,10 @@ get_the_title();
     <ul id="tab-nav">
       <div class="green-line">
         <li><a href="#">Overview</a>
-          <section class="overview-section">
-            <img class="overview-image" src="<?php echo CFS()->get( 'overview_image' ); ?>"></img>
+          <section class="overview-section" style="display: flex">
+            <div class="overview-image-container">
+              <img class="overview-image" src="<?php echo CFS()->get( 'overview_image' ); ?>"></img>
+            </div>
             <div class="overview-content">
               <h1><?php echo CFS()->get( 'title_1' ); ?></h1>
               <p><?php echo CFS()->get( 'content_1' ); ?></p>
@@ -67,6 +69,7 @@ get_the_title();
     </div>
 
     <div id="content1" class="option1 content">
+      <img class="overview-image" src="<?php echo CFS()->get( 'overview_image' ); ?>"></img>
       <h1><?php echo CFS()->get( 'title_1' ); ?></h1>
       <p><?php echo CFS()->get( 'content_1' ); ?></p>
     </div>
@@ -76,8 +79,9 @@ get_the_title();
       <p><?php echo CFS()->get( 'content_2' ); ?></p>
       <h2><?php echo CFS()->get( 'title_2a' ); ?></h2>
       <p><?php echo CFS()->get( 'content_2a' ); ?></p>
-      <h2><?php echo CFS()->get( 'title_2b' ); ?></h2>
-      <p><?php echo CFS()->get( 'content_2b' ); ?></p>
+      <h2 class="alignment"><?php echo CFS()->get( 'title_2b' ); ?></h2>
+      <p class="alignment"><?php echo CFS()->get( 'content_2b' ); ?></p>
+        <a href="<?php get_template_directory_uri(); ?>/TRC/contact" id="sponsor-now-button">Sponsor Now</a>
     </div>
 
     <div id="content3" class="option3 content">
@@ -85,15 +89,6 @@ get_the_title();
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
   </div>
-
-
-
-
-
-
-
-
-
 
 <?php 
 @include "template-parts/cta.php";
