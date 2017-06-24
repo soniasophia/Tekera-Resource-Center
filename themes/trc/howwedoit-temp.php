@@ -9,11 +9,12 @@ get_header();
     'items_wrap' => '<ul id="%1$s" class="%2$s mobile-top-nav">%3$s</ul>', 
     'container' => 'div', 'container_class' => 'custom-sub-menu-wrapper' ) 
     ); ?>
-</div><!--how-we-do-it-nav--> 
-
+  </div><!--how-we-do-it-nav--> 
+  <div class="how-we-do-it-mobile-header">
+    <h1>Our Approach</h2>
+  </div><!--how-we-do-it-mobile-header-->
   <div class="how-hero-wrapper">
   </div><!--how-hero-wrapper--> 
-
   <div class="how-hero-desktop">
   </div><!--how-hero-desktop-->
 

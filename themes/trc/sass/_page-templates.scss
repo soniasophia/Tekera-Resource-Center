@@ -804,7 +804,25 @@
     display: none;
   }
 
+  .how-we-do-it-mobile-header {
+    @include font-open-regular;
+    color: $color_brand-blue-dark;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    height: 62px;
+    background: hsla(0,0%,100%,.7);  
+    h1 {
+      margin-left: 2rem;
+    }  
+  }
+
 @media screen and (min-width: 640px) {
+
+  .how-we-do-it-mobile-header {
+    display: none;
+  }
 
   .how-we-do-it-nav {
     width: 100%;

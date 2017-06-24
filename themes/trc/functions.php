@@ -113,12 +113,6 @@ function red_starter_scripts() {
 	'api_url' => esc_url_raw( rest_url() )
 ));
 
-  wp_enqueue_script( 'blog-loader', get_template_directory_uri() . '/js/blog-loader.js', array('jquery'), null, true );
-
-  wp_localize_script( 'blog-loader', 'WORD_API', array(
-	'api_url' => esc_url_raw( rest_url() )
-));
-
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
@@ -137,7 +131,7 @@ require get_template_directory() . '/inc/extras.php';
 
 
 function short_excerpt($string) {
-echo substr($string, 0, 250); 
+echo substr($string, 0, 100); 
 }
 
 /**
