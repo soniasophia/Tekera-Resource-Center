@@ -3109,6 +3109,12 @@ object {
   margin-left: 7rem;
   margin-top: 3rem; }
 
+.page-template-page-sponsor .mobile-dropdown .option1.content {
+  width: 100%; }
+  .page-template-page-sponsor .mobile-dropdown .option1.content .overview-content-mobile {
+    width: 70%;
+    margin: 0 auto; }
+
 .page-template-page-sponsor .mobile-dropdown .option2 .alignment {
   text-align: center; }
 

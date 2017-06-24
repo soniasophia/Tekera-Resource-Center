@@ -70,8 +70,10 @@ get_the_title();
 
     <div id="content1" class="option1 content">
       <img class="overview-image" src="<?php echo CFS()->get( 'overview_image' ); ?>"></img>
-      <h1><?php echo CFS()->get( 'title_1' ); ?></h1>
-      <p><?php echo CFS()->get( 'content_1' ); ?></p>
+      <div class="overview-content-mobile">
+        <h1><?php echo CFS()->get( 'title_1' ); ?></h1>
+        <p><?php echo CFS()->get( 'content_1' ); ?></p>
+      </div>
     </div>
 
     <div id="content2" class="option2 content">
