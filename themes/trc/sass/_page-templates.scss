@@ -841,6 +841,7 @@
     align-items: center;
     height: 62px;
     background: hsla(0,0%,100%,.7);
+    z-index: 1000000;
     ul{
       padding-top: 1rem;
       margin-left: 8rem;
@@ -1273,11 +1274,13 @@
 
 .transparency-title-wrapper {
   @include font-open-bold;
+  background: $color_brand-white-transparent;
   color: $color_brand-blue-dark;
   display: flex;
   height: 62px;
   align-items: center;
   padding-left: 3rem;
+  width: 100%;
 }
 
 .transparency-hero {

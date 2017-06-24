@@ -4,18 +4,18 @@ get_header();
 ?>
  
 <div class="how-we-do-it-page">
-  <div class="how-we-do-it-nav">
-    <?php wp_nav_menu( array( 'theme_location' => 'how-we-do-it-sub-menu', 
-    'items_wrap' => '<ul id="%1$s" class="%2$s mobile-top-nav">%3$s</ul>', 
-    'container' => 'div', 'container_class' => 'custom-sub-menu-wrapper' ) 
-    ); ?>
-  </div><!--how-we-do-it-nav--> 
-  <div class="how-we-do-it-mobile-header">
-    <h1>Our Approach</h2>
-  </div><!--how-we-do-it-mobile-header-->
   <div class="how-hero-wrapper">
+    <div class="how-we-do-it-mobile-header">
+      <h1>Our Approach</h2>
+    </div><!--how-we-do-it-mobile-header-->    
   </div><!--how-hero-wrapper--> 
   <div class="how-hero-desktop">
+    <div class="how-we-do-it-nav">
+      <?php wp_nav_menu( array( 'theme_location' => 'how-we-do-it-sub-menu', 
+      'items_wrap' => '<ul id="%1$s" class="%2$s mobile-top-nav">%3$s</ul>', 
+      'container' => 'div', 'container_class' => 'custom-sub-menu-wrapper' ) 
+      ); ?>
+    </div><!--how-we-do-it-nav-->     
   </div><!--how-hero-desktop-->
 
   <div class="our-model-content-wrapper">
