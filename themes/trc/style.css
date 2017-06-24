@@ -3039,6 +3039,18 @@ object {
   .page-template-page-sponsor #tab-nav section #sponsor-now-button:hover {
     border-bottom: none; }
 
+@media screen and (min-width: 640px) and (max-width: 2000px) {
+  .page-template-page-sponsor #tab-nav section .overview-section {
+    display: -ms-flexbox;
+    display: flex; } }
+
+@media screen and (min-width: 640px) and (max-width: 2000px) {
+  .page-template-page-sponsor #tab-nav section .overview-image {
+    width: 40%;
+    margin-left: 5rem;
+    margin-top: 4rem;
+    margin-bottom: 3rem; } }
+
 .page-template-page-getinvolved .sponsor-title {
   padding: 0.5rem 2rem;
   margin: 0;
@@ -3259,12 +3271,11 @@ object {
   padding-bottom: 2rem;
   border-bottom: 1px solid #e1e1e1; }
 
-.page-template-page-internship .job-info p {
+.page-template-page-internship .job-info span p {
   color: #072A3D;
   font-size: 24px;
   line-height: 33px;
-  font-weight: 700;
-  text-align: center; }
+  font-weight: 700; }
 
 .page-template-page-internship .job-info .button {
   background-color: #ee9825;
@@ -3909,10 +3920,36 @@ ul#tab-nav {
     left: 0; } }
 
 .content-dropdown {
-  display: none; }
+  display: none;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  text-align: center; }
   @media screen and (min-width: 640px) and (max-width: 2000px) {
     .content-dropdown {
       display: none; } }
+  .content-dropdown a {
+    text-transform: uppercase;
+    color: white;
+    background: #006E71;
+    border-top: 1px solid #20ACAF;
+    padding: 1.5rem;
+    font-family: 'Open Web';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.1rem; }
+
+.content {
+  width: 70%;
+  margin: 0 auto; }
+  .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
+    color: #20ACAF;
+    text-transform: uppercase;
+    font-size: 1.5rem; }
+
+.mobile-dropdown {
+  margin-bottom: 3rem; }
 
 @media screen and (min-width: 640px) and (max-width: 2000px) {
   .mobile-dropdown, .fund-project {
@@ -3920,3 +3957,20 @@ ul#tab-nav {
 
 .mobile-dropdown .content {
   display: none; }
+
+.heading-tab {
+  background: #006E71;
+  padding: 1.3rem;
+  position: relative; }
+  .heading-tab h1 {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Open Web';
+    font-weight: bold;
+    font-style: normal; }
+  .heading-tab #mobile-dropdown-arrow {
+    position: absolute;
+    top: 45px;
+    right: 55px; }

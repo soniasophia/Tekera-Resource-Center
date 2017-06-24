@@ -23,13 +23,14 @@
 
 // Toggles dropdown for CFS content on mobile view
 (function ($){
-  if($('#mobile-dropdown-menu').length) {
+  $('.content-dropdown').hide();
+  if($('#mobile-dropdown-arrow').length) {
     var showFirst = function() {
       $('.content').first().show();
     } 
     showFirst();
 
-    $('#mobile-dropdown-menu').click(function (event) {
+    $('#mobile-dropdown-arrow').click(function (event) {
       event.preventDefault();
       $('.content-dropdown').toggle();
     });
@@ -38,7 +39,7 @@
     event.preventDefault();
     var menu = $(this).attr('id');
     var menuClass = '.mobile-dropdown .' + menu;
-    
+
   $('.mobile-dropdown .content').hide();
   $(menuClass).show();
   $('.content-dropdown').toggle();

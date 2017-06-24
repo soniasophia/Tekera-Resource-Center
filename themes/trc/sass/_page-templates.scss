@@ -1590,6 +1590,21 @@
        border-bottom: none;
      }
    }
+
+   .overview-section {
+     @include desktop {
+       display: flex;
+     }
+   }
+
+   .overview-image {
+     @include desktop {
+       width: 40%;
+       margin-left: 5rem;
+       margin-top: 4rem;
+       margin-bottom: 3rem;
+     } 
+   }
  } 
 }
 
@@ -1846,12 +1861,13 @@
       }
 
       .job-info{
-         p{
+        span p{
           color: #072A3D;
           font-size: 24px;
           line-height: 33px;
           font-weight: 700;
-          text-align: center;
+          // text-align: center;
+          // width: 70%;
         }
 
         .button{
