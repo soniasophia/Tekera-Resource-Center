@@ -163,10 +163,16 @@ ul#tab-nav {
   width: 70%;
   margin: 0 auto;
 
-  h1, h2, h3, h4, h5, h6 {
+  h1 {
     color: $color_brand-teal;
     text-transform: uppercase;
     font-size: 1.5rem;
+  } 
+  
+  h2, h3, h4, h5, h6 {
+    color: $color_brand-teal;
+    text-transform: uppercase;
+    font-size: 1rem;
   }
 }
 
@@ -188,6 +194,10 @@ ul#tab-nav {
   background: $color_brand-teal-dark;
   padding: 1.3rem;
   position: relative;
+
+  @include desktop {
+    display: none;
+  }
 
   h1 {
     color: white;

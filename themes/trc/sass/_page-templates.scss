@@ -1638,21 +1638,41 @@
      }
    }
 
-   .overview-section {
-     @include desktop {
-       display: flex;
-     }
+   .overview-content {
+     flex: 0 1 50%;
    }
 
    .overview-image {
-     @include desktop {
-       width: 40%;
-       margin-left: 5rem;
-       margin-top: 4rem;
-       margin-bottom: 3rem;
-     } 
+     object-fit: cover;
+     height: 100%;
    }
- } 
+
+   .overview-image-container {
+     height: 500px;
+     width: 500px;
+     margin-left: 7rem;
+     margin-top: 3rem;
+   }
+  }
+
+ .mobile-dropdown .option2 {
+   .alignment {
+     text-align: center;
+   }
+
+   .sponsor-price {
+     @include font-open-bold;
+     margin: 0 1rem;
+   }
+
+   #sponsor-now-button {
+     background: $color_brand-yellow;
+     color: white;
+     @include font-open-regular;
+     padding: 1rem 1.5rem;
+     text-transform: uppercase;
+   }
+ }
 }
 
 // Get Involved: landing page
@@ -1933,3 +1953,68 @@
       }
     }
 
+// Style for text
+.page-template-page-internship{
+    li:nth-child(3){
+      .entry-content-page{
+        p{
+          color: #072A3D;
+          font-size: 50px;
+          line-height: 81px;         
+          padding-left: 2rem;
+          font-family: 'Shadows Into Light Web';
+        }
+        form{
+          p{
+          color: #3B3B3B;
+          font-size: 30px;
+          line-height: 41px;
+          font-family: 'Open Sans';
+          }
+
+          p:nth-child(4){
+            font-size: 30px;
+            font-weight: 600;
+            line-height: 41px;
+            color: #072A3D;
+          }
+
+          p:nth-child(5){
+            font-size: 30px;
+            font-weight: 600;
+            line-height: 41px;
+            color: #072A3D;
+          }
+
+          p:nth-child(6){
+            font-size: 30px;
+            font-weight: 600;
+            line-height: 41px;
+            color: #072A3D;
+          }
+
+          p:nth-child(7){
+            font-size: 30px;
+            font-weight: 600;
+            line-height: 41px;
+            color: #072A3D;
+          }
+
+          p:nth-child(8){
+            font-size: 30px;
+            font-weight: 600;
+            line-height: 41px;
+            color: #072A3D;
+
+            span{
+              color: #3B3B3B;
+              font-size: 30px;
+              font-weight: 100;
+              line-height: 41px;
+            }
+          }
+          
+        }
+      }
+    }
+}

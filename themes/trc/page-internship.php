@@ -59,7 +59,7 @@ get_the_title();
             ?>
 
             <div class = "job-info">
-              <span> '
+              <span> 
                 <p>Don't see a position that fits your experience? We are always on the look out for new talent. Feek free to submit an application form describing the expertise you could bring to TRC. </p> 
               </span>
               <button type = "button" class = "button"> Apply Now </button>
@@ -70,11 +70,12 @@ get_the_title();
 
           <li><a href="#">Application Form</a>
           <section>
-             <?php while ( have_posts() ) : the_post(); ?> <!--Because the_content() works only inside a WP Loop -->
-        <div class="entry-content-page">
-            <?php the_content();
-            endwhile ?> <!-- Page Content -->
-        </div><!-- .entry-content-page -->
+          
+            <?php while ( have_posts() ) : the_post(); ?> 
+            <div class="entry-content-page">
+                <?php the_content();
+                endwhile ?> <!-- Page Content -->
+            </div><!-- .entry-content-page -->
           </section>
         </li>
       </div>
