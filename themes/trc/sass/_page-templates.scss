@@ -359,18 +359,23 @@
 }
 
 .more-blogs-button-click {
+  @include font-open-regular;
   border: none;
   background: transparent;
   box-shadow: none;
+  color: #FFF;
   outline: none;
+  font-size: 1.5rem;
 }
 
 .more-blogs-button-click:hover {
+  color: $color_brand-blue-dark;
   border: none;
   background: transparent;
   box-shadow: none;
   outline: none;
   text-transform: uppercase;
+  font-size: 1.5rem;
 }
 
 

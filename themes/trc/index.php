@@ -40,7 +40,6 @@ get_header(); ?>
 			<?php while ( $posts->have_posts() ) : $posts->the_post(); ?>
 
 				<?php $thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' );?>
-
     	<div class="blog-post-box" style="background-image: url('<?php echo $thumb['0'];?>')">
 			  <div class="blog-title-wrapper">
 				  <a class="blog-hover" href="<?php the_permalink() ?>">
@@ -62,7 +61,7 @@ get_header(); ?>
 
 		</div><!--blog-main-wrapper-->
     <div class="more-blogs-button more-blogs-button-mobile">
-			<button class="more-blogs-button-click">load more</button>
+			<a class="more-blogs-button-click">load more</a>
 		</div>			
 		</main><!-- #main -->
 	</div><!-- #primary -->
