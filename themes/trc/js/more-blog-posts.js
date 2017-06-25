@@ -7,4 +7,4 @@
     autoPlay: true,
     pauseAutoPlayOnHover: false
  });
-})
+})(jQuery);

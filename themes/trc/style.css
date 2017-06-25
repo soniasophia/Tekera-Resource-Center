@@ -2079,25 +2079,21 @@ object {
     .post-type-archive-projects .dropdown-arrow {
       display: none; } }
 
-.post-type-archive-projects .content-area {
-  width: 80%;
-  margin: 0 auto; }
-
 .post-type-archive-projects .overview h2 {
   text-align: center;
   background: #006E71;
   color: white;
-  padding: 1.2rem;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 52rem; }
+  padding: 1.2rem; }
 
 .post-type-archive-projects .overview-text {
-  margin-top: 12rem; }
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem; }
 
 .post-type-archive-projects .projects {
-  margin-top: 5.5rem; }
+  width: 80%;
+  margin: 0 auto; }
   .post-type-archive-projects .projects h2 {
     color: #20ACAF;
     font-weight: bold; }

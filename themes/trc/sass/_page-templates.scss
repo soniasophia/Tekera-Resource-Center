@@ -269,28 +269,23 @@
     }
   }
 
-  .content-area {
-    width: 80%;
-    margin: 0 auto;
-  }
-
   .overview h2 {
     text-align: center;
     background: $color_brand-teal-dark;
     color: white;
     padding: 1.2rem;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 52rem;
   }
 
   .overview-text {
-    margin-top: 12rem;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
   }
 
   .projects {
-    margin-top: 5.5rem;
+    width: 80%;
+    margin: 0 auto;
 
     h2 {
     color: $color_brand-teal;
