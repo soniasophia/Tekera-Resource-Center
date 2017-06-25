@@ -1543,7 +1543,7 @@ div.tekera-triangles img {
     font-weight: bold;
     font-style: normal; }
 
-.single-post .tags-links {
+.single-post .tags-links, .single-post .cat-links {
   display: none; }
 
 /*--------------------------------------------------------------
@@ -2869,119 +2869,88 @@ object {
       height: 100vh;
       width: 100vw; } }
 
-.page-template-page-getinvolved .overview-container .overview-container-inner {
-  background-color: #006E71;
-  color: #fff;
-  text-align: center;
-  border: 1px solid #006E71;
-  height: 73px;
-  margin-top: 2rem;
-  margin-bottom: 2rem; }
-  @media screen and (min-width: 640px) and (max-width: 2000px) {
-    .page-template-page-getinvolved .overview-container .overview-container-inner {
-      display: none; } }
-  .page-template-page-getinvolved .overview-container .overview-container-inner h1 {
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 26px;
-    text-transform: uppercase; }
+.page-template-page-getinvolved .sponsor-title {
+  color: #072A3D; }
 
-.page-template-page-getinvolved .overview-container .overview-wrapper h1 {
-  color: #20ACAF;
-  font-size: 22px;
-  font-weight: 700;
-  line-height: 30px;
+.page-template-page-getinvolved .overview-container-inner h1 {
+  font-family: 'Open Web';
+  font-weight: bold;
+  font-style: normal;
+  background: #006E71;
   text-align: center;
+  color: white;
+  padding: 1rem;
   text-transform: uppercase;
-  padding-bottom: 2.5rem;
-  margin-bottom: 2.5rem;
+  font-size: 1.8rem; }
+  @media screen and (min-width: 640px) and (max-width: 2000px) {
+    .page-template-page-getinvolved .overview-container-inner h1 {
+      display: none; } }
+
+.page-template-page-getinvolved .overview-wrapper {
+  width: 70%;
+  margin: 0 auto; }
+  .page-template-page-getinvolved .overview-wrapper h1 {
+    font-family: 'Open Web';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 1rem;
+    color: #20ACAF;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 1px solid #979797;
+    padding-bottom: 2rem; }
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
+      .page-template-page-getinvolved .overview-wrapper h1 {
+        display: none; } }
+  .page-template-page-getinvolved .overview-wrapper h2 {
+    display: none; }
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
+      .page-template-page-getinvolved .overview-wrapper h2 {
+        display: inline-block;
+        font-family: 'Open Web';
+        font-weight: bold;
+        font-style: normal;
+        color: #072A3D;
+        text-transform: uppercase;
+        font-size: 2rem; } }
+
+.page-template-page-getinvolved .involvement {
   border-bottom: 1px solid #979797;
-  margin-left: 2.5rem;
-  margin-right: 2.5rem; }
+  padding-bottom: 4rem;
+  padding-top: 2rem;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center; }
   @media screen and (min-width: 640px) and (max-width: 2000px) {
-    .page-template-page-getinvolved .overview-container .overview-wrapper h1 {
-      display: none; } }
-
-.page-template-page-getinvolved .overview-container .overview-wrapper h2 {
-  color: #072A3D;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 49px;
-  text-align: left;
-  text-transform: uppercase;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  padding-left: 8rem; }
-  @media screen and (max-width: 640px) {
-    .page-template-page-getinvolved .overview-container .overview-wrapper h2 {
-      display: none; } }
-
-@media screen and (min-width: 640px) and (max-width: 2000px) {
-  .page-template-page-getinvolved .overview-container .overview-wrapper .sponsor, .page-template-page-getinvolved .overview-container .overview-wrapper .internship, .page-template-page-getinvolved .overview-container .overview-wrapper .donate {
-    padding-left: 8rem; } }
-
-.page-template-page-getinvolved .overview-container .overview-wrapper .sponsor h3, .page-template-page-getinvolved .overview-container .overview-wrapper .internship h3, .page-template-page-getinvolved .overview-container .overview-wrapper .donate h3 {
-  color: #20ACAF;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 27px;
-  text-align: center;
-  text-transform: uppercase; }
-  @media screen and (min-width: 640px) and (max-width: 2000px) {
-    .page-template-page-getinvolved .overview-container .overview-wrapper .sponsor h3, .page-template-page-getinvolved .overview-container .overview-wrapper .internship h3, .page-template-page-getinvolved .overview-container .overview-wrapper .donate h3 {
-      display: inline-block;
-      position: relative;
-      bottom: 5rem; } }
-
-.page-template-page-getinvolved .overview-container .overview-wrapper .sponsor p, .page-template-page-getinvolved .overview-container .overview-wrapper .internship p, .page-template-page-getinvolved .overview-container .overview-wrapper .donate p {
-  color: #4A4A4A;
-  font-size: 16px;
-  line-height: 28px;
-  font-weight: 100;
-  width: 75vw;
-  height: 60vh;
-  padding: 0;
-  margin-top: 2rem;
-  margin-left: auto;
-  margin-right: auto;
-  border-bottom: 1px solid #979797; }
-  @media screen and (min-width: 640px) and (max-width: 2000px) {
-    .page-template-page-getinvolved .overview-container .overview-wrapper .sponsor p, .page-template-page-getinvolved .overview-container .overview-wrapper .internship p, .page-template-page-getinvolved .overview-container .overview-wrapper .donate p {
-      display: inline-block;
-      max-width: 544px;
-      max-height: 231px;
-      font-size: 24px;
-      line-height: 33px; } }
-
-.page-template-page-getinvolved .overview-container .overview-wrapper .sponsor .button, .page-template-page-getinvolved .overview-container .overview-wrapper .internship .button, .page-template-page-getinvolved .overview-container .overview-wrapper .donate .button {
-  position: relative;
-  bottom: 10rem;
-  left: 25%;
-  background-color: #ee9825;
-  border: none;
-  width: 169px;
-  height: 50px;
-  color: #fff;
-  font-size: 20px;
-  text-transform: uppercase;
-  font-weight: 700;
-  box-shadow: none;
-  text-shadow: none; }
-  @media screen and (min-width: 640px) and (max-width: 2000px) {
-    .page-template-page-getinvolved .overview-container .overview-wrapper .sponsor .button, .page-template-page-getinvolved .overview-container .overview-wrapper .internship .button, .page-template-page-getinvolved .overview-container .overview-wrapper .donate .button {
-      position: relative;
-      left: 0;
-      bottom: 5rem; } }
-
-@media screen and (min-width: 640px) and (max-width: 2000px) {
-  .page-template-page-getinvolved .overview-container .overview-wrapper .sponsor h3 {
-    padding-right: 5rem; }
-  .page-template-page-getinvolved .overview-container .overview-wrapper .internship h3 {
-    padding-right: 3rem; }
-  .page-template-page-getinvolved .overview-container .overview-wrapper .donate h3 {
-    padding-right: 6rem; }
-  .page-template-page-getinvolved .overview-container .overview-wrapper .donate p {
-    border-bottom: none; } }
+    .page-template-page-getinvolved .involvement {
+      -ms-flex-direction: row;
+          flex-direction: row;
+      -ms-flex-pack: justify;
+          justify-content: space-between; } }
+  .page-template-page-getinvolved .involvement h3 {
+    color: #20ACAF;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.3rem; }
+  .page-template-page-getinvolved .involvement p {
+    font-family: 'Open Web';
+    font-weight: 100;
+    font-style: normal;
+    line-height: 2.2rem;
+    margin-bottom: 3rem; }
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
+      .page-template-page-getinvolved .involvement p {
+        max-width: 50%;
+        margin-bottom: 0; } }
+  .page-template-page-getinvolved .involvement a {
+    background: #EE9825;
+    padding: 1rem 2.5rem;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.1rem; }
 
 /* Get Involved: Sponsor Page */
 .page-template-page-sponsor p {
@@ -3036,12 +3005,7 @@ object {
         display: flex;
         -ms-flex-align: center;
             align-items: center;
-        padding: 0.7rem 0; }
-        .page-template-page-sponsor .custom-sub-menu-wrapper ul .menu-item-153 {
-          font-size: 1.9rem;
-          font-family: 'Open Web';
-          font-weight: bold;
-          font-style: normal; } }
+        padding: 0.7rem 0; } }
   .page-template-page-sponsor .custom-sub-menu-wrapper li {
     font-family: 'Open Web';
     font-weight: bold;
@@ -3094,7 +3058,7 @@ object {
   height: 50px;
   width: 200px;
   padding: 0;
-  padding-top: 0.5rem; }
+  padding-top: 0.6rem; }
   .page-template-page-sponsor #tab-nav section #sponsor-now-button:hover {
     border-bottom: none; }
 
@@ -3136,7 +3100,7 @@ object {
   padding: 1rem 1.5rem;
   text-transform: uppercase; }
 
-.page-template-page-sponsor .mobile-dropdown .option2 .sponsor-student {
+.page-template-page-sponsor .mobile-dropdown .sponsor-student {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
@@ -3174,12 +3138,7 @@ object {
         display: flex;
         -ms-flex-align: center;
             align-items: center;
-        padding: 0.7rem 0; }
-        .page-template-page-getinvolved .custom-sub-menu-wrapper ul .menu-item-153 {
-          font-size: 1.9rem;
-          font-family: 'Open Web';
-          font-weight: bold;
-          font-style: normal; } }
+        padding: 0.7rem 0; } }
   .page-template-page-getinvolved .custom-sub-menu-wrapper li {
     font-family: 'Open Web';
     font-weight: bold;
@@ -3257,12 +3216,7 @@ object {
         display: flex;
         -ms-flex-align: center;
             align-items: center;
-        padding: 0.7rem 0; }
-        .page-template-page-internship .custom-sub-menu-wrapper ul .menu-item-153 {
-          font-size: 1.9rem;
-          font-family: 'Open Web';
-          font-weight: bold;
-          font-style: normal; } }
+        padding: 0.7rem 0; } }
   .page-template-page-internship .custom-sub-menu-wrapper li {
     font-family: 'Open Web';
     font-weight: bold;

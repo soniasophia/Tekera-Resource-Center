@@ -1368,149 +1368,97 @@
       width: 100vw;
     }
   }
-  .overview-container{
-    .overview-container-inner{
-      background-color: #006E71;
-      color: #fff;
-      text-align: center;
-      border: 1px solid #006E71;
-      height: 73px;
-      margin-top: 2rem;
-      margin-bottom: 2rem;
 
-      @include desktop{
+  .sponsor-title {
+    color: $color_brand-blue-dark;
+  }
+
+  .overview-container-inner {
+    h1 {
+      @include font-open-bold;
+      background: $color_brand-teal-dark;
+      text-align: center;
+      color: white;
+      padding: 1rem;
+      text-transform: uppercase;
+      font-size: 1.8rem;
+
+      @include desktop {
         display: none;
       }
+    }
+  }
 
-      h1{
-        font-weight: 700;
-        font-size: 22px;
-        line-height: 26px;
+  .overview-wrapper {
+    width: 70%;
+    margin: 0 auto;
+
+    h1 {
+      @include font-open-bold;
+      font-size: 1rem;
+      color: $color_brand-teal;
+      text-transform: uppercase;
+      text-align: center;
+      border-bottom: 1px solid #979797;
+      padding-bottom: 2rem;
+
+      @include desktop {
+        display: none;
+      }
+    }
+
+    h2 {
+      display: none;
+
+      @include desktop {
+        display: inline-block;
+        @include font-open-bold;
+        color: $color_brand-blue-dark;
         text-transform: uppercase;
+        font-size: 2rem;
       }
     }
+  }
 
-    .overview-wrapper{
-      h1{
-        color: #20ACAF;
-        font-size: 22px;
-        font-weight: 700;
-        line-height: 30px;
-        text-align: center;
-        text-transform: uppercase;
-        padding-bottom: 2.5rem;
-        margin-bottom: 2.5rem;
-        border-bottom: 1px solid #979797;
-        margin-left: 2.5rem;
-        margin-right: 2.5rem;  
+  .involvement {
+    border-bottom: 1px solid #979797;
+    padding-bottom: 4rem;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-        @include desktop{
-          display: none;
-        }
-
-        }
-
-        h2{
-          color: #072A3D;
-          font-size: 36px;
-          font-weight: 700;
-          line-height: 49px;
-          text-align: left;
-          text-transform: uppercase;
-          margin-top: 3rem;
-          margin-bottom: 3rem;
-          padding-left: 8rem;
-
-          @include mobile{
-            display: none;
-          }
-      }
-
-      .sponsor,.internship,.donate{
-        
-        @include desktop{
-          padding-left: 8rem;
-        }
-  
-        h3{
-          color: #20ACAF;
-          font-weight: 600;
-          font-size: 20px;
-          line-height: 27px;
-          text-align: center;
-          text-transform: uppercase; 
-
-          @include desktop{
-            display: inline-block;
-            position: relative;
-            bottom: 5rem;
-          }
-        }
-
-        p{
-          color: #4A4A4A;
-          font-size: 16px;
-          line-height: 28px;
-          font-weight: 100;
-          width: 75vw;
-          height: 60vh;
-          padding: 0;
-          margin-top: 2rem;
-          margin-left: auto;
-          margin-right: auto;
-          border-bottom: 1px solid #979797;
-
-          @include desktop{
-            display: inline-block;
-            max-width: 544px;
-            max-height: 231px;
-            font-size: 24px;
-            line-height: 33px;
-          }
-        }
-
-        .button{
-          position: relative;
-          bottom: 10rem;
-          left: 25%;
-          background-color: #ee9825;
-          border: none;
-          width: 169px;
-          height: 50px;
-          color: #fff;
-          font-size: 20px;
-          text-transform: uppercase;
-          font-weight: 700;
-          box-shadow: none;
-          text-shadow: none;
-
-          @include desktop{
-            position: relative;
-            left: 0;
-            bottom: 5rem;
-          }
-        }
-      }
+    @include desktop {
+      flex-direction: row;
+      justify-content: space-between;
     }
 
-    @include desktop{
-      .overview-wrapper .sponsor h3{
-      padding-right: 5rem;
-      }
-
-     .overview-wrapper .internship h3{
-      padding-right: 3rem;
-     }
-
-     .overview-wrapper .donate h3{
-      padding-right: 6rem;
-     }
-
-     .overview-wrapper .donate p{
-        border-bottom: none; 
-      }
+    h3 {
+    color: $color_brand-teal;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.3rem;
     }
-    
+
+    p {
+      @include font-open-light;
+      line-height: 2.2rem;
+      margin-bottom: 3rem;
+
+      @include desktop {
+        max-width: 50%;
+        margin-bottom: 0;
+      }
+
+    }
+
+    a {
+      background: $color_brand-yellow;
+      padding: 1rem 2.5rem;
+      color: white;
+      text-transform: uppercase;
+      font-size: 1.1rem;
+    }
   }
 }
 
@@ -1573,11 +1521,6 @@
         display: flex;
         align-items: center;
         padding: 0.7rem 0;
-
-        .menu-item-153 {
-          font-size: 1.9rem;
-          @include font-open-bold;
-        }
       }
     }
 
@@ -1640,7 +1583,7 @@
      height: 50px;
      width: 200px;
      padding: 0;
-     padding-top: 0.5rem;
+     padding-top: 0.6rem;
 
      &:hover {
        border-bottom: none;
@@ -1691,12 +1634,11 @@
       padding: 1rem 1.5rem;
       text-transform: uppercase;
     }
-
-    .sponsor-student {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
+  }
+  .sponsor-student {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
  }
 }
@@ -1733,10 +1675,6 @@
         display: flex;
         align-items: center;
         padding: 0.7rem 0;
-        .menu-item-153 {
-          font-size: 1.9rem;
-          @include font-open-bold;
-        }
       }
     }
     li {
@@ -1828,10 +1766,6 @@
         display: flex;
         align-items: center;
         padding: 0.7rem 0;
-        .menu-item-153 {
-          font-size: 1.9rem;
-          @include font-open-bold;
-        }
       }
     }
     li {

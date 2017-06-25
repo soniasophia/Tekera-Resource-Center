@@ -11,7 +11,6 @@ get_header(); ?>
     <div class="projects-hero">
       <div class="project-title-container">
         <img id="projects-toggle-menu" class="dropdown-arrow" src="<?php echo get_template_directory_uri();?>/assets/Icons/Mobile/Mobile_png/tekera_mobile_icon_arrow_down_dark_teal.png">
-
         <h1 class="projects-title"><?php the_archive_title() ?></h1>
       </div>
 
