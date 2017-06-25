@@ -43,11 +43,11 @@
 				</div>
 					
 					<div class = "tekera-site-logo">
-						<img src="<?php echo get_template_directory_uri();?> /assets/Logos/tekera_logo_desktop_pie.png">
+						<img src="<?php echo get_template_directory_uri();?>/assets/Logos/tekera_logo_desktop_pie.png">
 					</div>
 					
 					<div class = "tekera-site-text">
-						<img src="<?php echo get_template_directory_uri();?> /assets/Logos/tekera_logo_desktop_text.png">
+						<img src="<?php echo get_template_directory_uri();?>/assets/Logos/tekera_logo_desktop_text.png">
 					</div>
 
 					<nav id="site-navigation" class="main-navigation" role="navigation">
@@ -56,7 +56,7 @@
 					</nav><!-- #site-navigation -->
 
 					<div class = "tekera-triangles">
-						<img src="<?php echo get_template_directory_uri();?> /assets/Logos/tekera_triangles.png">
+						<img src="<?php echo get_template_directory_uri();?>/assets/Logos/tekera_triangles.png">
 					</div>
 
 				</div>

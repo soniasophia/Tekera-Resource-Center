@@ -2958,7 +2958,10 @@ object {
     padding: 1rem 2.5rem;
     color: white;
     text-transform: uppercase;
-    font-size: 1.1rem; }
+    font-size: 1.1rem;
+    font-family: 'Open Web';
+    font-weight: bold;
+    font-style: normal; }
 
 .page-template-page-getinvolved .sponsor-title {
   padding: 0.5rem 2rem;
@@ -3120,7 +3123,10 @@ object {
   height: 50px;
   width: 200px;
   padding: 0;
-  padding-top: 0.6rem; }
+  padding-top: 0.6rem;
+  font-family: 'Open Web';
+  font-weight: bold;
+  font-style: normal; }
   .page-template-page-sponsor #tab-nav section #sponsor-now-button:hover {
     border-bottom: none; }
 
@@ -3157,10 +3163,11 @@ object {
   background: #EE9825;
   color: white;
   font-family: 'Open Web';
-  font-weight: normal;
+  font-weight: bold;
   font-style: normal;
   padding: 1rem 1.5rem;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-size: 1.3rem; }
 
 .page-template-page-sponsor .mobile-dropdown .sponsor-student {
   display: -ms-flexbox;
@@ -3998,6 +4005,9 @@ object {
 
 .tab-acord {
   text-align: center; }
+  @media screen and (max-width: 640px) {
+    .tab-acord {
+      display: none; } }
 
 .is-open {
   background: white; }

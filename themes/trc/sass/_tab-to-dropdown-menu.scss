@@ -12,6 +12,10 @@
 
 .tab-acord {
   text-align: center;
+
+  @include mobile {
+    display: none;
+  }
 }
 
 .is-open {

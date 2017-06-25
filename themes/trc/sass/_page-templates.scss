@@ -1192,6 +1192,7 @@
       color: white;
       text-transform: uppercase;
       font-size: 1.1rem;
+      @include font-open-bold;
     }
   }
 }
@@ -1375,6 +1376,7 @@
      width: 200px;
      padding: 0;
      padding-top: 0.6rem;
+     @include font-open-bold;
 
      &:hover {
        border-bottom: none;
@@ -1421,9 +1423,10 @@
     #sponsor-now-button {
       background: $color_brand-yellow;
       color: white;
-      @include font-open-regular;
+      @include font-open-bold;
       padding: 1rem 1.5rem;
       text-transform: uppercase;
+      font-size: 1.3rem;
     }
   }
   .sponsor-student {

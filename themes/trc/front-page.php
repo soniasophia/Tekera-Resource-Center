@@ -84,5 +84,4 @@ get_header(); ?>
   </main>
 </div>
 
-  <?php get_footer(); ?>
-  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<?php get_footer(); ?>
