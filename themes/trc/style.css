@@ -3834,19 +3834,20 @@ object {
     border-radius: 0;
     text-transform: uppercase; }
 
-.page-template-page-internship .job-post:nth-child(2) {
-  padding-bottom: 2rem;
-  border-bottom: 1px solid #e1e1e1; }
-
 .page-template-page-internship .job-post:nth-child(3) {
   padding-top: 2rem;
   padding-bottom: 2rem;
-  border-bottom: 1px solid #e1e1e1; }
+  border-bottom: 1px solid #979797; }
 
 .page-template-page-internship .job-post:nth-child(4) {
   padding-top: 2rem;
   padding-bottom: 2rem;
-  border-bottom: 1px solid #e1e1e1; }
+  border-bottom: 1px solid #979797; }
+
+.page-template-page-internship .job-post:nth-child(5) {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #979797; }
 
 .page-template-page-internship .job-info span p {
   color: #072A3D;
@@ -3988,6 +3989,65 @@ object {
   box-shadow: none;
   text-shadow: none;
   border-radius: 0; }
+
+@media screen and (max-width: 640px) {
+  .page-template-page-internship #content1 {
+    width: 100%; }
+    .page-template-page-internship #content1 .overview-content-mobile {
+      width: 70%;
+      margin: 0 auto; }
+      .page-template-page-internship #content1 .overview-content-mobile p {
+        font-family: Open Web;
+        font-weight: 100;
+        font-style: normal;
+        line-height: 2.2rem;
+        font-size: 1.1rem; }
+  .page-template-page-internship #content2 h1 {
+    display: none; }
+  .page-template-page-internship #content2 h2 {
+    text-align: center;
+    color: #072A3D;
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    border-bottom: 1px solid #979797;
+    width: 75%;
+    margin: 0 auto; }
+  .page-template-page-internship .job-post {
+    -ms-flex-direction: column;
+        flex-direction: column; }
+    .page-template-page-internship .job-post .job-title {
+      width: 100%; }
+  .page-template-page-internship .job-post:nth-child(4) .job-title {
+    padding-left: 2.5rem;
+    padding-right: 2rem; }
+  .page-template-page-internship .job-post:nth-child(5) .job-title {
+    padding-left: 3.5rem;
+    padding-right: 2rem; }
+  .page-template-page-internship .job-post .entry-content {
+    -ms-flex-preferred-size: 30%;
+        flex-basis: 30%; }
+    .page-template-page-internship .job-post .entry-content p {
+      font-family: Open Web;
+      font-weight: 100;
+      font-style: normal;
+      line-height: 2.2rem;
+      font-size: 1.1rem;
+      text-align: center; }
+  .page-template-page-internship .job-info {
+    width: 80%;
+    margin: 0 auto; }
+    .page-template-page-internship .job-info p {
+      text-align: center;
+      font-family: 'Open Sans';
+      font-weight: 600;
+      padding-top: 1rem;
+      padding-bottom: 2rem; }
+    .page-template-page-internship .job-info .apply_now_button {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: center;
+          justify-content: center; } }
 
 .green-line {
   background-color: #006E71;

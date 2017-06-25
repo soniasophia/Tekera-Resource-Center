@@ -106,12 +106,15 @@ get_the_title();
 
     <div id="content1" class="option1 content">
     <img class="overview-image" src="<?php echo CFS()->get( 'img_1' ); ?>"></img>
-      <h1><?php echo CFS()->get( 'title_1' ); ?></h1>
-      <p><?php echo CFS()->get( 'content_1' ); ?></p>
+      <div class = "overview-content-mobile">
+        <h1><?php echo CFS()->get( 'title_1' ); ?></h1>
+        <p><?php echo CFS()->get( 'content_1' ); ?></p>
+      </div>
     </div>
 
     <div id="content2" class="option2 content">
       <h1><?php echo CFS()->get( 'title_2' ); ?></h1> 
+      <h2><?php echo CFS()->get( 'title_2a' ); ?></h2> 
       <?php
             $args = array( 'post_type' => 'jobs', 'posts_per_page' => 3 );
             $loop = new WP_Query( $args );?>
@@ -137,7 +140,9 @@ get_the_title();
               <span> 
                 <p>Don't see a position that fits your experience? We are always on the look out for new talent. Feek free to submit an application form describing the expertise you could bring to TRC. </p> 
               </span>
-              <button type = "button" class = "button"> Apply Now </button>
+              <span class = "apply_now_button">
+                <button type = "button" class = "button"> Apply Now </button>
+              </span>
             </div>   
     </div>
 
