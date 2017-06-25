@@ -1325,90 +1325,25 @@ object {
   display: block; }
 
 /* Front Page */
-.site-main .main-carousel li.gallery-cell:nth-child(1) {
-  background: url("../../assets/Images/Mobile/home-page/tekera_home_page_music_dance.png");
+.site-main .hero-banner {
+  background: url("../../assets/Images/Desktop/home-page/tekera_home_page_music_dance_drumming_festival_2.png") center center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 50%;
   height: 100vh;
-  width: 100vw;
-  position: absolute;
-  list-style-type: none; }
-  @media screen and (min-width: 640px) and (max-width: 2000px) {
-    .site-main .main-carousel li.gallery-cell:nth-child(1) {
-      background: url("../../assets/Images/Desktop/home-page/tekera_home_page_music_dance_drumming_festival_2.png");
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: 50%; } }
-
-.site-main .main-carousel li.gallery-cell:nth-child(2) {
-  background: url("../../assets/Images/Mobile/home-page/tekera_homepage_tps_lunch_program_.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50%;
-  height: 100vh;
-  width: 100vw;
-  position: absolute;
-  list-style-type: none; }
-  @media screen and (min-width: 640px) and (max-width: 2000px) {
-    .site-main .main-carousel li.gallery-cell:nth-child(2) {
-      background: url("../../assets/Images/Desktop/home-page/tekera_home_page_tps_lunch_program_.png");
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: 50%; } }
-
-.site-main .main-carousel li.gallery-cell:nth-child(3) {
-  background: url("../../assets/Images/Mobile/home-page/tekera_home_page_smiling_woman.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50%;
-  height: 100vh;
-  width: 100vw;
-  position: absolute;
-  list-style-type: none; }
-  @media screen and (min-width: 640px) and (max-width: 2000px) {
-    .site-main .main-carousel li.gallery-cell:nth-child(3) {
-      background: url("../../assets/Images/Desktop/home-page/tekera_home_page_internships_.png");
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: 50%; } }
-
-.site-main .main-carousel ol.flickity-page-dots {
-  position: absolute;
-  top: 0; }
-  .site-main .main-carousel ol.flickity-page-dots li {
-    background: #fff; }
-  .site-main .main-carousel ol.flickity-page-dots li:hover {
-    background: #EE9825; }
-
-.site-main .carousel-text {
-  position: absolute;
-  bottom: 16%;
-  left: 24%;
-  width: 303px;
-  height: 157px;
-  font-family: 'Shadows Into Light Web'; }
-  @media screen and (min-width: 640px) and (max-width: 2000px) {
-    .site-main .carousel-text {
-      position: absolute;
-      bottom: 50%;
-      left: 20%;
-      right: 50%;
-      top: 40%;
-      width: 55%;
-      height: 33%;
-      font-family: 'Shadows Into Light Web'; } }
-  .site-main .carousel-text p {
-    color: #fff;
+  width: 100vw; }
+  .site-main .hero-banner h1 {
+    font-family: 'Shadows Into Light Web';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 6rem;
     text-align: center;
-    font-size: 48px;
-    line-height: 77px;
-    text-transform: uppercase; }
-    @media screen and (min-width: 640px) and (max-width: 2000px) {
-      .site-main .carousel-text p {
-        font-size: 100px;
-        line-height: 160px;
-        text-transform: uppercase; } }
+    text-transform: uppercase;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    transform: translate(-50%, -50%);
+    text-shadow: 1px 1px 2px black; }
 
 .site-main .going-to-school {
   background: url("../../assets/Images/Mobile/home-page/tekera_homepage_mom_going_by_the_school_.png");

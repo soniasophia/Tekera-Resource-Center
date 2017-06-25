@@ -6,7 +6,12 @@ get_header(); ?>
 <div id="primary" class="content-area">
   <main id="main" class="site-main" role="main">
 
-  <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
+    <div class="hero-banner">
+      <h1>The Power of a Community</h1>
+    </div>
+
+
+  <!--<div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
     <li class = "gallery-cell">
     </li>
     <li class = "gallery-cell">
@@ -17,7 +22,7 @@ get_header(); ?>
 
   <div class = "carousel-text">
     <p> The power of a community </p>
-  </div>
+  </div>-->
   
 
   <div class = "going-to-school">
