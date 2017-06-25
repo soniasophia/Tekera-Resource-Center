@@ -105,17 +105,48 @@ get_the_title();
     </div>
 
     <div id="content1" class="option1 content">
+    <img class="overview-image" src="<?php echo CFS()->get( 'img_1' ); ?>"></img>
       <h1><?php echo CFS()->get( 'title_1' ); ?></h1>
       <p><?php echo CFS()->get( 'content_1' ); ?></p>
     </div>
 
     <div id="content2" class="option2 content">
-      <h1><?php echo CFS()->get( 'title_2' ); ?></h1>    
+      <h1><?php echo CFS()->get( 'title_2' ); ?></h1> 
+      <?php
+            $args = array( 'post_type' => 'jobs', 'posts_per_page' => 3 );
+            $loop = new WP_Query( $args );?>
+            
+            <?php
+            while ( $loop->have_posts() ) : $loop->the_post();?>
+
+              <div class = "job-post">
+                <?php
+                echo '<div class="job-title">';?>
+                <?php the_title();
+                echo '</div>';
+                echo '<div class="entry-content">';
+                the_content();
+                echo '</div>';
+                echo '<button type = "button" class = "button"> Apply Now </button>';
+                ?>
+              </div>
+            <?php endwhile;
+            ?>
+
+            <div class = "job-info">
+              <span> 
+                <p>Don't see a position that fits your experience? We are always on the look out for new talent. Feek free to submit an application form describing the expertise you could bring to TRC. </p> 
+              </span>
+              <button type = "button" class = "button"> Apply Now </button>
+            </div>   
     </div>
 
     <div id="content3" class="option3 content">
-      <h1>Sponsor a Project</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <?php while ( have_posts() ) : the_post(); ?> 
+         <div class="entry-content-page">      
+           <?php the_content();
+           endwhile ?> <!-- Page Content -->
+         </div><!-- .entry-content-page -->
     </div>
 </div>
 

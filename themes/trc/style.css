@@ -3828,6 +3828,7 @@ object {
     font-weight: 700;
     box-shadow: none;
     text-shadow: none;
+    border-radius: 0;
     text-transform: uppercase; }
 
 .page-template-page-internship .job-post:nth-child(2) {
@@ -3861,6 +3862,7 @@ object {
   font-weight: 700;
   box-shadow: none;
   text-shadow: none;
+  border-radius: 0;
   text-transform: uppercase; }
 
 .page-template-page-internship li:nth-child(3) .entry-content-page p {
@@ -3981,7 +3983,8 @@ object {
   text-transform: uppercase;
   font-weight: 700;
   box-shadow: none;
-  text-shadow: none; }
+  text-shadow: none;
+  border-radius: 0; }
 
 .green-line {
   background-color: #006E71;
