@@ -234,10 +234,7 @@ a {
 						font-weight: 100;
 					}
 				}
-	
 		}
-	
-		
 	}
 
 	// .expand{
@@ -250,7 +247,6 @@ a {
 		@include mobile{
 			display: none;
 		}
-		
 	}
 
 	.tekera-site-text{
@@ -261,8 +257,6 @@ a {
 			flex: 0 1 20%;
 		}
 	}
-
-
 }
 
 .main-navigation{
@@ -306,10 +300,8 @@ a {
 					padding-bottom: 1rem;
 					border-bottom: 5px solid #EE9825 ;
 				}
-
 			}
 
-		
 			li:nth-child(5){
 				border-left: 1px solid #EE9825;
 				border-right: qpx solid #EE9825;
@@ -328,7 +320,6 @@ a {
 }
 
 div.tekera-triangles{
-
 	img{
 		height: 100%;
 	}
@@ -338,632 +329,631 @@ div.tekera-triangles{
 		}
 }
 
-.site-main {
-
-	.main-carousel{
-
-		li.gallery-cell:nth-child(1){
-			background: url('../../assets/Images/Mobile/home-page/tekera_home_page_music_dance.png');
-			background-size: cover;
-			background-repeat: no-repeat;
-			background-position: 50%;
-			height: 100vh;
-			width: 100vw;
-			position: absolute;
-			list-style-type: none;
-
-			@include desktop{
-				background: url('../../assets/Images/Desktop/home-page/tekera_home_page_music_dance_drumming_festival_2.png');
-				background-size: cover;
-				background-repeat: no-repeat;
-				background-position: 50%;
-			}
-		}
-
-		li.gallery-cell:nth-child(2){
-			background: url('../../assets/Images/Mobile/home-page/tekera_homepage_tps_lunch_program_.png');
-			background-size: cover;
-			background-repeat: no-repeat;
-			background-position: 50%;
-			height: 100vh;
-			width: 100vw;
-			position: absolute;
-			list-style-type: none;
-
-			@include desktop{
-				background: url('../../assets/Images/Desktop/home-page/tekera_home_page_tps_lunch_program_.png');
-    		background-size: cover;
-    		background-repeat: no-repeat;
-    		background-position: 50%;
-			}
-		}
-
-		li.gallery-cell:nth-child(3){
-			background: url('../../assets/Images/Mobile/home-page/tekera_home_page_smiling_woman.png');
-			background-size: cover;
-			background-repeat: no-repeat;
-			background-position: 50%;
-			height: 100vh;
-			width: 100vw;
-			position: absolute;
-			list-style-type: none;
-
-			@include desktop{
-				background: url('../../assets/Images/Desktop/home-page/tekera_home_page_internships_.png');
-    		background-size: cover;
-    		background-repeat: no-repeat;
-    		background-position: 50%;
-			}			
-		}
-
-
-		ol.flickity-page-dots{
-			position: absolute;
-			top: 0;
-
-			li{
-				background: #fff;
-			}
-
-			li:hover{
-				background: #EE9825;
-			}
-		}
-	}
-
-	.carousel-text{
-		position: absolute;
-		bottom: 16%;
-		left: 24%;
-		width: 303px;
-		height: 157px;
-		font-family: 'Shadows Into Light Web';
-
-			@include desktop{
-				position: absolute;
-    		bottom: 50%;
-    		left: 20%;
-    		right: 50%;
-    		top: 40%;
-    		width: 55%;
-    		height: 33%;
-    		font-family: 'Shadows Into Light Web';
-			}
-
-		p{
-			color: #fff;
-			text-align: center;
-			font-size: 48px;
-			line-height: 77px;
-   		text-transform: uppercase;
-
-			@include desktop{
-				font-size: 100px;
-    		line-height: 160px;
-    		text-transform: uppercase;
-			}	
-		}
-	}
-
-	.going-to-school{
-		background:url('../../assets/Images/Mobile/home-page/tekera_homepage_mom_going_by_the_school_.png');
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: top;
-		height: 100vh;
-		width: 100vw;
-		position: relative;
-
-		@include desktop{
-			background: url('../../assets/Images/Desktop/home-page/tekera_home_page_mom_going_by_the_school_.png');
-   		background-size: cover;
-    	background-repeat: no-repeat;
-    	background-position: top;
-		}
-
-
-		.frontpage-overlay-image{
-			background:url('../../assets/Triangles/triangle_mobile.png');
-			background-size: cover;
-			background-repeat: no-repeat;
-			background-position: top;
-			height: 70vh;
-			width: 100vw;
-			position: absolute;
-			bottom: 0;
-
-			@include desktop{
-				background: url('../../assets/Triangles/desktop_triangle_right.png');
-				background-size: cover;
-				background-repeat: no-repeat;
-				background-position: top;
-				height: 100vh;
-				width: 70vw;
-				position: absolute;
-				left: 0;
-			}
-		}
-
-		.frontpage-info{
-			position: absolute;
-			top: 40%;
-			left: 16%;
-			width: 65%;
-
-			@include desktop{
-				top: 20%;
-				left: 10%;
-				max-width: 600px;
-			}
-
-			h2{
-				font-size: 26px;
-				width: 205px;
-				height: 76px;
-				margin: 0 auto;
-				color: #fff;
-				text-align: center;
-				width: 100%;
-
-				@include desktop{
-					text-align: left;
-				}
-			}
-
-			p{
-				width: 272px;
-				height: 315px;
-				font-size: 20px;
-				line-height: 34px;
-				color: #fff;
-				text-align: center;
-				width: 100%;
-
-				@include desktop{
-					text-align: left;
-				}
-			}
-		}
-
-		.button{
-			position: absolute;
-			bottom: 3rem;
-			left: 30%;
-			background-color: #ee9825;
-			border: none;
-			width: 169px;
-			height: 50px;
-			color: #fff;
-			font-size: 20px;
-			text-transform: uppercase;
-			font-weight: 700;
-			box-shadow: none;
-			text-shadow: none;
-
-			@include desktop{
-				left: 10%;
-    		bottom: 17rem;
-			}
-		}
-	}
-
-
-	.lunch-program{
-		background:url('../../assets/Images/Mobile/home-page/tekera_homepage_tps_lunch_program_.png');
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: top;
-		height: 100vh;
-		width: 100vw;
-		position: relative;
-
-			@include desktop{
-				background: url('../../assets/Images/Desktop/home-page/tekera_home_page_tps_lunch_program_.png');
-				background-size: cover;
-				background-repeat: no-repeat;
-				background-position: top;
-			}
-
-
-		.frontpage-overlay-image{
-			background:url('../../assets/Triangles/triangle_mobile.png');
-			background-size: cover;
-			background-repeat: no-repeat;
-			background-position: center top;
-			height: 65vh;
-			width: 100vw;
-			position: absolute;
-			bottom: 0;
-
-				@include desktop{
-					background: url('../../assets/Triangles/desktop_triangle_left.png');
-					background-size: cover;
-					background-repeat: no-repeat;
-					background-position: top;
-					height: 100vh;
-					width: 70vw;
-					position: absolute;
-					right: 0;
-				}
-		}
-
-		.frontpage-info{
-			position: absolute;
-			top: 48%;
-			right: 20%;
-			width: 60%;
-
-				@include desktop{
-					top: 25%;
-					right: 10%;
-					max-width: 600px;
-				}
-
-			h2{
-				font-size: 26px;
-				width: 272px;
-				height: 76px;
-				margin: 0 auto;
-				color: #fff;
-				text-align: center;
-				line-height: 38px;
-				width: 100%;
-
-					@include desktop{
-						text-align: right;
-					}
-			}
-
-			p{
-				width: 272px;
-				height: 231px;
-				font-size: 20px;
-				line-height: 33px;
-				color: #fff;
-				text-align: center;
-				width: 100%;
-
-					@include desktop{
-						text-align: right;
-					}
-			}
-		}
-
-		.button{
-			position: absolute;
-			bottom: 4rem;
-			right: 33%;
-			background-color: #ee9825;
-			border: none;
-			width: 169px;
-			height: 50px;
-			color: #fff;
-			font-size: 20px;
-			text-transform: uppercase;
-			font-weight: 700;
-			box-shadow: none;
-			text-shadow: none;
-
-				@include desktop{
-					bottom: 16rem;
-					right: 11%;
-				}
-		}
-
-	}
-
-	.smiling-woman{
-		background:url('../../assets/Images/Mobile/home-page/tekera_home_page_smiling_woman.png');
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: top;
-		height: 100vh;
-		width: 100vw;
-		position: relative;
-
-			@include desktop{
-				background: url('../../assets/Images/Desktop/home-page/tekera_home_page_internships_.png');
-				background-size: cover;
-				background-repeat: no-repeat;
-				background-position: top;
-			}
-
-
-		.frontpage-overlay-image{
-			background:url('../../assets/Triangles/triangle_mobile.png');
-			background-size: cover;
-			background-repeat: no-repeat;
-			background-position: center top;
-			height: 65vh;
-			width: 100vw;
-			position: absolute;
-			bottom: 0;
-
-				@include desktop{
-					background: url('../../assets/Triangles/desktop_triangle_right.png');
-					background-size: cover;
-					background-repeat: no-repeat;
-					background-position: top;
-					height: 100vh;
-					width: 70vw;
-					position: absolute;
-					left: 0;
-				}
-		}
-
-		.frontpage-info{
-			position: absolute;
-			top: 48%;
-			left: 18%;
-			width: 65%;
-
-				@include desktop{
-					top: 20%;
-					left: 10%;
-					max-width: 600px;
-				}
-
-			h2{
-				font-size: 26px;
-				width: 169px;
-				height: 86px;
-				margin: 0 auto;
-				color: #fff;
-				text-align: center;
-				line-height: 43px;
-				width: 100%;
-
-					@include desktop{
-						text-align: left;
-					}
-			}
-
-			p{
-				width: 272px;
-				height: 198px;
-				font-size: 20px;
-				line-height: 33px;
-				color: #fff;
-				text-align: center;
-				width: 100%;
-
-					@include desktop{
-						text-align: left;
-					}
-			}
-		}
-
-		.button{
-			position: absolute;
-			bottom: 6rem;
-			left: 30%;
-			background-color: #ee9825;
-			border: none;
-			width: 169px;
-			height: 50px;
-			color: #fff;
-			font-size: 20px;
-			text-transform: uppercase;
-			font-weight: 700;
-			box-shadow: none;
-			text-shadow: none;
-
-				@include desktop{
-					bottom: 19rem;
-					left: 10%;
-				}
-		}
-
-	}
-
-	.programs-info{
-
-		@include desktop{
-				max-width: 80%;
-   			margin: 3rem auto 5rem;
-		}	
-
-		h1{
-			color: #20ACAF;
-			font-size: 2rem;
-			font-weight: 800;
-			line-height: 38px;
-			text-align: center;
-			text-transform: uppercase;
-			margin-top: 0;
-			margin-bottom: 0;
-			padding: 3rem 2rem;
-
-			@include desktop{
-				height: 150px;
-    		padding: 0;
-			}
-		}
-
-		.icons-container{
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: center;
-
-				@include desktop{
-					padding: 2rem;
-				}
-
-			.icons-wrapper:nth-child(1){
-				background: url('../../assets/Icons/Mobile/Mobile_png/Tekera_Mobile_Icon_Education.png');
-   		  background-position: top;
-    		background-repeat: no-repeat;
-    		max-width: 160px;
-
-					@include desktop{
-						order: 4;
-						background: url('../../assets/Icons/Desktop/png/Tekera_Icon_Education.png');
-						background-position: top;
-						background-repeat: no-repeat;
-						margin: 0 3rem;
-					}
-
-					p{
-						margin-top: 8rem;
-						width: 160px;
-
-						@include desktop{
-							margin-top: 10.5rem;
-						}
-				}
-			}
-
-			.icons-wrapper:nth-child(2){
-				background: url('../../assets/Icons/Mobile/Mobile_png/Tekera_Mobile_Icon_Farming.png');
-				background-position: top;
-				background-repeat: no-repeat;
-				max-width: 160px;
-
-					@include desktop{
-						order: 1;
-						background: url('../../assets/Icons/Desktop/png/tekera_icon_farming_.png');
-						background-position: top;
-						background-repeat: no-repeat;
-						margin: 0 3rem;
-					}
-
-					p{
-						margin-top: 8rem;
-						width: 160px;
-
-						@include desktop{
-							margin-top: 10.5rem;
-						}
-				}
+// .site-main {
+// 	.main-carousel{
+
+// 		li.gallery-cell:nth-child(1){
+// 			background: url('../../assets/Images/Mobile/home-page/tekera_home_page_music_dance.png');
+// 			background-size: cover;
+// 			background-repeat: no-repeat;
+// 			background-position: 50%;
+// 			height: 100vh;
+// 			width: 100vw;
+// 			position: absolute;
+// 			list-style-type: none;
+
+// 			@include desktop{
+// 				background: url('../../assets/Images/Desktop/home-page/tekera_home_page_music_dance_drumming_festival_2.png');
+// 				background-size: cover;
+// 				background-repeat: no-repeat;
+// 				background-position: 50%;
+// 			}
+// 		}
+
+// 		li.gallery-cell:nth-child(2){
+// 			background: url('../../assets/Images/Mobile/home-page/tekera_homepage_tps_lunch_program_.png');
+// 			background-size: cover;
+// 			background-repeat: no-repeat;
+// 			background-position: 50%;
+// 			height: 100vh;
+// 			width: 100vw;
+// 			position: absolute;
+// 			list-style-type: none;
+
+// 			@include desktop{
+// 				background: url('../../assets/Images/Desktop/home-page/tekera_home_page_tps_lunch_program_.png');
+//     		background-size: cover;
+//     		background-repeat: no-repeat;
+//     		background-position: 50%;
+// 			}
+// 		}
+
+// 		li.gallery-cell:nth-child(3){
+// 			background: url('../../assets/Images/Mobile/home-page/tekera_home_page_smiling_woman.png');
+// 			background-size: cover;
+// 			background-repeat: no-repeat;
+// 			background-position: 50%;
+// 			height: 100vh;
+// 			width: 100vw;
+// 			position: absolute;
+// 			list-style-type: none;
+
+// 			@include desktop{
+// 				background: url('../../assets/Images/Desktop/home-page/tekera_home_page_internships_.png');
+//     		background-size: cover;
+//     		background-repeat: no-repeat;
+//     		background-position: 50%;
+// 			}			
+// 		}
+
+
+// 		ol.flickity-page-dots{
+// 			position: absolute;
+// 			top: 0;
+
+// 			li{
+// 				background: #fff;
+// 			}
+
+// 			li:hover{
+// 				background: #EE9825;
+// 			}
+// 		}
+// 	}
+
+// 	.carousel-text{
+// 		position: absolute;
+// 		bottom: 16%;
+// 		left: 24%;
+// 		width: 303px;
+// 		height: 157px;
+// 		font-family: 'Shadows Into Light Web';
+
+// 			@include desktop{
+// 				position: absolute;
+//     		bottom: 50%;
+//     		left: 20%;
+//     		right: 50%;
+//     		top: 40%;
+//     		width: 55%;
+//     		height: 33%;
+//     		font-family: 'Shadows Into Light Web';
+// 			}
+
+// 		p{
+// 			color: #fff;
+// 			text-align: center;
+// 			font-size: 48px;
+// 			line-height: 77px;
+//    		text-transform: uppercase;
+
+// 			@include desktop{
+// 				font-size: 100px;
+//     		line-height: 160px;
+//     		text-transform: uppercase;
+// 			}	
+// 		}
+// 	}
+
+// 	.going-to-school{
+// 		background:url('../../assets/Images/Mobile/home-page/tekera_homepage_mom_going_by_the_school_.png');
+// 		background-size: cover;
+// 		background-repeat: no-repeat;
+// 		background-position: top;
+// 		height: 100vh;
+// 		width: 100vw;
+// 		position: relative;
+
+// 		@include desktop{
+// 			background: url('../../assets/Images/Desktop/home-page/tekera_home_page_mom_going_by_the_school_.png');
+//    		background-size: cover;
+//     	background-repeat: no-repeat;
+//     	background-position: top;
+// 		}
+
+
+// 		.frontpage-overlay-image{
+// 			background:url('../../assets/Triangles/triangle_mobile.png');
+// 			background-size: cover;
+// 			background-repeat: no-repeat;
+// 			background-position: top;
+// 			height: 70vh;
+// 			width: 100vw;
+// 			position: absolute;
+// 			bottom: 0;
+
+// 			@include desktop{
+// 				background: url('../../assets/Triangles/desktop_triangle_right.png');
+// 				background-size: cover;
+// 				background-repeat: no-repeat;
+// 				background-position: top;
+// 				height: 100vh;
+// 				width: 70vw;
+// 				position: absolute;
+// 				left: 0;
+// 			}
+// 		}
+
+// 		.frontpage-info{
+// 			position: absolute;
+// 			top: 40%;
+// 			left: 16%;
+// 			width: 65%;
+
+// 			@include desktop{
+// 				top: 20%;
+// 				left: 10%;
+// 				max-width: 600px;
+// 			}
+
+// 			h2{
+// 				font-size: 26px;
+// 				width: 205px;
+// 				height: 76px;
+// 				margin: 0 auto;
+// 				color: #fff;
+// 				text-align: center;
+// 				width: 100%;
+
+// 				@include desktop{
+// 					text-align: left;
+// 				}
+// 			}
+
+// 			p{
+// 				width: 272px;
+// 				height: 315px;
+// 				font-size: 20px;
+// 				line-height: 34px;
+// 				color: #fff;
+// 				text-align: center;
+// 				width: 100%;
+
+// 				@include desktop{
+// 					text-align: left;
+// 				}
+// 			}
+// 		}
+
+// 		.button{
+// 			position: absolute;
+// 			bottom: 3rem;
+// 			left: 30%;
+// 			background-color: #ee9825;
+// 			border: none;
+// 			width: 169px;
+// 			height: 50px;
+// 			color: #fff;
+// 			font-size: 20px;
+// 			text-transform: uppercase;
+// 			font-weight: 700;
+// 			box-shadow: none;
+// 			text-shadow: none;
+
+// 			@include desktop{
+// 				left: 10%;
+//     		bottom: 17rem;
+// 			}
+// 		}
+// 	}
+
+
+// 	.lunch-program{
+// 		background:url('../../assets/Images/Mobile/home-page/tekera_homepage_tps_lunch_program_.png');
+// 		background-size: cover;
+// 		background-repeat: no-repeat;
+// 		background-position: top;
+// 		height: 100vh;
+// 		width: 100vw;
+// 		position: relative;
+
+// 			@include desktop{
+// 				background: url('../../assets/Images/Desktop/home-page/tekera_home_page_tps_lunch_program_.png');
+// 				background-size: cover;
+// 				background-repeat: no-repeat;
+// 				background-position: top;
+// 			}
+
+
+// 		.frontpage-overlay-image{
+// 			background:url('../../assets/Triangles/triangle_mobile.png');
+// 			background-size: cover;
+// 			background-repeat: no-repeat;
+// 			background-position: center top;
+// 			height: 65vh;
+// 			width: 100vw;
+// 			position: absolute;
+// 			bottom: 0;
+
+// 				@include desktop{
+// 					background: url('../../assets/Triangles/desktop_triangle_left.png');
+// 					background-size: cover;
+// 					background-repeat: no-repeat;
+// 					background-position: top;
+// 					height: 100vh;
+// 					width: 70vw;
+// 					position: absolute;
+// 					right: 0;
+// 				}
+// 		}
+
+// 		.frontpage-info{
+// 			position: absolute;
+// 			top: 48%;
+// 			right: 20%;
+// 			width: 60%;
+
+// 				@include desktop{
+// 					top: 25%;
+// 					right: 10%;
+// 					max-width: 600px;
+// 				}
+
+// 			h2{
+// 				font-size: 26px;
+// 				width: 272px;
+// 				height: 76px;
+// 				margin: 0 auto;
+// 				color: #fff;
+// 				text-align: center;
+// 				line-height: 38px;
+// 				width: 100%;
+
+// 					@include desktop{
+// 						text-align: right;
+// 					}
+// 			}
+
+// 			p{
+// 				width: 272px;
+// 				height: 231px;
+// 				font-size: 20px;
+// 				line-height: 33px;
+// 				color: #fff;
+// 				text-align: center;
+// 				width: 100%;
+
+// 					@include desktop{
+// 						text-align: right;
+// 					}
+// 			}
+// 		}
+
+// 		.button{
+// 			position: absolute;
+// 			bottom: 4rem;
+// 			right: 33%;
+// 			background-color: #ee9825;
+// 			border: none;
+// 			width: 169px;
+// 			height: 50px;
+// 			color: #fff;
+// 			font-size: 20px;
+// 			text-transform: uppercase;
+// 			font-weight: 700;
+// 			box-shadow: none;
+// 			text-shadow: none;
+
+// 				@include desktop{
+// 					bottom: 16rem;
+// 					right: 11%;
+// 				}
+// 		}
+
+// 	}
+
+// 	.smiling-woman{
+// 		background:url('../../assets/Images/Mobile/home-page/tekera_home_page_smiling_woman.png');
+// 		background-size: cover;
+// 		background-repeat: no-repeat;
+// 		background-position: top;
+// 		height: 100vh;
+// 		width: 100vw;
+// 		position: relative;
+
+// 			@include desktop{
+// 				background: url('../../assets/Images/Desktop/home-page/tekera_home_page_internships_.png');
+// 				background-size: cover;
+// 				background-repeat: no-repeat;
+// 				background-position: top;
+// 			}
+
+
+// 		.frontpage-overlay-image{
+// 			background:url('../../assets/Triangles/triangle_mobile.png');
+// 			background-size: cover;
+// 			background-repeat: no-repeat;
+// 			background-position: center top;
+// 			height: 65vh;
+// 			width: 100vw;
+// 			position: absolute;
+// 			bottom: 0;
+
+// 				@include desktop{
+// 					background: url('../../assets/Triangles/desktop_triangle_right.png');
+// 					background-size: cover;
+// 					background-repeat: no-repeat;
+// 					background-position: top;
+// 					height: 100vh;
+// 					width: 70vw;
+// 					position: absolute;
+// 					left: 0;
+// 				}
+// 		}
+
+// 		.frontpage-info{
+// 			position: absolute;
+// 			top: 48%;
+// 			left: 18%;
+// 			width: 65%;
+
+// 				@include desktop{
+// 					top: 20%;
+// 					left: 10%;
+// 					max-width: 600px;
+// 				}
+
+// 			h2{
+// 				font-size: 26px;
+// 				width: 169px;
+// 				height: 86px;
+// 				margin: 0 auto;
+// 				color: #fff;
+// 				text-align: center;
+// 				line-height: 43px;
+// 				width: 100%;
+
+// 					@include desktop{
+// 						text-align: left;
+// 					}
+// 			}
+
+// 			p{
+// 				width: 272px;
+// 				height: 198px;
+// 				font-size: 20px;
+// 				line-height: 33px;
+// 				color: #fff;
+// 				text-align: center;
+// 				width: 100%;
+
+// 					@include desktop{
+// 						text-align: left;
+// 					}
+// 			}
+// 		}
+
+// 		.button{
+// 			position: absolute;
+// 			bottom: 6rem;
+// 			left: 30%;
+// 			background-color: #ee9825;
+// 			border: none;
+// 			width: 169px;
+// 			height: 50px;
+// 			color: #fff;
+// 			font-size: 20px;
+// 			text-transform: uppercase;
+// 			font-weight: 700;
+// 			box-shadow: none;
+// 			text-shadow: none;
+
+// 				@include desktop{
+// 					bottom: 19rem;
+// 					left: 10%;
+// 				}
+// 		}
+
+// 	}
+
+// 	.programs-info{
+
+// 		@include desktop{
+// 				max-width: 80%;
+//    			margin: 3rem auto 5rem;
+// 		}	
+
+// 		h1{
+// 			color: #20ACAF;
+// 			font-size: 2rem;
+// 			font-weight: 800;
+// 			line-height: 38px;
+// 			text-align: center;
+// 			text-transform: uppercase;
+// 			margin-top: 0;
+// 			margin-bottom: 0;
+// 			padding: 3rem 2rem;
+
+// 			@include desktop{
+// 				height: 150px;
+//     		padding: 0;
+// 			}
+// 		}
+
+// 		.icons-container{
+// 			display: flex;
+// 			flex-wrap: wrap;
+// 			justify-content: center;
+
+// 				@include desktop{
+// 					padding: 2rem;
+// 				}
+
+// 			.icons-wrapper:nth-child(1){
+// 				background: url('../../assets/Icons/Mobile/Mobile_png/Tekera_Mobile_Icon_Education.png');
+//    		  background-position: top;
+//     		background-repeat: no-repeat;
+//     		max-width: 160px;
+
+// 					@include desktop{
+// 						order: 4;
+// 						background: url('../../assets/Icons/Desktop/png/Tekera_Icon_Education.png');
+// 						background-position: top;
+// 						background-repeat: no-repeat;
+// 						margin: 0 3rem;
+// 					}
+
+// 					p{
+// 						margin-top: 8rem;
+// 						width: 160px;
+
+// 						@include desktop{
+// 							margin-top: 10.5rem;
+// 						}
+// 				}
+// 			}
+
+// 			.icons-wrapper:nth-child(2){
+// 				background: url('../../assets/Icons/Mobile/Mobile_png/Tekera_Mobile_Icon_Farming.png');
+// 				background-position: top;
+// 				background-repeat: no-repeat;
+// 				max-width: 160px;
+
+// 					@include desktop{
+// 						order: 1;
+// 						background: url('../../assets/Icons/Desktop/png/tekera_icon_farming_.png');
+// 						background-position: top;
+// 						background-repeat: no-repeat;
+// 						margin: 0 3rem;
+// 					}
+
+// 					p{
+// 						margin-top: 8rem;
+// 						width: 160px;
+
+// 						@include desktop{
+// 							margin-top: 10.5rem;
+// 						}
+// 				}
 					
-			}
+// 			}
 
-			.icons-wrapper:nth-child(3){
-				background: url('../../assets/Icons/Mobile/Mobile_png/Tekera_Mobile_Icon_Clinic.png');
-				background-position: top;
-				background-repeat: no-repeat;
-				max-width: 160px;
+// 			.icons-wrapper:nth-child(3){
+// 				background: url('../../assets/Icons/Mobile/Mobile_png/Tekera_Mobile_Icon_Clinic.png');
+// 				background-position: top;
+// 				background-repeat: no-repeat;
+// 				max-width: 160px;
 
-					@include desktop{
-						order: 2;
-						background: url('../../assets/Icons/Desktop/png/Tekera_Icon_Clinic.png');
-						background-position: top;
-						background-repeat: no-repeat;
-						margin: 0 3rem;
-					}
+// 					@include desktop{
+// 						order: 2;
+// 						background: url('../../assets/Icons/Desktop/png/Tekera_Icon_Clinic.png');
+// 						background-position: top;
+// 						background-repeat: no-repeat;
+// 						margin: 0 3rem;
+// 					}
 
-					p{
-						margin-top: 8rem;
-						width: 160px;
+// 					p{
+// 						margin-top: 8rem;
+// 						width: 160px;
 
-						@include desktop{
-							margin-top: 10.5rem;
-						}
-				}
-			}
+// 						@include desktop{
+// 							margin-top: 10.5rem;
+// 						}
+// 				}
+// 			}
 
-			.icons-wrapper:nth-child(4){
-				background: url('../../assets/Icons/Mobile/Mobile_png/Tekera_Mobile_Icon_Economy.png');
-				background-position: top;
-				background-repeat: no-repeat;
-				max-width: 160px;
+// 			.icons-wrapper:nth-child(4){
+// 				background: url('../../assets/Icons/Mobile/Mobile_png/Tekera_Mobile_Icon_Economy.png');
+// 				background-position: top;
+// 				background-repeat: no-repeat;
+// 				max-width: 160px;
 
-					@include desktop{
-						order: 6;
-						background: url('../../assets/Icons/Desktop/png/Tekera_Icon_Economic.png');
-						background-position: top;
-						background-repeat: no-repeat;
-						margin: 0 3rem;
-					}
+// 					@include desktop{
+// 						order: 6;
+// 						background: url('../../assets/Icons/Desktop/png/Tekera_Icon_Economic.png');
+// 						background-position: top;
+// 						background-repeat: no-repeat;
+// 						margin: 0 3rem;
+// 					}
 
-					p{
-						margin-top: 8rem;
-						width: 160px;
+// 					p{
+// 						margin-top: 8rem;
+// 						width: 160px;
 
-						@include desktop{
-							margin-top: 10.5rem;
-						}
-				}
-			}
+// 						@include desktop{
+// 							margin-top: 10.5rem;
+// 						}
+// 				}
+// 			}
 
-			.icons-wrapper:nth-child(5){
-				background: url('../../assets/Icons/Mobile/Mobile_png/tekera_mobile_icon_women_empowerment_.png');
-				background-position: top;
-				background-repeat: no-repeat;
-				max-width: 160px;
+// 			.icons-wrapper:nth-child(5){
+// 				background: url('../../assets/Icons/Mobile/Mobile_png/tekera_mobile_icon_women_empowerment_.png');
+// 				background-position: top;
+// 				background-repeat: no-repeat;
+// 				max-width: 160px;
 
-					@include desktop{
-						order: 3;
-						background: url('../../assets/Icons/Desktop/png/tekera_icon_women_empowerment.png');
-						background-position: top;
-						background-repeat: no-repeat;
-						margin: 0 3rem;
-					}
+// 					@include desktop{
+// 						order: 3;
+// 						background: url('../../assets/Icons/Desktop/png/tekera_icon_women_empowerment.png');
+// 						background-position: top;
+// 						background-repeat: no-repeat;
+// 						margin: 0 3rem;
+// 					}
 
-					p{
-						margin-top: 8rem;
-						width: 160px;
+// 					p{
+// 						margin-top: 8rem;
+// 						width: 160px;
 
-						@include desktop{
-							margin-top: 10.5rem;
-						}
-				}
-			}
+// 						@include desktop{
+// 							margin-top: 10.5rem;
+// 						}
+// 				}
+// 			}
 
-			.icons-wrapper:nth-child(6){
-				background: url('../../assets/Icons/Mobile/Mobile_png/tekera_mobile_icon_community_.png');
-				background-position: top;
-				background-repeat: no-repeat;
-				max-width: 160px;
+// 			.icons-wrapper:nth-child(6){
+// 				background: url('../../assets/Icons/Mobile/Mobile_png/tekera_mobile_icon_community_.png');
+// 				background-position: top;
+// 				background-repeat: no-repeat;
+// 				max-width: 160px;
 
-					@include desktop{
-						order: 5;
-						background: url('../../assets/Icons/Desktop/png/Tekera_Icon_Community.png');
-						background-position: top;
-						background-repeat: no-repeat;
-						margin: 0 3rem;
-					}
+// 					@include desktop{
+// 						order: 5;
+// 						background: url('../../assets/Icons/Desktop/png/Tekera_Icon_Community.png');
+// 						background-position: top;
+// 						background-repeat: no-repeat;
+// 						margin: 0 3rem;
+// 					}
 
-					p{
-						margin-top: 8rem;
-						width: 160px;
+// 					p{
+// 						margin-top: 8rem;
+// 						width: 160px;
 
-						@include desktop{
-							margin-top: 10.5rem;
-						}
-				}
-			}
+// 						@include desktop{
+// 							margin-top: 10.5rem;
+// 						}
+// 				}
+// 			}
 
 			
-			.icons-wrapper{
-				p{
-					color: #072A3D;
-					font-size: 26px;
-					text-align: center;
-				}
-			}
+// 			.icons-wrapper{
+// 				p{
+// 					color: #072A3D;
+// 					font-size: 26px;
+// 					text-align: center;
+// 				}
+// 			}
 				
 
-			.icons-text{
-				background: url('../../assets/Icons/Mobile/10,000_people_.png');
-				background-repeat: no-repeat;
-				width: 272px;
-				height: 141px;
-				margin-bottom: 2rem;
+// 			.icons-text{
+// 				background: url('../../assets/Icons/Mobile/10,000_people_.png');
+// 				background-repeat: no-repeat;
+// 				width: 272px;
+// 				height: 141px;
+// 				margin-bottom: 2rem;
 
-				@include desktop{
-					background: url('../../assets/Icons/Desktop/Desktop_10000ppl.png');
-					background-repeat: no-repeat;
-					background-position: center;
-					margin-top: 2rem;
-					width: 90%;
-					min-width: 700px;
-					order: 3;
-				}
-			}
-		}
-	}
-}
+// 				@include desktop{
+// 					background: url('../../assets/Icons/Desktop/Desktop_10000ppl.png');
+// 					background-repeat: no-repeat;
+// 					background-position: center;
+// 					margin-top: 2rem;
+// 					width: 90%;
+// 					min-width: 700px;
+// 					order: 3;
+// 				}
+// 			}
+// 		}
+// 	}
+// }
 
 
 // Hamburger Menu toggle
@@ -985,3 +975,265 @@ div.tekera-triangles{
 //     width:100%;
 //   }
 // }
+
+
+/* Footer */
+
+.footer-main-wrapper {
+  background-color: $color_brand-teal-dark;
+  color: #FFF;
+  display: flex;
+  flex-flow: column nowrap;
+  height: 45rem;
+  padding-top: 3rem;
+  position: relative;
+  @include font-open-light;
+  min-height: 50rem;
+  font-size: 0.85rem;
+  min-width: 100%;
+  h2 {
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #FFF;
+  }
+  p {
+    font-size: 1rem;
+  }
+}
+
+.footer-top {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-top: 3rem;
+}
+
+.footer-box {
+  display: flex;
+  flex-flow: column nowrap;
+  height: 50%;
+  margin-left: 6rem;
+  width: 15rem;
+  h3, h2 {
+    font-weight: 400;
+  }
+  a {
+    color: #FFF;
+  }
+  a:hover {
+    color: $color_brand-orange;
+  }
+  p {
+    margin: 4px;
+  }
+}
+
+.social-media-box {
+  margin: 0px;
+}
+
+.footer-box-sub {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  img {
+    width: auto;
+    height: 3.5rem;
+  }
+}
+
+.contact-sub-top {
+  min-width: 20rem;
+  h3 {
+    margin-top: 0px;
+  }
+  p {
+    margin: 4px;
+  }
+  img {
+    width: auto;
+    height: 3.5rem;
+  }
+}
+
+.footer-bold {
+  @include font-open-bold;
+}
+
+#bottom {
+  margin-top: 1.5rem;
+}
+
+.contact-column {
+  display: flex;
+  flex-flow: column nowrap;
+  width: auto;
+  height: 20rem;
+  margin-right: 2rem;
+  h2 {
+    margin-bottom: 1rem;
+    font-weight: 300;
+  }
+  img {
+    height: 5rem;
+    width: 5rem;
+  }
+  a {
+    color: #FFF;
+  }
+  a:hover {
+    color: $color_brand-orange;
+  }
+}
+
+.contact-column-right {
+  margin-top: 3rem;
+  p {
+    margin: 0px;
+  }
+  a {
+    color: #FFF;
+  }
+  a:hover {
+    color: $color_brand-orange;
+  }
+}
+
+#canada-flag {
+  margin-top: 7rem;
+}
+
+.contact-column-outside {
+  padding-top: 4rem;
+  margin-left: 2rem;
+  p {
+    margin: 0px;
+  }  
+}
+
+.contact-email {
+  p {
+    margin-top: 1rem;
+  }
+}
+
+.contact-spacer {
+  h3 {
+    margin-top: 2rem;
+  }
+}
+
+#how {
+  margin-left: 3rem;
+}
+
+#get-involved {
+  margin-left: 3rem;
+}
+
+.footer-copyright {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+  height: 3rem;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  p {
+    padding: 0px;
+    margin: 0px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .hider {
+    display: none;
+  }
+
+  .footer-main-wrapper {
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 60rem;
+  }
+
+  .footer-box {
+    width: auto;
+  }
+
+  .footer-top {
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+  }  
+
+  .footer-bottom {
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+  } 
+
+  .social-media-box {
+    position: absolute;
+    left: 3rem;
+    top: 0;
+  }
+
+  #who {
+    position: absolute;
+    left: 0;
+    top: 10rem;
+  }
+
+  #what {
+    position: absolute;
+    left: 0;
+    top: 16.5rem;    
+  }
+
+  #how {
+    position: absolute;
+    left: 3rem;
+    top: 20rem;        
+  }
+
+  #get-involved {
+    position: absolute;
+    left: 3rem;
+    top: 28rem;     
+  }
+
+  .contact-column {
+    flex-flow: column nowrap;
+    position: absolute;
+    left: 6rem;
+    top: 40rem;  
+    margin: 0px;       
+  }
+
+  .footer-copyright {
+    position: absolute;
+    bottom: 0;
+    width: 17rem;
+    height: auto;
+  }
+
+  .flow-controller {
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 950px) and (min-width: 640px) {
+  .tablet-hider {
+    display: none;
+  }
+}

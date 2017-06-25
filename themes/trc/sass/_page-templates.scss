@@ -2,269 +2,7 @@
 # Page Templates
 --------------------------------------------------------------*/
 
-
-/* Footer */
-
-.footer-main-wrapper {
-  background-color: $color_brand-teal-dark;
-  color: #FFF;
-  display: flex;
-  flex-flow: column nowrap;
-  height: 45rem;
-  padding-top: 3rem;
-  position: relative;
-  @include font-open-light;
-  min-height: 50rem;
-  font-size: 0.85rem;
-  min-width: 100%;
-  h2 {
-    text-transform: uppercase;
-    font-weight: 300;
-    color: #FFF;
-  }
-  p {
-    font-size: 1rem;
-  }
-}
-
-.footer-top {
-  display: flex;
-  flex-flow: row nowrap;
-}
-
-.footer-bottom {
-  display: flex;
-  flex-flow: row nowrap;
-  margin-top: 3rem;
-}
-
-.footer-box {
-  display: flex;
-  flex-flow: column nowrap;
-  height: 50%;
-  margin-left: 6rem;
-  width: 15rem;
-  h3, h2 {
-    font-weight: 400;
-  }
-  a {
-    color: #FFF;
-  }
-  a:hover {
-    color: $color_brand-orange;
-  }
-  p {
-    margin: 4px;
-  }
-}
-
-.social-media-box {
-  margin: 0px;
-}
-
-.footer-box-sub {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  img {
-    width: auto;
-    height: 3.5rem;
-  }
-}
-
-.contact-sub-top {
-  min-width: 20rem;
-  h3 {
-    margin-top: 0px;
-  }
-  p {
-    margin: 4px;
-  }
-  img {
-    width: auto;
-    height: 3.5rem;
-  }
-}
-
-.footer-bold {
-  @include font-open-bold;
-}
-
-#bottom {
-  margin-top: 1.5rem;
-}
-
-.contact-column {
-  display: flex;
-  flex-flow: column nowrap;
-  width: auto;
-  height: 20rem;
-  margin-right: 2rem;
-  h2 {
-    margin-bottom: 1rem;
-    font-weight: 300;
-  }
-  img {
-    height: 5rem;
-    width: 5rem;
-  }
-  a {
-    color: #FFF;
-  }
-  a:hover {
-    color: $color_brand-orange;
-  }
-}
-
-.contact-column-right {
-  margin-top: 3rem;
-  p {
-    margin: 0px;
-  }
-  a {
-    color: #FFF;
-  }
-  a:hover {
-    color: $color_brand-orange;
-  }
-}
-
-#canada-flag {
-  margin-top: 7rem;
-}
-
-.contact-column-outside {
-  padding-top: 4rem;
-  margin-left: 2rem;
-  p {
-    margin: 0px;
-  }  
-}
-
-.contact-email {
-  p {
-    margin-top: 1rem;
-  }
-}
-
-.contact-spacer {
-  h3 {
-    margin-top: 2rem;
-  }
-}
-
-#how {
-  margin-left: 3rem;
-}
-
-#get-involved {
-  margin-left: 3rem;
-}
-
-.footer-copyright {
-  display: flex;
-  flex-flow: column nowrap;
-  width: 100%;
-  height: 3rem;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 4rem;
-  margin-bottom: 2rem;
-  p {
-    padding: 0px;
-    margin: 0px;
-  }
-}
-
-@media screen and (max-width: 640px) {
-  .hider {
-    display: none;
-  }
-
-  .footer-main-wrapper {
-    flex-flow: column nowrap;
-    justify-content: space-between;
-    align-items: center;
-    min-height: 60rem;
-  }
-
-  .footer-box {
-    width: auto;
-  }
-
-  .footer-top {
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
-    height: 50%;
-  }  
-
-  .footer-bottom {
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
-    height: 50%;
-  } 
-
-  .social-media-box {
-    position: absolute;
-    left: 3rem;
-    top: 0;
-  }
-
-  #who {
-    position: absolute;
-    left: 0;
-    top: 10rem;
-  }
-
-  #what {
-    position: absolute;
-    left: 0;
-    top: 16.5rem;    
-  }
-
-  #how {
-    position: absolute;
-    left: 3rem;
-    top: 20rem;        
-  }
-
-  #get-involved {
-    position: absolute;
-    left: 3rem;
-    top: 28rem;     
-  }
-
-  .contact-column {
-    flex-flow: column nowrap;
-    position: absolute;
-    left: 6rem;
-    top: 40rem;  
-    margin: 0px;       
-  }
-
-  .footer-copyright {
-    position: absolute;
-    bottom: 0;
-    width: 17rem;
-    height: auto;
-  }
-
-  .flow-controller {
-    position: absolute;
-    bottom: -25px;
-    left: 0;
-  }
-}
-
-@media screen and (max-width: 950px) and (min-width: 640px) {
-  .tablet-hider {
-    display: none;
-  }
-}
-
-// Blog
+/* Blog Archive Page */
 
 .blog-hero {
   background: url('../../assets/Images/Desktop/blog/tekera_blog_teal_mic.png');
@@ -377,8 +115,6 @@
   text-transform: uppercase;
   font-size: 1.5rem;
 }
-
-
 
 @media screen and (min-width: 640px) {
  
@@ -671,8 +407,7 @@
   }
 }
 
-//HOW WE DO IT
-
+/* How We Do It */
 
 .how-hero-wrapper {
   background: url('../../assets/Images/Desktop/blog/tekera_blog_celebrations_all_over_trc.png');
@@ -990,7 +725,7 @@
 
 }
 
-//GLOBAL GOALS
+/* Global Goals */
 
 .global-goals-page {
   display: flex;
@@ -1269,8 +1004,7 @@
   }
 }
 
-// TRANSPARENCY
-
+/* Transparency */
 
 .transparency-title-wrapper {
   @include font-open-bold;
@@ -1327,7 +1061,7 @@
   }
 }
 
-// OUR IMPACT
+/* Our Impact */
 
 .our-impact-hero {
   background: url('../../assets/Images/Mobile/global-goals/tekera_global_goals_kids_in_playground_.png');  
@@ -1346,8 +1080,7 @@
 }
 
 
-
-// Get Involved Page
+/* Get Involved Page */
 
 .page-template-page-getinvolved{
 
@@ -1461,6 +1194,63 @@
     }
   }
 }
+
+.page-template-page-getinvolved{
+
+  .sponsor-title {
+    padding: 0.5rem 2rem;
+    margin: 0;
+    background: $color_brand-white-transparent;
+    @include desktop {
+      display: none;
+    }
+    a {
+      @include font-open-bold;
+      color: $color_brand-blue-dark;
+    }
+  }
+
+  .custom-sub-menu-wrapper {
+    display: none;
+    text-align: center;
+    background: white;
+    @include desktop {
+      display: block;
+      background: $color_brand-white-transparent;
+    }
+    ul {
+      width: 80%;
+      margin: 0 auto;
+      @include desktop {
+        display: flex;
+        align-items: center;
+        padding: 0.7rem 0;
+      }
+    }
+    li {
+      @include font-open-bold;
+      text-transform: uppercase;
+      font-size: 1.3rem;
+      border-bottom: 1px solid #3f3f3f;
+      padding: 1.9rem 0;
+      &:last-child {
+        border-bottom: none;
+      }
+      @include desktop {
+        margin: 0 1rem;
+        border-bottom: none;
+        padding: 0;
+        @include font-open-regular;
+        text-transform: none;
+        margin-right: 4rem;
+      }
+    }
+    a {
+      color: $color_brand-blue-dark;
+    }
+  }
+}
+
 
 /* Get Involved: Sponsor Page */
 
@@ -1641,442 +1431,4 @@
     align-items: center;
   }
  }
-}
-
-// Get Involved: landing page
-
-.page-template-page-getinvolved{
-
-  .sponsor-title {
-    padding: 0.5rem 2rem;
-    margin: 0;
-    background: $color_brand-white-transparent;
-    @include desktop {
-      display: none;
-    }
-    a {
-      @include font-open-bold;
-      color: $color_brand-blue-dark;
-    }
-  }
-
-  .custom-sub-menu-wrapper {
-    display: none;
-    text-align: center;
-    background: white;
-    @include desktop {
-      display: block;
-      background: $color_brand-white-transparent;
-    }
-    ul {
-      width: 80%;
-      margin: 0 auto;
-      @include desktop {
-        display: flex;
-        align-items: center;
-        padding: 0.7rem 0;
-      }
-    }
-    li {
-      @include font-open-bold;
-      text-transform: uppercase;
-      font-size: 1.3rem;
-      border-bottom: 1px solid #3f3f3f;
-      padding: 1.9rem 0;
-      &:last-child {
-        border-bottom: none;
-      }
-      @include desktop {
-        margin: 0 1rem;
-        border-bottom: none;
-        padding: 0;
-        @include font-open-regular;
-        text-transform: none;
-        margin-right: 4rem;
-      }
-    }
-    a {
-      color: $color_brand-blue-dark;
-    }
-  }
-}
-
-//Get Invloved: Internship page
-
-.page-template-page-internship{
-  .sponsor-hero{
-    background: url('../../assets/Images/Mobile/get-involved/tekera_get_involved_intern_application_2_reading_a_book_for_kids.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 100vh;
-
-    @include desktop{
-      background: url('../../assets/Images/Desktop/get-involved/tekera_get_invloved_intern_application_internship_program.png');
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-    }
-  }
-}
-
-.page-template-page-internship{
-  .project-title-container{
-    display: flex;
-    background: $color_brand-white-transparent;
-      @include desktop {
-        display: none;
-      }
-
-    img{
-      order: 1;
-      align-self: center;
-    }
-  }
-}
-
-.page-template-page-internship{
-
-  .sponsor-title {
-    padding: 0.5rem 2rem;
-    margin: 0;
-    // background: $color_brand-white-transparent;
-    // @include desktop {
-    //   display: none;
-    // }
-    a {
-      @include font-open-bold;
-      color: $color_brand-blue-dark;
-    }
-  }
-
-  .custom-sub-menu-wrapper {
-    display: none;
-    text-align: center;
-    background: white;
-    @include desktop {
-      display: block;
-      background: $color_brand-white-transparent;
-    }
-    ul {
-      width: 80%;
-      margin: 0 auto;
-      @include desktop {
-        display: flex;
-        align-items: center;
-        padding: 0.7rem 0;
-      }
-    }
-    li {
-      @include font-open-bold;
-      text-transform: uppercase;
-      font-size: 1.3rem;
-      border-bottom: 1px solid #3f3f3f;
-      padding: 1.9rem 0;
-      &:last-child {
-        border-bottom: none;
-      }
-      @include desktop {
-        margin: 0 1rem;
-        border-bottom: none;
-        padding: 0;
-        @include font-open-regular;
-        text-transform: none;
-        margin-right: 4rem;
-      }
-    }
-    a {
-      color: $color_brand-blue-dark;
-    }
-  }
-}
-
-.page-template-page-internship{
-  .is-open{
-    display: flex;
-
-    .overview-image{
-      background-position: top;
-      background-size: contain;
-      background-repeat: no-repeat;
-      width: 50%;
-      height: 70%;
-      margin-top: 3rem;
-      margin-left: 3rem;
-    }
-
-    .overview-info{
-      width: 50%;
-      margin-top: 3rem;
-
-      p{
-        width: 45%;
-        padding-top: 3rem;
-        padding-right: 3rem;
-      }
-    }
-  }
-}
-
-.page-template-page-internship{
-  li:nth-child(2){
-    
-    h2{
-    color: #072A3D;
-    font-size: 36px;
-    line-height: 49px;  
-    font-weight: 700;
-    }
-  }
-
-    .job-post{
-      display: flex;
-      width: 75%;
-      margin-left: auto;
-      margin-right: auto;
-
-      .job-title{
-        display: flex;
-        align-items: center;
-        width: 200px;
-        color: #20ACAF;
-        font-size: 24px;
-        line-height: 33px;
-        font-weight: 700;
-      }
-      
-      .entry-content{
-        flex-basis: 60%;
-        margin-top: 0;
-        color: #4A4A4A;
-        font-size: 20px;
-        line-height: 34px;
-      }
-
-      .button{
-        background-color: #ee9825;
-        color: #fff;
-        align-self: center;
-        border: none;
-        width: 253px;
-        height: 55px;
-        font-size: 20px;
-        line-height: 33px;
-        font-weight: 700;
-        box-shadow: none;
-        text-shadow: none;
-        text-transform: uppercase;
-      }
-    }
-
-       .job-post:nth-child(2){
-        padding-bottom: 2rem;
-        border-bottom: 1px solid #e1e1e1;
-      }
-
-      .job-post:nth-child(3){
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-        border-bottom: 1px solid #e1e1e1;
-      }
-
-      .job-post:nth-child(4){
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-        border-bottom: 1px solid #e1e1e1;
-      }
-
-      .job-info{
-        span p{
-          color: #072A3D;
-          font-size: 24px;
-          line-height: 33px;
-          font-weight: 700;
-          // text-align: center;
-          // width: 70%;
-        }
-
-        .button{
-          background-color: #ee9825;
-          color: #fff;
-          border: none;
-          width: 253px;
-          height: 55px;
-          font-size: 20px;
-          line-height: 33px;
-          font-weight: 700;
-          box-shadow: none;
-          text-shadow: none;
-          text-transform: uppercase;
-        }
-      }
-    }
-
-// Text Styling on application form
-.page-template-page-internship{
-    li:nth-child(3){
-      .entry-content-page{
-        p{
-          color: #072A3D;
-          font-size: 50px;
-          line-height: 81px;         
-          padding-left: 2rem;
-          font-family: 'Shadows Into Light Web';
-        }
-        form{
-          p{
-          color: #3B3B3B;
-          font-size: 30px;
-          line-height: 41px;
-          font-family: 'Open Sans';
-          }
-
-          p:nth-child(4){
-            font-size: 30px;
-            font-weight: 600;
-            line-height: 41px;
-            color: #072A3D;
-          }
-
-          p:nth-child(5){
-            font-size: 30px;
-            font-weight: 600;
-            line-height: 41px;
-            color: #072A3D;
-          }
-
-          p:nth-child(6){
-            font-size: 30px;
-            font-weight: 600;
-            line-height: 41px;
-            color: #072A3D;
-          }
-
-          p:nth-child(7){
-            font-size: 30px;
-            font-weight: 600;
-            line-height: 41px;
-            color: #072A3D;
-          }
-
-          p:nth-child(8){
-            font-size: 30px;
-            font-weight: 600;
-            line-height: 41px;
-            color: #072A3D;
-
-            label{
-              padding-bottom: 2rem;
-            }
-            
-            span{
-              color: #3B3B3B;
-              font-size: 30px;
-              font-weight: 100;
-              line-height: 41px;
-            }
-          }
-          
-        }
-      }
-    }
-}
-
-// Narrow Triangle overlay images 
-.page-template-page-internship{
-
-  li:nth-child(3){
-      #test-triangles {
-          display: flex;
-          flex-flow: row nowrap;
-          justify-content: center;
-          align-items: center;
-          width: 100%;
-          height: 5rem;
-          overflow: hidden;
-
-      #left-side {
-          background: $color_brand-teal-transparent;
-          width: 95%;
-          height: 100%;
-        }
-        
-      #right-side {
-          width: 0;
-          height: 0;
-          border-top: 5rem solid transparent;
-          border-bottom: 5rem solid transparent;
-          border-left: 7rem solid var $color_brand-teal-transparent;    
-        }
-      }
-    }
-  }
-
-
-// Form Styling 
-
-.page-template-page-internship{
-  select#edu-level{
-    width: 500px;
-    height: 50px;
-    margin-right: 3rem;
-    border: 1px solid #072a3d;
-  }
-  select#work-experience{
-    width: 500px;
-    height: 50px;
-    border: 1px solid #072a3d;
-  }
-}
-
-.page-template-page-internship{
-  textarea#ps_1{
-    border: 1px solid #072a3d;
-    margin-top: 2rem;
-    margin-bottom: 4rem;
-  }
-
-  textarea#ps_2{
-    border: 1px solid #072a3d;
-    margin-top: 2rem;
-    margin-bottom: 4rem;
-  }
-
-  textarea#ps_3{
-    border: 1px solid #072a3d;
-    margin-top: 2rem;
-    margin-bottom: 4rem;
-  }
-
-  textarea#ps_4{
-    border: 1px solid #072a3d;
-    margin-top: 2rem;
-    margin-bottom: 4rem;
-  }
-}
-
-
-// Spacing for the last qs 
-.page-template-page-internship{
-  span.wpcf7-list-item{
-    display: block;
-    margin-left: 0;
-  }
-}
-
-//Sumbit button
-.page-template-page-internship{
-  input#submit_button.wpcf7-form-control{
-          background-color: #ee9825;
-          border: none;
-          width: 169px;
-          height: 50px;
-          color: #fff;
-          font-size: 20px;
-          text-transform: uppercase;
-          font-weight: 700;
-          box-shadow: none;
-          text-shadow: none;
-  }
 }
