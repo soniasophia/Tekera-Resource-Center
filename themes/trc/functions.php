@@ -131,18 +131,13 @@ require get_template_directory() . '/inc/template-tags.php';
  */
 require get_template_directory() . '/inc/extras.php';
 
-
-function short_excerpt($string) {
-echo substr($string, 0, 250); 
+/** 
+ * Blog Post Excerpt length 
+ */
+function trc_custom_excerpt_length( $length ) {
+    return 50;
 }
-
-/**
-* Limit number of tags per post that are displayed on single blog page navigation.
-*/
-// function limit_to_one_tag($terms) {
-// 	return array_slice($terms,0,1,true);
-// }
-// add_filter('term_links-post_tag','limit_to_one_tag');
+add_filter( 'excerpt_length', 'trc_custom_excerpt_length', 999 );
 
 // Custom Sub Menus
 function register_tekera_what_we_do_custom_menu() {
@@ -162,11 +157,10 @@ function register_tekera_get_involved_custom_menu() {
 add_action ('init', 'register_tekera_get_involved_custom_menu');
 
 
-add_action( 'rest_api_init', 'create_api_members_custom_field' );
+
  
 function create_api_members_custom_field() {
- 
-    // register_rest_field ( 'name-of-post-type', 'name-of-field-to-return', array-of-callbacks-and-schema() )
+// register_rest_field ( 'name-of-post-type', 'name-of-field-to-return', array-of-callbacks-and-schema() )
     register_rest_field( 'members', 'first_name', array(
            'get_callback'    => function( $members_arr ) {
             return CFS()->get( first_name, $members_arr['id'] ); 
@@ -198,6 +192,7 @@ function create_api_members_custom_field() {
 
     global $wp_rest_additional_fields;
 }
+add_action( 'rest_api_init', 'create_api_members_custom_field' );
 
 
 

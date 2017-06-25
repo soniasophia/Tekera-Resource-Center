@@ -2951,7 +2951,8 @@ object {
     @media screen and (min-width: 640px) and (max-width: 2000px) {
       .page-template-page-getinvolved .involvement p {
         max-width: 50%;
-        margin-bottom: 0; } }
+        margin-bottom: 0;
+        font-size: 1.1rem; } }
   .page-template-page-getinvolved .involvement a {
     background: #EE9825;
     padding: 1rem 2.5rem;
