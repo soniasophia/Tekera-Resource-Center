@@ -2,44 +2,56 @@
 
 .site-main {
 	.hero-banner {
-		background: url('../../assets/Images/Desktop/home-page/tekera_home_page_music_dance_drumming_festival_2.png') center center;
+		background: url('../../assets/Images/Mobile/home-page/tekera_home_page_music_dance.png') center center;
 		background-size: cover;
 		background-repeat: no-repeat;
 		height: 100vh;
 		width: 100vw;
 
+		@include desktop {
+			background: url('../../assets/Images/Desktop/home-page/tekera_home_page_music_dance_drumming_festival_2.png') center center;
+			background-size: cover;
+		}
+
 		h1 {
 			@include shadows;
-			font-size: 6rem;
+			font-size: 3rem;
+    	width: 80%;
+    	font-weight: bold;
 			text-align: center;
 			text-transform: uppercase;
 			color: white;
 			position: absolute;
     	left: 50%;
-    	top: 65%;
+    	top: 60%;
     	transform: translate(-50%,-50%);
 			text-shadow: 1px 1px 2px black;
+
+			@include desktop {
+				font-size: 6rem;
+				width: 70%;
+			}
 		}
 	}
 
-	// .carousel-text {
-	// 	p{
-	// 		color: #fff;
-	// 		text-align: center;
-	// 		font-size: 48px;
-	// 		line-height: 77px;
-  //  		text-transform: uppercase;
+			.learn-more-button {
+			@include font-open-regular;
+			position: absolute;
+			background-color: $color_brand-yellow;
+			color: white;
+			font-size: 22px;
+			text-transform: uppercase;
+			padding: 0.5rem 1rem;
+			bottom: 0;
 
-	// 		@include desktop{
-	// 			font-size: 100px;
-  //   		line-height: 160px;
-  //   		text-transform: uppercase;
-	// 		}	
-	// 	}
-	// }
-		
+			@include desktop {
+				left: 0;
+    		bottom: 0;
+				padding: 0.7rem 3rem;
+			}
+		}
 
-	.going-to-school{
+	.going-to-school {
 		background:url('../../assets/Images/Mobile/home-page/tekera_homepage_mom_going_by_the_school_.png');
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -48,15 +60,14 @@
 		width: 100vw;
 		position: relative;
 
-		@include desktop{
+		@include desktop {
 			background: url('../../assets/Images/Desktop/home-page/tekera_home_page_mom_going_by_the_school_.png');
    		background-size: cover;
     	background-repeat: no-repeat;
     	background-position: top;
 		}
 
-
-		.frontpage-overlay-image{
+		.frontpage-overlay-image {
 			background:url('../../assets/Triangles/triangle_mobile.png');
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -66,83 +77,73 @@
 			position: absolute;
 			bottom: 0;
 
-			@include desktop{
+			@include desktop {
 				background: url('../../assets/Triangles/desktop_triangle_right.png');
 				background-size: cover;
 				background-repeat: no-repeat;
-				background-position: top;
-				height: 100vh;
-				width: 70vw;
-				position: absolute;
-				left: 0;
+    		background-position-y: center;
+    		background-position-x: -390px;
+				height: 100%;
 			}
 		}
 
-		.frontpage-info{
+		h2 {
+			@include shadows;
+		}
+
+		.frontpage-info {
 			position: absolute;
 			top: 40%;
 			left: 16%;
-			width: 65%;
+			max-width: 70%;
+			display: flex;
+    	flex-direction: column;
+    	align-items: center;
 
-			@include desktop{
+			@include desktop {
 				top: 20%;
 				left: 10%;
-				max-width: 600px;
+				max-width: 500px;
+				align-items: left;
 			}
 
-			h2{
-				font-size: 26px;
-				width: 205px;
-				height: 76px;
+			h2 {
+				font-size: 2rem;
+				max-width: 61%;
 				margin: 0 auto;
 				color: #fff;
 				text-align: center;
-				width: 100%;
 
 				@include desktop{
+					font-size: 3rem;
 					text-align: left;
+					max-width: 100%;
+					margin: 1rem 0;
 				}
 			}
 
-			p{
-				width: 272px;
-				height: 315px;
+			p {
+				@include font-open-light;
 				font-size: 20px;
-				line-height: 34px;
+				line-height: 2.2rem;
 				color: #fff;
 				text-align: center;
 				width: 100%;
+				margin-top: 2rem;
+				padding-bottom: 4rem;
 
-				@include desktop{
+				@include desktop {
 					text-align: left;
+    			font-size: 1.5rem;
+    			line-height: 2.5rem;
+					padding-bottom: 7rem;
 				}
-			}
-		}
-
-		.button{
-			position: absolute;
-			bottom: 3rem;
-			left: 30%;
-			background-color: #ee9825;
-			border: none;
-			width: 169px;
-			height: 50px;
-			color: #fff;
-			font-size: 20px;
-			text-transform: uppercase;
-			font-weight: 700;
-			box-shadow: none;
-			text-shadow: none;
-
-			@include desktop{
-				left: 10%;
-    		bottom: 17rem;
 			}
 		}
 	}
 
 
-	.lunch-program{
+	.lunch-program {
 		background:url('../../assets/Images/Mobile/home-page/tekera_homepage_tps_lunch_program_.png');
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -151,7 +152,7 @@
 		width: 100vw;
 		position: relative;
 
-			@include desktop{
+			@include desktop {
 				background: url('../../assets/Images/Desktop/home-page/tekera_home_page_tps_lunch_program_.png');
 				background-size: cover;
 				background-repeat: no-repeat;
@@ -159,7 +160,7 @@
 			}
 
 
-		.frontpage-overlay-image{
+		.frontpage-overlay-image {
 			background:url('../../assets/Triangles/triangle_mobile.png');
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -169,47 +170,67 @@
 			position: absolute;
 			bottom: 0;
 
-				@include desktop{
+				@include desktop {
 					background: url('../../assets/Triangles/desktop_triangle_left.png');
 					background-size: cover;
 					background-repeat: no-repeat;
-					background-position: top;
-					height: 100vh;
-					width: 70vw;
-					position: absolute;
-					right: 0;
+					background-position-y: center;
+    			background-position-x: 465px;
+					height: 100%;
 				}
 		}
 
-		.frontpage-info{
+		.frontpage-info {
 			position: absolute;
-			top: 48%;
-			right: 20%;
-			width: 60%;
+			top: 50%;
+			right: 14%;
+			max-width: 70%;
+			display: flex;
+    	flex-direction: column;
+    	align-items: center;
 
-				@include desktop{
+				@include desktop {
 					top: 25%;
 					right: 10%;
-					max-width: 600px;
+					max-width: 500px;
+					align-items: right;
 				}
 
-			h2{
-				font-size: 26px;
-				width: 272px;
-				height: 76px;
-				margin: 0 auto;
+				.global-goals-mobile {
+					@include desktop {
+						display: none;
+					}
+				}
+
+				.global-goals-desktop {
+					@include mobile {
+						display: none;
+					}
+				}
+
+			h2 {
+				@include shadows;
+				font-size: 2rem;
+    		max-width: 80%;
+    		margin: 0 auto;
 				color: #fff;
 				text-align: center;
 				line-height: 38px;
 				width: 100%;
 
-					@include desktop{
-						text-align: right;
-					}
+				@include desktop{
+					text-align: right;
+					font-size: 3rem;
+					max-width: 100%;
+					line-height: 3.5rem;
+					margin-bottom: 3rem;
+				}
 			}
 
-			p{
-				width: 272px;
+			p {
+				@include font-open-light;
+				margin-top: 2rem;
+				margin-bottom: 0;
 				height: 231px;
 				font-size: 20px;
 				line-height: 33px;
@@ -219,34 +240,25 @@
 
 					@include desktop{
 						text-align: right;
+						font-size: 1.5rem;
+    				line-height: 2.5rem;
+						width: 80%;
+    				margin-left: 20%;
+						margin-bottom: 2rem;
 					}
 			}
 		}
 
-		.button{
-			position: absolute;
-			bottom: 4rem;
-			right: 33%;
-			background-color: #ee9825;
-			border: none;
-			width: 169px;
-			height: 50px;
-			color: #fff;
-			font-size: 20px;
-			text-transform: uppercase;
-			font-weight: 700;
-			box-shadow: none;
-			text-shadow: none;
-
-				@include desktop{
-					bottom: 16rem;
-					right: 11%;
-				}
+		.learn-more-button {
+			@include desktop {
+				right: 0;
+				left: initial;
+				bottom: 0;
+			}
 		}
-
 	}
 
-	.smiling-woman{
+	.smiling-woman {
 		background:url('../../assets/Images/Mobile/home-page/tekera_home_page_smiling_woman.png');
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -263,7 +275,7 @@
 			}
 
 
-		.frontpage-overlay-image{
+		.frontpage-overlay-image {
 			background:url('../../assets/Triangles/triangle_mobile.png');
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -277,104 +289,97 @@
 					background: url('../../assets/Triangles/desktop_triangle_right.png');
 					background-size: cover;
 					background-repeat: no-repeat;
-					background-position: top;
-					height: 100vh;
-					width: 70vw;
-					position: absolute;
-					left: 0;
+					background-position-y: center;
+    			background-position-x: -390px;
+					height: 100%;
 				}
 		}
 
-		.frontpage-info{
+		.frontpage-info {
 			position: absolute;
-			top: 48%;
-			left: 18%;
-			width: 65%;
+			top: 46%;
+			left: 16%;
+			width: 70%;
+			display: flex;
+    	flex-direction: column;
+    	align-items: center;
 
 				@include desktop{
-					top: 20%;
+					top: 25%;
 					left: 10%;
-					max-width: 600px;
+					max-width: 500px;
+					align-items: right;
 				}
 
-			h2{
-				font-size: 26px;
-				width: 169px;
+			h2 {
+				@include shadows;
+				font-size: 2rem;
 				height: 86px;
 				margin: 0 auto;
 				color: #fff;
 				text-align: center;
 				line-height: 43px;
-				width: 100%;
+				width: 61%;
 
-					@include desktop{
-						text-align: left;
-					}
+				@include desktop{
+					text-align: left;
+					font-size: 3rem;
+    			width: 100%;
+    			margin: 1rem 0;
+					line-height: 3.5rem;
+				}
 			}
 
-			p{
-				width: 272px;
-				height: 198px;
+			p {
+				@include font-open-light;
 				font-size: 20px;
 				line-height: 33px;
 				color: #fff;
 				text-align: center;
 				width: 100%;
-
-					@include desktop{
-						text-align: left;
-					}
-			}
-		}
-
-		.button{
-			position: absolute;
-			bottom: 6rem;
-			left: 30%;
-			background-color: #ee9825;
-			border: none;
-			width: 169px;
-			height: 50px;
-			color: #fff;
-			font-size: 20px;
-			text-transform: uppercase;
-			font-weight: 700;
-			box-shadow: none;
-			text-shadow: none;
+				padding-bottom: 5rem;
+				margin-top: 3rem;
 
 				@include desktop{
-					bottom: 19rem;
-					left: 10%;
+					text-align: left;
+					font-size: 1.5rem;
+    			line-height: 2.5rem;
+    			padding-bottom: 7rem;
+					margin-top: 1.5rem;
 				}
+			}
 		}
-
 	}
 
-	.programs-info{
+	.programs-info {
 
 		@include desktop{
 				max-width: 80%;
    			margin: 3rem auto 5rem;
 		}	
 
-		h1{
-			color: #20ACAF;
-			font-size: 2rem;
+		h1 {
+			color: $color_brand-teal;
+			font-size: 1.5rem;
+    	max-width: 80%;
+    	margin: 0 auto;
 			font-weight: 800;
 			line-height: 38px;
 			text-align: center;
 			text-transform: uppercase;
-			margin-top: 0;
-			margin-bottom: 0;
 			padding: 3rem 2rem;
 
 			@include desktop{
 				height: 150px;
     		padding: 0;
+				font-size: 2.1rem;
+    		width: 80%;
+    		line-height: 3.5rem;
+    		margin: 0 auto;
 			}
 		}
 
-		.icons-container{
+		.icons-container {
 			display: flex;
 			flex-wrap: wrap;
 			justify-content: center;
@@ -383,11 +388,16 @@
 					padding: 2rem;
 				}
 
+				p {
+					@include shadows;
+					text-transform: uppercase;
+				}
+
 			.icons-wrapper:nth-child(1){
 				background: url('../../assets/Icons/Mobile/Mobile_png/Tekera_Mobile_Icon_Education.png');
    		  background-position: top;
     		background-repeat: no-repeat;
-    		max-width: 160px;
+    		width: 165px;
 
 					@include desktop{
 						order: 4;
@@ -399,7 +409,7 @@
 
 					p{
 						margin-top: 8rem;
-						width: 160px;
+						width: 158px;
 
 						@include desktop{
 							margin-top: 10.5rem;
@@ -411,7 +421,7 @@
 				background: url('../../assets/Icons/Mobile/Mobile_png/Tekera_Mobile_Icon_Farming.png');
 				background-position: top;
 				background-repeat: no-repeat;
-				max-width: 160px;
+				width: 165px;
 
 					@include desktop{
 						order: 1;
@@ -423,7 +433,7 @@
 
 					p{
 						margin-top: 8rem;
-						width: 160px;
+						width: 158px;
 
 						@include desktop{
 							margin-top: 10.5rem;
@@ -436,7 +446,7 @@
 				background: url('../../assets/Icons/Mobile/Mobile_png/Tekera_Mobile_Icon_Clinic.png');
 				background-position: top;
 				background-repeat: no-repeat;
-				max-width: 160px;
+				width: 165px;
 
 					@include desktop{
 						order: 2;
@@ -448,7 +458,7 @@
 
 					p{
 						margin-top: 8rem;
-						width: 160px;
+						width: 158px;
 
 						@include desktop{
 							margin-top: 10.5rem;
@@ -460,7 +470,7 @@
 				background: url('../../assets/Icons/Mobile/Mobile_png/Tekera_Mobile_Icon_Economy.png');
 				background-position: top;
 				background-repeat: no-repeat;
-				max-width: 160px;
+				width: 165px;
 
 					@include desktop{
 						order: 6;
@@ -472,7 +482,7 @@
 
 					p{
 						margin-top: 8rem;
-						width: 160px;
+						width: 158px;
 
 						@include desktop{
 							margin-top: 10.5rem;
@@ -484,7 +494,7 @@
 				background: url('../../assets/Icons/Mobile/Mobile_png/tekera_mobile_icon_women_empowerment_.png');
 				background-position: top;
 				background-repeat: no-repeat;
-				max-width: 160px;
+				width: 165px;
 
 					@include desktop{
 						order: 3;
@@ -496,7 +506,7 @@
 
 					p{
 						margin-top: 8rem;
-						width: 160px;
+						width: 158px;
 
 						@include desktop{
 							margin-top: 10.5rem;
@@ -508,7 +518,7 @@
 				background: url('../../assets/Icons/Mobile/Mobile_png/tekera_mobile_icon_community_.png');
 				background-position: top;
 				background-repeat: no-repeat;
-				max-width: 160px;
+				width: 165px;
 
 					@include desktop{
 						order: 5;
@@ -520,7 +530,7 @@
 
 					p{
 						margin-top: 8rem;
-						width: 160px;
+						width: 158px;
 
 						@include desktop{
 							margin-top: 10.5rem;
@@ -543,7 +553,8 @@
 				background-repeat: no-repeat;
 				width: 272px;
 				height: 141px;
-				margin-bottom: 2rem;
+				margin-top: 4rem;
+				margin-bottom: 4rem;
 
 				@include desktop{
 					background: url('../../assets/Icons/Desktop/Desktop_10000ppl.png');

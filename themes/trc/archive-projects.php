@@ -55,8 +55,8 @@ get_header(); ?>
 
               <div class="project-info">
                 <p class="project-description"><?php echo $project_type->description; ?></p>
-                <div class="learn-more-button">
-                  <a class="learn-more" href="<?php echo get_term_link($project_type); ?>">Learn More</a>
+                <div class="learn-more-link">
+                  <a class="learn-more-projects" href="<?php echo get_term_link($project_type); ?>">Learn More</a>
                 </div>
               </div>
               
