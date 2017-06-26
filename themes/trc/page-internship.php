@@ -71,13 +71,6 @@ get_the_title();
 
           <li><a href="#">Application Form</a>
           <section>
-          
-            <div id=“test-triangles” >
-              <div id=“left-side”>
-              </div><!--left-side-->
-              <div id=“right-side”>
-              </div><!--right-side-->    
-            </div><!--test-triangles-->
 
             <?php while ( have_posts() ) : the_post(); ?> 
             <div class="entry-content-page">
@@ -93,7 +86,7 @@ get_the_title();
   
 
   <div class="heading-tab">
-    <h1>Fund a Project</h1>
+    <h1>Internship</h1>
     <img id="mobile-dropdown-arrow" src="<?php echo get_template_directory_uri();?>/assets/Icons/Mobile/Mobile_png/tekera_mobile_icon_arrow_down_white.png">
   </div>
 
