@@ -513,19 +513,7 @@
     color: $color_brand-blue-dark;
   }
 
-  .dropdown-arrow {
-    position: absolute;
-    left: 13rem;
-    top: 10.4rem;
-
-    &:hover {
-      cursor: pointer;
-    }
-
-    @include desktop {
-      display: none;
-    }
-  }
+  
 
   .content-area {
     width: 80%;

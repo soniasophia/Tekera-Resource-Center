@@ -2059,16 +2059,6 @@ object {
   font-style: normal;
   color: #072A3D; }
 
-.post-type-archive-projects .dropdown-arrow {
-  position: absolute;
-  left: 13rem;
-  top: 10.4rem; }
-  .post-type-archive-projects .dropdown-arrow:hover {
-    cursor: pointer; }
-  @media screen and (min-width: 640px) and (max-width: 2000px) {
-    .post-type-archive-projects .dropdown-arrow {
-      display: none; } }
-
 .post-type-archive-projects .content-area {
   width: 80%;
   margin: 0 auto; }
@@ -3993,6 +3983,87 @@ ul#tab-nav {
     position: absolute;
     top: 45px;
     right: 55px; }
+
+.tax-project-type .dropdown-arrow {
+  position: absolute;
+  left: 13rem;
+  top: 10.4rem; }
+  .tax-project-type .dropdown-arrow:hover {
+    cursor: pointer; }
+  @media screen and (min-width: 640px) and (max-width: 2000px) {
+    .tax-project-type .dropdown-arrow {
+      display: none; } }
+
+.tax-project-type .project-title-container {
+  display: -ms-flexbox;
+  display: flex;
+  background: rgba(255, 255, 255, 0.7); }
+  @media screen and (min-width: 640px) and (max-width: 2000px) {
+    .tax-project-type .project-title-container {
+      display: none; } }
+  .tax-project-type .project-title-container img {
+    -ms-flex-order: 1;
+        order: 1;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center; }
+
+.tax-project-type .projects-title {
+  padding: 0.5rem 2rem;
+  margin: 0; }
+  .tax-project-type .projects-title a {
+    font-family: 'Open Web';
+    font-weight: bold;
+    font-style: normal;
+    color: #072A3D; }
+
+.tax-project-type .custom-sub-menu-wrapper {
+  display: none;
+  text-align: center;
+  background: white; }
+  @media screen and (min-width: 640px) and (max-width: 2000px) {
+    .tax-project-type .custom-sub-menu-wrapper {
+      display: block;
+      background: rgba(255, 255, 255, 0.7); } }
+  .tax-project-type .custom-sub-menu-wrapper ul {
+    width: 95%;
+    margin: 0 auto; }
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
+      .tax-project-type .custom-sub-menu-wrapper ul {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+            align-items: center;
+        padding: 0.7rem 0;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+        .tax-project-type .custom-sub-menu-wrapper ul .menu-item-153 {
+          font-size: 1.9rem;
+          font-family: 'Open Web';
+          font-weight: bold;
+          font-style: normal; } }
+  .tax-project-type .custom-sub-menu-wrapper li {
+    font-family: 'Open Web';
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    border-bottom: 1px solid #3f3f3f;
+    padding: 1.9rem 0; }
+    .tax-project-type .custom-sub-menu-wrapper li:last-child {
+      border-bottom: none; }
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
+      .tax-project-type .custom-sub-menu-wrapper li {
+        margin: 0 1rem;
+        border-bottom: none;
+        padding: 0;
+        font-family: 'Open Web';
+        font-weight: normal;
+        font-style: normal;
+        text-transform: none;
+        margin: 0 0; } }
+  .tax-project-type .custom-sub-menu-wrapper a {
+    color: #072A3D; }
 
 .tax-project-type .hero-banner img {
   width: 100% !important;
