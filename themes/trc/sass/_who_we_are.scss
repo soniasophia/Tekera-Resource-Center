@@ -1,5 +1,11 @@
 .who-we-are-page {
-  font-family: "Open Web";
+  @include font-open-regular;
+  p {
+    @include font-open-light;
+    font-size: 18px;
+    line-height: 2.2rem;
+  }
+  
 
   .custom-sub-menu-wrapper {
     display: none;
@@ -89,6 +95,8 @@
   }
   .content {
     margin-top: 50px;
+    width: 100%;
+
     h1 {
       color: $color_brand-teal;
       font-size: 1.5rem;
@@ -139,7 +147,10 @@
         background-repeat: no-repeat;
     }
       .top-phrase {
-        color: white;
+        h2, p {
+          color: white;
+        }
+
         p {
           margin: 30px auto;
           width: 58%;
@@ -184,12 +195,14 @@
         right: 0;
     }
       .bottom-phrase {
-        color: white;
-        h2{
+        h2 {
+          color: white;
+
           @include desktop {
             margin: 0px;
           }
         }
+
         ul {
           margin: auto;
           padding: 35px;
@@ -200,11 +213,13 @@
             margin-right: 0px;
           }
         }
+
+        li {
+          @include font-open-light;
+          color: white;
+          list-style-type: disc;
+        }
       }
     }
   }
 }
-
-@include desktop {
-      
-    }

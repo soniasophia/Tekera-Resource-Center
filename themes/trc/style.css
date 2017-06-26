@@ -3194,7 +3194,15 @@ object {
       align-items: center; }
 
 .who-we-are-page {
-  font-family: "Open Web"; }
+  font-family: 'Open Web';
+  font-weight: normal;
+  font-style: normal; }
+  .who-we-are-page p {
+    font-family: 'Open Web';
+    font-weight: 100;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 2.2rem; }
   .who-we-are-page .custom-sub-menu-wrapper {
     display: none;
     text-align: center;
@@ -3265,7 +3273,8 @@ object {
     width: 80%;
     margin: auto; }
   .who-we-are-page .content {
-    margin-top: 50px; }
+    margin-top: 50px;
+    width: 100%; }
     .who-we-are-page .content h1 {
       color: #20ACAF;
       font-size: 1.5rem;
@@ -3314,11 +3323,11 @@ object {
           width: 50%;
           background-position: center right;
           background-repeat: no-repeat; } }
-      .who-we-are-page .top-image .top-blue .top-phrase {
+      .who-we-are-page .top-image .top-blue .top-phrase h2, .who-we-are-page .top-image .top-blue .top-phrase p {
         color: white; }
-        .who-we-are-page .top-image .top-blue .top-phrase p {
-          margin: 30px auto;
-          width: 58%; }
+      .who-we-are-page .top-image .top-blue .top-phrase p {
+        margin: 30px auto;
+        width: 58%; }
   .who-we-are-page .bottom-image {
     background: url("../../assets/Images/Mobile/about/tekera_about_us_water_and_sanitation.png");
     background-size: cover;
@@ -3358,20 +3367,26 @@ object {
           background-position: center left;
           background-repeat: no-repeat;
           right: 0; } }
-      .who-we-are-page .bottom-image .bottom-blue .bottom-phrase {
+      .who-we-are-page .bottom-image .bottom-blue .bottom-phrase h2 {
         color: white; }
         @media screen and (min-width: 640px) and (max-width: 2000px) {
           .who-we-are-page .bottom-image .bottom-blue .bottom-phrase h2 {
             margin: 0px; } }
-        .who-we-are-page .bottom-image .bottom-blue .bottom-phrase ul {
-          margin: auto;
-          padding: 35px;
-          width: 90%;
-          text-align: left; }
-          @media screen and (min-width: 640px) and (max-width: 2000px) {
-            .who-we-are-page .bottom-image .bottom-blue .bottom-phrase ul {
-              padding-left: 80px;
-              margin-right: 0px; } }
+      .who-we-are-page .bottom-image .bottom-blue .bottom-phrase ul {
+        margin: auto;
+        padding: 35px;
+        width: 90%;
+        text-align: left; }
+        @media screen and (min-width: 640px) and (max-width: 2000px) {
+          .who-we-are-page .bottom-image .bottom-blue .bottom-phrase ul {
+            padding-left: 80px;
+            margin-right: 0px; } }
+      .who-we-are-page .bottom-image .bottom-blue .bottom-phrase li {
+        font-family: 'Open Web';
+        font-weight: 100;
+        font-style: normal;
+        color: white;
+        list-style-type: disc; }
 
 #cta {
   font-weight: lighter;
