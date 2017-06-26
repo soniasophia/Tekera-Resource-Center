@@ -839,6 +839,56 @@
   }
 }
 
+.global-carousel {
+  width: 100%;
+  background-color: $color_brand-yellow;
+  height: 100vh;
+  margin-bottom: 8rem;
+
+  .flickity-page-dots {
+    display: none;
+  }
+}
+
+
+.carousel-sub {
+  @include font-open-light;
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+  justify-content: center;
+  padding: 1rem 2rem 1rem 2rem;
+  color: #FFF;
+}
+
+.carousel-sub-header {
+  position: relative;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  padding: 0;
+  img {
+    width: 6rem;
+    height: 6rem;
+    margin-left: 1rem;
+  }  
+  h3 {
+    position: absolute;
+    right: 0;
+    top: -1.5rem;
+    width: 50%;
+    font-size: 1.5rem;
+  }
+}
+
+.carousel-sub-footer {
+  @include font-open-regular;
+  text-align: right;
+  margin-right: 2rem;
+  color: #000;
+  font-size: 0.75rem;
+}
+
 @media screen and (min-width: 640px) {
 
   .global-goals-hero {
@@ -871,19 +921,25 @@
   }
 
   .pre-compliance-box {
+    justify-content: flex-start;
     font-size: 1.5rem;
+    color: $color_brand-blue-dark;
+    width: 80%;
+    padding-left: 5.2rem;
   }
+
 
   .global-carousel {
     display: none;
   }
 
   .goal-items-wrapper {
+    align-items: center;
     display: flex;
     flex-flow: row wrap;
     overflow: hidden;
     justify-content: center;
-    height: 35rem;
+    height: auto;
     width: 80%;
     margin-bottom: 10rem;
   }
@@ -893,9 +949,9 @@
   }
 
   .goal-thumbnail {
-    height: 10rem;
-    width: 10rem;
-    margin: 0 1rem 0 1rem;
+    height: auto;
+    width: 13%;
+    margin: 0 0.5rem 0 0.5rem;
   }
 
   .goal-thumbnail:hover {
@@ -961,13 +1017,14 @@
     flex-flow: row nowrap;
     justify-content: space-between;
     width: 100%;
+    margin-bottom: 4rem;
   }
 
   .close-button {
     @include font-open-regular;
     color: $color_brand-yellow;
     position: absolute;
-    top: 0;
+    top: -0.8rem;
     right: 1rem;
     width: 3rem;
     height: 3rem;

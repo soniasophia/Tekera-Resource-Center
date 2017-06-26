@@ -2056,19 +2056,6 @@ object {
   font-style: normal;
   color: #072A3D; }
 
-.post-type-archive-projects .dropdown-arrow {
-  position: absolute;
-  left: 13rem;
-  top: 10.4rem; }
-  .post-type-archive-projects .dropdown-arrow:hover {
-    cursor: pointer; }
-  @media screen and (min-width: 640px) and (max-width: 2000px) {
-    .post-type-archive-projects .dropdown-arrow {
-      display: none; } }
-.post-type-archive-projects .content-area {
-  width: 80%;
-  margin: 0 auto; }
-
 .post-type-archive-projects .overview h2 {
   text-align: center;
   background: #006E71;
@@ -2630,6 +2617,57 @@ object {
     color: #FFF;
     font-size: 1.25rem; }
 
+.global-carousel {
+  width: 100%;
+  background-color: #EE9825;
+  height: 100vh;
+  margin-bottom: 8rem; }
+  .global-carousel .flickity-page-dots {
+    display: none; }
+
+.carousel-sub {
+  font-family: 'Open Web';
+  font-weight: 100;
+  font-style: normal;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column nowrap;
+      flex-flow: column nowrap;
+  width: 100%;
+  -ms-flex-pack: center;
+      justify-content: center;
+  padding: 1rem 2rem 1rem 2rem;
+  color: #FFF; }
+
+.carousel-sub-header {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row nowrap;
+      flex-flow: row nowrap;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  padding: 0; }
+  .carousel-sub-header img {
+    width: 6rem;
+    height: 6rem;
+    margin-left: 1rem; }
+  .carousel-sub-header h3 {
+    position: absolute;
+    right: 0;
+    top: -1.5rem;
+    width: 50%;
+    font-size: 1.5rem; }
+
+.carousel-sub-footer {
+  font-family: 'Open Web';
+  font-weight: normal;
+  font-style: normal;
+  text-align: right;
+  margin-right: 2rem;
+  color: #000;
+  font-size: 0.75rem; }
+
 @media screen and (min-width: 640px) {
   .global-goals-hero {
     background: url("../../assets/Images/Desktop/home-page/tekera_home_page_music_dance_drumming_festival_2.png");
@@ -2656,10 +2694,17 @@ object {
     .compliance-header p {
       width: 70%; }
   .pre-compliance-box {
-    font-size: 1.5rem; }
+    -ms-flex-pack: start;
+        justify-content: flex-start;
+    font-size: 1.5rem;
+    color: #072A3D;
+    width: 80%;
+    padding-left: 5.2rem; }
   .global-carousel {
     display: none; }
   .goal-items-wrapper {
+    -ms-flex-align: center;
+        align-items: center;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-flow: row wrap;
@@ -2667,15 +2712,15 @@ object {
     overflow: hidden;
     -ms-flex-pack: center;
         justify-content: center;
-    height: 35rem;
+    height: auto;
     width: 80%;
     margin-bottom: 10rem; }
   .goal-items-wrapper-hidden {
     display: none; }
   .goal-thumbnail {
-    height: 10rem;
-    width: 10rem;
-    margin: 0 1rem 0 1rem; }
+    height: auto;
+    width: 13%;
+    margin: 0 0.5rem 0 0.5rem; }
   .goal-thumbnail:hover {
     cursor: pointer; }
   .global-goals-triangle-banner {
@@ -2745,14 +2790,15 @@ object {
         flex-flow: row nowrap;
     -ms-flex-pack: justify;
         justify-content: space-between;
-    width: 100%; }
+    width: 100%;
+    margin-bottom: 4rem; }
   .close-button {
     font-family: 'Open Web';
     font-weight: normal;
     font-style: normal;
     color: #EE9825;
     position: absolute;
-    top: 0;
+    top: -0.8rem;
     right: 1rem;
     width: 3rem;
     height: 3rem;

@@ -63,10 +63,12 @@ get_header();
 
     while ( $loop->have_posts() ) : $loop->the_post();?>
     <div class="carousel-sub">
-      <img src="<?php echo cfs()->get( 'sdg_reversed' ) ?>">
-      <h3><?php the_title();?></h3>
-      <p><?php the_content();?></p>
-      <div class="carousel-sub-footer">
+      <div class="carousel-sub-header">
+        <img src="<?php echo cfs()->get( 'sdg_reversed' ) ?>">
+        <h3><?php the_title();?></h3>
+      </div><!--carousel-sub-header-->  
+        <p><?php the_content();?></p>
+        <div class="carousel-sub-footer">
         <p>Swipe to see more</p>
       </div><!--carousel-sub-footer-->        
     </div><!--carousel-sub-->
