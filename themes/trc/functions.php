@@ -158,6 +158,11 @@ function register_tekera_get_involved_custom_menu() {
 }
 add_action ('init', 'register_tekera_get_involved_custom_menu');
 
+function register_tekera_who_we_are_custom_menu() {
+	register_nav_menu('who-we-are-sub-menu', __('Who We Are Sub Menu'));
+}
+add_action ('init', 'register_tekera_who_we_are_custom_menu');
+
 
 
  
