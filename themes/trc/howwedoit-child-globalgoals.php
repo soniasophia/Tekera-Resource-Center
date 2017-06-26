@@ -85,7 +85,7 @@ get_header();
         <h3><?php the_title();?></h3>
         <h1 class="close-button">X</h1>
         <p><?php the_content();?></p>      
-      </div><!--goal-item-content-->       
+      </div><!--goal-item-content-hidden-->       
     <?php endwhile; ?>
   </div><!--global-items-wrapper-->  
   

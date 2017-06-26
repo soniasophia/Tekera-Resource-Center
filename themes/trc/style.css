@@ -2784,6 +2784,11 @@ object {
       font-family: 'Open Web';
       font-weight: 100;
       font-style: normal; }
+  .close-button {
+    -ms-flex-item-align: end;
+        align-self: flex-end; }
+  .close-button:hover {
+    cursor: pointer; }
   .goal-item-content-hidden {
     display: none;
     height: 35rem;
