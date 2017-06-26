@@ -3345,11 +3345,17 @@ object {
           width: 50%;
           background-position: center right;
           background-repeat: no-repeat; } }
-      .who-we-are-page .top-image .top-blue .top-phrase h2, .who-we-are-page .top-image .top-blue .top-phrase p {
-        color: white; }
+      .who-we-are-page .top-image .top-blue .top-phrase h2 {
+        color: white;
+        text-transform: none;
+        font-size: 1.2rem; }
+        @media screen and (min-width: 640px) and (max-width: 2000px) {
+          .who-we-are-page .top-image .top-blue .top-phrase h2 {
+            font-size: 1.5rem; } }
       .who-we-are-page .top-image .top-blue .top-phrase p {
         margin: 30px auto;
-        width: 58%; }
+        width: 60%;
+        color: white; }
   .who-we-are-page .bottom-image {
     background: url("../../assets/Images/Mobile/about/tekera_about_us_water_and_sanitation.png");
     background-size: cover;
@@ -3390,25 +3396,36 @@ object {
           background-repeat: no-repeat;
           right: 0; } }
       .who-we-are-page .bottom-image .bottom-blue .bottom-phrase h2 {
-        color: white; }
+        color: white;
+        width: 80%;
+        margin: 0 auto;
+        text-transform: none;
+        font-size: 1.2rem; }
         @media screen and (min-width: 640px) and (max-width: 2000px) {
           .who-we-are-page .bottom-image .bottom-blue .bottom-phrase h2 {
-            margin: 0px; } }
+            margin: 0 auto;
+            font-size: 1.5rem; } }
       .who-we-are-page .bottom-image .bottom-blue .bottom-phrase ul {
-        margin: auto;
-        padding: 35px;
-        width: 90%;
+        margin: 30px auto;
+        padding-left: 4rem;
+        width: 75%;
         text-align: left; }
         @media screen and (min-width: 640px) and (max-width: 2000px) {
           .who-we-are-page .bottom-image .bottom-blue .bottom-phrase ul {
-            padding-left: 80px;
-            margin-right: 0px; } }
+            padding: 0;
+            margin-right: 0px;
+            margin-left: 20%; } }
       .who-we-are-page .bottom-image .bottom-blue .bottom-phrase li {
         font-family: 'Open Web';
         font-weight: 100;
         font-style: normal;
+        font-size: 18px;
         color: white;
-        list-style-type: disc; }
+        list-style-type: disc;
+        line-height: 1.5rem; }
+        @media screen and (min-width: 640px) and (max-width: 2000px) {
+          .who-we-are-page .bottom-image .bottom-blue .bottom-phrase li {
+            font-size: 20px; } }
 
 #cta {
   font-weight: lighter;

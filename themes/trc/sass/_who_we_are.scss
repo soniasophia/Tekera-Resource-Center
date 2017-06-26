@@ -147,13 +147,20 @@
         background-repeat: no-repeat;
     }
       .top-phrase {
-        h2, p {
+        h2  {
           color: white;
+          text-transform: none;
+          font-size: 1.2rem;
+
+          @include desktop {
+            font-size: 1.5rem;
+          }
         }
 
         p {
           margin: 30px auto;
-          width: 58%;
+          width: 60%;
+          color: white;
         }
       }
     }
@@ -197,27 +204,40 @@
       .bottom-phrase {
         h2 {
           color: white;
+          width: 80%;
+          margin: 0 auto;
+          text-transform: none;
+          font-size: 1.2rem;
 
           @include desktop {
-            margin: 0px;
+            margin: 0 auto;
+            font-size: 1.5rem;
           }
         }
 
         ul {
-          margin: auto;
-          padding: 35px;
-          width: 90%;
+          margin: 30px auto;
+          padding-left: 4rem;
+          width: 75%;
           text-align: left;
+
           @include desktop {
-            padding-left: 80px;
+            padding: 0;
             margin-right: 0px;
+            margin-left: 20%;
           }
         }
 
         li {
           @include font-open-light;
+          font-size: 18px;
           color: white;
           list-style-type: disc;
+          line-height: 1.5rem;
+
+          @include desktop {
+          font-size: 20px;
+          }   
         }
       }
     }
