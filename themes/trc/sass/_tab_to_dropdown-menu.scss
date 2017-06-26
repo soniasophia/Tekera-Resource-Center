@@ -12,6 +12,10 @@
 
 .tab-acord {
   text-align: center;
+
+  @include mobile {
+    display: none;
+  }
 }
 
 .is-open {
@@ -163,10 +167,16 @@ ul#tab-nav {
   width: 70%;
   margin: 0 auto;
 
-  h1, h2, h3, h4, h5, h6 {
+  h1 {
     color: $color_brand-teal;
     text-transform: uppercase;
     font-size: 1.5rem;
+  } 
+  
+  h2, h3, h4, h5, h6 {
+    color: $color_brand-teal;
+    text-transform: uppercase;
+    font-size: 1rem;
   }
 }
 
@@ -189,6 +199,10 @@ ul#tab-nav {
   padding: 1.3rem;
   position: relative;
 
+  @include desktop {
+    display: none;
+  }
+
   h1 {
     color: white;
     text-transform: uppercase;
@@ -203,5 +217,3 @@ ul#tab-nav {
     right: 55px;
   }
 }
-
-

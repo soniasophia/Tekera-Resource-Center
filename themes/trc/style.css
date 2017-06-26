@@ -3828,6 +3828,9 @@ object {
 
 .tab-acord {
   text-align: center; }
+  @media screen and (max-width: 640px) {
+    .tab-acord {
+      display: none; } }
 
 .is-open {
   background: white; }
@@ -3952,10 +3955,14 @@ ul#tab-nav {
 .content {
   width: 70%;
   margin: 0 auto; }
-  .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
+  .content h1 {
     color: #20ACAF;
     text-transform: uppercase;
     font-size: 1.5rem; }
+  .content h2, .content h3, .content h4, .content h5, .content h6 {
+    color: #20ACAF;
+    text-transform: uppercase;
+    font-size: 1rem; }
 
 .mobile-dropdown {
   margin-bottom: 3rem; }
@@ -3971,6 +3978,9 @@ ul#tab-nav {
   background: #006E71;
   padding: 1.3rem;
   position: relative; }
+  @media screen and (min-width: 640px) and (max-width: 2000px) {
+    .heading-tab {
+      display: none; } }
   .heading-tab h1 {
     color: white;
     text-transform: uppercase;
@@ -4068,14 +4078,6 @@ ul#tab-nav {
 .tax-project-type .hero-banner img {
   width: 100% !important;
   max-height: 100vw; }
-
-.tax-project-type .green-line {
-  display: block; }
-  .tax-project-type .green-line li a.active {
-    padding-bottom: 0px; }
-
-.tax-project-type #tab-nav li a {
-  padding: 0rem 0; }
 
 .tax-project-type .global-carousel {
   display: block;
