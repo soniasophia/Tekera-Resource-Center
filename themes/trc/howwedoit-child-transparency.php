@@ -11,7 +11,7 @@ get_header();
         ); ?>  
     </div>
     <div class="transparency-title-wrapper">
-      <h2><?php echo get_the_title(); ?></h2>
+      <h1><?php echo get_the_title(); ?></h1>
     </div><!--transparency-title-wrapper-->       
   </div><!--transparency-hero-->   
   <div class="transparency-content-area">
