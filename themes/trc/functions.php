@@ -154,7 +154,6 @@ function register_tekera_how_we_do_it_custom_menu() {
 }
 add_action ('init', 'register_tekera_how_we_do_it_custom_menu');
 
-
 function register_tekera_get_involved_custom_menu() {
 	register_nav_menu('get-involved-sub-menu', __('Get Involved Sub Menu'));
 }

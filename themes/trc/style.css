@@ -3195,6 +3195,66 @@ object {
 
 .who-we-are-page {
   font-family: "Open Web"; }
+  .who-we-are-page .custom-sub-menu-wrapper {
+    display: none;
+    text-align: center;
+    background: white; }
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
+      .who-we-are-page .custom-sub-menu-wrapper {
+        display: block;
+        background: rgba(255, 255, 255, 0.7);
+        padding: 1rem 0; } }
+    .who-we-are-page .custom-sub-menu-wrapper ul {
+      width: 80%;
+      margin: 0 auto; }
+      @media screen and (min-width: 640px) and (max-width: 2000px) {
+        .who-we-are-page .custom-sub-menu-wrapper ul {
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-align: center;
+              align-items: center; } }
+    .who-we-are-page .custom-sub-menu-wrapper li {
+      font-family: 'Open Web';
+      font-weight: bold;
+      font-style: normal;
+      text-transform: uppercase;
+      font-size: 1.3rem;
+      border-bottom: 1px solid #3f3f3f;
+      padding: 1.9rem 0; }
+      .who-we-are-page .custom-sub-menu-wrapper li:last-child {
+        border-bottom: none; }
+      @media screen and (min-width: 640px) and (max-width: 2000px) {
+        .who-we-are-page .custom-sub-menu-wrapper li {
+          margin: 0 1rem;
+          border-bottom: none;
+          padding: 0;
+          font-family: 'Open Web';
+          font-weight: normal;
+          font-style: normal;
+          text-transform: none;
+          margin-right: 3rem; } }
+    .who-we-are-page .custom-sub-menu-wrapper a {
+      color: #072A3D; }
+  .who-we-are-page .dropdown-arrow {
+    position: absolute;
+    left: 15rem;
+    top: 10.5rem; }
+    .who-we-are-page .dropdown-arrow:hover {
+      cursor: pointer; }
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
+      .who-we-are-page .dropdown-arrow {
+        display: none; } }
+  @media screen and (min-width: 640px) and (max-width: 2000px) {
+    .who-we-are-page .project-title-container {
+      display: none; } }
+  .who-we-are-page .projects-title {
+    padding: 0.5rem 2rem;
+    margin: 0;
+    background: rgba(255, 255, 255, 0.7);
+    font-family: 'Open Web';
+    font-weight: bold;
+    font-style: normal;
+    color: #072A3D; }
   .who-we-are-page .herobanner {
     background: url("../../assets/Images/Desktop/about/tekera_about_student_with_sibling.png");
     background-size: cover;
