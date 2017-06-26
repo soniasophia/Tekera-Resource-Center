@@ -24,6 +24,8 @@ get_the_title();
       </p>
     </div>
 
+    <?php if(!empty(CFS()->get( 'title_2' ))){ ?>
+
     <div class="top-image">
       <div class="top-blue">
         <div class="top-phrase">
@@ -33,8 +35,7 @@ get_the_title();
         
       </div>
     </div>
-
-    <div class="middle-content container">
+      <div class="middle-content container">
       <h1>
         <?php echo esc_html( CFS()->get( 'title_2' ) ); ?>
       </h1>
@@ -48,14 +49,19 @@ get_the_title();
         <div class="bottom-phrase">
           <h2>Our Goals</h2>
           <ul>
-            <li>To provide high-quality health and education services</li>
-            <li>Encourage community development</li>
-            <li>Foster local skills and co-operative groups</li>
+            <li>To provide high-quality education, healthcare, and agricultural support</li>
+            <li>To increased community wellbeing</li>
+            <li>Enhance local skill building, co-operative groups and economic advancement</li>
+            <li>To operate our programs 100% self-sufficiently</li>
           </ul>
         </div>
       </div>
     </div>
 
+    <?php } ?>
+
+
+    <?php if(!empty(CFS()->get( 'title_3' ))){ ?>
     <div class="bottom-content container">
       <h1>
         <?php echo esc_html( CFS()->get( 'title_3' ) ); ?>
@@ -65,6 +71,7 @@ get_the_title();
       </p>
     </div>
   </div>
+  <?php } ?>
   <?php get_template_part( 'template-parts/cta');
   get_footer();
   ?>

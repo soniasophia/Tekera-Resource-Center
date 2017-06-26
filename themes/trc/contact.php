@@ -21,7 +21,7 @@ get_header();
     <div class="contact-info container">
       <div class="uganda">
         <div class="uganda-icon">
-          <?php echo file_get_contents(get_template_directory_uri() . "/assets/Icons/Desktop/svg/Tekera_Icon_Uganda.svg"); ?>
+          <img src="<?php echo get_template_directory_uri() ?>/assets/Icons/Desktop/png/tekera-icon-uganda-green.png" alt="">
         </div>
         <div class="info-uganda">
           <h2>uganda</h2>
@@ -49,7 +49,7 @@ get_header();
 
       <div class="canada">
         <div class="canada-icon">
-          <?php echo file_get_contents(get_template_directory_uri() . "/assets/Icons/Desktop/svg/Tekera_Icon_Canada.svg"); ?>
+          <img src="<?php echo get_template_directory_uri() ?>/assets/Icons/Desktop/png/tekera-icon-canda-green.png" alt="">
         </div>
         <div class="info-canada">
           <h2>canada</h2>

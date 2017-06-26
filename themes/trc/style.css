@@ -661,40 +661,45 @@ a {
   @media screen and (max-width: 640px) {
     .main-navigation {
       display: none; } }
-  .main-navigation .menu-nav-bar-container ul {
-    height: 100%;
-    display: -ms-flexbox;
-    display: flex; }
-    .main-navigation .menu-nav-bar-container ul li {
+  .main-navigation .menu-nav-bar-container {
+    height: 100%; }
+    .main-navigation .menu-nav-bar-container ul {
+      height: 100%;
       display: -ms-flexbox;
       display: flex;
-      -ms-flex-align: center;
-          align-items: center;
-      padding-right: 1rem;
-      padding-left: 1rem; }
-      .main-navigation .menu-nav-bar-container ul li a {
-        color: #fff;
-        text-transform: uppercase; }
-      .main-navigation .menu-nav-bar-container ul li a.active, .main-navigation .menu-nav-bar-container ul li a:focus, .main-navigation .menu-nav-bar-container ul li a:hover {
-        color: #fff;
-        text-decoration: none;
-        padding-bottom: 1rem;
-        border-bottom: 5px solid #EE9825; }
-      .main-navigation .menu-nav-bar-container ul li a.active, .main-navigation .menu-nav-bar-container ul li a:active, .main-navigation .menu-nav-bar-container ul li a:hover {
-        color: #fff;
-        font-weight: 700;
-        text-decoration: none;
-        padding-bottom: 1rem;
-        border-bottom: 5px solid #EE9825; }
-    .main-navigation .menu-nav-bar-container ul li:nth-child(5) {
-      height: 6.2rem;
-      background-color: #EE9825;
-      font-weight: 700; }
-      .main-navigation .menu-nav-bar-container ul li:nth-child(5) a.active, .main-navigation .menu-nav-bar-container ul li:nth-child(5) a:focus, .main-navigation .menu-nav-bar-container ul li:nth-child(5) a:hover {
-        font-weight: 700;
-        text-decoration: none;
-        padding-bottom: 1rem;
-        border-bottom: 7px solid #fff; }
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -ms-flex-pack: center;
+          justify-content: center; }
+      .main-navigation .menu-nav-bar-container ul li {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+            align-items: center;
+        padding-right: 1rem;
+        padding-left: 1rem; }
+        .main-navigation .menu-nav-bar-container ul li a {
+          color: #fff;
+          text-transform: uppercase; }
+        .main-navigation .menu-nav-bar-container ul li a.active, .main-navigation .menu-nav-bar-container ul li a:focus, .main-navigation .menu-nav-bar-container ul li a:hover {
+          color: #fff;
+          text-decoration: none;
+          padding-bottom: 1rem;
+          border-bottom: 5px solid #EE9825; }
+        .main-navigation .menu-nav-bar-container ul li a.active, .main-navigation .menu-nav-bar-container ul li a:active, .main-navigation .menu-nav-bar-container ul li a:hover {
+          color: #fff;
+          font-weight: 700;
+          text-decoration: none;
+          padding-bottom: 1rem;
+          border-bottom: 5px solid #EE9825; }
+      .main-navigation .menu-nav-bar-container ul li:nth-child(5) {
+        background-color: #EE9825;
+        font-weight: 700; }
+        .main-navigation .menu-nav-bar-container ul li:nth-child(5) a.active, .main-navigation .menu-nav-bar-container ul li:nth-child(5) a:focus, .main-navigation .menu-nav-bar-container ul li:nth-child(5) a:hover {
+          font-weight: 700;
+          text-decoration: none;
+          padding-bottom: 1rem;
+          border-bottom: 7px solid #fff; }
 
 div.tekera-triangles {
   height: 100%;
@@ -2015,6 +2020,16 @@ object {
   font-style: normal;
   text-transform: uppercase; }
 
+.post-type-archive-projects .dropdown-arrow {
+  position: absolute;
+  left: 13rem;
+  top: 10.4rem; }
+  .post-type-archive-projects .dropdown-arrow:hover {
+    cursor: pointer; }
+  @media screen and (min-width: 640px) and (max-width: 2000px) {
+    .post-type-archive-projects .dropdown-arrow {
+      display: none; } }
+
 .post-type-archive-projects .custom-sub-menu-wrapper {
   display: none;
   text-align: center;
@@ -2030,10 +2045,14 @@ object {
       .post-type-archive-projects .custom-sub-menu-wrapper ul {
         display: -ms-flexbox;
         display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
         -ms-flex-align: center;
             align-items: center;
-        -ms-flex-pack: justify;
-            justify-content: space-between; } }
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        width: 90%;
+        padding: 1rem; } }
   .post-type-archive-projects .custom-sub-menu-wrapper li {
     font-family: 'Open Web';
     font-weight: bold;
@@ -3772,7 +3791,7 @@ object {
       .page-template-contact-php .canada h2, .page-template-contact-php .uganda h2 {
         margin-top: 0px; }
     .page-template-contact-php .info-canada {
-      width: 250px; }
+      min-width: 250px; }
     .page-template-contact-php .info-uganda, .page-template-contact-php .info-canada {
       text-align: left;
       margin-left: 20px; } }

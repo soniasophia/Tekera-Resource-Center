@@ -270,9 +270,12 @@ a {
 	}
 
 	.menu-nav-bar-container{
+    height: 100%;
 		ul{
 			height: 100%;
 			display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
 
 			li{
 				display: flex;
@@ -305,7 +308,6 @@ a {
 			li:nth-child(5){
 				// border-left: 1px solid #EE9825;
 				// border-right: qpx solid #EE9825;
-				height: 6.2rem;
 				background-color: #EE9825;
 				font-weight: 700;
 
