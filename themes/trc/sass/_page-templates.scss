@@ -936,14 +936,11 @@
   .goal-items-wrapper {
     display: flex;
     flex-flow: row wrap;
+    overflow: hidden;
+    justify-content: center;
     height: 35rem;
     width: 80%;
     margin-bottom: 10rem;
-    img {
-      width: 100%;
-      height: auto;
-      margin: 0.25rem;
-    }
   }
 
   .goal-items-wrapper-hidden {
@@ -1002,7 +999,7 @@
     justify-content: space-between;
     height: 35rem;
     width: 80%;
-    padding: 3rem;
+    padding: 0 3rem 0 3rem;
     h3 {
       @include font-open-regular;
       color: $color_brand-teal;
@@ -1012,8 +1009,26 @@
     } 
   }
 
+  .goal-content-top {
+    position: relative;
+    height: 4rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 100%;
+  }
+
   .close-button {
-    align-self: flex-end;
+    @include font-open-regular;
+    color: $color_brand-yellow;
+    position: absolute;
+    top: 0;
+    right: 1rem;
+    width: 3rem;
+    height: 3rem;
+    border: 1px solid black;
+    border-radius: 100%;
+    text-align: center;
   }
 
   .close-button:hover {

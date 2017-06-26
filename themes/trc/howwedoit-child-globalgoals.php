@@ -75,17 +75,27 @@ get_header();
   </div><!--global-carousel-->
 
   <div class="goal-items-wrapper">
-    <?php $args = array( 'post_type' => 'SDGs', 'posts_per_page' => 18, 'order' => 'ASC' );?>    
+    <?php $args = array( 'post_type' => 'SDGs', 'posts_per_page' => 18, 'order' => 'ASC' );
+      $goal_num = 1;
+      $goal_attr = 1;
+    ?> 
     <?php while ( $loop->have_posts() ) : $loop->the_post();?>
-    <div class="goal-thumbnail">
+    <div class="goal-thumbnail" data-target="goal-<?php echo $goal_attr?>">
       <?php the_post_thumbnail(); ?>  
     </div><!--goal-thumbnail-->  
 
-      <div class="goal-item-content-hidden">
-        <h3><?php the_title();?></h3>
-        <h1 class="close-button">X</h1>
-        <p><?php the_content();?></p>      
-      </div><!--goal-item-content-hidden-->       
+      <div id="goal-<?php echo $goal_num?>" class="goal-item-content-hidden">
+        <div class="goal-content-top">
+          <h3><?php the_title();?></h3>
+          <h1 class="close-button">X</h1>
+        </div><!--goal-content-top-->       
+        <div >
+          <?php the_content();?>
+        </div><!--goal-x-->  
+
+      </div><!--goal-item-content-hidden--> 
+      <?php $goal_num += 1?>
+      <?php $goal_attr += 1?>      
     <?php endwhile; ?>
   </div><!--global-items-wrapper-->  
   

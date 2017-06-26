@@ -2711,13 +2711,12 @@ object {
     display: flex;
     -ms-flex-flow: row wrap;
         flex-flow: row wrap;
+    overflow: hidden;
+    -ms-flex-pack: center;
+        justify-content: center;
     height: 35rem;
     width: 80%;
     margin-bottom: 10rem; }
-    .goal-items-wrapper img {
-      width: 100%;
-      height: auto;
-      margin: 0.25rem; }
   .goal-items-wrapper-hidden {
     display: none; }
   .goal-thumbnail {
@@ -2774,7 +2773,7 @@ object {
         justify-content: space-between;
     height: 35rem;
     width: 80%;
-    padding: 3rem; }
+    padding: 0 3rem 0 3rem; }
     .goal-item-content-expanded h3 {
       font-family: 'Open Web';
       font-weight: normal;
@@ -2784,9 +2783,29 @@ object {
       font-family: 'Open Web';
       font-weight: 100;
       font-style: normal; }
+  .goal-content-top {
+    position: relative;
+    height: 4rem;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    width: 100%; }
   .close-button {
-    -ms-flex-item-align: end;
-        align-self: flex-end; }
+    font-family: 'Open Web';
+    font-weight: normal;
+    font-style: normal;
+    color: #EE9825;
+    position: absolute;
+    top: 0;
+    right: 1rem;
+    width: 3rem;
+    height: 3rem;
+    border: 1px solid black;
+    border-radius: 100%;
+    text-align: center; }
   .close-button:hover {
     cursor: pointer; }
   .goal-item-content-hidden {

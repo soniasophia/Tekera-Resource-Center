@@ -15,10 +15,10 @@
 
         success: function (post) {
           var html = '',
-            text = '',
-            content = '',
-            img = '',
-            button = '';
+              text = '',
+              content = '',
+              img = '',
+              button = '';
 
           button ='<div class="exit-button"><button class="expanded-button">X</button></div>'
           img = '<div class="expanded-header"><img class="expanded-img" src="' + post.better_featured_image.source_url + '">'
