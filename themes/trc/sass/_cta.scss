@@ -6,16 +6,18 @@
   background-repeat: no-repeat;
   height: 95vh;
   position: relative;
+
   @include desktop {
     background: url("../../assets/Images/Desktop/about/tekera_about_kids_in_playground.png");
     background-size: cover;
     height: 80vh;
   }
+
   #cta-blue {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 65%;
+    height: 75%;
     background: url("../../assets/Triangles/triangle_mobile.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -25,6 +27,7 @@
     flex-direction: column;
     justify-content: center;
     align-content: center;
+
     @include desktop {
       background: url("../../assets/Triangles/desktop_triangle_left.png");
       background-size: cover;
@@ -37,14 +40,22 @@
       display: flex;
       align-items: flex-end;
     }
+
     #cta-text {
       color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 5rem;
+
       @include desktop {
         font-size: 3rem;
         width: 70%;
         text-align: right;
-        margin-right: 40px;
+        margin-right: 80px;
+        align-items: flex-end;
       }
+
       h2 {
         color: white;
         width: 40%;
@@ -53,33 +64,41 @@
         font-size: 2.2rem;
         font-weight: lighter;
         line-height: 3rem;
+
         @include desktop {
           font-size: 3rem;
           width: 100%;
         }
       }
+
       p {
         margin: 10px auto;
-        width: 100%;
+        width: 80%;
         font-size: 1.2rem;
         margin-bottom: 30px;
-        line-height: 2rem;
+        margin-top: 30px;
+        line-height: 2.2rem;
+
         @include desktop {
           font-size: 1.5rem;
           margin: 60px 0px;
         }
       }
+
       .button-get-involved {
         padding: 12px 20px;
+
         @include desktop {
           text-align: center;
           padding: 15px 40px;
         }
+
         a {
           color: white;
           font-weight: bold;
           font-size: 1.25rem;
           background-color: $color_brand-yellow;
+
           @include desktop {
           }
         }

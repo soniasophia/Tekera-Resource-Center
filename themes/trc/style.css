@@ -3298,7 +3298,7 @@ object {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 65%;
+    height: 75%;
     background: url("../../assets/Triangles/triangle_mobile.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -3327,13 +3327,22 @@ object {
         -ms-flex-align: end;
             align-items: flex-end; } }
     #cta #cta-blue #cta-text {
-      color: white; }
+      color: white;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+          flex-direction: column;
+      -ms-flex-align: center;
+          align-items: center;
+      margin-top: 5rem; }
       @media screen and (min-width: 640px) and (max-width: 2000px) {
         #cta #cta-blue #cta-text {
           font-size: 3rem;
           width: 70%;
           text-align: right;
-          margin-right: 40px; } }
+          margin-right: 80px;
+          -ms-flex-align: end;
+              align-items: flex-end; } }
       #cta #cta-blue #cta-text h2 {
         color: white;
         width: 40%;
@@ -3348,10 +3357,11 @@ object {
             width: 100%; } }
       #cta #cta-blue #cta-text p {
         margin: 10px auto;
-        width: 100%;
+        width: 80%;
         font-size: 1.2rem;
         margin-bottom: 30px;
-        line-height: 2rem; }
+        margin-top: 30px;
+        line-height: 2.2rem; }
         @media screen and (min-width: 640px) and (max-width: 2000px) {
           #cta #cta-blue #cta-text p {
             font-size: 1.5rem;
