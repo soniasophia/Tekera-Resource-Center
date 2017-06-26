@@ -25,26 +25,57 @@ get_header(); ?>
     <main id="main" class="site-main" role="main">
       <div class="container">
         <div class="hero-banner">
+          <?php while ( have_posts() ) : the_post(); 
+           if(the_post_thumbnail()):
+           the_post_thumbnail();
+           return;
+          endif;
+         endwhile; 
+        ?>
         </div>
-          
-        
 
 
-  <div class="tab-acord">
-    <ul id="tab-nav">
-      <div class="green-line">
-        <?php while ( have_posts() ) : the_post(); ?>
-        <li><a href="#"><?php echo the_title();?></a>
-          <section style="display:flex">
-            <div class = "overview-info">
-              <?php echo the_content(); ?>
+
+
+        <div class="tab-acord">
+          <ul id="tab-nav">
+            <div class="green-line">
+              <?php while ( have_posts() ) : the_post(); ?>
+              <li>
+                <a href="#">
+                  <?php echo the_title();?>
+                </a>
+                <section style="display:flex">
+                  <div class="overview-info">
+                    <?php echo the_content(); ?>
+                  </div>
+                </section>
+              </li>
+              <?php endwhile; ?>
+
             </div>
-          </section>
-        </li>
-        <?php endwhile; ?>
-
-      </div>
     </main>
-  </div>
+    </div>
 
-  <?php get_footer(); ?>
+
+    <div class="global-carousel" data-flickity='{ "cellAlign": "center", "contain": true, "wrapAround": true, "groupCells": true, "groupCells": 2 }'>
+      <?php $args = array( 'post_type' => 'SDGs', 'posts_per_page' => 18, 'order' => 'ASC' );
+    $loop = new WP_Query( $args );
+    while ( $loop->have_posts() ) : $loop->the_post();?>
+      <div class="carousel-sub">
+        <?php the_post_thumbnail(); ?>
+        <div class="carasel-content">
+        <?php the_content();?>
+        </div>
+        <!--<div class="carousel-sub-footer">
+          <p>Swipe to see more</p>
+        </div>-->
+        <!--carousel-sub-footer-->
+      </div>
+      <!--carousel-sub-->
+      <?php endwhile; ?>
+
+    </div>
+    <!--global-carousel-->
+
+    <?php get_footer(); ?>
