@@ -3507,23 +3507,87 @@ object {
 .post-type-archive-members {
   margin: auto;
   text-align: center; }
-  .post-type-archive-members header {
+  .post-type-archive-members .custom-sub-menu-wrapper {
+    display: none;
+    text-align: center;
+    background: white; }
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
+      .post-type-archive-members .custom-sub-menu-wrapper {
+        display: block;
+        background: rgba(255, 255, 255, 0.7);
+        padding: 1rem 0; } }
+    .post-type-archive-members .custom-sub-menu-wrapper ul {
+      width: 80%;
+      margin: 0 auto; }
+      @media screen and (min-width: 640px) and (max-width: 2000px) {
+        .post-type-archive-members .custom-sub-menu-wrapper ul {
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-align: center;
+              align-items: center; } }
+    .post-type-archive-members .custom-sub-menu-wrapper li {
+      font-family: 'Open Web';
+      font-weight: bold;
+      font-style: normal;
+      text-transform: uppercase;
+      font-size: 1.3rem;
+      border-bottom: 1px solid #3f3f3f;
+      padding: 1.9rem 0; }
+      .post-type-archive-members .custom-sub-menu-wrapper li:last-child {
+        border-bottom: none; }
+      @media screen and (min-width: 640px) and (max-width: 2000px) {
+        .post-type-archive-members .custom-sub-menu-wrapper li {
+          margin: 0 1rem;
+          border-bottom: none;
+          padding: 0;
+          font-family: 'Open Web';
+          font-weight: normal;
+          font-style: normal;
+          text-transform: none;
+          margin-right: 3rem; } }
+    .post-type-archive-members .custom-sub-menu-wrapper a {
+      color: #072A3D; }
+  .post-type-archive-members .dropdown-arrow {
+    position: absolute;
+    left: 15rem;
+    top: 10.5rem; }
+    .post-type-archive-members .dropdown-arrow:hover {
+      cursor: pointer; }
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
+      .post-type-archive-members .dropdown-arrow {
+        display: none; } }
+  .post-type-archive-members .project-title-container {
+    text-align: left; }
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
+      .post-type-archive-members .project-title-container {
+        display: none; } }
+    .post-type-archive-members .project-title-container h2 {
+      font-size: 2rem; }
+  .post-type-archive-members .projects-title {
+    padding: 0.5rem 2rem;
+    margin: 0;
+    background: rgba(255, 255, 255, 0.7);
+    font-family: 'Open Web';
+    font-weight: bold;
+    font-style: normal;
+    color: #072A3D; }
+  .post-type-archive-members .members-header {
     margin-bottom: 70px; }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
-      .post-type-archive-members header {
+      .post-type-archive-members .members-header {
         margin-bottom: 40px; } }
-    .post-type-archive-members header .hero-banner {
+    .post-type-archive-members .members-header .hero-banner {
       background: url("../../assets/Images/Desktop/staff/tekera_staff_trees.png");
       height: 55vh;
       background-position: center bottom;
       background-size: cover;
       background-repeat: no-repeat; }
-    .post-type-archive-members header h1 {
+    .post-type-archive-members .members-header h1 {
       margin-top: 70px;
       text-transform: uppercase;
       color: #20ACAF; }
       @media screen and (min-width: 640px) and (max-width: 2000px) {
-        .post-type-archive-members header h1 {
+        .post-type-archive-members .members-header h1 {
           color: #072A3D;
           width: 93%;
           text-align: left;
@@ -3531,11 +3595,14 @@ object {
           margin-top: 50px; } }
   .post-type-archive-members .articles-members {
     margin-bottom: 150px;
-    display: block; }
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column; }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
       .post-type-archive-members .articles-members {
-        display: -ms-flexbox;
-        display: flex;
+        -ms-flex-direction: row;
+            flex-direction: row;
         -ms-flex-pack: start;
             justify-content: flex-start;
         -ms-flex-wrap: wrap;
