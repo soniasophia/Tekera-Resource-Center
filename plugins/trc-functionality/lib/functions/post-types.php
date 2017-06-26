@@ -156,7 +156,7 @@ function custom_post_type_projects() {
         'description'           => 'Projects',
         'labels'                => $labels,
         'supports'              => array( 'title', 'editor', 'thumbnail', 'revisions' ),
-        'hierarchical'          => false,
+        'hierarchical'          => true,
         'public'                => true,
         'show_ui'               => true,
         'show_in_menu'          => true,
