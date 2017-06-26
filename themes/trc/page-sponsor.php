@@ -42,7 +42,7 @@ get_the_title();
             <p><?php echo CFS()->get( 'content_2a' ); ?></p>
             <h2 class="alignment"><?php echo CFS()->get( 'title_2b' ); ?></h2>
             <p class="alignment"><?php echo CFS()->get( 'content_2b' ); ?></p>
-            <a href="<?php get_template_directory_uri(); ?>/tekera/contact" id="sponsor-now-button">Sponsor Now</a>
+            <a href="<?php get_template_directory_uri(); ?>/TRC/contact" id="sponsor-now-button">Sponsor Now</a>
           </section>
         </li>
 
