@@ -4458,14 +4458,6 @@ ul#tab-nav {
   width: 100% !important;
   max-height: 100vw; }
 
-.tax-project-type .green-line {
-  display: block; }
-  .tax-project-type .green-line li a.active {
-    padding-bottom: 0px; }
-
-.tax-project-type #tab-nav li a {
-  padding: 0rem 0; }
-
 .tax-project-type .global-carousel {
   display: block;
   width: 100%;
