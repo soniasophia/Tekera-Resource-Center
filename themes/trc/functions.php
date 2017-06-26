@@ -135,7 +135,7 @@ require get_template_directory() . '/inc/extras.php';
  * Blog Post Excerpt length 
  */
 function trc_custom_excerpt_length( $length ) {
-    return 50;
+    return 40;
 }
 add_filter( 'excerpt_length', 'trc_custom_excerpt_length', 999 );
 
