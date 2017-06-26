@@ -3772,7 +3772,7 @@ object {
       .page-template-contact-php .canada h2, .page-template-contact-php .uganda h2 {
         margin-top: 0px; }
     .page-template-contact-php .info-canada {
-      width: 250px; }
+      min-width: 250px; }
     .page-template-contact-php .info-uganda, .page-template-contact-php .info-canada {
       text-align: left;
       margin-left: 20px; } }
