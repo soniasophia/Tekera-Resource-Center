@@ -2106,7 +2106,7 @@ object {
       @media screen and (min-width: 640px) and (max-width: 2000px) {
         .post-type-archive-projects .projects .project-type-list h3 {
           margin: 0; } }
-  .post-type-archive-projects .projects .learn-more {
+  .post-type-archive-projects .projects .learn-more-projects {
     font-family: 'Open Web';
     font-weight: normal;
     font-style: normal;
@@ -2152,12 +2152,12 @@ object {
         border-bottom: none; } }
   .post-type-archive-projects .projects .project-description {
     margin: 3rem 0; }
-  .post-type-archive-projects .projects .learn-more-button {
+  .post-type-archive-projects .projects .learn-more-link {
     text-align: center;
     margin-bottom: 4.5rem;
     margin-top: 4.5rem; }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
-      .post-type-archive-projects .projects .learn-more-button {
+      .post-type-archive-projects .projects .learn-more-link {
         text-align: right; } }
   .post-type-archive-projects .projects .border-bottom {
     border-bottom: 12px solid #20acaf;
