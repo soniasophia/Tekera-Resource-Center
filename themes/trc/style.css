@@ -2654,16 +2654,25 @@ object {
   .global-carousel {
     display: none; }
   .goal-items-wrapper {
-    display: block;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
     height: 35rem;
     width: 80%;
     margin-bottom: 10rem; }
     .goal-items-wrapper img {
-      width: 15%;
+      width: 100%;
       height: auto;
       margin: 0.25rem; }
-    .goal-items-wrapper img:hover {
-      cursor: pointer; }
+  .goal-items-wrapper-hidden {
+    display: none; }
+  .goal-thumbnail {
+    height: 10rem;
+    width: 10rem;
+    margin: 0 1rem 0 1rem; }
+  .goal-thumbnail:hover {
+    cursor: pointer; }
   .global-goals-triangle-banner {
     display: -ms-flexbox;
     display: flex;
@@ -2704,7 +2713,12 @@ object {
       font-weight: normal;
       font-style: normal; }
   .goal-item-content-expanded {
-    display: none;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
     height: 35rem;
     width: 80%;
     padding: 3rem; }
@@ -2714,6 +2728,20 @@ object {
       font-style: normal;
       color: #20ACAF; }
     .goal-item-content-expanded p {
+      font-family: 'Open Web';
+      font-weight: 100;
+      font-style: normal; }
+  .goal-item-content-hidden {
+    display: none;
+    height: 35rem;
+    width: 80%;
+    padding: 3rem; }
+    .goal-item-content-hidden h3 {
+      font-family: 'Open Web';
+      font-weight: normal;
+      font-style: normal;
+      color: #20ACAF; }
+    .goal-item-content-hidden p {
       font-family: 'Open Web';
       font-weight: 100;
       font-style: normal; } }

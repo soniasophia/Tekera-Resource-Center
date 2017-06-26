@@ -77,9 +77,11 @@ get_header();
   <div class="goal-items-wrapper">
     <?php $args = array( 'post_type' => 'SDGs', 'posts_per_page' => 18, 'order' => 'ASC' );?>    
     <?php while ( $loop->have_posts() ) : $loop->the_post();?>
+    <div class="goal-thumbnail">
       <?php the_post_thumbnail(); ?>  
+    </div><!--goal-thumbnail-->  
 
-      <div class="goal-item-content-expanded">
+      <div class="goal-item-content-hidden">
         <h3><?php the_title();?></h3>
         <h1 class="close-button">X</h1>
         <p><?php the_content();?></p>      
