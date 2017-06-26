@@ -224,12 +224,20 @@
           padding-left: 2rem;
           font-family: 'Shadows Into Light Web';
         }
-        form {
+
+        form.wpcf7-form{
           p {
           color: #3B3B3B;
           font-size: 30px;
           line-height: 41px;
           font-family: 'Open Sans';
+          }
+
+          p:nth-child(3) {
+            font-size: 30px;
+            font-weight: 600;
+            line-height: 41px;
+            color: #072A3D;
           }
 
           p:nth-child(4) {
@@ -254,13 +262,6 @@
           }
 
           p:nth-child(7) {
-            font-size: 30px;
-            font-weight: 600;
-            line-height: 41px;
-            color: #072A3D;
-          }
-
-          p:nth-child(8) {
             font-size: 30px;
             font-weight: 600;
             line-height: 41px;
@@ -483,4 +484,153 @@
         }
       }
     }
+}
+
+//Application form page mobile version
+
+@media screen and (max-width: $mobile-max-width) {
+  .page-template-page-internship {
+    .heading-tab{
+      margin-top: 3rem;
+      // margin-bottom: 2.5rem;
+    }
+    .mobile-dropdown{
+      .entry-content-page{
+        p{
+          color: #072A3D;
+          font-size: 22px;
+          line-height: 30px;
+          font-weight: 700;
+          padding-top: 3rem;
+          padding-bottom: 3rem;
+          text-align: center;
+          font-family: 'Open Web';
+        }
+
+        form.wpcf7-form{
+          p{
+            color: #4A4A4A;
+            font-size: 16px;
+            line-height: 22px;
+            font-weight: 500;
+            padding-top: 0;
+            padding-bottom: 0;
+            text-align: left;
+            font-family: 'Open Web'
+          }
+
+          p:nth-child(8){
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $mobile-max-width) {
+  .page-template-page-internship {
+    select#edu-level {
+      width: 100%;
+      margin-bottom: 2.5rem;
+
+    }
+    select#work-experience {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: $mobile-max-width) {
+  .page-template-page-internship {
+    textarea#ps_1{
+      margin-bottom: 2rem;
+    }
+    textarea#ps_2{
+      margin-bottom: 2rem;
+    }
+    textarea#ps_3{
+      margin-bottom: 2rem;
+    }
+    textarea#ps_4{
+      margin-bottom: 2rem;
+    }
+  
+  }
+}
+
+
+// Spacing for the last qs 
+
+@media screen and (max-width: $mobile-max-width) {
+  .page-template-page-internship {
+    span.wpcf7-list-item{
+      padding-top: 1rem;
+    }
+  }
+}
+
+@media screen and (max-width: $mobile-max-width) {
+  .page-template-page-internship {
+    #content3{
+      width: 100%;
+
+      form.wpcf7-form{
+        p:nth-child(2){
+          background-color: rgba(32,172,175,0.7);
+          color: #fff;
+          height: 7rem;
+          font-size: 18px;
+          font-weight: 600;
+          padding-top: 2.5rem;
+          padding-left: 2rem;
+          margin-bottom: 2rem;
+        }
+        p:nth-child(4){
+          background-color: rgba(32,172,175,0.7);
+          color: #fff;
+          height: 7rem;
+          font-size: 18px;
+          font-weight: 600;
+          padding-top: 2.5rem;
+          padding-left: 2rem;
+          margin-top: 2rem;
+        }
+        p:nth-child(3){
+          width: 70%;
+          margin: 0 auto;
+        }
+
+        p:nth-child(5){
+          width: 70%;
+          margin: 0 auto;
+        }
+
+        p:nth-child(6){
+          width: 70%;
+          margin: 0 auto;
+        }
+
+        p:nth-child(7){
+          width: 70%;
+          margin: 0 auto;
+        }
+
+        p:nth-child(8){
+          width: 70%;
+          margin: 0 auto;
+        }
+
+        p:nth-child(9){
+          width: 70%;
+          margin: 0 auto;
+        }
+
+        p:nth-child(10){
+          text-align: center;
+        }
+        
+      }
+    }
+  }
 }

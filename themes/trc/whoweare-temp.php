@@ -6,6 +6,12 @@ get_the_title();
 ?>
 <div class="who-we-are-page">
   <div class="herobanner">
+    <div class="project-title-container">
+      <img id="projects-toggle-menu" class="dropdown-arrow" src="<?php echo get_template_directory_uri();?>/assets/Icons/Mobile/Mobile_png/tekera_mobile_icon_arrow_down_dark_teal.png">
+      <h1 class="projects-title">About Us</h1>
+      </div>
+
+    <?php wp_nav_menu( array( 'theme_location' => 'who-we-are-sub-menu', 'items_wrap' => '<ul id="%1$s" class="%2$s mobile-top-nav">%3$s</ul>', 'container' => 'div', 'container_class' => 'custom-sub-menu-wrapper' ) ); ?>
   </div>
 
   <div class="content">
@@ -42,9 +48,9 @@ get_the_title();
         <div class="bottom-phrase">
           <h2>Our Goals</h2>
           <ul>
-            <li>To provide high-quality health and education services;</li>
-            <li>Encourage community development;</li>
-            <li>Foster local skills and co-operative groups.</li>
+            <li>To provide high-quality health and education services</li>
+            <li>Encourage community development</li>
+            <li>Foster local skills and co-operative groups</li>
           </ul>
         </div>
       </div>

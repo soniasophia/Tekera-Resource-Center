@@ -285,7 +285,7 @@ a {
 					text-transform: uppercase;
 				}
 
-				a.active, a:focus{
+				a.active, a:focus, a:hover{
 					color: #fff;
 					// font-weight: 700;
 					text-decoration: none;
@@ -293,7 +293,7 @@ a {
 					border-bottom: 5px solid #EE9825 ;
 				}
 
-				a.active, a:active{
+				a.active, a:active, a:hover{
 					color: #fff;
 					font-weight: 700;
 					text-decoration: none;
@@ -303,12 +303,13 @@ a {
 			}
 
 			li:nth-child(5){
-				border-left: 1px solid #EE9825;
-				border-right: qpx solid #EE9825;
+				// border-left: 1px solid #EE9825;
+				// border-right: qpx solid #EE9825;
+				height: 6.2rem;
 				background-color: #EE9825;
 				font-weight: 700;
 
-				a.active, a:focus{
+				a.active, a:focus, a:hover{
 					font-weight: 700;
 					text-decoration: none;
 					padding-bottom: 1rem;

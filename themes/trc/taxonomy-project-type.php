@@ -8,9 +8,8 @@ get_header(); ?>
 
       <div class="project-title-container">
         <h1 class="projects-title">
-          <a href="#" class="dropdown-arrow" id="projects-toggle-menu">
+          <img id="projects-toggle-menu" class="dropdown-arrow" src="<?php echo get_template_directory_uri();?>/assets/Icons/Mobile/Mobile_png/tekera_mobile_icon_arrow_down_dark_teal.png">
             <?php the_archive_title() ?>
-          </a>
         </h1>
       </div>
 
@@ -21,31 +20,95 @@ get_header(); ?>
   <!-- .page-header -->
 
 
+  <?php $hero_height = "0px" ?>
+  <?php while ( have_posts() ) : the_post();
+  $test_thumnail =  get_the_post_thumbnail_url();
+    if (! empty($test_thumnail)) {
+      $hero_height = "900px"; 
+      $featured_img_url = $test_thumnail;
+    }
+         endwhile; 
+        ?>
+
   <div id="primary" class="content-area">
     <main id="main" class="site-main" role="main">
       <div class="container">
-        <div class="hero-banner">
+        <div class="hero-banner" style="background-image: url(<?php echo $featured_img_url; ?>); height: <?php echo $hero_height ?>">
         </div>
+
         <div class="tab-acord">
-          
-        
-        <ul id="nav">
-        <?php while ( have_posts() ) : the_post(); ?>
+          <ul id="tab-nav">
+            <div class="green-line">
+              <?php while ( have_posts() ) : the_post(); ?>
+              <li>
+                <a href="#">
+                  <?php echo the_title();?>
+                </a>
+                <section style="display:flex">
+                  <div class="overview-info">
+                    <?php echo the_content(); ?>
+                  </div>
+                </section>
+              </li>
+              <?php endwhile; ?>
 
-        
-          <li><a href="#"><?php echo the_title();?></a>
-            <section>
-              <p><?php echo the_content(); ?></p>
-            </section>
-          </li>
-
-          <?php endwhile; ?>
+            </div>
           </ul>
-          </div>
-
-
       </div>
-    </main>
+
+  <div class="heading-tab">
+    <h1>Projects</h1>
+    <img id="mobile-dropdown-arrow" src="<?php echo get_template_directory_uri();?>/assets/Icons/Mobile/Mobile_png/tekera_mobile_icon_arrow_down_white.png">
   </div>
 
-  <?php get_footer(); ?>
+  <div class="mobile-dropdown">
+    <div class="content-dropdown">
+      <?php
+      $num = 1;
+      while ( have_posts() ) : the_post(); ?>
+      <a href="#" id="option<?php echo $num ?>" class="mobile-content-toggle"><?php echo the_title(); ?></a>
+      <?php $num++; ?>
+      <?php endwhile; ?>
+    </div>
+
+    <?php
+      $num = 1;
+      while ( have_posts() ) : the_post(); ?>
+    <div id="content<?php echo $num ?>" class="option<?php echo $num ?> content">
+      <h1><?php echo the_title(); ?></h1>
+      <?php echo the_content(); ?>
+    </div>
+    <?php $num++; ?>
+      <?php endwhile; ?>
+
+    
+  </div>
+
+
+
+
+    </main>
+    </div>
+
+
+    <div class="global-carousel" data-flickity='{ "cellAlign": "center", "contain": true, "wrapAround": true, "groupCells": true, "groupCells": 2 }'>
+      <?php $args = array( 'post_type' => 'SDGs', 'posts_per_page' => 18, 'order' => 'ASC' );
+    $loop = new WP_Query( $args );
+    while ( $loop->have_posts() ) : $loop->the_post();?>
+      <div class="carousel-sub">
+        <?php the_post_thumbnail(); ?>
+        <div class="carasel-content">
+        <?php the_content();?>
+        </div>
+        <!--<div class="carousel-sub-footer">
+          <p>Swipe to see more</p>
+        </div>-->
+        <!--carousel-sub-footer-->
+      </div>
+      <!--carousel-sub-->
+      <?php endwhile; ?>
+
+    </div>
+    <!--global-carousel-->
+
+    <?php get_footer(); ?>

@@ -141,7 +141,9 @@ function trc_custom_excerpt_length( $length ) {
 }
 add_filter( 'excerpt_length', 'trc_custom_excerpt_length', 999 );
 
-// Custom Sub Menus
+/** 
+* Custom Sub Menus
+*/
 function register_tekera_what_we_do_custom_menu() {
 	register_nav_menu('what-we-do-sub-menu', __('What We Do Sub Menu'));
 }
@@ -152,15 +154,17 @@ function register_tekera_how_we_do_it_custom_menu() {
 }
 add_action ('init', 'register_tekera_how_we_do_it_custom_menu');
 
-
 function register_tekera_get_involved_custom_menu() {
 	register_nav_menu('get-involved-sub-menu', __('Get Involved Sub Menu'));
 }
 add_action ('init', 'register_tekera_get_involved_custom_menu');
 
+function register_tekera_who_we_are_custom_menu() {
+	register_nav_menu('who-we-are-sub-menu', __('Who We Are Sub Menu'));
+}
+add_action ('init', 'register_tekera_who_we_are_custom_menu');
 
 
- 
 function create_api_members_custom_field() {
 // register_rest_field ( 'name-of-post-type', 'name-of-field-to-return', array-of-callbacks-and-schema() )
     register_rest_field( 'members', 'first_name', array(

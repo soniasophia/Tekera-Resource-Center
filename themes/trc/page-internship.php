@@ -148,7 +148,7 @@ get_the_title();
 
     <div id="content3" class="option3 content">
       <?php while ( have_posts() ) : the_post(); ?> 
-         <div class="entry-content-page">      
+         <div class="entry-content-page">  
            <?php the_content();
            endwhile ?> <!-- Page Content -->
          </div><!-- .entry-content-page -->
