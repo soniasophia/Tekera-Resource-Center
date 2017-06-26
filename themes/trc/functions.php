@@ -169,28 +169,28 @@ function create_api_members_custom_field() {
 // register_rest_field ( 'name-of-post-type', 'name-of-field-to-return', array-of-callbacks-and-schema() )
     register_rest_field( 'members', 'first_name', array(
            'get_callback'    => function( $members_arr ) {
-            return CFS()->get( first_name, $members_arr['id'] ); 
+            return esc_html( CFS()->get( first_name, $members_arr['id'] ) ); 
         },
            'schema'          => null,
         )
     );
     register_rest_field( 'members', 'last_name', array(
            'get_callback'    => function( $members_arr ) {
-            return CFS()->get( last_name, $members_arr['id'] ); 
+            return esc_html( CFS()->get( last_name, $members_arr['id'] ) ); 
         },
            'schema'          => null,
         )
     );
     register_rest_field( 'members', 'job_title', array(
            'get_callback'    => function( $members_arr ) {
-            return CFS()->get( job_title, $members_arr['id'] ); 
+            return esc_html( CFS()->get( job_title, $members_arr['id'] ) ); 
         },
            'schema'          => null,
         )
     );
     register_rest_field( 'members', 'summary', array(
            'get_callback'    => function( $members_arr ) {
-            return CFS()->get( summary, $members_arr['id'] );
+            return esc_html( CFS()->get( summary, $members_arr['id'] ) );
         },
            'schema'          => null,
         )

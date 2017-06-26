@@ -25,18 +25,18 @@ get_the_title();
 
         <li><a href="#">Overview</a>
           <section style="display:flex">
-            <div class = "overview-image" style="background-image: url('<?php echo CFS()->get( 'img_1' ); ?>')">
+            <div class = "overview-image" style="background-image: url('<?php echo esc_url( CFS()->get( 'img_1' ) ); ?>')">
             </div>
             <div class = "overview-info">
-              <h2><?php echo CFS()->get( 'title_1' ); ?></h2>
-              <p><?php echo CFS()->get( 'content_1' ); ?></p>
+              <h2><?php echo esc_html( CFS()->get( 'title_1' ) ); ?></h2>
+              <p><?php echo esc_html( CFS()->get( 'content_1' ) ); ?></p>
             </div>
           </section>
         </li>
 
           <li><a href="#">Current Opportunities</a>
           <section>
-            <h2><?php echo CFS()->get( 'title_2' ); ?></h2>
+            <h2><?php echo esc_html( CFS()->get( 'title_2' ) ); ?></h2>
 
             <?php
             $args = array( 'post_type' => 'jobs', 'posts_per_page' => 3 );
@@ -105,16 +105,16 @@ get_the_title();
     </div>
 
     <div id="content1" class="option1 content">
-    <img class="overview-image" src="<?php echo CFS()->get( 'img_1' ); ?>"></img>
+    <img class="overview-image" src="<?php echo esc_url( CFS()->get( 'img_1' ) ); ?>"></img>
       <div class = "overview-content-mobile">
-        <h1><?php echo CFS()->get( 'title_1' ); ?></h1>
-        <p><?php echo CFS()->get( 'content_1' ); ?></p>
+        <h1><?php echo esc_html( CFS()->get( 'title_1' ) ); ?></h1>
+        <p><?php echo esc_html( CFS()->get( 'content_1' ) ); ?></p>
       </div>
     </div>
 
     <div id="content2" class="option2 content">
-      <h1><?php echo CFS()->get( 'title_2' ); ?></h1> 
-      <h2><?php echo CFS()->get( 'title_2a' ); ?></h2> 
+      <h1><?php echo esc_html( CFS()->get( 'title_2' ) ); ?></h1> 
+      <h2><?php echo esc_html( CFS()->get( 'title_2a' ) ); ?></h2> 
       <?php
             $args = array( 'post_type' => 'jobs', 'posts_per_page' => 3 );
             $loop = new WP_Query( $args );?>
@@ -154,8 +154,6 @@ get_the_title();
          </div><!-- .entry-content-page -->
     </div>
 </div>
-
-
 
 		</main><!-- #main -->
 	</div><!-- #primary -->

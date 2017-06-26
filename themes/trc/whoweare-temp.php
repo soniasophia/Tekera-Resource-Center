@@ -17,10 +17,10 @@ get_the_title();
   <div class="content">
     <div class="top-content container">
       <h1>
-        <?php echo CFS()->get( 'title_1' ); ?>
+        <?php echo esc_html( CFS()->get( 'title_1' ) ); ?>
       </h1>
       <p>
-        <?php echo CFS()->get( 'text_1' ); ?>
+        <?php echo wp_kses_post( CFS()->get( 'text_1' ) ); ?>
       </p>
     </div>
 
@@ -36,10 +36,10 @@ get_the_title();
 
     <div class="middle-content container">
       <h1>
-        <?php echo CFS()->get( 'title_2' ); ?>
+        <?php echo esc_html( CFS()->get( 'title_2' ) ); ?>
       </h1>
       <p>
-        <?php echo CFS()->get( 'text_2' ); ?>
+        <?php echo wp_kses_post( CFS()->get( 'text_2' ) ); ?>
       </p>
     </div>
 
@@ -58,10 +58,10 @@ get_the_title();
 
     <div class="bottom-content container">
       <h1>
-        <?php echo CFS()->get( 'title_3' ); ?>
+        <?php echo esc_html( CFS()->get( 'title_3' ) ); ?>
       </h1>
       <p>
-        <?php echo CFS()->get( 'text_3' ); ?>
+        <?php echo wp_kses_post( CFS()->get( 'text_3' ) ); ?>
       </p>
     </div>
   </div>

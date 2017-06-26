@@ -28,20 +28,20 @@ get_the_title();
               <img class="overview-image" src="<?php echo CFS()->get( 'overview_image' ); ?>"></img>
             </div>
             <div class="overview-content">
-              <h1><?php echo CFS()->get( 'title_1' ); ?></h1>
-              <p><?php echo CFS()->get( 'content_1' ); ?></p>
+              <h1><?php echo esc_html( CFS()->get( 'title_1' ) ); ?></h1>
+              <p><?php echo wp_kses_post( CFS()->get( 'content_1' ) ); ?></p>
             </div>
           </section>
         </li>
 
         <li><a href="#">Sponsor Students & Classrooms</a>
           <section>
-            <h1><?php echo CFS()->get( 'title_2' ); ?></h1>
-            <p><?php echo CFS()->get( 'content_2' ); ?></p>
-            <h2><?php echo CFS()->get( 'title_2a' ); ?></h2>
-            <p><?php echo CFS()->get( 'content_2a' ); ?></p>
-            <h2 class="alignment"><?php echo CFS()->get( 'title_2b' ); ?></h2>
-            <p class="alignment"><?php echo CFS()->get( 'content_2b' ); ?></p>
+            <h1><?php echo esc_html( CFS()->get( 'title_2' ) ); ?></h1>
+            <p><?php echo wp_kses_post( CFS()->get( 'content_2' ) ); ?></p>
+            <h2><?php echo esc_html( CFS()->get( 'title_2a' ) ); ?></h2>
+            <p><?php echo wp_kses_post( CFS()->get( 'content_2a' ) ); ?></p>
+            <h2 class="alignment"><?php echo esc_html( CFS()->get( 'title_2b' ) ); ?></h2>
+            <p class="alignment"><?php echo wp_kses_post( CFS()->get( 'content_2b' ) ); ?></p>
             <a href="<?php get_template_directory_uri(); ?>/TRC/contact" id="sponsor-now-button">Sponsor Now</a>
           </section>
         </li>
@@ -71,19 +71,19 @@ get_the_title();
     <div id="content1" class="option1 content">
       <img class="overview-image" src="<?php echo CFS()->get( 'overview_image' ); ?>"></img>
       <div class="overview-content-mobile">
-        <h1><?php echo CFS()->get( 'title_1' ); ?></h1>
-        <p><?php echo CFS()->get( 'content_1' ); ?></p>
+        <h1><?php echo esc_html( CFS()->get( 'title_1' ) ); ?></h1>
+        <p><?php echo wp_kses_post( CFS()->get( 'content_1' ) ); ?></p>
       </div>
     </div>
 
     <div id="content2" class="option2 content">
-      <h1><?php echo CFS()->get( 'title_2' ); ?></h1>
-      <p><?php echo CFS()->get( 'content_2' ); ?></p>
-      <h2><?php echo CFS()->get( 'title_2a' ); ?></h2>
-      <p><?php echo CFS()->get( 'content_2a' ); ?></p>
+      <h1><?php echo esc_html( CFS()->get( 'title_2' ) ); ?></h1>
+      <p><?php echo wp_kses_post( CFS()->get( 'content_2' ) ); ?></p>
+      <h2><?php echo esc_html( CFS()->get( 'title_2a' ) ); ?></h2>
+      <p><?php echo wp_kses_post( CFS()->get( 'content_2a' ) ); ?></p>
       <div class="sponsor-student">
-        <h2 class="alignment"><?php echo CFS()->get( 'title_2b' ); ?></h2>
-        <p class="alignment"><?php echo CFS()->get( 'content_2b' ); ?></p>
+        <h2 class="alignment"><?php echo esc_html( CFS()->get( 'title_2b' ) ); ?></h2>
+        <p class="alignment"><?php echo wp_kses_post( CFS()->get( 'content_2b' ) ); ?></p>
         <a href="<?php get_template_directory_uri(); ?>/TRC/contact" id="sponsor-now-button">Sponsor Now</a>
       </div>
     </div>

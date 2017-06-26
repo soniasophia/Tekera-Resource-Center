@@ -44,16 +44,16 @@ get_header(); ?>
             <h2>
               <button class="members-button" type="button" value='<?php echo the_ID() ?>'>
                 <?php 
-              echo CFS()->get( 'first_name' );
+              echo esc_html( CFS()->get( 'first_name' ) );
               echo (' ');
-              echo CFS()->get( 'last_name' );
+              echo esc_html( CFS()->get( 'last_name' ) );
             ?>
             </button>
             </h2>
-
-            <p class="job-title">
-              <?php echo CFS()->get( 'job_title' ); ?>
-            </p>
+              
+              <p class="job-title">
+                <?php echo esc_html( CFS()->get( 'job_title' ) ); ?>
+              </p>
 
           </div>
           <!-- .entry-header -->
