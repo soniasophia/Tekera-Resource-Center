@@ -1827,6 +1827,8 @@ object {
   background-size: cover;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-flow: column nowrap;
+      flex-flow: column nowrap;
   height: 30rem;
   position: relative;
   margin: 0px; }
@@ -1840,6 +1842,25 @@ object {
     font-size: 3rem;
     padding-left: 2rem;
     padding-right: 1rem; }
+
+.blog-mobile-header {
+  width: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  height: 62px;
+  background: rgba(255, 255, 255, 0.7); }
+  .blog-mobile-header h1 {
+    font-size: 2.2rem;
+    color: #072A3D;
+    font-family: 'Open Web';
+    font-weight: bold;
+    font-style: normal;
+    margin: 0;
+    height: 100%; }
 
 .blog-post-box {
   background-position: center;
@@ -1943,6 +1964,8 @@ object {
     width: 100vw; }
     .blog-main-wrapper .navigation {
       display: none; }
+  .blog-mobile-header {
+    display: none; }
   .blog-hero h1 {
     font-size: 6rem; }
   .blog-post-box {

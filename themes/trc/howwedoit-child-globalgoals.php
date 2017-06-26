@@ -86,18 +86,17 @@ get_header();
       <?php the_post_thumbnail(); ?>  
     </div><!--goal-thumbnail-->  
 
-      <div id="goal-<?php echo $goal_num?>" class="goal-item-content-hidden">
-        <div class="goal-content-top">
-          <h3><?php the_title();?></h3>
-          <h1 class="close-button">X</h1>
-        </div><!--goal-content-top-->       
-        <div >
-          <?php the_content();?>
-        </div><!--goal-x-->  
-
-      </div><!--goal-item-content-hidden--> 
-      <?php $goal_num += 1?>
-      <?php $goal_attr += 1?>      
+    <div id="goal-<?php echo $goal_num?>" class="goal-item-content-hidden">
+      <div class="goal-content-top">
+        <h3><?php the_title();?></h3>
+        <h1 class="close-button">X</h1>
+      </div><!--goal-content-top-->       
+      <div >
+        <?php the_content();?>
+      </div><!--goal-x-->  
+    </div><!--goal-item-content-hidden--> 
+    <?php $goal_num += 1?>
+    <?php $goal_attr += 1?>      
     <?php endwhile; ?>
   </div><!--global-items-wrapper-->  
   
