@@ -20,26 +20,25 @@ get_header(); ?>
   <!-- .page-header -->
 
 
+  <?php $hero_height = "0px" ?>
+  <?php while ( have_posts() ) : the_post();
+  $test_thumnail =  get_the_post_thumbnail_url();
+    if (! empty($test_thumnail)) {
+      $hero_height = "900px"; 
+      $featured_img_url = $test_thumnail;
+    }
+         endwhile; 
+        ?>
+
   <div id="primary" class="content-area">
     <main id="main" class="site-main" role="main">
       <div class="container">
-        <div class="hero-banner">
-          <?php while ( have_posts() ) : the_post(); 
-           if(the_post_thumbnail()):
-           the_post_thumbnail();
-           return;
-          endif;
-         endwhile; 
-        ?>
+        <div class="hero-banner" style="background-image: url(<?php echo $featured_img_url; ?>); height: <?php echo $hero_height ?>">
         </div>
-
-
-
 
         <div class="tab-acord">
           <ul id="tab-nav">
             <div class="green-line">
-              <li><a href="#">Projects</a></li>
               <?php while ( have_posts() ) : the_post(); ?>
               <li>
                 <a href="#">
@@ -76,6 +75,7 @@ get_header(); ?>
       $num = 1;
       while ( have_posts() ) : the_post(); ?>
     <div id="content<?php echo $num ?>" class="option<?php echo $num ?> content">
+      <h1><?php echo the_title(); ?></h1>
       <?php echo the_content(); ?>
     </div>
     <?php $num++; ?>
