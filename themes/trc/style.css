@@ -2505,12 +2505,11 @@ object {
   font-style: normal;
   margin-top: 3rem;
   height: 6rem;
-  width: 100%;
+  width: 80%;
   background: #006E71;
   color: #FFF;
   text-transform: uppercase;
-  text-align: center;
-  padding: 0 2rem 0 2rem; }
+  text-align: center; }
 
 .global-goals-content-wrapper {
   margin: 0 2rem 0 2rem;
@@ -2710,17 +2709,14 @@ object {
     -ms-flex-flow: row wrap;
         flex-flow: row wrap;
     overflow: hidden;
-    -ms-flex-pack: center;
-        justify-content: center;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
     height: auto;
     width: 80%;
     margin-bottom: 10rem; }
-  .goal-items-wrapper-hidden {
-    display: none; }
   .goal-thumbnail {
     height: auto;
-    width: 13%;
-    margin: 0 0.5rem 0 0.5rem; }
+    width: 16%; }
   .goal-thumbnail:hover {
     cursor: pointer; }
   .global-goals-triangle-banner {
@@ -2782,6 +2778,9 @@ object {
       font-weight: 100;
       font-style: normal; }
   .goal-content-top {
+    font-family: 'Open Web';
+    font-weight: bold;
+    font-style: normal;
     position: relative;
     height: 4rem;
     display: -ms-flexbox;
@@ -2808,19 +2807,23 @@ object {
   .close-button:hover {
     cursor: pointer; }
   .goal-item-content-hidden {
+    border: 1px solid grey;
     display: none;
     height: 35rem;
-    width: 80%;
-    padding: 3rem; }
+    width: 100%;
+    padding: 3rem;
+    transition: all 0.5s; }
     .goal-item-content-hidden h3 {
       font-family: 'Open Web';
-      font-weight: normal;
+      font-weight: bold;
       font-style: normal;
-      color: #20ACAF; }
+      color: #20ACAF;
+      font-size: 1.5rem; }
     .goal-item-content-hidden p {
       font-family: 'Open Web';
       font-weight: 100;
-      font-style: normal; } }
+      font-style: normal;
+      margin-left: 2rem; } }
 
 /* Transparency */
 .transparency-title-wrapper {

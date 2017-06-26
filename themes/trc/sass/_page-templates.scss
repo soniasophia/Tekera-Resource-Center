@@ -736,12 +736,11 @@
   font-style: normal;
   margin-top: 3rem;
   height: 6rem;
-  width: 100%;
+  width: 80%;
   background: $color_brand-teal-dark;
   color: #FFF;
   text-transform: uppercase;
   text-align: center;
-  padding: 0 2rem 0 2rem;
 }
 
 .global-goals-content-wrapper {
@@ -938,20 +937,15 @@
     display: flex;
     flex-flow: row wrap;
     overflow: hidden;
-    justify-content: center;
+    justify-content: space-between;
     height: auto;
     width: 80%;
     margin-bottom: 10rem;
   }
 
-  .goal-items-wrapper-hidden {
-    display: none;
-  }
-
   .goal-thumbnail {
     height: auto;
-    width: 13%;
-    margin: 0 0.5rem 0 0.5rem;
+    width: 16%;
   }
 
   .goal-thumbnail:hover {
@@ -1011,6 +1005,7 @@
   }
 
   .goal-content-top {
+    @include font-open-bold;    
     position: relative;
     height: 4rem;
     display: flex;
@@ -1038,16 +1033,20 @@
   }
 
   .goal-item-content-hidden {
+    border: 1px solid grey;
     display: none;
     height: 35rem;
-    width: 80%;
+    width: 100%;
     padding: 3rem;
+    transition: all 0.5s;
     h3 {
-      @include font-open-regular;
+      @include font-open-bold;
       color: $color_brand-teal;
+      font-size: 1.5rem;
     }
     p {
       @include font-open-light;
+      margin-left: 2rem;
     }
   }
 }
