@@ -9,7 +9,6 @@ var WORD_API;
 
     $(".more-blogs-button-click").click(function (event) {
       event.preventDefault();
-      console.log('wtf');
 // Pull post data from REST API
       $.ajax({
         method: 'GET',
@@ -17,7 +16,6 @@ var WORD_API;
 /* On succesfull acquisition of API data, dump object 
    attributes into variables */
         success: function (posts) {
-          console.log(posts);
           posts.forEach(function(post) {
           var thumb = post.better_featured_image.source_url;
           var title = post.title.rendered;
