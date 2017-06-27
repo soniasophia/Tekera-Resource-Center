@@ -6,7 +6,7 @@
 		background-size: cover;
 		background-repeat: no-repeat;
 		height: 100vh;
-		width: 100vw;
+		width: 100%;
 
 		@include desktop {
 			background: url('../../assets/Images/Desktop/home-page/tekera_home_page_music_dance_drumming_festival_2.png') center center;
@@ -57,7 +57,7 @@
 		background-repeat: no-repeat;
 		background-position: top;
 		height: 100vh;
-		width: 100vw;
+		width: 100%;
 		position: relative;
 
 		@include desktop {
@@ -73,7 +73,7 @@
 			background-repeat: no-repeat;
 			background-position: top;
 			height: 70vh;
-			width: 100vw;
+			width: 100%;
 			position: absolute;
 			bottom: 0;
 
@@ -82,8 +82,9 @@
 				background-size: cover;
 				background-repeat: no-repeat;
     		background-position-y: center;
-    		background-position-x: -390px;
+    		background-position-x: right;
 				height: 100%;
+        max-width: 1000px;
 			}
 		}
 
@@ -149,7 +150,7 @@
 		background-repeat: no-repeat;
 		background-position: top;
 		height: 100vh;
-		width: 100vw;
+		width: 100%;
 		position: relative;
 
 			@include desktop {
@@ -157,6 +158,9 @@
 				background-size: cover;
 				background-repeat: no-repeat;
 				background-position: top;
+        height: 78vh;
+        display: flex;
+        justify-content: flex-end;
 			}
 
 
@@ -166,7 +170,7 @@
 			background-repeat: no-repeat;
 			background-position: center top;
 			height: 65vh;
-			width: 100vw;
+			width: 100%;
 			position: absolute;
 			bottom: 0;
 
@@ -175,8 +179,8 @@
 					background-size: cover;
 					background-repeat: no-repeat;
 					background-position-y: center;
-    			background-position-x: 465px;
 					height: 100%;
+          max-width: 1000px;
 				}
 		}
 
@@ -264,7 +268,7 @@
 		background-repeat: no-repeat;
 		background-position: top;
 		height: 100vh;
-		width: 100vw;
+		width: 100%;
 		position: relative;
 
 			@include desktop{
@@ -281,7 +285,7 @@
 			background-repeat: no-repeat;
 			background-position: center top;
 			height: 65vh;
-			width: 100vw;
+			width: 100%;
 			position: absolute;
 			bottom: 0;
 
@@ -290,8 +294,9 @@
 					background-size: cover;
 					background-repeat: no-repeat;
 					background-position-y: center;
-    			background-position-x: -390px;
+    			background-position-x: right;
 					height: 100%;
+          max-width: 1000px;
 				}
 		}
 

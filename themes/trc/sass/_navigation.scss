@@ -286,35 +286,31 @@ a {
 				a{
 					color: #fff;
 					text-transform: uppercase;
+          border-bottom: 5px solid transparent ;
+          position: relative;
+          top: 5px;
 				}
 
 				a.active, a:focus, a:hover{
 					color: #fff;
 					// font-weight: 700;
 					text-decoration: none;
-					padding-bottom: 1rem;
-					border-bottom: 5px solid #EE9825 ;
-				}
-
-				a.active, a:active, a:hover{
-					color: #fff;
-					font-weight: 700;
-					text-decoration: none;
-					padding-bottom: 1rem;
 					border-bottom: 5px solid #EE9825 ;
 				}
 			}
 
 			li:nth-child(5){
-				// border-left: 1px solid #EE9825;
-				// border-right: qpx solid #EE9825;
 				background-color: #EE9825;
 				font-weight: 700;
+        a{
+          border-bottom: 7px solid transparent ;
+          position: relative;
+          top: 7px;
+        }
 
 				a.active, a:focus, a:hover{
 					font-weight: 700;
 					text-decoration: none;
-					padding-bottom: 1rem;
 					border-bottom: 7px solid #fff;
 				}
 			}
