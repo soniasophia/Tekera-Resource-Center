@@ -25,7 +25,8 @@ get_the_title();
 
         <li><a href="#">Overview</a>
           <section style="display:flex">
-            <div class = "overview-image" style="background-image: url('<?php echo esc_url( CFS()->get( 'img_1' ) ); ?>')">
+            <div class="overview-image-container">
+              <img class="overview-image" src="<?php echo esc_url( CFS()->get( 'img_1' ) ); ?>"></img>
             </div>
             <div class = "overview-info">
               <h2><?php echo wp_kses_post( CFS()->get( 'title_1' ) ); ?></h2>

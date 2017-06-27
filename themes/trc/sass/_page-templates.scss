@@ -1612,19 +1612,22 @@
      }
    }
 
+   .is-open {
+     justify-content: center;
+     max-width: 100vw;
+   }
+
    .overview-content {
      flex: 0 1 50%;
    }
 
    .overview-image {
      object-fit: cover;
-     height: 100%;
    }
 
    .overview-image-container {
      height: 500px;
      width: 500px;
-     margin-left: 7rem;
      margin-top: 3rem;
    }
   }

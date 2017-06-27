@@ -25,7 +25,7 @@ get_the_title();
         <li><a href="#">Overview</a>
           <section class="overview-section" style="display: flex">
             <div class="overview-image-container">
-              <img class="overview-image" src="<?php echo CFS()->get( 'overview_image' ); ?>"></img>
+              <img class="overview-image" src="<?php echo esc_url( CFS()->get( 'overview_image' ) ); ?>"></img>
             </div>
             <div class="overview-content">
               <h1><?php echo esc_html( CFS()->get( 'title_1' ) ); ?></h1>
@@ -69,7 +69,7 @@ get_the_title();
     </div>
 
     <div id="content1" class="option1 content">
-      <img class="overview-image" src="<?php echo CFS()->get( 'overview_image' ); ?>"></img>
+      <img class="overview-image" src="<?php echo esc_url( CFS()->get( 'overview_image' ) ); ?>"></img>
       <div class="overview-content-mobile">
         <h1><?php echo esc_html( CFS()->get( 'title_1' ) ); ?></h1>
         <p><?php echo wp_kses_post( CFS()->get( 'content_1' ) ); ?></p>

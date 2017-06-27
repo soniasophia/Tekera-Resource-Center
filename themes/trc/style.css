@@ -3751,18 +3751,21 @@ object {
   .page-template-page-sponsor #tab-nav section #sponsor-now-button:hover {
     border-bottom: none; }
 
+.page-template-page-sponsor #tab-nav section .is-open {
+  -ms-flex-pack: center;
+      justify-content: center;
+  max-width: 100vw; }
+
 .page-template-page-sponsor #tab-nav section .overview-content {
   -ms-flex: 0 1 50%;
       flex: 0 1 50%; }
 
 .page-template-page-sponsor #tab-nav section .overview-image {
-  object-fit: cover;
-  height: 100%; }
+  object-fit: cover; }
 
 .page-template-page-sponsor #tab-nav section .overview-image-container {
   height: 500px;
   width: 500px;
-  margin-left: 7rem;
   margin-top: 3rem; }
 
 .page-template-page-sponsor .mobile-dropdown .option1.content {
@@ -4631,24 +4634,31 @@ object {
   .page-template-page-internship .custom-sub-menu-wrapper a {
     color: #072A3D; }
 
+@media screen and (min-width: 640px) and (max-width: 2000px) {
+  .page-template-page-internship .overview-info {
+    -ms-flex: 0 1 50%;
+        flex: 0 1 50%;
+    margin-top: 1rem; }
+  .page-template-page-internship .overview-image {
+    object-fit: cover; }
+  .page-template-page-internship .overview-image-container {
+    height: 500px;
+    width: 500px;
+    margin-top: 3rem; } }
+
 .page-template-page-internship .is-open {
   display: -ms-flexbox;
-  display: flex; }
-  .page-template-page-internship .is-open .overview-image {
-    background-position: top;
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 50%;
-    height: 70%;
-    margin-top: 3rem;
-    margin-left: 3rem; }
-  .page-template-page-internship .is-open .overview-info {
-    width: 50%;
-    margin-top: 3rem; }
-    .page-template-page-internship .is-open .overview-info p {
-      width: 45%;
-      padding-top: 3rem;
-      padding-right: 3rem; }
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  max-width: 100vw; }
+  .page-template-page-internship .is-open .overview-info p {
+    font-family: 'Open Web';
+    font-weight: 100;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 2.2rem;
+    width: 45%; }
 
 .page-template-page-internship #tab-nav li:nth-child(2) h2 {
   color: #072A3D;
@@ -4896,7 +4906,7 @@ object {
       width: 70%;
       margin: 0 auto; }
       .page-template-page-internship #content1 .overview-content-mobile p {
-        font-family: Open Web;
+        font-family: 'Open Web';
         font-weight: 100;
         font-style: normal;
         line-height: 2.2rem;
@@ -5221,7 +5231,6 @@ ul#tab-nav {
   #tab-nav li a {
     display: inline-block; }
   #tab-nav section {
-    padding: 1%;
     position: relative;
     left: 0; } }
 
