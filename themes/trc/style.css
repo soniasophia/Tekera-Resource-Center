@@ -2698,8 +2698,7 @@ object {
         display: block;
         background: rgba(255, 255, 255, 0.7);
         width: 100%;
-        position: fixed;
-        top: 8rem; } }
+        position: fixed; } }
 
 @media screen and (min-width: 640px) {
       .how-hero-desktop .custom-sub-menu-wrapper .get-involved-sub-menu {
@@ -2896,8 +2895,7 @@ object {
         display: block;
         background: rgba(255, 255, 255, 0.7);
         width: 100%;
-        position: fixed;
-        top: 8rem; } }
+        position: fixed; } }
     .global-goals-hero .custom-sub-menu-wrapper .get-involved-sub-menu {
       width: 100%;
       position: fixed; }
@@ -3318,8 +3316,7 @@ object {
         display: block;
         background: rgba(255, 255, 255, 0.7);
         width: 100%;
-        position: fixed;
-        top: 8rem; } }
+        position: fixed; } }
     .transparency-hero .custom-sub-menu-wrapper .get-involved-sub-menu {
       width: 100%;
       position: fixed; }
@@ -3420,8 +3417,7 @@ object {
         display: block;
         background: rgba(255, 255, 255, 0.7);
         width: 100%;
-        position: fixed;
-        top: 8rem; } }
+        position: fixed; } }
     .our-impact-hero .custom-sub-menu-wrapper .get-involved-sub-menu {
       width: 100%;
       position: fixed; }
