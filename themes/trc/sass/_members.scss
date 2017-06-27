@@ -9,6 +9,8 @@
 
     @include desktop {
       display: block;
+      position: fixed;
+      width: 100%;
       background: $color_brand-white-transparent;
       padding: 1rem 0;
       padding-top: 115px;
@@ -22,6 +24,7 @@
       @include desktop {
         display: flex;
         align-items: center;
+        justify-content: space-around;
       }
     }
 
@@ -52,9 +55,9 @@
   }
 
   .dropdown-arrow {
-    position: absolute;
-    left: 13rem;
-    top: 7.5rem;
+    position: relative;
+    left: 220px;
+    top: 50px;
 
     &:hover {
       cursor: pointer;
@@ -66,9 +69,10 @@
   }
 
 .project-title-container {
-  padding-top: 100px;
+  width: 100%;
+  position: fixed;
+  padding-top: 70px;
   text-align: left;
-  position: relative;
     @include desktop {
       display: none;
     }
@@ -85,16 +89,6 @@
     color: $color_brand-blue-dark;
   }
 
-
-
-
-
-
-
-
-
-
-  
   margin: auto;
   text-align: center;
   .members-header {

@@ -629,7 +629,7 @@ a {
         display: none; } }
     .site-header-wrapper .hamburger-menu ul li {
       list-style-type: none;
-      padding: 2rem 1rem 2rem 0;
+      padding: 1rem 1rem 1rem 0;
       border-bottom: 1px solid #4A4A4A;
       margin-left: 2rem;
       margin-right: 6rem;
@@ -3663,18 +3663,27 @@ object {
     @media screen and (min-width: 640px) and (max-width: 2000px) {
       .who-we-are-page .custom-sub-menu-wrapper {
         display: block;
+        position: fixed;
+        text-align: center;
+        width: 100%;
         background: rgba(255, 255, 255, 0.7);
         padding: 1rem 0;
         padding-top: 115px; } }
     .who-we-are-page .custom-sub-menu-wrapper ul {
       width: 80%;
-      margin: 0 auto; }
+      margin: 0 auto;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+          flex-direction: column; }
       @media screen and (min-width: 640px) and (max-width: 2000px) {
         .who-we-are-page .custom-sub-menu-wrapper ul {
           display: -ms-flexbox;
           display: flex;
           -ms-flex-align: center;
-              align-items: center; } }
+              align-items: center;
+          -ms-flex-pack: distribute;
+              justify-content: space-around; } }
     .who-we-are-page .custom-sub-menu-wrapper li {
       font-family: 'Open Web';
       font-weight: bold;
@@ -3698,17 +3707,18 @@ object {
     .who-we-are-page .custom-sub-menu-wrapper a {
       color: #072A3D; }
   .who-we-are-page .dropdown-arrow {
-    position: absolute;
+    position: relative;
     left: 220px;
-    top: 120px; }
+    top: 50px; }
     .who-we-are-page .dropdown-arrow:hover {
       cursor: pointer; }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
       .who-we-are-page .dropdown-arrow {
         display: none; } }
   .who-we-are-page .project-title-container {
-    position: relative;
-    padding-top: 100px; }
+    width: 100%;
+    position: fixed;
+    padding-top: 70px; }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
       .who-we-are-page .project-title-container {
         display: none; } }
@@ -3812,7 +3822,7 @@ object {
       position: absolute;
       bottom: 0;
       width: 100%;
-      height: 75%;
+      height: 85%;
       background: url("../../assets/Triangles/triangle_mobile.png");
       background-repeat: no-repeat;
       background-size: cover;
@@ -3974,6 +3984,8 @@ object {
     @media screen and (min-width: 640px) and (max-width: 2000px) {
       .post-type-archive-members .custom-sub-menu-wrapper {
         display: block;
+        position: fixed;
+        width: 100%;
         background: rgba(255, 255, 255, 0.7);
         padding: 1rem 0;
         padding-top: 115px; } }
@@ -3985,7 +3997,9 @@ object {
           display: -ms-flexbox;
           display: flex;
           -ms-flex-align: center;
-              align-items: center; } }
+              align-items: center;
+          -ms-flex-pack: distribute;
+              justify-content: space-around; } }
     .post-type-archive-members .custom-sub-menu-wrapper li {
       font-family: 'Open Web';
       font-weight: bold;
@@ -4009,18 +4023,19 @@ object {
     .post-type-archive-members .custom-sub-menu-wrapper a {
       color: #072A3D; }
   .post-type-archive-members .dropdown-arrow {
-    position: absolute;
-    left: 13rem;
-    top: 7.5rem; }
+    position: relative;
+    left: 220px;
+    top: 50px; }
     .post-type-archive-members .dropdown-arrow:hover {
       cursor: pointer; }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
       .post-type-archive-members .dropdown-arrow {
         display: none; } }
   .post-type-archive-members .project-title-container {
-    padding-top: 100px;
-    text-align: left;
-    position: relative; }
+    width: 100%;
+    position: fixed;
+    padding-top: 70px;
+    text-align: left; }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
       .post-type-archive-members .project-title-container {
         display: none; } }

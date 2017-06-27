@@ -14,6 +14,9 @@
 
     @include desktop {
       display: block;
+      position: fixed;
+      text-align: center;
+      width: 100%;
       background: $color_brand-white-transparent;
       padding: 1rem 0;
             padding-top: 115px;
@@ -22,10 +25,13 @@
     ul {
       width: 80%;
       margin: 0 auto;
+      display: flex;
+      flex-direction: column;
 
       @include desktop {
         display: flex;
         align-items: center;
+        justify-content: space-around
       }
     }
 
@@ -56,9 +62,9 @@
   }
 
   .dropdown-arrow {
-    position: absolute;
+    position: relative;
     left: 220px;
-    top: 120px;
+    top: 50px;
 
     &:hover {
       cursor: pointer;
@@ -70,8 +76,9 @@
   }
 
 .project-title-container {
-  position: relative;
-  padding-top: 100px;
+  width: 100%;
+  position: fixed;
+  padding-top: 70px;
     @include desktop {
       display: none;
     }
@@ -191,7 +198,7 @@
       position: absolute;
       bottom: 0;
       width: 100%;
-      height: 75%;
+      height: 85%;
       background: url("../../assets/Triangles/triangle_mobile.png");
       background-repeat: no-repeat;
       background-size: cover;
