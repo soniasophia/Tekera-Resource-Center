@@ -528,7 +528,7 @@ div.tekera-triangles{
     width: auto;
 		a {
 		 min-width: 10rem;
-		 z-index: 1000000;
+		 z-index: 10;
 		}
   }
 
@@ -568,7 +568,7 @@ div.tekera-triangles{
     position: absolute;
     left: 3rem;
     top: 20rem; 
-		z-index: 10000;
+		z-index: 100;
 		a {
 			width: auto;
 		}       

@@ -881,7 +881,7 @@ div.tekera-triangles {
     width: auto; }
     .footer-box a {
       min-width: 10rem;
-      z-index: 1000000; }
+      z-index: 10; }
   .footer-top {
     -ms-flex-flow: column nowrap;
         flex-flow: column nowrap;
@@ -914,7 +914,7 @@ div.tekera-triangles {
     position: absolute;
     left: 3rem;
     top: 20rem;
-    z-index: 10000; }
+    z-index: 100; }
     #how a {
       width: auto; }
   #get-involved {
@@ -2849,7 +2849,8 @@ object {
   width: 100%;
   background-size: cover;
   background-position: center;
-  position: relative; }
+  position: relative;
+  overflow: visible; }
 
 .global-triangle-overlay {
   font-family: 'Open Web';
@@ -2871,7 +2872,8 @@ object {
   bottom: 0;
   width: 100%;
   font-size: 1.25rem;
-  padding-top: 2rem; }
+  padding-top: 2rem;
+  overflow: visible; }
   .global-triangle-overlay h2, .global-triangle-overlay p {
     color: #FFF;
     width: 75%;

@@ -923,6 +923,7 @@
   background-size: cover;
   background-position: center;
   position: relative;
+  overflow: visible;
 }
 
 .global-triangle-overlay {
@@ -940,6 +941,7 @@
   width: 100%;
   font-size: 1.25rem;
   padding-top: 2rem;
+  overflow: visible;
   h2, p {
     color: #FFF;
     width: 75%;
