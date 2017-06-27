@@ -1495,7 +1495,7 @@ object {
   background: url("../../assets/Images/Mobile/home-page/tekera_home_page_music_dance.png") center center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 45rem;
   width: 100%;
   display: -ms-flexbox;
   display: flex;
@@ -2303,7 +2303,7 @@ object {
 .post-type-archive-projects .projects-hero {
   background: url("../../assets/Images/Mobile/projects/tekera_projects_collecting_water.png") center center no-repeat;
   background-size: cover;
-  height: 80vh;
+  height: 45rem;
   margin-bottom: 3rem; }
   @media screen and (min-width: 640px) and (max-width: 2000px) {
     .post-type-archive-projects .projects-hero {
@@ -3484,7 +3484,7 @@ object {
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
-      height: 100vh;
+      height: 45rem;
       width: 100vw; } }
 
 .page-template-page-getinvolved .sponsor-title {
@@ -3963,7 +3963,7 @@ object {
     background-size: cover;
     background-position: 72% bottom;
     background-repeat: no-repeat;
-    height: 80vh; }
+    height: 45rem; }
   .who-we-are-page .container {
     width: 80%;
     margin: auto; }
@@ -4477,7 +4477,7 @@ object {
   .page-template-contact-php .hero-banner {
     background: url("../../assets/Images/Mobile/contact/tekera_contact_us_vocational_school.png");
     background-size: cover;
-    height: 80vh;
+    height: 45rem;
     margin-bottom: 50px; }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
       .page-template-contact-php .hero-banner {
