@@ -2364,6 +2364,9 @@ object {
   .how-we-do-it-mobile-header h1 {
     margin-left: 2rem; }
 
+.how-dropdown {
+  margin-left: 2rem; }
+
 @media screen and (min-width: 640px) {
   .how-we-do-it-mobile-header {
     display: none; }
@@ -3480,13 +3483,13 @@ object {
   background-size: cover;
   background-position: 95% bottom;
   background-repeat: no-repeat;
-  height: 95vh;
+  height: 140vh;
   position: relative; }
   @media screen and (min-width: 640px) and (max-width: 2000px) {
     #cta {
       background: url("../../assets/Images/Desktop/about/tekera_about_kids_in_playground.png");
       background-size: cover;
-      height: 80vh; } }
+      height: 100vh; } }
   #cta #cta-blue {
     position: absolute;
     bottom: 0;
@@ -3513,7 +3516,7 @@ object {
         right: 0;
         background-position: 0;
         height: 100%;
-        width: 70%;
+        width: 80%;
         background-repeat: no-repeat;
         display: -ms-flexbox;
         display: flex;

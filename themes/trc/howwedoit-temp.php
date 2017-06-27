@@ -5,9 +5,13 @@ get_header();
  
 <div class="how-we-do-it-page">
   <div class="how-hero-wrapper">
-    <div class="how-we-do-it-mobile-header">
+    <!--<div class="how-we-do-it-mobile-header">
       <h1>Our Approach</h2>
-    </div><!--how-we-do-it-mobile-header-->    
+    </div>how-we-do-it-mobile-header -->
+    <div class="project-title-container how-we-do-it-mobile-header">
+      <h1 class="projects-title">Our Approach</h1>
+      <img id="projects-toggle-menu" class="dropdown-arrow how-dropdown" src="<?php echo get_template_directory_uri();?>/assets/Icons/Mobile/Mobile_png/tekera_mobile_icon_arrow_down_dark_teal.png">      
+    </div>   
   </div><!--how-hero-wrapper--> 
   <div class="how-hero-desktop">
     <div class="how-we-do-it-nav">

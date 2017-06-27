@@ -584,11 +584,17 @@
     }  
   }
 
+  .how-dropdown {
+    margin-left: 2rem;
+  }
+
 @media screen and (min-width: 640px) {
 
   .how-we-do-it-mobile-header {
     display: none;
   }
+
+
 
   .how-we-do-it-nav {
     width: 100%;

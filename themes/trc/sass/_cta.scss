@@ -4,13 +4,13 @@
   background-size: cover;
   background-position: 95% bottom;
   background-repeat: no-repeat;
-  height: 95vh;
+  height: 140vh;
   position: relative;
 
   @include desktop {
     background: url("../../assets/Images/Desktop/about/tekera_about_kids_in_playground.png");
     background-size: cover;
-    height: 80vh;
+    height: 100vh;
   }
 
   #cta-blue {
@@ -35,7 +35,7 @@
       right: 0;
       background-position: 0;
       height: 100%;
-      width: 70%;
+      width: 80%;
       background-repeat: no-repeat;
       display: flex;
       align-items: flex-end;
