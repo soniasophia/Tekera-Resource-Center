@@ -111,7 +111,9 @@ function red_starter_scripts() {
 
   wp_enqueue_script( 'members-popup', get_template_directory_uri() . '/js/members-popup.js', array('jquery'), null, true );
 
-  wp_enqueue_script( 'goal-expander', get_template_directory_uri() . '/js/goal-expander.js', array('jquery'), null, true );	
+  wp_enqueue_script( 'goal-expander', get_template_directory_uri() . '/js/goal-expander.js', array('jquery'), null, true );
+
+  wp_enqueue_script( 'highlight-menu', get_template_directory_uri() . '/build/js/highlight_menu.min.js', array('jquery'), null, true );	
 
   wp_localize_script( 'members-popup', 'WORD_API', array(
 	'api_url' => esc_url_raw( rest_url() )
