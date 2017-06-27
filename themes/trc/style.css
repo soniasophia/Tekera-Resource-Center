@@ -1547,7 +1547,7 @@ object {
       flex-direction: column;
   -ms-flex-pack: end;
       justify-content: flex-end;
-  height: 950px; }
+  height: 100%; }
   .home #front-page-banner .frontpage-overlay-image {
     background-size: cover;
     background-repeat: no-repeat;
@@ -1678,7 +1678,7 @@ object {
       background-size: cover;
       background-repeat: no-repeat;
       background-position: top;
-      height: 78vh;
+      height: 950px;
       display: -ms-flexbox;
       display: flex;
       -ms-flex-pack: end;
@@ -1716,7 +1716,9 @@ object {
         -ms-flex-line-pack: center;
             align-content: center;
         -ms-flex-align: center;
-            align-items: center; } }
+            align-items: center;
+        position: absolute;
+        right: 0; } }
   .home .lunch-program .frontpage-info {
     max-width: 70%;
     display: -ms-flexbox;
