@@ -138,11 +138,11 @@ a {
 	background-color: #20ACAF; 
 	position: fixed;
   width: 100%;
-  top: 0;
-	z-index: 1;
+  top: 1; //Leave at 1!!!!!!
+	z-index: 99; //Leave this at 99!!!!!!
 
 	@include mobile{
-		position: relative;
+	//!!!Dont put position relative here!!!!
 	}
 }
 
