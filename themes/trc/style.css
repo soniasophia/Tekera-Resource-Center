@@ -3712,67 +3712,31 @@ object {
   .page-template-page-sponsor .custom-sub-menu-wrapper a {
     color: #072A3D; }
 
+.page-template-page-sponsor #sponsor-menu {
+  padding-top: 100px; }
+  .page-template-page-sponsor #sponsor-menu img {
+    position: absolute;
+    top: 7.8rem; }
+
 .page-template-page-sponsor .sponsor-hero {
   background: url("../../assets/Images/Mobile/get-involved/tekera_get_involved_sponsor_a_classroom_tps_kids_in_class_.png") center center no-repeat;
   background-size: cover;
-  height: 80vh;
+  height: 45rem;
   margin-bottom: 3rem; }
   @media screen and (min-width: 640px) and (max-width: 2000px) {
     .page-template-page-sponsor .sponsor-hero {
       background: url("../../assets/Images/Desktop/get-involved/tekera_get_involved_sponsor_a_classroom_tps_kids_in_class_.png") center center no-repeat;
       background-size: cover; } }
-  .page-template-page-sponsor .sponsor-hero #sponsor-nav .custom-sub-menu-wrapper {
-    position: fixed;
-    display: none;
-    text-align: center;
-    background: white;
-    width: 100%; }
+  .page-template-page-sponsor .sponsor-hero #sponsor-nav {
+    padding-top: 100px; }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
-      .page-template-page-sponsor .sponsor-hero #sponsor-nav .custom-sub-menu-wrapper {
-        position: fixed;
-        display: block;
-        background: rgba(255, 255, 255, 0.7);
-        width: 100%;
-        position: fixed; } }
-    .page-template-page-sponsor .sponsor-hero #sponsor-nav .custom-sub-menu-wrapper .get-involved-sub-menu {
-      width: 100%;
-      position: fixed; }
-    .page-template-page-sponsor .sponsor-hero #sponsor-nav .custom-sub-menu-wrapper ul {
-      width: 80%;
-      margin: 0 auto; }
+      .page-template-page-sponsor .sponsor-hero #sponsor-nav {
+        padding: 0; } }
+    .page-template-page-sponsor .sponsor-hero #sponsor-nav img {
+      top: 7.6rem; }
       @media screen and (min-width: 640px) and (max-width: 2000px) {
-        .page-template-page-sponsor .sponsor-hero #sponsor-nav .custom-sub-menu-wrapper ul {
-          display: -ms-flexbox;
-          display: flex;
-          -ms-flex-wrap: wrap;
-              flex-wrap: wrap;
-          -ms-flex-align: center;
-              align-items: center;
-          -ms-flex-pack: distribute;
-              justify-content: space-around;
-          width: 90%;
-          padding: 1rem; } }
-    .page-template-page-sponsor .sponsor-hero #sponsor-nav .custom-sub-menu-wrapper li {
-      font-family: 'Open Web';
-      font-weight: bold;
-      font-style: normal;
-      text-transform: uppercase;
-      font-size: 1.3rem;
-      border-bottom: 1px solid #3f3f3f;
-      padding: 1.9rem 0; }
-      .page-template-page-sponsor .sponsor-hero #sponsor-nav .custom-sub-menu-wrapper li:last-child {
-        border-bottom: none; }
-      @media screen and (min-width: 640px) and (max-width: 2000px) {
-        .page-template-page-sponsor .sponsor-hero #sponsor-nav .custom-sub-menu-wrapper li {
-          margin: 0 1rem;
-          border-bottom: none;
-          padding: 0;
-          font-family: 'Open Web';
-          font-weight: normal;
-          font-style: normal;
-          text-transform: none; } }
-    .page-template-page-sponsor .sponsor-hero #sponsor-nav .custom-sub-menu-wrapper a {
-      color: #072A3D; }
+        .page-template-page-sponsor .sponsor-hero #sponsor-nav img {
+          display: none; } }
 
 .page-template-page-sponsor #tab-nav section .alignment {
   text-align: center; }
@@ -4618,6 +4582,18 @@ object {
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat; } }
+  .page-template-page-internship .sponsor-hero #internship-nav {
+    padding-top: 100px; }
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
+      .page-template-page-internship .sponsor-hero #internship-nav {
+        padding: 0; } }
+    .page-template-page-internship .sponsor-hero #internship-nav img {
+      position: absolute;
+      top: 7.8rem;
+      right: 30%; }
+      @media screen and (min-width: 640px) and (max-width: 2000px) {
+        .page-template-page-internship .sponsor-hero #internship-nav img {
+          display: none; } }
 
 .page-template-page-internship .project-title-container {
   display: -ms-flexbox;

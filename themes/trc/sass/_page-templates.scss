@@ -1571,19 +1571,37 @@
     }
   }
 
+  #sponsor-menu {
+    padding-top: 100px;
+    img {
+      position: absolute; 
+      top: 7.8rem;
+    }
+  }
+
+  
+  
   .sponsor-hero {
     background: url('../../assets/Images/Mobile/get-involved/tekera_get_involved_sponsor_a_classroom_tps_kids_in_class_.png') center center no-repeat;
     background-size: cover;
-    height: 80vh;
+    height: 45rem;
     margin-bottom: 3rem;
-
+    
     @include desktop {
       background: url('../../assets/Images/Desktop/get-involved/tekera_get_involved_sponsor_a_classroom_tps_kids_in_class_.png') center center no-repeat;
       background-size: cover;
     }
-
     #sponsor-nav {
-      @include mobile-nav;
+      padding-top: 100px;
+      @include desktop {
+        padding: 0;
+      }
+      img {
+        top: 7.6rem;
+        @include desktop {
+          display: none;
+        }
+      }
     }
   }
 
