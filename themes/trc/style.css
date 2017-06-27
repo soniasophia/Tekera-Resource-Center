@@ -564,7 +564,11 @@ a {
 
 .site-header {
   height: 100px;
-  background-color: #20ACAF; }
+  background-color: #20ACAF;
+  position: fixed;
+  width: 100%;
+  top: 2rem;
+  z-index: 1; }
 
 .site-header-wrapper {
   display: -ms-flexbox;
@@ -2045,7 +2049,10 @@ object {
   @media screen and (min-width: 640px) and (max-width: 2000px) {
     .post-type-archive-projects .custom-sub-menu-wrapper {
       display: block;
-      background: rgba(255, 255, 255, 0.7); } }
+      background: rgba(255, 255, 255, 0.7);
+      position: fixed;
+      top: 8rem;
+      width: 100%; } }
   .post-type-archive-projects .custom-sub-menu-wrapper ul {
     width: 80%;
     margin: 0 auto; }
@@ -2481,7 +2488,9 @@ object {
         align-items: center;
     height: 62px;
     background: rgba(255, 255, 255, 0.7);
-    z-index: 1000000; }
+    z-index: 1000000;
+    position: fixed;
+    top: 8.2rem; }
     .how-we-do-it-nav ul {
       padding-top: 1rem;
       margin-left: 8rem;
@@ -3313,7 +3322,10 @@ object {
   @media screen and (min-width: 640px) and (max-width: 2000px) {
     .page-template-page-getinvolved .custom-sub-menu-wrapper {
       display: block;
-      background: rgba(255, 255, 255, 0.7); } }
+      background: rgba(255, 255, 255, 0.7);
+      position: fixed;
+      width: 100%;
+      top: 8.3rem; } }
   .page-template-page-getinvolved .custom-sub-menu-wrapper ul {
     width: 80%;
     margin: 0 auto; }
@@ -4067,7 +4079,9 @@ object {
         height: 75px;
         margin: 0px;
         padding-left: 100px;
-        padding-top: 10px; } }
+        padding-top: 10px;
+        position: fixed;
+        top: 8.3rem; } }
   .page-template-contact-php .hero-banner {
     background: url("../../assets/Images/Mobile/contact/tekera_contact_us_vocational_school.png");
     background-size: cover;
@@ -4243,7 +4257,10 @@ object {
   @media screen and (min-width: 640px) and (max-width: 2000px) {
     .page-template-page-internship .custom-sub-menu-wrapper {
       display: block;
-      background: rgba(255, 255, 255, 0.7); } }
+      background: rgba(255, 255, 255, 0.7);
+      position: fixed;
+      width: 100%;
+      top: 8.3rem; } }
   .page-template-page-internship .custom-sub-menu-wrapper ul {
     width: 80%;
     margin: 0 auto; }

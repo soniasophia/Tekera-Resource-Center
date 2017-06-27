@@ -136,6 +136,10 @@ a {
 .site-header{
 	height: 100px;
 	background-color: #20ACAF; 
+	position: fixed;
+  width: 100%;
+  top: 2rem;
+	z-index: 1;
 	// margin-bottom: 1rem;
 }
 
