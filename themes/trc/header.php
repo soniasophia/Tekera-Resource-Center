@@ -44,11 +44,16 @@
 					</div> 
 				</div>
 					
+
 					<div class = "tekera-site-logo">
+						<a href="<?php echo site_url();?>">
+						
 						<img src="<?php echo get_template_directory_uri();?>/assets/Logos/tekera_logo_desktop_pie.png">
 					</div>
 					
 					<div class = "tekera-site-text">
+						<a href="<?php echo site_url();?>">
+
 						<img src="<?php echo get_template_directory_uri();?>/assets/Logos/tekera_logo_desktop_text.png">
 					</div>
 
