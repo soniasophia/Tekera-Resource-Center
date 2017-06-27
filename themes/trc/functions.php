@@ -190,7 +190,7 @@ function create_api_members_custom_field() {
     );
     register_rest_field( 'members', 'summary', array(
            'get_callback'    => function( $members_arr ) {
-            return esc_html( CFS()->get( summary, $members_arr['id'] ) );
+            return wp_kses_post( CFS()->get( summary, $members_arr['id'] ) );
         },
            'schema'          => null,
         )
