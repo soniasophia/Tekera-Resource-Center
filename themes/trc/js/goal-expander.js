@@ -7,13 +7,13 @@ jQuery(document).ready(function ($){
     event.preventDefault();
     var click = $(this).data('target');
     clickId = '#' + click;
-    $(selector).hide();    
-    $(clickId).show();
+    $(selector).hide('slow');    
+    $(clickId).show('slow');
   });
 
   $(closer).click(function (event){
     event.preventDefault();
-    $(clickId).hide();
-    $(selector).show();
+    $(clickId).hide('slow');
+    $(selector).show('slow');
   });
 });
