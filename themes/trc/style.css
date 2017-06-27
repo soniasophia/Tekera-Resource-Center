@@ -3881,9 +3881,7 @@ object {
           -ms-flex-align: center;
               align-items: center;
           -ms-flex-direction: row;
-              flex-direction: row;
-          -ms-flex-pack: distribute;
-              justify-content: space-around; } }
+              flex-direction: row; } }
     .who-we-are-page .custom-sub-menu-wrapper li {
       font-family: 'Open Web';
       font-weight: bold;
@@ -5139,9 +5137,7 @@ object {
           -ms-flex-align: center;
               align-items: center;
           -ms-flex-direction: row;
-              flex-direction: row;
-          -ms-flex-pack: distribute;
-              justify-content: space-around; } }
+              flex-direction: row; } }
     #submenu .custom-sub-menu-wrapper li {
       font-family: 'Open Web';
       font-weight: bold;
