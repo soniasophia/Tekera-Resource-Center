@@ -71,8 +71,8 @@
 
   .entry-title-container {
     position: absolute;
-    width: 45%;
-    bottom: 1rem;
+    width: 60%;
+    bottom: 10%;
     margin: 0 2rem;
 
     @include desktop {
@@ -184,7 +184,8 @@
   }
 
   .featured-image-container {
-    height: 55rem;
+		position: relative;
+    height: 45rem;
     background-color: lightgrey;
     overflow: hidden;
 
@@ -193,7 +194,6 @@
     }
 
     img {
-      position: relative;
       object-fit: cover;
   		height: 100%;
 
@@ -230,7 +230,7 @@
 
 		.blog-post-meta {
 			position: absolute;
-			top: 35rem;
+			top: 70%;
 			width: 100%;
 		}
 
@@ -278,9 +278,9 @@
 
 	.post-thumbnail-container {
 		height: 100vh;
+		position: relative;
 
 		img {
-			position: relative;
 			height: 100%;
 			object-fit: cover;
 		}

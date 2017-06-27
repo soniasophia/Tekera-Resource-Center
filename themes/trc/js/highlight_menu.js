@@ -5,7 +5,8 @@
   //$('menu-mobile-top-nav')
   $('.mobile-top-nav li').each(function(){
     splitPath.forEach(function(element) {
-      if(element.toUpperCase().replace(/\s/g,'').replace(/-/g,'') == $(this).children().text().toUpperCase().replace(/\s/g,'').replace(/-/g,'')){
+      if($(this).children().text().toUpperCase().replace(/\s/g,'').replace(/-/g,'').includes(element.toUpperCase().replace(/\s/g,'').replace(/-/g,''))
+      && element != ''){
         $(this).css("font-weight", "900");
       }
     }, this);

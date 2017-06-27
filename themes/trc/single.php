@@ -45,18 +45,19 @@ get_header(); ?>
 					<div class="blog-post">
 						<div class="post-thumbnail-container">
         			<?php the_post_thumbnail('large'); ?>
-						</div>
-						<div class="blog-post-meta">
-							<p class="blog-post-tag"><?php
-							$posttags = get_the_tags();
-							if ($posttags) {
+							<div class="blog-post-meta">
+								<p class="blog-post-tag">
+								<?php
+								$posttags = get_the_tags();
+								if ($posttags) {
   							foreach($posttags as $tag) {
     						echo '#' . $tag->name . ' '; 
  					 			}
 							}
 							?></p>
 							<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-        		</div>
+        			</div>
+						</div>
 					</div>
           <?php
           endforeach;
@@ -65,7 +66,6 @@ get_header(); ?>
           ?>
 				</div>
       </div>
-
 
 			<div class="latest-blog-posts">
           <?php
@@ -81,11 +81,10 @@ get_header(); ?>
 					<div class="latest-blog-post">
 						<div class="blog-thumbnail-container">
         			<?php the_post_thumbnail('full'); ?>
-						</div>
-
-						<p class="post-tag"><?php
-						$posttags = get_the_tags();
-						if ($posttags) {
+							<p class="post-tag">
+							<?php
+							$posttags = get_the_tags();
+							if ($posttags) {
   						foreach($posttags as $tag) {
     					echo '#' . $tag->name . ' '; 
  					 		}
@@ -93,15 +92,15 @@ get_header(); ?>
 						?></p>
 
 						<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+						</div>
         	</div>
+
           <?php
           endforeach;
           wp_reset_postdata();
           }
           ?>
 				</div>
-
-
 
 			<?php
 				// If comments are open or we have at least one comment, load up the comment template.

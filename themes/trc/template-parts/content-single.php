@@ -13,10 +13,9 @@
 			<?php if ( has_post_thumbnail() ) : ?>
 				<?php the_post_thumbnail( 'full' ); ?>
 			<?php endif; ?>
-		</div>
-
-		<div class="entry-title-container">
-			<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+			<div class="entry-title-container">
+				<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+			</div>
 		</div>
 
 		<div class="entry-meta">
