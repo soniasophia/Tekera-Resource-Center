@@ -1219,8 +1219,8 @@ div.tekera-triangles {
 
 .single-post .entry-title-container {
   position: absolute;
-  width: 45%;
-  bottom: 1rem;
+  width: 60%;
+  bottom: 10%;
   margin: 0 2rem; }
   @media screen and (min-width: 640px) and (max-width: 2000px) {
     .single-post .entry-title-container {
@@ -1316,14 +1316,14 @@ div.tekera-triangles {
         height: 60px; } }
 
 .single-post .featured-image-container {
-  height: 55rem;
+  position: relative;
+  height: 45rem;
   background-color: lightgrey;
   overflow: hidden; }
   @media screen and (min-width: 640px) and (max-width: 2000px) {
     .single-post .featured-image-container {
       height: 100vh; } }
   .single-post .featured-image-container img {
-    position: relative;
     object-fit: cover;
     height: 100%; }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
@@ -1354,7 +1354,7 @@ div.tekera-triangles {
   width: 100%; }
   .single-post .more-blog-posts .blog-post-meta {
     position: absolute;
-    top: 35rem;
+    top: 70%;
     width: 100%; }
   .single-post .more-blog-posts .blog-post-tag {
     margin: 0.5rem;
@@ -1389,9 +1389,9 @@ div.tekera-triangles {
     left: -10px; }
 
 .single-post .post-thumbnail-container {
-  height: 100vh; }
+  height: 100vh;
+  position: relative; }
   .single-post .post-thumbnail-container img {
-    position: relative;
     height: 100%;
     object-fit: cover; }
 
