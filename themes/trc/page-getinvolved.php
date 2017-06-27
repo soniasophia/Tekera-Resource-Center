@@ -27,25 +27,6 @@ get_the_title();
         <h1> overview </h1>
       </div>
 
-      <div class="overview-wrapper">
-        <h1> Get involved with trc </h1>
-        <h2> Different ways to get involved with TRC</h2>
-        <div class="sponsor involvement">
-          <h3>Sponsor</h3>
-          <p>TRC has always strived to provide high quality education in a village setting. As such, we have done our best to
-            make attending school as cost effective and affordable as we can. Your sponsorships covers all school fees, school
-            requirements, and learning materials of students.</p>
-          <a href="<?php get_template_directory_uri(); ?>/get-involved/sponsor" class="learn-more">Learn More</a>
-        </div>
-
-        <div class="internship involvement">
-          <h3>Internships</h3>
-          <p> In alignment with our goal towards sustainability, TRC is at the stage whereby we do not "need" volunteers to achieve
-            our daily work. We have Ugandan professionals who have proven to be very capable in thier fields, we do, however,
-            welcome anyone willing to help us, expand our skills and contribute theirs. </p>
-          <a href="<?php get_template_directory_uri(); ?>/get-involved/internship" class="learn-more">Learn More</a>
-        </div>
-
         <div class = "overview-wrapper">
           <h1> Get involved with trc </h1>
           <h2> Different ways to get involved with TRC</h2>
