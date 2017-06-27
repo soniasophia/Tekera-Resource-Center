@@ -124,7 +124,9 @@ get_the_title();
                 echo '<div class="entry-content">';
                 the_content();
                 echo '</div>';
+                echo '<div class="apply-now">';
                 echo '<a href="#option3" class="apply-now">Apply Now</a>';
+                echo '</div>';
                 ?>
               </div>
             <?php endwhile;
@@ -133,10 +135,10 @@ get_the_title();
             <div class = "job-info">
               <span> 
                 <p>Don't see a position that fits your experience? We are always on the look out for new talent. Feek free to submit an application form describing the expertise you could bring to TRC. </p> 
-              </span>
-              <span class = "apply_now_button">
+              </div>
+              <div class = "apply_now_button">
                 <a href="#option3" class="apply-now">Apply Now</a>
-              </span>
+              </div>
             </div>   
     </div>
 

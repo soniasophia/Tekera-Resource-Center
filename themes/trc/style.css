@@ -4694,22 +4694,22 @@ object {
     color: #4A4A4A;
     font-size: 20px;
     line-height: 34px; }
-  .page-template-page-internship #tab-nav .job-post .button {
+  .page-template-page-internship #tab-nav .job-post a {
     background-color: #ee9825;
-    color: #fff;
+    width: 253px;
+    height: 55px;
+    text-align: center;
+    padding-top: .7rem;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    text-transform: uppercase;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
-    border: none;
-    width: 253px;
-    height: 55px;
-    font-size: 20px;
-    line-height: 33px;
-    font-weight: 700;
-    box-shadow: none;
-    text-shadow: none;
-    border-radius: 0;
-    text-transform: uppercase; }
+    border-right: 0;
+    border-left: 0; }
 
 .page-template-page-internship #tab-nav .job-post:nth-child(3), .page-template-page-internship #tab-nav .job-post:nth-child(4), .page-template-page-internship #tab-nav .job-post:nth-child(5) {
   padding-top: 2rem;
@@ -4722,19 +4722,22 @@ object {
   line-height: 33px;
   font-weight: 700; }
 
-.page-template-page-internship #tab-nav .job-info .button {
+.page-template-page-internship #tab-nav .job-info a {
   background-color: #ee9825;
-  color: #fff;
-  border: none;
   width: 253px;
   height: 55px;
+  text-align: center;
+  padding-top: .7rem;
+  margin: 0 auto;
   font-size: 20px;
-  line-height: 33px;
   font-weight: 700;
-  box-shadow: none;
-  text-shadow: none;
-  border-radius: 0;
-  text-transform: uppercase; }
+  line-height: 27px;
+  text-transform: uppercase;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  border-right: 0;
+  border-left: 0; }
 
 .page-template-page-internship .intern-sub-heading {
   font-family: 'Open Web';
@@ -4921,13 +4924,22 @@ object {
     padding-bottom: 2rem;
     padding-top: 2rem;
     border-bottom: 1px solid #979797;
-    width: 75%;
+    width: 100%;
     margin: 0 auto; }
   .page-template-page-internship .job-post {
     -ms-flex-direction: column;
-        flex-direction: column; }
+        flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    border-bottom: 1px solid #979797; }
     .page-template-page-internship .job-post .job-title {
-      width: 100%; }
+      width: 100%;
+      color: #20acaf;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 27px;
+      text-align: center;
+      text-transform: uppercase; }
   .page-template-page-internship .job-post:nth-child(4) .job-title {
     padding-left: 2.5rem;
     padding-right: 2rem; }
@@ -4943,21 +4955,42 @@ object {
       font-style: normal;
       line-height: 2.2rem;
       font-size: 1.1rem;
-      text-align: center; }
-  .page-template-page-internship .job-info {
-    width: 80%;
-    margin: 0 auto; }
-    .page-template-page-internship .job-info p {
       text-align: center;
-      font-family: 'Open Sans';
+      margin-bottom: 2.5rem; }
+  .page-template-page-internship .job-post .apply-now {
+    background-color: #ee9825;
+    width: 169px;
+    height: 50px;
+    text-align: center;
+    padding-top: .7rem;
+    margin: 0 auto; }
+    .page-template-page-internship .job-post .apply-now a {
+      color: #fff;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 27px;
+      text-transform: uppercase; }
+  .page-template-page-internship .job-info {
+    width: 100%; }
+    .page-template-page-internship .job-info span p {
+      color: #072a3d;
+      font-size: 20px;
       font-weight: 600;
-      padding-top: 1rem;
-      padding-bottom: 2rem; }
-    .page-template-page-internship .job-info .apply_now_button {
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-pack: center;
-          justify-content: center; } }
+      line-height: 34px;
+      text-align: center; }
+  .page-template-page-internship .apply_now_button {
+    background-color: #ee9825;
+    width: 169px;
+    height: 50px;
+    text-align: center;
+    padding-top: .7rem;
+    margin: 0 auto; }
+    .page-template-page-internship .apply_now_button a {
+      color: #fff;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 27px;
+      text-transform: uppercase; } }
 
 @media screen and (max-width: 640px) {
   .page-template-page-internship .heading-tab {
