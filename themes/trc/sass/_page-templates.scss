@@ -1581,6 +1581,10 @@
       background: url('../../assets/Images/Desktop/get-involved/tekera_get_involved_sponsor_a_classroom_tps_kids_in_class_.png') center center no-repeat;
       background-size: cover;
     }
+
+    #sponsor-nav {
+      @include mobile-nav;
+    }
   }
 
  #tab-nav section {
@@ -1671,6 +1675,8 @@
   }
  }
 }
+
+
 
 .page-template-page-getinvolved{
   #submenu{
