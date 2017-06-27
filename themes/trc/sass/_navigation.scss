@@ -287,6 +287,8 @@ a {
 					color: #fff;
 					text-transform: uppercase;
           border-bottom: 5px solid transparent ;
+          position: relative;
+          top: 5px;
 				}
 
 				a.active, a:focus, a:hover{
@@ -302,6 +304,8 @@ a {
 				font-weight: 700;
         a{
           border-bottom: 7px solid transparent ;
+          position: relative;
+          top: 7px;
         }
 
 				a.active, a:focus, a:hover{

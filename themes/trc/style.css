@@ -681,7 +681,9 @@ a {
         .main-navigation .menu-nav-bar-container ul li a {
           color: #fff;
           text-transform: uppercase;
-          border-bottom: 5px solid transparent; }
+          border-bottom: 5px solid transparent;
+          position: relative;
+          top: 5px; }
         .main-navigation .menu-nav-bar-container ul li a.active, .main-navigation .menu-nav-bar-container ul li a:focus, .main-navigation .menu-nav-bar-container ul li a:hover {
           color: #fff;
           text-decoration: none;
@@ -690,7 +692,9 @@ a {
         background-color: #EE9825;
         font-weight: 700; }
         .main-navigation .menu-nav-bar-container ul li:nth-child(5) a {
-          border-bottom: 7px solid transparent; }
+          border-bottom: 7px solid transparent;
+          position: relative;
+          top: 7px; }
         .main-navigation .menu-nav-bar-container ul li:nth-child(5) a.active, .main-navigation .menu-nav-bar-container ul li:nth-child(5) a:focus, .main-navigation .menu-nav-bar-container ul li:nth-child(5) a:hover {
           font-weight: 700;
           text-decoration: none;
@@ -3391,7 +3395,8 @@ object {
         .who-we-are-page .top-image .top-blue {
           background: url("../../assets/Triangles/desktop_triangle_right.png");
           height: 100%;
-          width: 50%;
+          width: 70%;
+          max-width: 600px;
           background-position: center right;
           background-repeat: no-repeat; } }
       .who-we-are-page .top-image .top-blue .top-phrase h2 {
@@ -3443,7 +3448,8 @@ object {
         .who-we-are-page .bottom-image .bottom-blue {
           background: url("../../assets/Triangles/desktop_triangle_left.png");
           height: 100%;
-          width: 48%;
+          width: 100%;
+          max-width: 600px;
           background-position: center left;
           background-repeat: no-repeat;
           right: 0; } }
