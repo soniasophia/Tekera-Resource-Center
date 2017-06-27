@@ -774,7 +774,6 @@
     flex-flow: column nowrap;
     height: auto;
     width: 60%;   
-    margin: 1rem 0 1rem 0; 
     h1, h2 {
       @include font-open-bold;
       text-transform: uppercase;
@@ -784,6 +783,7 @@
     }  
     h1 {
       font-size: 5rem;
+      height: auto;
     }   
     h2 {
       font-size: 2rem;
@@ -794,7 +794,7 @@
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
-    margin-top: 4rem;
+    margin-top: 1rem;
     width: 60%;
     img {
       width: 10rem;

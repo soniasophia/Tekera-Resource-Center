@@ -2667,8 +2667,7 @@ object {
     -ms-flex-flow: column nowrap;
         flex-flow: column nowrap;
     height: auto;
-    width: 60%;
-    margin: 1rem 0 1rem 0; }
+    width: 60%; }
     .how-insert-middle h1, .how-insert-middle h2 {
       font-family: 'Open Web';
       font-weight: bold;
@@ -2678,7 +2677,8 @@ object {
       margin: 0px;
       padding: 0px; }
     .how-insert-middle h1 {
-      font-size: 5rem; }
+      font-size: 5rem;
+      height: auto; }
     .how-insert-middle h2 {
       font-size: 2rem; }
   .how-insert-bottom {
@@ -2688,7 +2688,7 @@ object {
         flex-flow: row nowrap;
     -ms-flex-pack: justify;
         justify-content: space-between;
-    margin-top: 4rem;
+    margin-top: 1rem;
     width: 60%; }
     .how-insert-bottom img {
       width: 10rem;
