@@ -1,9 +1,100 @@
 // Desktop tab menu for CFS content
+#submenu {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 98;
+  @include desktop {
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  @include font-open-regular;
+  p {
+    @include font-open-light;
+    font-size: 18px;
+    line-height: 2.2rem;
+  }
+  .custom-sub-menu-wrapper {
+    display: none;
+    text-align: center;
+    background: white;
+    @include desktop {
+      display: block;
+      position: fixed;
+      text-align: center;
+      width: 100%;
+      background: $color_brand-white-transparent;
+      padding-top: 100px;
+    }
+    ul {
+      width: 80%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      @include desktop {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-around
+      }
+    }
+    li {
+      @include font-open-bold;
+      text-transform: uppercase;
+      font-size: 1.3rem;
+      border-bottom: 1px solid #3f3f3f;
+      padding: 1.9rem 0;
+      &:last-child {
+        border-bottom: none;
+      }
+      @include desktop {
+        margin: 0 1rem;
+        border-bottom: none;
+        padding: 0;
+        @include font-open-regular;
+        text-transform: none;
+        margin-right: 3rem;
+      }
+    }
+    a {
+      color: $color_brand-blue-dark;
+    }
+  }
+  .dropdown-arrow {
+    position: relative;
+    left: 220px;
+    top: 50px;
+    &:hover {
+      cursor: pointer;
+    }
+    @include desktop {
+      display: none;
+    }
+  }
+  .project-title-container {
+    width: 100%;
+    padding-top: 100px;
+    @include desktop {
+      display: none;
+    }
+  }
+  .projects-title {
+    z-index: 99999;
+    padding: 0.5rem 2rem;
+    margin: 0;
+    width: 100%;
+    background: $color_brand-white-transparent;
+    @include font-open-bold;
+    color: $color_brand-blue-dark;
+  }
+}
+
 .green-line {
   background-color: $color_brand-teal-dark;
   display: none;
   flex-direction: column;
-  
   @include desktop {
     display: inline-block;
     width: 100%;
@@ -12,7 +103,6 @@
 
 .tab-acord {
   text-align: center;
-
   @include mobile {
     display: none;
   }
@@ -34,12 +124,10 @@ ul#tab-nav {
 
 #tab-nav li {
   list-style: none;
-
   @include mobile {
     padding: 1rem 0;
     border: 1px solid $color_brand-teal;
   }
-
   @include desktop {
     margin-right: -4px;
   }
@@ -53,11 +141,9 @@ ul#tab-nav {
   text-transform: uppercase;
   @include font-open-light;
   font-size: 1.3rem;
-
   @include mobile {
     padding: 1.1rem 0;
   }
-
   @include desktop {
     vertical-align: middle;
     padding: 2rem 1rem;
@@ -68,12 +154,12 @@ ul#tab-nav {
   }
 }
 
-#tab-nav li a:hover, #tab-nav li a.active {
+#tab-nav li a:hover,
+#tab-nav li a.active {
   background: $color_brand-teal;
   color: #F2F2F2;
   @include font-open-bold;
   border-bottom: 5px solid $color_brand-yellow;
-
   @include mobile {
     border-bottom: none;
   }
@@ -90,8 +176,11 @@ ul#tab-nav {
   float: left;
   background: white;
   overflow: hidden;
-  
-  h1, h2, h3, h4, h5 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
     text-align: left;
     width: 80%;
     margin: 0 auto;
@@ -100,7 +189,6 @@ ul#tab-nav {
     color: $color_brand-teal;
     text-transform: uppercase;
   }
-
   p {
     text-transform: none;
     text-align: left;
@@ -125,15 +213,12 @@ ul#tab-nav {
     position: relative;
     border: none;
   }
-
   #tab-nav li {
     display: inline;
   }
-
   #tab-nav li a {
     display: inline-block;
   }
-
   #tab-nav section {
     padding: 1%;
     position: relative;
@@ -147,11 +232,9 @@ ul#tab-nav {
   display: flex;
   flex-direction: column;
   text-align: center;
-  
   @include desktop {
     display: none;
   }
-
   a {
     text-transform: uppercase;
     color: white;
@@ -166,14 +249,16 @@ ul#tab-nav {
 .content {
   width: 70%;
   margin: 0 auto;
-
   h1 {
     color: $color_brand-teal;
     text-transform: uppercase;
     font-size: 1.5rem;
-  } 
-  
-  h2, h3, h4, h5, h6 {
+  }
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     color: $color_brand-teal;
     text-transform: uppercase;
     font-size: 1rem;
@@ -184,7 +269,8 @@ ul#tab-nav {
   margin-bottom: 3rem;
 }
 
-.mobile-dropdown, .fund-project {
+.mobile-dropdown,
+.fund-project {
   @include desktop {
     display: none;
   }
@@ -198,11 +284,9 @@ ul#tab-nav {
   background: $color_brand-teal-dark;
   padding: 1.3rem;
   position: relative;
-
   @include desktop {
     display: none;
   }
-
   h1 {
     color: white;
     text-transform: uppercase;
@@ -210,12 +294,9 @@ ul#tab-nav {
     font-size: 1.5rem;
     @include font-open-bold;
   }
-
   #mobile-dropdown-arrow {
     position: absolute;
     top: 45px;
     right: 55px;
   }
 }
-
-

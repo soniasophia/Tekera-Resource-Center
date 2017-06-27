@@ -138,10 +138,15 @@ a {
 	background-color: #20ACAF; 
 	position: fixed;
   width: 100%;
-  //top: 0rem;
+  top: 0;
 	z-index: 1;
-	// margin-bottom: 1rem;
+
+	@include mobile{
+		position: relative;
+	}
 }
+
+
 
 .site-header-wrapper{
 	display: flex;
