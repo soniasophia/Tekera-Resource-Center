@@ -583,7 +583,6 @@ a {
   background-color: #20ACAF;
   position: fixed;
   width: 100%;
-  top: 0rem;
   z-index: 1; }
 
 .site-header-wrapper {
@@ -1357,7 +1356,7 @@ object {
   display: block; }
 
 /* Front Page */
-.site-main .hero-banner {
+.home .hero-banner {
   background: url("../../assets/Images/Mobile/home-page/tekera_home_page_music_dance.png") center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1370,10 +1369,10 @@ object {
   -ms-flex-align: center;
       align-items: center; }
   @media screen and (min-width: 640px) and (max-width: 2000px) {
-    .site-main .hero-banner {
+    .home .hero-banner {
       background: url("../../assets/Images/Desktop/home-page/tekera_home_page_music_dance_drumming_festival_2.png") center center;
       background-size: cover; } }
-  .site-main .hero-banner h1 {
+  .home .hero-banner h1 {
     font-family: 'Shadows Into Light Web';
     font-weight: normal;
     font-style: normal;
@@ -1385,11 +1384,11 @@ object {
     color: white;
     text-shadow: 1px 1px 2px black; }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
-      .site-main .hero-banner h1 {
+      .home .hero-banner h1 {
         font-size: 6rem;
         width: 70%; } }
 
-.site-main .learn-more-button {
+.home .learn-more-button {
   font-family: 'Open Web';
   font-weight: normal;
   font-style: normal;
@@ -1400,13 +1399,13 @@ object {
   padding: 0.5rem 1rem;
   text-align: center; }
   @media screen and (min-width: 640px) and (max-width: 2000px) {
-    .site-main .learn-more-button {
+    .home .learn-more-button {
       left: 0;
       bottom: 0;
       padding: 0.7rem 3rem;
       top: auto; } }
 
-.site-main #front-page-banner {
+.home #front-page-banner {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
@@ -1414,7 +1413,7 @@ object {
   -ms-flex-pack: end;
       justify-content: flex-end;
   height: 950px; }
-  .site-main #front-page-banner .frontpage-overlay-image {
+  .home #front-page-banner .frontpage-overlay-image {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
@@ -1430,22 +1429,22 @@ object {
     -ms-flex-align: center;
         align-items: center; }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
-      .site-main #front-page-banner .frontpage-overlay-image {
+      .home #front-page-banner .frontpage-overlay-image {
         background-size: cover;
         background-repeat: no-repeat;
         background-position-y: center;
         background-position-x: right;
         height: 100%;
         max-height: 100%; } }
-    .site-main #front-page-banner .frontpage-overlay-image .frontpage-info p {
+    .home #front-page-banner .frontpage-overlay-image .frontpage-info p {
       line-height: 1.5rem; }
 
 @media screen and (min-width: 640px) and (max-width: 2000px) {
-  .site-main #lunch-school-banner {
+  .home #lunch-school-banner {
     -ms-flex-direction: row;
         flex-direction: row; } }
 
-.site-main .going-to-school {
+.home .going-to-school {
   background: url("../../assets/Images/Mobile/home-page/tekera_homepage_mom_going_by_the_school_.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -1454,12 +1453,12 @@ object {
   width: 100%;
   position: relative; }
   @media screen and (min-width: 640px) and (max-width: 2000px) {
-    .site-main .going-to-school {
+    .home .going-to-school {
       background: url("../../assets/Images/Desktop/home-page/tekera_home_page_mom_going_by_the_school_.png");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: top; } }
-  .site-main .going-to-school .frontpage-overlay-image {
+  .home .going-to-school .frontpage-overlay-image {
     background: url("../../assets/Triangles/triangle_mobile.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -1467,7 +1466,7 @@ object {
     height: 70vh;
     width: 100%; }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
-      .site-main .going-to-school .frontpage-overlay-image {
+      .home .going-to-school .frontpage-overlay-image {
         background: url("../../assets/Triangles/desktop_triangle_right.png");
         background-size: cover;
         background-repeat: no-repeat;
@@ -1475,11 +1474,11 @@ object {
         background-position-x: right;
         height: 100%;
         max-width: 1000px; } }
-  .site-main .going-to-school h2 {
+  .home .going-to-school h2 {
     font-family: 'Shadows Into Light Web';
     font-weight: normal;
     font-style: normal; }
-  .site-main .going-to-school .frontpage-info {
+  .home .going-to-school .frontpage-info {
     max-width: 70%;
     display: -ms-flexbox;
     display: flex;
@@ -1488,24 +1487,24 @@ object {
     -ms-flex-align: center;
         align-items: center; }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
-      .site-main .going-to-school .frontpage-info {
+      .home .going-to-school .frontpage-info {
         top: 20%;
         left: 10%;
         max-width: 500px;
         -ms-flex-align: left;
             align-items: left; } }
-    .site-main .going-to-school .frontpage-info h2 {
+    .home .going-to-school .frontpage-info h2 {
       font-size: 2rem;
       margin: 0 auto;
       color: #fff;
       text-align: center; }
       @media screen and (min-width: 640px) and (max-width: 2000px) {
-        .site-main .going-to-school .frontpage-info h2 {
+        .home .going-to-school .frontpage-info h2 {
           font-size: 3rem;
           text-align: left;
           max-width: 100%;
           margin: 1rem 0; } }
-    .site-main .going-to-school .frontpage-info p {
+    .home .going-to-school .frontpage-info p {
       font-family: 'Open Web';
       font-weight: 100;
       font-style: normal;
@@ -1515,13 +1514,13 @@ object {
       text-align: center;
       width: 100%; }
       @media screen and (min-width: 640px) and (max-width: 2000px) {
-        .site-main .going-to-school .frontpage-info p {
+        .home .going-to-school .frontpage-info p {
           text-align: left;
           font-size: 1.5rem;
           line-height: 2.5rem;
           padding-bottom: 7rem; } }
 
-.site-main .lunch-program {
+.home .lunch-program {
   background: url("../../assets/Images/Mobile/home-page/tekera_homepage_tps_lunch_program_.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -1538,7 +1537,7 @@ object {
   -ms-flex-align: center;
       align-items: center; }
   @media screen and (min-width: 640px) and (max-width: 2000px) {
-    .site-main .lunch-program {
+    .home .lunch-program {
       background: url("../../assets/Images/Desktop/home-page/tekera_home_page_tps_lunch_program_.png");
       background-size: cover;
       background-repeat: no-repeat;
@@ -1548,7 +1547,7 @@ object {
       display: flex;
       -ms-flex-pack: end;
           justify-content: flex-end; } }
-  .site-main .lunch-program .frontpage-overlay-image {
+  .home .lunch-program .frontpage-overlay-image {
     background: url("../../assets/Triangles/triangle_mobile.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -1565,7 +1564,7 @@ object {
     -ms-flex-align: center;
         align-items: center; }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
-      .site-main .lunch-program .frontpage-overlay-image {
+      .home .lunch-program .frontpage-overlay-image {
         background: url("../../assets/Triangles/desktop_triangle_left.png");
         background-size: cover;
         background-repeat: no-repeat;
@@ -1582,7 +1581,7 @@ object {
             align-content: center;
         -ms-flex-align: center;
             align-items: center; } }
-  .site-main .lunch-program .frontpage-info {
+  .home .lunch-program .frontpage-info {
     max-width: 70%;
     display: -ms-flexbox;
     display: flex;
@@ -1591,7 +1590,7 @@ object {
     -ms-flex-align: center;
         align-items: center; }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
-      .site-main .lunch-program .frontpage-info {
+      .home .lunch-program .frontpage-info {
         top: 25%;
         right: 10%;
         max-width: 500px;
@@ -1600,12 +1599,12 @@ object {
         -ms-flex-align: center;
             align-items: center; } }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
-      .site-main .lunch-program .frontpage-info .global-goals-mobile {
+      .home .lunch-program .frontpage-info .global-goals-mobile {
         display: none; } }
     @media screen and (max-width: 640px) {
-      .site-main .lunch-program .frontpage-info .global-goals-desktop {
+      .home .lunch-program .frontpage-info .global-goals-desktop {
         display: none; } }
-    .site-main .lunch-program .frontpage-info h2 {
+    .home .lunch-program .frontpage-info h2 {
       font-family: 'Shadows Into Light Web';
       font-weight: normal;
       font-style: normal;
@@ -1615,13 +1614,13 @@ object {
       text-align: center;
       width: 100%; }
       @media screen and (min-width: 640px) and (max-width: 2000px) {
-        .site-main .lunch-program .frontpage-info h2 {
+        .home .lunch-program .frontpage-info h2 {
           text-align: right;
           font-size: 3rem;
           max-width: 100%;
           line-height: 3.5rem;
           margin-bottom: 3rem; } }
-    .site-main .lunch-program .frontpage-info p {
+    .home .lunch-program .frontpage-info p {
       font-family: 'Open Web';
       font-weight: 100;
       font-style: normal;
@@ -1633,7 +1632,7 @@ object {
       text-align: center;
       width: 100%; }
       @media screen and (min-width: 640px) and (max-width: 2000px) {
-        .site-main .lunch-program .frontpage-info p {
+        .home .lunch-program .frontpage-info p {
           text-align: right;
           font-size: 1.5rem;
           line-height: 2.5rem;
@@ -1641,12 +1640,12 @@ object {
           margin-left: 20%;
           margin-bottom: 2rem; } }
   @media screen and (min-width: 640px) and (max-width: 2000px) {
-    .site-main .lunch-program .learn-more-button {
+    .home .lunch-program .learn-more-button {
       right: 0;
       left: initial;
       top: auto; } }
 
-.site-main .smiling-woman {
+.home .smiling-woman {
   background: url("../../assets/Images/Mobile/home-page/tekera_home_page_smiling_woman.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -1655,12 +1654,12 @@ object {
   width: 100%;
   position: relative; }
   @media screen and (min-width: 640px) and (max-width: 2000px) {
-    .site-main .smiling-woman {
+    .home .smiling-woman {
       background: url("../../assets/Images/Desktop/home-page/tekera_home_page_internships_.png");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: top; } }
-  .site-main .smiling-woman .frontpage-overlay-image {
+  .home .smiling-woman .frontpage-overlay-image {
     background: url("../../assets/Triangles/triangle_mobile.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -1668,7 +1667,7 @@ object {
     height: 65vh;
     width: 100%; }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
-      .site-main .smiling-woman .frontpage-overlay-image {
+      .home .smiling-woman .frontpage-overlay-image {
         background: url("../../assets/Triangles/desktop_triangle_right.png");
         background-size: cover;
         background-repeat: no-repeat;
@@ -1676,7 +1675,7 @@ object {
         background-position-x: right;
         height: 100%;
         max-width: 1000px; } }
-  .site-main .smiling-woman .frontpage-info {
+  .home .smiling-woman .frontpage-info {
     width: 70%;
     display: -ms-flexbox;
     display: flex;
@@ -1685,13 +1684,13 @@ object {
     -ms-flex-align: center;
         align-items: center; }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
-      .site-main .smiling-woman .frontpage-info {
+      .home .smiling-woman .frontpage-info {
         top: 25%;
         left: 10%;
         max-width: 500px;
         -ms-flex-align: right;
             align-items: right; } }
-    .site-main .smiling-woman .frontpage-info h2 {
+    .home .smiling-woman .frontpage-info h2 {
       font-family: 'Shadows Into Light Web';
       font-weight: normal;
       font-style: normal;
@@ -1700,13 +1699,13 @@ object {
       color: #fff;
       text-align: center; }
       @media screen and (min-width: 640px) and (max-width: 2000px) {
-        .site-main .smiling-woman .frontpage-info h2 {
+        .home .smiling-woman .frontpage-info h2 {
           text-align: left;
           font-size: 3rem;
           width: 100%;
           margin: 1rem 0;
           line-height: 3.5rem; } }
-    .site-main .smiling-woman .frontpage-info p {
+    .home .smiling-woman .frontpage-info p {
       font-family: 'Open Web';
       font-weight: 100;
       font-style: normal;
@@ -1716,7 +1715,7 @@ object {
       text-align: center;
       width: 100%; }
       @media screen and (min-width: 640px) and (max-width: 2000px) {
-        .site-main .smiling-woman .frontpage-info p {
+        .home .smiling-woman .frontpage-info p {
           text-align: left;
           font-size: 1.5rem;
           line-height: 2.5rem;
@@ -1724,11 +1723,11 @@ object {
           margin-top: 1.5rem; } }
 
 @media screen and (min-width: 640px) and (max-width: 2000px) {
-  .site-main .programs-info {
+  .home .programs-info {
     max-width: 80%;
     margin: 3rem auto 5rem; } }
 
-.site-main .programs-info h1 {
+.home .programs-info h1 {
   color: #20ACAF;
   font-size: 1.5rem;
   max-width: 80%;
@@ -1739,7 +1738,7 @@ object {
   text-transform: uppercase;
   padding: 3rem 2rem; }
   @media screen and (min-width: 640px) and (max-width: 2000px) {
-    .site-main .programs-info h1 {
+    .home .programs-info h1 {
       height: 150px;
       padding: 0;
       font-size: 2.1rem;
@@ -1747,7 +1746,7 @@ object {
       line-height: 3.5rem;
       margin: 0 auto; } }
 
-.site-main .programs-info .icons-container {
+.home .programs-info .icons-container {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
@@ -1755,132 +1754,132 @@ object {
   -ms-flex-pack: center;
       justify-content: center; }
   @media screen and (min-width: 640px) and (max-width: 2000px) {
-    .site-main .programs-info .icons-container {
+    .home .programs-info .icons-container {
       padding: 2rem; } }
-  .site-main .programs-info .icons-container p {
+  .home .programs-info .icons-container p {
     font-family: 'Shadows Into Light Web';
     font-weight: normal;
     font-style: normal;
     text-transform: uppercase; }
-  .site-main .programs-info .icons-container .icons-wrapper:nth-child(1) {
+  .home .programs-info .icons-container .icons-wrapper:nth-child(1) {
     background: url("../../assets/Icons/Mobile/Mobile_png/Tekera_Mobile_Icon_Education.png");
     background-position: top;
     background-repeat: no-repeat;
     width: 165px; }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
-      .site-main .programs-info .icons-container .icons-wrapper:nth-child(1) {
+      .home .programs-info .icons-container .icons-wrapper:nth-child(1) {
         -ms-flex-order: 4;
             order: 4;
         background: url("../../assets/Icons/Desktop/png/Tekera_Icon_Education.png");
         background-position: top;
         background-repeat: no-repeat;
         margin: 0 3rem; } }
-    .site-main .programs-info .icons-container .icons-wrapper:nth-child(1) p {
+    .home .programs-info .icons-container .icons-wrapper:nth-child(1) p {
       margin-top: 8rem;
       width: 158px; }
       @media screen and (min-width: 640px) and (max-width: 2000px) {
-        .site-main .programs-info .icons-container .icons-wrapper:nth-child(1) p {
+        .home .programs-info .icons-container .icons-wrapper:nth-child(1) p {
           margin-top: 10.5rem; } }
-  .site-main .programs-info .icons-container .icons-wrapper:nth-child(2) {
+  .home .programs-info .icons-container .icons-wrapper:nth-child(2) {
     background: url("../../assets/Icons/Mobile/Mobile_png/Tekera_Mobile_Icon_Farming.png");
     background-position: top;
     background-repeat: no-repeat;
     width: 165px; }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
-      .site-main .programs-info .icons-container .icons-wrapper:nth-child(2) {
+      .home .programs-info .icons-container .icons-wrapper:nth-child(2) {
         -ms-flex-order: 1;
             order: 1;
         background: url("../../assets/Icons/Desktop/png/tekera_icon_farming_.png");
         background-position: top;
         background-repeat: no-repeat;
         margin: 0 3rem; } }
-    .site-main .programs-info .icons-container .icons-wrapper:nth-child(2) p {
+    .home .programs-info .icons-container .icons-wrapper:nth-child(2) p {
       margin-top: 8rem;
       width: 158px; }
       @media screen and (min-width: 640px) and (max-width: 2000px) {
-        .site-main .programs-info .icons-container .icons-wrapper:nth-child(2) p {
+        .home .programs-info .icons-container .icons-wrapper:nth-child(2) p {
           margin-top: 10.5rem; } }
-  .site-main .programs-info .icons-container .icons-wrapper:nth-child(3) {
+  .home .programs-info .icons-container .icons-wrapper:nth-child(3) {
     background: url("../../assets/Icons/Mobile/Mobile_png/Tekera_Mobile_Icon_Clinic.png");
     background-position: top;
     background-repeat: no-repeat;
     width: 165px; }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
-      .site-main .programs-info .icons-container .icons-wrapper:nth-child(3) {
+      .home .programs-info .icons-container .icons-wrapper:nth-child(3) {
         -ms-flex-order: 2;
             order: 2;
         background: url("../../assets/Icons/Desktop/png/Tekera_Icon_Clinic.png");
         background-position: top;
         background-repeat: no-repeat;
         margin: 0 3rem; } }
-    .site-main .programs-info .icons-container .icons-wrapper:nth-child(3) p {
+    .home .programs-info .icons-container .icons-wrapper:nth-child(3) p {
       margin-top: 8rem;
       width: 158px; }
       @media screen and (min-width: 640px) and (max-width: 2000px) {
-        .site-main .programs-info .icons-container .icons-wrapper:nth-child(3) p {
+        .home .programs-info .icons-container .icons-wrapper:nth-child(3) p {
           margin-top: 10.5rem; } }
-  .site-main .programs-info .icons-container .icons-wrapper:nth-child(4) {
+  .home .programs-info .icons-container .icons-wrapper:nth-child(4) {
     background: url("../../assets/Icons/Mobile/Mobile_png/Tekera_Mobile_Icon_Economy.png");
     background-position: top;
     background-repeat: no-repeat;
     width: 165px; }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
-      .site-main .programs-info .icons-container .icons-wrapper:nth-child(4) {
+      .home .programs-info .icons-container .icons-wrapper:nth-child(4) {
         -ms-flex-order: 6;
             order: 6;
         background: url("../../assets/Icons/Desktop/png/Tekera_Icon_Economic.png");
         background-position: top;
         background-repeat: no-repeat;
         margin: 0 3rem; } }
-    .site-main .programs-info .icons-container .icons-wrapper:nth-child(4) p {
+    .home .programs-info .icons-container .icons-wrapper:nth-child(4) p {
       margin-top: 8rem;
       width: 158px; }
       @media screen and (min-width: 640px) and (max-width: 2000px) {
-        .site-main .programs-info .icons-container .icons-wrapper:nth-child(4) p {
+        .home .programs-info .icons-container .icons-wrapper:nth-child(4) p {
           margin-top: 10.5rem; } }
-  .site-main .programs-info .icons-container .icons-wrapper:nth-child(5) {
+  .home .programs-info .icons-container .icons-wrapper:nth-child(5) {
     background: url("../../assets/Icons/Mobile/Mobile_png/tekera_mobile_icon_women_empowerment_.png");
     background-position: top;
     background-repeat: no-repeat;
     width: 165px; }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
-      .site-main .programs-info .icons-container .icons-wrapper:nth-child(5) {
+      .home .programs-info .icons-container .icons-wrapper:nth-child(5) {
         -ms-flex-order: 3;
             order: 3;
         background: url("../../assets/Icons/Desktop/png/tekera_icon_women_empowerment.png");
         background-position: top;
         background-repeat: no-repeat;
         margin: 0 3rem; } }
-    .site-main .programs-info .icons-container .icons-wrapper:nth-child(5) p {
+    .home .programs-info .icons-container .icons-wrapper:nth-child(5) p {
       margin-top: 8rem;
       width: 158px; }
       @media screen and (min-width: 640px) and (max-width: 2000px) {
-        .site-main .programs-info .icons-container .icons-wrapper:nth-child(5) p {
+        .home .programs-info .icons-container .icons-wrapper:nth-child(5) p {
           margin-top: 10.5rem; } }
-  .site-main .programs-info .icons-container .icons-wrapper:nth-child(6) {
+  .home .programs-info .icons-container .icons-wrapper:nth-child(6) {
     background: url("../../assets/Icons/Mobile/Mobile_png/tekera_mobile_icon_community_.png");
     background-position: top;
     background-repeat: no-repeat;
     width: 165px; }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
-      .site-main .programs-info .icons-container .icons-wrapper:nth-child(6) {
+      .home .programs-info .icons-container .icons-wrapper:nth-child(6) {
         -ms-flex-order: 5;
             order: 5;
         background: url("../../assets/Icons/Desktop/png/Tekera_Icon_Community.png");
         background-position: top;
         background-repeat: no-repeat;
         margin: 0 3rem; } }
-    .site-main .programs-info .icons-container .icons-wrapper:nth-child(6) p {
+    .home .programs-info .icons-container .icons-wrapper:nth-child(6) p {
       margin-top: 8rem;
       width: 158px; }
       @media screen and (min-width: 640px) and (max-width: 2000px) {
-        .site-main .programs-info .icons-container .icons-wrapper:nth-child(6) p {
+        .home .programs-info .icons-container .icons-wrapper:nth-child(6) p {
           margin-top: 10.5rem; } }
-  .site-main .programs-info .icons-container .icons-wrapper p {
+  .home .programs-info .icons-container .icons-wrapper p {
     color: #072A3D;
     font-size: 26px;
     text-align: center; }
-  .site-main .programs-info .icons-container .icons-text {
+  .home .programs-info .icons-container .icons-text {
     background: url("../../assets/Icons/Mobile/10,000_people_.png");
     background-repeat: no-repeat;
     width: 272px;
@@ -1888,7 +1887,7 @@ object {
     margin-top: 4rem;
     margin-bottom: 4rem; }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
-      .site-main .programs-info .icons-container .icons-text {
+      .home .programs-info .icons-container .icons-text {
         background: url("../../assets/Icons/Desktop/Desktop_10000ppl.png");
         background-repeat: no-repeat;
         background-position: center;
@@ -3665,7 +3664,8 @@ object {
       .who-we-are-page .custom-sub-menu-wrapper {
         display: block;
         background: rgba(255, 255, 255, 0.7);
-        padding: 1rem 0; } }
+        padding: 1rem 0;
+        padding-top: 115px; } }
     .who-we-are-page .custom-sub-menu-wrapper ul {
       width: 80%;
       margin: 0 auto; }
@@ -3699,16 +3699,19 @@ object {
       color: #072A3D; }
   .who-we-are-page .dropdown-arrow {
     position: absolute;
-    left: 15rem;
-    top: 10.5rem; }
+    left: 220px;
+    top: 120px; }
     .who-we-are-page .dropdown-arrow:hover {
       cursor: pointer; }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
       .who-we-are-page .dropdown-arrow {
         display: none; } }
-  @media screen and (min-width: 640px) and (max-width: 2000px) {
-    .who-we-are-page .project-title-container {
-      display: none; } }
+  .who-we-are-page .project-title-container {
+    position: relative;
+    padding-top: 100px; }
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
+      .who-we-are-page .project-title-container {
+        display: none; } }
   .who-we-are-page .projects-title {
     padding: 0.5rem 2rem;
     margin: 0;
@@ -3972,7 +3975,8 @@ object {
       .post-type-archive-members .custom-sub-menu-wrapper {
         display: block;
         background: rgba(255, 255, 255, 0.7);
-        padding: 1rem 0; } }
+        padding: 1rem 0;
+        padding-top: 115px; } }
     .post-type-archive-members .custom-sub-menu-wrapper ul {
       width: 80%;
       margin: 0 auto; }
@@ -4006,15 +4010,17 @@ object {
       color: #072A3D; }
   .post-type-archive-members .dropdown-arrow {
     position: absolute;
-    left: 15rem;
-    top: 10.5rem; }
+    left: 13rem;
+    top: 7.5rem; }
     .post-type-archive-members .dropdown-arrow:hover {
       cursor: pointer; }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
       .post-type-archive-members .dropdown-arrow {
         display: none; } }
   .post-type-archive-members .project-title-container {
-    text-align: left; }
+    padding-top: 100px;
+    text-align: left;
+    position: relative; }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
       .post-type-archive-members .project-title-container {
         display: none; } }

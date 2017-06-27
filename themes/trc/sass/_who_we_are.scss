@@ -16,6 +16,7 @@
       display: block;
       background: $color_brand-white-transparent;
       padding: 1rem 0;
+            padding-top: 115px;
     }
 
     ul {
@@ -56,8 +57,8 @@
 
   .dropdown-arrow {
     position: absolute;
-    left: 15rem;
-    top: 10.5rem;
+    left: 220px;
+    top: 120px;
 
     &:hover {
       cursor: pointer;
@@ -69,6 +70,8 @@
   }
 
 .project-title-container {
+  position: relative;
+  padding-top: 100px;
     @include desktop {
       display: none;
     }
