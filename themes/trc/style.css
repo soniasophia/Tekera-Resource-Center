@@ -4415,7 +4415,7 @@ object {
         padding-left: 100px;
         padding-top: 10px;
         position: fixed;
-        top: 8.2rem; } }
+        margin-top: 100px; } }
   .page-template-contact-php .hero-banner {
     background: url("../../assets/Images/Mobile/contact/tekera_contact_us_vocational_school.png");
     background-size: cover;
