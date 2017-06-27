@@ -27,7 +27,7 @@
 
 			<div class = "mobile-nav">
 				<div class = "menu-btn" id ="menu-btn">
-						<button class="hamburger"> &#9776;</button>
+						<button class="hamburger closed"> &#9776;</button>
 				</div>
 
 					<div class="hamburger-menu">
