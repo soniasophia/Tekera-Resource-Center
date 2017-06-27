@@ -18,8 +18,6 @@
 			</div>
 		</div>
 
-		
-
 		<div class="entry-meta">
 			<?php red_starter_posted_on(); ?> <?php red_starter_comment_count(); ?> <?php red_starter_posted_by(); ?>
 		</div><!-- .entry-meta -->
