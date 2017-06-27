@@ -1517,6 +1517,9 @@
     @include desktop {
       display: block;
       background: $color_brand-white-transparent;
+      position: fixed;
+      width: 100%;
+      top: 8.2rem;
     }
 
     ul {  

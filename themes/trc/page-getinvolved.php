@@ -28,19 +28,19 @@ get_the_title();
             <div class = "sponsor involvement">
               <h3>Sponsor</h3>
               <p>TRC has always strived to provide high quality education in a village setting. As such, we have done our best to make attending school as cost effective and affordable as we can. Your sponsorships covers all school fees, school requirements, and learning materials of students.</p>
-              <a href="<?php get_template_directory_uri(); ?>/get-involved/sponsor" class="learn-more">Learn More</a>
+              <a class="learn-more" href="<?php echo esc_url( get_permalink( get_page_by_title( 'Sponsor' ) ) ); ?>"> Learn More </a>
             </div>
 
             <div class = "internship involvement">
               <h3>Internships</h3>
               <p> In alignment with our goal towards sustainability, TRC is at the stage whereby we do not "need" volunteers to achieve our daily work. We have Ugandan professionals who have proven to be very capable in thier fields, we do, however, welcome anyone willing to help us, expand our skills and contribute theirs. </p>
-              <a href="<?php get_template_directory_uri(); ?>/get-involved/internship" class="learn-more">Learn More</a>
+               <a class="learn-more" href="<?php echo esc_url( get_permalink( get_page_by_title( 'Internship' ) ) ); ?>"> Learn More </a>
             </div>
 
             <div class = "donate involvement">
               <h3> Donate</h3>
               <p>TRC believes in a sustainable model for progressive community growth. Our low administration fees(less than 1% since 2008) ensure that your full contribution will result in real chaneg at the TRC. </p>
-              <a href="<?php get_template_directory_uri(); ?>/contact" class="learn-more">Learn More</a>
+               <a class="learn-more" href="<?php echo esc_url( get_permalink( get_page_by_title( 'Donate' ) ) ); ?>"> Learn More </a>
             </div>
         </div>
       </div>
