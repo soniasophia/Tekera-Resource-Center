@@ -850,15 +850,15 @@
   display: flex;
   align-items: center;
   font-family: 'Open Web';
+  justify-content: center;
   font-weight: 100;
   font-style: normal;
   margin-top: 3rem;
   height: 6rem;
-  width: 80%;
+  width: 100%;
   background: $color_brand-teal-dark;
   color: #FFF;
   text-transform: uppercase;
-  text-align: center;
 }
 
 .global-goals-content-wrapper {

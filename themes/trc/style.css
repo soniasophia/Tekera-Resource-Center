@@ -2718,15 +2718,16 @@ object {
   -ms-flex-align: center;
       align-items: center;
   font-family: 'Open Web';
+  -ms-flex-pack: center;
+      justify-content: center;
   font-weight: 100;
   font-style: normal;
   margin-top: 3rem;
   height: 6rem;
-  width: 80%;
+  width: 100%;
   background: #006E71;
   color: #FFF;
-  text-transform: uppercase;
-  text-align: center; }
+  text-transform: uppercase; }
 
 .global-goals-content-wrapper {
   margin: 0 2rem 0 2rem;
