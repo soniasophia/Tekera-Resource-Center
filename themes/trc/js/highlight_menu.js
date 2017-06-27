@@ -4,7 +4,7 @@
   var splitPath = pathname.split('/');
   //$('menu-mobile-top-nav')
   splitPath.forEach(function (element) {
-    if (element.toUpperCase().replace(/\s/g, '').replace(/-/g, '') == 'HOWWEDOIT' && splitPath.includes('global-goals') == false) {
+    if (element.toUpperCase().replace(/\s/g, '').replace(/-/g, '') == 'HOWWEDOIT' && splitPath.includes('global-goals') == false && splitPath.includes('our-impact') == false && splitPath.includes('transparency') == false) {
 
       $('.mobile-top-nav li:nth-child(1)').children().css("font-weight", "900");
     }
