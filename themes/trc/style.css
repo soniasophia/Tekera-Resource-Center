@@ -680,25 +680,20 @@ a {
         padding-left: 1rem; }
         .main-navigation .menu-nav-bar-container ul li a {
           color: #fff;
-          text-transform: uppercase; }
+          text-transform: uppercase;
+          border-bottom: 5px solid transparent; }
         .main-navigation .menu-nav-bar-container ul li a.active, .main-navigation .menu-nav-bar-container ul li a:focus, .main-navigation .menu-nav-bar-container ul li a:hover {
           color: #fff;
           text-decoration: none;
-          padding-bottom: 1rem;
-          border-bottom: 5px solid #EE9825; }
-        .main-navigation .menu-nav-bar-container ul li a.active, .main-navigation .menu-nav-bar-container ul li a:active, .main-navigation .menu-nav-bar-container ul li a:hover {
-          color: #fff;
-          font-weight: 700;
-          text-decoration: none;
-          padding-bottom: 1rem;
           border-bottom: 5px solid #EE9825; }
       .main-navigation .menu-nav-bar-container ul li:nth-child(5) {
         background-color: #EE9825;
         font-weight: 700; }
+        .main-navigation .menu-nav-bar-container ul li:nth-child(5) a {
+          border-bottom: 7px solid transparent; }
         .main-navigation .menu-nav-bar-container ul li:nth-child(5) a.active, .main-navigation .menu-nav-bar-container ul li:nth-child(5) a:focus, .main-navigation .menu-nav-bar-container ul li:nth-child(5) a:hover {
           font-weight: 700;
           text-decoration: none;
-          padding-bottom: 1rem;
           border-bottom: 7px solid #fff; }
 
 div.tekera-triangles {
