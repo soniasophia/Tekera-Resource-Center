@@ -39,8 +39,12 @@
     margin: auto;
   }
   .title {
-    position: relative;
+    position: fixed;
+    background-color: $color_brand-white-transparent;
+    padding-top: 100px;
+    width: 100%;
     @include desktop {
+      padding: 0;
       text-align: left;
     }
   }
