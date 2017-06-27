@@ -1064,7 +1064,7 @@ div.tekera-triangles {
     position: absolute;
     left: 3rem;
     top: 20rem;
-    z-index: 100; }
+    z-index: 98; }
     #how a {
       width: auto; }
   #get-involved {
@@ -4594,7 +4594,7 @@ object {
       background: rgba(255, 255, 255, 0.7);
       position: fixed;
       width: 100%;
-      top: 8.3rem; } }
+      margin-top: 100px; } }
   .page-template-page-internship .custom-sub-menu-wrapper ul {
     width: 80%;
     margin: 0 auto; }
