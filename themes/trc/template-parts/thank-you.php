@@ -15,7 +15,7 @@ get_header(); ?>
       <h3>Your application has been sent succesfully!</h3>
     </section><!--thanks-text-->  
     <div class="thanks-home-button">
-      <a href="<?php get_template_directory_uri(); ?>"<h3>back to home</h3></a>
+      <a href="<?php get_home_url(); ?>"><h3>back to home</h3></a>
     </div><!--thanks-home-button-->  
   </div><!--thank-you-content-->  
 </div><!--thank-you-page-->  
