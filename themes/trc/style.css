@@ -2660,7 +2660,7 @@ object {
     background: rgba(255, 255, 255, 0.7);
     z-index: 1000000;
     position: fixed;
-    top: 8.2rem; }
+    margin-top: 100px; }
     .how-we-do-it-nav ul {
       padding-top: 1rem;
       margin-left: 8rem;
@@ -3678,7 +3678,7 @@ object {
       background: rgba(255, 255, 255, 0.7);
       position: fixed;
       width: 100%;
-      top: 8.2rem; } }
+      margin-top: 100px; } }
   .page-template-page-sponsor .custom-sub-menu-wrapper ul {
     width: 80%;
     margin: 0 auto; }
