@@ -78,7 +78,7 @@
     @include desktop {
       width: 60%;
       margin: 0 9rem;
-      bottom: -10rem;
+      bottom: 0;
     }
   }
 
@@ -184,7 +184,7 @@
   }
 
   .featured-image-container {
-    height: 80vh;
+    height: 55rem;
     background-color: lightgrey;
     overflow: hidden;
 
@@ -230,7 +230,7 @@
 
 		.blog-post-meta {
 			position: absolute;
-			top: 25rem;
+			top: 35rem;
 			width: 100%;
 		}
 
@@ -249,7 +249,7 @@
 	}
 
 	.flickity-viewport {
-		height: 600px !important;
+		height: 100vh !important;
 	}
 
 	.flickity-page-dots {
@@ -277,7 +277,7 @@
 	}
 
 	.post-thumbnail-container {
-		height: 80vh;
+		height: 100vh;
 
 		img {
 			position: relative;
