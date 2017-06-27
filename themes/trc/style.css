@@ -4946,13 +4946,13 @@ ul#tab-nav {
       align-items: center;
   background-color: #EE9825;
   color: #FFF;
-  width: 35%;
+  width: 45%;
   height: 100%;
-  margin: 0 5%; }
+  margin: 0 0; }
   .tax-project-type .carousel-sub img {
     margin-top: 2rem;
     width: 7rem;
-    height: 7rem;
+    height: auto;
     -ms-flex-item-align: start;
         align-self: flex-start;
     margin: 0 auto; }
