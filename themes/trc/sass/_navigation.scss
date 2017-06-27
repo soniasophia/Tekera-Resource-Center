@@ -183,11 +183,12 @@ a {
 		left: -100vw;
 		margin-top: 2rem;
 		width: 100vw;
-		height: auto;
+		height: 100vh;
 		background-color: #fff;
 		z-index: 1;
 
 			@include desktop{
+				height: auto;
 				display: none;
 			}
 
