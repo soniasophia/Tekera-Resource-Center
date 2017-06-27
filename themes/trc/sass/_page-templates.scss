@@ -439,6 +439,9 @@
   display: flex;
   height: 30rem;
   position: relative;
+  .get-involved-sub-menu {
+    width: 100%;
+  }
   img {
     margin-left: 2rem;
   }
@@ -498,9 +501,7 @@
 }
 
 .how-hero-desktop {
-  display: none;
-  @include mobile-nav;
-  
+  display: none;  
 }
 
 
@@ -695,6 +696,10 @@
     display: flex;
     height: 45rem;
     position: relative;
+    @include mobile-nav;
+    .get-involved-sub-menu {
+      width: 100%;
+    }
   }
 
   .dev-practices {
@@ -831,6 +836,9 @@
   width: 100%;
 
   @include mobile-nav;
+  .get-involved-sub-menu {
+    width: 100%;
+  }
 }
 
 .sustainability-bar {
@@ -1371,7 +1379,9 @@
     display: none;
     text-align: center;
     background: white;
+    width: 100%;
     @include desktop {
+      width: 100%;
       display: block;
       background: $color_brand-white-transparent;
     }
