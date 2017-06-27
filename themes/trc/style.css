@@ -907,6 +907,8 @@ div.tekera-triangles {
     position: absolute;
     left: 3rem;
     top: 20rem; }
+    #how a {
+      width: auto; }
   #get-involved {
     position: absolute;
     left: 3rem;
