@@ -1,0 +1,12 @@
+
+.error-404 {
+  @include font-open-regular;
+  align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  height: 40rem;
+  h1 {
+    color: $color_brand-teal;
+  }
+}

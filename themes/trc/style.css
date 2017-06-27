@@ -43,6 +43,22 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Page Templates
 	## Front page
 --------------------------------------------------------------*/
+.error-404 {
+  font-family: 'Open Web';
+  font-weight: normal;
+  font-style: normal;
+  -ms-flex-align: center;
+      align-items: center;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column nowrap;
+      flex-flow: column nowrap;
+  -ms-flex-pack: center;
+      justify-content: center;
+  height: 40rem; }
+  .error-404 h1 {
+    color: #20ACAF; }
+
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -567,7 +583,7 @@ a {
   background-color: #20ACAF;
   position: fixed;
   width: 100%;
-  top: 2rem;
+  top: 0rem;
   z-index: 1; }
 
 .site-header-wrapper {
