@@ -3601,8 +3601,7 @@ object {
       display: block;
       background: rgba(255, 255, 255, 0.7);
       position: fixed;
-      width: 100%;
-      top: 8.3rem; } }
+      width: 100%; } }
   .page-template-page-getinvolved .custom-sub-menu-wrapper ul {
     width: 80%;
     margin: 0 auto; }
