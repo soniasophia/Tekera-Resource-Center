@@ -23,7 +23,7 @@ get_the_title();
     <ul id="tab-nav">
       <div class="green-line">
         <li><a href="#">Overview</a>
-          <section class="overview-section" style="display: flex">
+          <section class="overview-section" style="display: flex; justify-content: center">
             <div class="overview-image-container">
               <img class="overview-image" src="<?php echo esc_url( CFS()->get( 'overview_image' ) ); ?>"></img>
             </div>

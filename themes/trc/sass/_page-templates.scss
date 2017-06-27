@@ -1612,9 +1612,11 @@
      }
    }
 
-   .is-open {
-     justify-content: center;
-     max-width: 100vw;
+   .overview-section .is-open {
+     @include desktop {
+      justify-content: center;
+      max-width: 100vw;
+     }
    }
 
    .overview-content {
@@ -1623,6 +1625,7 @@
 
    .overview-image {
      object-fit: cover;
+     height: 100%;
    }
 
    .overview-image-container {
