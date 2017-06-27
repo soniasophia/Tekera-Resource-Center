@@ -20,6 +20,7 @@ get_header(); ?>
       <a class="learn-more-button"  href="<?php echo esc_url( get_permalink( get_page_by_title( 'How We Do It' ) ) ); ?>"> Learn More </a>
     </div>
 	</div>
+  </div>
 
 
   <div class = "programs-info">
