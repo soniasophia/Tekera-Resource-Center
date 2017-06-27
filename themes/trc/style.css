@@ -1226,7 +1226,7 @@ div.tekera-triangles {
     .single-post .entry-title-container {
       width: 60%;
       margin: 0 9rem;
-      bottom: -10rem; } }
+      bottom: 0; } }
 
 .single-post .entry-meta {
   display: none; }
@@ -1316,7 +1316,7 @@ div.tekera-triangles {
         height: 60px; } }
 
 .single-post .featured-image-container {
-  height: 80vh;
+  height: 55rem;
   background-color: lightgrey;
   overflow: hidden; }
   @media screen and (min-width: 640px) and (max-width: 2000px) {

@@ -78,7 +78,7 @@
     @include desktop {
       width: 60%;
       margin: 0 9rem;
-      bottom: -10rem;
+      bottom: 0;
     }
   }
 
@@ -184,7 +184,7 @@
   }
 
   .featured-image-container {
-    height: 80vh;
+    height: 55rem;
     background-color: lightgrey;
     overflow: hidden;
 
