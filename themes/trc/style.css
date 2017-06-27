@@ -1354,7 +1354,7 @@ div.tekera-triangles {
   width: 100%; }
   .single-post .more-blog-posts .blog-post-meta {
     position: absolute;
-    top: 25rem;
+    top: 35rem;
     width: 100%; }
   .single-post .more-blog-posts .blog-post-tag {
     margin: 0.5rem;
@@ -1370,7 +1370,7 @@ div.tekera-triangles {
       display: none; } }
 
 .single-post .flickity-viewport {
-  height: 600px !important; }
+  height: 100vh !important; }
 
 .single-post .flickity-page-dots {
   display: none; }
@@ -1389,7 +1389,7 @@ div.tekera-triangles {
     left: -10px; }
 
 .single-post .post-thumbnail-container {
-  height: 80vh; }
+  height: 100vh; }
   .single-post .post-thumbnail-container img {
     position: relative;
     height: 100%;
