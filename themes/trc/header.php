@@ -32,12 +32,14 @@
 
 					<div class="hamburger-menu">
 						<ul>
-							<li> <a href="#"> Who we are </a> </li>
+							<!--<li> <a href="#"> Who we are </a> </li>
 							<li><a href="#"> What we do </a></li>
 							<li><a href="#"> How we do it </a> </li>
 							<li><a href="#"> Get Involved </a></li>
 							<li><a href="#"> Blog </a></li>
-							<li><a href="#"> Contact </a> </li>
+							<li><a href="#"> Contact </a> </li>-->
+							<?php esc_html( 'Primary Menu' ); ?></button>
+						<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 						</ul>
 					</div> 
 				</div>
