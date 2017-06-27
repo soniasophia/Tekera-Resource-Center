@@ -3800,8 +3800,7 @@ object {
       align-items: center; }
 
 .page-template-page-getinvolved #submenu .custom-sub-menu-wrapper {
-  padding-top: 0px;
-  top: 132px; }
+  padding-top: 0px; }
 
 .page-template-page-getinvolved #submenu .dropdown-arrow {
   position: static; }
@@ -5039,7 +5038,8 @@ object {
         text-align: center;
         width: 100%;
         background: rgba(255, 255, 255, 0.7);
-        padding-top: 100px; } }
+        padding-top: 100px;
+        top: 100px; } }
     #submenu .custom-sub-menu-wrapper ul {
       width: 80%;
       margin: 0 auto;
@@ -5293,6 +5293,9 @@ ul#tab-nav {
     position: absolute;
     top: 45px;
     right: 55px; }
+
+.tax-project-type #submenu .custom-sub-menu-wrapper {
+  top: 0; }
 
 .tax-project-type #primary {
   padding-top: 162px; }
