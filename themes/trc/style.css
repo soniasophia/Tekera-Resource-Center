@@ -2472,19 +2472,22 @@ object {
     height: 45rem;
     position: relative; }
     .how-hero-desktop .custom-sub-menu-wrapper {
+      position: fixed;
       display: none;
       text-align: center;
       background: white;
       width: 100%; } }
     @media screen and (min-width: 640px) and (min-width: 640px) and (max-width: 2000px) {
       .how-hero-desktop .custom-sub-menu-wrapper {
+        position: fixed;
         display: block;
         background: rgba(255, 255, 255, 0.7);
         width: 100%; } }
 
 @media screen and (min-width: 640px) {
       .how-hero-desktop .custom-sub-menu-wrapper .get-involved-sub-menu {
-        width: 100%; }
+        width: 100%;
+        position: fixed; }
       .how-hero-desktop .custom-sub-menu-wrapper ul {
         width: 80%;
         margin: 0 auto; } }
@@ -2662,17 +2665,20 @@ object {
   position: relative;
   width: 100%; }
   .global-goals-hero .custom-sub-menu-wrapper {
+    position: fixed;
     display: none;
     text-align: center;
     background: white;
     width: 100%; }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
       .global-goals-hero .custom-sub-menu-wrapper {
+        position: fixed;
         display: block;
         background: rgba(255, 255, 255, 0.7);
         width: 100%; } }
     .global-goals-hero .custom-sub-menu-wrapper .get-involved-sub-menu {
-      width: 100%; }
+      width: 100%;
+      position: fixed; }
     .global-goals-hero .custom-sub-menu-wrapper ul {
       width: 80%;
       margin: 0 auto; }
@@ -3065,17 +3071,20 @@ object {
   background-size: cover;
   background-position: center; }
   .transparency-hero .custom-sub-menu-wrapper {
+    position: fixed;
     display: none;
     text-align: center;
     background: white;
     width: 100%; }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
       .transparency-hero .custom-sub-menu-wrapper {
+        position: fixed;
         display: block;
         background: rgba(255, 255, 255, 0.7);
         width: 100%; } }
     .transparency-hero .custom-sub-menu-wrapper .get-involved-sub-menu {
-      width: 100%; }
+      width: 100%;
+      position: fixed; }
     .transparency-hero .custom-sub-menu-wrapper ul {
       width: 80%;
       margin: 0 auto; }
@@ -3157,17 +3166,20 @@ object {
   background-size: cover;
   background-position: center; }
   .our-impact-hero .custom-sub-menu-wrapper {
+    position: fixed;
     display: none;
     text-align: center;
     background: white;
     width: 100%; }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
       .our-impact-hero .custom-sub-menu-wrapper {
+        position: fixed;
         display: block;
         background: rgba(255, 255, 255, 0.7);
         width: 100%; } }
     .our-impact-hero .custom-sub-menu-wrapper .get-involved-sub-menu {
-      width: 100%; }
+      width: 100%;
+      position: fixed; }
     .our-impact-hero .custom-sub-menu-wrapper ul {
       width: 80%;
       margin: 0 auto; }

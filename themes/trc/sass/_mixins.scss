@@ -126,12 +126,14 @@
 
 @mixin mobile-nav {
 	.custom-sub-menu-wrapper {
+		position: fixed;
     display: none;
     text-align: center;
     background: white;
 		width: 100%;
 
     @include desktop {
+			position: fixed;
       display: block;
       background: $color_brand-white-transparent;
 			width: 100%;
@@ -139,6 +141,7 @@
 
     .get-involved-sub-menu {
       width: 100%;
+			position: fixed;
     }
 
     ul {
