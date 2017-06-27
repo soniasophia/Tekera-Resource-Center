@@ -227,6 +227,9 @@
     @include desktop {
       display: block;
       background: $color_brand-white-transparent;
+      position: fixed;
+      top: 8rem;
+      width: 100%;
     }
 
     ul {
@@ -664,6 +667,8 @@
     height: 62px;
     background: hsla(0,0%,100%,.7);
     z-index: 1000000;
+    position: fixed;
+    top: 8.2rem;
     ul{
       padding-top: 1rem;
       margin-left: 8rem;
@@ -1384,6 +1389,9 @@
       width: 100%;
       display: block;
       background: $color_brand-white-transparent;
+      position: fixed;
+      width: 100%;
+      top: 8.3rem;
     }
     ul {
       width: 80%;

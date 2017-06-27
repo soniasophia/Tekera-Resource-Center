@@ -28,7 +28,7 @@
 			<div class = "mobile-nav">
 				<div class = "menu-btn" id ="menu-btn">
 						<button class="hamburger"> &#9776;</button>
-				</div> 
+				</div>
 
 					<div class="hamburger-menu">
 						<ul>
@@ -47,7 +47,7 @@
 
 					<div class = "tekera-site-logo">
 						<a href="<?php echo site_url();?>">
-						
+
 						<img src="<?php echo get_template_directory_uri();?>/assets/Logos/tekera_logo_desktop_pie.png">
 					</div>
 					
