@@ -444,6 +444,7 @@
   position: relative;
   .get-involved-sub-menu {
     width: 100%;
+    position: fixed;
   }
   img {
     margin-left: 2rem;
@@ -461,6 +462,7 @@
 
     .get-involved-sub-menu {
       width: 100%;
+      position: fixed;
     }
 
     ul {
@@ -704,6 +706,7 @@
     @include mobile-nav;
     .get-involved-sub-menu {
       width: 100%;
+      position: fixed;
     }
   }
 
@@ -843,6 +846,7 @@
   @include mobile-nav;
   .get-involved-sub-menu {
     width: 100%;
+    position: fixed;
   }
 }
 
@@ -1189,6 +1193,10 @@
   background-size: cover;
   background-position: center;
   @include mobile-nav;  
+  .get-involved-sub-menu {
+    position: fixed;
+    width: 100%;
+  }
 }
 
 .transparency-content-area {
@@ -1236,7 +1244,10 @@
   background-size: cover;
   background-position: center;
   @include mobile-nav;
-
+  .get-involved-sub-menu {
+    width: 100%;
+    position: fixed;
+  }
 }
 
 @media screen and (min-width: 640px) {

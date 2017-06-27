@@ -2227,7 +2227,8 @@ object {
   height: 30rem;
   position: relative; }
   .how-hero-wrapper .get-involved-sub-menu {
-    width: 100%; }
+    width: 100%;
+    position: fixed; }
   .how-hero-wrapper img {
     margin-left: 2rem; }
   .how-hero-wrapper .custom-sub-menu-wrapper {
@@ -2239,7 +2240,8 @@ object {
         display: block;
         background: rgba(255, 255, 255, 0.7); } }
     .how-hero-wrapper .custom-sub-menu-wrapper .get-involved-sub-menu {
-      width: 100%; }
+      width: 100%;
+      position: fixed; }
     .how-hero-wrapper .custom-sub-menu-wrapper ul {
       width: 80%;
       margin: 0 auto; }
@@ -2529,7 +2531,8 @@ object {
       .how-hero-desktop .custom-sub-menu-wrapper a {
         color: #072A3D; }
     .how-hero-desktop .get-involved-sub-menu {
-      width: 100%; }
+      width: 100%;
+      position: fixed; }
   .dev-practices {
     text-align: center;
     font-family: 'Open Web';
@@ -2716,7 +2719,8 @@ object {
     .global-goals-hero .custom-sub-menu-wrapper a {
       color: #072A3D; }
   .global-goals-hero .get-involved-sub-menu {
-    width: 100%; }
+    width: 100%;
+    position: fixed; }
 
 .sustainability-bar {
   display: -ms-flexbox;
@@ -3121,6 +3125,9 @@ object {
           text-transform: none; } }
     .transparency-hero .custom-sub-menu-wrapper a {
       color: #072A3D; }
+  .transparency-hero .get-involved-sub-menu {
+    position: fixed;
+    width: 100%; }
 
 .transparency-content-area {
   font-family: 'Open Web';
@@ -3216,6 +3223,9 @@ object {
           text-transform: none; } }
     .our-impact-hero .custom-sub-menu-wrapper a {
       color: #072A3D; }
+  .our-impact-hero .get-involved-sub-menu {
+    width: 100%;
+    position: fixed; }
 
 @media screen and (min-width: 640px) {
   .our-impact-hero {
