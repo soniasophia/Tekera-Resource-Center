@@ -4,15 +4,12 @@ get_header();
 ?>
 <div class="our-impact-page">  
   <div class="our-impact-hero">
-    <div class="how-we-do-it-nav how-we-do-it-nav-mobile">
-        <?php wp_nav_menu( array( 'theme_location' => 'how-we-do-it-sub-menu',
-         'items_wrap' => '<ul id="%1$s" class="%2$s mobile-top-nav">%3$s</ul>',
-          'container' => 'div', 'container_class' => 'custom-sub-menu-wrapper' ) 
-        ); ?>  
-    </div><!--how-we-do-it-nav how-we-do-it-mobile-->  
-    <div class="transparency-title-wrapper">
-      <h1><?php echo get_the_title(); ?></h1>
-    </div><!--transparency-title-wrapper-->      
+    <div class="get-involved-sub-menu">
+      <h1 class="sponsor-title"><?php the_title() ?>
+      <img id="projects-toggle-menu" class="dropdown-arrow" src="<?php echo get_template_directory_uri();?>/assets/Icons/Mobile/Mobile_png/tekera_mobile_icon_arrow_down_dark_teal.png">
+      </h1>
+      <?php wp_nav_menu( array( 'theme_location' => 'how-we-do-it-sub-menu', 'items_wrap' => '<ul id="%1$s" class="%2$s mobile-top-nav">%3$s</ul>', 'container' => 'div', 'container_class' => 'custom-sub-menu-wrapper' ) ); ?>
+    </div><!--get-involved-sub-menu-->      
   </div><!--our-impact-hero--> 
   <div class="transparency-content-area">
     <h1><?php echo CFS()->get( 'our_impact_post_header' );?></h1>

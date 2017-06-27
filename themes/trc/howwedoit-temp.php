@@ -4,22 +4,21 @@ get_header();
 ?>
  
 <div class="how-we-do-it-page">
-  <div class="how-hero-wrapper">
-    <!--<div class="how-we-do-it-mobile-header">
-      <h1>Our Approach</h2>
-    </div>how-we-do-it-mobile-header -->
-    <div class="project-title-container how-we-do-it-mobile-header">
-      <h1 class="projects-title">Our Approach</h1>
-      <img id="projects-toggle-menu" class="dropdown-arrow how-dropdown" src="<?php echo get_template_directory_uri();?>/assets/Icons/Mobile/Mobile_png/tekera_mobile_icon_arrow_down_dark_teal.png">      
-    </div>   
+  <div class="how-hero-wrapper">    
+    <div class="get-involved-sub-menu">
+      <h1 class="sponsor-title"><?php the_title() ?>
+      <img id="projects-toggle-menu" class="dropdown-arrow" src="<?php echo get_template_directory_uri();?>/assets/Icons/Mobile/Mobile_png/tekera_mobile_icon_arrow_down_dark_teal.png">
+      </h1>
+      <?php wp_nav_menu( array( 'theme_location' => 'how-we-do-it-sub-menu', 'items_wrap' => '<ul id="%1$s" class="%2$s mobile-top-nav">%3$s</ul>', 'container' => 'div', 'container_class' => 'custom-sub-menu-wrapper' ) ); ?>
+    </div><!--get-involved-sub-menu-->
   </div><!--how-hero-wrapper--> 
-  <div class="how-hero-desktop">
-    <div class="how-we-do-it-nav">
-      <?php wp_nav_menu( array( 'theme_location' => 'how-we-do-it-sub-menu', 
-      'items_wrap' => '<ul id="%1$s" class="%2$s mobile-top-nav">%3$s</ul>', 
-      'container' => 'div', 'container_class' => 'custom-sub-menu-wrapper' ) 
-      ); ?>
-    </div><!--how-we-do-it-nav-->     
+  <div class="how-hero-desktop">   
+    <div class="get-involved-sub-menu">
+      <h1 class="sponsor-title"><?php the_title() ?>
+      <img id="projects-toggle-menu" class="dropdown-arrow" src="<?php echo get_template_directory_uri();?>/assets/Icons/Mobile/Mobile_png/tekera_mobile_icon_arrow_down_dark_teal.png">
+      </h1>
+      <?php wp_nav_menu( array( 'theme_location' => 'how-we-do-it-sub-menu', 'items_wrap' => '<ul id="%1$s" class="%2$s mobile-top-nav">%3$s</ul>', 'container' => 'div', 'container_class' => 'custom-sub-menu-wrapper' ) ); ?>
+    </div><!--get-involved-sub-menu-->    
   </div><!--how-hero-desktop-->
 
   <div class="our-model-content-wrapper">

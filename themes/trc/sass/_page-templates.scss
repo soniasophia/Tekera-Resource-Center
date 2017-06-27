@@ -22,6 +22,7 @@
     padding-left: 2rem;
     padding-right: 1rem;
   }  
+  
 }
 
 .blog-mobile-header {
@@ -438,13 +439,71 @@
   display: flex;
   height: 30rem;
   position: relative;
+  img {
+    margin-left: 2rem;
+  }
+  
+.custom-sub-menu-wrapper {
+    display: none;
+    text-align: center;
+    background: white;
+
+    @include desktop {
+      display: block;
+      background: $color_brand-white-transparent;
+    }
+
+    .get-involved-sub-menu {
+      width: 100%;
+    }
+
+    ul {
+      width: 80%;
+      margin: 0 auto;
+
+      @include desktop {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        width: 90%;
+        padding: 1rem;
+      }
+    }
+
+    li {
+      @include font-open-bold;
+      text-transform: uppercase;
+      font-size: 1.3rem;
+      border-bottom: 1px solid #3f3f3f;
+      padding: 1.9rem 0;
+
+      &:last-child {
+        border-bottom: none;
+      }
+
+      @include desktop {
+        margin: 0 1rem;
+        border-bottom: none;
+        padding: 0;
+        @include font-open-regular;
+        text-transform: none;
+      }
+    }
+
+    a {
+      color: $color_brand-blue-dark;
+    }
+  }  
 }
 
 .how-hero-desktop {
   display: none;
+  @include mobile-nav;
+  
 }
 
-.how
+
 
 .our-model-header-box {
   display: flex;
@@ -770,6 +829,8 @@
   height: 45rem;
   position: relative;
   width: 100%;
+
+  @include mobile-nav;
 }
 
 .sustainability-bar {
@@ -1114,6 +1175,7 @@
   width: 100%;
   background-size: cover;
   background-position: center;
+  @include mobile-nav;  
 }
 
 .transparency-content-area {
@@ -1160,6 +1222,8 @@
   width: 100%;
   background-size: cover;
   background-position: center;
+  @include mobile-nav;
+
 }
 
 @media screen and (min-width: 640px) {
