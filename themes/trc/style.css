@@ -1537,7 +1537,8 @@ object {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
-    height: 65vh;
+    height: 100%;
+    max-height: 970px;
     width: 100%;
     display: -ms-flexbox;
     display: flex;
@@ -2277,7 +2278,9 @@ object {
   position: relative; }
   .how-hero-wrapper .get-involved-sub-menu {
     width: 100%;
-    position: fixed; }
+    position: fixed;
+    margin-top: 100px;
+    z-index: 10000; }
   .how-hero-wrapper img {
     margin-left: 2rem; }
   .how-hero-wrapper .custom-sub-menu-wrapper {
@@ -2290,7 +2293,9 @@ object {
         background: rgba(255, 255, 255, 0.7); } }
     .how-hero-wrapper .custom-sub-menu-wrapper .get-involved-sub-menu {
       width: 100%;
-      position: fixed; }
+      position: fixed;
+      margin-top: 100px;
+      z-index: 10000; }
     .how-hero-wrapper .custom-sub-menu-wrapper ul {
       width: 80%;
       margin: 0 auto; }
@@ -2581,7 +2586,9 @@ object {
         color: #072A3D; }
     .how-hero-desktop .get-involved-sub-menu {
       width: 100%;
-      position: fixed; }
+      position: fixed;
+      margin-top: 100px;
+      z-index: 10000; }
   .dev-practices {
     text-align: center;
     font-family: 'Open Web';
@@ -2769,7 +2776,9 @@ object {
       color: #072A3D; }
   .global-goals-hero .get-involved-sub-menu {
     width: 100%;
-    position: fixed; }
+    position: fixed;
+    margin-top: 100px;
+    z-index: 10000; }
 
 .sustainability-bar {
   display: -ms-flexbox;
@@ -3185,7 +3194,9 @@ object {
       color: #072A3D; }
   .transparency-hero .get-involved-sub-menu {
     position: fixed;
-    width: 100%; }
+    width: 100%;
+    margin-top: 100px;
+    z-index: 10000; }
 
 .transparency-content-area {
   font-family: 'Open Web';
@@ -3283,7 +3294,9 @@ object {
       color: #072A3D; }
   .our-impact-hero .get-involved-sub-menu {
     width: 100%;
-    position: fixed; }
+    position: fixed;
+    margin-top: 100px;
+    z-index: 10000; }
 
 @media screen and (min-width: 640px) {
   .our-impact-hero {
@@ -3723,7 +3736,7 @@ object {
       position: absolute;
       bottom: 0;
       width: 100%;
-      height: 75%;
+      height: 65%;
       background: url("../../assets/Triangles/triangle_mobile.png");
       background-repeat: no-repeat;
       background-size: cover;
@@ -3776,7 +3789,7 @@ object {
       position: absolute;
       bottom: 0;
       width: 100%;
-      height: 65%;
+      height: 75%;
       background: url("../../assets/Triangles/triangle_mobile.png");
       background-repeat: no-repeat;
       background-size: cover;
