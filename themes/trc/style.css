@@ -1346,7 +1346,13 @@ object {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
-  width: 100%; }
+  width: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center; }
   @media screen and (min-width: 640px) and (max-width: 2000px) {
     .site-main .hero-banner {
       background: url("../../assets/Images/Desktop/home-page/tekera_home_page_music_dance_drumming_festival_2.png") center center;
@@ -1361,10 +1367,6 @@ object {
     text-align: center;
     text-transform: uppercase;
     color: white;
-    position: absolute;
-    left: 50%;
-    top: 60%;
-    transform: translate(-50%, -50%);
     text-shadow: 1px 1px 2px black; }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
       .site-main .hero-banner h1 {
@@ -1375,18 +1377,57 @@ object {
   font-family: 'Open Web';
   font-weight: normal;
   font-style: normal;
-  position: absolute;
   background-color: #EE9825;
   color: white;
   font-size: 22px;
   text-transform: uppercase;
   padding: 0.5rem 1rem;
-  bottom: 0; }
+  text-align: center; }
   @media screen and (min-width: 640px) and (max-width: 2000px) {
     .site-main .learn-more-button {
       left: 0;
       bottom: 0;
-      padding: 0.7rem 3rem; } }
+      padding: 0.7rem 3rem;
+      top: auto; } }
+
+.site-main #front-page-banner {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+  height: 950px; }
+  .site-main #front-page-banner .frontpage-overlay-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 100%;
+    width: 100%;
+    max-height: 85%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center; }
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
+      .site-main #front-page-banner .frontpage-overlay-image {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: center;
+        background-position-x: right;
+        height: 100%;
+        max-height: 100%; } }
+    .site-main #front-page-banner .frontpage-overlay-image .frontpage-info p {
+      line-height: 1.5rem; }
+
+@media screen and (min-width: 640px) and (max-width: 2000px) {
+  .site-main #lunch-school-banner {
+    -ms-flex-direction: row;
+        flex-direction: row; } }
 
 .site-main .going-to-school {
   background: url("../../assets/Images/Mobile/home-page/tekera_homepage_mom_going_by_the_school_.png");
@@ -1408,9 +1449,7 @@ object {
     background-repeat: no-repeat;
     background-position: top;
     height: 70vh;
-    width: 100%;
-    position: absolute;
-    bottom: 0; }
+    width: 100%; }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
       .site-main .going-to-school .frontpage-overlay-image {
         background: url("../../assets/Triangles/desktop_triangle_right.png");
@@ -1425,9 +1464,6 @@ object {
     font-weight: normal;
     font-style: normal; }
   .site-main .going-to-school .frontpage-info {
-    position: absolute;
-    top: 40%;
-    left: 16%;
     max-width: 70%;
     display: -ms-flexbox;
     display: flex;
@@ -1444,7 +1480,6 @@ object {
             align-items: left; } }
     .site-main .going-to-school .frontpage-info h2 {
       font-size: 2rem;
-      max-width: 61%;
       margin: 0 auto;
       color: #fff;
       text-align: center; }
@@ -1462,9 +1497,7 @@ object {
       line-height: 2.2rem;
       color: #fff;
       text-align: center;
-      width: 100%;
-      margin-top: 2rem;
-      padding-bottom: 4rem; }
+      width: 100%; }
       @media screen and (min-width: 640px) and (max-width: 2000px) {
         .site-main .going-to-school .frontpage-info p {
           text-align: left;
@@ -1479,7 +1512,15 @@ object {
   background-position: top;
   height: 100vh;
   width: 100%;
-  position: relative; }
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+  -ms-flex-align: center;
+      align-items: center; }
   @media screen and (min-width: 640px) and (max-width: 2000px) {
     .site-main .lunch-program {
       background: url("../../assets/Images/Desktop/home-page/tekera_home_page_tps_lunch_program_.png");
@@ -1498,8 +1539,14 @@ object {
     background-position: center top;
     height: 65vh;
     width: 100%;
-    position: absolute;
-    bottom: 0; }
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center; }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
       .site-main .lunch-program .frontpage-overlay-image {
         background: url("../../assets/Triangles/desktop_triangle_left.png");
@@ -1507,11 +1554,18 @@ object {
         background-repeat: no-repeat;
         background-position-y: center;
         height: 100%;
-        max-width: 1000px; } }
+        max-width: 1000px;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+            flex-direction: column;
+        -ms-flex-pack: center;
+            justify-content: center;
+        -ms-flex-line-pack: center;
+            align-content: center;
+        -ms-flex-align: center;
+            align-items: center; } }
   .site-main .lunch-program .frontpage-info {
-    position: absolute;
-    top: 50%;
-    right: 14%;
     max-width: 70%;
     display: -ms-flexbox;
     display: flex;
@@ -1524,8 +1578,10 @@ object {
         top: 25%;
         right: 10%;
         max-width: 500px;
-        -ms-flex-align: right;
-            align-items: right; } }
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+            align-items: center; } }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
       .site-main .lunch-program .frontpage-info .global-goals-mobile {
         display: none; } }
@@ -1537,11 +1593,9 @@ object {
       font-weight: normal;
       font-style: normal;
       font-size: 2rem;
-      max-width: 80%;
       margin: 0 auto;
       color: #fff;
       text-align: center;
-      line-height: 38px;
       width: 100%; }
       @media screen and (min-width: 640px) and (max-width: 2000px) {
         .site-main .lunch-program .frontpage-info h2 {
@@ -1556,7 +1610,6 @@ object {
       font-style: normal;
       margin-top: 2rem;
       margin-bottom: 0;
-      height: 231px;
       font-size: 20px;
       line-height: 33px;
       color: #fff;
@@ -1574,7 +1627,7 @@ object {
     .site-main .lunch-program .learn-more-button {
       right: 0;
       left: initial;
-      bottom: 0; } }
+      top: auto; } }
 
 .site-main .smiling-woman {
   background: url("../../assets/Images/Mobile/home-page/tekera_home_page_smiling_woman.png");
@@ -1596,9 +1649,7 @@ object {
     background-repeat: no-repeat;
     background-position: center top;
     height: 65vh;
-    width: 100%;
-    position: absolute;
-    bottom: 0; }
+    width: 100%; }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
       .site-main .smiling-woman .frontpage-overlay-image {
         background: url("../../assets/Triangles/desktop_triangle_right.png");
@@ -1609,9 +1660,6 @@ object {
         height: 100%;
         max-width: 1000px; } }
   .site-main .smiling-woman .frontpage-info {
-    position: absolute;
-    top: 46%;
-    left: 16%;
     width: 70%;
     display: -ms-flexbox;
     display: flex;
@@ -1631,12 +1679,9 @@ object {
       font-weight: normal;
       font-style: normal;
       font-size: 2rem;
-      height: 86px;
       margin: 0 auto;
       color: #fff;
-      text-align: center;
-      line-height: 43px;
-      width: 61%; }
+      text-align: center; }
       @media screen and (min-width: 640px) and (max-width: 2000px) {
         .site-main .smiling-woman .frontpage-info h2 {
           text-align: left;
@@ -1652,9 +1697,7 @@ object {
       line-height: 33px;
       color: #fff;
       text-align: center;
-      width: 100%;
-      padding-bottom: 5rem;
-      margin-top: 3rem; }
+      width: 100%; }
       @media screen and (min-width: 640px) and (max-width: 2000px) {
         .site-main .smiling-woman .frontpage-info p {
           text-align: left;
@@ -3680,7 +3723,7 @@ object {
       position: absolute;
       bottom: 0;
       width: 100%;
-      height: 65%;
+      height: 75%;
       background: url("../../assets/Triangles/triangle_mobile.png");
       background-repeat: no-repeat;
       background-size: cover;
