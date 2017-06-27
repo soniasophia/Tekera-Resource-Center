@@ -1338,7 +1338,7 @@ object {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
-  width: 100vw; }
+  width: 100%; }
   @media screen and (min-width: 640px) and (max-width: 2000px) {
     .site-main .hero-banner {
       background: url("../../assets/Images/Desktop/home-page/tekera_home_page_music_dance_drumming_festival_2.png") center center;
@@ -1386,7 +1386,7 @@ object {
   background-repeat: no-repeat;
   background-position: top;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   position: relative; }
   @media screen and (min-width: 640px) and (max-width: 2000px) {
     .site-main .going-to-school {
@@ -1400,7 +1400,7 @@ object {
     background-repeat: no-repeat;
     background-position: top;
     height: 70vh;
-    width: 100vw;
+    width: 100%;
     position: absolute;
     bottom: 0; }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
@@ -1409,8 +1409,9 @@ object {
         background-size: cover;
         background-repeat: no-repeat;
         background-position-y: center;
-        background-position-x: -390px;
-        height: 100%; } }
+        background-position-x: right;
+        height: 100%;
+        max-width: 1000px; } }
   .site-main .going-to-school h2 {
     font-family: 'Shadows Into Light Web';
     font-weight: normal;
@@ -1469,21 +1470,26 @@ object {
   background-repeat: no-repeat;
   background-position: top;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   position: relative; }
   @media screen and (min-width: 640px) and (max-width: 2000px) {
     .site-main .lunch-program {
       background: url("../../assets/Images/Desktop/home-page/tekera_home_page_tps_lunch_program_.png");
       background-size: cover;
       background-repeat: no-repeat;
-      background-position: top; } }
+      background-position: top;
+      height: 78vh;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: end;
+          justify-content: flex-end; } }
   .site-main .lunch-program .frontpage-overlay-image {
     background: url("../../assets/Triangles/triangle_mobile.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
     height: 65vh;
-    width: 100vw;
+    width: 100%;
     position: absolute;
     bottom: 0; }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
@@ -1492,8 +1498,8 @@ object {
         background-size: cover;
         background-repeat: no-repeat;
         background-position-y: center;
-        background-position-x: 465px;
-        height: 100%; } }
+        height: 100%;
+        max-width: 1000px; } }
   .site-main .lunch-program .frontpage-info {
     position: absolute;
     top: 50%;
@@ -1568,7 +1574,7 @@ object {
   background-repeat: no-repeat;
   background-position: top;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   position: relative; }
   @media screen and (min-width: 640px) and (max-width: 2000px) {
     .site-main .smiling-woman {
@@ -1582,7 +1588,7 @@ object {
     background-repeat: no-repeat;
     background-position: center top;
     height: 65vh;
-    width: 100vw;
+    width: 100%;
     position: absolute;
     bottom: 0; }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
@@ -1591,8 +1597,9 @@ object {
         background-size: cover;
         background-repeat: no-repeat;
         background-position-y: center;
-        background-position-x: -390px;
-        height: 100%; } }
+        background-position-x: right;
+        height: 100%;
+        max-width: 1000px; } }
   .site-main .smiling-woman .frontpage-info {
     position: absolute;
     top: 46%;
