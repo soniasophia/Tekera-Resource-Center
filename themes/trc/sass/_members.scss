@@ -1,5 +1,16 @@
 .post-type-archive-members {
 
+  .submenu{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    z-index: 98;
+    @include desktop{
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  }
 
 
   .custom-sub-menu-wrapper {
@@ -70,7 +81,6 @@
 
 .project-title-container {
   width: 100%;
-  position: fixed;
   padding-top: 70px;
   text-align: left;
     @include desktop {
@@ -87,6 +97,7 @@
     background: $color_brand-white-transparent;
     @include font-open-bold;
     color: $color_brand-blue-dark;
+    z-index: 99999;
   }
 
   margin: auto;

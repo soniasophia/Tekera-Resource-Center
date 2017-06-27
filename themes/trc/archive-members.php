@@ -15,14 +15,13 @@ get_header(); ?>
 
       <header class="members-header">
         <div class="hero-banner">
-          <div class="project-title-container">
-            <img id="projects-toggle-menu" class="dropdown-arrow" src="<?php echo get_template_directory_uri();?>/assets/Icons/Mobile/Mobile_png/tekera_mobile_icon_arrow_down_dark_teal.png">
-            <h2 class="projects-title">About Us</h2>
+          <div class="submenu">
+            <div class="project-title-container">
+              <img id="projects-toggle-menu" class="dropdown-arrow" src="<?php echo get_template_directory_uri();?>/assets/Icons/Mobile/Mobile_png/tekera_mobile_icon_arrow_down_dark_teal.png">
+              <h2 class="projects-title">About Us</h2>
+            </div>
+            <?php wp_nav_menu( array( 'theme_location' => 'who-we-are-sub-menu', 'items_wrap' => '<ul id="%1$s" class="%2$s mobile-top-nav">%3$s</ul>', 'container' => 'div', 'container_class' => 'custom-sub-menu-wrapper' ) ); ?>
           </div>
-
-
-
-          <?php wp_nav_menu( array( 'theme_location' => 'who-we-are-sub-menu', 'items_wrap' => '<ul id="%1$s" class="%2$s mobile-top-nav">%3$s</ul>', 'container' => 'div', 'container_class' => 'custom-sub-menu-wrapper' ) ); ?>
         </div>
         <h1>Our Ugandan Team</h1>
       </header>
@@ -50,10 +49,10 @@ get_header(); ?>
             ?>
             </button>
             </h2>
-              
-              <p class="job-title">
-                <?php echo esc_html( CFS()->get( 'job_title' ) ); ?>
-              </p>
+
+            <p class="job-title">
+              <?php echo esc_html( CFS()->get( 'job_title' ) ); ?>
+            </p>
 
           </div>
           <!-- .entry-header -->

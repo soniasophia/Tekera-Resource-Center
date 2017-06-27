@@ -6,12 +6,14 @@ get_the_title();
 ?>
 <div class="who-we-are-page">
   <div class="herobanner">
-    <div class="project-title-container">
-      <img id="projects-toggle-menu" class="dropdown-arrow" src="<?php echo get_template_directory_uri();?>/assets/Icons/Mobile/Mobile_png/tekera_mobile_icon_arrow_down_dark_teal.png">
-      <h1 class="projects-title">About Us</h1>
+    <div class="submenu">
+      <div class="project-title-container">
+        <img id="projects-toggle-menu" class="dropdown-arrow" src="<?php echo get_template_directory_uri();?>/assets/Icons/Mobile/Mobile_png/tekera_mobile_icon_arrow_down_dark_teal.png">
+        <h1 class="projects-title">About Us</h1>
       </div>
 
-    <?php wp_nav_menu( array( 'theme_location' => 'who-we-are-sub-menu', 'items_wrap' => '<ul id="%1$s" class="%2$s mobile-top-nav">%3$s</ul>', 'container' => 'div', 'container_class' => 'custom-sub-menu-wrapper' ) ); ?>
+      <?php wp_nav_menu( array( 'theme_location' => 'who-we-are-sub-menu', 'items_wrap' => '<ul id="%1$s" class="%2$s mobile-top-nav">%3$s</ul>', 'container' => 'div', 'container_class' => 'custom-sub-menu-wrapper' ) ); ?>
+    </div>
   </div>
 
   <div class="content">
@@ -30,12 +32,12 @@ get_the_title();
       <div class="top-blue">
         <div class="top-phrase">
           <h2>Our Mission</h2>
-          <p>To improve the quality of life for residents of Tekera/Lwega and build a model community.</p>  
+          <p>To improve the quality of life for residents of Tekera/Lwega and build a model community.</p>
         </div>
-        
+
       </div>
     </div>
-      <div class="middle-content container">
+    <div class="middle-content container">
       <h1>
         <?php echo esc_html( CFS()->get( 'title_2' ) ); ?>
       </h1>

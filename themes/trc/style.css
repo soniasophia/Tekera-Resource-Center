@@ -583,7 +583,7 @@ a {
   background-color: #20ACAF;
   position: fixed;
   width: 100%;
-  z-index: 1; }
+  z-index: 99; }
 
 .site-header-wrapper {
   display: -ms-flexbox;
@@ -1819,7 +1819,7 @@ object {
         .home .programs-info .icons-container .icons-wrapper:nth-child(3) p {
           margin-top: 10.5rem; } }
   .home .programs-info .icons-container .icons-wrapper:nth-child(4) {
-    background: url("../../assets/Icons/Mobile/Mobile_png/Tekera_Mobile_Icon_Economy.png");
+    background: url("../../assets/Icons/Mobile/Mobile_png/tekera_mobile_icon_economy.png");
     background-position: top;
     background-repeat: no-repeat;
     width: 165px; }
@@ -3650,6 +3650,20 @@ object {
   font-family: 'Open Web';
   font-weight: normal;
   font-style: normal; }
+  .who-we-are-page .submenu {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    position: fixed;
+    width: 100%;
+    z-index: 98; }
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
+      .who-we-are-page .submenu {
+        -ms-flex-direction: row;
+            flex-direction: row;
+        -ms-flex-pack: distribute;
+            justify-content: space-around; } }
   .who-we-are-page p {
     font-family: 'Open Web';
     font-weight: 100;
@@ -3682,6 +3696,8 @@ object {
           display: flex;
           -ms-flex-align: center;
               align-items: center;
+          -ms-flex-direction: row;
+              flex-direction: row;
           -ms-flex-pack: distribute;
               justify-content: space-around; } }
     .who-we-are-page .custom-sub-menu-wrapper li {
@@ -3717,12 +3733,12 @@ object {
         display: none; } }
   .who-we-are-page .project-title-container {
     width: 100%;
-    position: fixed;
     padding-top: 70px; }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
       .who-we-are-page .project-title-container {
         display: none; } }
   .who-we-are-page .projects-title {
+    z-index: 99999;
     padding: 0.5rem 2rem;
     margin: 0;
     background: rgba(255, 255, 255, 0.7);
@@ -3977,6 +3993,20 @@ object {
 .post-type-archive-members {
   margin: auto;
   text-align: center; }
+  .post-type-archive-members .submenu {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    position: fixed;
+    width: 100%;
+    z-index: 98; }
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
+      .post-type-archive-members .submenu {
+        -ms-flex-direction: row;
+            flex-direction: row;
+        -ms-flex-pack: distribute;
+            justify-content: space-around; } }
   .post-type-archive-members .custom-sub-menu-wrapper {
     display: none;
     text-align: center;
@@ -4033,7 +4063,6 @@ object {
         display: none; } }
   .post-type-archive-members .project-title-container {
     width: 100%;
-    position: fixed;
     padding-top: 70px;
     text-align: left; }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
@@ -4048,7 +4077,8 @@ object {
     font-family: 'Open Web';
     font-weight: bold;
     font-style: normal;
-    color: #072A3D; }
+    color: #072A3D;
+    z-index: 99999; }
   .post-type-archive-members .members-header {
     margin-bottom: 70px; }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
