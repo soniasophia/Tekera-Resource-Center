@@ -1865,24 +1865,25 @@ object {
     padding-left: 2rem;
     padding-right: 1rem; }
 
-.blog-mobile-header {
-  width: 100%;
-  display: -ms-flexbox;
-  display: flex;
+.blog-header {
   -ms-flex-align: center;
       align-items: center;
   -ms-flex-pack: start;
       justify-content: flex-start;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
   height: 62px;
-  background: rgba(255, 255, 255, 0.7); }
-  .blog-mobile-header h1 {
-    font-size: 2.2rem;
-    color: #072A3D;
+  position: fixed;
+  z-index: 10000; }
+  .blog-header h2 {
     font-family: 'Open Web';
     font-weight: bold;
     font-style: normal;
-    margin: 0;
-    height: 100%; }
+    font-size: 2rem;
+    color: #072A3D;
+    margin-left: 3rem; }
 
 .blog-post-box {
   background-position: center;

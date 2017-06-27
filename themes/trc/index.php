@@ -10,6 +10,9 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 		  <div class="blog-hero">
+				<div class="blog-header">
+					<h2>Blog</h2>
+				</div><!--blog-sub-nav-->	
 			  <h1>Latest news <br class="breakhide">from Tekera!</h1>	
 			</div>	
 

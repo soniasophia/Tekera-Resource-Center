@@ -25,20 +25,21 @@
   
 }
 
-.blog-mobile-header {
-  width: 100%;
-  display: flex;
+.blog-header {
   align-items: center;
   justify-content: flex-start;
+  display: flex;
+  width: 100%;
+  background-color: $color_brand-white-transparent;
   height: 62px;
-  background: hsla(0,0%,100%,.7);  
-  h1 {
-    font-size: 2.2rem;
+  position: fixed;
+  z-index: 10000;
+  h2 {
+    @include font-open-bold;
+    font-size: 2rem;
     color: $color_brand-blue-dark;
-    @include font-open-bold;    
-    margin: 0;
-    height: 100%;
-  }    
+    margin-left: 3rem;
+  }
 }
 
 .blog-post-box {
