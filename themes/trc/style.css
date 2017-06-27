@@ -2743,7 +2743,8 @@ object {
   width: 100%;
   background: #006E71;
   color: #FFF;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  text-align: center; }
 
 .global-goals-content-wrapper {
   margin: 0 2rem 0 2rem;
@@ -2859,6 +2860,7 @@ object {
     display: none; }
 
 .carousel-sub {
+  background: #EE9825;
   font-family: 'Open Web';
   font-weight: 100;
   font-style: normal;
@@ -2871,6 +2873,8 @@ object {
       justify-content: center;
   padding: 1rem 2rem 1rem 2rem;
   color: #FFF; }
+  .carousel-sub p {
+    margin-top: 2rem; }
 
 .carousel-sub-header {
   position: relative;
