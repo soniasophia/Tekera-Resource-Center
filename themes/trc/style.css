@@ -2858,6 +2858,11 @@ object {
   margin-bottom: 8rem; }
   .global-carousel .flickity-page-dots {
     display: none; }
+  .global-carousel .flickity-prev-next-button {
+    background: transparent;
+    box-shadow: none; }
+  .global-carousel .flickity-prev-next-button:hover {
+    background: transparent; }
 
 .carousel-sub {
   background: #EE9825;

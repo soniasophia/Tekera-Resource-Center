@@ -971,6 +971,14 @@
   .flickity-page-dots {
     display: none;
   }
+  .flickity-prev-next-button {
+    background: transparent;
+    box-shadow: none;
+  }
+  .flickity-prev-next-button:hover {
+    background: transparent;
+  }  
+  
 }
 
 
