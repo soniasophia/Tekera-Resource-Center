@@ -43,6 +43,140 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Page Templates
 	## Front page
 --------------------------------------------------------------*/
+.thank-you-content {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column nowrap;
+      flex-flow: column nowrap;
+  -ms-flex-pack: center;
+      justify-content: center;
+  height: 50rem;
+  width: 100%; }
+
+.thanks-triangle {
+  -ms-flex-align: center;
+      align-items: center;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  background-color: #20ACAF;
+  display: flex;
+  -ms-flex-flow: column nowrap;
+      flex-flow: column nowrap;
+  margin-top: 12rem;
+  width: 100%;
+  height: 3rem; }
+
+.thanks-triangle-point {
+  width: 0;
+  height: 0;
+  border-left: 20rem solid transparent;
+  border-right: 20rem solid transparent;
+  border-top: 8rem solid #20ACAF; }
+
+.thanks-text {
+  color: #072A3D;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-flow: column nowrap;
+      flex-flow: column nowrap;
+  margin-top: 10rem;
+  text-align: center; }
+  .thanks-text h1 {
+    font-size: 3rem;
+    font-family: 'Shadows Into Light Web';
+    font-weight: normal;
+    font-style: normal;
+    text-transform: uppercase; }
+  .thanks-text h3 {
+    font-family: 'Open Web';
+    font-weight: bold;
+    font-style: normal; }
+
+.thanks-butterfly {
+  position: absolute;
+  top: 4rem;
+  height: 8rem;
+  width: auto; }
+
+.thanks-home-button {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+  background-color: #EE9825;
+  -ms-flex-pack: center;
+      justify-content: center;
+  width: 60%;
+  margin: 2rem 0 2rem 0;
+  height: 3.5rem; }
+  .thanks-home-button h3 {
+    font-family: 'Open Web';
+    font-weight: normal;
+    font-style: normal;
+    color: #FFF;
+    text-transform: uppercase; }
+  .thanks-home-button h3:hover {
+    color: #072A3D; }
+
+@media screen and (min-width: 760px), (max-width: 1000px) {
+  .thanks-triangle-point {
+    width: 0;
+    height: 0;
+    border-left: 40rem solid transparent;
+    border-right: 40rem solid transparent;
+    border-top: 10rem solid #20ACAF; }
+  .thanks-butterfly {
+    position: absolute;
+    top: 6rem;
+    height: 8rem;
+    width: auto; } }
+
+@media screen and (min-width: 1000px) {
+  .thank-you-page {
+    -ms-flex-align: center;
+        align-items: center;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    align-items: center; }
+  .thank-you-content {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    width: 80%;
+    height: auto;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    position: relative;
+    overflow: hidden;
+    margin-top: 15rem;
+    margin-bottom: 5rem; }
+  .thanks-triangle {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    margin: 0px; }
+  .thanks-triangle-point {
+    width: 0;
+    height: 0;
+    border-left: 50rem solid transparent;
+    border-right: 50rem solid transparent;
+    border-top: 12rem solid #20ACAF;
+    overflow: hidden; }
+  .thanks-home-button {
+    width: 20%; } }
+
 .error-404 {
   font-family: 'Open Web';
   font-weight: normal;
@@ -1819,7 +1953,7 @@ object {
         .home .programs-info .icons-container .icons-wrapper:nth-child(3) p {
           margin-top: 10.5rem; } }
   .home .programs-info .icons-container .icons-wrapper:nth-child(4) {
-    background: url("../../assets/Icons/Mobile/Mobile_png/Tekera_Mobile_Icon_Economy.png");
+    background: url("../../assets/Icons/Mobile/Mobile_png/tekera_mobile_icon_economy.png");
     background-position: top;
     background-repeat: no-repeat;
     width: 165px; }
