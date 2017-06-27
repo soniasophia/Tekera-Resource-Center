@@ -4491,17 +4491,7 @@ object {
     border-radius: 0;
     text-transform: uppercase; }
 
-.page-template-page-internship #tab-nav .job-post:nth-child(3) {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  border-bottom: 1px solid #979797; }
-
-.page-template-page-internship #tab-nav .job-post:nth-child(4) {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  border-bottom: 1px solid #979797; }
-
-.page-template-page-internship #tab-nav .job-post:nth-child(5) {
+.page-template-page-internship #tab-nav .job-post:nth-child(3), .page-template-page-internship #tab-nav .job-post:nth-child(4), .page-template-page-internship #tab-nav .job-post:nth-child(5) {
   padding-top: 2rem;
   padding-bottom: 2rem;
   border-bottom: 1px solid #979797; }
@@ -4526,6 +4516,104 @@ object {
   border-radius: 0;
   text-transform: uppercase; }
 
+.page-template-page-internship .intern-sub-heading {
+  font-family: 'Open Web';
+  font-weight: bold;
+  font-style: normal;
+  color: #072A3D;
+  font-size: 1.5rem;
+  width: 80%;
+  margin: 2rem auto;
+  text-align: center;
+  text-transform: uppercase; }
+
+.page-template-page-internship .overlay-square label {
+  font-family: 'Open Web';
+  font-weight: normal;
+  font-style: normal; }
+
+.page-template-page-internship form p {
+  font-family: 'Open Web';
+  font-weight: normal;
+  font-style: normal;
+  width: 80%;
+  margin: 0 auto; }
+  @media screen and (min-width: 640px) and (max-width: 2000px) {
+    .page-template-page-internship form p {
+      font-size: 1.5rem;
+      color: #072A3D; } }
+  .page-template-page-internship form p input {
+    width: 100%;
+    border-radius: 0;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    font-family: 'Open Web';
+    font-weight: normal;
+    font-style: normal;
+    border-color: black; }
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
+      .page-template-page-internship form p input {
+        width: 100%; } }
+
+.page-template-page-internship .wpcf7-list-item input {
+  width: initial; }
+
+.page-template-page-internship #gender, .page-template-page-internship #edu-level, .page-template-page-internship #work-experience {
+  height: 60px;
+  width: 100%;
+  border-radius: 0px;
+  background: white;
+  margin-bottom: 2rem;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0px;
+  padding: 1rem;
+  border-color: black; }
+
+.page-template-page-internship textarea {
+  border-radius: 0;
+  padding: 1rem; }
+
+.page-template-page-internship input[type=checkbox] {
+  margin-right: 0.5rem; }
+
+@media screen and (min-width: 640px) and (max-width: 2000px) {
+  .page-template-page-internship form .personal-info1, .page-template-page-internship .personal-info3, .page-template-page-internship .education {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+    .page-template-page-internship form .personal-info1 p, .page-template-page-internship .personal-info3 p, .page-template-page-internship .education p {
+      -ms-flex: 0 1 40%;
+          flex: 0 1 40%; } }
+
+@media screen and (min-width: 640px) and (max-width: 2000px) {
+  .page-template-page-internship form .personal-info2 p, .page-template-page-internship .personal-statements p {
+    width: 90% !important; } }
+
+.page-template-page-internship .traffic-source {
+  font-family: 'Open Web';
+  font-weight: normal;
+  font-style: normal;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 5rem; }
+  @media screen and (min-width: 640px) and (max-width: 2000px) {
+    .page-template-page-internship .traffic-source {
+      text-align: left;
+      width: 90%;
+      margin: 0 auto;
+      font-size: 1.5rem;
+      margin-bottom: 3rem; }
+      .page-template-page-internship .traffic-source label {
+        color: #072A3D; }
+        .page-template-page-internship .traffic-source label .wpcf7-list-item-label {
+          color: black; } }
+
+.page-template-page-internship .submit-button {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center; }
+
 .page-template-page-internship li:nth-child(3) .entry-content-page div.intern-sub-heading {
   color: #072A3D;
   font-size: 50px;
@@ -4547,15 +4635,16 @@ object {
   overflow: hidden; }
   .page-template-page-internship li:nth-child(3) .entry-content-page form.wpcf7-form .overlay-background .overlay-square {
     background-color: rgba(32, 172, 175, 0.7);
-    width: 95%;
-    height: 100%; }
+    width: 100%;
+    height: 100%;
+    position: relative; }
     .page-template-page-internship li:nth-child(3) .entry-content-page form.wpcf7-form .overlay-background .overlay-square label {
       color: #fff;
       font-size: 36px;
       font-weight: 600;
-      padding-top: 1rem;
+      padding-top: 0.6rem;
       position: absolute;
-      left: 11rem; }
+      left: 4rem; }
   .page-template-page-internship li:nth-child(3) .entry-content-page form.wpcf7-form .overlay-background .overlay-triangle {
     width: 0;
     height: 0;
@@ -4563,76 +4652,13 @@ object {
     border-bottom: 5rem solid transparent;
     border-left: 7rem solid rgba(32, 172, 175, 0.7); }
 
-.page-template-page-internship li:nth-child(3) .entry-content-page form.wpcf7-form p:nth-child(4) {
+.page-template-page-internship li:nth-child(3) .entry-content-page form.wpcf7-form p:nth-child(9) span {
+  color: #3B3B3B;
   font-size: 30px;
-  font-weight: 600;
-  line-height: 41px;
-  color: #072A3D; }
+  font-weight: 100;
+  line-height: 41px; }
 
-.page-template-page-internship li:nth-child(3) .entry-content-page form.wpcf7-form p:nth-child(5) {
-  font-size: 30px;
-  font-weight: 600;
-  line-height: 41px;
-  color: #072A3D; }
-
-.page-template-page-internship li:nth-child(3) .entry-content-page form.wpcf7-form p:nth-child(6) {
-  font-size: 30px;
-  font-weight: 600;
-  line-height: 41px;
-  color: #072A3D; }
-
-.page-template-page-internship li:nth-child(3) .entry-content-page form.wpcf7-form p:nth-child(7) {
-  font-size: 30px;
-  font-weight: 600;
-  line-height: 41px;
-  color: #072A3D; }
-
-.page-template-page-internship li:nth-child(3) .entry-content-page form.wpcf7-form p:nth-child(8) {
-  font-size: 30px;
-  font-weight: 600;
-  line-height: 41px;
-  color: #072A3D; }
-  .page-template-page-internship li:nth-child(3) .entry-content-page form.wpcf7-form p:nth-child(8) label {
-    padding-bottom: 2rem; }
-
-.page-template-page-internship li:nth-child(3) .entry-content-page form.wpcf7-form p:nth-child(9) {
-  font-size: 30px;
-  font-weight: 600;
-  line-height: 41px;
-  color: #072A3D; }
-  .page-template-page-internship li:nth-child(3) .entry-content-page form.wpcf7-form p:nth-child(9) span {
-    color: #3B3B3B;
-    font-size: 30px;
-    font-weight: 100;
-    line-height: 41px; }
-
-.page-template-page-internship select#edu-level {
-  width: 500px;
-  height: 50px;
-  margin-right: 3rem;
-  border: 1px solid #072a3d; }
-
-.page-template-page-internship select#work-experience {
-  width: 500px;
-  height: 50px;
-  border: 1px solid #072a3d; }
-
-.page-template-page-internship textarea#ps_1 {
-  border: 1px solid #072a3d;
-  margin-top: 2rem;
-  margin-bottom: 4rem; }
-
-.page-template-page-internship textarea#ps_2 {
-  border: 1px solid #072a3d;
-  margin-top: 2rem;
-  margin-bottom: 4rem; }
-
-.page-template-page-internship textarea#ps_3 {
-  border: 1px solid #072a3d;
-  margin-top: 2rem;
-  margin-bottom: 4rem; }
-
-.page-template-page-internship textarea#ps_4 {
+.page-template-page-internship textarea#ps_1, .page-template-page-internship textarea#ps_2, .page-template-page-internship textarea#ps_3, .page-template-page-internship textarea#ps_4 {
   border: 1px solid #072a3d;
   margin-top: 2rem;
   margin-bottom: 4rem; }
@@ -4733,9 +4759,7 @@ object {
     padding-top: 0;
     padding-bottom: 0;
     text-align: left;
-    font-family: 'Open Web'; }
-  .page-template-page-internship .mobile-dropdown .entry-content-page form.wpcf7-form p:nth-child(8) {
-    text-align: center; } }
+    font-family: 'Open Web'; } }
 
 @media screen and (max-width: 640px) {
   .page-template-page-internship select#edu-level {
@@ -4745,13 +4769,7 @@ object {
     width: 100%; } }
 
 @media screen and (max-width: 640px) {
-  .page-template-page-internship textarea#ps_1 {
-    margin-bottom: 2rem; }
-  .page-template-page-internship textarea#ps_2 {
-    margin-bottom: 2rem; }
-  .page-template-page-internship textarea#ps_3 {
-    margin-bottom: 2rem; }
-  .page-template-page-internship textarea#ps_4 {
+  .page-template-page-internship textarea#ps_1, .page-template-page-internship textarea#ps_2, .page-template-page-internship textarea#ps_3, .page-template-page-internship textarea#ps_4 {
     margin-bottom: 2rem; } }
 
 @media screen and (max-width: 640px) {
@@ -4771,35 +4789,9 @@ object {
       padding-left: 2rem;
       margin-top: 2rem;
       margin-bottom: 2rem; }
-    .page-template-page-internship #content3 form.wpcf7-form p:nth-child(4) {
-      background-color: rgba(32, 172, 175, 0.7);
-      color: #fff;
-      height: 7rem;
-      font-size: 18px;
-      font-weight: 600;
-      padding-top: 2.5rem;
-      padding-left: 2rem;
-      margin-top: 2rem; }
-    .page-template-page-internship #content3 form.wpcf7-form p:nth-child(3) {
-      width: 70%;
-      margin: 0 auto; }
-    .page-template-page-internship #content3 form.wpcf7-form p:nth-child(5) {
-      width: 70%;
-      margin: 0 auto; }
-    .page-template-page-internship #content3 form.wpcf7-form p:nth-child(6) {
-      width: 70%;
-      margin: 0 auto; }
-    .page-template-page-internship #content3 form.wpcf7-form p:nth-child(7) {
-      width: 70%;
-      margin: 0 auto; }
-    .page-template-page-internship #content3 form.wpcf7-form p:nth-child(8) {
-      width: 70%;
-      margin: 0 auto; }
-    .page-template-page-internship #content3 form.wpcf7-form p:nth-child(9) {
-      width: 70%;
-      margin: 0 auto; }
-    .page-template-page-internship #content3 form.wpcf7-form p:nth-child(10) {
-      text-align: center; } }
+    .page-template-page-internship #content3 form.wpcf7-form p:nth-child(3), .page-template-page-internship #content3 form.wpcf7-form p:nth-child(4), .page-template-page-internship #content3 form.wpcf7-form p:nth-child(5), .page-template-page-internship #content3 form.wpcf7-form p:nth-child(6), .page-template-page-internship #content3 form.wpcf7-form p:nth-child(7), .page-template-page-internship #content3 form.wpcf7-form p:nth-child(8), .page-template-page-internship #content3 form.wpcf7-form p:nth-child(9) {
+      width: 80%;
+      margin: 0 auto; } }
 
 .green-line {
   background-color: #006E71;

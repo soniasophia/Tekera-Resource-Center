@@ -28,15 +28,15 @@ get_the_title();
             <div class = "overview-image" style="background-image: url('<?php echo esc_url( CFS()->get( 'img_1' ) ); ?>')">
             </div>
             <div class = "overview-info">
-              <h2><?php echo esc_html( CFS()->get( 'title_1' ) ); ?></h2>
-              <p><?php echo esc_html( CFS()->get( 'content_1' ) ); ?></p>
+              <h2><?php echo wp_kses_post( CFS()->get( 'title_1' ) ); ?></h2>
+              <p><?php echo wp_kses_post( CFS()->get( 'content_1' ) ); ?></p>
             </div>
           </section>
         </li>
 
           <li><a href="#">Current Opportunities</a>
           <section>
-            <h2><?php echo esc_html( CFS()->get( 'title_2' ) ); ?></h2>
+            <h2><?php echo wp_kses_post( CFS()->get( 'title_2' ) ); ?></h2>
 
             <?php
             $args = array( 'post_type' => 'jobs', 'posts_per_page' => 3 );
@@ -53,7 +53,7 @@ get_the_title();
                 echo '<div class="entry-content">';
                 the_content();
                 echo '</div>';
-                echo '<button type = "button" class = "button"> Apply Now </button>';
+                echo '<a href="#option3" class="apply-now">Apply Now</a>';
                 ?>
               </div>
             <?php endwhile;
@@ -63,7 +63,7 @@ get_the_title();
               <span> 
                 <p>Don't see a position that fits your experience? We are always on the look out for new talent. Feek free to submit an application form describing the expertise you could bring to TRC. </p> 
               </span>
-              <button type = "button" class = "button"> Apply Now </button>
+              <a href="#option3" class="apply-now">Apply Now</a>
             </div>
 
           </section>
@@ -100,14 +100,14 @@ get_the_title();
     <div id="content1" class="option1 content">
     <img class="overview-image" src="<?php echo esc_url( CFS()->get( 'img_1' ) ); ?>"></img>
       <div class = "overview-content-mobile">
-        <h1><?php echo esc_html( CFS()->get( 'title_1' ) ); ?></h1>
-        <p><?php echo esc_html( CFS()->get( 'content_1' ) ); ?></p>
+        <h1><?php echo wp_kses_post( CFS()->get( 'title_1' ) ); ?></h1>
+        <p><?php echo wp_kses_post( CFS()->get( 'content_1' ) ); ?></p>
       </div>
     </div>
 
     <div id="content2" class="option2 content">
-      <h1><?php echo esc_html( CFS()->get( 'title_2' ) ); ?></h1> 
-      <h2><?php echo esc_html( CFS()->get( 'title_2a' ) ); ?></h2> 
+      <h1><?php echo wp_kses_post( CFS()->get( 'title_2' ) ); ?></h1> 
+      <h2><?php echo wp_kses_post( CFS()->get( 'title_2a' ) ); ?></h2> 
       <?php
             $args = array( 'post_type' => 'jobs', 'posts_per_page' => 3 );
             $loop = new WP_Query( $args );?>
@@ -123,7 +123,7 @@ get_the_title();
                 echo '<div class="entry-content">';
                 the_content();
                 echo '</div>';
-                echo '<button type = "button" class = "button"> Apply Now </button>';
+                echo '<a href="#option3" class="apply-now">Apply Now</a>';
                 ?>
               </div>
             <?php endwhile;
@@ -134,7 +134,7 @@ get_the_title();
                 <p>Don't see a position that fits your experience? We are always on the look out for new talent. Feek free to submit an application form describing the expertise you could bring to TRC. </p> 
               </span>
               <span class = "apply_now_button">
-                <button type = "button" class = "button"> Apply Now </button>
+                <a href="#option3" class="apply-now">Apply Now</a>
               </span>
             </div>   
     </div>
