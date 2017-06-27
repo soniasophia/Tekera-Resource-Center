@@ -71,7 +71,7 @@ get_header(); ?>
       <h2> Be part of the change! </h2>
       <p> TRC offers many ways that you can get invloved in the programs.</p>
 
-      <a class="learn-more-button"  href="<?php echo esc_url( get_permalink( get_page_by_title( 'Get Involved' ) ) ); ?>"> Get Invloved </a>
+      <a class="learn-more-button"  href="<?php echo esc_url( get_permalink( get_page_by_title( 'Get Involved' ) ) ); ?>"> Get Involved </a>
     </div>
 	</div>
 

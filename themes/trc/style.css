@@ -1571,8 +1571,6 @@ object {
         background-position-x: right;
         height: 100%;
         max-height: 100%; } }
-    .home #front-page-banner .frontpage-overlay-image .frontpage-info p {
-      line-height: 1.5rem; }
 
 @media screen and (min-width: 640px) and (max-width: 2000px) {
   .home #lunch-school-banner {
@@ -4640,7 +4638,8 @@ object {
   .page-template-page-internship .overview-image-container {
     height: 500px;
     width: 500px;
-    margin-top: 3rem; } }
+    margin-top: 3rem;
+    margin-bottom: 2rem; } }
 
 .page-template-page-internship .is-open {
   display: -ms-flexbox;
