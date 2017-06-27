@@ -11,13 +11,13 @@ get_header(); ?>
     </div>
   
 
-  <div class = "going-to-school">
+  <div class = "going-to-school" id = "front-page-banner">
     <div class = "frontpage-overlay-image">
-    </div>
-    <div class = "frontpage-info">
+      <div class = "frontpage-info">
       <h2>Empowering versus Giving</h2>
       <p>Tekera Resource centre aims to improve the quality of life for residents of Tekera/Lwega and build a model community by empowering the village through self-sustainability.</p>
       <a class="learn-more-button" href="<?php get_template_directory_uri(); ?>/TRC/projects">Learn More</a>
+      </div>
     </div>
 	</div>
 
@@ -51,26 +51,26 @@ get_header(); ?>
   </div>
 
 
-  <div class = "lunch-program">
+  <div class = "lunch-program" id = "front-page-banner lunch-school-banner">
     <div class = "frontpage-overlay-image">
-    </div>
-    <div class = "frontpage-info">
+      <div class = "frontpage-info">
       <h2 class="global-goals-mobile"> Commitment to the Global Goals </h2>
       <h2 class="global-goals-desktop">Commitment to the Global Goals for Sustainability</h2>
       <p> Tekera Resource Centre goes above and beyond to contribute to a more substainable world.</p>
       <a class="learn-more-button" href="<?php get_template_directory_uri(); ?>/TRC/how-we-do-it/global-goals">Read More</a>
     </div>
+    </div>
 	</div>
 
 
-  <div class = "smiling-woman">
+  <div class = "smiling-woman" id = "front-page-banner">
     <div class = "frontpage-overlay-image">
-    </div>   
-    <div class = "frontpage-info">
+      <div class = "frontpage-info">
       <h2> Be part of the change! </h2>
       <p> TRC offers many ways that you can get invloved in the programs.</p>
       <a class="learn-more-button" href="<?php get_template_directory_uri(); ?>/TRC/get-involved">Get Involved</a>
-    </div>
+      </div>
+    </div>   
 	</div>
 
   </main>
