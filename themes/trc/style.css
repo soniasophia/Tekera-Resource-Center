@@ -1403,6 +1403,9 @@ div.tekera-triangles {
   -ms-flex-pack: justify;
       justify-content: space-between;
   margin-bottom: 4.5rem; }
+  @media screen and (min-width: 640px) and (max-width: 2000px) {
+    .single-post .latest-blog-posts {
+      margin-bottom: 15.5rem; } }
   @media screen and (max-width: 640px) {
     .single-post .latest-blog-posts {
       display: none; } }
