@@ -843,7 +843,8 @@ div.tekera-triangles {
   margin-top: 2rem; }
 
 #how {
-  margin-left: 3rem; }
+  margin-left: 3rem;
+  height: auto; }
 
 #get-involved {
   margin-left: 3rem; }
@@ -878,6 +879,9 @@ div.tekera-triangles {
     min-height: 60rem; }
   .footer-box {
     width: auto; }
+    .footer-box a {
+      min-width: 10rem;
+      z-index: 1000000; }
   .footer-top {
     -ms-flex-flow: column nowrap;
         flex-flow: column nowrap;
@@ -909,7 +913,8 @@ div.tekera-triangles {
   #how {
     position: absolute;
     left: 3rem;
-    top: 20rem; }
+    top: 20rem;
+    z-index: 10000; }
     #how a {
       width: auto; }
   #get-involved {

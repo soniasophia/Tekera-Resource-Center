@@ -490,6 +490,7 @@ div.tekera-triangles{
 
 #how {
   margin-left: 3rem;
+	height: auto;
 }
 
 #get-involved {
@@ -525,6 +526,10 @@ div.tekera-triangles{
 
   .footer-box {
     width: auto;
+		a {
+		 min-width: 10rem;
+		 z-index: 1000000;
+		}
   }
 
   .footer-top {
@@ -563,6 +568,7 @@ div.tekera-triangles{
     position: absolute;
     left: 3rem;
     top: 20rem; 
+		z-index: 10000;
 		a {
 			width: auto;
 		}       
