@@ -1550,7 +1550,7 @@ object {
       flex-direction: column;
   -ms-flex-pack: end;
       justify-content: flex-end;
-  height: 100%; }
+  height: 40rem; }
   .home #front-page-banner .frontpage-overlay-image {
     background-size: cover;
     background-repeat: no-repeat;
@@ -1596,7 +1596,8 @@ object {
       background: url("../../assets/Images/Desktop/home-page/tekera_home_page_mom_going_by_the_school_.png");
       background-size: cover;
       background-repeat: no-repeat;
-      background-position: top; } }
+      background-position: top;
+      height: 40rem; } }
   .home .going-to-school .frontpage-overlay-image {
     background: url("../../assets/Triangles/triangle_mobile.png");
     background-size: cover;
@@ -1681,7 +1682,7 @@ object {
       background-size: cover;
       background-repeat: no-repeat;
       background-position: top;
-      height: 950px;
+      height: 40rem;
       display: -ms-flexbox;
       display: flex;
       -ms-flex-pack: end;
@@ -1799,7 +1800,8 @@ object {
       background: url("../../assets/Images/Desktop/home-page/tekera_home_page_internships_.png");
       background-size: cover;
       background-repeat: no-repeat;
-      background-position: top; } }
+      background-position: top;
+      height: 40rem; } }
   .home .smiling-woman .frontpage-overlay-image {
     background: url("../../assets/Triangles/triangle_mobile.png");
     background-size: cover;
