@@ -1911,7 +1911,7 @@ object {
   display: flex;
   -ms-flex-flow: column nowrap;
       flex-flow: column nowrap;
-  height: 30rem;
+  height: 45rem;
   position: relative;
   margin: 0px; }
   .blog-hero h1 {
@@ -1923,7 +1923,8 @@ object {
     color: #FFF;
     font-size: 3rem;
     padding-left: 2rem;
-    padding-right: 1rem; }
+    padding-right: 1rem;
+    margin-top: 10rem; }
 
 .blog-header {
   -ms-flex-align: center;
@@ -1936,7 +1937,8 @@ object {
   background-color: rgba(255, 255, 255, 0.7);
   height: 62px;
   position: fixed;
-  z-index: 10000; }
+  z-index: 10000;
+  margin-top: 100px; }
   .blog-header h2 {
     font-family: 'Open Web';
     font-weight: bold;

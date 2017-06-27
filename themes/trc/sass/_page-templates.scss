@@ -11,7 +11,7 @@
   background-size: cover;
   display: flex;
   flex-flow: column nowrap;
-  height: 30rem;
+  height: 45rem;
   position: relative;
   margin: 0px;
   h1 {
@@ -21,6 +21,7 @@
     font-size: 3rem;
     padding-left: 2rem;
     padding-right: 1rem;
+    margin-top: 10rem;
   }  
   
 }
@@ -34,6 +35,7 @@
   height: 62px;
   position: fixed;
   z-index: 10000;
+  margin-top: 100px;
   h2 {
     @include font-open-bold;
     font-size: 2rem;
