@@ -2234,9 +2234,11 @@ object {
 .post-type-archive-projects #submenu .project-title-container {
   padding-top: 70px; }
 
-@media screen and (min-width: 640px) and (max-width: 2000px) {
-  .post-type-archive-projects #submenu .custom-sub-menu-wrapper {
-    padding-top: 0px; } }
+.post-type-archive-projects #submenu .custom-sub-menu-wrapper {
+  line-height: 0.75; }
+  @media screen and (min-width: 640px) and (max-width: 2000px) {
+    .post-type-archive-projects #submenu .custom-sub-menu-wrapper {
+      padding-top: 0px; } }
 
 .post-type-archive-projects p {
   font-family: 'Open Web';
