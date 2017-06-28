@@ -45,7 +45,7 @@ get_the_title();
             <div class = "donate involvement">
               <h3> Donate</h3>
               <p>TRC believes in a sustainable model for progressive community growth. Our low administration fees(less than 1% since 2008) ensure that your full contribution will result in real chaneg at the TRC. </p>
-               <a class="learn-more" href="<?php echo esc_url( get_permalink( get_page_by_title( 'Contact' ) ) ); ?>"> Learn More </a>
+               <a class="learn-more" href="<?php echo esc_url('/Tekera/contact'); ?>"> Learn More </a>
             </div>
         </div>
       </div>
