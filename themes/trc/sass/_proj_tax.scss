@@ -131,6 +131,10 @@
     }
     p {
       text-align: center;
+      @include font-open-regular;
+      max-width: 280px;
+      margin: auto;
+      margin-top: 20px;
     }
   }
   .carousel-sub-footer {

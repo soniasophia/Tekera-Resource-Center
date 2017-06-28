@@ -5195,6 +5195,9 @@ object {
 
 .green-line {
   background-color: #006E71;
+  font-family: 'Open Web';
+  font-weight: normal;
+  font-style: normal;
   display: none;
   -ms-flex-direction: column;
       flex-direction: column; }
@@ -5515,7 +5518,13 @@ ul#tab-nav {
         align-self: flex-start;
     margin: 0 auto; }
   .tax-project-type .carousel-sub p {
-    text-align: center; }
+    text-align: center;
+    font-family: 'Open Web';
+    font-weight: normal;
+    font-style: normal;
+    max-width: 280px;
+    margin: auto;
+    margin-top: 20px; }
 
 .tax-project-type .carousel-sub-footer {
   font-family: 'Open Web';

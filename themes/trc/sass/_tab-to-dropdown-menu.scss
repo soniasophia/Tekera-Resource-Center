@@ -94,6 +94,7 @@
 
 .green-line {
   background-color: $color_brand-teal-dark;
+  @include font-open-regular;
   display: none;
   flex-direction: column;
   @include desktop {
