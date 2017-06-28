@@ -1501,7 +1501,7 @@ object {
   background: url("../../assets/Images/Mobile/home-page/tekera_home_page_music_dance.png") center center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 45rem;
+  height: 50rem;
   width: 100%;
   display: -ms-flexbox;
   display: flex;
@@ -1661,7 +1661,7 @@ object {
           text-align: left;
           font-size: 1.5rem;
           line-height: 2.5rem;
-          padding-bottom: 7rem; } }
+          padding-bottom: 3rem; } }
 
 .home .lunch-program {
   background: url("../../assets/Images/Mobile/home-page/tekera_homepage_tps_lunch_program_.png");
@@ -1713,6 +1713,7 @@ object {
         background-repeat: no-repeat;
         background-position-y: center;
         height: 100%;
+        max-height: none;
         max-width: 1000px;
         display: -ms-flexbox;
         display: flex;
@@ -1764,7 +1765,7 @@ object {
           font-size: 3rem;
           max-width: 100%;
           line-height: 3.5rem;
-          margin-bottom: 3rem; } }
+          margin-bottom: 1rem; } }
     .home .lunch-program .frontpage-info p {
       font-family: 'Open Web';
       font-weight: 100;
@@ -1783,12 +1784,14 @@ object {
           line-height: 2.5rem;
           width: 80%;
           margin-left: 20%;
-          margin-bottom: 2rem; } }
+          margin-bottom: 4rem; } }
   @media screen and (min-width: 640px) and (max-width: 2000px) {
     .home .lunch-program .learn-more-button {
       right: 0;
       left: initial;
-      top: auto; } }
+      top: auto;
+      -ms-flex-item-align: end;
+          align-self: flex-end; } }
 
 .home .smiling-woman {
   background: url("../../assets/Images/Mobile/home-page/tekera_home_page_smiling_woman.png");
@@ -1865,7 +1868,7 @@ object {
           text-align: left;
           font-size: 1.5rem;
           line-height: 2.5rem;
-          padding-bottom: 7rem;
+          padding-bottom: 3rem;
           margin-top: 2.5rem; } }
 
 @media screen and (min-width: 640px) and (max-width: 2000px) {
