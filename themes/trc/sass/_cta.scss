@@ -6,6 +6,7 @@
   background-repeat: no-repeat;
   height: 140vh;
   position: relative;
+  z-index: 1;
 
   @include desktop {
     background: url("../../assets/Images/Desktop/about/tekera_about_kids_in_playground.png");
@@ -27,6 +28,8 @@
     flex-direction: column;
     justify-content: center;
     align-content: center;
+    z-index: 1;
+    
 
     @include desktop {
       background: url("../../assets/Triangles/desktop_triangle_left.png");
@@ -39,6 +42,7 @@
       background-repeat: no-repeat;
       display: flex;
       align-items: flex-end;
+      z-index: 1;  
     }
 
     #cta-text {
@@ -47,6 +51,7 @@
       flex-direction: column;
       align-items: center;
       margin-top: 5rem;
+      z-index: 1;  
 
       @include desktop {
         font-size: 3rem;
@@ -87,6 +92,7 @@
 
       .button-get-involved {
         padding: 12px 20px;
+        z-index: 1;  
         @include desktop {
           text-align: center;
           padding: 15px 40px;
