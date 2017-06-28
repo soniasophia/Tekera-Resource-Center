@@ -154,4 +154,7 @@
   .carasel-content p:not(:first-child) {
     display: none;
   }
+  .overview-info{
+    @include font-open-light;
+  }
 }

@@ -5561,3 +5561,8 @@ ul#tab-nav {
 
 .tax-project-type .carasel-content p:not(:first-child) {
   display: none; }
+
+.tax-project-type .overview-info {
+  font-family: 'Open Web';
+  font-weight: 100;
+  font-style: normal; }

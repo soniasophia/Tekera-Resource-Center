@@ -48,7 +48,7 @@ get_header(); ?>
                 <a href="#">
                   <?php echo the_title();?>
                 </a>
-                <section style="display:flex">
+                <section style="display:none">
                   <div class="overview-info">
                     <?php echo the_content(); ?>
                   </div>
