@@ -2294,7 +2294,6 @@ object {
     font-weight: bold;
     font-style: normal;
     text-transform: uppercase;
-    font-size: 1.3rem;
     border-bottom: 1px solid #3f3f3f;
     padding: 1.9rem 0; }
     .post-type-archive-projects .custom-sub-menu-wrapper li:last-child {
@@ -2309,7 +2308,8 @@ object {
         font-style: normal;
         text-transform: none; } }
   .post-type-archive-projects .custom-sub-menu-wrapper a {
-    color: #072A3D; }
+    color: #072A3D;
+    font-size: 1rem; }
 
 .post-type-archive-projects .projects-hero {
   background: url("../../assets/Images/Mobile/projects/tekera_projects_collecting_water.png") center center no-repeat;

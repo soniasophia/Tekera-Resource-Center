@@ -266,7 +266,6 @@
     li {
       @include font-open-bold;
       text-transform: uppercase;
-      font-size: 1.3rem;
       border-bottom: 1px solid #3f3f3f;
       padding: 1.9rem 0;
 
@@ -285,6 +284,7 @@
 
     a {
       color: $color_brand-blue-dark;
+      font-size: 1rem;
     }
   }
 
