@@ -157,7 +157,7 @@ a {
 		@include mobile{
 			display: flex;
 			justify-content: flex-start;
-			padding-left: 1.5rem;
+			padding-left: 0.5rem;
 		}
 
 
@@ -169,6 +169,7 @@ a {
 		font-size: 2rem;
 		color: #fff;
 		margin-right: 1rem; 
+		padding-right: 1.5rem;
 		padding-top: 0;
 		flex: 0 1 20%;
 
