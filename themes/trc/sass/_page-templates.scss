@@ -1594,6 +1594,8 @@
     }
     #sponsor-nav {
       padding-top: 100px;
+      width: 100%;
+      position: fixed;
       @include desktop {
         padding: 0;
       }

@@ -3739,7 +3739,9 @@ object {
       background: url("../../assets/Images/Desktop/get-involved/tekera_get_involved_sponsor_a_classroom_tps_kids_in_class_.png") center center no-repeat;
       background-size: cover; } }
   .page-template-page-sponsor .sponsor-hero #sponsor-nav {
-    padding-top: 100px; }
+    padding-top: 100px;
+    width: 100%;
+    position: fixed; }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
       .page-template-page-sponsor .sponsor-hero #sponsor-nav {
         padding: 0; } }
@@ -4602,7 +4604,10 @@ object {
       background-position: center;
       background-repeat: no-repeat; } }
   .page-template-page-internship .sponsor-hero #internship-nav {
-    padding-top: 100px; }
+    padding-top: 100px;
+    position: fixed;
+    width: 100%;
+    color: #072A3D; }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
       .page-template-page-internship .sponsor-hero #internship-nav {
         padding: 0; } }

@@ -17,6 +17,9 @@
     }
     #internship-nav {
       padding-top: 100px;
+      position: fixed;
+      width: 100%;
+      color: $color_brand-blue-dark;
       @include desktop {
         padding: 0;
       }
