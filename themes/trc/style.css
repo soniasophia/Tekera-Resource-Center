@@ -4428,7 +4428,8 @@ object {
     position: fixed;
     background-color: rgba(255, 255, 255, 0.7);
     padding-top: 100px;
-    width: 100%; }
+    width: 100%;
+    z-index: 7; }
     @media screen and (min-width: 640px) and (max-width: 2000px) {
       .page-template-contact-php .title {
         padding: 0;
@@ -4525,7 +4526,12 @@ object {
         margin: 10px 0;
         font-size: 0.95rem; }
   .page-template-contact-php .forms {
-    text-align: left; }
+    text-align: left;
+    width: 80%;
+    margin: auto; }
+    @media screen and (min-width: 640px) and (max-width: 2000px) {
+      .page-template-contact-php .forms {
+        width: 100%; } }
     .page-template-contact-php .forms h4 {
       font-size: 0.9rem;
       color: #D44E1F; }

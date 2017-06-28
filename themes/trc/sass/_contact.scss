@@ -43,6 +43,7 @@
     background-color: $color_brand-white-transparent;
     padding-top: 100px;
     width: 100%;
+    z-index: 7;
     @include desktop {
       padding: 0;
       text-align: left;
@@ -153,6 +154,11 @@
   }
   .forms {
     text-align: left;
+    width: 80%;
+    margin: auto;
+    @include desktop{
+      width: 100%;
+    }
     h4 {
       font-size: 0.9rem;
       color: $color_brand-orange;
