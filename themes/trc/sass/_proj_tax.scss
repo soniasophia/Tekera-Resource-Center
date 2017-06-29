@@ -1,21 +1,19 @@
 .tax-project-type {
-
-  #submenu{
+  #submenu {
     .custom-sub-menu-wrapper {
       top: 0;
     }
   }
-
-  #primary{
+  #primary {
     padding-top: 162px;
   }
-    #submenu {
-      .dropdown-arrow {
-        position: relative;
-        left: 220px;
-        top: 0px;
-      }
+  #submenu {
+    .dropdown-arrow {
+      position: relative;
+      left: 220px;
+      top: 0px;
     }
+  }
   .dropdown-arrow {
     position: absolute;
     left: 13rem;
@@ -153,5 +151,16 @@
   }
   .carasel-content p:not(:first-child) {
     display: none;
+  }
+  #tab-nav {
+    .overview-info {
+      @include font-open-light;
+      p {
+        font-weight: 100 !important;
+        span{
+          font-weight: 100 !important;
+        }
+      }
+    }
   }
 }
