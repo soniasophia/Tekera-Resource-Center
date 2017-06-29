@@ -5,7 +5,7 @@ get_header();
  
 <div class="how-we-do-it-page">
   <div class="how-hero-wrapper">    
-    <div class="get-involved-sub-menu">
+    <div id="hownav" class="get-involved-sub-menu">
       <h1 class="sponsor-title"><?php the_title() ?>
       <img id="projects-toggle-menu" class="dropdown-arrow" src="<?php echo get_template_directory_uri();?>/assets/Icons/Mobile/Mobile_png/tekera_mobile_icon_arrow_down_dark_teal.png">
       </h1>

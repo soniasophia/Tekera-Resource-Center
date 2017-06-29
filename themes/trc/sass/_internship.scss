@@ -39,6 +39,8 @@
   .project-title-container {
     display: flex;
     background: $color_brand-white-transparent;
+    position: relative;
+    z-index: 100;
       @include desktop {
         display: none;
       }
@@ -55,6 +57,8 @@
   .sponsor-title {
     padding: 0.5rem 2rem;
     margin: 0;
+    z-index: 100;
+    position: relative;
 
     a {
       @include font-open-bold;
@@ -66,6 +70,8 @@
     display: none;
     text-align: center;
     background: white;
+    z-index: 100;
+    position: relative;
     @include desktop {
       display: block;
       background: $color_brand-white-transparent;
@@ -76,6 +82,8 @@
     ul {
       width: 80%;
       margin: 0 auto;
+      z-index: 100;
+      position: relative;
       @include desktop {
         display: flex;
         align-items: center;
