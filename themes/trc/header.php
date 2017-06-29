@@ -1,7 +1,6 @@
 <?php
 /**
- * The header for our theme.
- * nATE RULES
+ * The header for the TRC theme.
  * @package RED_Starter_Theme
  */
 
