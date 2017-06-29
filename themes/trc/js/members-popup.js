@@ -5,6 +5,8 @@
     var results_container = '#single-view-member';
 
     $(".members-button").on('click', function (event) {
+      console.log(WORD_API);
+      console.log('hi');
       $(results_container).empty();
       var buttonValue = $(this).val();
       event.preventDefault();
@@ -14,6 +16,7 @@
         url: WORD_API.api_url + 'wp/v2/members/' + buttonValue,
 
         success: function (post) {
+          console.log('hi!');
           var html = '',
               text = '',
               content = '',
