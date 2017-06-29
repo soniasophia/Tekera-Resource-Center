@@ -63,17 +63,17 @@
       color: $color_brand-blue-dark;
     }
   }
-  .dropdown-arrow {
-    position: relative;
-    left: 220px;
-    top: 50px;
-    &:hover {
-      cursor: pointer;
-    }
-    @include desktop {
-      display: none;
-    }
-  }
+  // .dropdown-arrow {
+  //   position: relative;
+  //   left: 220px;
+  //   top: 50px;
+  //   &:hover {
+  //     cursor: pointer;
+  //   }
+  //   @include desktop {
+  //     display: none;
+  //   }
+  // }
   .project-title-container {
     width: 100%;
     padding-top: 100px;

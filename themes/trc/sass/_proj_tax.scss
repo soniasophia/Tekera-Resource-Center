@@ -7,24 +7,27 @@
   #primary {
     padding-top: 162px;
   }
-  #submenu {
-    .dropdown-arrow {
-      position: relative;
-      left: 220px;
-      top: 0px;
-    }
-  }
-  .dropdown-arrow {
-    position: absolute;
-    left: 13rem;
-    top: 10.4rem;
-    &:hover {
-      cursor: pointer;
-    }
-    @include desktop {
-      display: none;
-    }
-  }
+
+  // #submenu {
+  //   .dropdown-arrow {
+  //     position: relative;
+  //     left: 100px;
+  //     top: 0px;
+  //   }
+  // }
+  
+ 
+  // .dropdown-arrow {
+  //   position: absolute;
+  //   left: 13rem;
+  //   top: 10.4rem;
+  //   &:hover {
+  //     cursor: pointer;
+  //   }
+  //   @include desktop {
+  //     display: none;
+  //   }
+  // }
   .project-title-container {
     display: flex;
     background: $color_brand-white-transparent;
@@ -38,10 +41,7 @@
   }
   .projects-title {
     padding: 0.5rem 2rem;
-    margin: 0; // background: $color_brand-white-transparent;
-    // @include desktop {
-    //   display: none;
-    // }
+    margin: 0;
     a {
       @include font-open-bold;
       color: $color_brand-blue-dark;
@@ -164,3 +164,49 @@
     }
   }
 }
+
+  #submenu .projects-title {
+      display: flex;
+      flex-wrap: wrap;
+
+      .dropdown-arrow {
+        position: relative;
+      }
+    }
+    
+    .term-women-empowerment, .term-cooperative-farming, .term-economic-development {
+        #submenu .projects-title {
+          .dropdown-arrow {
+          left: 275px;
+          top: -77px;
+          }
+        }
+    }
+
+  .term-healthcare {
+    #submenu{
+        .dropdown-arrow {
+      left: 100px;
+      top: 0px;
+    }
+    } 
+  }
+
+  .term-community-work {
+    #submenu{
+      .dropdown-arrow {
+      left: 20px;
+      top: 0;
+    }
+    } 
+  }
+
+
+.term-education {
+    #submenu{
+      .dropdown-arrow {
+        left: 100px;
+        top: 0;
+      }
+    } 
+  }

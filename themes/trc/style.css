@@ -5234,15 +5234,6 @@ object {
           margin-right: 3rem; } }
     #submenu .custom-sub-menu-wrapper a {
       color: #072A3D; }
-  #submenu .dropdown-arrow {
-    position: relative;
-    left: 220px;
-    top: 50px; }
-    #submenu .dropdown-arrow:hover {
-      cursor: pointer; }
-    @media screen and (min-width: 640px) and (max-width: 2000px) {
-      #submenu .dropdown-arrow {
-        display: none; } }
   #submenu .project-title-container {
     width: 100%;
     padding-top: 100px; }
@@ -5457,21 +5448,6 @@ ul#tab-nav {
 .tax-project-type #primary {
   padding-top: 162px; }
 
-.tax-project-type #submenu .dropdown-arrow {
-  position: relative;
-  left: 220px;
-  top: 0px; }
-
-.tax-project-type .dropdown-arrow {
-  position: absolute;
-  left: 13rem;
-  top: 10.4rem; }
-  .tax-project-type .dropdown-arrow:hover {
-    cursor: pointer; }
-  @media screen and (min-width: 640px) and (max-width: 2000px) {
-    .tax-project-type .dropdown-arrow {
-      display: none; } }
-
 .tax-project-type .project-title-container {
   display: -ms-flexbox;
   display: flex;
@@ -5620,3 +5596,27 @@ ul#tab-nav {
     font-weight: 100 !important; }
     .tax-project-type #tab-nav .overview-info p span {
       font-weight: 100 !important; }
+
+#submenu .projects-title {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+  #submenu .projects-title .dropdown-arrow {
+    position: relative; }
+
+.term-women-empowerment #submenu .projects-title .dropdown-arrow, .term-cooperative-farming #submenu .projects-title .dropdown-arrow, .term-economic-development #submenu .projects-title .dropdown-arrow {
+  left: 275px;
+  top: -77px; }
+
+.term-healthcare #submenu .dropdown-arrow {
+  left: 100px;
+  top: 0px; }
+
+.term-community-work #submenu .dropdown-arrow {
+  left: 20px;
+  top: 0; }
+
+.term-education #submenu .dropdown-arrow {
+  left: 100px;
+  top: 0; }
