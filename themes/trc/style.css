@@ -2235,6 +2235,10 @@ object {
     display: inline; } }
 
 /* What We Do Archive Page */
+@media screen and (min-width: 640px) and (max-width: 2000px) {
+  #menu-what-we-do-sub-menu li {
+    font-size: 2rem; } }
+
 .post-type-archive-projects #submenu .project-title-container {
   padding-top: 70px; }
 

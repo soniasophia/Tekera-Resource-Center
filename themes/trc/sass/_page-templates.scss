@@ -196,6 +196,12 @@
 
 /* What We Do Archive Page */
 
+#menu-what-we-do-sub-menu li {
+  @include desktop {
+    font-size: 2rem;
+  }
+}
+
 .post-type-archive-projects {
 
   #submenu{
