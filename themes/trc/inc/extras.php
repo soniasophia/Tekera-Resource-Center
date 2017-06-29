@@ -34,3 +34,29 @@ function trc_archive_title_filter($title)
     return $title;
 }
 add_filter( 'get_the_archive_title', 'trc_archive_title_filter' );
+
+// Custom login logo
+function trc_custom_login_logo() {
+	echo '<style type="text/css">
+		#login h1 a { 
+			background-image: url('. get_stylesheet_directory_uri() . '/assets/Logos/tekera_logo_desktop_pie_large.png) !important; 
+			height: 120px !important; 
+			background-position: center !important; 
+			background-size: contain !important; 
+			width: 100% !important; 
+		}
+		</style>';
+}
+add_action( 'login_head', 'trc_custom_login_logo' );
+
+// Custom login logo url
+function trc_custom_login_logo_url( $url ) {
+    return home_url();
+}
+add_filter( 'login_headerurl', 'trc_custom_login_logo_url' );
+
+// Custom login logo url title
+function trc_login_logo_url_title() {
+    return 'Tekera Resource Center';
+}
+add_filter( 'login_headertitle', 'trc_login_logo_url_title' );
