@@ -2452,22 +2452,6 @@ object {
     border-bottom: none; }
 
 /* How We Do It */
-#hownav {
-  z-index: 100;
-  position: relative; }
-
-#transparencynav {
-  z-index: 100;
-  position: relative; }
-
-#impactnav {
-  z-index: 100;
-  position: relative; }
-
-#goalsnav {
-  z-index: 100;
-  position: relative; }
-
 .how-hero-wrapper {
   background: url("../../assets/Images/Desktop/blog/tekera_blog_celebrations_all_over_trc.png");
   background-position: center;
@@ -2481,7 +2465,7 @@ object {
     width: 100%;
     position: fixed;
     margin-top: 100px;
-    z-index: 100; }
+    z-index: 10; }
   .how-hero-wrapper img {
     margin-left: 2rem; }
   .how-hero-wrapper .custom-sub-menu-wrapper {
@@ -2497,8 +2481,7 @@ object {
     .how-hero-wrapper .custom-sub-menu-wrapper .get-involved-sub-menu {
       width: 100%;
       position: fixed;
-      margin-top: 100px;
-      z-index: 10000; }
+      margin-top: 100px; }
     .how-hero-wrapper .custom-sub-menu-wrapper ul {
       width: 80%;
       margin: 0 auto; }
@@ -2995,8 +2978,7 @@ object {
   .global-goals-hero .get-involved-sub-menu {
     width: 100%;
     position: fixed;
-    margin-top: 100px;
-    z-index: 10000; }
+    margin-top: 100px; }
 
 .sustainability-bar {
   display: -ms-flexbox;
@@ -3422,8 +3404,7 @@ object {
   .transparency-hero .get-involved-sub-menu {
     position: fixed;
     width: 100%;
-    margin-top: 100px;
-    z-index: 10000; }
+    margin-top: 100px; }
 
 .transparency-content-area {
   font-family: 'Open Web';
@@ -3529,8 +3510,7 @@ object {
   .our-impact-hero .get-involved-sub-menu {
     width: 100%;
     position: fixed;
-    margin-top: 100px;
-    z-index: 10000; }
+    margin-top: 100px; }
 
 @media screen and (min-width: 640px) {
   .our-impact-hero {
