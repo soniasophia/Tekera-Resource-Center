@@ -5562,7 +5562,11 @@ ul#tab-nav {
 .tax-project-type .carasel-content p:not(:first-child) {
   display: none; }
 
-.tax-project-type .overview-info {
+.tax-project-type #tab-nav .overview-info {
   font-family: 'Open Web';
   font-weight: 100;
   font-style: normal; }
+  .tax-project-type #tab-nav .overview-info p {
+    font-weight: 100 !important; }
+    .tax-project-type #tab-nav .overview-info p span {
+      font-weight: 100 !important; }
