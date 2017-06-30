@@ -1,3 +1,16 @@
+ .post-type-archive {
+      .project-title-container {
+        .projects-title {
+        margin-top: 1.9rem !important;
+        }
+      }
+
+      .dropdown-arrow {
+        top: 7.7rem;
+      }
+    }
+
+
 .tax-project-type {
   #submenu {
     .custom-sub-menu-wrapper {
@@ -7,6 +20,8 @@
   #primary {
     padding-top: 162px;
   }
+
+  
 
   // #submenu {
   //   .dropdown-arrow {
@@ -165,6 +180,7 @@
   }
 }
 
+
   #submenu .projects-title {
       display: flex;
       flex-wrap: wrap;
@@ -210,3 +226,5 @@
       }
     } 
   }
+
+ 

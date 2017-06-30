@@ -5443,6 +5443,12 @@ ul#tab-nav {
     top: 45px;
     right: 20px; }
 
+.post-type-archive .project-title-container .projects-title {
+  margin-top: 1.9rem !important; }
+
+.post-type-archive .dropdown-arrow {
+  top: 7.7rem; }
+
 .tax-project-type #submenu .custom-sub-menu-wrapper {
   top: 0; }
 
