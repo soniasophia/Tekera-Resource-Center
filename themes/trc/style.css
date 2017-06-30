@@ -5627,3 +5627,8 @@ ul#tab-nav {
 .term-education #submenu .dropdown-arrow {
   left: 100px;
   top: 0; }
+
+@media screen and (max-width: 640px) {
+  .tax-project-type #submenu .custom-sub-menu-wrapper li {
+    font-size: 1rem;
+    padding: 1.3rem; } }

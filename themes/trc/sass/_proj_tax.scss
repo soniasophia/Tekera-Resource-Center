@@ -10,7 +10,6 @@
       }
     }
 
-
 .tax-project-type {
   #submenu {
     .custom-sub-menu-wrapper {
@@ -21,28 +20,6 @@
     padding-top: 162px;
   }
 
-  
-
-  // #submenu {
-  //   .dropdown-arrow {
-  //     position: relative;
-  //     left: 100px;
-  //     top: 0px;
-  //   }
-  // }
-  
- 
-  // .dropdown-arrow {
-  //   position: absolute;
-  //   left: 13rem;
-  //   top: 10.4rem;
-  //   &:hover {
-  //     cursor: pointer;
-  //   }
-  //   @include desktop {
-  //     display: none;
-  //   }
-  // }
   .project-title-container {
     display: flex;
     background: $color_brand-white-transparent;
@@ -226,5 +203,15 @@
       }
     } 
   }
+
+
+.tax-project-type {
+  #submenu .custom-sub-menu-wrapper li {
+    @include mobile {
+      font-size: 1rem;
+      padding: 1.3rem;
+    }
+  }
+}
 
  
