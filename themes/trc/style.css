@@ -2640,6 +2640,7 @@ object {
   padding: 0.5rem 2rem;
   margin: 0;
   background: rgba(255, 255, 255, 0.7);
+  color: #072A3D;
   z-index: 100; }
   @media screen and (min-width: 640px) and (max-width: 2000px) {
     .sponsor-title {
@@ -3792,7 +3793,8 @@ object {
       .page-template-page-sponsor .sponsor-hero #sponsor-nav {
         padding: 0; } }
     .page-template-page-sponsor .sponsor-hero #sponsor-nav img {
-      top: 7.6rem; }
+      top: 7.6rem;
+      z-index: 100; }
       @media screen and (min-width: 640px) and (max-width: 2000px) {
         .page-template-page-sponsor .sponsor-hero #sponsor-nav img {
           display: none; } }
@@ -4603,7 +4605,8 @@ object {
       border-radius: 0px;
       border-color: black; }
     .page-template-contact-php .forms textarea {
-      border-color: black; }
+      border-color: black;
+      border-radius: 0; }
     .page-template-contact-php .forms .send-button {
       display: block;
       margin: auto;
@@ -4667,7 +4670,8 @@ object {
     .page-template-page-internship .sponsor-hero #internship-nav img {
       position: absolute;
       top: 7.8rem;
-      right: 30%; }
+      right: 30%;
+      z-index: 100; }
       @media screen and (min-width: 640px) and (max-width: 2000px) {
         .page-template-page-internship .sponsor-hero #internship-nav img {
           display: none; } }
@@ -5015,6 +5019,9 @@ object {
   box-shadow: none;
   text-shadow: none;
   border-radius: 0; }
+  @media screen and (min-width: 640px) and (max-width: 2000px) {
+    .page-template-page-internship input#submit_button.wpcf7-form-control {
+      margin-bottom: 3rem; } }
 
 @media screen and (max-width: 640px) {
   .page-template-page-internship #content1 {

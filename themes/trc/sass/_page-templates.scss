@@ -658,6 +658,7 @@
     padding: 0.5rem 2rem;
     margin: 0;
     background: $color_brand-white-transparent;
+    color: $color_brand-blue-dark;
     z-index: 100;
     @include desktop {
       display: none;
@@ -1622,6 +1623,7 @@
       }
       img {
         top: 7.6rem;
+        z-index: 100;
         @include desktop {
           display: none;
         }
