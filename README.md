@@ -26,7 +26,7 @@ Mobile Width - Home Page
 * GitHub
 
 ## Development Team
-* Kelvin
-* Trevor
-* Sonia
-* Nate
+* Kelvin Lau
+* Trevor McLean
+* Sonia Wong
+* Nate Schmidt
